@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="20" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF7"/>
+<g id="title" data-pptx-bounds="48 40 1184 120" fill="#102E3A"><text x="48" y="55" font-size="16" fill="#075E52">REPORT INTEGRITY / SYNTHETIC A17 EXAMPLE</text><text x="48" y="98" font-family="Cambria" font-size="36">Bind quantitative narrative to the same<tspan x="48" dy="43">saved facts as metric cards</tspan></text></g>
+<g id="bound-fact-and-appearances" data-pptx-bounds="48 184 1184 390">
+<rect x="48" y="184" width="392" height="390" fill="#102E3A"/>
+<text x="72" y="222" font-size="16" fill="#D5EF8C">ONE TYPED SAVED FACT</text>
+<text x="72" y="279" font-size="24" font-family="Cambria" fill="#FFFDF7">Advisor net flow: −$0.2m</text>
+<text x="72" y="329" font-size="18" fill="#E7F0EA">A17 • P-A • declared period<tspan x="72" dy="26">currency + unit • saved snapshot</tspan><tspan x="72" dy="26">calculation + entity scope</tspan></text>
+<text x="72" y="478" font-size="18" fill="#D5EF8C">The separate firm value is +$5.0m.<tspan x="72" dy="26">It must not bind to an advisor claim.</tspan></text>
+<g id="p20-to-card" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="470 260 65 22" fill="#075E52" stroke="none"><path d="M 470 265.5 L 524 265.5 L 524 260 L 535 271 L 524 282 L 524 276.5 L 470 276.5 Z"/></g>
+<g id="p20-to-sentence" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="470 391 65 22" fill="#075E52" stroke="none"><path d="M 470 396.5 L 524 396.5 L 524 391 L 535 402 L 524 413 L 524 407.5 L 470 407.5 Z"/></g>
+<g id="p20-to-callout" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="470 522 65 22" fill="#075E52" stroke="none"><path d="M 470 527.5 L 524 527.5 L 524 522 L 535 533 L 524 544 L 524 538.5 L 470 538.5 Z"/></g>
+<text x="566" y="221" font-size="18" fill="#50616A">CURRENT</text><text x="566" y="260" font-size="24" font-family="Cambria" fill="#075E52">Metric card values already resolve stored evidence</text><text x="566" y="300" fill="#132F3B">Reuse saved-cell and comparison resolvers.</text>
+<text x="566" y="351" font-size="18" fill="#50616A">EXTEND</text><text x="566" y="390" font-size="24" font-family="Cambria" fill="#075E52">Quantitative sentence: “A17 net flow is −$0.2m.”</text><text x="566" y="430" fill="#132F3B">Replace free-text numbers with typed numeric spans.</text>
+<text x="566" y="481" font-size="18" fill="#50616A">EXTEND</text><text x="566" y="520" font-size="24" font-family="Cambria" fill="#075E52">Callouts and infographics use the same binding</text><text x="566" y="560" fill="#132F3B">Declare units; reject unsupported currency/% labels.</text>
+</g>
+<g id="binding-acceptance" data-pptx-bounds="48 594 1184 57" fill="#132F3B"><text x="48" y="613" font-size="18">Today narrative/callout bodies and infographic values are strings; ordinary cards accept free-form prefix/suffix units.<tspan x="48" dy="26">Acceptance: evidence changes update bound appearances; wrong or out-of-scope bindings fail before saving.</tspan></text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="48 667 1184 33" font-size="12" fill="#50616A"><text x="48" y="685">All A17 / P-A values are invented scenario data. Existing behavior from Oct 15 review; typed narrative binding is proposed.</text><text x="1232" y="685" text-anchor="end">20 / 28</text></g>
+</svg>

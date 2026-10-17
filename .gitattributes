@@ -1,0 +1,3 @@
+*.pptx binary
+work/ppt-master/**/svg_final/** linguist-generated=true
+work/*schedule*.html linguist-vendored=true

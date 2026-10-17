@@ -1,0 +1,73 @@
+# AI Engineer NYC 2026 — conference knowledge archive
+
+Conference: October 13–14, 2026 · Package prepared: October 17, 2026
+
+Research, attendee notes, technical learnings, presentation decks and application recommendations prepared for a Principal Data Scientist at Fidelity Investments. Audience: data scientists, AI engineers and technical leads.
+
+**Start here:** download/clone the repository and open [START-HERE.html](START-HERE.html) locally. For the conference briefing, use the **conference-takeaways PowerPoint** or the **conference learning HTML presentation**. The application-improvements deck is a separate companion.
+
+## Final deliverables
+
+| Artifact | Purpose |
+| --- | --- |
+| [Conference takeaways · PowerPoint](outputs/ai-engineer-nyc-2026-conference-takeaways.pptx) | 37 editable slides; 29 core slides plus 8 appendix slides; embedded speaker notes. |
+| [Conference speaker notes](outputs/ai-engineer-nyc-2026-conference-takeaways-notes.md) | Narrative companion to the conference PowerPoint. |
+| [Conference learning presentation · HTML](outputs/ai-engineer-nyc-2026-presentation.html) | Integrated 40-minute briefing with presentation and reading modes, technical examples, company stories and sources. |
+| [Detailed industry report](outputs/ai-engineer-nyc-2026-industry-report.html) | Two-day synthesis of financial-services and wealth-management themes, evidence and practical techniques. |
+| [Day 1 notes](outputs/ai-engineer-nyc-2026-day-1-notes.md) | Coherent synthesis of the attendee’s October 13 notes. |
+| [Day 2 notes](outputs/ai-engineer-nyc-2026-day-2-notes.md) | Coherent synthesis of the attendee’s October 14 notes, including the clarified Range case. |
+| [Pre-conference attendance field guide](outputs/ai-engineer-nyc-2026-field-guide.html) | Historical planning material: schedule recommendations, top-three choices, research and note-taking strategy. |
+| [Application roadmap · HTML](outputs/ai-engineer-nyc-2026-application-roadmap.html) | Separate recommendations for Fidelity institutional sales/marketing and the personal analytics-agent project. |
+| [Application improvements · PowerPoint](outputs/ai-engineer-nyc-2026-application-improve.pptx) | 28 editable slides; separate from the conference-takeaways deck. |
+| [Application speaker notes](outputs/ai-engineer-nyc-2026-application-demo-notes.md) | Narrative companion to the application-improvements PowerPoint. |
+
+All ten files in `outputs/` are preserved byte-for-byte from the final local deliverables. The reports and presentations intentionally serve different purposes; they are not duplicate exports of the same document.
+
+## Main learning themes
+
+- Financial-services AI strategy: workflow ownership, information foundations, adoption and attributable value.
+- Grounded agents: source scope, permissions, information cutoffs, typed claims and evidence checks.
+- Evaluation: task specifications, layered checks, failure analysis, judge calibration and deployment decisions.
+- Reliable workflows: bounded autonomy, deterministic computation, reusable skills and human review.
+- Engineering growth: domain judgment, system design, trace inspection and learning from accepted work.
+
+## How to read and present
+
+- **Present:** open the conference PPTX in PowerPoint; speaker notes are embedded and also available as Markdown.
+- **Read deeply:** open the HTML presentation or industry report in a browser. Each final HTML file embeds its own styling and scripts; keep the files together so the roadmap’s cross-link works.
+- **Review evidence:** use the reports’ source links, daily notes, research snapshots and the slide-source notes. Source hyperlinks require internet access.
+- **Edit:** change the PowerPoint directly, or use the structured content, HTML sources and SVG slide projects under `work/`.
+
+GitHub displays HTML source rather than running the interactive reports. Download or clone the repository to use them locally. Publishing a website is a separate action and has not been configured.
+
+Interactive notes added while using an HTML report may live in browser storage. Export any such notes separately before moving to a different browser or machine; they are not captured by copying this repository.
+
+## Repository layout
+
+```text
+outputs/              All 10 final reports, decks and Markdown notes
+work/                 Curated research data, snapshots, HTML builders and supporting reviews
+  presentation/       HTML learning presentation: content, CSS, JavaScript and builder
+  applications/       Application-roadmap builder and recorded checks
+  ppt-master/         Two editable PowerPoint authoring projects
+  qa/                 QA dependency manifest and lockfile; installed dependencies omitted
+START-HERE.html       Offline artifact catalog
+BUILDING.md           Source-editing, rebuild instructions and verification limits
+UPLOAD-TO-GITHUB.md    Repository creation and upload steps
+MANIFEST.json         Per-file sizes, SHA-256 values and packaging provenance
+SHA256SUMS.txt         Checksums for package files, excluding itself
+```
+
+## Scope and evidence
+
+The archive combines dated pre-event research, attendee recollections, cited public materials, editorial synthesis and explicitly synthetic examples. Preserve the qualifications in the artifacts when reusing them. A conference description or speaker account does not independently validate production performance.
+
+Application materials include the attendee’s Fidelity architecture, evaluation practices, latency/context estimates and CRM plans, plus a dated read-only review of a separate personal analytics-agent repository. **A private repository is recommended for this complete package.** This is not a public-redacted edition. No internal Fidelity code or datasets, personal-project code checkout, credentials, installed dependencies or browser-stored notes are included. Historical filesystem paths and source-file anchors may appear as evidence context; the referenced personal repository is not bundled.
+
+No repository-wide license has been selected. Third-party conference materials remain attributed to their sources; inclusion does not grant additional rights.
+
+## Packaging and validation
+
+Final artifacts were preserved unchanged. Installed dependencies, caches, duplicate schedule/PPT exports, SVG backups, temporary text extracts, live-preview files and one-time mutation scripts were omitted. Source portability edits are recorded in `MANIFEST.json`; existing validation receipts retain original paths.
+
+See [BUILDING.md](BUILDING.md) for checked build paths and limitations. Checksums verify file integrity; the original PPTX postflight reports describe structural checks. Neither is a substitute for reviewing the rendered slides before presenting.

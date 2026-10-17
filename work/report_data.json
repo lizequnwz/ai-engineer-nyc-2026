@@ -1,0 +1,3995 @@
+{
+  "generatedAt": "2026-10-10T19:11:37.092Z",
+  "sessions": [
+    {
+      "id": "2b920105-f481-435a-85e8-e2a2a4cab189",
+      "date": "2026-10-13",
+      "startMinutes": 480,
+      "endMinutes": 1080,
+      "startsAt": "2026-10-13T12:00:00.000Z",
+      "endsAt": "2026-10-13T22:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Registration",
+      "room": "Level 1 Lobby",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "bbe329fd-75c5-4489-adf8-21d2b905bf0c",
+      "date": "2026-10-13",
+      "startMinutes": 510,
+      "endMinutes": 630,
+      "startsAt": "2026-10-13T12:30:00.000Z",
+      "endsAt": "2026-10-13T14:30:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Coffee Break - Level 2 Foyer",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "e02b5e28-52b1-419a-bd79-edc3a47dbeda",
+      "date": "2026-10-13",
+      "startMinutes": 535,
+      "endMinutes": 536,
+      "startsAt": "2026-10-13T12:55:00.000Z",
+      "endsAt": "2026-10-13T12:56:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "AIE Welcome from GM, Lia McBride",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Lia McBride",
+          "company": "AI Engineer",
+          "role": "General Manager"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "56c18e0d-b727-4f1a-a04e-ee769e5e45e9",
+      "date": "2026-10-13",
+      "startMinutes": 536,
+      "endMinutes": 540,
+      "startsAt": "2026-10-13T12:56:00.000Z",
+      "endsAt": "2026-10-13T13:00:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Welcome Remarks",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Alex Lieberman",
+          "company": "Tenex",
+          "role": "Managing Partner"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+      "date": "2026-10-13",
+      "startMinutes": 540,
+      "endMinutes": 558,
+      "startsAt": "2026-10-13T13:00:00.000Z",
+      "endsAt": "2026-10-13T13:18:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Vault: Making Unstructured Data Work for Investing",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Aaron Linsky",
+          "company": "Bridgewater",
+          "role": "Head of Product Engineering"
+        },
+        {
+          "name": "Sam Green",
+          "company": "Bridgewater",
+          "role": "Team Lead, Applied AI - AIA Labs"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "68a1e78b-569e-4314-a56f-f20508123cbe",
+      "date": "2026-10-13",
+      "startMinutes": 558,
+      "endMinutes": 576,
+      "startsAt": "2026-10-13T13:18:00.000Z",
+      "endsAt": "2026-10-13T13:36:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Managing Director, Financial Services, Anthropic",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Belinda Neal",
+          "company": "Anthropic",
+          "role": "Managing Director, Financial Services"
+        },
+        {
+          "name": "Keon Shahab",
+          "company": "Anthropic",
+          "role": "Applied AI Architect"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+      "date": "2026-10-13",
+      "startMinutes": 576,
+      "endMinutes": 594,
+      "startsAt": "2026-10-13T13:36:00.000Z",
+      "endsAt": "2026-10-13T13:54:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Balancing Acceleration and Safety for AI Agents",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "John Feminella",
+          "company": "Two Sigma",
+          "role": "SVP Architecture"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "5191589c-a70e-4806-99dc-86f7794f46b9",
+      "date": "2026-10-13",
+      "startMinutes": 594,
+      "endMinutes": 612,
+      "startsAt": "2026-10-13T13:54:00.000Z",
+      "endsAt": "2026-10-13T14:12:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Does Code Quality Even Matter?",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Max Kanat-Alexander",
+          "company": "Capital One",
+          "role": "Principal Software Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+      "date": "2026-10-13",
+      "startMinutes": 612,
+      "endMinutes": 630,
+      "startsAt": "2026-10-13T14:12:00.000Z",
+      "endsAt": "2026-10-13T14:30:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "What does an AI engineer do?",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Aparna Dhinakaran",
+          "company": "Arize AI",
+          "role": "Co-Founder & Chief Product Officer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4d8110de-f569-4cd6-b327-3d193b1db3dd",
+      "date": "2026-10-13",
+      "startMinutes": 630,
+      "endMinutes": 990,
+      "startsAt": "2026-10-13T14:30:00.000Z",
+      "endsAt": "2026-10-13T20:30:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Expo Open",
+      "room": "Expo Hall",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-13T14:40:00.000Z",
+      "endsAt": "2026-10-13T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Turning AI Into Operating Margin: A Field Report from Private Equity",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Adam Nahari",
+          "company": "Apollo Global Management",
+          "role": "Head of Data, Digital, and AI"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1c25f303-f38f-450b-862d-669fdbab5f82",
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-13T14:40:00.000Z",
+      "endsAt": "2026-10-13T14:58:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "Wells Fargo Foundation Model: Application to Fraud Detection at Scale",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Freddy Lecue",
+          "company": "Wells Fargo",
+          "role": "Head of Frontier AI Models, Managing Director"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "736edd83-bb08-49f1-90ed-722b7ed07eb2",
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-13T14:40:00.000Z",
+      "endsAt": "2026-10-13T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Can Any Model Write Like Me? Building a Benchmark for Creative Writing",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Louis-François Bouchard",
+          "company": "Towards AI",
+          "role": "CTO & Co-Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "5ea06f9f-c79e-4d33-999c-7397b0165f9c",
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-13T14:40:00.000Z",
+      "endsAt": "2026-10-13T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "The Intelligence Plane: What your agents know, remember and learn",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Richmond Alake",
+          "company": "Oracle",
+          "role": "Director of AI Developer Experience"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "71008b4d-f354-4f66-85dc-9052435c2955",
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-13T14:40:00.000Z",
+      "endsAt": "2026-10-13T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Deploying AI Inside 5 Major Banks Without the 12-Month Compliance Bottleneck",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Al Chen",
+          "company": "Cisco",
+          "role": "Leader, Software Engineering"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "a9c84233-9ce8-4618-b825-7e54e9d015d0",
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-13T15:05:00.000Z",
+      "endsAt": "2026-10-13T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "CTO, Norm.ai",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Scott Worland",
+          "company": "Norm.ai",
+          "role": "CTO"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "75bd85ed-b49d-41f6-98e1-7a22853c18ab",
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-13T15:05:00.000Z",
+      "endsAt": "2026-10-13T15:23:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Arca’s agent runtime for long horizon financial services work",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Aman Singh",
+          "company": "Arca",
+          "role": "Founding MTS, AI Engineering"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "c4ba0138-6f6d-4780-93a1-4d8f0c478339",
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-13T15:05:00.000Z",
+      "endsAt": "2026-10-13T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Write the Answer First: Generating Eval Datasets for Agents With No Benchmark",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Nathanael Weill",
+          "company": "Air Canada",
+          "role": "Director, Data Science & AI"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1779b934-d67b-45e9-ba11-0b19efac4b7e",
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-13T15:05:00.000Z",
+      "endsAt": "2026-10-13T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "No Cash Left Behind: Vanguard's Ledger Modernization Journey",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Gareth Yoder",
+          "company": "Vanguard",
+          "role": "Cash Program Technical Lead"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e5624ee5-c855-46b7-bb72-c25d66fe7d5c",
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-13T15:05:00.000Z",
+      "endsAt": "2026-10-13T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Can AI Reconstruct a Company?",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Hassan El Mghari",
+          "company": "Together AI",
+          "role": "Director of DX"
+        },
+        {
+          "name": "Omar El Mghari",
+          "company": "PMSOX LLC",
+          "role": "CPA / AI Builder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "b8bb725d-daf0-4ac0-8095-5737841c89e5",
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-13T15:30:00.000Z",
+      "endsAt": "2026-10-13T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Search the Web as It Was: An Introduction to Exa Snapshot",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Aaron Rodrigues",
+          "company": "Exa",
+          "role": "Forward Deployed Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e65f74f9-2174-406d-bd32-2d7073eb677d",
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "endMinutes": 735,
+      "startsAt": "2026-10-13T15:30:00.000Z",
+      "endsAt": "2026-10-13T16:15:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "Intent Based Auth",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Allie Howe",
+          "company": "Keycard",
+          "role": "Member of Technical Staff"
+        },
+        {
+          "name": "Ian Livingstone",
+          "company": "Keycard",
+          "role": "CEO and Co-Founder"
+        },
+        {
+          "name": "Michael Davis",
+          "company": "JPMC",
+          "role": "Global Chief Security Architect"
+        },
+        {
+          "name": "Dick Hardt",
+          "company": "AAuth",
+          "role": "Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "30afe596-abe2-417c-bd5a-313fa4bc54b3",
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-13T15:30:00.000Z",
+      "endsAt": "2026-10-13T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Your Financial Agent Passed Every Eval. Can You Defend Its Decision?",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Anirudh Veeraragavan",
+          "company": "Fieldguide",
+          "role": "Lead Security Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "bb2b919e-0992-4b21-b58d-033c780ccd33",
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-13T15:30:00.000Z",
+      "endsAt": "2026-10-13T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Building Agentic PDLC Systems that Scale",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Martin Harrysson",
+          "company": "McKinsey",
+          "role": ""
+        },
+        {
+          "name": "Prakhar Dixit",
+          "company": "McKinsey",
+          "role": ""
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4706833e-a199-49b1-bc4d-5a238e3e89fe",
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-13T15:30:00.000Z",
+      "endsAt": "2026-10-13T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "The best context isn't in your database. It's in the investor's head.",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Anekha Sokhal",
+          "company": "Moshi",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2",
+      "date": "2026-10-13",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-13T15:55:00.000Z",
+      "endsAt": "2026-10-13T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Can Your AI Analyst Keep a Secret?",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Aaron Linsky",
+          "company": "Bridgewater",
+          "role": "Head of Product Engineering"
+        },
+        {
+          "name": "Nikhil Benesch",
+          "company": "turbopuffer",
+          "role": "CTO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "b1fe8396-6fa8-4574-9775-0dc01f56ce57",
+      "date": "2026-10-13",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-13T15:55:00.000Z",
+      "endsAt": "2026-10-13T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Lies, Damned Lies, and Evals: How to trust your agents when the stakes are high",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Stephanie Jarmak",
+          "company": "Omni Analytics",
+          "role": "AI Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "6b92fb75-064e-4cb5-8aa3-7c7f211e7420",
+      "date": "2026-10-13",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-13T15:55:00.000Z",
+      "endsAt": "2026-10-13T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Inside the Fable War Room",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ford Prior",
+          "company": "GEICO",
+          "role": "Sr. Staff Engineer & Tech Evangelist"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+      "date": "2026-10-13",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-13T15:55:00.000Z",
+      "endsAt": "2026-10-13T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Compound value from building Monzo’s in-house agent using LLMs*",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Francesco Galletta",
+          "company": "Monzo",
+          "role": "Analytics Engineering Manager"
+        },
+        {
+          "name": "Felippe Felisola Caso",
+          "company": "Monzo",
+          "role": "Lead Analytics Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "8530c02c-d32e-408a-96e6-a8e0a09dcf32",
+      "date": "2026-10-13",
+      "startMinutes": 720,
+      "endMinutes": 840,
+      "startsAt": "2026-10-13T16:00:00.000Z",
+      "endsAt": "2026-10-13T18:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Lunch Break",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "96dfa264-b5a1-485c-8f55-da1a4f39fd8a",
+      "date": "2026-10-13",
+      "startMinutes": 735,
+      "endMinutes": 845,
+      "startsAt": "2026-10-13T16:15:00.000Z",
+      "endsAt": "2026-10-13T18:05:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Networking Break",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "8d348b6c-25cc-45de-8dc4-aaa3d7130918",
+      "date": "2026-10-13",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-13T16:20:00.000Z",
+      "endsAt": "2026-10-13T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Agents can pay. So why don’t they?",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Jan Curn",
+          "company": "Apify",
+          "role": "CEO and Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "date": "2026-10-13",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-13T16:20:00.000Z",
+      "endsAt": "2026-10-13T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "1,368 AI Failures: What They Teach Us About System Evals",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Vishal Srivastava",
+          "company": "New York Life Insurance",
+          "role": "Corporate VP, Lead Data Scientist"
+        },
+        {
+          "name": "Tanmay Sah",
+          "company": "",
+          "role": "AI Researcher"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "7d25e281-0cf7-4f13-849d-aaa5c679d83f",
+      "date": "2026-10-13",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-13T16:20:00.000Z",
+      "endsAt": "2026-10-13T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Your Next User Is an Agent",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Isabelle Williams",
+          "company": "WorkOS",
+          "role": "Product Manager"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "c85559ae-c8f6-4d6f-b85e-02c88873f343",
+      "date": "2026-10-13",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-13T16:20:00.000Z",
+      "endsAt": "2026-10-13T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Buy, Then Deploy: Using M&A to Drive AI Transformation",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Prathik Naidu",
+          "company": "Long Lake",
+          "role": "Founding Partner"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "5360728b-8004-41ab-9cf3-2383e6fe25c8",
+      "date": "2026-10-13",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-13T17:40:00.000Z",
+      "endsAt": "2026-10-13T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "From RAG to Memory: Building Agents That Remember",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Wojciech Pluta",
+          "company": "Oracle",
+          "role": "Director of AI Technical Product Marketing"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+      "date": "2026-10-13",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-13T17:40:00.000Z",
+      "endsAt": "2026-10-13T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Proving Alpha: Showcasing AI's Value in Fundamental Investing",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Hari Kumar",
+          "company": "Contour Asset Management",
+          "role": "Head of AI and Data Science"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "571af561-d579-4ade-9ed3-25e10c28d2f5",
+      "date": "2026-10-13",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-13T17:40:00.000Z",
+      "endsAt": "2026-10-13T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "The Stories We Never Had the Time to Tell",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Zack Proser",
+          "company": "WorkOS",
+          "role": "AI Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "d906f8a2-d18f-4876-aaef-71e5100a0075",
+      "date": "2026-10-13",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-13T17:40:00.000Z",
+      "endsAt": "2026-10-13T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "How frontier AI changes tolerable risk for open source security in financial services",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Patrick Smyth",
+          "company": "Chainguard",
+          "role": "Principal Developer Relations Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "fd8d878e-c4ab-4db8-b83a-4f0385e279cc",
+      "date": "2026-10-13",
+      "startMinutes": 840,
+      "endMinutes": 960,
+      "startsAt": "2026-10-13T18:00:00.000Z",
+      "endsAt": "2026-10-13T20:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Coffee Break - Expo Floor",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "04078437-7781-4b41-9edc-b24b00ebe5e4",
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-13T18:05:00.000Z",
+      "endsAt": "2026-10-13T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Evals in 5 minutes",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": true
+    },
+    {
+      "id": "3803afe2-3761-4fee-a6c2-dae9c6a1066e",
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-13T18:05:00.000Z",
+      "endsAt": "2026-10-13T18:23:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "CTO, Modal",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Akshat Bubna",
+          "company": "Modal",
+          "role": "CTO"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "adca6e26-1ddc-4f77-8e35-59bf1d1de81d",
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-13T18:05:00.000Z",
+      "endsAt": "2026-10-13T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Can AI Understand a Distressed Credit?",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Harneet Kaur",
+          "company": "Axim Intelligence",
+          "role": "Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "5337232e-0b56-4b19-808e-64cc1bdcee21",
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-13T18:05:00.000Z",
+      "endsAt": "2026-10-13T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Hunt before you're hunted: SonarQube Hunter Agent in action",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Taylor Luttrell-Williams",
+          "company": "Sonar",
+          "role": "Developer Content Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "51913a94-1203-47b1-95e3-21a12e2d6a8a",
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-13T18:05:00.000Z",
+      "endsAt": "2026-10-13T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Why Are We Still Governing AI Like Software?",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Tim Tyler",
+          "company": "",
+          "role": ""
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "2d29f925-f16b-41b3-8086-de0524829cbe",
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-13T18:30:00.000Z",
+      "endsAt": "2026-10-13T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Do Not Let Models Invent Numbers",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Vinoo Ganesh",
+          "company": "Kepler",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "dc91422b-6636-4466-8fb8-482a09cdd7f4",
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-13T18:30:00.000Z",
+      "endsAt": "2026-10-13T18:48:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Beyond the Model Card: The Jagged Frontier of AI in Finance",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Rayan Krishnan",
+          "company": "Vals AI",
+          "role": "Co-Founder & CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e8e53365-3c1f-4c28-bdd0-44c305a05d57",
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-13T18:30:00.000Z",
+      "endsAt": "2026-10-13T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Why Frontier Models Fail on Billion Dollar Portfolios",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Chanyeol Choi",
+          "company": "LinqAlpha",
+          "role": "Co-founder & CEO"
+        },
+        {
+          "name": "Janie Gu",
+          "company": "Google DeepMind",
+          "role": "Group Product Manager (Kaggle Benchmarks)"
+        },
+        {
+          "name": "Jack Haverty",
+          "company": "LinqAlpha",
+          "role": "Head of Product"
+        },
+        {
+          "name": "Suyeol Yun",
+          "company": "LinqAlpha",
+          "role": "Head of AI"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e834dfbe-1d65-4846-947f-d0f161d57c1a",
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-13T18:30:00.000Z",
+      "endsAt": "2026-10-13T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Realtime Multiplayer Agentic Development in Delta",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": true
+    },
+    {
+      "id": "40b68994-afa7-4f71-beee-c1d0ad76c9ad",
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-13T18:30:00.000Z",
+      "endsAt": "2026-10-13T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Who is making the request? Agent Auth 101 via gateways + SDKs",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Kamil Potrec",
+          "company": "Keycard",
+          "role": "Product Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "bdab432a-0538-4431-ad5a-62653affd9da",
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-13T18:55:00.000Z",
+      "endsAt": "2026-10-13T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "How to build an AI code review agent: from the creators of Greptile",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Daksh Gupta",
+          "company": "Greptile",
+          "role": "Co-Founder & CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "a244839c-239c-4789-b621-32a3568a218e",
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-13T18:55:00.000Z",
+      "endsAt": "2026-10-13T19:13:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "AI and the Future of Fundamental Investing",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Jack Woodruff",
+          "company": "Kepler",
+          "role": "Senior Advisor"
+        },
+        {
+          "name": "Vinoo Ganesh",
+          "company": "Kepler",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "eaa39362-c0ec-4849-a90d-841f4825a5b3",
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-13T18:55:00.000Z",
+      "endsAt": "2026-10-13T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Your Agent Just Paid for Nothing (6 Attacks on x402 Payments)",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ishween Kaur",
+          "company": "SoFi",
+          "role": "AI Engineer, Agentic Platform Agentforce"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-13T18:55:00.000Z",
+      "endsAt": "2026-10-13T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Scaling AI with P&L on the line",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Noyan Tokgozoglu",
+          "company": "Optiver",
+          "role": "Global AI Engineering Lead"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "dfae680b-2617-4782-9cbe-85942a9959e7",
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-13T18:55:00.000Z",
+      "endsAt": "2026-10-13T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "State of the Agent: Reliability, Observability, and the Gap Between Them",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Shy Ruparel",
+          "company": "Temporal",
+          "role": "Senior Developer Advocate"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "ea2eb55e-fbf3-4d5e-a74b-b0eaac758b98",
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-13T19:20:00.000Z",
+      "endsAt": "2026-10-13T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "How to build financial agents that work across the web",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jay Sahnan",
+          "company": "",
+          "role": "Growth Engineer"
+        },
+        {
+          "name": "Arik Bird",
+          "company": "",
+          "role": ""
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "2a07765d-fe3a-48df-be0f-75c111dbee6a",
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-13T19:20:00.000Z",
+      "endsAt": "2026-10-13T19:38:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Shipping like a startup, regulated like a bank",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "David Abitbol",
+          "company": "Revolut",
+          "role": "Ops & Infrastructure Leader"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "2a589e49-4ee4-4c53-bfeb-40bc3db16506",
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-13T19:20:00.000Z",
+      "endsAt": "2026-10-13T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Your agent fix just broke something else",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Sofia Jakovcevic",
+          "company": "Arize AI",
+          "role": "AI Forward Deployed Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "6e51dbf6-0d55-4bd4-80a9-67dfd5ec559a",
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-13T19:20:00.000Z",
+      "endsAt": "2026-10-13T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Securing the Agentic Universe, One Layer at a Time",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": true
+    },
+    {
+      "id": "fca86857-d079-46a6-94a7-62b0bb8e5d31",
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-13T19:20:00.000Z",
+      "endsAt": "2026-10-13T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "From Model to Metrics: Serving and Benchmarking Any LLM Live with vLLM and Runpod",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Chris Vela",
+          "company": "Runpod",
+          "role": "Forward Deployed Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e710d1bc-660e-402a-92b7-866e1cace263",
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-13T19:45:00.000Z",
+      "endsAt": "2026-10-13T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Building Humanlike Voice Agents for Financial Services",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jesse Hall",
+          "company": "LiveKit",
+          "role": "Staff Developer Advocate"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1872565b-e24d-4da9-99c6-05a8c01d3d06",
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-13T19:45:00.000Z",
+      "endsAt": "2026-10-13T20:03:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Head of Data and AI, Asset Management",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Sid Pednekar",
+          "company": "",
+          "role": "Head of Data and AI | Asset Management"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "8b0e75e9-7072-4e07-a383-3ffe0a9a62cc",
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-13T19:45:00.000Z",
+      "endsAt": "2026-10-13T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "2 years of shipping a production agent: what we rebuilt and what we kept",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Fuad Ali",
+          "company": "Arize AI",
+          "role": "Staff AI Product Manager"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "8d424512-c7f0-483c-9094-ca899d7bb1fd",
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-13T19:45:00.000Z",
+      "endsAt": "2026-10-13T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Daytona Expo Session 1",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "56da81eb-2e56-480b-b519-e15bc9ae5e8f",
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-13T19:45:00.000Z",
+      "endsAt": "2026-10-13T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "AI in Production: Maintaining Quality and Trust as Output Scales",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Cole Gannaway",
+          "company": "Qodo",
+          "role": "Senior Software Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "c34c075b-c695-4227-bf8e-3b4eeb3460d9",
+      "date": "2026-10-13",
+      "startMinutes": 985,
+      "endMinutes": 990,
+      "startsAt": "2026-10-13T20:25:00.000Z",
+      "endsAt": "2026-10-13T20:30:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Welcome Back - Featured Keynotes",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Alex Lieberman",
+          "company": "Tenex",
+          "role": "Managing Partner"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "9a9dfcd0-459f-43eb-b3f8-004864b4ad2a",
+      "date": "2026-10-13",
+      "startMinutes": 990,
+      "endMinutes": 1008,
+      "startsAt": "2026-10-13T20:30:00.000Z",
+      "endsAt": "2026-10-13T20:48:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Head of AI & AI Engineer, Coatue",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Frank Long",
+          "company": "Coatue",
+          "role": "Head of AI"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "cada670e-c5ea-4977-b3c2-9a68dda26abb",
+      "date": "2026-10-13",
+      "startMinutes": 1008,
+      "endMinutes": 1026,
+      "startsAt": "2026-10-13T20:48:00.000Z",
+      "endsAt": "2026-10-13T21:06:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Frontier Models for Acting in Space and Time",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Pim de Witte",
+          "company": "General Intuition",
+          "role": "Co-Founder & CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "871cd5c8-13f4-4fe9-ac49-c8b25d970add",
+      "date": "2026-10-13",
+      "startMinutes": 1026,
+      "endMinutes": 1044,
+      "startsAt": "2026-10-13T21:06:00.000Z",
+      "endsAt": "2026-10-13T21:24:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "CEO, Nous Research",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Dillon Rolnick",
+          "company": "Nous Research",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "dd25c0a8-d64f-4d6e-a597-7dd576eabc16",
+      "date": "2026-10-13",
+      "startMinutes": 1045,
+      "endMinutes": 1050,
+      "startsAt": "2026-10-13T21:25:00.000Z",
+      "endsAt": "2026-10-13T21:30:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Closing Remarks",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Alex Lieberman",
+          "company": "Tenex",
+          "role": "Managing Partner"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "b3b5dcde-5bd1-492d-baef-8af2b342a330",
+      "date": "2026-10-13",
+      "startMinutes": 1050,
+      "endMinutes": 1170,
+      "startsAt": "2026-10-13T21:30:00.000Z",
+      "endsAt": "2026-10-13T23:30:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Leadership Reception sponsored by Primitive",
+      "room": "Speaker Lounge/Token Billionaires Lounge (Lennox Ballroom)",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "bcd7cfad-6854-4128-bc57-6d5b3d6a55f1",
+      "date": "2026-10-14",
+      "startMinutes": 480,
+      "endMinutes": 780,
+      "startsAt": "2026-10-14T12:00:00.000Z",
+      "endsAt": "2026-10-14T17:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Registration",
+      "room": "Level 1 Lobby",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "7f8169c2-068d-48a7-96c9-4047fd7878eb",
+      "date": "2026-10-14",
+      "startMinutes": 510,
+      "endMinutes": 630,
+      "startsAt": "2026-10-14T12:30:00.000Z",
+      "endsAt": "2026-10-14T14:30:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Coffee Break - Level 2 Foyer",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "e8d45663-ecc6-49d2-ac24-df94d9847d4a",
+      "date": "2026-10-14",
+      "startMinutes": 535,
+      "endMinutes": 540,
+      "startsAt": "2026-10-14T12:55:00.000Z",
+      "endsAt": "2026-10-14T13:00:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Welcome Remarks",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Ksenia Se",
+          "company": "Turing Post",
+          "role": "AI Inferencer"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "caecd5f6-b352-4868-a995-f0f71679caf0",
+      "date": "2026-10-14",
+      "startMinutes": 540,
+      "endMinutes": 558,
+      "startsAt": "2026-10-14T13:00:00.000Z",
+      "endsAt": "2026-10-14T13:18:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Chasing capabilities while waiting for the frontier",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Alexander Shevchenko",
+          "company": "Ramp",
+          "role": "Head of Ramp Labs and Applied Research"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4add802c-6a68-4e9c-93fb-9c1e017193bc",
+      "date": "2026-10-14",
+      "startMinutes": 558,
+      "endMinutes": 576,
+      "startsAt": "2026-10-14T13:18:00.000Z",
+      "endsAt": "2026-10-14T13:36:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "The Machine that Changed the World, vAI",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Tariq Shaukat",
+          "company": "Sonar",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "ee927042-2ba1-44c3-b304-d001ae247839",
+      "date": "2026-10-14",
+      "startMinutes": 576,
+      "endMinutes": 594,
+      "startsAt": "2026-10-14T13:36:00.000Z",
+      "endsAt": "2026-10-14T13:54:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Trusting Agents in Policy-Driven Workflows",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Evan Kormos",
+          "company": "Coinbase",
+          "role": "Engineering Manager"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "02f94835-c29d-4cf5-b77a-c5a491b747b8",
+      "date": "2026-10-14",
+      "startMinutes": 594,
+      "endMinutes": 612,
+      "startsAt": "2026-10-14T13:54:00.000Z",
+      "endsAt": "2026-10-14T14:12:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Building the Next Chapter of AI in Finance",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Joseph Kim",
+          "company": "OpenAI",
+          "role": "Head of ChatGPT for Financial Services"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "01982251-7fdc-4828-8520-fb34b9bc7564",
+      "date": "2026-10-14",
+      "startMinutes": 612,
+      "endMinutes": 630,
+      "startsAt": "2026-10-14T14:12:00.000Z",
+      "endsAt": "2026-10-14T14:30:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Security in the Age of AI: Recent Attacks, Incidents & Defenses",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Andrey Rybka",
+          "company": "Bloomberg",
+          "role": "Head of Architecture & Emerging Technologies in the Office of the CTO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "78e228d1-2308-461e-9c5f-5557eea30908",
+      "date": "2026-10-14",
+      "startMinutes": 630,
+      "endMinutes": 990,
+      "startsAt": "2026-10-14T14:30:00.000Z",
+      "endsAt": "2026-10-14T20:30:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Expo Open",
+      "room": "Expo Hall",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "f7204e6d-a47c-4535-804e-16b4db579b95",
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-14T14:40:00.000Z",
+      "endsAt": "2026-10-14T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Your job is now \"agent manager\"",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ryan Carson",
+          "company": "Untangle",
+          "role": "CEO and CTO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "d49d49e1-90cb-4b8d-beb6-84d6560aaf04",
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-14T14:40:00.000Z",
+      "endsAt": "2026-10-14T14:58:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "Towards Autonomous Analysts in Finance",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Yijia Liang",
+          "company": "Compound AI",
+          "role": "Co-Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "ece6925c-c979-483f-bd40-51eacdbbe11b",
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-14T14:40:00.000Z",
+      "endsAt": "2026-10-14T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Shiv Indap",
+          "company": "Upstart",
+          "role": "Senior Engineering Manager"
+        },
+        {
+          "name": "Brooke Hopkins",
+          "company": "Coval",
+          "role": "Founder & CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-14T14:40:00.000Z",
+      "endsAt": "2026-10-14T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Developer Docs as Knowledge Infrastructure for Fintech",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Hahnbee Lee",
+          "company": "Mintlify",
+          "role": "Co-Founder & CTO"
+        },
+        {
+          "name": "Lincoln Murr",
+          "company": "Coinbase",
+          "role": "Head of AI Product"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "f3445fe7-308b-4e84-8490-fd78a13db4fb",
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "endMinutes": 658,
+      "startsAt": "2026-10-14T14:40:00.000Z",
+      "endsAt": "2026-10-14T14:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "The Hidden Costs of a Faster Model",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Morgan Suo",
+          "company": "MiniMax",
+          "role": "Head of US Business Development"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "We gave our finance agent more context. It got worse.",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ryan Stevens",
+          "company": "Ramp",
+          "role": "Director of Applied Science"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "dcf188f6-95d0-4c22-856b-fccf0374e8e4",
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "Not All GPU's Are Deployed The Same",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Oliver Kennon",
+          "company": "SemiAnalysis",
+          "role": "Research Analyst, Core Research"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "3524cdd1-2e7b-4c75-81b1-11b4d28141b8",
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Benchmarking the Full Stack: From Silicon to Harness.",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Steven Latré",
+          "company": "imec",
+          "role": "VP AI"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4188711c-a587-423b-86c2-1ff2ad38c15e",
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Claude Code, Financial Analyst: Turning a Coding Agent Loose on Governed Enterprise Data",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Natalia Connolly",
+          "company": "AlixPartners",
+          "role": "Director, AI & Data"
+        },
+        {
+          "name": "Kevin Madura",
+          "company": "AlixPartners",
+          "role": "Director, Advanced Technology"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4b33ac12-ed84-4e32-be63-6a4f9f3acb32",
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Your Coding Agent Has a Context Problem",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Tom Moor",
+          "company": "Linear",
+          "role": "Head of Engineering"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "bc4b6b4a-cf07-4326-8276-fcf845da0284",
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Building the Financial Account for Agents",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Lincoln Murr",
+          "company": "Coinbase",
+          "role": "Head of AI Product"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1165abe0-124d-4c1c-aa3b-6a14f5c5fd03",
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "How Compute Markets Work",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Evan Conrad",
+          "company": "San Francisco Compute Company",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "9b002687-09cf-42e2-9282-532ed9d0c184",
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Your Reranker Improved Retrieval. Did It Improve the Answer?",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Manimala Kumar",
+          "company": "NVIDIA",
+          "role": "AI Systems & Product Leader"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "11b98f47-dcc2-4524-8c06-d1f6c3ff044b",
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Who verifies the software factory?",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Manish Kapur",
+          "company": "Sonar",
+          "role": "VP of Product Marketing and Developer Relations"
+        },
+        {
+          "name": "Addy Osmani",
+          "company": "Anthropic",
+          "role": "Member of Technical Staff"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "471890b7-1779-41e1-8411-b499dd38c346",
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Can AI run Goldman Sachs?",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Joanne Wang",
+          "company": "Epsilab",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Matthew Olsen",
+          "company": "Epsilab",
+          "role": "Co-Founder"
+        },
+        {
+          "name": "Fengjiao Peng",
+          "company": "Epsilab",
+          "role": "Co-Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "29083884-87dc-44f8-b412-b494afca8856",
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-14T15:55:00.000Z",
+      "endsAt": "2026-10-14T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "The Model Ate the Coding Harness. Now What?",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Jediah Katz",
+          "company": "SpaceXAI",
+          "role": "Engineer, Agent Harness"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "70532ab5-f3d2-48a2-aebd-c2018afcd318",
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-14T15:55:00.000Z",
+      "endsAt": "2026-10-14T16:13:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 minutes)",
+      "title": "The Dark Pools of Compute",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Affaan Mustafa",
+          "company": "Jump Trading",
+          "role": "Compute Trading Lead"
+        },
+        {
+          "name": "Alejandro Soumah Fernandez",
+          "company": "Jump Trading",
+          "role": "Co-Lead Compute Trading"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "534796a7-0f44-4d59-a1c5-0df28a947c6a",
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-14T15:55:00.000Z",
+      "endsAt": "2026-10-14T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "When AI Fails: Designing Evaluation Systems for High Stakes Applications",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ramakrishnan Lokanathan",
+          "company": "eSlams and PetDukaan",
+          "role": "AI Safety and Security Researcher"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "9f2a38a9-c0e9-461a-97c4-b8cb3fbe3e50",
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-14T15:55:00.000Z",
+      "endsAt": "2026-10-14T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "It's Not the Model, It's You",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Nicholas Arcolano",
+          "company": "Jellyfish",
+          "role": "Head of AI & Research"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "2401b55d-09c7-4159-8297-545dea0b7df2",
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "endMinutes": 733,
+      "startsAt": "2026-10-14T15:55:00.000Z",
+      "endsAt": "2026-10-14T16:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Two Ways to Rob an AI-Native Bank",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Maty Bohacek",
+          "company": "Stanford University",
+          "role": "AI Researcher"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "181aef46-78f0-45a0-b0d3-fcabe8b811cf",
+      "date": "2026-10-14",
+      "startMinutes": 720,
+      "endMinutes": 840,
+      "startsAt": "2026-10-14T16:00:00.000Z",
+      "endsAt": "2026-10-14T18:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Lunch Break",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "bacb7e08-1155-49c3-bb5d-74d606387946",
+      "date": "2026-10-14",
+      "startMinutes": 735,
+      "endMinutes": 845,
+      "startsAt": "2026-10-14T16:15:00.000Z",
+      "endsAt": "2026-10-14T18:05:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Networking Break",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "328c189f-fe70-418f-bde0-c450948c4fbc",
+      "date": "2026-10-14",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-14T16:20:00.000Z",
+      "endsAt": "2026-10-14T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "The Rise of the Product Engineer",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Engineering Track"
+      ],
+      "speakers": [
+        {
+          "name": "Laurie Voss",
+          "company": "Arize AI",
+          "role": "Head of Developer Relations"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "11fef189-97e8-4c8e-87e8-dac43d800846",
+      "date": "2026-10-14",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-14T16:20:00.000Z",
+      "endsAt": "2026-10-14T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "A/B Testing AI Products Is Weird: What Changes When the Product Is Probabilistic",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Supriya Subudhi",
+          "company": "Bumble",
+          "role": "Staff Product Manager"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "42d1cb16-e5c9-4eca-9aa8-d9a052b71dcd",
+      "date": "2026-10-14",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-14T16:20:00.000Z",
+      "endsAt": "2026-10-14T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "The Map Beneath Modern Finance",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Leadership Track"
+      ],
+      "speakers": [
+        {
+          "name": "Stephen Chin",
+          "company": "Neo4j",
+          "role": "VP of Developer Relations"
+        },
+        {
+          "name": "Neeraj Deshmukh",
+          "company": "Blitzy",
+          "role": "Field CTO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "d691c916-3f9f-48de-8d12-0c18343ba405",
+      "date": "2026-10-14",
+      "startMinutes": 740,
+      "endMinutes": 758,
+      "startsAt": "2026-10-14T16:20:00.000Z",
+      "endsAt": "2026-10-14T16:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "title": "Agents Can Rewrite Compilers. Why Can't They Pick Stocks?",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Curated Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ashwin Paranjape",
+          "company": "Samaya AI",
+          "role": "Founding AI Lead"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "0151a0fc-5cb6-4258-977a-65de8288e39b",
+      "date": "2026-10-14",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-14T17:40:00.000Z",
+      "endsAt": "2026-10-14T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Evals in 5 minutes",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": true
+    },
+    {
+      "id": "79730720-7956-4109-a54b-82393c157ed0",
+      "date": "2026-10-14",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-14T17:40:00.000Z",
+      "endsAt": "2026-10-14T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Artificial Analysis - Optimizing the Cost of Intelligence",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "George Cameron",
+          "company": "Artificial Analysis",
+          "role": "Co-Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "387377e2-3f42-4403-8e25-c2714047e856",
+      "date": "2026-10-14",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-14T17:40:00.000Z",
+      "endsAt": "2026-10-14T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Catch your coding agent's mistakes before the PR",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Killian Carlsen-Phelan",
+          "company": "Sonar",
+          "role": "Developer Content Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "a901d5ea-57c6-433f-9c37-5fe6531adb99",
+      "date": "2026-10-14",
+      "startMinutes": 820,
+      "endMinutes": 838,
+      "startsAt": "2026-10-14T17:40:00.000Z",
+      "endsAt": "2026-10-14T17:58:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Building a self-improving software factory",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Zach Lloyd",
+          "company": "Warp",
+          "role": "Founder & CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "7f9c3a02-d569-4ba9-9bbf-ca7565d055b6",
+      "date": "2026-10-14",
+      "startMinutes": 840,
+      "endMinutes": 960,
+      "startsAt": "2026-10-14T18:00:00.000Z",
+      "endsAt": "2026-10-14T20:00:00.000Z",
+      "type": "other",
+      "format": "",
+      "title": "Coffee Break - Expo Floor",
+      "room": "Food & Beverage Breaks",
+      "topics": [],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "e6ccda8d-0613-44f8-b98f-53ba8037b518",
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Scaling Agentic RL Across the Globe",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jason Mancuso",
+          "company": "Modal",
+          "role": "Member of Technical Staff, Research"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "4cf641ef-436a-4e59-bd73-8a1988d8214c",
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "CTO, Blackstone",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "John Stecher",
+          "company": "Blackstone",
+          "role": "CTO"
+        },
+        {
+          "name": "Scott Worland",
+          "company": "Norm.ai",
+          "role": "CTO"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "ac709f86-ce51-4582-a680-70449c32d29c",
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Stop turning your Humans Into APIs for your Agents",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Emil Chetty",
+          "company": "Wise",
+          "role": "Group Head of Data & AI"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "627ca259-d123-4bda-bc58-6e662277ef49",
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "AI's Trust Layer for Wall Street: SRE & Platform Engineering",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Andrew Norrish",
+          "company": "Sourcegraph",
+          "role": "Director of Field Engineering"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "From Agent Prototype to Production in Regulated Banking",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jonathan Osborne",
+          "company": "Comet",
+          "role": ""
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "aaea3072-e0d1-480b-9c0e-eddf0fc6e43e",
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-14T18:30:00.000Z",
+      "endsAt": "2026-10-14T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Your Agent Wants Your Data: Securing MCP Database Access from the Ground Up",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jeff Smith",
+          "company": "Oracle",
+          "role": "Product Management Architect"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "bb3856b7-6575-483e-ae26-c4df34fdf3a4",
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-14T18:30:00.000Z",
+      "endsAt": "2026-10-14T18:48:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Why Wall Street Still Doesn’t Trust AI",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Vinoo Ganesh",
+          "company": "Kepler",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "0a0cbd67-23fa-4a3d-a8dc-06e3caa3ab2f",
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-14T18:30:00.000Z",
+      "endsAt": "2026-10-14T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Your agent needs a skill to improve its skills",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Ben Holmes",
+          "company": "Warp",
+          "role": "DevEx Lead"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "3b17997c-2057-4e60-a311-0f16cd9833ab",
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-14T18:30:00.000Z",
+      "endsAt": "2026-10-14T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Are You Smarter Than a Fruit Fly?",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Nick Nisi",
+          "company": "WorkOS",
+          "role": "Engineering Manager"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "cd44e04a-fc21-4814-9b82-700c1b75799f",
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "endMinutes": 888,
+      "startsAt": "2026-10-14T18:30:00.000Z",
+      "endsAt": "2026-10-14T18:48:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "How Raj Led Datasite’s AI and Data Transformation at Scale with Reducto",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Adit Abraham",
+          "company": "Reducto",
+          "role": "CEO and Co-Founder"
+        },
+        {
+          "name": "Raj Bakhru",
+          "company": "Datasite",
+          "role": "Global Chief Technology Officer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "970f672e-f351-46bb-9790-78c6b1baf81d",
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-14T18:55:00.000Z",
+      "endsAt": "2026-10-14T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Build your own team of managed agents",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Jack Wotherspoon",
+          "company": "Google DeepMind",
+          "role": "Member of Technical Staff"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "12e5a06d-d1c9-4d66-80a0-ce94ca707d0b",
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-14T18:55:00.000Z",
+      "endsAt": "2026-10-14T19:13:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Coding an Autonomous Wall Street Coworker: Custom Skills, Connectors, and Event Hooks",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Philipp Schmid",
+          "company": "Google DeepMind",
+          "role": "MTS"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1735a9c7-e790-4f06-8e4f-382b335c2e90",
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-14T18:55:00.000Z",
+      "endsAt": "2026-10-14T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Hill-Climbing “Back-Office” Agents: Cost, Reliability, and Feedback Loops",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Milind Sunil Shah",
+          "company": "Brainbase Labs",
+          "role": "Founding MTS"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "65de0896-90a4-406a-8a58-d845569302ad",
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-14T18:55:00.000Z",
+      "endsAt": "2026-10-14T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Permission to Act: Giving Agents Authority in Regulated Industries",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Sagar Batchu",
+          "company": "Speakeasy",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed",
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "endMinutes": 913,
+      "startsAt": "2026-10-14T18:55:00.000Z",
+      "endsAt": "2026-10-14T19:13:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Building Deployment Gates for AI Agents in Financial Services",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Doneyli De Jesus",
+          "company": "Langfuse by ClickHouse",
+          "role": "Head of AI Engineering Solutions"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "3442adab-3404-4423-8d80-c49258b9c468",
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-14T19:20:00.000Z",
+      "endsAt": "2026-10-14T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Graph Engineering 101: Predictability, Governance, Portability",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Zachary Blumenfeld",
+          "company": "Neo4j",
+          "role": "AI Research Engineer"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "bf371da6-6ef6-42ec-865f-5de4974a9114",
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-14T19:20:00.000Z",
+      "endsAt": "2026-10-14T19:38:00.000Z",
+      "type": "talk",
+      "format": "Stage Talk (18 mins)",
+      "title": "Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Joao Wenzel",
+          "company": "Citadel Securities",
+          "role": "COO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "f5c310e9-b0bb-4fa6-bc0d-bda758e1c464",
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-14T19:20:00.000Z",
+      "endsAt": "2026-10-14T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "A Roadmap for Evaluating Highly-Subjective Tasks",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Cameron Wolfe",
+          "company": "Netflix",
+          "role": "Staff Research Scientist"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "9a73fc65-539f-449e-aa2c-5fb55c1371f4",
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-14T19:20:00.000Z",
+      "endsAt": "2026-10-14T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "PlanetScale Q&A + Merch Drop",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Ben Dicken",
+          "company": "PlanetScale",
+          "role": "Head of Developer Education"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "88b218ef-aae2-47f4-b071-3cb60257e92e",
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "endMinutes": 938,
+      "startsAt": "2026-10-14T19:20:00.000Z",
+      "endsAt": "2026-10-14T19:38:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Building an Evidence Layer for Financial Agents",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Aamir Shakir",
+          "company": "Mixedbread",
+          "role": "CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "3005a1a2-c6cc-426f-9319-185b86b0039c",
+      "date": "2026-10-14",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-14T19:45:00.000Z",
+      "endsAt": "2026-10-14T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Tabular Foundation Models in Finance",
+      "room": "Shannon Room (NY Ballroom E)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Sauraj Gambhir",
+          "company": "Prior Labs",
+          "role": "Co-Founder & Co-CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "8413d6ee-ceb1-4095-9f27-49d518f1dd5a",
+      "date": "2026-10-14",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-14T19:45:00.000Z",
+      "endsAt": "2026-10-14T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "title": "Code Mode: your agent should write code",
+      "room": "Turing Room (Riverside Ballroom)",
+      "topics": [
+        "Evaluations Track"
+      ],
+      "speakers": [
+        {
+          "name": "Mikyo King",
+          "company": "Arize AI",
+          "role": "Head of Open Source"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "15eeafc6-0c0c-48c3-8bb1-48b70b49b55e",
+      "date": "2026-10-14",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-14T19:45:00.000Z",
+      "endsAt": "2026-10-14T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Cisco Expo Session 1",
+      "room": "Sutton Room (NY Ballroom W)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [],
+      "hasAbstract": false
+    },
+    {
+      "id": "ff7ea99c-bf5b-4b94-8680-c5fb6b5abb81",
+      "date": "2026-10-14",
+      "startMinutes": 945,
+      "endMinutes": 963,
+      "startsAt": "2026-10-14T19:45:00.000Z",
+      "endsAt": "2026-10-14T20:03:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "title": "Decoupling Agents from Infrastructure",
+      "room": "McCarthy Room (Riverside Suite)",
+      "topics": [
+        "Expo Session"
+      ],
+      "speakers": [
+        {
+          "name": "Nikhil Harithas",
+          "company": "Factory",
+          "role": "Head of Deployed Engineering"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "18628ea8-d66a-4d7b-adbd-730d3a43d92e",
+      "date": "2026-10-14",
+      "startMinutes": 985,
+      "endMinutes": 990,
+      "startsAt": "2026-10-14T20:25:00.000Z",
+      "endsAt": "2026-10-14T20:30:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Welcome Back - Featured Keynotes",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Ksenia Se",
+          "company": "Turing Post",
+          "role": "AI Inferencer"
+        }
+      ],
+      "hasAbstract": false
+    },
+    {
+      "id": "44e9d04a-e8b4-418c-8a85-02fbb9263dd0",
+      "date": "2026-10-14",
+      "startMinutes": 990,
+      "endMinutes": 1008,
+      "startsAt": "2026-10-14T20:30:00.000Z",
+      "endsAt": "2026-10-14T20:48:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "AI in Practice: An Inside Look at Apollo's Approach",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Michael Manapat",
+          "company": "Rowspace",
+          "role": "Co-Founder"
+        },
+        {
+          "name": "Jack McDonald",
+          "company": "Apollo Global Management",
+          "role": "Principal at Apollo Global Management, COO of Redding Ridge"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "1cbc625f-7f07-49bb-9c5c-57c95f07ba77",
+      "date": "2026-10-14",
+      "startMinutes": 1008,
+      "endMinutes": 1026,
+      "startsAt": "2026-10-14T20:48:00.000Z",
+      "endsAt": "2026-10-14T21:06:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Process Supervision for Agents That Do Long-Horizon Work",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Mitchell Troyanovsky",
+          "company": "Basis",
+          "role": "Co-Founder"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "af8422e8-d5f8-4dbd-a918-6360f5bfba80",
+      "date": "2026-10-14",
+      "startMinutes": 1026,
+      "endMinutes": 1044,
+      "startsAt": "2026-10-14T21:06:00.000Z",
+      "endsAt": "2026-10-14T21:24:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "title": "Everything will be Simulated",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Cristóbal Valenzuela",
+          "company": "Runway",
+          "role": "Co-Founder and Co-CEO"
+        }
+      ],
+      "hasAbstract": true
+    },
+    {
+      "id": "c00d815d-afb1-4259-ab52-cadb0628a654",
+      "date": "2026-10-14",
+      "startMinutes": 1045,
+      "endMinutes": 1050,
+      "startsAt": "2026-10-14T21:25:00.000Z",
+      "endsAt": "2026-10-14T21:30:00.000Z",
+      "type": "other",
+      "format": "Lightning Talk (5-10mins)",
+      "title": "Closing Remarks",
+      "room": "Simons Room (Metropolitan East)",
+      "topics": [
+        "Main Stage"
+      ],
+      "speakers": [
+        {
+          "name": "Ksenia Se",
+          "company": "Turing Post",
+          "role": "AI Inferencer"
+        }
+      ],
+      "hasAbstract": false
+    }
+  ],
+  "slots": [
+    {
+      "date": "2026-10-13",
+      "startMinutes": 640,
+      "picks": [
+        {
+          "id": "71008b4d-f354-4f66-85dc-9052435c2955",
+          "theme": "Production",
+          "reason": "Default recommendation while your ticket access is unknown: the Curated-track bank-deployment session avoids assuming Leadership access. The abstract promises practical patterns for package scanning, CVE remediation, data sovereignty, PII protection, high availability, and disaster recovery in restrictive bank environments. Those controls can help move a useful Fidelity prototype through security review and into dependable operation.",
+          "question": "Which specific review artifacts and measurable controls shortened approval, and which claims were independently tested?",
+          "tradeoff": "Broader deployment infrastructure rather than knowledge-assistant architecture. If Leadership-track access is confirmed, Intelligence Plane may be the stronger topic match. Speed and zero-leakage statements are speaker claims, not verified guarantees.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=71008b4d-f354-4f66-85dc-9052435c2955",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "5ea06f9f-c79e-4d33-999c-7397b0165f9c",
+          "theme": "Retrieval",
+          "reason": "Conditional on Leadership-track access; arguably the strongest topic match for your internal knowledge-assistant remit. The counterparty-exposure example joins business semantics, entity resolution, per-user entitlements, and memory of corrections—the context problems that a stronger model alone cannot resolve. Use it to pressure-test the division of responsibilities between data, applications, and governance.",
+          "question": "How are user entitlements and previously corrected business definitions represented and rechecked at retrieval time?",
+          "tradeoff": "Officially Leadership Track, so verify eligibility before choosing it. The default route uses the Curated-track bank-deployment session until access is confirmed. Oracle implementation emphasis also means portable architectural lessons need to be separated from its product solution.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=5ea06f9f-c79e-4d33-999c-7397b0165f9c",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "1c25f303-f38f-450b-862d-669fdbab5f82",
+          "theme": "Models",
+          "reason": "A strong financial-services case study in regulated production ML. The abstract covers transaction representation, tokenization, dataset curation, training, evaluation, fine-tuning, and the experimental-to-production transition. Attend for transferable validation and data-quality practices if you also influence predictive-model strategy.",
+          "question": "Which dataset, validation, and monitoring decisions changed most between research performance and a production risk decision?",
+          "tradeoff": "Transaction foundation models are farther from your stated knowledge-assistant and workflow-agent focus than the first two choices.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": "Default route assumes no Leadership-track access. If your ticket permits Leadership Track, Intelligence Plane may be the stronger knowledge-architecture fit and can replace the default bank-deployment talk without changing later sessions."
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 665,
+      "picks": [
+        {
+          "id": "c4ba0138-6f6d-4780-93a1-4d8f0c478339",
+          "theme": "Evals",
+          "reason": "Most directly actionable for your team. Custom internal workflows rarely arrive with labeled benchmarks, so dataset creation and recognizing misleading synthetic data are likely to constrain progress before model selection does. This session explicitly targets contract-review, invoice, and internal-workflow agents without a standard benchmark.",
+          "question": "How do you obtain independent human validation and a held-out test set when the evaluation cases were generated by a model?",
+          "tradeoff": "Less financial-domain-specific than Arca, but higher immediate reuse across your workflows.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=c4ba0138-6f6d-4780-93a1-4d8f0c478339",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "75bd85ed-b49d-41f6-98e1-7a22853c18ab",
+          "theme": "Production",
+          "reason": "Best alternative if your agents must carry work across days, people, and external systems. Arca distinguishes long-horizon business processes from a single long-running model loop and promises orchestration, context, sandboxes, signals, and human handoffs. Use it to learn how to preserve state and authority across a workflow rather than merely chaining prompts.",
+          "question": "How are workflow state, ownership, retries, and human approvals preserved when work resumes days later?",
+          "tradeoff": "Architecture case study; obtain concrete failure-handling details rather than assuming the promised automation generalizes.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "e5624ee5-c855-46b7-bb72-c25d66fe7d5c",
+          "theme": "Retrieval",
+          "reason": "A close match for research assistants that must move beyond prose summaries. The proposed system converts filings and calls into a business-driver model, runs scenarios, and tests historical predictions using only information available at the time. The valuable transfer is explicit structure plus point-in-time evaluation of the assistant’s analytical claims.",
+          "question": "How do you validate the extracted driver relationships and prevent information leakage during the historical evaluation?",
+          "tradeoff": "An exploratory demo rather than evidence of a generally reliable enterprise research platform.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=e5624ee5-c855-46b7-bb72-c25d66fe7d5c",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 690,
+      "picks": [
+        {
+          "id": "30afe596-abe2-417c-bd5a-313fa4bc54b3",
+          "theme": "Evals",
+          "reason": "Highest-value assurance session for regulated research and workflow agents. The abstract separates authorization, execution controls, provenance, and evaluation integrity, using a synthetic audit decision trace and explicit human-stop points. This can become a practical design-review checklist for Fidelity assistants whose outputs may be challenged well after generation.",
+          "question": "What minimum evidence bundle lets an independent reviewer reproduce a material decision months later without treating model reasoning as proof?",
+          "tradeoff": "You will miss the longer authorization panel, but can deepen auth at the 14:30 gateway/SDK session or Wednesday access-control sessions.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=30afe596-abe2-417c-bd5a-313fa4bc54b3",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "e65f74f9-2174-406d-bd32-2d7073eb677d",
+          "theme": "Security",
+          "reason": "Choose this instead if delegated authority is the hardest unresolved production blocker. Its panel tackles the gap between a valid tool credential and whether an action serves the agent’s authorized mission, with contributors from Keycard, JPMC, and AAuth. The architecture discussion can inform tool-scoping and approval boundaries for internal workflow agents.",
+          "question": "Where is intent enforced deterministically, how is it bound to identity and resources, and how does revocation propagate mid-workflow?",
+          "tradeoff": "Runs 11:30–12:15, so you must give up the full 11:55 block, including the especially relevant Bridgewater permissions talk. AAuth is presented as a new protocol; do not assume mature adoption.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "b8bb725d-daf0-4ac0-8095-5737841c89e5",
+          "theme": "Retrieval",
+          "reason": "A focused way to improve the credibility of investment-research evaluations. The abstract promises point-in-time web retrieval for backtesting, avoiding answer leakage, and reconstructing what was public at a historical moment. Ask how coverage and timestamps are validated before considering it as evidence for historical assistant performance.",
+          "question": "How do snapshot gaps, changed publication dates, and licensing affect a defensible no-look-ahead evaluation?",
+          "tradeoff": "Product-specific retrieval talk; preferred over the other options only if historical research or backtesting is a near-term priority.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=b8bb725d-daf0-4ac0-8095-5737841c89e5",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": "Recommended path: take the 18-minute defensibility session, then move to permission-aware retrieval at 11:55. The auth panel is a mutually exclusive alternative spanning both slots."
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 715,
+      "picks": [
+        {
+          "id": "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2",
+          "theme": "Security",
+          "reason": "One of the two strongest Tuesday picks for your exact remit. Bridgewater and turbopuffer discuss permission-aware retrieval over millions of documents with overlapping, changing user scopes in the Vault supporting analyst agents. The key learning is where to enforce access control so an internal assistant retrieves every authorized document and no unauthorized one, including as permissions change.",
+          "question": "How are revocations, mixed-permission documents, cached context, and evaluation of leakage handled end to end?",
+          "tradeoff": "You sacrifice a strong eval-evidence session. Vendor and deployment claims come from the abstract; request architecture details and failure cases.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "b1fe8396-6fa8-4574-9775-0dc01f56ce57",
+          "theme": "Evals",
+          "reason": "Best alternative if you already have a settled retrieval-authorization architecture. The talk challenges aggregate scores through repeated-run variance, task-distribution fit, contamination, grader blind spots, and threshold-specific false-positive/true-positive rates. Those are directly reusable when deciding whether an internal agent earns more autonomy or a release should proceed.",
+          "question": "What confidence, repeatability, and grader-calibration evidence do you require before a score can change a release or autonomy decision?",
+          "tradeoff": "Primarily coding-agent examples, but its evidence standard transfers well to research and operations agents.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=b1fe8396-6fa8-4574-9775-0dc01f56ce57",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+          "theme": "Production",
+          "reason": "An appealing production operating-model case study rather than a generic agent demo. Monzo’s abstract describes a sandboxed internal agent, an MCP gateway, orchestration, Slack distribution, and guardrails for regulated-bank users. Focus on identity propagation, rollout controls, and why adoption worked across technical and nontechnical staff.",
+          "question": "Which guardrails are enforced outside the model, and which usage and quality metrics justified expanding access?",
+          "tradeoff": "Coding-agent-centered; reported PR and daily-task volumes are company claims, not independent quality or ROI evidence.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": "If you chose Intent Based Auth at 11:30, remain there until 12:15; these are alternative sessions, not additions to that path."
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 740,
+      "picks": [
+        {
+          "id": "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+          "theme": "Evals",
+          "reason": "Best lunch-period talk for your report-back. It expands evaluation from task completion to evidence, tools, authority, human intervention, exposure, and business consequence, and explicitly allows an insufficient-evidence verdict. The build/break/fix framing could become a system-risk review and trace schema for one Fidelity pilot.",
+          "question": "How were the incident sample and failure labels constructed, and which system-evaluation checks can be reproduced on our own agent traces?",
+          "tradeoff": "The incident counts and percentages are research claims from the session description; inspect methodology before repeating them as established facts.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "7d25e281-0cf7-4f13-849d-aaa5c679d83f",
+          "theme": "Security",
+          "reason": "Useful if your team exposes internal services and knowledge tools to agents. The abstract covers identity and authorization from agent registration through revocation, a complete lifecycle often missed when a prototype simply receives an API key. Bring the learnings to API and identity teams as questions about agent principals and delegated users.",
+          "question": "How should an internal service distinguish the agent, the delegating human, and the authorized task, especially on revocation?",
+          "tradeoff": "Short product-oriented overview; less immediately relevant if you only consume existing tools and do not own their access model.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=7d25e281-0cf7-4f13-849d-aaa5c679d83f",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "8d348b6c-25cc-45de-8dc4-aaa3d7130918",
+          "theme": "Production",
+          "reason": "A lower-priority stretch option about accountable long-running external work. The abstract is candid about unresolved lifecycle, metering, delivery, refunds, and recourse beyond payment protocols. Those distinctions help you ask whether a workflow actually delivered the paid-for result rather than merely completing an API or financial transaction.",
+          "question": "How do you bind a charged job to verified delivery, cancellation, and an auditable failure/refund path?",
+          "tradeoff": "Limited near-term fit for internal knowledge assistants; take the system-evals session unless your remit includes purchasing or paid data/tool agents.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=8d348b6c-25cc-45de-8dc4-aaa3d7130918",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": "Lunch runs 12:00–14:00, overlapping this talk and the 13:40 slot. Attend 12:20, then eat and synthesize around 12:40–13:30; preserve a short networking break before 13:40."
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 820,
+      "picks": [
+        {
+          "id": "5360728b-8004-41ab-9cf3-2383e6fe25c8",
+          "theme": "Retrieval",
+          "reason": "A direct extension of the morning knowledge-architecture theme. The abstract distinguishes types of memory and rebuilding context each turn instead of indefinitely growing the prompt. Look for a concrete memory policy covering user scope, correction history, freshness, evaluation, and deletion so the assistant remains useful without accumulating stale or sensitive context.",
+          "question": "Which memory types are written, retrieved, expired, and deleted, and how do you test cross-user isolation and stale-memory errors?",
+          "tradeoff": "The abstract is high-level and vendor-affiliated; treat memorable slogans as prompts for evidence, not architectural proof.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=5360728b-8004-41ab-9cf3-2383e6fe25c8",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+          "theme": "Strategy",
+          "reason": "Best alternative for demonstrating why the company should fund follow-up work. Contour describes logging generated ideas with sources and reasoning, measuring user utility, tracking progression into positions, and comparing AI signals with prior methods. Adapt the measurement discipline to analyst time, quality, adoption, and downstream decisions rather than claiming investment alpha from a simple correlation.",
+          "question": "How do you separate agent contribution from investor selection, market regime, and other changes in the investment process?",
+          "tradeoff": "Investment attribution is harder and more domain-specific than internal productivity; the same measurement pattern requires a causal design before making ROI claims.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "d906f8a2-d18f-4876-aaef-71e5100a0075",
+          "theme": "Security",
+          "reason": "Relevant if you influence the approved libraries and runtime that underpin production agents. The abstract addresses vulnerability backlogs, change constraints, and evidence of software integrity in financial institutions. Use it to discuss the supply-chain responsibilities shared by data science, platform engineering, and security.",
+          "question": "Which evidence and service-level targets demonstrate that dependency risk is shrinking without destabilizing business-critical systems?",
+          "tradeoff": "A platform/security strategy topic, with less direct application to retrieval quality and workflow evaluation than the first two.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=d906f8a2-d18f-4876-aaef-71e5100a0075",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 845,
+      "picks": [
+        {
+          "id": "adca6e26-1ddc-4f77-8e35-59bf1d1de81d",
+          "theme": "Evals",
+          "reason": "A strong lesson in evaluating expert research when even a seemingly simple financial fact can be disputed. The abstract introduces analytical provenance and a distressed-investing evaluation framework for messy data, unclear definitions, and judgment-heavy tasks. Translate it into tests that distinguish wrong extraction, legitimate ambiguity, and an answer that should be escalated to a domain expert.",
+          "question": "How does the evaluation represent multiple defensible answers, disputed source facts, and mandatory expert escalation?",
+          "tradeoff": "Specialized distressed-credit examples; the transfer is the evaluation method, not a claim of investment expertise.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=adca6e26-1ddc-4f77-8e35-59bf1d1de81d",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "51913a94-1203-47b1-95e3-21a12e2d6a8a",
+          "theme": "Strategy",
+          "reason": "A timely principal-level complement to the technical sessions. The described Agent Accountability Framework examines delegation of authority through human-governance principles. Use it to sharpen who owns an agent’s permitted work, who can expand its authority, and who remains accountable after an incident.",
+          "question": "How does the framework turn delegation principles into enforceable permissions, evidence, and named operational owners?",
+          "tradeoff": "Short conceptual abstract and no speaker affiliation supplied; confidence is lower than for the more concrete distressed-credit case study.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=51913a94-1203-47b1-95e3-21a12e2d6a8a",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "5337232e-0b56-4b19-808e-64cc1bdcee21",
+          "theme": "Security",
+          "reason": "A practical way to learn how agentic security analysis can trace identity flows and business-logic flaws beyond pattern matching. The demo promises broken-access-control, authentication/session, and business-logic findings with an auditable triage path. The transferable question is how you validate autonomous security findings and keep humans accountable for remediation.",
+          "question": "What independent checks confirm a finding and bound the false-positive rate before an engineering team acts on it?",
+          "tradeoff": "Vendor demo aimed at application security; less directly useful for research assistants than a provenance or governance session.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=5337232e-0b56-4b19-808e-64cc1bdcee21",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 870,
+      "picks": [
+        {
+          "id": "2d29f925-f16b-41b3-8086-de0524829cbe",
+          "theme": "Retrieval",
+          "reason": "A must-prioritize session for internal financial research assistants. Kepler’s abstract connects retrieval quality, numeric source verification, private-data namespaces, and privileges—the ingredients needed to keep plausible prose from becoming unsupported financial figures. Capture the concrete verification contract and failure behavior when the system cannot locate a valid source.",
+          "question": "How are a number’s entity, period, unit, currency, restatement, and exact source bound together, and what happens when verification fails?",
+          "tradeoff": "The promised no-invented-number behavior is a system claim to interrogate, not an independently proven guarantee; ask for adversarial and negative-case evaluations.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "e8e53365-3c1f-4c28-bdd0-44c305a05d57",
+          "theme": "Evals",
+          "reason": "An exceptionally strong alternative for research-agent evaluation. The abstract reports a buy-side research benchmark using licensed point-in-time data and contrasts harness effects with model choice, including accounting traps, stale summaries, and degenerate search loops. This can inform a Fidelity-specific benchmark and the decision to invest in harness improvements before upgrading a model.",
+          "question": "What separates model capability from harness quality in the benchmark, and can you reproduce the analysis on a held-out institution-specific workload?",
+          "tradeoff": "Benchmark performance statistics are preliminary session claims; task selection, graders, access, and comparability need scrutiny before using them for decisions.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=e8e53365-3c1f-4c28-bdd0-44c305a05d57",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "40b68994-afa7-4f71-beee-c1d0ad76c9ad",
+          "theme": "Security",
+          "reason": "The implementation-oriented auth option that complements the morning permission discussion. A small MCP app traces identity and delegated permission through gateways and SDK-protected services, then tests allowed and denied cases independently of model judgment. Especially useful if your team needs an actionable enforcement pattern after skipping the long auth panel.",
+          "question": "Which identity and delegation fields must survive each hop, and where do deny tests catch confused-deputy or cross-user access bugs?",
+          "tradeoff": "Keycard-specific demo and a difficult conflict with numeric provenance and buy-side benchmarking; choose it when an auth design decision is imminent.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=40b68994-afa7-4f71-beee-c1d0ad76c9ad",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 895,
+      "picks": [
+        {
+          "id": "dfae680b-2617-4782-9cbe-85942a9959e7",
+          "theme": "Production",
+          "reason": "Best fit for workflow agents that must survive unattended operation. The abstract focuses on crashes, lost progress, silent failures, and how state and recovery differ from merely observing a demo. Ask for a durable-execution model and operational failure taxonomy you can take to the platform team.",
+          "question": "What guarantees survive crashes and retries, how are duplicate side effects prevented, and which alerts imply intervention rather than observation?",
+          "tradeoff": "More of a reliability framework than a hands-on implementation; quoted market forecasts and survey statistics are not necessary to its technical value.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=dfae680b-2617-4782-9cbe-85942a9959e7",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+          "theme": "Production",
+          "reason": "A particularly strong principal-level operating-model alternative. Optiver describes a supported path with guardrails alongside an experimental funnel, required telemetry, task-specific model exams, routing, vendor independence, and cost controls. Those patterns help align experimentation with safe adoption across many internal teams.",
+          "question": "Which graduation criteria and telemetry allow an experiment onto the supported path, and how do certified-model exams reflect real tasks?",
+          "tradeoff": "Centered on engineering adoption and cost, rather than research-assistant grounding; deployment and savings assertions should be treated as one firm’s experience.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "bdab432a-0538-4431-ad5a-62653affd9da",
+          "theme": "Evals",
+          "reason": "Worth attending if you oversee agent-assisted development or plan to evaluate a review tool. The abstract is concrete about evaluation, codebase/product context, testing in live environments, separating writer/reviewer models, and routing. The transferable issue is how an agent reviewer catches meaningful errors without producing so much noise that people ignore it.",
+          "question": "What test set and reviewer-level precision/recall measures predict useful bug detection without overwhelming engineers?",
+          "tradeoff": "Software-delivery rather than research/workflow focus; autonomous-payments threat modeling is an alternative only if money-moving agents enter your remit.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=bdab432a-0538-4431-ad5a-62653affd9da",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 920,
+      "picks": [
+        {
+          "id": "2a589e49-4ee4-4c53-bfeb-40bc3db16506",
+          "theme": "Evals",
+          "reason": "A must-attend session for building a repeatable improvement loop. It explicitly builds regression cases from production traces, evaluates prompt/model/skill/tool changes as full-agent experiments, diagnoses competing safety and completion metrics, and feeds the result into CI. Bring back the mechanics for a release gate that prevents a local fix from hiding a new failure elsewhere.",
+          "question": "How do you select and refresh the regression set, set multiple metric gates, and avoid optimizing to a fixed trace collection?",
+          "tradeoff": "Arize implementation emphasis; reuse the trace-to-dataset-to-gate process independently of the product.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=2a589e49-4ee4-4c53-bfeb-40bc3db16506",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "6e51dbf6-0d55-4bd4-80a9-67dfd5ec559a",
+          "theme": "Security",
+          "reason": "A good alternative if you want a broad defense-in-depth checklist. The abstract combines prompt injection, permissions, MCP proliferation, runtime policies, threat detection, session observability, and behavioral drift. Use it to map which layers your team owns and which need controls from identity, security, and platform partners.",
+          "question": "Which control is enforced at each layer, which attack escapes it, and what evidence proves the combined controls work?",
+          "tradeoff": "No speakers are listed in the published data; broad framing may be less concrete than the regression-testing session.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=6e51dbf6-0d55-4bd4-80a9-67dfd5ec559a",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "ea2eb55e-fbf3-4d5e-a74b-b0eaac758b98",
+          "theme": "Production",
+          "reason": "Useful for workflow automation when a financial portal lacks a suitable API. The abstract covers browser agents, Browserbase, and production examples such as receipt collection and document retrieval. Ask how identity, confirmation, browser state, and completion checks are handled before treating a successful demo as a production workflow.",
+          "question": "How do you detect partial completion, safely resume after failure, and prevent a retry from repeating a consequential action?",
+          "tradeoff": "Product-centric overview; introduces browser fragility and authority risks that API-based workflows may avoid, so use it when browser work is actually necessary.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=ea2eb55e-fbf3-4d5e-a74b-b0eaac758b98",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-13",
+      "startMinutes": 945,
+      "picks": [
+        {
+          "id": "8b0e75e9-7072-4e07-a383-3ffe0a9a62cc",
+          "theme": "Production",
+          "reason": "Strongest closing breakout for your goals. Arize’s retrospective covers planning in the harness, memory beyond the context window, debugging agents from traces, architectural reversals, and the remaining human role. It should give you a more realistic sequence of design decisions and failure cases than a greenfield architecture pitch.",
+          "question": "Which early architecture decision caused the most expensive failure, and what objective evidence justified the rewrite?",
+          "tradeoff": "One vendor’s agent and experience; identify which lessons depend on its product and workload before generalizing.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=8b0e75e9-7072-4e07-a383-3ffe0a9a62cc",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "56da81eb-2e56-480b-b519-e15bc9ae5e8f",
+          "theme": "Production",
+          "reason": "An alternative if your main near-term concern is governing AI-assisted software output. The abstract covers shared standards, independent review, human oversight, and a live Qodo demonstration. Focus on what review must remain independent and how quality is measured as output volume rises.",
+          "question": "Which defects require independent review, and what quality measures can detect deterioration as AI-generated output grows?",
+          "tradeoff": "Software-development centered and vendor-demo format; less directly aligned than the production-agent retrospective.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=56da81eb-2e56-480b-b519-e15bc9ae5e8f",
+          "basis": "Official session abstract"
+        },
+        {
+          "id": "e710d1bc-660e-402a-92b7-866e1cace263",
+          "theme": "Evals",
+          "reason": "A useful stretch choice if conversational or voice workflows may enter your roadmap. The abstract evaluates complete conversations against correct actions, privacy, tool efficiency, and turn-taking, showing how speech-recognition and latency errors propagate through the system. Its transferable lesson is to test the whole user journey rather than optimize isolated component leaderboards.",
+          "question": "Which conversation-level failure cases and privacy checks predict real operational errors that component metrics miss?",
+          "tradeoff": "Voice is outside your current core priorities. The asset-management main-stage session has no substantive abstract or company listed, so it cannot responsibly outrank these documented sessions.",
+          "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=e710d1bc-660e-402a-92b7-866e1cace263",
+          "basis": "Official session abstract"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 640,
+      "picks": [
+        {
+          "id": "d49d49e1-90cb-4b8d-beb6-84d6560aaf04",
+          "theme": "Production",
+          "reason": "The closest match to internal research and workflow assistants: the abstract addresses multi-person collaboration, Office artifacts, firm memory, and retrieving the right context from very large deal workspaces. It also distinguishes workflows ready for delegation from those still requiring a copilot. Use it to build a realistic capability map for a Fidelity analyst assistant rather than an autonomy roadmap based on demos.",
+          "question": "What concrete acceptance criteria separate a workflow you delegate from one you keep human-led, and how do you prevent one user's correction from corrupting shared firm memory?",
+          "tradeoff": "A startup's production perspective; validate task mix, permissions, and reproducibility before transferring its conclusions to Fidelity."
+        },
+        {
+          "id": "ece6925c-c979-483f-bd40-51eacdbbe11b",
+          "theme": "Evals",
+          "reason": "An unusually concrete regulated-business evaluation case: Upstart describes moving from human review toward LLM judges calibrated against human graders. The relevant lesson is the evidence required to trust the evaluator itself, then expand automation. This can inform Fidelity's review sampling, judge validation, and escalation design even if your assistant generates research rather than voice conversations.",
+          "question": "Which judge-human disagreements blocked automation, what calibration threshold did you require, and how do you detect judge drift after deployment?",
+          "tradeoff": "Voice and consumer lending differ from internal knowledge work; transfer the validation discipline, not their risk thresholds."
+        },
+        {
+          "id": "d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+          "theme": "Retrieval",
+          "reason": "Treats documentation as infrastructure consumed by agents, not simply pages for humans. Coinbase and Mintlify discuss rebuilding developer knowledge so agents can reason over financial systems. This is useful if Fidelity assistants struggle with stale instructions, fragmented operating procedures, and poorly specified internal APIs. Look for content structure, ownership, update processes, and ways to test whether an agent interprets a document correctly.",
+          "question": "How do you test that documentation changes improve agent decisions, and how are version, authority, and access restrictions represented in retrieved content?",
+          "tradeoff": "Developer documentation is a narrower corpus than enterprise research; the abstract gives fewer evaluation details than the Upstart session."
+        }
+      ],
+      "notes": "Rankings reflect the approved internal-assistant priorities, not generic prestige. The third choice is labeled Leadership Track in the agenda; confirm badge access."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 665,
+      "picks": [
+        {
+          "id": "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+          "theme": "Retrieval",
+          "reason": "Ramp's production accounting agent offers directly reusable methods for testing context, skills, memory, tools, and harness changes together. The abstract describes skill ablations and the danger of storing stale task facts as memory. This is a high-value session for a Principal Data Scientist deciding whether more retrieval or persistent memory actually improves an assistant, and how to compare quality, reliability, latency, and cost.",
+          "question": "How did you design representative ablation cases, distinguish helpful process memory from stale facts, and set the rule for shipping a context change?",
+          "tradeoff": "Accounting workflows have clearer answers than open-ended research; adapt the benchmark and reviewer rubric rather than copying task scores."
+        },
+        {
+          "id": "4188711c-a587-423b-86c2-1ff2ad38c15e",
+          "theme": "Production",
+          "reason": "A particularly relevant enterprise-data comparison: direct retrieval, retrieval-augmented systems, and governed agentic SQL fail differently on ambiguous contracts and spend. The abstract promises examples of duplicated savings, misleading citations, and reconciliation against the wrong question. Capture how they surface uncertainty and select an architecture; those failure patterns transfer well to internal financial research and decision-support assistants.",
+          "question": "How do you detect double counting between parallel agents and distinguish a valid citation from evidence that supports the actual business claim?",
+          "tradeoff": "The description calls this a workshop, but the official timed agenda assigns only 18 minutes; plan for a talk/demo rather than a hands-on workshop."
+        },
+        {
+          "id": "3524cdd1-2e7b-4c75-81b1-11b4d28141b8",
+          "theme": "Evals",
+          "reason": "Useful for judging AI infrastructure using completed work rather than token speed. The abstract compares model, serving stack, hardware, concurrency, and harness effects on coding benchmarks. As a principal contributor, you can bring back a better benchmark specification for platform teams: success per dollar under realistic concurrency, with the same workload and harness held constant.",
+          "question": "Which workload and concurrency measurements must a team collect before deciding between hosted APIs and dedicated inference, and how do you include failed runs and verification cost?",
+          "tradeoff": "The experiments center on coding tasks and GPUs; this ranks below the two direct finance-agent sessions unless you influence serving economics."
+        }
+      ],
+      "notes": "Very strong conflict: choose Ramp for empirical context/memory development; choose AlixPartners instead if governed enterprise data and multi-agent ambiguity are your immediate project bottleneck. AlixPartners is labeled Leadership Track."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 690,
+      "picks": [
+        {
+          "id": "9b002687-09cf-42e2-9282-532ed9d0c184",
+          "theme": "Retrieval",
+          "reason": "An exact match to knowledge-assistant evaluation: the session compares the same RAG system with and without reranking and follows the effect through to answer quality. It explicitly includes latency and added complexity. Bring back an experiment design that connects retrieval changes to decision-useful answers instead of reporting a better retrieval metric as if it guaranteed a better product.",
+          "question": "What answer-level rubric and paired test do you use, and in which failure cases does a higher retrieval score fail to improve the generated answer?",
+          "tradeoff": "A focused optimization study rather than a complete retrieval architecture; high practical value if Fidelity already has a working RAG baseline."
+        },
+        {
+          "id": "471890b7-1779-41e1-8411-b499dd38c346",
+          "theme": "Evals",
+          "reason": "The sensational title masks a relevant technical question: how frontier models perform on actual investment-banking and private-equity work, and how task environments and post-training expose their strengths and failures. This can sharpen the task taxonomy for a research-assistant benchmark and help separate present capability from future autonomy. Ask for examples and evaluation design rather than treating the title as a capability claim.",
+          "question": "How are real finance tasks scored, how do you test generalization beyond the training environment, and which tasks still need expert judgment?",
+          "tradeoff": "Investment banking differs from Fidelity's internal workflows, and the abstract does not establish independent validation of any performance results."
+        },
+        {
+          "id": "11b98f47-dcc2-4524-8c06-d1f6c3ff044b",
+          "theme": "Strategy",
+          "reason": "Relevant to a principal scientist who also influences engineering practices: the conversation examines human review, testing, and verification as coding agents increase change volume. The promised developer research can help you ask whether AI-assisted development is improving reliable delivery rather than merely generating more code. Capture verification patterns that can support the implementation of your AI systems.",
+          "question": "Which verification practices most reliably reduce escaped defects, and which reported productivity effects survive adjustment for team and task differences?",
+          "tradeoff": "A coding-process conversation with a vendor research component; it is less directly applicable to research assistants than the reranker session."
+        }
+      ],
+      "notes": "Third pick is labeled Leadership Track. The model-performance and productivity findings advertised in abstracts are speaker claims to inspect, not independently verified conference results."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 715,
+      "picks": [
+        {
+          "id": "534796a7-0f44-4d59-a1c5-0df28a947c6a",
+          "theme": "Evals",
+          "reason": "The most direct session on designing evaluations around consequential failures rather than a single average score. It covers severity, human review, red teaming, and evaluation changes as models, prompts, tools, and the surrounding system evolve. Bring back a risk-weighted failure taxonomy and a clear readiness argument for an internal assistant that may influence a business decision.",
+          "question": "How do you assign failure severity, choose adversarial cases, and turn the results into release thresholds and escalation rules?",
+          "tradeoff": "The abstract is broad and does not name a specific deployed financial case; prioritize concrete artifacts and examples during the talk."
+        },
+        {
+          "id": "2401b55d-09c7-4159-8297-545dea0b7df2",
+          "theme": "Security",
+          "reason": "A technical red-teaming alternative covering both adversarial entry and trusted agents that violate instructions once inside. The second half, automated discovery of harness and evaluation blind spots on financial-agent tasks, is especially relevant to Fidelity workflow agents. Capture a repeatable method for finding rare but important policy violations that average task-success metrics can conceal.",
+          "question": "How do you measure the attack coverage of the gap-finder, reproduce a discovered violation, and verify that the fix generalizes to new attack variants?",
+          "tradeoff": "Part of the session concerns identity spoofing and video liveness, which is less relevant to internal assistants; live attacks are evidence of vulnerabilities, not prevalence estimates."
+        },
+        {
+          "id": "9f2a38a9-c0e9-461a-97c4-b8cb3fbe3e50",
+          "theme": "Strategy",
+          "reason": "An evidence-oriented leadership option on how operator experience, reusable skills, context, and workflow scaffolding relate to shipping software. It can support a practical enablement strategy for data scientists using coding agents: invest in shared context and engineering practice, then measure outcomes. The abstract also gives you an opportunity to challenge causal claims made from observational productivity data.",
+          "question": "What controls distinguish the effect of skills and context from team selection or task mix, and what outcome would you measure in a small internal pilot?",
+          "tradeoff": "Engineering-productivity data are observational and platform-specific; do not conclude that model choice never matters. Labeled Leadership Track."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 740,
+      "picks": [
+        {
+          "id": "11fef189-97e8-4c8e-87e8-dac43d800846",
+          "theme": "Evals",
+          "reason": "Complements offline evaluation with product experimentation. The session discusses generated experiences, metric selection, novelty effects, misleading behavioral signals, and when to scale an AI feature. For an internal assistant, this helps distinguish more usage or faster completion from genuinely better analyst work. Bring back a pilot plan with task quality, user effort, downstream rework, and business outcomes.",
+          "question": "How would you randomize and evaluate an internal research assistant when users learn across conditions and outputs vary on every run?",
+          "tradeoff": "Examples include consumer products; adapt the method to smaller expert populations and slower business outcomes at Fidelity."
+        },
+        {
+          "id": "d691c916-3f9f-48de-8d12-0c18343ba405",
+          "theme": "Evals",
+          "reason": "Worth considering for its time-aware evaluation design rather than a stock-picking promise. Samaya describes an agent harness that rewinds time and blocks future information, then tests earnings-metric predictions. This can inform leakage-resistant backtesting of financial research agents and clarify the difference between useful research support and evidence of investment performance.",
+          "question": "How do you enforce point-in-time access for documents, model knowledge, revisions, and tools, and audit that no future information leaked?",
+          "tradeoff": "An internal proof of concept does not establish investment alpha, and the user-approved focus is knowledge/workflow assistance rather than autonomous trading."
+        },
+        {
+          "id": "42d1cb16-e5c9-4eca-9aa8-d9a052b71dcd",
+          "theme": "Production",
+          "reason": "The most relevant third alternative if internal workflows depend on poorly documented legacy systems. The abstract uses graphs and agents to reconstruct rules, dependencies, data flows, and downstream effects before modernization. Capture its methods for building reliable system context, validating behavior, and reserving human approval for consequential decisions; those patterns can help an assistant understand enterprise processes.",
+          "question": "How do you prove that the reconstructed dependency map is complete enough, and which invariants are tested before approving an agent's proposed change?",
+          "tradeoff": "Primarily software modernization, with vendor examples; it is less direct than the experimentation session. Labeled Leadership Track."
+        }
+      ],
+      "notes": "These talks overlap the advertised lunch/networking window. Attend one at most, then protect 12:38–13:30 for lunch, note synthesis, and targeted networking."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 820,
+      "picks": [
+        {
+          "id": "79730720-7956-4109-a54b-82393c157ed0",
+          "theme": "Models",
+          "reason": "A useful bridge from technical evaluation to operating economics: the abstract centers on choosing models using cost, capability, and custom benchmarks. Ask how to route tasks to cheaper models while preserving the quality and risk thresholds that matter for Fidelity. Bring back a model-selection experiment, not a universal ranking copied from an external leaderboard.",
+          "question": "What is the right unit of cost for a financial assistant—successful verified task, not token—and how do you include retries, latency, and human review?",
+          "tradeoff": "The advertised price/capability differences are benchmark-provider claims; your own workload may rank models differently."
+        },
+        {
+          "id": "a901d5ea-57c6-433f-9c37-5fe6531adb99",
+          "theme": "Production",
+          "reason": "Offers a systems view of agent operations: shared conversations and skills, security permissions, configuration, outcome metrics, and improvement loops. Although framed as a software factory, these primitives can inform a maintainable team platform for workflow agents. Capture how proposed skill changes are evaluated and reviewed before they become the new default.",
+          "question": "What prevents a self-improvement loop from overfitting yesterday's failures or deploying a skill regression, and what metrics prove useful work per dollar improves?",
+          "tradeoff": "A Warp-centered demo and coding-factory use case; extract reusable controls rather than committing to a product from the session."
+        },
+        {
+          "id": "387377e2-3f42-4403-8e25-c2714047e856",
+          "theme": "Production",
+          "reason": "A concrete demonstration of moving verification earlier in an agent's work: supply project rules and architecture, inspect changes with the same standards used in CI, and let the agent correct mistakes before review. This is useful for data science teams increasingly asking coding agents to build the assistants and evaluation pipelines you own.",
+          "question": "Which checks run inside the agent session, how do you prevent check bypass, and how do you measure downstream review time and escaped defects?",
+          "tradeoff": "Product-specific Sonar tooling and a narrower coding concern; the introductory 'Evals in 5 minutes' option offers lower marginal value for your role."
+        }
+      ],
+      "notes": "All four options at this time are short sessions; 'Evals in 5 minutes' is scheduled for an 18-minute slot despite its title. Do not mistake titles for actual durations."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 845,
+      "picks": [
+        {
+          "id": "ac709f86-ce51-4582-a680-70449c32d29c",
+          "theme": "Security",
+          "reason": "One of the strongest architecture talks for a regulated enterprise. Wise describes separating model reasoning from authority and encoding repeatable oversight decisions as versioned policies enforced by the platform. This goes directly to the central question for Fidelity workflow agents: which actions may execute automatically, where must policy be enforced, and when does human judgment remain necessary?",
+          "question": "Where are trust boundaries and policy enforcement placed, how are exceptions handled, and what evidence supports moving a decision from human review to preventive control?",
+          "tradeoff": "Wise's payment context is more action-sensitive than many internal assistants; use its boundary design without copying transaction-specific policies."
+        },
+        {
+          "id": "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+          "theme": "Evals",
+          "reason": "A direct production-readiness alternative covering multidimensional quality, ambiguous human rubrics, validation of LLM judges, continuous scoring, regression gates, and staged rollout in regulated banking. This is highly relevant if you are responsible for making a prototype credible to reviewers and for monitoring quality after release.",
+          "question": "What evidence package persuaded reviewers to approve rollout, how were judges validated, and which production signals triggered rollback or renewed human review?",
+          "tradeoff": "The abstract names no banking institution or measured outcome; verify the case detail and separate reusable methodology from product positioning."
+        },
+        {
+          "id": "627ca259-d123-4bda-bc58-6e662277ef49",
+          "theme": "Strategy",
+          "reason": "Useful for cross-team planning: the abstract frames platform engineering and SRE as essential controls for AI-generated software, with security exposure and review bottlenecks limiting practical gains. Bring back an ownership map for your AI systems—what data science owns, what the platform should standardize, and what security/reliability partners must supply.",
+          "question": "Which platform controls remove the most review bottlenecks, and what measurable service objectives or incident indicators should an AI team agree with SRE?",
+          "tradeoff": "A strategic argument drawn from leadership conversations, with more emphasis on coding than research assistants; expect fewer implementation details than Wise."
+        }
+      ],
+      "notes": "The concurrent Blackstone/Norm.ai main-stage session currently has no abstract. It may be valuable for leadership context, but the information available does not justify displacing these well-specified technical choices."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 870,
+      "picks": [
+        {
+          "id": "aaea3072-e0d1-480b-9c0e-eddf0fc6e43e",
+          "theme": "Security",
+          "reason": "The most directly applicable data-access security session: least privilege, existing corporate identity/roles, and database-level enforcement for MCP-enabled agents. It also discusses governing vector retrieval alongside transactional data. For Fidelity knowledge assistants, focus on preserving user entitlements through the retrieval and tool path and preventing a prompt or compromised agent from expanding accessible data.",
+          "question": "How does end-user identity propagate through MCP to row-level controls, how are service-account privileges constrained, and how are retrieval results filtered and audited?",
+          "tradeoff": "Oracle-specific implementation and an argument for database-native vectors; assess the security pattern separately from the vendor architecture choice."
+        },
+        {
+          "id": "bb3856b7-6575-483e-ae26-c4df34fdf3a4",
+          "theme": "Retrieval",
+          "reason": "A focused framework for trustworthy financial analysis: deterministic computation, provenance from the first step, entity/definition resolution, and broad document coverage. This is directly relevant when an internal research assistant produces plausible but unsupported numbers or misses evidence in a large corpus. Use it to ask which responsibilities belong in code and data infrastructure rather than model generation.",
+          "question": "How are every reported number and claim tied to source evidence, and how do you test corpus coverage and ontology errors separately from reasoning failures?",
+          "tradeoff": "A product founder's diagnosis and advertised research findings; inspect examples and methodology before repeating broad market conclusions."
+        },
+        {
+          "id": "cd44e04a-fc21-4814-9b82-700c1b75799f",
+          "theme": "Production",
+          "reason": "A document-heavy enterprise implementation with Datasite and Reducto. The abstract promises build-versus-buy reasoning and evaluation of extraction/document infrastructure using accuracy, citations, latency, and security. This can inform how Fidelity should invest in document ingestion for research assistants and where a vendor capability is preferable to building another extraction stack.",
+          "question": "What document types and failure cases were in the acceptance set, how were table/citation errors measured, and what requirements drove build versus buy?",
+          "tradeoff": "A vendor-customer conversation in M&A; verify baselines and operating costs, and distinguish evidence quality from extraction accuracy alone."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 895,
+      "picks": [
+        {
+          "id": "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed",
+          "theme": "Evals",
+          "reason": "A strong capstone for the conference's evaluation theme: the abstract explicitly connects golden datasets, domain evaluators, deployment gates, and reviewable traces/scores in a global-bank pattern. Bring back a concrete design for turning a candidate model, prompt, tool, or harness change into an auditable release decision rather than a persuasive demo.",
+          "question": "How are gate thresholds, critical-failure overrides, evaluator versions, and exceptions defined, and what evidence is retained for each release?",
+          "tradeoff": "A short Langfuse-centered session with an unnamed bank; the advertised pattern still needs adaptation and validation under Fidelity's own policies."
+        },
+        {
+          "id": "1735a9c7-e790-4f06-8e4f-382b335c2e90",
+          "theme": "Production",
+          "reason": "A practical improvement loop for browser, document, and spreadsheet agents. The abstract links failure collection, representative evaluation cases, playbook/tool changes, regression testing, and the full cost of retries, verification, and human review. This is especially useful for designing an achievable first Fidelity workflow pilot with explicit correctness and usable deliverables.",
+          "question": "How were accuracy and usable output defined, what was held out across iterations, and did cost calculations include human review and failed retries?",
+          "tradeoff": "The quantified case is competitor pricing outside finance and manually assessed; reported gains are not proof of transfer to Fidelity tasks."
+        },
+        {
+          "id": "12e5a06d-d1c9-4d66-80a0-ce94ca707d0b",
+          "theme": "Production",
+          "reason": "The most directly aligned alternative for an event-driven internal research coworker: skills, enterprise connectors, document triggers, cross-conversation memory, and corporate access controls. This can make the workflow architecture tangible after the day's evaluations and security sessions. Focus on how the agent wakes, receives context, scopes access, and hands a result back to a person.",
+          "question": "How are event-triggered runs deduplicated, source and memory permissions enforced, and outbound messages or proposed actions approved and audited?",
+          "tradeoff": "A Gemini/Managed Agents blueprint with ambitious autonomy language; test a read-only, human-reviewed workflow before extrapolating to trading actions."
+        }
+      ],
+      "notes": "A particularly hard conflict. If agent authority is your immediate blocker, the concurrent Speakeasy session 'Permission to Act' is a relevant reserve, but its abstract is less specific than these three."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 920,
+      "picks": [
+        {
+          "id": "88b218ef-aae2-47f4-b071-3cb60257e92e",
+          "theme": "Retrieval",
+          "reason": "Perhaps the closest Wednesday match to a financial research assistant. The abstract separates evidence collection from reasoning, using a search subagent for question decomposition, semantic plus exact retrieval, source/version checks, and compact evidence. This gives you an architecture hypothesis for large, messy financial corpora and a way to test whether evidence quality improves answers while reducing tool use and cost.",
+          "question": "What evidence schema carries source, version, table coordinates, uncertainty, and access rights, and how do you evaluate the search subagent independently and end to end?",
+          "tradeoff": "A search vendor's architecture and benchmark examples; compare with a simpler single-agent retrieval baseline before adding a specialist agent."
+        },
+        {
+          "id": "f5c310e9-b0bb-4fa6-bc0d-bda758e1c464",
+          "theme": "Evals",
+          "reason": "An excellent alternative for a Principal Data Scientist evaluating research summaries, memos, and other outputs without a single correct answer. The abstract combines human annotation, LLM judges, production monitoring, and statistical uncertainty. Capture a calibrated rubric and an uncertainty-aware method for deciding whether a new assistant version is meaningfully better.",
+          "question": "How do you handle expert disagreement, calibrate judges to the rubric, and quantify uncertainty when the number of expensive human ratings is small?",
+          "tradeoff": "Cross-domain evaluation rather than finance-specific architecture; it may be the better choice if subjective output quality is your current project bottleneck."
+        },
+        {
+          "id": "bf371da6-6ef6-42ec-865f-5de4974a9114",
+          "theme": "Retrieval",
+          "reason": "A rare financial-institution perspective on constructing an enterprise state estimate from messages, decks, meetings, and changing evidence. The abstract explicitly distinguishes retrieving past statements from estimating what is true now, including freshness and uncertainty. It is valuable strategic input if Fidelity assistants need current organizational context rather than static document Q&A.",
+          "question": "How are contradictory observations, staleness, permissions, and provenance represented, and what benchmark proves the state estimate improves decisions over ordinary retrieval?",
+          "tradeoff": "An ambitious architecture whose claimed advantages must be tested; sensitive enterprise communication access and prediction quality deserve particular scrutiny."
+        }
+      ],
+      "notes": "All three are strong. Neo4j's concurrent Graph Engineering session is also directly relevant to portable governed memory/context, but ranks fourth because the chosen evidence-layer, statistical-evaluation, and institutional-state perspectives broaden the learning portfolio."
+    },
+    {
+      "date": "2026-10-14",
+      "startMinutes": 945,
+      "picks": [
+        {
+          "id": "8413d6ee-ceb1-4095-9f27-49d518f1dd5a",
+          "theme": "Production",
+          "reason": "A useful design challenge for tool-heavy workflow assistants: let the agent compose operations in a sandbox rather than choosing repeatedly from a large tool catalog. The abstract connects code execution, skills, MCP/plugins, read-only trace access, and evaluation. Bring back a controlled comparison of a code-capable agent with your current tool-calling baseline on real analyst tasks.",
+          "question": "Which tasks improve in code mode, what sandbox and data-exfiltration controls are required, and how do you compare verified task success and cost to typed tools?",
+          "tradeoff": "Code execution expands both capability and risk; benchmark claims do not establish safety or gains on Fidelity workloads."
+        },
+        {
+          "id": "ff7ea99c-bf5b-4b94-8680-c5fb6b5abb81",
+          "theme": "Production",
+          "reason": "Directly relevant to deploying agents inside enterprise-controlled infrastructure. The abstract separates the agent loop from the computer lifecycle and describes outbound-only connectivity for locked-down customer environments. This can inform a cleaner boundary between your agent application and the infrastructure/security team's runtime responsibilities.",
+          "question": "What guarantees survive across runtime drivers for isolation, identity, filesystem persistence, audit logs, cancellation, and cleanup?",
+          "tradeoff": "An infrastructure implementation session centered on Factory's OpenCompute; most useful if runtime portability or private deployment is an active requirement."
+        },
+        {
+          "id": "3005a1a2-c6cc-426f-9319-185b86b0039c",
+          "theme": "Models",
+          "reason": "A worthwhile breadth option given your data science role: tabular foundation models may change baseline selection for structured-data prediction in finance. Treat it as a scouting session to identify datasets, constraints, and a fair comparison against established models. A small benchmark on an approved task could be a concrete report-back experiment even though it lies outside the primary assistant focus.",
+          "question": "For which sample sizes, feature types, temporal shifts, and leakage controls do gains hold, and what happens on a chronological holdout against a tuned tree baseline?",
+          "tradeoff": "Lower alignment to knowledge/workflow agents; the abstract's broad performance and no-tuning claims are vendor claims requiring independent evaluation."
+        }
+      ],
+      "notes": "Cisco Expo Session 1 has no abstract or named speaker in the current schedule and is not a defensible top-three choice on the information available."
+    }
+  ],
+  "keynotes": {
+    "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6": {
+      "priority": true,
+      "focus": "Anchor the day in a real institutional knowledge platform. Capture the source-quality contract, buy/build boundary, and ownership decisions; connect this keynote to the 11:55 permissions talk.",
+      "question": "What quality and entitlement contract must a source satisfy before investors or agents can use it?",
+      "caveat": "Adoption and business-benefit statements remain speaker-reported."
+    },
+    "68a1e78b-569e-4314-a56f-f20508123cbe": {
+      "priority": false,
+      "focus": "Listen for concrete financial-services capabilities, constraints, and current deployment patterns. Separate delivered behavior from roadmap.",
+      "question": "Which capabilities are demonstrated in production, and which remain roadmap?",
+      "caveat": "Published title is a role label; no abstract is available."
+    },
+    "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1": {
+      "priority": true,
+      "focus": "Capture controls that preserve useful research and engineering work while constraining agent risk. Ask what is enforced outside the model and what was measured.",
+      "question": "Which enforced control improved safety without materially reducing task utility?",
+      "caveat": "The title does not establish that all safety/utility tradeoffs disappear."
+    },
+    "5191589c-a70e-4806-99dc-86f7794f46b9": {
+      "priority": false,
+      "focus": "Extract principles for AI-assisted software review and code quality that your team can use when building assistants and evaluation pipelines.",
+      "question": "What evidence should decide which AI-generated changes still need independent review?",
+      "caveat": "Principles and opinions should be distinguished from measured delivery outcomes."
+    },
+    "b2ed4456-5671-4e8e-83fd-684c012fef8c": {
+      "priority": false,
+      "focus": "Use the discussion to sharpen task definitions and success criteria for probabilistic systems. Capture a definition of “good” that can become a review rubric.",
+      "question": "How do you translate a user need into measurable completion criteria?",
+      "caveat": "Broad predictions about coding automation are the speaker’s framing, not settled facts."
+    },
+    "9a9dfcd0-459f-43eb-b3f8-004864b4ad2a": {
+      "priority": false,
+      "focus": "An institutional practitioner perspective. Look for a specific investment or operating workflow and how value was established.",
+      "question": "Where did AI demonstrably change a workflow, and against which baseline?",
+      "caveat": "Role-label title and no abstract; subject and technical depth remain unknown."
+    },
+    "cada670e-c5ea-4977-b3c2-9a68dda26abb": {
+      "priority": false,
+      "focus": "Use as horizon scanning. Capture one capability boundary and a bounded implication rather than forcing a near-term assistant application.",
+      "question": "Which present capability is demonstrated, and what remains a research ambition?",
+      "caveat": "Description is chiefly a biography; direct fit to internal knowledge/workflow assistants is lower."
+    },
+    "871cd5c8-13f4-4fe9-ac49-c8b25d970add": {
+      "priority": false,
+      "focus": "Attend with open-ended notes and ask for a concrete capability, limitation, or engineering lesson.",
+      "question": "Which result can a practitioner inspect or reproduce today?",
+      "caveat": "Role-label title and no abstract. Affiliation alone does not establish the topic."
+    },
+    "caecd5f6-b352-4868-a995-f0f71679caf0": {
+      "priority": false,
+      "focus": "Capture a build/hold criterion: which assistant gaps are worth solving now, and which may be overtaken by model progress?",
+      "question": "What evidence makes a capability gap worth building around today?",
+      "caveat": "Future frontier progress is uncertain; record the assumptions behind the strategy."
+    },
+    "4add802c-6a68-4e9c-93fb-9c1e017193bc": {
+      "priority": false,
+      "focus": "Map distinct verification responsibilities during generation, in CI, and after deployment. Translate the loops into owners and defect classes.",
+      "question": "Which failure class does each loop catch, and what still requires independent verification?",
+      "caveat": "An engineering framework does not by itself demonstrate reduced production defects."
+    },
+    "ee927042-2ba1-44c3-b304-d001ae247839": {
+      "priority": true,
+      "focus": "A strong anchor for workflow agents. Capture an auditable process map, boundaries around agent loops, and evidence used to grant more autonomy.",
+      "question": "Where does human authority remain, and how does measured quality change the autonomy boundary?",
+      "caveat": "Transfer the boundary-design method; agree policies under your own operating requirements."
+    },
+    "02f94835-c29d-4cf5-b77a-c5a491b747b8": {
+      "priority": false,
+      "focus": "Listen for the financial-services product direction and unresolved enterprise requirements. Useful input to a build/buy conversation.",
+      "question": "Which requirements are met today, and which need independent testing or remain future direction?",
+      "caveat": "Product direction is not procurement-ready evidence or a validated fit for Fidelity."
+    },
+    "01982251-7fdc-4828-8520-fb34b9bc7564": {
+      "priority": true,
+      "focus": "Bring back one concrete attack path, the enforcement point of its defense, and a residual failure worth testing in your assistant threat model.",
+      "question": "What attack still succeeds after the proposed defense, and how can a team reproduce the test safely?",
+      "caveat": "A demonstrated incident establishes a failure mode, not its prevalence across systems."
+    },
+    "44e9d04a-e8b4-418c-8a85-02fbb9263dd0": {
+      "priority": false,
+      "focus": "Capture the institutional use case, baseline, operating model, and evidence behind any claimed benefit.",
+      "question": "What changed in the workflow, and how was its value measured?",
+      "caveat": "The sparse abstract only identifies a customer co-presentation; detailed architecture is unconfirmed."
+    },
+    "1cbc625f-7f07-49bb-9c5c-57c95f07ba77": {
+      "priority": true,
+      "focus": "One of the strongest fits across both days. Capture a minimal behavior specification, judge-applicability rule, and how trajectory failures guide system changes.",
+      "question": "How are behavior judges validated, critical behaviors selected, and specification growth controlled?",
+      "caveat": "A correct final answer can conceal an unreliable process; judge quality also requires validation."
+    },
+    "af8422e8-d5f8-4dbd-a918-6360f5bfba80": {
+      "priority": false,
+      "focus": "A physical-world-model horizon session. Capture one bounded insight about simulation; avoid turning it into an immediate financial-assistant recommendation.",
+      "question": "Which demonstrated simulation capability has a clear validity boundary?",
+      "caveat": "Lower direct alignment to your confirmed research-assistant and workflow-agent priorities."
+    }
+  }
+}

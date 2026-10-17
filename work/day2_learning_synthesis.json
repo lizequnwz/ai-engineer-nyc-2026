@@ -1,0 +1,269 @@
+{
+  "title": "Cross-day synthesis: dependable financial-services AI combines workflow knowledge, prevention, verification and measured value",
+  "updatedDate": "2026-10-14",
+  "sourceLimits": {
+    "attachment": "/Users/charlie/.codex/attachments/a45dfe6d-9d15-4ffb-b6b5-b8152ec8f7bc/Pasted text.txt",
+    "portionUsed": "Only the text following ----Day2. The attachment repeats Day 1; that repeated portion is not counted as new evidence.",
+    "day2Coverage": "Five identified Day 2 session-note sets. The Range vignette was identified through the user’s company confirmation and fresh official metadata: Matt Ragone, Range, We Let Our Financial Planners Write the Agents. Three note sets explicitly mark Speaker claim and Unclear maturity; Ramp and Range have no explicit evidence/maturity fields. All five remain unverified speaker accounts.",
+    "day1Basis": "The existing seven Day 1 note sets remain the Day 1 evidence source. All seven were explicitly speaker claims; only Vault and Two Sigma were marked production, speaker-reported. The Day 1 closing reflection remains unattributed.",
+    "evidenceRule": "No speaker claim is upgraded to demonstrated, independently checked or internally validated evidence. Concrete implementation descriptions, usage volume and claims that experiments worked do not establish comparative effectiveness or institutional rollout.",
+    "identityRule": "Range attribution is supported by the user’s confirmation and fresh October 14 official session metadata. Do not identify the bank behind the virtual assistant or ambiguous data-provider names. The OpenAI provider-list spellings and relationships are unverified. Jonathan Osborne’s employer differs between the notes/October 10 snapshot (Comet) and October 14 metadata (NatWest); preserve that discrepancy without using it to infer the assistant’s bank.",
+    "scope": "The main synthesis concerns major financial-services and wealth-management patterns. Tips are editorial proposals, not instructions attributed to speakers or commitments for an existing Fidelity project.",
+    "metadataSource": "work/schedule-2026-10-14-data.json — props.pageProps.sessions, fresh official schedule metadata supplied by the parent research; use only for session matching and explicit metadata distinctions."
+  },
+  "day2Sources": [
+    {
+      "id": "D2-01",
+      "titleInNotes": "The Machine that Changed the World, vAI",
+      "speakerCompanyInNotes": "Tariq Shaukat · Sonar",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc",
+      "evidence": "Speaker claim, explicitly recorded",
+      "maturity": "Unclear, explicitly recorded"
+    },
+    {
+      "id": "D2-02",
+      "titleInNotes": "Building the Next Chapter of AI in Finance",
+      "speakerCompanyInNotes": "Joseph Kim · OpenAI",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8",
+      "evidence": "Speaker claim, explicitly recorded",
+      "maturity": "Unclear, explicitly recorded"
+    },
+    {
+      "id": "D2-03",
+      "titleInNotes": "Building Better Agents Through End-to-End Evals",
+      "speakerCompanyInNotes": "Not captured in the Day 2 notes",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "evidence": "Unverified speaker account; evidence label not captured",
+      "maturity": "Not captured",
+      "identityCaveat": "Fresh October 14 metadata matches the supplied heading and session identifier. The older October 10 record used a different title; this is one session, not two.",
+      "speakerCompanyOfficialMetadata": "Ryan Stevens · Ramp, fresh October 14 metadata"
+    },
+    {
+      "id": "D2-04",
+      "titleInNotes": "From Agent Prototype to Production in Regulated Banking",
+      "speakerCompanyInNotes": "Jonathan Osborne · Comet",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "evidence": "Speaker claim, explicitly recorded",
+      "maturity": "Unclear, explicitly recorded",
+      "speakerCompanyOfficialMetadata": "Jonathan Osborne · NatWest, fresh October 14 metadata",
+      "identityCaveat": "The supplied notes and October 10 snapshot say Comet; fresh October 14 metadata says NatWest. State the discrepancy. It does not by itself identify the bank behind the assistant described in the notes."
+    },
+    {
+      "id": "D2-05",
+      "titleInNotes": "RIA is building agent by business",
+      "speakerCompanyInNotes": "Range confirmed subsequently by the user; speaker not captured in the raw notes",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184",
+      "evidence": "Unverified speaker account; evidence label not captured in the raw notes",
+      "maturity": "Not captured in the raw notes; fresh program separately claims daily planner skill use",
+      "identityCaveat": "User confirmed Range; fresh official metadata identifies Matt Ragone and the matching financial-planner skill workflow. Official program claims are separate from attendee-note evidence.",
+      "titleOfficialMetadata": "We Let Our Financial Planners Write the Agents",
+      "speakerCompanyOfficialMetadata": "Matt Ragone · Range"
+    }
+  ],
+  "executiveSynthesis": "Across the two days, the notes move from building a useful information and control foundation toward defining and verifying complete work. Day 1 emphasized task-specific knowledge, active access boundaries, consequential failure tests, numerical provenance and a value baseline. Day 2 adds explicit intent and independent verification, end-to-end task success, multidimensional quality, reusable procedural skills and finance-oriented work products. The strongest wealth-management pattern is human augmentation: preparing an analysis or brief while a professional focuses elsewhere, followed by review and adjustment. These are mechanisms and hypotheses recorded from speakers; the notes do not establish autonomous advice, universal readiness, causal ROI or independently validated safety.",
+  "reportBackMessages": [
+    {
+      "rank": 1,
+      "headline": "Build around a complete, reviewable workflow rather than an impressive answer",
+      "message": "Institutional information, procedural knowledge and the final work product belong together. Bridgewater's task-specific information foundation, the finance-interface discussion and the Range skills vignette point toward workflows such as a prepared meeting or a draft analysis that a professional can inspect and accept. The useful success definition includes the evidence, necessary questions, limits, edits and handoff—not just fluent generation.",
+      "sources": [
+        "D1-01",
+        "D2-02",
+        "D2-03",
+        "D2-05"
+      ],
+      "evidenceBoundary": "This is cross-session synthesis. Range is now identified through the user’s confirmation and official metadata, but the supplied notes provide no measured comparison showing higher advisor capacity or better client outcomes."
+    },
+    {
+      "rank": 2,
+      "headline": "Confidence needs preventive boundaries, independent checks and an evidence trail",
+      "message": "Two Sigma's declared access and active controls, Kepler's source/calculation/citation path and Sonar's intent–guardrails–verification–evidence framework reinforce one operating principle: a person or another model agreeing with an answer is insufficient assurance. Make permitted behavior explicit, prevent defined invalid actions, and retain reviewable evidence of the checks performed.",
+      "sources": [
+        "D1-02",
+        "D1-07",
+        "D2-01"
+      ],
+      "evidenceBoundary": "The frameworks and mechanisms are speaker-described. No control effectiveness, universal code-size threshold or calibrated confidence formula is established by the notes."
+    },
+    {
+      "rank": 3,
+      "headline": "Evaluate complete work across quality dimensions, then measure accepted value against a baseline",
+      "message": "The end-to-end-evals notes, the banking session’s quality-vector framing, Sonar's judge-variability concern and Day 1's risk/value discussions argue for separate task, safety and experience measures. Inspect evaluator errors, preserve severe-failure gates, and include human review and repeated-attempt cost before interpreting productivity or business value.",
+      "sources": [
+        "D1-04",
+        "D1-05",
+        "D1-06",
+        "D2-01",
+        "D2-03",
+        "D2-04"
+      ],
+      "evidenceBoundary": "Neither average quality, pass@k, conversation volume nor adoption proves safe single-attempt completion, causal financial value or a successful rollout."
+    }
+  ],
+  "learnings": [
+    {
+      "id": "CD1",
+      "title": "Specify the job, workflow and acceptable completion before building skills",
+      "synthesis": "Day 1's business-value questions and Day 2's end-to-end-evals notes both start with what work must succeed. The Range financial-planning vignette adds a procedural dimension: a skill needs to know which client information is available, how to obtain it and how recommendations are prepared. Its Pick–Teach–Pack–Test–Ship sequence includes why the work is done, questions the agent must ask and limits it must respect.",
+      "sources": [
+        "D1-01",
+        "D1-06",
+        "D2-03",
+        "D2-05"
+      ],
+      "practicalTips": [
+        "Choose a repeatable workflow whose output a domain expert can judge.",
+        "Record required inputs, why each step matters, mandatory questions, limits, handoff and acceptance criteria.",
+        "Judge the completed work product and correction effort, not only whether an agent produced an answer."
+      ],
+      "limit": "Range attribution is confirmed, but the notes supply no measured result. The five steps are a recorded workflow idea, not a verified industry standard or evidence of suitability for autonomous advice."
+    },
+    {
+      "id": "CD2",
+      "title": "Evaluate the model, context, skills and memory as one task system",
+      "synthesis": "Bridgewater distinguishes information needs by consumer and task. The Day 2 eval notes then describe experiments with skill ablation, reducing an eight-skill bundle to four, trajectory-distilled memory and a smaller spreadsheet skill. Together, they suggest that more context or more skills should earn their place through a controlled end-to-end comparison.",
+      "sources": [
+        "D1-01",
+        "D1-04",
+        "D2-03"
+      ],
+      "practicalTips": [
+        "Hold the representative task set and grading rubric constant while varying one component where feasible.",
+        "Measure task acceptance, consequential errors, latency, cost and reviewer effort together.",
+        "Distinguish partial-credit task quality from binary success and repeated-attempt measures such as pass@k."
+      ],
+      "limit": "The notes say the experiments worked but give no effect sizes, task set, model versions, costs or statistical uncertainty. Eight-to-four is a reported configuration change, not a recommended bundle size."
+    },
+    {
+      "id": "CD3",
+      "title": "Use prevention and independent verification together",
+      "synthesis": "Day 1's registered access boundaries and numerical-evidence checks align with Sonar's confidence framing: explicit intent, guardrails, independent verification and repeatable evidence. Prevention reduces defined invalid behavior; verification checks what actually happened. Neither eliminates the need for accountable judgment on unresolved cases.",
+      "sources": [
+        "D1-02",
+        "D1-07",
+        "D2-01"
+      ],
+      "practicalTips": [
+        "State the allowed resources, actions, output requirements and escalation conditions before execution.",
+        "Choose checks that fail differently from the generator; verify inputs and transformations as well as presentation.",
+        "Retain enough versioned evidence to repeat a check and understand an exception."
+      ],
+      "limit": "Sonar's multiplication is a conceptual framework, not a calibrated confidence probability. The notes do not establish how independent any particular verification implementation was or what failure coverage it achieved."
+    },
+    {
+      "id": "CD4",
+      "title": "Keep safety, task success and user experience visible as separate dimensions",
+      "synthesis": "The Day 1 failure study argues that frequency alone misses consequential harm. The banking-session Day 2 notes call quality a vector and distinguish safety, task and experience measures. This provides a way to expose tradeoffs rather than allowing a high overall score to hide a critical failure or poor user experience.",
+      "sources": [
+        "D1-05",
+        "D1-06",
+        "D2-04"
+      ],
+      "practicalTips": [
+        "Keep separate measures for prohibited behavior, task completion, coverage/completeness and experience.",
+        "Define critical-failure conditions explicitly instead of averaging them into a satisfaction score.",
+        "Review quality by task and failure category; high volume can conceal important rare cases."
+      ],
+      "limit": "The notes contain an ambiguous safety term ('roundedness') and no operational definitions for satisfaction or knowledge retention. They do not specify thresholds, measured quality or bank identity."
+    },
+    {
+      "id": "CD5",
+      "title": "Treat automated judges and human review as fallible parts of the system",
+      "synthesis": "Two Sigma's selective-approval classifier and the Day 1 harm-detection discussion become more concrete in Day 2: Sonar raises variable judge answers and cognitive surrender, while the banking session suggests a judge that tends toward failing and is part of configuration. The synthesis is to calibrate oversight, rather than assuming either a human or a stricter model is automatically reliable.",
+      "sources": [
+        "D1-02",
+        "D1-05",
+        "D2-01",
+        "D2-04"
+      ],
+      "practicalTips": [
+        "Compare judge decisions with independently adjudicated examples, including severe false passes and unnecessary false failures.",
+        "Version judge model, prompt, rubric and threshold with the evaluated system.",
+        "Use repeat assessments to inspect variability and examine whether reviewers meaningfully challenge unsupported outputs."
+      ],
+      "limit": "Fail-leaning grading is a speaker proposal, not a demonstrated optimum. It can increase false rejections and review burden. The notes do not quantify cognitive surrender or establish that all human review fails to scale."
+    },
+    {
+      "id": "CD6",
+      "title": "Make financial work products inspectable at the point of use",
+      "synthesis": "Kepler's claim-level numerical evidence connects to the OpenAI session's finance-oriented interface, source passages/tables/charts and document/artifact generation. The Range vignette places a professional's review, editing and adjustment at the end of an analysis workflow. This suggests treating the final brief, spreadsheet or presentation as a decision surface with accessible evidence, not merely a formatted answer.",
+      "sources": [
+        "D1-07",
+        "D2-02",
+        "D2-05"
+      ],
+      "practicalTips": [
+        "Keep source passages, tables, calculation lineage and relevant dates accessible beside consequential claims.",
+        "Distinguish sourced data, computed figures, assumptions and professional judgment in a final artifact.",
+        "Evaluate whether a reviewer can find and correct an error efficiently, including after an artifact is exported."
+      ],
+      "limit": "These are described capabilities and proposed design implications. The notes do not establish feature availability, firm-specific entitlements, provider integrations, data coverage, citation correctness or artifact accuracy. Do not infer provider identities from uncertain spellings."
+    },
+    {
+      "id": "CD7",
+      "title": "Measure capacity and value after review costs and consequences are included",
+      "synthesis": "The Range vignette describes parallel preparation—an agent drafts another client's analysis while a planner is on a call—followed by human review. Contour's counterfactual/value questions and Capital One's lifespan/dependency discussion help assess that proposition: generating work cheaply matters only when the output is useful, reviewable and worth maintaining or safely retiring.",
+      "sources": [
+        "D1-03",
+        "D1-06",
+        "D2-05",
+        "D2-01"
+      ],
+      "practicalTips": [
+        "Measure accepted analyses or prepared meetings per professional, total human time and output quality against the existing process.",
+        "Include retries, review, corrections, exception handling and operating costs when estimating capacity gains.",
+        "Separate professional capacity from client outcomes, sales, financial return and autonomous decision authority."
+      ],
+      "limit": "The Range vignette is an unverified speaker account, not proof of higher advisor throughput, better advice or incremental revenue. Sonar’s claims about compounding errors and long-running work motivate testing, not a universal task-length limit."
+    }
+  ],
+  "ambiguitiesAndCaveats": [
+    {
+      "topic": "Sonar confidence formula",
+      "recorded": "Code confidence = intent × guardrails × verification × evidence",
+      "treatment": "Preserve as a speaker's conceptual framework. No units, calibrated scale, independence assumptions or empirical probability model are provided."
+    },
+    {
+      "topic": "Large-codebase claim",
+      "recorded": "Accuracy collapsed above 50,000 lines of code",
+      "treatment": "An attributed claim without benchmark, task/model definition or comparison. It is not a universal code-size threshold or a measured result transferable to this team."
+    },
+    {
+      "topic": "Pass@k versus partial credit",
+      "recorded": "Accuracy with partial credit, followed by pass@k",
+      "treatment": "The notes do not define the metric. Partial-credit grading and at-least-one-success across multiple attempts answer different questions. A high pass@k does not establish first-attempt reliability; include all attempts' cost and the method used to choose a usable output."
+    },
+    {
+      "topic": "Evals title and link",
+      "recorded": "Building Better Agents Through End-to-End Evals points to session 4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "treatment": "Fresh October 14 official metadata matches the attendee heading and identifies Ryan Stevens of Ramp. The earlier October 10 title differs, but the stable session identifier is the same; do not double-count it."
+    },
+    {
+      "topic": "OpenAI provider and interface descriptions",
+      "recorded": "A provider list, finance UI, artifacts, interactive charts and citations/MCP Apps",
+      "treatment": "Exact provider spellings, relationships, availability and the boundaries between interface, citations and connector functionality are unverified. Discuss the workflow capabilities without silently repairing provider names or asserting integrations."
+    },
+    {
+      "topic": "Range identity and maturity",
+      "recorded": "Planner reviews, edits and adjusts agent-drafted cash-flow or insurance analysis; five steps for skills",
+      "treatment": "The user confirmed Range, and fresh official metadata identifies Matt Ragone’s matching session. Attribute the vignette to Range, while retaining that the raw notes contain no measured scale, deployment duration, control results or outcome evidence. Official abstract claims should remain separately sourced. Do not present as autonomous advice."
+    },
+    {
+      "topic": "Banking assistant scale and routing",
+      "recorded": "100,000 conversations per day and a routing funnel with contextual filters, preclassification, relevance/rephrasing and intent classification",
+      "treatment": "This is a speaker-reported scale/mechanism description, not independently verified quality or adoption evidence. Do not identify the bank or infer a Comet deployment solely from the speaker's affiliation. The precise pipeline order is incompletely captured."
+    },
+    {
+      "topic": "Quality-vector terminology and conservative judging",
+      "recorded": "Safety includes 'roundedness' and bias; task and experience dimensions; judge tends to fail",
+      "treatment": "Do not silently change 'roundedness' into a different technical term. Preserve the ambiguity and ask for definitions. Conservative grading should be evaluated for both false acceptance and false rejection; no successful calibration result is recorded."
+    }
+  ],
+  "priorityFollowUps": [
+    "Sonar: obtain the benchmark behind the large-codebase claim, the intended interpretation of the confidence framework, and examples of independently verified prevention controls.",
+    "Ramp end-to-end evals: define success/partial credit/pass@k and obtain task sets, model versions, effect sizes and costs for the skill/memory experiments.",
+    "OpenAI: verify provider names, availability/entitlements, source-citation behavior and artifact verification from official materials before repeating operational claims.",
+    "Range: clarify how skills are reviewed and maintained, what was actually delegated, how planner review worked and whether any capacity or client benefit was measured.",
+    "Banking evaluation session: preserve the Comet/NatWest employer discrepancy; define quality dimensions, the ambiguous safety term and routing sequence, and ask how judge calibration, severe false passes and false failures were measured. Do not infer the assistant’s bank."
+  ]
+}

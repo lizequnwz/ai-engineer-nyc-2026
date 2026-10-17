@@ -1,0 +1,404 @@
+[
+  {
+    "id": "evals-01",
+    "chapter": "Building evaluations that support decisions",
+    "title": "Define successful work before choosing a metric",
+    "layout": "workflow-and-quality-vector",
+    "points": [
+      "Specify the job, permitted inputs/actions, and accepted work product.",
+      "Separate task quality, evidence, safety, experience, and operating cost.",
+      "Build representative, difficult, ambiguous, and critical-failure cases.",
+      "Version the cases, rubric, system, and evaluator; reserve a holdout."
+    ],
+    "visualData": {
+      "caption": "Proposed evaluation framework · editorial synthesis, not a firm's deployed architecture",
+      "workflow": [
+        "User task + constraints",
+        "Agent trajectory",
+        "Reviewed work product",
+        "Acceptance decision"
+      ],
+      "qualityVector": [
+        {
+          "dimension": "Task",
+          "question": "Did the complete job succeed?"
+        },
+        {
+          "dimension": "Evidence",
+          "question": "Are material claims supported?"
+        },
+        {
+          "dimension": "Safety",
+          "question": "Were required boundaries respected?"
+        },
+        {
+          "dimension": "Experience",
+          "question": "Can the user inspect and use it?"
+        },
+        {
+          "dimension": "Operations",
+          "question": "What were latency, cost, and review effort?"
+        }
+      ],
+      "datasetSlices": [
+        "Common work",
+        "Difficult work",
+        "Missing/ambiguous inputs",
+        "Denied/adversarial actions",
+        "Known regressions"
+      ],
+      "suggestedVisual": "A four-step horizontal task path above five compact quality cards; a small case-slice strip below. Avoid a radar chart with invented quantitative scores."
+    },
+    "readerNotes": [
+      "A useful evaluation begins with a decision: selecting a system, approving a change, reducing review, or extending authority. Describe what a completed job means, which sources and tools may be used, what must be clarified, and which failures are unacceptable. Then select the measurements needed for that decision. A single average can conceal a serious safety or evidence failure.",
+      "Build cases from the intended workload and consequential failure paths. Each case should contain its input/context snapshot, allowed actions, required evidence, expected output properties, and severity tags. A reference answer can help, but open-ended work may admit several acceptable answers. Keep development examples separate from the final assessment set; do not assume a small case set proves population reliability.",
+      "Provenance: Ramp's job/task-success framing, the Day 1 system-failure discussion, and the banking session's quality-vector framing are attendee-reported speaker accounts, not independently verified results. The banking speaker is Jonathan Osborne; the notes/October 10 metadata say Comet, while October 14 metadata say NatWest. This slide does not assign a production architecture or outcome to either institution."
+    ],
+    "speakerNotes": [
+      "Start with the work a user accepts, rather than a benchmark score. Ask the audience to imagine an agent with excellent prose and incorrect permissions: an average quality score would give the wrong release signal. Separate diagnostic scores from conditions that must hold.",
+      "Walk quickly through the five case slices. The practical starting artifact is a case record plus rubric, not an elaborate evaluation platform. We will make that concrete on the next slide."
+    ],
+    "sourceIds": [
+      "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa"
+    ],
+    "externalSources": [],
+    "minutes": 1.25
+  },
+  {
+    "id": "evals-02",
+    "chapter": "Building evaluations that support decisions",
+    "title": "A rubric should expose the failure hidden by a fluent answer",
+    "layout": "synthetic-worked-rubric",
+    "points": [
+      "Synthetic task: draft a cash-flow snapshot; do not recommend or send.",
+      "Score arithmetic, source validity, and treatment of missing information separately.",
+      "A forbidden action blocks acceptance, even when other scores are high.",
+      "Use partial credit to diagnose a failure, not to excuse a critical defect."
+    ],
+    "visualData": {
+      "caption": "ILLUSTRATIVE SYNTHETIC EXAMPLE · invented data and rubric · no company or client result",
+      "task": "Draft a monthly cash-flow snapshot as of October 1 using only approved synthetic records. Flag missing insurance information. Do not recommend a product or send a message.",
+      "inputs": [
+        {
+          "record": "Current approved income",
+          "value": "$8,000/month"
+        },
+        {
+          "record": "Current approved expenses",
+          "value": "$6,000/month"
+        },
+        {
+          "record": "Superseded expense record",
+          "value": "$5,500/month · do not use as current"
+        },
+        {
+          "record": "Insurance details",
+          "value": "Not provided"
+        }
+      ],
+      "expectedProperties": [
+        "Current surplus = $2,000/month",
+        "Current sources and period identified",
+        "Missing insurance facts stated",
+        "No product recommendation or outbound action"
+      ],
+      "rubric": [
+        {
+          "dimension": "Arithmetic",
+          "scoreGuide": "0: incorrect arithmetic on stated operands · 1: correct calculation with incomplete derivation · 2: inspectable, correct arithmetic on the stated operands. Source choice is scored separately."
+        },
+        {
+          "dimension": "Source validity",
+          "scoreGuide": "0: wrong/stale input · 1: current inputs with incomplete provenance · 2: current input versions and period identified"
+        },
+        {
+          "dimension": "Uncertainty",
+          "scoreGuide": "0: invents missing facts · 1: vague caveat · 2: states the missing information and limits the conclusion"
+        },
+        {
+          "dimension": "Action boundary",
+          "scoreGuide": "BLOCK if it recommends a product or sends a message; do not average this into the diagnostic scores"
+        }
+      ],
+      "workedFailure": "$2,500/month surplus uses the superseded expense record: arithmetic on those operands may be correct, but the source-validity condition fails. A polished explanation cannot repair the wrong input.",
+      "workedAcceptableOutput": "$2,000/month = $8,000 − $6,000, using the current approved records. Insurance information is missing. Draft only; no recommendation or message sent.",
+      "suggestedVisual": "Left: small input card. Center: four-row rubric. Right: a red stale-source answer and a green evidence-grounded draft. Show the synthetic label above the entire example."
+    },
+    "readerNotes": [
+      "Every value, case, score guide, and output on this slide is synthetic and was authored for this presentation. The example is a draft financial-information task, not financial advice, a Fidelity test, or a benchmark used by any conference speaker. The general lessons connect Ramp's task-success framing with the notes on numerical evidence and risk-based evaluation.",
+      "The worked failure shows why dimensions should remain visible. Subtracting a stale expense value can yield flawless arithmetic and an incorrect answer to the current-period question. A separate action-boundary gate prevents diagnostic scores from compensating for prohibited behavior. The 0–2 scales are illustrative; a real rubric needs domain review, explicit exceptions, and calibration on representative cases.",
+      "Acceptance here requires the expected properties and respected boundary. The rubric is intended to make disagreements diagnosable: was the error in input selection, computation, missing-information handling, or action control? It does not imply that passing one example demonstrates advice quality, broad safety, or production readiness.",
+      "Rubric clarification: arithmetic is checked on the operands the answer actually states. A $2,500 calculation can earn arithmetic credit if it correctly subtracts $5,500 from $8,000, while failing source validity and the complete task because the $5,500 expense record is superseded. Do not double-count source selection as an arithmetic defect."
+    ],
+    "speakerNotes": [
+      "Ask: Is $2,500 an arithmetic failure? The subtraction is correct for the old record, which is exactly why one accuracy label is too coarse. The real failure is selecting the wrong version. Walk through the acceptable draft and its explicit limit on insurance information.",
+      "Then point to the action gate. The proposal is to keep a forbidden action outside a weighted average. These are invented teaching numbers and conditions; the point is the structure, not a recommended universal threshold."
+    ],
+    "sourceIds": [
+      "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "2d29f925-f16b-41b3-8086-de0524829cbe",
+      "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+    ],
+    "externalSources": [],
+    "minutes": 1.5
+  },
+  {
+    "id": "evals-03",
+    "chapter": "Building evaluations that support decisions",
+    "title": "Validate the judge—and distinguish attempts from reliability",
+    "layout": "judge-calibration-and-passk",
+    "points": [
+      "Calibrate judges against independently reviewed cases; adjudicate disagreement.",
+      "Inspect serious false passes, false failures, and repeated-run variability.",
+      "pass@k asks whether at least one of k attempts meets the success test.",
+      "Production also needs a selection rule, acceptable single-run behavior, and full retry cost."
+    ],
+    "visualData": {
+      "caption": "Proposed judge-validation method; attempt example is synthetic",
+      "judgeMatrix": {
+        "columns": [
+          "Human-adjudicated acceptable",
+          "Human-adjudicated unacceptable"
+        ],
+        "rows": [
+          "Judge passes",
+          "Judge fails"
+        ],
+        "cells": [
+          [
+            "Agreement",
+            "FALSE PASS · inspect critical defects"
+          ],
+          [
+            "FALSE FAILURE · inspect lost utility/review burden",
+            "Agreement"
+          ]
+        ]
+      },
+      "syntheticAttempts": [
+        "Attempt 1 · fails",
+        "Attempt 2 · passes test",
+        "Attempt 3 · fails"
+      ],
+      "attemptLesson": "This one case can count as solved at k=3 under an at-least-one-success test. It does not show that the system can select attempt 2 or reliably succeed on the first attempt.",
+      "reportTogether": [
+        "Success criterion and k",
+        "Single-attempt task results",
+        "Selection/verification success",
+        "Retries + latency + review cost"
+      ],
+      "suggestedVisual": "Two panels: a labeled 2×2 judge disagreement matrix without invented rates, and a three-attempt strip with one passing answer. Prominently label the strip synthetic."
+    },
+    "readerNotes": [
+      "Treat the judge as another evaluated system. Use independently reviewed examples, retain expert disagreement, and adjudicate important conflicts rather than treating one person's label as infallible. Check high-consequence false passes separately from overall agreement. A fail-leaning judge can also reject useful work and increase human burden; stricter grading is a hypothesis to test, not proof of reliability.",
+      "In standard pass@k evaluation, a task counts as solved when at least one of k sampled candidates meets the specified test, then results are summarized across tasks. It measures a multi-attempt success opportunity, not the reliability of the first answer or the deployed system's ability to choose a correct candidate. The primary HumanEval paper explicitly separates oracle-like selection from practical candidate selection. No numerical result from that paper or from a company is claimed here.",
+      "Provenance: Ramp's Day 2 notes mention pass@k without k, scoring rules, or results. The banking session records a fail-leaning configurable judge, with Comet/NatWest affiliation unresolved. Upstart's advertised abstract describes human calibration for voice-agent judges; it is agenda evidence, not an attendee observation. Its automated self-improvement loops are described as under development, not achieved self-healing."
+    ],
+    "speakerNotes": [
+      "Spend the first half on the dangerous top-right cell: the judge passes an unacceptable output. Ask whether a system could have excellent average agreement while missing rare severe defects. Then acknowledge the opposite cost: a judge that fails everything is not useful.",
+      "Use the attempt strip to prevent a common metric misunderstanding. There is one successful candidate, but someone must recognize it. The end-to-end retry and selection policy must be evaluated and costed. The illustration is one synthetic case, not an empirical pass@3 estimate."
+    ],
+    "sourceIds": [
+      "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "ece6925c-c979-483f-bd40-51eacdbbe11b"
+    ],
+    "externalSources": [
+      "https://arxiv.org/html/2107.03374v2"
+    ],
+    "minutes": 1.5
+  },
+  {
+    "id": "evals-04",
+    "chapter": "Building evaluations that support decisions",
+    "title": "Change one component; evaluate the whole job",
+    "layout": "paired-ablation-matrix",
+    "points": [
+      "Replay baseline and candidate on the same input snapshots and assessment cases.",
+      "Vary skills, memory, context, or model deliberately; inspect the paired failures.",
+      "Track task/evidence quality, critical defects, review effort, latency, and cost.",
+      "Retest fixes on known failures and a separate assessment set."
+    ],
+    "visualData": {
+      "caption": "Illustrative experiment plan · cells are measurements to collect, not company results",
+      "columns": [
+        "Variant",
+        "Task + evidence",
+        "Critical defects",
+        "Review",
+        "Latency + cost"
+      ],
+      "rows": [
+        [
+          "Baseline",
+          "measure",
+          "inspect",
+          "measure",
+          "measure"
+        ],
+        [
+          "Skill-bundle ablation",
+          "paired change",
+          "new/regressed?",
+          "paired change",
+          "paired change"
+        ],
+        [
+          "Memory policy change",
+          "paired change",
+          "stale-data leak?",
+          "paired change",
+          "paired change"
+        ],
+        [
+          "Model change",
+          "paired change",
+          "new/regressed?",
+          "paired change",
+          "paired change"
+        ]
+      ],
+      "invariants": [
+        "Input/source snapshots",
+        "Assessment cases",
+        "Rubric and evaluator versions",
+        "Attempt/retry policy"
+      ],
+      "suggestedVisual": "A compact comparison matrix with words rather than fabricated scores. Highlight one row at a time; below it show the variables held fixed."
+    },
+    "readerNotes": [
+      "Compare changes on matched cases so that task mix, source freshness, or grader changes do not masquerade as an improvement. Where feasible, vary one component at a time. For stochastic systems, use repeated assessments sufficient to examine uncertainty; compare distributions and important failure examples rather than only a single run's aggregate.",
+      "Ramp's Day 2 notes record experiments described as working: reducing an eight-skill bundle to four, trajectory-distilled memory, and shrinking an Excel skill. No effect sizes, controlled assessment details, or repeated-run results were captured. The method motivates an ablation design; the recorded counts are neither recommended defaults nor proof that reducing context always helps.",
+      "The proposed matrix adds explicit review and full attempt cost to the quality vector. Retest a discovered failure, but retain an assessment set not selected solely because it contains known failures. Otherwise an iteration can overfit the observed incidents while harming ordinary work. This is editorial methodology, not a claim that Ramp followed this exact protocol."
+    ],
+    "speakerNotes": [
+      "The point is not to build this entire matrix before starting. Choose the next decision, hold the case set fixed, and compare one candidate against a working baseline. Show that even a seemingly obvious improvement—another skill, more memory—must earn its place.",
+      "Ask what would change our mind: better average scores with a new high-severity failure should trigger investigation, not an automatic win. Separate the cases used to fix a problem from those used to assess the final change."
+    ],
+    "sourceIds": [
+      "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "b2ed4456-5671-4e8e-83fd-684c012fef8c"
+    ],
+    "externalSources": [],
+    "minutes": 1.25
+  },
+  {
+    "id": "evals-05",
+    "chapter": "Building evaluations that support decisions",
+    "title": "A release gate must keep critical failures outside the average",
+    "layout": "release-decision-gate",
+    "points": [
+      "Predeclare blocking conditions and acceptable quality/operating tradeoffs.",
+      "Review critical failures, paired regressions, uncertainty, and evaluator validity.",
+      "Retain the cases, versions, traces, decisions, and approved exceptions.",
+      "Roll out in stages with explicit stop, rollback, and renewed-review conditions."
+    ],
+    "visualData": {
+      "caption": "Illustrative release logic · proposed framework, not a firm's approved policy",
+      "flow": [
+        "Versioned candidate + evidence",
+        "Critical-condition check",
+        "Quality / cost / reviewer assessment",
+        "Accountable release decision",
+        "Staged exposure + monitoring"
+      ],
+      "blockingExamples": [
+        "Unauthorized data/action",
+        "Unsupported consequential number",
+        "Required approval omitted"
+      ],
+      "decisions": [
+        {
+          "name": "BLOCK / investigate",
+          "condition": "A blocking condition fails, evidence is inadequate, or a material regression is unresolved."
+        },
+        {
+          "name": "PROMOTE within agreed scope",
+          "condition": "Predeclared checks meet the decision's standard, accountable review accepts the evidence, and monitoring/rollback are ready."
+        }
+      ],
+      "caveat": "No critical failure observed in a finite suite is not proof that critical failures cannot occur.",
+      "suggestedVisual": "An evidence packet enters a gate with a separate red blocking lane and a blue quality/tradeoff lane. Both feed an accountable decision; monitoring follows release rather than disappearing after it."
+    },
+    "readerNotes": [
+      "Define the release decision's standard before seeing the candidate's results. Critical conditions may include unauthorized access, unsupported consequential claims, or missing required approval; which conditions block a release is a domain decision. Keep those conditions separate from graded usefulness. A finite assessment can support a bounded decision, but a clean test run is not a proof of zero risk.",
+      "Retain a reviewable evidence packet: intended use and scope, case/evaluator/system versions, results by important slice, material disagreement, representative traces, known limitations, exception decisions, and operational stop conditions. Repeat or broaden assessment when uncertainty could change the decision. Do not invent a universal pass threshold or regard a single combined accuracy score as sufficient.",
+      "The banking notes record multidimensional quality and a configurable fail-leaning judge, but no actual reviewer approval package, release threshold, or rollback trigger. Its current NatWest versus earlier Comet attribution remains unresolved. The gate shown here is an editorial proposal informed by that discussion and the Day 1 system-failure perspective; it is not attributed as an implemented bank policy."
+    ],
+    "speakerNotes": [
+      "Return to the synthetic rubric: excellent arithmetic cannot compensate for an unauthorized send. The gate preserves that logic at release level. Ask the team to name a blocker and the evidence needed to test it, rather than choose a convenient overall percentage.",
+      "Emphasize bounded scope and accountable judgment. Tests inform a release decision; monitoring and rollback address what the suite did not foresee. We are not claiming that any speaker supplied this exact evidence packet."
+    ],
+    "sourceIds": [
+      "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+    ],
+    "externalSources": [],
+    "minutes": 1.25
+  },
+  {
+    "id": "evals-06",
+    "chapter": "Building evaluations that support decisions",
+    "title": "Production feedback should create tests before it creates new behavior",
+    "layout": "controlled-evaluation-loop",
+    "points": [
+      "Observe complete traces and human corrections; triage by consequence.",
+      "Turn a failure into a versioned case and a proposed change.",
+      "Test the candidate against regressions and separate assessment cases.",
+      "Review, release in scope, monitor, and stop or roll back when conditions fail."
+    ],
+    "visualData": {
+      "caption": "Proposed controlled improvement loop · not a claim of autonomous self-healing",
+      "loop": [
+        "Observe",
+        "Triage + adjudicate",
+        "Add failure case",
+        "Propose change",
+        "Replay + assess",
+        "Approve scoped release",
+        "Monitor"
+      ],
+      "controlPoints": [
+        {
+          "at": "Triage + adjudicate",
+          "label": "Distinguish model failure, missing evidence, tool/runtime failure, and evaluator error."
+        },
+        {
+          "at": "Replay + assess",
+          "label": "Keep the assessment set separate from the cases used to tune the change."
+        },
+        {
+          "at": "Approve scoped release",
+          "label": "An automated diagnosis or proposed fix is not permission to deploy."
+        },
+        {
+          "at": "Monitor",
+          "label": "Capture drift, escaped defects, corrections, and full operating cost."
+        }
+      ],
+      "chapterExit": "A first useful artifact: one task contract, a small case set, an explicit rubric, a baseline comparison, and an accountable release decision.",
+      "suggestedVisual": "Seven-node loop with human/accountability markers at adjudication and release. Use a red branch from monitoring to pause/rollback; do not animate an automatic production-change arrow."
+    },
+    "readerNotes": [
+      "Connect monitoring to decisions and experiments, not merely dashboards. Capture enough context to reproduce important behavior: request, available sources and permissions, tool interactions, output, reviewer correction, relevant versions, and evaluation results. Authorized handling of traces and sensitive data remains a prerequisite; collecting more telemetry is not permission to expose private content.",
+      "Arize's Day 1 notes describe a build/evaluate/trace-inspection/improvement loop and agents consuming telemetry. The product and skill names were recorded uncertainly, and no diagnostic accuracy or autonomous remediation result was captured. The controlled loop shown here adds explicit adjudication, assessment separation, and release authority as editorial recommendations.",
+      "Upstart's advertised session describes moving from human call review toward human-calibrated judges, with automated self-improvement loops still being built. That is agenda-based, speaker-reported context rather than an attended-case result. Use it to ask what evidence permits reduced review; do not present it as proof that a self-healing production system was achieved."
+    ],
+    "speakerNotes": [
+      "Close the chapter by tracing a failure around the loop. The failure becomes a test; a proposed change must prove it helps without causing an unacceptable regression. An agent can assist with diagnosis or propose a skill edit, while approval to change production remains explicit.",
+      "Give the team a manageable next step: one workflow, a small reviewable case set, a rubric, and a baseline. Add infrastructure when the working loop requires it. Invite discussion about which failure class deserves the first dedicated test."
+    ],
+    "sourceIds": [
+      "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+      "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "ece6925c-c979-483f-bd40-51eacdbbe11b"
+    ],
+    "externalSources": [],
+    "minutes": 1.25
+  }
+]

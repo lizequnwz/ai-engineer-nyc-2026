@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="20" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF7" />
+<g id="title" data-pptx-bounds="48 40 1184 120" fill="#102E3A"><text x="48" y="55" font-size="16" fill="#075E52">THE RECOMMENDATION</text><text font-size="36" font-family="Cambria" x="48" y="98">Two release paths turn the conference</text><text font-size="36" font-family="Cambria" x="48" y="141">into practical decisions</text></g>
+<g id="fidelity-priorities" data-pptx-bounds="48 188 560 338">
+<rect x="48" y="188" width="560" height="338" fill="#E7F0EA" />
+<text x="72" y="227" font-size="24" font-family="Cambria" fill="#075E52">Fidelity: expand the complete task</text>
+<text fill="#132F3B" x="72" y="271">Start with grounded definitions, data navigation</text><text fill="#132F3B" x="72" y="299">and question-scoped semantic context.</text><text fill="#132F3B" x="72" y="354">Then add explicit conversation state and bounded</text><text fill="#132F3B" x="72" y="382">investigation for complex questions.</text><text fill="#132F3B" x="72" y="437">Pilot one rep-reviewed meeting-preparation</text><text fill="#132F3B" x="72" y="465">journey in the Salesforce workflow.</text></g>
+<g id="personal-priorities" data-pptx-bounds="640 188 592 338" fill="#132F3B">
+<text x="664" y="227" font-size="24" font-family="Cambria" fill="#102E3A">Personal agent: strengthen completion</text>
+<text x="664" y="271">Close count and forecast correctness boundaries;</text><text x="664" y="299">bind narrative numbers to saved evidence.</text><text x="664" y="354">Preserve metric identity and grain through</text><text x="664" y="382">transformation, refresh and report generation.</text><text x="664" y="437">Use numerical outcome oracles, then complete</text><text x="664" y="465">one workspace-to-checked-result journey.</text></g>
+<g id="shared-release-test" data-pptx-bounds="48 555 1184 85">
+<rect x="48" y="555" width="1184" height="85" fill="#102E3A" />
+<text x="72" y="588" font-size="22" fill="#D5EF8C">The same release test applies to both tracks:</text>
+<text x="72" y="620" fill="#FFFDF7">accepted work + total human effort + full known cost + consequential failure modes.</text>
+</g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="48 668 1184 32" fill="#50616A" font-size="12"><text x="48" y="686">Recommendations based on the application roadmap; proposed local designs, not demonstrated gains.</text><text x="1232" y="686" text-anchor="end">02 / 28</text></g>
+</svg>

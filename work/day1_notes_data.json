@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-13",
+  "title": "AI Engineer NYC 2026 — Day 1 synthesis",
+  "source": "Attendee notes supplied by the user on October 13, 2026",
+  "executive": [
+    "Day 1’s strongest message is that useful financial-services AI depends on the surrounding system: information organized for the task, controls that govern action, an evaluation loop that looks for consequential failures, and measurement tied to useful work. This synthesis is based on seven sets of attendee notes, rather than an independently verified assessment of the firms.",
+    "Bridgewater described a shared knowledge foundation serving humans and agents with different retrieval needs, together with an investor workbench intended to direct attention toward missing information. Two Sigma described agent registration, risk scoring, declared resource access, active controls, shared evaluation, and selective human approval. Together, these accounts connect usefulness to information access and explicit operating boundaries.",
+    "The evaluation sessions broadened the unit of improvement from a feature to a system. Arize’s talk emphasized a build–evaluate–inspect–improve loop, including agent-readable traces. The AI-failures session emphasized seeking disproof and prioritizing risk, while Kepler described a pipeline that separates language-model planning from source retrieval, computation, and citation checks.",
+    "Contour framed value measurement around a counterfactual: what would the research process have concluded without AI? Capital One’s durability discussion added a second question: how long must a piece of software live, and who depends on it? Neither a usage metric nor cheaper code generation answers those questions by itself.",
+    "The practical takeaway for the team is to connect each AI workflow to an evidence trail: what information it used, what it was allowed to do, how failures were tested, what people accepted or corrected, and what improvement remains against a credible baseline. Day 2 topics and other industry cases remain agenda-based context wherever attendee notes are absent."
+  ],
+  "sessions": [
+    {
+      "id": "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+      "title": "Vault: Making Unstructured Data Work for Investing",
+      "speaker": "Aaron Linsky and Sam Green · Bridgewater",
+      "time": "9:00–9:18 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "maturity": "Production, speaker-reported in the notes",
+      "centralIdea": "A shared information foundation can serve humans and agents while recognizing that their retrieval needs differ. Its usefulness also depends on fitting existing information habits and helping investors decide where to direct attention.",
+      "observations": [
+        "Vault brings external news, research, and transcripts together with internal unstructured information. The notes describe an internal ontology organized around market, country, concept, and time.",
+        "The speaker contrasted human search—precision, high signal-to-noise, and a small result set—with agent search—large-scale consumption and stronger sensitivity to recall. This is a design emphasis, not a claim that agents do not need precision.",
+        "Time scoping was highlighted as an early step in answering an investment question. Filtering, vector search, and benchmarking retrieval precision were also discussed; no benchmark results were captured.",
+        "The notes emphasize bringing existing information channels, including email and subscribed lists, into the knowledge foundation instead of expecting a new tool alone to change working habits.",
+        "An investor workbench was described with activity feeds, question-focused summaries, evidence, and a ‘What am I missing?’ orientation."
+      ],
+      "takeaway": "Treat retrieval as task-specific information access. Preserve a common evidence foundation, but distinguish human browsing from agent collection and synthesis. Proactive feeds should be evaluated on whether they direct attention to useful, timely evidence.",
+      "tips": [
+        "Scope the relevant time period before retrieving or synthesizing investment evidence.",
+        "Measure recall and precision for the consumer and task; do not optimize only for a human-sized answer list.",
+        "Compare the usefulness of an attention feed with current information habits, including noise, missed signals, and actionability."
+      ],
+      "limits": "The notes reverse ‘reactive’ and ‘proactive’ once. The workbench examples suggest a move toward proactive attention guidance; confirm the direction and terminology against slides. No quality, adoption-change, investment-return, or predictive-accuracy result was captured.",
+      "questions": [
+        "Which information events trigger a feed, and how are timeliness, novelty, relevance, and evidence quality evaluated?",
+        "How are conflicting sources, time validity, and permissions handled?",
+        "For the RDs mentioned in the notes, what decision should a feed improve? The role abbreviation and the intended workflow need confirmation.",
+        "What evidence would distinguish surfacing timely signals from predicting future outcomes?"
+      ],
+      "themeLinks": [
+        "knowledge-backbone",
+        "long-horizon-work",
+        "scaled-adoption"
+      ]
+    },
+    {
+      "id": "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+      "title": "Balancing Acceleration and Safety for AI Agents",
+      "speaker": "John Feminella · Two Sigma",
+      "time": "9:36–9:54 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "maturity": "Production, speaker-reported in the notes",
+      "centralIdea": "Agent governance can be expressed through concrete platform services and active boundaries, with human attention directed toward decisions that need it.",
+      "observations": [
+        "An agent registry records owners, associated products, tools, and evaluations.",
+        "Registered agents receive risk-factor scoring informed by access, tools, endpoints, controls, and related characteristics.",
+        "Owners declare the endpoints, tools, and resources an agent needs; active controls enforce the declared access boundaries.",
+        "A shared evaluation framework provides a common operating capability across agents.",
+        "Approval fatigue was discussed. An independent classifier was described as deciding when human approval is needed."
+      ],
+      "takeaway": "Make ownership, access, risk, evaluation, and escalation explicit parts of the operating model. A registry provides visibility; enforcement and tested escalation determine how much protection that visibility delivers.",
+      "tips": [
+        "Record the owner and intended products, tools, endpoints, and resources for each agent.",
+        "Test allowed and denied actions, rather than treating declared access as proof that access is constrained.",
+        "Evaluate an approval classifier for missed consequential cases and unnecessary interruptions before relying on it to reduce review."
+      ],
+      "limits": "No measured safety improvement, task-utility impact, classifier error rate, or approval-volume reduction was captured. Independence of the classifier does not by itself establish reliability.",
+      "questions": [
+        "Which controls were preventive, and where were they enforced?",
+        "How are risk scores calibrated, updated, and connected to required controls?",
+        "What can override the approval classifier, and how are false negatives detected?"
+      ],
+      "themeLinks": [
+        "authority-and-controls",
+        "scaled-adoption"
+      ]
+    },
+    {
+      "id": "5191589c-a70e-4806-99dc-86f7794f46b9",
+      "title": "Does Code Quality Even Matter?",
+      "speaker": "Max Kanat-Alexander · Capital One",
+      "time": "9:54–10:12 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "maturity": "Unclear in the notes; conceptual engineering discussion",
+      "centralIdea": "Expected durability and the number of dependents should influence the engineering investment a piece of software receives.",
+      "observations": [
+        "The talk contrasted durable software—living for years, relied on by many people, and requiring maintenance—with a proposed category of disposable software.",
+        "Disposable software was characterized as replaceable in hours, relied on by relatively few people, and having less need for long-term maintenance.",
+        "The recorded argument was to scale engineering rigor with the software’s durability and dependency footprint."
+      ],
+      "takeaway": "Distinguish the need for long-term maintainability from immediate correctness and operational risk. Cheap replacement may change a maintenance decision; it does not establish that a wrong result or unsafe action is inexpensive.",
+      "tips": [
+        "Ask who depends on the software, how long it must live, and what replacement actually requires.",
+        "Use a lighter maintenance investment only when the scope and dependency footprint justify it.",
+        "Retain appropriate checks for sensitive data, financial calculations, and consequential actions even in short-lived tools."
+      ],
+      "limits": "Near-zero management or replacement cost is a proposition in the notes, not a demonstrated outcome. The notes do not establish Capital One’s deployment of a disposable-software operating model.",
+      "questions": [
+        "What criteria determine when software is truly disposable?",
+        "What happens when a short-lived tool acquires downstream users, data dependencies, or a longer life?",
+        "Which correctness and security requirements remain regardless of intended lifespan?"
+      ],
+      "themeLinks": [
+        "scaled-adoption",
+        "modernization-and-domain-experts"
+      ]
+    },
+    {
+      "id": "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+      "title": "What does an AI engineer do?",
+      "speaker": "Aparna Dhinakaran · Arize AI",
+      "time": "10:12–10:30 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "maturity": "Unclear in the notes; practitioner/vendor operating-loop discussion",
+      "centralIdea": "AI engineering includes building and operating the improvement loop around a feature: evaluation, trace inspection, issue identification, and iteration.",
+      "observations": [
+        "The notes contrast working on an individual feature with building the system that repeatedly improves it.",
+        "The loop was recorded as build, evaluate, read traces, identify issues or improvement opportunities, and improve.",
+        "Arize’s ‘Signal’ was mentioned as reading agent traces to identify issues. The exact product scope and performance were not captured.",
+        "Telemetry should be usable by agents as well as people. The notes also raise how agents are triggered: messages, schedules, metrics, and events.",
+        "An evaluator skill was recorded as ‘arise-evaluator’; its exact spelling and availability were not verified."
+      ],
+      "takeaway": "Design observability as an input to diagnosis and controlled improvement, rather than only as a store of logs. Discovering an issue, proposing a fix, validating it, and authorizing a release are distinct responsibilities.",
+      "tips": [
+        "Retain task context, intermediate actions, outcomes, evaluator results, and relevant versions in a trace.",
+        "Define which event starts a diagnostic agent and which decisions still require a person.",
+        "Require a reproducible evaluation of a proposed fix before treating automated diagnosis as a release decision."
+      ],
+      "limits": "The notes do not establish autonomous remediation, validated diagnosis accuracy, or any financial firm’s adoption of the named tool or skill. Treat the vendor names as recorded references to verify.",
+      "questions": [
+        "Which trace structure makes issue diagnosis reliable and useful?",
+        "How are spurious diagnoses, repeated triggers, and regression-causing fixes handled?",
+        "What is the correct name and public source for the evaluator skill mentioned?"
+      ],
+      "themeLinks": [
+        "evaluation-as-operations",
+        "scaled-adoption"
+      ]
+    },
+    {
+      "id": "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "title": "1,368 AI Failures: What They Teach Us About System Evals",
+      "speaker": "Vishal Srivastava · New York Life Insurance / Tanmay Sah",
+      "time": "12:20–12:38 p.m. EDT",
+      "room": "Turing Room (Riverside Ballroom)",
+      "maturity": "Unclear in the notes; failure-study and evaluation framework",
+      "centralIdea": "Evaluate how an AI system fails and allows harm to materialize, with priority determined by risk rather than incident frequency alone.",
+      "observations": [
+        "The notes describe failure analysis across development phase and material business impact, including financial, legal, and scale dimensions.",
+        "The speaker’s framework was captured as: E(loss) = P(fail) × P(reach | fail) × P(miss | reach) × severity.",
+        "The notes report that system-design failures were common, while failures of human mediation and harm detection could be less frequent but high impact. Counts, rankings, and definitions were not captured.",
+        "Evaluation was framed as failure-driven: seek disconfirming evidence, find the failure, and then verify the fix rather than confirm a preferred result.",
+        "The notes include a claim of exponential growth in AI failures, without a dataset, time period, denominator, or fitting method."
+      ],
+      "takeaway": "Evaluate the complete failure path: an error can arise, pass through controls, escape detection or intervention, and cause consequential harm. Rare but severe cases deserve deliberate coverage alongside common quality failures.",
+      "tips": [
+        "Construct tests to disprove a claim of reliability, then preserve failures as regression cases.",
+        "Prioritize tests by credible severity and control gaps, alongside frequency.",
+        "Evaluate detection and human intervention as parts of the system, not as assumed rescue mechanisms."
+      ],
+      "limits": "The equation is retained as a recorded heuristic. ‘Reach’ and ‘miss’ were not defined, conditional relationships were not established, and probabilities or severity units were not supplied. Do not use it as a calibrated expected-loss estimate. The 1,368-case study is not an industry incidence rate, and speaker affiliation does not establish New York Life’s adoption of the framework.",
+      "questions": [
+        "How were the incidents sampled and labeled, and what is the exposure denominator?",
+        "What do ‘reach’ and ‘miss’ mean, and what conditioning does the full framework require?",
+        "Which tests would have detected the important failures before harm occurred?"
+      ],
+      "themeLinks": [
+        "evaluation-as-operations",
+        "authority-and-controls"
+      ]
+    },
+    {
+      "id": "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+      "title": "Proving Alpha: Showcasing AI’s Value in Fundamental Investing",
+      "speaker": "Hari Kumar · Contour Asset Management",
+      "time": "1:40–1:58 p.m. EDT",
+      "room": "Turing Room (Riverside Ballroom)",
+      "maturity": "Unclear in the attendee notes; the earlier program separately reports daily workflow use",
+      "centralIdea": "Value measurement needs a counterfactual: would the research process have reached the same conclusion without AI, at the same cost and time?",
+      "observations": [
+        "The notes describe an ‘A/B testing’ pipeline and roughly three months of tracking, documenting workflows with and without AI, sources, conclusions, and subsequent outcomes.",
+        "Idea tracking was described as assessing ideas against the market and considering timing and other dimensions, rather than only generating ideas. The exact division between manual tracking and agent automation is unclear.",
+        "Cost per useful insight and adoption/utilization were recorded as measures. The notes emphasize that observing ROI takes time.",
+        "Examples of value dimensions included execution timing and order history in trading; repetitive work and process reliability in operations; and querying and reconciliation in finance/analytics."
+      ],
+      "takeaway": "Build measurement into the workflow before benefits are claimed. Record inputs, AI involvement, decisions, timing, human effort, and subsequent outcomes. Distinguish activity, accepted insights, process change, and financial return.",
+      "tips": [
+        "Define a useful insight and record who accepted it, how much review it required, and whether it changed a decision.",
+        "Use a credible comparison and document assignment, selection effects, and contamination between AI and non-AI workflows.",
+        "Include review, rework, tool, and inference costs when estimating cost per useful insight."
+      ],
+      "limits": "The phrase ‘A/B testing’ does not establish random assignment, comparable groups, sample size, or controlled causal attribution. No return estimate, verified alpha, or generalizable three-month ROI horizon was captured.",
+      "questions": [
+        "What was randomized or matched, and how were AI-influenced and non-AI workflows kept comparable?",
+        "How was ‘useful insight’ defined before observing the outcome?",
+        "How did the analysis handle market movement, selection effects, delayed outcomes, and full operating costs?"
+      ],
+      "themeLinks": [
+        "value-attribution"
+      ]
+    },
+    {
+      "id": "2d29f925-f16b-41b3-8086-de0524829cbe",
+      "title": "Do Not Let Models Invent Numbers",
+      "speaker": "Vinoo Ganesh · Kepler",
+      "time": "2:30–2:48 p.m. EDT",
+      "room": "Shannon Room (NY Ballroom E)",
+      "maturity": "Unclear in the attendee notes; vendor-described implementation",
+      "centralIdea": "Separate language-model planning and narration from source retrieval, computation, and checking whether a citation supports the financial claim.",
+      "observations": [
+        "Three numerical failure modes were recorded: citing the wrong source, extracting the wrong number from the right source, and performing arithmetic incorrectly.",
+        "The described components include SEC-corpus preprocessing, language-model planning, tool-based source retrieval, code-based arithmetic, a citation registry holding metadata and typed facts, and postprocessing citation checks or filters. The notes do not fully establish their order or boundaries.",
+        "Unverifiable citations were described as refused. Repair attempts were recorded before removing citations: exact matching, equivalent value formatting, and paraphrased quotations.",
+        "Retrieval settings are preserved as recorded: “3× overfetch”; “100 per namespace” (item type/stage unclear); “max 5 per doc” in the reranking discussion; and “top 20 docs for earning” (workload wording unclear). These are incomplete implementation notes, not validated general recommendations.",
+        "The phrase ‘deterministic model handles every fact’ was recorded; the exact scope of deterministic verification needs clarification."
+      ],
+      "takeaway": "A financial answer needs claim-level evidence and a reproducible calculation path. Verification should bind the entity, period, units, currency, source version, and transformation, and should specify what happens to an unsupported claim.",
+      "tips": [
+        "Retain typed facts and the calculation inputs and operations, rather than allowing free-form arithmetic to carry the result.",
+        "Test wrong-entity, wrong-period, unit, sign, currency, restatement, and conflicting-source cases.",
+        "Confirm whether failed verification removes the unsupported statement, triggers abstention, or only strips its citation; those behaviors have different consequences."
+      ],
+      "limits": "No error rate, test set, latency/cost tradeoff, or proof of universal factual correctness was captured. A cited source can still be misinterpreted. The recorded retrieval settings require workload-specific evaluation, and paraphrase repair must not change what the source supports.",
+      "questions": [
+        "Which facts and transformations are actually checked deterministically?",
+        "What is the precise order of the retrieval and reranking settings recorded in the notes?",
+        "What happens to a financial claim when citation repair and verification fail?"
+      ],
+      "themeLinks": [
+        "capability-engineering",
+        "knowledge-backbone"
+      ]
+    }
+  ],
+  "closingReflection": {
+    "title": "Business problem selection and shared capabilities",
+    "attribution": "Unattributed closing reflection in the supplied notes; may combine a speaker’s remarks and the attendee’s own synthesis",
+    "ideas": [
+      "As model intelligence becomes easier to access, judgment about what matters and what to build becomes more important.",
+      "Start with a valuable business problem, such as material signals arriving too late, rather than beginning with where to add an AI tool.",
+      "Consider whether work should become more proactive, rather than simply automating its current reactive form.",
+      "Concentrate shared investment in reusable capabilities; standardize common foundations while allowing workflow-specific adaptation."
+    ],
+    "limit": "The notes mention studies suggesting that leading companies concentrate investment in fewer, higher-value use cases, but supply no citation or methodology. Treat concentration as a strategy hypothesis, not a verified research finding."
+  }
+}

@@ -1,0 +1,861 @@
+{
+  "themes": [
+    {
+      "id": "knowledge-backbone",
+      "title": "Investment AI is becoming an information-infrastructure business",
+      "thesis": "The strongest investment-firm cases position differentiated information access, source quality, permissions, and freshness as core AI infrastructure. The emerging distinction is between answering from a document collection and maintaining a usable view of the firm's changing knowledge.",
+      "sessionIds": [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2",
+        "bf371da6-6ef6-42ec-865f-5de4974a9114"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Bridgewater",
+          "classification": "Investment-firm practitioner; the permissions session is co-presented with infrastructure vendor turbopuffer",
+          "maturity": "Production explicitly reported in the abstract",
+          "reportedPattern": "The Vault centralizes internal and external unstructured information and supports PAT, described as used daily by hundreds of investors. The permissions co-presentation describes enforcing complex user-level access at retrieval rather than relying on application-layer checks. A next-generation Researcher is described as being enabled by this platform; its deployment scale is not established.",
+          "sessionIds": [
+            "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+            "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2"
+          ]
+        },
+        {
+          "firm": "Citadel Securities",
+          "classification": "Financial-firm practitioner",
+          "maturity": "Implemented enterprise-state example described; production rollout and measured effectiveness are not specified",
+          "reportedPattern": "The abstract describes estimating enterprise state from messages, decks, meetings, and other noisy observations. It proposes tracking belief freshness and contradictions, arguing that finding an old statement differs from estimating what is currently true.",
+          "sessionIds": [
+            "bf371da6-6ef6-42ec-865f-5de4974a9114"
+          ]
+        }
+      ],
+      "learning": "The advertised cases suggest that enterprise knowledge must be treated as an operated product: someone owns content quality, access rules, entity meaning, source/version history, and freshness. A stronger model cannot substitute for access to an authoritative source or resolve conflicting firm definitions by itself. Retrieval and state estimation should be compared according to the question being answered, rather than treated as interchangeable architectures.",
+      "tips": [
+        "Separate three questions in a team readout: Can the system find the evidence? May this user see it? Is it still authoritative for this decision? Show how each is tested.",
+        "For a research output, retain the source version and the effective date of the fact, not only the URL or the time the agent retrieved it.",
+        "Compare document Q&A with a state-estimation approach on a case involving changing or contradictory information before accepting a broader 'world model' claim."
+      ],
+      "whatNotToConclude": "Bridgewater's reported adoption does not prove investment outperformance, and Citadel Securities' proposed framing does not establish that ordinary retrieval is obsolete. Neither case establishes the same requirements for every wealth-management firm.",
+      "questionToValidate": "Which source-quality, entitlement, and freshness failures still occur in production, and what evidence shows the chosen architecture reduces them?"
+    },
+    {
+      "id": "long-horizon-work",
+      "title": "Advisor and analyst AI is becoming part of the workflow",
+      "thesis": "Public wealth-management disclosures point to knowledge access, meeting preparation, documentation, and follow-up as practical advisor workflows. The conference extends that discussion into persistent financial cases involving several people, tools, and days of work. These are different levels of delegation and require separate evidence.",
+      "sessionIds": [
+        "75bd85ed-b49d-41f6-98e1-7a22853c18ab",
+        "d49d49e1-90cb-4b8d-beb6-84d6560aaf04",
+        "1cbc625f-7f07-49bb-9c5c-57c95f07ba77"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Arca (speaker-linked site: arcawealth.ai)",
+          "classification": "Financial/wealth-workflow builder presenting its own runtime; do not infer affiliation with another similarly named firm",
+          "maturity": "Runtime implementation described; client scale, deployment duration, and independently measured automation level are not specified",
+          "reportedPattern": "The abstract distinguishes continuously running agents from financial work spanning weeks, several agents and humans, and external systems. It advertises orchestration, context, sandboxes, signals, and human involvement when work cannot progress. Its broad automation language remains the speaker's claim.",
+          "sessionIds": [
+            "75bd85ed-b49d-41f6-98e1-7a22853c18ab"
+          ]
+        },
+        {
+          "firm": "Compound AI",
+          "classification": "Agent vendor speaking from claimed production experience in finance workflows",
+          "maturity": "Production experience claimed; named financial customers and comparable outcome measures are not supplied",
+          "reportedPattern": "The session describes analysts collaborating in group conversations, working in Office artifacts, and requiring the right context from large deal workspaces. It promises a distinction between workflows ready for delegation and those still requiring a human copilot.",
+          "sessionIds": [
+            "d49d49e1-90cb-4b8d-beb6-84d6560aaf04"
+          ]
+        }
+      ],
+      "learning": "A useful wealth or research assistant fits the work already performed by advisors and analysts: prepare, find evidence, collaborate, document, and follow through. For a case spanning days or weeks, the system also needs an explicit state, an accountable owner, and a reliable handoff. A polished answer alone does not establish that the client or investment workflow was completed well.",
+      "tips": [
+        "Choose the workflow unit carefully: a prepared meeting, an accepted research memo, or a completed service case. Evaluate completion and correction effort, not just answer fluency.",
+        "For meeting and client-context tools, ask how consent, sensitive information, CRM writeback, and advisor review work. Retain who approved the final client communication.",
+        "For persistent cases, capture state, evidence requirements, accountable owners, escalation conditions, and how interrupted or duplicated work resumes."
+      ],
+      "whatNotToConclude": "These abstracts do not demonstrate fully autonomous wealth advice, universal suitability for client-facing decisions, or elimination of human accountability. The named wealth-specific evidence is narrower than the broader bank and investment-firm coverage.",
+      "questionToValidate": "Which workflow stages are demonstrably delegated today, which still require people, and what happens when a case stalls or its facts change mid-process?"
+    },
+    {
+      "id": "capability-engineering",
+      "title": "Model choice is one layer of a larger capability system",
+      "thesis": "Firms appear to be combining frontier models, task-specific context, tools, harnesses, and—in some cases—domain-trained models. The common lesson is to measure the complete capability stack on its intended task, while preserving room for specialized modeling when proprietary data justifies it.",
+      "sessionIds": [
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+        "1c25f303-f38f-450b-862d-669fdbab5f82",
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+        "e8e53365-3c1f-4c28-bdd0-44c305a05d57",
+        "2d29f925-f16b-41b3-8086-de0524829cbe"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Ramp",
+          "classification": "Fintech practitioner",
+          "maturity": "Production accounting agent and end-to-end benchmark explicitly described",
+          "reportedPattern": "Ramp advertises ablation experiments showing that added context can hurt performance. It describes reducing a frequently loaded skill and preserving reusable process in memory rather than stale facts from a previous task. The benchmark covers models, tools, skills, memory, and harness together.",
+          "sessionIds": [
+            "4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+          ]
+        },
+        {
+          "firm": "Wells Fargo",
+          "classification": "Bank practitioner",
+          "maturity": "Large-scale transaction-model development and transition toward production described; the abstract does not identify which applications are live",
+          "reportedPattern": "The session covers representing and tokenizing transaction data, dataset curation, training/evaluation pipelines, adaptive fine-tuning, and multi-task learning for fraud and transaction decisioning. This is a different AI category from an LLM research assistant.",
+          "sessionIds": [
+            "1c25f303-f38f-450b-862d-669fdbab5f82"
+          ]
+        },
+        {
+          "firm": "Optiver",
+          "classification": "Market-making firm practitioner",
+          "maturity": "Broad daily agent use and an operating model are explicitly reported",
+          "reportedPattern": "Optiver describes task-specific certification exams, routing to the cheapest certified model, and multiple provider/self-hosted channels. Its approach treats model selection as a repeatable capability-and-price decision rather than a one-time vendor choice.",
+          "sessionIds": [
+            "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+          ]
+        },
+        {
+          "firm": "LinqAlpha with Google DeepMind/Kaggle Benchmarks",
+          "classification": "Finance-agent vendor and benchmark collaborator; hedge-fund customer use is vendor-reported",
+          "maturity": "Benchmark launch plus production-client claims; institutional clients are unnamed in the abstract",
+          "reportedPattern": "The session attributes large performance differences to harness design and describes point-in-time investment-origination evaluation. The quoted scores and improvements require inspection of the task set, baselines, and scoring methodology.",
+          "sessionIds": [
+            "e8e53365-3c1f-4c28-bdd0-44c305a05d57"
+          ]
+        }
+      ],
+      "learning": "The advertised approaches support a layered capability view: model, data representation, retrieved context, tools, execution environment, and evaluation. Improving one layer can worsen another, and a benchmark result from coding or banking transactions cannot be assumed to transfer to investment research. A useful industry comparison therefore asks what workload each firm optimized and which variables it held constant.",
+      "tips": [
+        "Compare candidate systems on the same representative workload and record quality, critical failures, latency, cost, and reviewer effort together.",
+        "Run ablations on context, memory, and tools before crediting a model upgrade with the entire improvement.",
+        "Distinguish LLM assistants from transaction or tabular foundation models in a team report; their data, objectives, validation, and deployment constraints differ."
+      ],
+      "whatNotToConclude": "The cases do not show that foundation-model choice is irrelevant, that every bank should train its own model, or that a vendor's finance benchmark establishes live investment performance.",
+      "questionToValidate": "After controlling for workload and the surrounding system, which capability gains came from the model, domain data, context, tools, and harness respectively?"
+    },
+    {
+      "id": "authority-and-controls",
+      "title": "Reasoning and authority are separating into distinct layers",
+      "thesis": "The most concrete control stories separate an agent's proposal from permission to execute it, and move repeatable protections into identity, policy, data, and transaction infrastructure. Human review remains valuable for judgment and exceptions, while deterministic controls handle clearly specified limits.",
+      "sessionIds": [
+        "ac709f86-ce51-4582-a680-70449c32d29c",
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+        "e65f74f9-2174-406d-bd32-2d7073eb677d",
+        "01982251-7fdc-4828-8520-fb34b9bc7564"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Wise",
+          "classification": "Financial-services practitioner",
+          "maturity": "A built platform/control architecture is described; coverage and effectiveness measures are not supplied",
+          "reportedPattern": "Wise's LOOP framework is advertised as converting repeated oversight decisions into versioned policies enforced by the platform, with people involved when judgment is needed. The abstract explicitly separates model reasoning from authority over customer funds.",
+          "sessionIds": [
+            "ac709f86-ce51-4582-a680-70449c32d29c"
+          ]
+        },
+        {
+          "firm": "Two Sigma",
+          "classification": "Investment-firm practitioner",
+          "maturity": "Technical approaches described as used and effective internally; detailed mechanisms await the talk",
+          "reportedPattern": "The keynote addresses balancing useful research/engineering agents with safety and operating cost. The abstract supports a practitioner perspective on the tradeoff but does not yet disclose enough detail to prescribe a particular control architecture.",
+          "sessionIds": [
+            "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+          ]
+        },
+        {
+          "firm": "JPMC with Keycard and AAuth",
+          "classification": "Bank security practitioner participating in a vendor/protocol panel",
+          "maturity": "Protocol and design discussion; bank production adoption is not established",
+          "reportedPattern": "The panel asks whether permission to call a tool is sufficient and explores authorization tied to the agent's mission or intent. JPMC speaker participation should not be represented as endorsement or deployment of the named protocol.",
+          "sessionIds": [
+            "e65f74f9-2174-406d-bd32-2d7073eb677d"
+          ]
+        },
+        {
+          "firm": "Bloomberg",
+          "classification": "Financial-information practitioner presenting security patterns",
+          "maturity": "Security analysis and defenses; no specific Bloomberg deployment is established by the abstract",
+          "reportedPattern": "The keynote addresses prompt injection, data leakage, agent and supply-chain risks. It supplies a security perspective for evaluating an agent architecture; the speaker’s employer does not establish that every technique described is deployed there.",
+          "sessionIds": [
+            "01982251-7fdc-4828-8520-fb34b9bc7564"
+          ]
+        }
+      ],
+      "learning": "The advertised control patterns suggest a useful distinction between judgment and enforcement. A probabilistic model may identify a proposed action, while enforceable policy defines the allowable resources, identity, budget, and approval conditions. A successful API call or settlement is therefore an operational fact, not evidence that the business action was appropriate.",
+      "tips": [
+        "Draw the authority path alongside the data path: who requested the work, whose permissions apply, what may execute, and where the decision is enforced.",
+        "Test denied cases, stale credentials, duplicate actions, retries, and resource mismatches; a happy-path demo is insufficient evidence of control.",
+        "Ask which decisions were automated as preventive policy and which remain human judgment; record exception handling and accountability explicitly."
+      ],
+      "whatNotToConclude": "A protocol demonstration does not establish bank adoption, deterministic controls do not remove all model risk, and the presence of human approval does not by itself prove effective oversight.",
+      "questionToValidate": "Which actions can a compromised or mistaken agent still cause, and what measured evidence shows the control boundaries hold under adversarial and ordinary failures?"
+    },
+    {
+      "id": "evaluation-as-operations",
+      "title": "Evaluation is moving from a score to an operating discipline",
+      "thesis": "Practitioners are describing evaluation as a continuing process of human calibration, representative cases, failure diagnosis, release gates, and production observation. They are also exposing a second-order problem: the automated evaluator must itself be validated.",
+      "sessionIds": [
+        "ece6925c-c979-483f-bd40-51eacdbbe11b",
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+        "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed",
+        "1cbc625f-7f07-49bb-9c5c-57c95f07ba77"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Upstart with Coval",
+          "classification": "Regulated-lending practitioner plus evaluation vendor",
+          "maturity": "High-volume voice-agent production explicitly reported; automated self-improvement loops are described as being built toward",
+          "reportedPattern": "The abstract describes a progression from manually reviewing all calls to judges that had to match human graders before running unsupervised. It promises the practical failures and infrastructure behind that transition. The future self-healing ambition must be distinguished from the current operating state.",
+          "sessionIds": [
+            "ece6925c-c979-483f-bd40-51eacdbbe11b"
+          ]
+        },
+        {
+          "firm": "Ramp",
+          "classification": "Fintech practitioner",
+          "maturity": "Production accounting agent with an existing development/evaluation loop described",
+          "reportedPattern": "Ramp evaluates complete accounting workflows and compares changes using quality, reliability, latency, and cost rather than a single local metric. Its context-ablation examples offer a practitioner counterpart to the voice-agent calibration case.",
+          "sessionIds": [
+            "4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+          ]
+        },
+        {
+          "firm": "Unnamed top global bank, described by Langfuse",
+          "classification": "Vendor-reported customer pattern; not a named bank practitioner presentation",
+          "maturity": "A bank deployment-gate pattern is claimed; customer identity, coverage, and independent outcomes are unavailable",
+          "reportedPattern": "The abstract advertises golden datasets, domain evaluators, a pass/fail gate, and reviewable traces and scores. It can illustrate an evaluation architecture but cannot support a claim about adoption by a specific leading bank.",
+          "sessionIds": [
+            "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed"
+          ]
+        },
+        {
+          "firm": "Basis",
+          "classification": "Accounting-agent vendor",
+          "maturity": "Behavior-spec and trajectory-judging approach described as developed; outcome improvement is not quantified",
+          "reportedPattern": "Basis distinguishes a correct outcome from acceptable intermediate behavior and proposes evaluating both. This complements final-answer evaluation with process evidence on long-horizon research tasks.",
+          "sessionIds": [
+            "1cbc625f-7f07-49bb-9c5c-57c95f07ba77"
+          ]
+        }
+      ],
+      "learning": "The advertised cases suggest that an evaluation result earns the right to support a particular decision only when its task coverage, human agreement, failure sensitivity, and uncertainty are understood. Release evidence and post-release monitoring serve different purposes. Outcome scores, trajectory checks, and human review should be compared as complementary sources of assurance.",
+      "tips": [
+        "Record what a score is allowed to decide: choose a model, ship a change, reduce review, or expand autonomy. These decisions require different evidence.",
+        "Calibrate automated judges against independently reviewed examples, including important false passes and disagreements, before increasing reliance on them.",
+        "Keep a versioned record of the task set, rubric, evaluator, model, tools, and runtime so changes can be reproduced and regressions diagnosed."
+      ],
+      "whatNotToConclude": "The words 'self-healing' and 'deployment gate' do not establish autonomous remediation at scale. A high average score does not demonstrate safety on critical failures, and a named vendor's bank example is not a named institution's public endorsement.",
+      "questionToValidate": "What evidence was required to reduce human review, what failures still escape, and how is drift in the automated evaluator detected?"
+    },
+    {
+      "id": "value-attribution",
+      "title": "The business case is shifting from adoption to attributable outcomes",
+      "thesis": "Investment and financial firms are advertising a stronger connection between AI work and investment-process utility, operating margin, or reliable engineering output. The useful distinction is between usage, productivity, and causal business impact.",
+      "sessionIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Contour Asset Management",
+          "classification": "Investment-firm practitioner",
+          "maturity": "Daily-use research workflows and implemented measurement process explicitly reported",
+          "reportedPattern": "Contour describes logging AI-generated ideas with sources and reasoning, tracking which reach portfolio managers and become positions, and comparing performance with benchmarks. For softer signals it proposes comparison with the previous production method and time/signal measures. This is a measurement approach, not independently established causal alpha.",
+          "sessionIds": [
+            "ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+          ]
+        },
+        {
+          "firm": "Apollo Global Management",
+          "classification": "Private-equity/portfolio-operations practitioner",
+          "maturity": "Portfolio deployment case studies and an operating measurement approach advertised; case-level results await evidence",
+          "reportedPattern": "The abstract ties AI assessment to diligence, operating deployment, centralized capabilities, partner selection, and operating margin. Its examples span portfolio businesses rather than one uniform financial-adviser workflow.",
+          "sessionIds": [
+            "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a"
+          ]
+        },
+        {
+          "firm": "Optiver",
+          "classification": "Market-making firm practitioner",
+          "maturity": "Broad daily internal engineering use and model-routing operating approach reported",
+          "reportedPattern": "Task certification, lower-cost qualifying models, and telemetry are presented as operating mechanisms. The session also promises lessons about where inference spending concentrates and which assumed cost savings failed to materialize.",
+          "sessionIds": [
+            "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+          ]
+        },
+        {
+          "firm": "Monzo",
+          "classification": "Bank practitioner",
+          "maturity": "Scaled in-house agent use explicitly reported",
+          "reportedPattern": "The abstract reports Agent Chip's daily task volume and share of merged pull requests. These are useful adoption/output measures but do not, by themselves, establish avoided labor cost, higher code quality, or improved financial outcomes.",
+          "sessionIds": [
+            "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+          ]
+        }
+      ],
+      "learning": "The advertised cases support a measurement ladder: people use the system; the system completes useful work; that work improves a process; the process contributes to a business outcome. Each step needs its own evidence. Investment returns have many drivers, while engineering outputs can create downstream review and maintenance costs, so neither more ideas nor more pull requests is a sufficient ROI claim.",
+      "tips": [
+        "Report adoption, quality, efficiency, and financial outcome separately, with the source and limitations of each measure.",
+        "Define the counterfactual: what work would have happened without AI, with which cost, quality, and timing? Include review, retries, and rework.",
+        "Preserve timestamps and decision lineage for AI-generated investment ideas so later selection and performance are not reconstructed with hindsight."
+      ],
+      "whatNotToConclude": "Tracked positions and benchmark comparisons do not alone establish causal alpha. Adoption statistics are not ROI, and portfolio operating-margin examples do not generalize automatically to wealth management or research organizations.",
+      "questionToValidate": "Which reported benefits survive a credible baseline, full operating costs, selection effects, and the other factors influencing the business outcome?"
+    },
+    {
+      "id": "scaled-adoption",
+      "title": "Scaled adoption pairs a supported path with disciplined experimentation",
+      "thesis": "Banks and trading firms describe adoption through familiar work channels, shared runtimes, secure tooling, and controlled experiments rather than distributing an assistant license alone. A recurring pattern is to make the approved path convenient while requiring visibility and an exit decision for experiments.",
+      "sessionIds": [
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+        "2a07765d-fe3a-48df-be0f-75c111dbee6a",
+        "5191589c-a70e-4806-99dc-86f7794f46b9"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Monzo",
+          "classification": "Bank practitioner",
+          "maturity": "Current in-house deployment and broad staff use explicitly reported",
+          "reportedPattern": "Agent Chip is presented as a sandboxed agent using an MCP gateway and orchestration system, integrated with Slack for technical and nontechnical staff. The advertised lesson combines distribution, common infrastructure, and security/observability constraints.",
+          "sessionIds": [
+            "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+          ]
+        },
+        {
+          "firm": "Optiver",
+          "classification": "Market-making firm practitioner",
+          "maturity": "Current supported path and experiment operating model described",
+          "reportedPattern": "Optiver advertises a supported golden path plus an experimental funnel that must emit telemetry and either graduate or end. It also describes task-based model certification and multiple provider channels.",
+          "sessionIds": [
+            "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+          ]
+        },
+        {
+          "firm": "Revolut",
+          "classification": "Bank/fintech practitioner discussing its internal stack with Together AI",
+          "maturity": "Current internal coding and vision-model use described; detailed effectiveness and control evidence are not given",
+          "reportedPattern": "The talk promises experience with written-request-to-code and mockup-to-interface systems in an audited environment. It is a focused account of internal engineering capabilities, not evidence of autonomous customer banking.",
+          "sessionIds": [
+            "2a07765d-fe3a-48df-be0f-75c111dbee6a"
+          ]
+        },
+        {
+          "firm": "Capital One",
+          "classification": "Bank practitioner offering engineering principles",
+          "maturity": "A principles talk; the abstract does not establish a specific deployed agent architecture",
+          "reportedPattern": "The keynote frames code-quality and review decisions as questions needing durable principles amid competing automation approaches. It can enrich the governance discussion but supplies no adoption or productivity result in advance.",
+          "sessionIds": [
+            "5191589c-a70e-4806-99dc-86f7794f46b9"
+          ]
+        }
+      ],
+      "learning": "The announced cases suggest that internal platform and product decisions jointly shape adoption. Familiar channels reduce friction, while shared sandboxes, gateways, permissions, and evaluation practices make behavior easier to support. An experiment funnel also needs criteria for promotion and retirement; otherwise a growing collection of agents can become a maintenance portfolio without a clear owner.",
+      "tips": [
+        "Compare the employee journey as well as the model: discovery, access, task submission, result review, escalation, and support.",
+        "For each experiment, name an owner, a telemetry contract, a graduation test, and a date or condition for ending it.",
+        "Measure successful work and review effort alongside adoption; high task volume can coexist with weak output quality or support burden."
+      ],
+      "whatNotToConclude": "Slack integration is not universally the right interface, a golden path should not imply one model for every task, and these selected success-oriented talks do not establish industry-wide adoption or productivity rates.",
+      "questionToValidate": "Which shared platform services actually removed adoption barriers, and which experiments failed to graduate or were retired?"
+    },
+    {
+      "id": "modernization-and-domain-experts",
+      "title": "AI modernization still depends on domain experts and system invariants",
+      "thesis": "Financial-system modernization is being described as a combination of AI assistance, recovered institutional knowledge, careful migration structure, and explicit validation. The durable industry lesson may be that faster code generation increases the value of knowing which business behaviors cannot change.",
+      "sessionIds": [
+        "1779b934-d67b-45e9-ba11-0b19efac4b7e",
+        "6b92fb75-064e-4cb5-8aa3-7c7f211e7420",
+        "42d1cb16-e5c9-4eca-9aa8-d9a052b71dcd"
+      ],
+      "firmExamples": [
+        {
+          "firm": "Vanguard",
+          "classification": "Asset-management practitioner",
+          "maturity": "Production ledger migration while legacy systems remained live explicitly described",
+          "reportedPattern": "Vanguard describes separate producer migration, gold-copy replication, and consumer migration tracks; CDC-based synchronization; database-layer idempotency; and decoupled consumer access. AI tools are described as helping maintain two codebases. The abstract does not attribute the entire modernization outcome to AI.",
+          "sessionIds": [
+            "1779b934-d67b-45e9-ba11-0b19efac4b7e"
+          ]
+        },
+        {
+          "firm": "GEICO with Anthropic",
+          "classification": "Insurance practitioner describing an enterprise experiment with a model provider",
+          "maturity": "Explicitly an experiment; replication across teams is described as an adaptable methodology rather than established firm-wide scale",
+          "reportedPattern": "The war-room approach assembles a small team, on-call technical/product/business experts, tools, system context, and a curated playbook. The abstract reports a first-day annualized saving; its calculation, implementation status, and durability need validation.",
+          "sessionIds": [
+            "6b92fb75-064e-4cb5-8aa3-7c7f211e7420"
+          ]
+        },
+        {
+          "firm": "Neo4j with Blitzy",
+          "classification": "Two vendors presenting financial-firm implementation patterns; customers are not named in the abstract",
+          "maturity": "Large-financial-firm implementations claimed; customer verification and comparable outcomes are not available",
+          "reportedPattern": "The session advertises using a knowledge graph and agents to reconstruct legacy business rules and dependencies, then plan and validate modernization with guardrails and human approval. Reported acceleration remains a vendor claim until the supporting cases are examined.",
+          "sessionIds": [
+            "42d1cb16-e5c9-4eca-9aa8-d9a052b71dcd"
+          ]
+        }
+      ],
+      "learning": "The announced cases suggest that domain knowledge and validation are the scarce inputs in modernization. Vanguard's migration design protects financial consistency; GEICO's experts and playbook supply knowledge that the model does not possess; the vendor graph case seeks to recover hidden dependencies. The team should distinguish proven migration engineering from the incremental contribution of AI.",
+      "tips": [
+        "Record the nonnegotiable invariants—transaction completeness, reconciliation, idempotency, permissions, and downstream behavior—before discussing code-generation speed.",
+        "Ask how system experts contribute knowledge, resolve ambiguity, and approve consequential decisions; capture that process as carefully as the tools.",
+        "Separate measured AI contribution from the total project's benefits and separate annualized potential savings from realized recurring savings."
+      ],
+      "whatNotToConclude": "An annualized saving from an experiment does not establish realized enterprise ROI. A successful ledger migration does not prove AI can replace migration controls, and unnamed vendor customer claims should not be attributed to a particular financial institution.",
+      "questionToValidate": "Which parts of the result required AI, which depended on established migration controls and expert knowledge, and what independently checked outcome persisted after the experiment?"
+    }
+  ],
+  "rows": [
+    {
+      "firm": "Bridgewater",
+      "segment": "Investment research",
+      "work": "Vault ontology and time-scoped retrieval; different human/agent needs; evidence-oriented investor feeds.",
+      "maturity": "Day 1: production, speaker-reported",
+      "limit": "No retrieval benchmark or demonstrated change in habits, predictions, or returns captured.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2"
+      ]
+    },
+    {
+      "firm": "Wise",
+      "segment": "Financial services / controls",
+      "work": "LOOP separates reasoning from platform-enforced, versioned authority.",
+      "maturity": "Built framework described",
+      "limit": "Deployment coverage and control effectiveness are not quantified.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "ac709f86-ce51-4582-a680-70449c32d29c"
+      ]
+    },
+    {
+      "firm": "Monzo",
+      "segment": "Banking / internal engineering",
+      "work": "Agent Chip combines a sandbox, tool gateway, orchestration, and Slack distribution.",
+      "maturity": "Reported production",
+      "limit": "Task volume and merged code measure activity; net quality-adjusted productivity remains unknown.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ]
+    },
+    {
+      "firm": "Ramp",
+      "segment": "Fintech / accounting",
+      "work": "End-to-end job/task success; skill ablation from eight to four; trajectory-distilled memory and Excel-skill shrinkage.",
+      "maturity": "Day2: maturity not captured; program separately reports production",
+      "limit": "No effect sizes, assessment design, k, selection costs, or one-attempt reliability result captured.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "caecd5f6-b352-4868-a995-f0f71679caf0",
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+      ]
+    },
+    {
+      "firm": "Optiver",
+      "segment": "Market making / engineering",
+      "work": "Supported platform, experiment funnel, task certification, and model routing.",
+      "maturity": "Reported broad internal use",
+      "limit": "Engineering use is not evidence of autonomous trading or causal firm-wide savings.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ]
+    },
+    {
+      "firm": "Upstart",
+      "segment": "Lending / voice operations",
+      "work": "Production voice agents; automated judges calibrated against human graders.",
+      "maturity": "Production; future remediation",
+      "limit": "Voice deployment is reported; automated self-healing is an ambition under development.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "ece6925c-c979-483f-bd40-51eacdbbe11b"
+      ]
+    },
+    {
+      "firm": "Contour Asset Management",
+      "segment": "Investment management",
+      "work": "Speaker-described comparison of AI/non-AI research, sources, conclusions, and outcomes; cost per useful insight.",
+      "maturity": "Day 1: unclear; program separately reports daily use",
+      "limit": "Three months and the A/B label do not establish randomization, causal ROI, or alpha.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+      ]
+    },
+    {
+      "firm": "Apollo Global Management",
+      "segment": "Private equity / portfolio operations",
+      "work": "Diligence, portfolio deployment, shared capabilities, and operating-margin assessment.",
+      "maturity": "Deployment case studies advertised",
+      "limit": "Portfolio-company examples and the separate sparse keynote must not be treated as one proven platform.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+        "44e9d04a-e8b4-418c-8a85-02fbb9263dd0"
+      ]
+    },
+    {
+      "firm": "Vanguard",
+      "segment": "Asset management / infrastructure",
+      "work": "Live ledger modernization with CDC, parallel migration tracks, and idempotency.",
+      "maturity": "Production migration described",
+      "limit": "AI helps maintain codebases; the abstract does not isolate its incremental project benefit.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "1779b934-d67b-45e9-ba11-0b19efac4b7e"
+      ]
+    },
+    {
+      "firm": "Wells Fargo",
+      "segment": "Banking / transaction modeling",
+      "work": "Transaction foundation-model lifecycle for fraud and decisioning.",
+      "maturity": "Development / deployment unclear",
+      "limit": "Production-grade pipelines do not establish which applications are already live.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "1c25f303-f38f-450b-862d-669fdbab5f82"
+      ]
+    },
+    {
+      "firm": "Two Sigma",
+      "segment": "Investment management",
+      "work": "Agent registry, risk scoring, declared resource access, active controls, shared evaluations, and an approval classifier.",
+      "maturity": "Day 1: production, speaker-reported",
+      "limit": "Safety/utility effects, classifier errors, and enforcement details were not captured.",
+      "kind": "perspective",
+      "sessionIds": [
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+      ]
+    },
+    {
+      "firm": "JPMC",
+      "segment": "Banking / security",
+      "work": "Practitioner participation in an intent-based authorization panel.",
+      "maturity": "Protocol / design discussion",
+      "limit": "Panel participation does not establish JPMC adoption of Keycard or AAuth.",
+      "kind": "perspective",
+      "sessionIds": [
+        "e65f74f9-2174-406d-bd32-2d7073eb677d"
+      ]
+    },
+    {
+      "firm": "Citadel Securities",
+      "segment": "Financial markets / enterprise knowledge",
+      "work": "Enterprise-state estimation from changing, noisy organizational information.",
+      "maturity": "Implementation described; scale unclear",
+      "limit": "Production scope and measured effectiveness are unspecified; this is Citadel Securities.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "bf371da6-6ef6-42ec-865f-5de4974a9114"
+      ]
+    },
+    {
+      "firm": "GEICO",
+      "segment": "Insurance / modernization",
+      "work": "Expert-supported war-room experiment with tools, context, and playbooks.",
+      "maturity": "Experiment",
+      "limit": "Annualized potential savings differ from realized recurring benefits or scaled deployment.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "6b92fb75-064e-4cb5-8aa3-7c7f211e7420"
+      ]
+    },
+    {
+      "firm": "Capital One",
+      "segment": "Banking / engineering",
+      "work": "Durable versus disposable software; scale maintainability investment with lifespan and dependency footprint.",
+      "maturity": "Day 1: conceptual discussion; maturity unclear",
+      "limit": "No disposable-software deployment or near-zero replacement-cost result established.",
+      "kind": "perspective",
+      "sessionIds": [
+        "5191589c-a70e-4806-99dc-86f7794f46b9"
+      ]
+    },
+    {
+      "firm": "Coinbase",
+      "segment": "Digital-asset financial services",
+      "work": "Knowledge infrastructure, policy-driven workflows, and agent-account controls across several talks.",
+      "maturity": "Mixed evidence by session",
+      "limit": "Documentation usage is the clearest production claim; workflow/account concepts have separate maturity.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "ee927042-2ba1-44c3-b304-d001ae247839",
+        "d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+        "bc4b6b4a-cf07-4326-8276-fcf845da0284"
+      ]
+    },
+    {
+      "firm": "Bloomberg",
+      "segment": "Financial information / security",
+      "work": "AI attack patterns and defensive architecture.",
+      "maturity": "Security perspective",
+      "limit": "The speaker’s remit is not evidence of a particular deployed Bloomberg architecture.",
+      "kind": "perspective",
+      "sessionIds": [
+        "01982251-7fdc-4828-8520-fb34b9bc7564"
+      ]
+    },
+    {
+      "firm": "Blackstone",
+      "segment": "Alternative assets",
+      "work": "A scheduled session with Norm.ai; substantive abstract is empty.",
+      "maturity": "Insufficient detail",
+      "limit": "Do not infer Norm.ai adoption, a use case, or business results from the lineup.",
+      "kind": "watchlist",
+      "sessionIds": [
+        "4cf641ef-436a-4e59-bd73-8a1988d8214c"
+      ]
+    },
+    {
+      "firm": "Coatue",
+      "segment": "Investment management",
+      "work": "Scheduled Head of AI / AI Engineer keynote; substantive abstract is empty.",
+      "maturity": "Insufficient detail",
+      "limit": "Firm affiliation alone supports no technical or outcome conclusion.",
+      "kind": "watchlist",
+      "sessionIds": [
+        "9a9dfcd0-459f-43eb-b3f8-004864b4ad2a"
+      ]
+    },
+    {
+      "firm": "Arca",
+      "segment": "Wealth-workflow builder",
+      "work": "Persistent financial-work orchestration across agents, people, and external systems.",
+      "maturity": "Runtime described; scale unclear",
+      "limit": "Speaker links arcawealth.ai; do not conflate similarly named firms or infer incumbent-scale adoption.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "75bd85ed-b49d-41f6-98e1-7a22853c18ab"
+      ]
+    },
+    {
+      "firm": "Revolut",
+      "segment": "Banking / internal engineering",
+      "work": "Internal coding and vision-model workflows described with Together AI.",
+      "maturity": "Internal use described",
+      "limit": "No autonomous customer-banking deployment or measured productivity is established.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "2a07765d-fe3a-48df-be0f-75c111dbee6a"
+      ]
+    },
+    {
+      "firm": "Morgan Stanley Wealth Management",
+      "segment": "Wealth management · external context",
+      "work": "Advisor knowledge and consent-based meeting documentation/follow-up.",
+      "maturity": "Historical firm-reported rollout",
+      "limit": "Advisor-team adoption is distinct from Debrief impact, advice quality, or ROI.",
+      "kind": "disclosure",
+      "externalIndex": 0
+    },
+    {
+      "firm": "UBS",
+      "segment": "Wealth management · external context",
+      "work": "Institutional knowledge access and personalized advisor meeting intelligence.",
+      "maturity": "Firm-reported use; dated and undated sources",
+      "limit": "Tools and user populations differ; current web claims are not controlled outcome evidence.",
+      "kind": "disclosure",
+      "externalIndex": 1
+    },
+    {
+      "firm": "RBC Wealth Management",
+      "segment": "Wealth management · external context",
+      "work": "Advisor Assist: client context and meeting-preparation capabilities.",
+      "maturity": "Firm-reported early use / US pilots",
+      "limit": "Roadmap, survey adoption, and pilot conversion are different evidence categories.",
+      "kind": "disclosure",
+      "externalIndex": 2
+    },
+    {
+      "firm": "Range",
+      "segment": "Wealth management / financial planning",
+      "work": "Planner-authored skills; parallel cash-flow or insurance-analysis drafts with planner review and adjustment.",
+      "maturity": "Day2: workflow use described; maturity label not captured",
+      "limit": "Company confirmed by attendee and matched to current agenda. No measured capacity, advice-quality, or ROI result.",
+      "kind": "practitioner",
+      "sessionIds": [
+        "9b002687-09cf-42e2-9282-532ed9d0c184"
+      ]
+    }
+  ],
+  "sourceIds": [
+    "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+    "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2",
+    "bf371da6-6ef6-42ec-865f-5de4974a9114",
+    "75bd85ed-b49d-41f6-98e1-7a22853c18ab",
+    "d49d49e1-90cb-4b8d-beb6-84d6560aaf04",
+    "1cbc625f-7f07-49bb-9c5c-57c95f07ba77",
+    "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+    "1c25f303-f38f-450b-862d-669fdbab5f82",
+    "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+    "e8e53365-3c1f-4c28-bdd0-44c305a05d57",
+    "2d29f925-f16b-41b3-8086-de0524829cbe",
+    "ac709f86-ce51-4582-a680-70449c32d29c",
+    "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+    "e65f74f9-2174-406d-bd32-2d7073eb677d",
+    "01982251-7fdc-4828-8520-fb34b9bc7564",
+    "ece6925c-c979-483f-bd40-51eacdbbe11b",
+    "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed",
+    "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+    "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+    "58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+    "2a07765d-fe3a-48df-be0f-75c111dbee6a",
+    "5191589c-a70e-4806-99dc-86f7794f46b9",
+    "1779b934-d67b-45e9-ba11-0b19efac4b7e",
+    "6b92fb75-064e-4cb5-8aa3-7c7f211e7420",
+    "42d1cb16-e5c9-4eca-9aa8-d9a052b71dcd",
+    "caecd5f6-b352-4868-a995-f0f71679caf0",
+    "44e9d04a-e8b4-418c-8a85-02fbb9263dd0",
+    "ee927042-2ba1-44c3-b304-d001ae247839",
+    "d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+    "bc4b6b4a-cf07-4326-8276-fcf845da0284",
+    "4cf641ef-436a-4e59-bd73-8a1988d8214c",
+    "9a9dfcd0-459f-43eb-b3f8-004864b4ad2a",
+    "9b002687-09cf-42e2-9282-532ed9d0c184",
+    "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+    "4add802c-6a68-4e9c-93fb-9c1e017193bc",
+    "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+    "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+    "02f94835-c29d-4cf5-b77a-c5a491b747b8"
+  ],
+  "tips": [
+    [
+      "Make every financial number traceable",
+      "Retain the entity, period, units, currency, source version, and calculation path. A correct citation can still point to the wrong period or denominator. Distinguish sourced figures from calculated results and forecasts.",
+      [
+        "2d29f925-f16b-41b3-8086-de0524829cbe"
+      ]
+    ],
+    [
+      "Separate agent recall from human-facing usefulness",
+      "Scope the time period and decision, then evaluate retrieval coverage separately from final-brief relevance and noise. A shared repository does not require identical retrieval or presentation for people and agents.",
+      [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6"
+      ]
+    ],
+    [
+      "Evaluate the work product people accept",
+      "For research, measure an accepted memo or useful signal. For advisors, measure a prepared meeting or accurate follow-up. Include the human corrections needed before use; a completed model response is only one step.",
+      [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+      ]
+    ],
+    [
+      "Evaluate skill and memory changes on complete jobs",
+      "Define tasks and accepted completion before comparing bundles. Keep partial credit separate from binary pass criteria, and state the attempt budget and output-selection costs behind pass@k. Eight-to-four skills is an experiment, not a universal default.",
+      [
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+      ]
+    ],
+    [
+      "Calibrate judges as configured system components",
+      "Keep safety, task, and experience measures separate. Version the judge model and rubric; measure severe false passes, false failures, disagreement, and repeated-run variance. A fail-leaning judge can increase review burden.",
+      [
+        "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+        "4add802c-6a68-4e9c-93fb-9c1e017193bc"
+      ]
+    ],
+    [
+      "Test the consequential failure path",
+      "Seek disconfirming cases. Test containment, detection, and human intervention alongside output quality; preserve found failures as regression cases and verify repairs on a separate assessment set. Frequency alone does not describe risk.",
+      [
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ]
+    ],
+    [
+      "Connect the registry to enforced boundaries",
+      "Record owners, tools, endpoints, and resources, then test allowed and denied actions. For selective approval, measure missed consequential cases as well as unnecessary interruptions.",
+      [
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+      ]
+    ],
+    [
+      "Package domain judgment into reviewed skills",
+      "Use Range’s recorded Pick–Teach–Pack–Test–Ship sequence to expose inputs, why, required questions, and limits. Test accepted analysis quality and correction effort; parallel drafting does not by itself establish autonomous advice or capacity gains.",
+      [
+        "9b002687-09cf-42e2-9282-532ed9d0c184"
+      ]
+    ],
+    [
+      "Compare cost per accepted task",
+      "Include inference, retries, tools, review, rework, support, and maintenance. Choose lower-cost models only after they meet the relevant task and critical-failure requirements. Keep cost estimates separate from realized savings.",
+      [
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ]
+    ],
+    [
+      "Give experiments an exit decision",
+      "Name an owner, required telemetry, graduation criteria, and a retirement condition. The supported path should make common work convenient while experiments generate evidence about whether they deserve ongoing support.",
+      [
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3",
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ]
+    ],
+    [
+      "Separate maintainability from immediate consequence",
+      "Ask who depends on a tool and how long it must live. Rapid replacement may justify less long-term maintenance, while a wrong financial result or sensitive-data exposure can still matter immediately.",
+      [
+        "5191589c-a70e-4806-99dc-86f7794f46b9"
+      ]
+    ],
+    [
+      "Make traces usable for verified improvement",
+      "Connect request context, actions, evidence, outcomes, and evaluation results. An automated diagnosis is a hypothesis: reproduce the issue, assess a fix, and retain an accountable release decision.",
+      [
+        "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ]
+    ]
+  ],
+  "fields": [
+    [
+      "coverage",
+      "Actual attendance and coverage gaps",
+      "Sessions attended, sources checked, sessions missed, and perspectives still missing."
+    ],
+    [
+      "findings",
+      "Three strongest learnings",
+      "Finding → mechanism → evidence shown → limitation → why it matters."
+    ],
+    [
+      "changed",
+      "What changed my view",
+      "Initial hypothesis → evidence from the talk → revised conclusion."
+    ],
+    [
+      "examples",
+      "Most useful firm examples",
+      "Named firm, workflow, maturity, what people still do, outcome evidence, and source."
+    ],
+    [
+      "peertips",
+      "Practical tips worth sharing",
+      "Three techniques, where each helps, prerequisites, and tradeoffs."
+    ],
+    [
+      "questions",
+      "Unresolved questions",
+      "Claim to verify, missing denominator/baseline, artifact needed, and follow-up question."
+    ],
+    [
+      "implications",
+      "Implications for our team",
+      "What to watch, investigate, share, or test. Separate our inference from the speaker’s result."
+    ],
+    [
+      "followup",
+      "Follow-up and owners",
+      "Public materials, proposed discussion or experiment, owner to agree, and date."
+    ]
+  ]
+}

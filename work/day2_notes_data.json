@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-14",
+  "title": "AI Engineer NYC 2026 — Day 2 synthesis",
+  "scope": "The new material after the Day2 divider in the supplied attachment. The repeated Day1 notes are not counted again. Range attribution was clarified by the attendee and matched to the official October14 program.",
+  "executive": [
+    "Day 2 made the operating ideas from Day 1 more concrete: prevent errors before they propagate, evaluate complete jobs, package domain judgment into reusable skills, and assess quality across several dimensions. These are interpretations of the supplied notes, not independently reproduced results.",
+    "Sonar emphasized explicit intent, guardrails, independent verification, and repeatable evidence. Ramp connected evaluation to the tasks that make a job successful, using skill ablations and procedural memory as examples of system changes to test. The banking evaluation session added that safety, task completion, and user experience should remain separate dimensions, and that automated judges need their own validation.",
+    "Range supplied the clearest wealth-workflow example in the Day 2 notes: financial planners encode their methods into skills, let an agent draft analyses while they serve another client, then review and adjust the output. The five-step method—Pick, Teach, Pack, Test, Ship—turns practitioner knowledge into an explicit, testable workflow.",
+    "The OpenAI presentation connected financial data access to inspectable sources, tables, charts, firm-specific formats, and reusable artifact-generation tools. The practical connection across the day is to treat the whole deliverable—from authorized inputs through reviewed output—as the unit of design and evaluation."
+  ],
+  "combinedExecutive": [
+    "Across the two days, the strongest lesson is to engineer a complete financial workflow: make relevant institutional information available, capture how practitioners perform the work, constrain what an agent may do, verify both the result and the evaluator, and measure accepted work against a credible baseline. The report draws on 12 identified session-note sets; it does not establish an industry-wide maturity or ROI ranking.",
+    "Day 1 supplied the information, control, and value foundations. Bridgewater differentiated human and agent information needs; Two Sigma described ownership, access controls, and selective approval; Kepler separated financial claims from retrieval, computation, and citation checking; and Contour emphasized comparison with work done without AI.",
+    "Day 2 made the implementation and evaluation questions sharper. Sonar’s prevention-first framing puts guardrails and independent verification upstream. Ramp’s task-level success criteria and skill ablations make context and memory changes testable. The banking evaluation account makes quality multidimensional and treats a judge model as another configured component whose behavior needs assessment.",
+    "Range gives the report a concrete wealth-management mechanism: subject-matter experts package their actual planning process into reusable skills, with required questions and limits, while planners review and adjust agent-drafted analyses. OpenAI’s presentation adds the product layer of inspectable financial sources and useful artifacts. Neither case establishes autonomous advice, guaranteed correctness, or measured financial return in these notes.",
+    "The team takeaway is threefold: choose a valuable workflow, encode the evidence and judgment needed to complete it, and release changes based on task-specific quality, critical controls, review effort, and full cost. Keep proposed practices separate from the speakers’ claims, and reserve business-impact conclusions for evidence that survives a credible comparison."
+  ],
+  "sessions": [
+    {
+      "id": "4add802c-6a68-4e9c-93fb-9c1e017193bc",
+      "title": "The Machine that Changed the World, vAI",
+      "speaker": "Tariq Shaukat · Sonar",
+      "time": "9:18–9:36 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "evidence": "Speaker claim, explicitly recorded",
+      "maturity": "Unclear in the attendee notes",
+      "centralIdea": "Prevent defects through explicit intent and deterministic controls, then support release decisions with independent verification and repeatable evidence.",
+      "observations": [
+        "The recorded conceptual formula was: Code confidence = Intent × guardrails × verification × evidence. Intent includes specified goals and standards; verification is independent and thorough; evidence is auditable and repeatable.",
+        "The talk was recorded as arguing that human review alone does not scale, with ‘cognitive surrender’ describing the risk that people too readily agree with AI.",
+        "The notes report a codebase example in which accuracy collapsed above roughly 50k lines and much of the token budget went into understanding the codebase. Model, task, dataset, metric, and test conditions were not captured.",
+        "Compounding errors in long-running tasks and inconsistent answers from LLM judges were recorded as limitations. The conclusion in the notes was that prevention should come first."
+      ],
+      "takeaway": "Use prevention, verification, and human judgment as distinct layers. A reviewer needs usable evidence and a defined responsibility; a human approval step alone does not demonstrate that the underlying failure was detected.",
+      "tips": [
+        "Specify the intended outcome, standards, allowed actions, and required evidence before execution.",
+        "Test preventive constraints and independent checks on consequential failures, rather than relying only on the final review.",
+        "Treat judge disagreement as a signal to inspect, not a reason to select whichever judgment is favorable."
+      ],
+      "limits": "The multiplication is a conceptual mnemonic, not a calibrated confidence metric. The 50k-line example is not a universal size limit or a quantified result that transfers across codebases. No measured prevention benefit or judge variance was captured.",
+      "questions": [
+        "What failure classes does each preventive or verification layer catch?",
+        "What were the model, workload, accuracy definition, and context conditions behind the codebase example?",
+        "How were independent verification and judge consistency measured?"
+      ],
+      "themeLinks": ["authority-and-controls", "evaluation-as-operations", "modernization-and-domain-experts"]
+    },
+    {
+      "id": "02f94835-c29d-4cf5-b77a-c5a491b747b8",
+      "title": "Building the Next Chapter of AI in Finance",
+      "speaker": "Joseph Kim · OpenAI",
+      "time": "9:54–10:12 a.m. EDT",
+      "room": "Simons Room (Metropolitan East)",
+      "evidence": "Speaker claim, explicitly recorded; product/provider perspective",
+      "maturity": "Unclear in the attendee notes; availability and deployment scope not established",
+      "centralIdea": "A financial AI product combines data access, source inspection, financial interfaces, and useful work products in firm-specific formats.",
+      "observations": [
+        "The notes describe financial data and premium data, with interfaces for inspecting source passages and tables, interactive charts, and firm-specific formats.",
+        "Names recorded in the data discussion include LSEG, Fiscal.ai, FMP, and Quartr, with SEC filings also mentioned. The term ‘crunchable’ is preserved as an unresolved provider or term; it has not been silently corrected.",
+        "Artifact generation included presentation and document outputs, skills, shared artifact tools, and interactive charts.",
+        "Source citations and ‘MCP Apps’ appear together in the notes. Their exact implementation relationship was not captured."
+      ],
+      "takeaway": "Evaluate the path from authorized data to inspectable evidence to a usable artifact. The ability to generate a polished report or chart does not establish that its financial claims are current, correctly interpreted, or suitable for the user’s decision.",
+      "tips": [
+        "Assess source identity, dates, tables, transformations, and final artifact accuracy together.",
+        "Check how firm conventions and formatting are represented and reviewed.",
+        "Verify data coverage, entitlements, product availability, and missing-source behavior before treating a presentation as an implementation specification."
+      ],
+      "limits": "The notes do not establish general availability, licensing, supported integrations, complete data coverage, or customer outcomes. Data-provider names and UI descriptions are recorded speaker references, not verified product specifications.",
+      "questions": [
+        "Which capabilities were available, demonstrated, or described as future direction?",
+        "How are source passages, quantitative claims, and generated artifacts kept consistent?",
+        "What does ‘crunchable’ refer to, and what role do MCP Apps play in the citation workflow?"
+      ],
+      "themeLinks": ["knowledge-backbone", "long-horizon-work", "capability-engineering"]
+    },
+    {
+      "id": "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "title": "Building Better Agents Through End-to-End Evals",
+      "speaker": "Ryan Stevens · Ramp",
+      "time": "11:05–11:23 a.m. EDT · from the official program",
+      "room": "Shannon Room (NY Ballroom E) · from the official program",
+      "evidence": "Attendee-reported speaker account; evidence level not explicitly recorded",
+      "maturity": "Not captured in the Day2 notes; the program separately describes a production accounting agent",
+      "centralIdea": "Define the tasks that complete a job and what success looks like, then evaluate model, skills, memory, and runtime changes on that complete workload.",
+      "observations": [
+        "The notes start with mapping a job into tasks and defining success, including accuracy with partial credit.",
+        "The metric pass@k was recorded as an agent-evaluation measure, without a value for k, scoring rules, sample size, or results.",
+        "Experiments described as working included skill ablation from eight skills to a four-skill bundle, trajectory-distilled memory, and shrinking an Excel skill. The effect sizes and assessment design were not captured.",
+        "The recorded title matches the October14 official program. The same session ID had a different title in the October10 snapshot, ‘We gave our finance agent more context. It got worse.’ Speaker, time, and room here come from program metadata."
+      ],
+      "takeaway": "Treat context, skills, and memory as experimental variables. A smaller skill bundle can be a hypothesis worth testing; the result depends on the workload and does not imply that fewer skills always work better.",
+      "tips": [
+        "Define both graded task progress and a clear accepted-completion condition before tuning.",
+        "Compare skill bundles on the same assessment tasks, including critical failures, review effort, latency, and cost.",
+        "For pass@k, state the attempt budget and how a successful attempt is identified; report single-attempt behavior and selection/review cost separately."
+      ],
+      "limits": "pass@k concerns success within a budget of attempts under a specified success test; it does not establish one-attempt production reliability or that the deployed system can identify the successful attempt. The eight-to-four reduction is a reported experiment, not a recommended default. The notes do not equate the Excel-skill change with the program’s separate character-count example.",
+      "questions": [
+        "What was the full task distribution and how were partial credit and critical errors handled?",
+        "What were k, repeated-run variance, assessment separation, and selection costs?",
+        "What information is retained or excluded from trajectory-distilled memory, and how is stale case data prevented from transferring?"
+      ],
+      "themeLinks": ["capability-engineering", "evaluation-as-operations", "scaled-adoption"]
+    },
+    {
+      "id": "9b002687-09cf-42e2-9282-532ed9d0c184",
+      "title": "We Let Our Financial Planners Write the Agents",
+      "speaker": "Matt Ragone · Range",
+      "time": "11:30–11:48 a.m. EDT · from the official program",
+      "room": "Turing Room (Riverside Ballroom) · from the official program",
+      "evidence": "Attendee-reported speaker account; company clarified by the attendee; session matched to the current official program",
+      "maturity": "Not captured explicitly in the attendee notes; workflow use described",
+      "centralIdea": "Financial planners can encode their own repeatable planning methods into skills, use agents to draft parallel work, and retain review and adjustment of recommendations.",
+      "observations": [
+        "The notes describe a planner serving one client while an agent drafts cash-flow or insurance analysis for another. The planner then reviews, edits, and adjusts the analysis.",
+        "The recorded bottleneck was the planner’s limited ability to be in several places at once, rather than typing speed.",
+        "A skill needs to know what client data exists and how to obtain it, as well as how the firm performs and delivers planning recommendations.",
+        "The five recorded steps are Pick a repeated workflow that can be judged; Teach by explaining why; Pack the required questions and limits; Test; and Ship.",
+        "The attendee clarified that the company is Range. The current official agenda identifies Matt Ragone and the matching session; the notes originally had no speaker, company, time, or link."
+      ],
+      "takeaway": "Codify the firm’s actual judgment process, required inputs, questions, and boundaries in a skill. Evaluate whether parallel drafting increases accepted planning capacity after review and correction effort, while keeping responsibility for the recommendation explicit.",
+      "tips": [
+        "Select a repeatable workflow whose outputs a practitioner can judge.",
+        "Capture the reasons behind choices, required client facts, clarification questions, and limits.",
+        "Test representative and difficult cases before shipping, and keep ownership and review of the skill explicit. Ownership/review practices here are proposed implications, not separately measured results in the notes."
+      ],
+      "limits": "No measured capacity increase, recommendation-quality result, or ROI was captured. Parallel drafting is not autonomous financial advice. The five steps are a process to investigate, not evidence that a skill is correct merely because it follows that process.",
+      "questions": [
+        "How are nuanced planning judgments, exceptions, and missing client facts represented and reviewed?",
+        "Who maintains a skill as practice and data change?",
+        "What measures show increased accepted capacity without worse advice quality or greater review burden?"
+      ],
+      "themeLinks": ["long-horizon-work", "scaled-adoption", "value-attribution"]
+    },
+    {
+      "id": "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "title": "From Agent Prototype to Production in Regulated Banking",
+      "speaker": "Jonathan Osborne · affiliation discrepancy: Comet in notes; NatWest in the October14 official agenda",
+      "time": "2:05–2:23 p.m. EDT",
+      "room": "McCarthy Room (Riverside Suite)",
+      "evidence": "Speaker claim, explicitly recorded; affiliation to confirm",
+      "maturity": "Unclear in the attendee notes; reported assistant scale does not establish evaluated rollout scope",
+      "centralIdea": "Assess quality as separate safety, task, and experience dimensions, and treat the automated judge as a configured component that must itself be validated.",
+      "observations": [
+        "Quality was recorded as a vector. Listed task dimensions include completion, topic hit rate, and conversation completeness; experience dimensions include user satisfaction and knowledge retention.",
+        "The safety notes contain ‘roundedness, bias’. ‘Roundedness’ is ambiguous and has not been silently changed to ‘groundedness’ or used as a defined metric.",
+        "The speaker was recorded as favoring a judge that tends toward fail rather than pass and making the judge model part of configuration.",
+        "The notes describe ‘Cora’ at 100K conversations a day and a routing funnel involving contextual filters, preclassification, relevancy/rephrasing, and intent classification. The definition, observation period, exact ordering, and results were not captured.",
+        "The notes and October10 program list Comet; the October14 official program lists NatWest for Jonathan Osborne. This discrepancy is preserved instead of silently assigning the speaker or the Cora deployment to an institution."
+      ],
+      "takeaway": "Keep a quality scorecard whose dimensions cannot hide one another. Version the judge’s model and rubric, then assess missed important failures, false rejections, stability, and review burden before using scores to change rollout or human review.",
+      "tips": [
+        "Separate critical safety conditions from graded task and experience measures.",
+        "Calibrate a stricter judge against independent human decisions; measure unnecessary failures as well as missed defects.",
+        "Record the judge model, rubric, thresholds, and relevant system versions for comparable evaluations."
+      ],
+      "limits": "The 100K/day figure is a recorded scale claim, not a verified quality, safety, ROI, or current-volume measure. A fail-leaning judge is not automatically better. No approval evidence package, rollback trigger, reviewer agreement, or error-rate result was captured; the prefilled question remains unanswered.",
+      "questions": [
+        "Which safety metric was intended by ‘roundedness’, and how are all dimensions scored?",
+        "What are judge false-pass/false-fail rates, human disagreement, and repeated-run variance?",
+        "How does quality evidence govern release, rollback, and renewed review, and which speaker affiliation is correct?"
+      ],
+      "themeLinks": ["evaluation-as-operations", "authority-and-controls", "value-attribution"]
+    }
+  ],
+  "followups": [
+    "Sonar: obtain definitions and evidence behind the code-confidence framing, codebase-size example, and judge inconsistency claims.",
+    "OpenAI: distinguish demonstrated, available, and planned capabilities; verify data entitlements, provider names, and the role of MCP Apps.",
+    "Ramp: inspect task coverage, partial-credit rules, k and selection costs, repeated-run reliability, and the skill/memory ablation design.",
+    "Range: inspect skill review, difficult-case testing, maintenance, and whether accepted planner capacity improved after corrections and review.",
+    "Banking evaluation: confirm affiliation, the ambiguous safety term, conversation-count definition, judge calibration, and release/rollback evidence."
+  ]
+}

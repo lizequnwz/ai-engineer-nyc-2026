@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="20" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#102E3A"/>
+<g id="opening-title" data-pptx-bounds="48 40 1184 225">
+<text x="48" y="58" font-size="16" fill="#D5EF8C">AI ENGINEER NYC 2026 / APPLICATION DEMO</text>
+<text x="48" y="132" font-family="Cambria" font-size="36" fill="#FFFDF7">From queries to accepted work</text>
+<text x="48" y="187" font-size="24" font-family="Cambria" fill="#FFFDF7">Conference lessons applied to Fidelity institutional sales<tspan x="48" dy="34">and a personal analytics workspace</tspan></text>
+</g>
+<g id="shared-promise" data-pptx-bounds="48 285 1184 100">
+<line x1="48" y1="291" x2="1232" y2="291" stroke="#50616A" stroke-width="1"/>
+<text x="48" y="333" font-size="22" fill="#FFFDF7">Build the next release around a useful, checked work product.</text>
+<text x="48" y="369" fill="#E7F0EA">Preserve the evidence that makes the decision to expand credible.</text>
+</g>
+<g id="fidelity-route" data-pptx-bounds="48 415 560 175">
+<rect x="48" y="415" width="560" height="175" fill="none" stroke="#50616A" stroke-width="1"/>
+<text x="72" y="449" font-size="16" fill="#D5EF8C">01 / FIDELITY</text>
+<text x="72" y="490" font-size="24" font-family="Cambria" fill="#FFFDF7">A conversational sales-data assistant</text>
+<text x="72" y="530" fill="#E7F0EA">Discover, clarify, investigate and prepare<tspan x="72" dy="28">within reviewed business definitions.</tspan></text>
+</g>
+<g id="personal-route" data-pptx-bounds="640 415 592 175">
+<rect x="640" y="415" width="592" height="175" fill="#075E52"/>
+<text x="664" y="449" font-size="16" fill="#D5EF8C">02 / PERSONAL ANALYTICS AGENT</text>
+<text x="664" y="490" font-size="24" font-family="Cambria" fill="#FFFDF7">Evidence guarantees through completion</text>
+<text x="664" y="530" fill="#FFFDF7">Connect project understanding to a checked<tspan x="664" dy="28">analytical result and a consistent report.</tspan></text>
+</g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="48 654 1184 46" fill="#E7F0EA" font-size="12"><text x="48" y="676">For data scientists, AI engineers and technical leads • 40 minutes + discussion • Detailed slides for independent review</text><text x="1232" y="696" text-anchor="end">01 / 28</text></g>
+</svg>

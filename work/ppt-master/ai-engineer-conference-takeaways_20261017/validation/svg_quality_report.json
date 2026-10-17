@@ -1,0 +1,2453 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "3c75c53f8d6f633d3a518a9e677dceed9ff4010032ccb77fbe25fd61839426b8",
+    "file_count": 37,
+    "files": [
+      {
+        "file": "01_dependable_work.svg",
+        "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+      },
+      {
+        "file": "02_five_disciplines.svg",
+        "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+      },
+      {
+        "file": "03_reviewed_work_product.svg",
+        "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+      },
+      {
+        "file": "04_financial_bottlenecks.svg",
+        "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+      },
+      {
+        "file": "05_wealth_workflows.svg",
+        "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+      },
+      {
+        "file": "06_value_ladder.svg",
+        "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+      },
+      {
+        "file": "07_accepted_work_economics.svg",
+        "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+      },
+      {
+        "file": "08_evidence_boundary.svg",
+        "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+      },
+      {
+        "file": "09_retrieval_objectives.svg",
+        "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+      },
+      {
+        "file": "10_typed_facts.svg",
+        "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+      },
+      {
+        "file": "11_stale_source_example.svg",
+        "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+      },
+      {
+        "file": "12_inspectable_artifact.svg",
+        "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+      },
+      {
+        "file": "13_evaluation_contract.svg",
+        "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+      },
+      {
+        "file": "14_diagnostic_cash_flow_rubric.svg",
+        "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+      },
+      {
+        "file": "15_judges_and_selection.svg",
+        "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+      },
+      {
+        "file": "16_paired_ablations.svg",
+        "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+      },
+      {
+        "file": "17_release_decision.svg",
+        "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+      },
+      {
+        "file": "18_controlled_improvement.svg",
+        "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+      },
+      {
+        "file": "19_expert_skills.svg",
+        "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+      },
+      {
+        "file": "20_draft_review_authority.svg",
+        "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+      },
+      {
+        "file": "21_enforced_authority.svg",
+        "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+      },
+      {
+        "file": "22_three_verification_loops.svg",
+        "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+      },
+      {
+        "file": "23_financial_invariants.svg",
+        "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+      },
+      {
+        "file": "24_engineer_operating_loop.svg",
+        "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+      },
+      {
+        "file": "25_connected_fluency.svg",
+        "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+      },
+      {
+        "file": "26_lifespan_and_consequence.svg",
+        "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+      },
+      {
+        "file": "27_bounded_learning_experiment.svg",
+        "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+      },
+      {
+        "file": "28_three_decisions.svg",
+        "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+      },
+      {
+        "file": "29_discussion.svg",
+        "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+      },
+      {
+        "file": "30_implementation_checklist.svg",
+        "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+      },
+      {
+        "file": "31_company_mechanism_map.svg",
+        "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+      },
+      {
+        "file": "32_versioned_eval_spec.svg",
+        "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+      },
+      {
+        "file": "33_typed_claim_contract.svg",
+        "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+      },
+      {
+        "file": "34_passk_and_deployment.svg",
+        "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+      },
+      {
+        "file": "35_measurement_contract.svg",
+        "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+      },
+      {
+        "file": "36_questions_for_followup.svg",
+        "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+      },
+      {
+        "file": "37_sources.svg",
+        "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+      }
+    ]
+  },
+  "summary": {
+    "total": 37,
+    "passed": 37,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 37,
+    "totals": {
+      "text_elements": 643,
+      "image_placements": 0,
+      "icons": 0,
+      "svg_geometry_elements": 164,
+      "preset_shapes": 11,
+      "page_frame_elements": 37,
+      "marker_uses": 3,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 0,
+      "presets": 6,
+      "charts": 0,
+      "tables": 9,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 29,
+    "geometry_elements": {
+      "circle": 5,
+      "ellipse": 0,
+      "line": 65,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 94
+    },
+    "preset_names": {
+      "chevron": 6,
+      "flowChartDecision": 1,
+      "foldedCorner": 2,
+      "rightArrow": 2
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 9
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_dependable_work.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/01_dependable_work.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+    },
+    {
+      "file": "02_five_disciplines.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/02_five_disciplines.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 17
+      },
+      "passed": true,
+      "source_sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+    },
+    {
+      "file": "03_reviewed_work_product.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/03_reviewed_work_product.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+    },
+    {
+      "file": "04_financial_bottlenecks.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/04_financial_bottlenecks.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+    },
+    {
+      "file": "05_wealth_workflows.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/05_wealth_workflows.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+    },
+    {
+      "file": "06_value_ladder.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/06_value_ladder.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "chevron": 3
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+    },
+    {
+      "file": "07_accepted_work_economics.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/07_accepted_work_economics.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+    },
+    {
+      "file": "08_evidence_boundary.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/08_evidence_boundary.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 17
+      },
+      "passed": true,
+      "source_sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+    },
+    {
+      "file": "09_retrieval_objectives.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/09_retrieval_objectives.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+    },
+    {
+      "file": "10_typed_facts.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/10_typed_facts.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+    },
+    {
+      "file": "11_stale_source_example.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/11_stale_source_example.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+    },
+    {
+      "file": "12_inspectable_artifact.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/12_inspectable_artifact.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "foldedCorner": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+    },
+    {
+      "file": "13_evaluation_contract.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/13_evaluation_contract.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+    },
+    {
+      "file": "14_diagnostic_cash_flow_rubric.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/14_diagnostic_cash_flow_rubric.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+    },
+    {
+      "file": "15_judges_and_selection.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/15_judges_and_selection.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+    },
+    {
+      "file": "16_paired_ablations.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/16_paired_ablations.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 32,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 32,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+    },
+    {
+      "file": "17_release_decision.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/17_release_decision.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+    },
+    {
+      "file": "18_controlled_improvement.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/18_controlled_improvement.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "chevron": 3
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+    },
+    {
+      "file": "19_expert_skills.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/19_expert_skills.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+    },
+    {
+      "file": "20_draft_review_authority.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/20_draft_review_authority.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+    },
+    {
+      "file": "21_enforced_authority.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/21_enforced_authority.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "flowChartDecision": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+    },
+    {
+      "file": "22_three_verification_loops.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/22_three_verification_loops.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+    },
+    {
+      "file": "23_financial_invariants.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/23_financial_invariants.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "rightArrow": 2
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+    },
+    {
+      "file": "24_engineer_operating_loop.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/24_engineer_operating_loop.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+    },
+    {
+      "file": "25_connected_fluency.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/25_connected_fluency.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+    },
+    {
+      "file": "26_lifespan_and_consequence.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/26_lifespan_and_consequence.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+    },
+    {
+      "file": "27_bounded_learning_experiment.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/27_bounded_learning_experiment.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+    },
+    {
+      "file": "28_three_decisions.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/28_three_decisions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+    },
+    {
+      "file": "29_discussion.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/29_discussion.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+    },
+    {
+      "file": "30_implementation_checklist.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/30_implementation_checklist.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+    },
+    {
+      "file": "31_company_mechanism_map.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/31_company_mechanism_map.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+    },
+    {
+      "file": "32_versioned_eval_spec.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/32_versioned_eval_spec.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria",
+          "Consolas"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+    },
+    {
+      "file": "33_typed_claim_contract.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/33_typed_claim_contract.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "foldedCorner": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria",
+          "Consolas"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+    },
+    {
+      "file": "34_passk_and_deployment.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/34_passk_and_deployment.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+    },
+    {
+      "file": "35_measurement_contract.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/35_measurement_contract.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+    },
+    {
+      "file": "36_questions_for_followup.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/36_questions_for_followup.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 20
+      },
+      "passed": true,
+      "source_sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+    },
+    {
+      "file": "37_sources.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/37_sources.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 1,
+        "hyperlinks": 13
+      },
+      "passed": true,
+      "source_sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+    }
+  ]
+}

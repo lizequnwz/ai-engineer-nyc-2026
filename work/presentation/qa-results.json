@@ -1,0 +1,206 @@
+{
+  "checks": [
+    "37 pages render:29 core slides,8 appendices,exactly40 timed minutes; discussion untimed",
+    "All12attendee-note sources appear in core,with reading/speaker notes and39 distinct registered references",
+    "Source links,router targets,unique IDs,heading entry,and accessible button names are valid",
+    "Previous/next and keyboard navigation work without hijacking modifier or focused-button shortcuts",
+    "Native outline opens/closes,ignores slide keys while open,and focuses the chosen slide",
+    "Per-slide source dialog exposes correct evidence boundary and reference,and restores focus",
+    "Speaker notes toggle and follow the active slide",
+    "Reading mode reveals all slides,explanations,case atlas,andreferences while preserving current location",
+    "Deep links,switching modes,home/end,and appendix navigation preserve correct page state",
+    "Printing includes the complete deck in the chosen mode,then restores navigation state",
+    "Fullscreen uses the browser API without changing content or navigation",
+    "Synthetic calculations,typed claim units,arithmetic/source separation,and denial-vs-violation logic are consistent",
+    "UBS dated/undated citations,Range notes/program distinction,and banking/Upstart boundaries remain visible",
+    "All12 tested text/surface color pairs meet4.5:1 contrast",
+    "Self-contained runtime:no external assets,network calls,or persistence;responsive,reduced-motion,and zoom support are declared",
+    "No-JavaScript reading remains complete,including methods,case atlas,and source catalog",
+    "Substantive core slides carry170–290 words with an argument,example and3 visible analytical explanations;repetitive metadata badges removed"
+  ],
+  "coreSlides": 29,
+  "appendixPages": 8,
+  "minutes": 40,
+  "sources": 39,
+  "contrastPairs": [
+    {
+      "foreground": "#132f3b",
+      "background": "#fffdf7",
+      "ratio": 13.79
+    },
+    {
+      "foreground": "#50616a",
+      "background": "#fffdf7",
+      "ratio": 6.33
+    },
+    {
+      "foreground": "#f7f6eb",
+      "background": "#102e3a",
+      "ratio": 13.12
+    },
+    {
+      "foreground": "#c6d8d8",
+      "background": "#102e3a",
+      "ratio": 9.64
+    },
+    {
+      "foreground": "#075e52",
+      "background": "#e7f0ea",
+      "ratio": 6.61
+    },
+    {
+      "foreground": "#245b91",
+      "background": "#fffdf7",
+      "ratio": 6.93
+    },
+    {
+      "foreground": "#65428c",
+      "background": "#fffdf7",
+      "ratio": 7.61
+    },
+    {
+      "foreground": "#874c1b",
+      "background": "#fffdf7",
+      "ratio": 6.7
+    },
+    {
+      "foreground": "#285d67",
+      "background": "#fffdf7",
+      "ratio": 7.24
+    },
+    {
+      "foreground": "#83431f",
+      "background": "#f6e9dc",
+      "ratio": 6.32
+    },
+    {
+      "foreground": "#45528a",
+      "background": "#eef0f8",
+      "ratio": 6.53
+    },
+    {
+      "foreground": "#705016",
+      "background": "#f5efdc",
+      "ratio": 6.41
+    }
+  ],
+  "coreWordCounts": [
+    {
+      "id": "opening-cover",
+      "words": 59
+    },
+    {
+      "id": "opening-map",
+      "words": 185
+    },
+    {
+      "id": "strategy-01",
+      "words": 205
+    },
+    {
+      "id": "strategy-02",
+      "words": 218
+    },
+    {
+      "id": "strategy-03",
+      "words": 217
+    },
+    {
+      "id": "strategy-04",
+      "words": 195
+    },
+    {
+      "id": "strategy-05",
+      "words": 206
+    },
+    {
+      "id": "grounding-01",
+      "words": 197
+    },
+    {
+      "id": "grounding-02",
+      "words": 196
+    },
+    {
+      "id": "grounding-03",
+      "words": 183
+    },
+    {
+      "id": "grounding-04",
+      "words": 203
+    },
+    {
+      "id": "grounding-05",
+      "words": 196
+    },
+    {
+      "id": "evals-01",
+      "words": 184
+    },
+    {
+      "id": "evals-02",
+      "words": 243
+    },
+    {
+      "id": "evals-03",
+      "words": 220
+    },
+    {
+      "id": "evals-04",
+      "words": 213
+    },
+    {
+      "id": "evals-05",
+      "words": 218
+    },
+    {
+      "id": "evals-06",
+      "words": 207
+    },
+    {
+      "id": "workflows-01",
+      "words": 199
+    },
+    {
+      "id": "workflows-02",
+      "words": 208
+    },
+    {
+      "id": "workflows-03",
+      "words": 187
+    },
+    {
+      "id": "workflows-04",
+      "words": 213
+    },
+    {
+      "id": "workflows-05",
+      "words": 199
+    },
+    {
+      "id": "growth-01",
+      "words": 201
+    },
+    {
+      "id": "growth-02",
+      "words": 232
+    },
+    {
+      "id": "growth-03",
+      "words": 225
+    },
+    {
+      "id": "growth-04",
+      "words": 233
+    },
+    {
+      "id": "conclusion-01",
+      "words": 222
+    },
+    {
+      "id": "conclusion-02",
+      "words": 207
+    }
+  ],
+  "limitations": "DOM,content,interaction,and static CSS/contrast verification. No actual browser visual or layout rendering was performed:available browser policy blocks local-file navigation. Responsive appearance and actual print pagination remain unverified."
+}

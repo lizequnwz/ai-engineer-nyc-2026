@@ -1,0 +1,8 @@
+{
+  "sections": 7,
+  "implementationReferences": 21,
+  "words": 2946,
+  "minContrast": 5.60354019358021,
+  "checks": "Anchors, code-path/line existence, print control, external-link safety, no external runtime assets, table semantics, static contrast and core user context passed.",
+  "limitations": "Actual visual rendering and print pagination were not verified."
+}

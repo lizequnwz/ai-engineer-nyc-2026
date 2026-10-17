@@ -1,0 +1,595 @@
+{
+  "narrative": "Begin with the valuable unit of financial work and the evidence needed to claim improvement. Use named investment, wealth and banking examples to make the problem concrete, then hand off to grounding, evaluations and reliable workflows. Return to the engineer's role: operating the improvement loop, developing a balanced technical skill set and choosing proportionate rigor. Close with decisions and a bounded test, followed by discussion. The proposed sections total 16 minutes; the root author can consolidate them into the complete 40-minute presentation.",
+  "slides": [
+    {
+      "id": "strategy-01",
+      "chapter": "Finance strategy and value",
+      "title": "The work product is the unit of value",
+      "layout": "thesis-with-workflow-cards",
+      "points": [
+        "Define the work a professional can accept.",
+        "Include evidence, review and the next decision.",
+        "Measure completion and correction effort."
+      ],
+      "visualData": {
+        "type": "three-workflow-cards",
+        "cards": [
+          {
+            "label": "Investment research",
+            "input": "Sources + question",
+            "output": "Accepted research insight",
+            "case": "Contour: compare workflows with and without AI",
+            "provenance": "Attendee notes · speaker claim"
+          },
+          {
+            "label": "Wealth planning",
+            "input": "Client facts + planning method",
+            "output": "Reviewed analysis",
+            "case": "Range: draft in parallel, then review and adjust",
+            "provenance": "Attendee account · Range confirmed"
+          },
+          {
+            "label": "Financial communication",
+            "input": "Evidence + firm conventions",
+            "output": "Inspectable brief or artifact",
+            "case": "OpenAI: sources, tables, charts and artifacts",
+            "provenance": "Attendee notes · product-provider claim"
+          }
+        ],
+        "caption": "Editorial success units illustrated by the recorded cases; no measured benefit is implied."
+      },
+      "readerNotes": [
+        "A generated response is one component of a larger financial workflow. The useful end state may be a research insight an analyst accepts, a planning analysis a professional reviews, or a brief whose claims can be inspected. Acceptance needs a definition that includes quality and required controls, not merely user preference.",
+        "Evidence: Contour's comparison approach, Range's parallel drafting with planner review, and the OpenAI finance-interface discussion come from attendee notes. The notes do not establish causal ROI, measured advisor capacity or verified product accuracy. This slide proposes a common unit for discussing those cases."
+      ],
+      "speakerNotes": [
+        "Open with one question for the audience: what completed piece of work would matter to its user? Keep the examples concrete. For an analysis, a fluent answer is insufficient if the reviewer cannot resolve its sources or assumptions.",
+        "Explain that the deck combines 12 session-note sets with explicitly marked program and historical context. Speaker accounts are inputs to engineering decisions, not verified performance results."
+      ],
+      "sourceIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "9b002687-09cf-42e2-9282-532ed9d0c184",
+        "02f94835-c29d-4cf5-b77a-c5a491b747b8"
+      ],
+      "externalSources": [],
+      "minutes": 1.25
+    },
+    {
+      "id": "strategy-02",
+      "chapter": "Finance strategy and value",
+      "title": "Compare firms by the bottleneck they address",
+      "layout": "qualitative-case-map",
+      "points": [
+        "Investment: information and decision relevance.",
+        "Wealth: preparation and professional capacity.",
+        "Banking: controlled, repeatable execution.",
+        "Engineering: accepted change and operating cost."
+      ],
+      "visualData": {
+        "type": "case-map-table",
+        "columns": [
+          "Context",
+          "Recorded mechanism",
+          "Question for value"
+        ],
+        "rows": [
+          [
+            "Bridgewater · investment",
+            "Shared information foundation; human/agent retrieval needs differ",
+            "Does relevant evidence reach the investor in time?"
+          ],
+          [
+            "Range · wealth planning",
+            "Practitioner-authored skills; parallel drafting with review",
+            "Does accepted planning capacity improve after corrections?"
+          ],
+          [
+            "Two Sigma · research/engineering agents",
+            "Registry, declared access, active controls and evaluation",
+            "What utility remains while consequential actions are constrained?"
+          ],
+          [
+            "Monzo / Optiver · engineering",
+            "Shared runtime/distribution; task certification and routing",
+            "What accepted work remains after review and full cost?"
+          ]
+        ],
+        "caption": "First three rows: attendee speaker accounts. Monzo/Optiver: retained program background, not attendee findings."
+      },
+      "readerNotes": [
+        "A financial-services AI landscape is easier to compare when the workflow and bottleneck are explicit. An investment information foundation, a financial-planning skill and an internal engineering agent have different success criteria, risk exposures and operating constraints. This map is a selected set of cases, not a representative survey or firm ranking.",
+        "Evidence: Bridgewater, Range and Two Sigma are recorded attendee accounts. Monzo's shared agent runtime and Optiver's certification/routing approach remain descriptions from the earlier official program. Those engineering cases do not establish autonomous trading, banking or causal firmwide savings."
+      ],
+      "speakerNotes": [
+        "Use this map to establish breadth without turning the presentation into a company catalog. Ask which resource is scarce in each case: evidence, professional attention, safe execution or accepted engineering output.",
+        "Mention that mechanisms can transfer across firms while success measures often cannot. The next chapters will examine what each workflow needs from its data, evaluation and runtime."
+      ],
+      "sourceIds": [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "9b002687-09cf-42e2-9282-532ed9d0c184",
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11",
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ],
+      "externalSources": [],
+      "minutes": 1.5
+    },
+    {
+      "id": "strategy-03",
+      "chapter": "Finance strategy and value",
+      "title": "Wealth AI fits preparation, documentation and review",
+      "layout": "four-case-comparison",
+      "points": [
+        "Connect institutional knowledge to an advisor's workflow.",
+        "Make client context and professional review explicit.",
+        "Keep rollout evidence separate from outcome evidence."
+      ],
+      "visualData": {
+        "type": "four-case-cards",
+        "cards": [
+          {
+            "firm": "Range",
+            "date": "October 14, 2026 · attendee account",
+            "mechanism": "Planner-authored skills; cash-flow/insurance drafts; review and adjustment",
+            "boundary": "No measured capacity or advice-quality result captured"
+          },
+          {
+            "firm": "Morgan Stanley",
+            "date": "June 26, 2024 · external firm release",
+            "mechanism": "Knowledge Assistant plus consent-based Debrief notes, draft follow-up and CRM capture",
+            "boundary": "Assistant adoption does not establish Debrief-wide productivity"
+          },
+          {
+            "firm": "UBS",
+            "date": "February 4, 2025 · external results release",
+            "mechanism": "Red gives advisors access to institutional products, research and CIO knowledge",
+            "boundary": "Reported rollout scope does not establish quality or client outcomes"
+          },
+          {
+            "firm": "RBC",
+            "date": "March 27, 2025 · external Investor Day",
+            "mechanism": "Advisor Assist and client-context meeting preparation",
+            "boundary": "Roadmap, survey use and pilot outcomes are distinct evidence"
+          }
+        ],
+        "caption": "Historical disclosures are external context, not NYC sessions or claims about each firm's latest state."
+      },
+      "readerNotes": [
+        "The common wealth-management pattern is augmentation of a professional workflow. Range's recorded example drafts another client's analysis while a planner is on a call, then leaves review and adjustment with the planner. Morgan Stanley's historical release describes consent-based meeting capture and advisor-edited follow-up. UBS and RBC provide public examples of advisor knowledge access and preparation.",
+        "Evidence: Range's identity was confirmed by the attendee and matched to Matt Ragone's official session. Its notes omit explicit evidence/maturity labels and contain no measured benefit. The other three cases are dated company disclosures; they are not independent evaluations or NYC attendance evidence. The RBC presentation's conversion measure is US-pilot based, and its adoption/satisfaction measures are separately labeled survey results."
+      ],
+      "speakerNotes": [
+        "Use the four cards to show a pattern, then make the boundary clear: generating a draft is different from authorizing advice or demonstrating better client outcomes. The professional's review is an observable part of the workflow and must be included in any productivity measure.",
+        "Keep the historical dates visible. Do not introduce the cases as the latest industry state, or compare their adoption percentages as if the denominators and tools were the same."
+      ],
+      "sourceIds": [
+        "9b002687-09cf-42e2-9282-532ed9d0c184"
+      ],
+      "externalSources": [
+        "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+        "https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html",
+        "https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95",
+        "https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20"
+      ],
+      "minutes": 1.75
+    },
+    {
+      "id": "strategy-04",
+      "chapter": "Finance strategy and value",
+      "title": "Each step toward value needs new evidence",
+      "layout": "measurement-ladder",
+      "points": [
+        "Adoption measures use.",
+        "Accepted work measures usefulness and quality.",
+        "Process change measures time, capacity and reliability.",
+        "Attributable value needs a credible comparison."
+      ],
+      "visualData": {
+        "type": "four-stage-evidence-ladder",
+        "stages": [
+          {
+            "name": "Adoption",
+            "question": "Who uses it, for which work?",
+            "evidence": "Usage by task and cohort"
+          },
+          {
+            "name": "Accepted work",
+            "question": "What is accepted, corrected or rejected?",
+            "evidence": "Quality, critical failures, reviewer effort"
+          },
+          {
+            "name": "Process change",
+            "question": "What changed in the workflow?",
+            "evidence": "Time, throughput, capacity, reliability"
+          },
+          {
+            "name": "Attributable value",
+            "question": "What remains against the alternative?",
+            "evidence": "Comparable baseline, full costs, uncertainty"
+          }
+        ],
+        "case": "Contour: recorded tracking of AI/non-AI workflows, sources, conclusions and outcomes",
+        "caption": "Editorial measurement framework, not a measured conversion funnel."
+      },
+      "readerNotes": [
+        "Contour's notes ask whether the research process would have reached the same conclusion without AI and describe a comparison/tracking approach over roughly three months. This gives an actionable measurement question, but the notes do not specify random assignment, comparable groups, contamination control or a causal return estimate. Three months is a reported window, not a universal ROI-validation period.",
+        "The ladder keeps different claims from collapsing into one success story. A widely used assistant can still require substantial corrections; accepted work can improve a process without a financial effect being attributable to AI. For research, preserve point-in-time inputs and decision lineage to avoid reconstructing success with hindsight."
+      ],
+      "speakerNotes": [
+        "Walk upward one step at a time. Ask what extra evidence would justify the next claim. Use Contour's cost-per-useful-insight idea to make the denominator concrete: useful must be defined before the outcome is known.",
+        "Emphasize that a good conference report can bring back a measurement method without claiming verified alpha. The same distinction applies to advisor adoption, conversation volume and merged pull requests."
+      ],
+      "sourceIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ],
+      "externalSources": [],
+      "minutes": 1.75
+    },
+    {
+      "id": "strategy-05",
+      "chapter": "Finance strategy and value",
+      "title": "Count the full cost of accepted work",
+      "layout": "cost-equation-with-baseline",
+      "points": [
+        "Include attempts, tools, review, rework and operation.",
+        "Compare equivalent tasks at agreed quality.",
+        "Separate estimated savings from realized value."
+      ],
+      "visualData": {
+        "type": "cost-stack-and-comparison",
+        "equation": "Cost per accepted task = total workflow cost ÷ accepted tasks",
+        "costLayers": [
+          "Inference + repeated attempts",
+          "Data + tools",
+          "Human review + rework",
+          "Support + maintenance"
+        ],
+        "comparison": {
+          "baseline": "Current workflow",
+          "candidate": "AI-assisted workflow",
+          "commonRules": [
+            "Same task population",
+            "Same acceptance criteria",
+            "Critical-failure limits",
+            "Full human effort"
+          ]
+        },
+        "caption": "Proposed measurement definition. No illustrative dollar savings or firm results are implied."
+      },
+      "readerNotes": [
+        "A cheap model response can create expensive downstream work. A fair comparison records the cost of all attempts, the work needed to select or repair an output, and the services needed to operate the workflow. Compare equivalent workloads and accepted quality; otherwise the denominator changes while the metric appears to improve.",
+        "Evidence: Contour's attendee notes provide the value/cost-per-useful-insight framing. Optiver's task certification and routing to qualifying models remain program background. The all-in-cost stack is an editorial measurement proposal. Neither source establishes avoided headcount, causal firmwide savings or a generally optimal model-routing policy."
+      ],
+      "speakerNotes": [
+        "Use a failure example rather than made-up numbers: a retry that requires another review belongs in the cost, even if the final artifact is accepted. Ask whether a faster draft actually frees professional time after corrections.",
+        "Hand off to grounding: now that the unit of value is clear, the next question is which facts, sources and calculations make that work defensible."
+      ],
+      "sourceIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ],
+      "externalSources": [],
+      "minutes": 1.75
+    },
+    {
+      "id": "growth-01",
+      "chapter": "AI engineer growth",
+      "title": "Own the improvement loop",
+      "layout": "operating-loop",
+      "points": [
+        "Translate a need into task success.",
+        "Instrument behavior and diagnose failures.",
+        "Verify fixes before changing the workflow.",
+        "Retain an accountable release decision."
+      ],
+      "visualData": {
+        "type": "six-step-loop",
+        "steps": [
+          "Define task",
+          "Build a working slice",
+          "Capture traces",
+          "Evaluate + diagnose",
+          "Repair + regress",
+          "Release + observe"
+        ],
+        "crossCutting": "Owner · versions · evidence · cost",
+        "case": "Arize attendee notes: build/evaluate/read traces/identify improvements; Ramp: assess whole-task changes",
+        "caption": "Editorial operating loop derived from recorded mechanisms; not a verified autonomous-remediation system."
+      },
+      "readerNotes": [
+        "Arize's recorded distinction is between working on a feature and building the system that repeatedly improves it. Ramp's notes add a task-level definition of success and experiments on skills and memory. Together they suggest an engineer's growth path centered on closing a reliable loop from user need to evidence-backed change.",
+        "Evidence: Arize is a vendor account with unclear maturity and no measured diagnostic results in the notes. Ramp's notes omit an explicit evidence/maturity label. Automated diagnosis should remain a hypothesis until a concrete issue is reproduced and a change is tested; named tools or skills from rough notes are not required to apply this operating principle."
+      ],
+      "speakerNotes": [
+        "Connect this chapter to the preceding reliability material: engineering responsibility continues after the first successful demonstration. Read traces to understand failures, then make a change whose effect can be checked.",
+        "Keep diagnosis, proposing a fix, validation and release authority separate. This is a useful skill model even when each step is performed manually."
+      ],
+      "sourceIds": [
+        "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ],
+      "externalSources": [],
+      "minutes": 1.5
+    },
+    {
+      "id": "growth-02",
+      "chapter": "AI engineer growth",
+      "title": "Develop fluency across five responsibilities",
+      "layout": "competency-map",
+      "points": [
+        "Domain: define the decision and its limits.",
+        "Data: preserve meaning, access and provenance.",
+        "Systems: make state and authority explicit.",
+        "Measurement: validate tasks, judges and value.",
+        "Communication: show the evidence and uncertainty."
+      ],
+      "visualData": {
+        "type": "five-responsibility-cards",
+        "cards": [
+          {
+            "responsibility": "Domain translation",
+            "practice": "Turn a professional's judgment into inputs, questions and acceptance criteria",
+            "example": "Range skills"
+          },
+          {
+            "responsibility": "Data reasoning",
+            "practice": "Inspect entity, time, units, source and transformations",
+            "example": "Bridgewater / Kepler"
+          },
+          {
+            "responsibility": "System design",
+            "practice": "Draw ownership, allowed actions, state and exceptions",
+            "example": "Two Sigma / Sonar"
+          },
+          {
+            "responsibility": "Evaluation",
+            "practice": "Separate critical failures, task success, judge errors and full cost",
+            "example": "Ramp / failure study / Contour"
+          },
+          {
+            "responsibility": "Evidence communication",
+            "practice": "Explain what was claimed, observed, checked and still unknown",
+            "example": "Conference report practice"
+          }
+        ],
+        "caption": "Proposed competency map for this audience; no measured industry skill ranking."
+      },
+      "readerNotes": [
+        "The recurring engineering responsibilities span domain understanding, data semantics, software controls, measurement and communication. A data scientist can contribute experimental design and uncertainty analysis; an engineer can make behavior observable and enforceable; a technical lead can align the workflow and decision criteria. These responsibilities overlap and can be learned through shared work.",
+        "This is an editorial growth framework derived from the conference mechanisms, not a survey of hiring requirements or a claim that any firm uses this competency model. Choose a development area by inspecting a real gap in a bounded workflow, rather than collecting tools without a task."
+      ],
+      "speakerNotes": [
+        "Invite the audience to identify one responsibility it already performs well and one that would most improve its current work. The goal is balanced fluency and good collaboration, not requiring every person to become the sole expert in every area.",
+        "Keep evidence communication in the map. Being able to distinguish a useful mechanism from an unsupported outcome is part of technical judgment."
+      ],
+      "sourceIds": [
+        "9b002687-09cf-42e2-9282-532ed9d0c184",
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "2d29f925-f16b-41b3-8086-de0524829cbe",
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "4add802c-6a68-4e9c-93fb-9c1e017193bc"
+      ],
+      "externalSources": [],
+      "minutes": 1.5
+    },
+    {
+      "id": "growth-03",
+      "chapter": "AI engineer growth",
+      "title": "Lifespan and consequence call for different rigor",
+      "layout": "qualitative-decision-matrix",
+      "points": [
+        "Expected lifespan shapes maintenance investment.",
+        "Dependencies can turn an experiment into infrastructure.",
+        "Sensitive data and consequential actions still need checks."
+      ],
+      "visualData": {
+        "type": "two-by-two-matrix",
+        "xAxis": "Expected lifespan: short → long",
+        "yAxis": "Consequence of failure: bounded → high",
+        "cells": [
+          {
+            "x": "short",
+            "y": "bounded",
+            "label": "Simple and removable",
+            "detail": "Clear scope, owner and retirement condition"
+          },
+          {
+            "x": "long",
+            "y": "bounded",
+            "label": "Maintainable and owned",
+            "detail": "Stable interfaces and regression checks"
+          },
+          {
+            "x": "short",
+            "y": "high",
+            "label": "Constrained and checked",
+            "detail": "Bounded execution and evidence before use"
+          },
+          {
+            "x": "long",
+            "y": "high",
+            "label": "Operated and verified",
+            "detail": "Explicit controls, recovery and continuing validation"
+          }
+        ],
+        "caption": "Editorial decision aid. The matrix is not Capital One policy or an assurance score."
+      },
+      "readerNotes": [
+        "Capital One's recorded discussion distinguishes durable software from software that might be replaced in hours and used by relatively few people. A practical interpretation is to allocate maintainability deliberately. Expected lifespan is only one axis: a short-lived tool can still expose sensitive data or produce a consequential financial error.",
+        "Evidence: the Capital One notes are conceptual and do not establish a deployed disposable-software model or near-zero replacement cost. Sonar and Two Sigma supply complementary prevention/control concerns. The matrix is a proposed engineering judgment aid; specific checks depend on the actual workflow and existing requirements."
+      ],
+      "speakerNotes": [
+        "Use the short-lived/high-consequence quadrant to surface the tension. Cheap regeneration changes the economics of maintenance, but it does not make the consequences of a wrong answer disappear.",
+        "Ask what happens when a useful experiment gains downstream users. Reassess ownership, dependencies and validation instead of continuing to call it disposable."
+      ],
+      "sourceIds": [
+        "5191589c-a70e-4806-99dc-86f7794f46b9",
+        "4add802c-6a68-4e9c-93fb-9c1e017193bc",
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+      ],
+      "externalSources": [],
+      "minutes": 1.25
+    },
+    {
+      "id": "growth-04",
+      "chapter": "AI engineer growth",
+      "title": "Learn through one bounded, reviewable experiment",
+      "layout": "learning-lab",
+      "points": [
+        "Choose one work product and a credible baseline.",
+        "Build the smallest complete path.",
+        "Inspect failures and change one variable.",
+        "Write the decision to continue, revise or retire."
+      ],
+      "visualData": {
+        "type": "four-deliverable-path",
+        "stages": [
+          {
+            "step": "Frame",
+            "deliverable": "Workflow + source rules + acceptance criteria"
+          },
+          {
+            "step": "Baseline",
+            "deliverable": "Reviewed examples + current time/cost/quality"
+          },
+          {
+            "step": "Experiment",
+            "deliverable": "Working path + traces + failure cases + comparison"
+          },
+          {
+            "step": "Explain",
+            "deliverable": "Evidence card + limits + continue/revise/retire decision"
+          }
+        ],
+        "possibleWorkProducts": [
+          "Source-backed research brief",
+          "Reviewed analytical query result",
+          "Meeting-preparation draft"
+        ],
+        "caption": "Optional learning exercise; no Fidelity project, owner, deadline or resource commitment is assumed."
+      },
+      "readerNotes": [
+        "A bounded experiment can develop the five responsibilities together. Start from a task a domain reviewer understands, use approved or synthetic material, and establish what accepted completion means. Instrument the complete path before expanding it. Keep assessment examples distinct from tuning, and evaluate severe failures separately from average quality.",
+        "This is a proposed learning exercise grounded in Ramp's task/ablation account, Arize's improvement-loop account and Contour's comparison questions. It is not a production approval process, sufficient statistical validation or a commitment for any existing project. Agree criteria before interpreting a result and preserve uncertainty when the sample is small."
+      ],
+      "speakerNotes": [
+        "Make the exercise feel achievable: the deliverable is a defensible comparison and a decision, not an elaborate platform. A useful outcome can be that a deterministic workflow solves the task more simply, or that the data is not ready.",
+        "End the growth chapter by emphasizing the habit of making each claim reviewable. That habit transfers across models and tools."
+      ],
+      "sourceIds": [
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+        "b2ed4456-5671-4e8e-83fd-684c012fef8c",
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ],
+      "externalSources": [],
+      "minutes": 1.75
+    },
+    {
+      "id": "conclusion-01",
+      "chapter": "Discussion and action",
+      "title": "Bring back three decisions and one test",
+      "layout": "decision-board",
+      "points": [
+        "Choose the valuable work product.",
+        "Define evidence and authority boundaries.",
+        "Agree quality, review-cost and value criteria.",
+        "Propose one bounded comparison."
+      ],
+      "visualData": {
+        "type": "three-decisions-one-test-board",
+        "decisions": [
+          {
+            "name": "Work",
+            "prompt": "Which accepted output matters, and to whom?"
+          },
+          {
+            "name": "Boundary",
+            "prompt": "Which sources, actions and human judgments are permitted?"
+          },
+          {
+            "name": "Evidence",
+            "prompt": "What would justify continuing or stopping?"
+          }
+        ],
+        "testCard": {
+          "label": "Proposed comparison",
+          "fields": [
+            "Workflow and baseline",
+            "Approved inputs",
+            "Critical failure cases",
+            "Acceptance + review effort",
+            "Full cost",
+            "Owner/checkpoint to agree"
+          ]
+        },
+        "caption": "Discussion framework, not an approved project plan or a claim of internal readiness."
+      },
+      "readerNotes": [
+        "The conference's useful return is a set of decisions peers can assess. Across the recorded examples, the recurring responsibilities are task-specific information, procedural knowledge, constrained action, independent checks, calibrated evaluation and value comparison. Those ideas become useful when attached to a narrow work product and a testable hypothesis.",
+        "Keep the evidence boundary visible in the report-back: 12 identified note sets, ten explicit speaker-claim labels, two unlabeled speaker accounts, and no independent validation of the reported implementations or outcomes. Historical external disclosures and un-attended program cases remain separately marked context."
+      ],
+      "speakerNotes": [
+        "Return to the opening work-product question. Ask the audience to propose a workflow, then fill the boundary and evidence columns before debating tools.",
+        "Leave ownership and dates as decisions for the team. The presentation proposes a way to decide; it does not announce a Fidelity commitment."
+      ],
+      "sourceIds": [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+        "2d29f925-f16b-41b3-8086-de0524829cbe",
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+        "9b002687-09cf-42e2-9282-532ed9d0c184"
+      ],
+      "externalSources": [],
+      "minutes": 1.5
+    },
+    {
+      "id": "conclusion-02",
+      "chapter": "Discussion and action",
+      "title": "Which failure would change our decision?",
+      "layout": "discussion-prompts",
+      "points": [
+        "Which workflow has a consequential bottleneck?",
+        "Which failure could survive current review?",
+        "What baseline would change our mind?"
+      ],
+      "visualData": {
+        "type": "three-discussion-cards",
+        "cards": [
+          {
+            "label": "Value",
+            "prompt": "Name one accepted work product and the person whose work improves."
+          },
+          {
+            "label": "Risk",
+            "prompt": "Name one unsupported fact, denied action or missed exception that matters."
+          },
+          {
+            "label": "Test",
+            "prompt": "Name the comparison and evidence needed to continue, revise or stop."
+          }
+        ],
+        "closingLine": "Choose a useful workflow. Preserve the evidence. Test the whole system.",
+        "caption": "Discussion follows the 40-minute presentation; prompts do not imply any existing system deficiency."
+      },
+      "readerNotes": [
+        "Use these prompts to connect the industry examples to the audience's judgment without presuming a specific current project. A useful discussion produces a clear work unit, a consequential failure to test and a credible comparison. Record unresolved questions and who could clarify them, rather than forcing consensus from incomplete conference evidence.",
+        "The risk prompt follows the recorded failure-driven evaluation principle; the baseline prompt follows Contour's value-attribution discussion. Both are proposed uses of speaker accounts, not validated assurance methods or an endorsement of a particular tool."
+      ],
+      "speakerNotes": [
+        "Introduce the three prompts in thirty seconds, then use the separately allocated discussion time. Start with silent individual thought or a concrete example so the conversation does not become a general tool debate.",
+        "Capture one candidate experiment and one unresolved evidence question. If no candidate meets the conditions, that is a useful outcome; no immediate project commitment is required."
+      ],
+      "sourceIds": [
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c",
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+      ],
+      "externalSources": [],
+      "minutes": 0.5
+    }
+  ]
+}

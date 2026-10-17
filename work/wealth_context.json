@@ -1,0 +1,77 @@
+{
+  "preparedDate": "2026-10-10",
+  "scope": "External industry context. These are public firm reports, not AI Engineer NYC 2026 sessions or findings from attendance. Historical release dates are preserved; none is described as the newest deployment. Learning statements are editorial inferences, not measured Fidelity results.",
+  "cases": [
+    {
+      "firm": "Morgan Stanley Wealth Management",
+      "useCase": "Advisor knowledge assistant plus consent-based meeting documentation and follow-up",
+      "datedFact": "On June 26, 2024, Morgan Stanley announced Debrief: with client consent, it captures meeting notes and action items, drafts a follow-up email for the advisor to edit/send, and saves a Salesforce note. The same release reported that its knowledge Assistant had fully rolled out in September 2023 and that 98% of financial-advisor teams had adopted it as of the announcement.",
+      "sourceUrl": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+      "sourceTitle": "Morgan Stanley Wealth Management Announces Latest Game-Changing Addition to Suite of GenAI Tools",
+      "publishedDate": "2024-06-26",
+      "maturity": "Firm-reported full Assistant rollout and team adoption; Debrief launch/rollout with selected advisor testimonials. The release does not establish population-wide Debrief productivity or accuracy.",
+      "learning": "Inference: useful advisor AI can connect knowledge access to existing meeting/CRM workflows while preserving consent and human review. Evaluate the whole workflow, including corrections and follow-up quality.",
+      "caveat": "Historical firm announcement, not independent evaluation. Team adoption is not usage depth, advice quality, asset growth, or ROI. One advisor's stated time savings should not be generalized. The release warns that AI output can be inaccurate, incomplete or biased and requires verification.",
+      "externalContext": true,
+      "evidenceType": "Firm-reported deployment and feature description",
+      "additionalSources": [
+        {
+          "sourceUrl": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+          "sourceTitle": "Morgan Stanley Wealth Management Announces Key Milestone in Innovation Journey with OpenAI",
+          "publishedDate": "2023-03-14",
+          "supportedFact": "The earlier initiative described internal answers sourced exclusively from Morgan Stanley Wealth Management content, with links to source documents. It was a development announcement at that date, not evidence of a completed rollout."
+        }
+      ]
+    },
+    {
+      "firm": "UBS",
+      "useCase": "Advisor access to institutional knowledge, plus personalized pre-meeting intelligence",
+      "datedFact": "In its February 4, 2025 results release (page 6), UBS reported that Red, its proprietary AI assistant, had rolled out to around 20,000 client advisors, giving access to insights, UBS products, research and CIO reports.",
+      "sourceUrl": "https://www.ubs.com/content/news/en/2025/02/04/4q24-quarterly-result/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/actionbutton_copy_co.1694308247.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC80cTI0LW1lZGlhLXJlbGVhc2UtZW4ucGRm/4q24-media-release-en.pdf",
+      "sourceTitle": "UBS fourth-quarter and full-year 2024 results — media release, page 6",
+      "publishedDate": "2025-02-04",
+      "maturity": "Firm-reported advisor rollout as of February 2025; broader employee deployment and advisor-insights usage reported on a later undated corporate webpage.",
+      "learning": "Inference: distinguish an institutional knowledge assistant from a client-context briefing system. They solve different tasks and need different evidence, permissions, freshness and outcome measures. Broad rollout alone does not establish client benefit.",
+      "caveat": "The dated release is a historical snapshot. The additional corporate webpage is undated; its publication date cannot be inferred from its current content. All scale/time-saving figures are UBS-reported, and the public descriptions do not expose accuracy, causal evaluation or full implementation controls.",
+      "externalContext": true,
+      "evidenceType": "Firm-reported deployment; later undated firm case descriptions",
+      "additionalSources": [
+        {
+          "sourceUrl": "https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html",
+          "sourceTitle": "UBS's fourth-quarter and full-year 2024 results",
+          "publishedDate": "2025-02-04",
+          "supportedFact": "Dated official landing page linking the media-release PDF."
+        },
+        {
+          "sourceUrl": "https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html",
+          "sourceTitle": "Innovation and AI at UBS",
+          "publishedDate": null,
+          "observedDate": "2026-10-10",
+          "supportedFact": "The undated webpage, inspected October 10, 2026, reports Red rolled out to around 100,000 employees. Separately it describes STAAT Insights providing personalized briefings to more than 5,000 US financial advisors, nearly 90% advisor-team usage, and estimated meeting-preparation savings of 1,200 hours weekly. It reports over 20 million AI-identified client opportunities in 2025.",
+          "caveat": "Do not assign October 10 as publication date. The Red employee count and STAAT advisor count refer to different tools/populations. Opportunities are model-identified signals, not completed sales, realized returns or verified incremental assets. Time savings are estimated."
+        }
+      ]
+    },
+    {
+      "firm": "RBC Wealth Management",
+      "useCase": "Advisor desktop combining client context, meeting preparation and servicing capabilities",
+      "datedFact": "At its March 27, 2025 Investor Day, RBC presented Advisor Assist capabilities across onboarding, engagement/planning and servicing. Slide 95 lists US-surveyed results of 65%+ advisor AI adoption and 70%+ advisor satisfaction. It also lists approximately 30% conversion of AI-generated insights into assets; footnote 2 (slide 226) specifies that this conversion figure is based on US pilots.",
+      "sourceUrl": "https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95",
+      "sourceTitle": "RBC 2025 Investor Day Presentation — slide 95 and slide 226 endnotes",
+      "publishedDate": "2025-03-27",
+      "maturity": "Firm-reported use and US survey results; the conversion measure is explicitly pilot-based. The slide also describes a capability roadmap and does not prove every listed function was deployed universally.",
+      "learning": "Inference: wealth AI extends beyond searching research into meeting preparation and context-driven service. Separate usage, satisfaction, accepted insights and incremental financial outcomes; each is a different measure with different attribution requirements.",
+      "caveat": "Historical investor presentation. Survey figures and pilot conversion are firm-reported, not controlled causal estimates. No sample size, comparison group or broad rollout conclusion is established by these slides. Avoid presenting a pilot conversion figure as firmwide revenue uplift.",
+      "externalContext": true,
+      "evidenceType": "Firm investor presentation; US survey and pilot labels",
+      "additionalSources": [
+        {
+          "sourceUrl": "https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20",
+          "sourceTitle": "RBC Investor Day transcript — March 27, 2025, page 20",
+          "publishedDate": "2025-03-27",
+          "supportedFact": "RBC's Wealth Management leader described US advisor meeting-preparation summaries using client emails, CRM and advisor notes, and characterized the results as early. This is an executive account, not independent performance validation."
+        }
+      ]
+    }
+  ]
+}

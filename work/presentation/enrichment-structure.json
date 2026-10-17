@@ -1,0 +1,83 @@
+{
+  "opening-map": {
+    "headline": "Dependable financial AI combines valuable work, grounded evidence and controlled improvement",
+    "lead": "Five themes connect the company stories into one operating model: define useful work, preserve financial meaning, evaluate the whole task, enforce authority and improve through evidence.",
+    "insights": [
+      {"title":"Start with the business bottleneck","text":"Bridgewater targets access to relevant investment information; Range packages expert planning methods; wealth firms support advisor preparation and follow-through. These are distinct workflows. Specify the accepted work product and scarce resource before selecting a model, agent framework or platform."},
+      {"title":"Make the entire path inspectable","text":"Grounding includes access, definitions, time, source versions and calculations. Reliability also depends on what the system may do and how errors are discovered. Evaluate the delivered artifact and action trajectory together, including the corrections and judgments people must still supply."},
+      {"title":"Improve through a bounded comparison","text":"Ramp’s ablations and Arize’s trace loop point toward a practical discipline: reproduce the task, change one component, assess quality and full effort, then make a scoped release decision. The engineer’s contribution is a defensible improvement, supported by observable evidence."}
+    ]
+  },
+  "appendix-evidence": {
+    "headline": "One implementation checklist connects the task, evidence, authority and release decision",
+    "lead": "Use a shared contract before building and at each material change. It gives domain experts, data scientists and engineers a common way to review what the system should accomplish.",
+    "insights": [
+      {"title":"Make each requirement testable","text":"Replace broad goals such as accuracy or safety with observable behavior. Name the work product, necessary evidence, allowed actions and unacceptable outcomes. A requirement is useful when a reviewer can recognize compliance and a test can expose a meaningful violation."},
+      {"title":"Retain the decision context","text":"Record system, data, skill, case and evaluator versions together with the result. Keep important disagreement and accepted limitations. That record lets another person reproduce the comparison and understand why a change was considered appropriate for a particular scope."},
+      {"title":"Revisit changes in exposure","text":"A new data source, user population, tool or execution permission can change the failure modes even if the prompt is unchanged. Reassess the relevant cases and operational controls. Expand review when the uncertainty could alter the decision, rather than repeating every check mechanically."}
+    ]
+  },
+  "appendix-atlas": {
+    "headline": "Company examples teach reusable mechanisms rather than a single financial AI architecture",
+    "lead": "Group cases by the problem they illuminate. Use the mechanism to generate a design or evaluation question; compare reported maturity and business effects separately in the detailed company atlas.",
+    "insights": [
+      {"title":"Compare like work with like","text":"A research information feed, planner preparation draft and code-migration assistant have different acceptance decisions. Compare systems performing equivalent work before interpreting adoption, time or cost. Their shared lesson is explicit evidence and control, not one universal success metric."},
+      {"title":"Distinguish mechanism from effectiveness","text":"A detailed architecture explains how a system is intended to operate. Production use shows operational adoption. Neither alone establishes quality, net time saved or causal business impact. Ask what baseline, task mix and human effort would support the stronger claim."},
+      {"title":"Use the atlas for follow-up","text":"The full reading-mode atlas retains 25 firm perspectives, source links and case limits. Use it to find a relevant peer pattern, then investigate the missing implementation detail or measurement. A company affiliation alone does not establish deployment of every discussed technique."}
+    ]
+  },
+  "appendix-eval-spec": {
+    "headline": "A versioned evaluation contract makes a release decision reproducible",
+    "lead": "The illustrative schema links the intended task to inputs, case coverage, acceptance, critical conditions and an accountable owner. It is a compact specification to discuss before running an assessment.",
+    "insights": [
+      {"title":"Define the permitted completion","text":"Describe the complete job, authorized data snapshot, output and action limits. Include when the system should clarify or abstain. Critical conditions need explicit definitions: unauthorized access is a failure; correctly refusing access can be the expected successful behavior."},
+      {"title":"Version the evaluator as well","text":"A judge model, prompt, rubric or threshold change can change reported quality without changing the agent. Retain those versions with the case and system configuration. Recalibrate important decisions against reviewed examples when the evaluator changes or the task population shifts."},
+      {"title":"Tie evidence to the decision","text":"Select cases and uncertainty analysis for the question being decided. Choosing a model, reducing review and granting execution authority require different evidence. The contract supports a scoped judgment with known limits; it cannot prove that no consequential failure remains possible."}
+    ]
+  },
+  "appendix-claim": {
+    "headline": "A typed claim keeps a financial value attached to its meaning and derivation",
+    "lead": "The synthetic AsterCo contract represents a 20% annual revenue-growth claim as a ratio. Its inputs, units, period, information cutoff and calculation are preserved for inspection and downstream rendering.",
+    "insights": [
+      {"title":"Do not mix measurement types","text":"Revenue of 120 million dollars and revenue growth of 0.20 are different metrics with different units. Carry the metric definition and unit through every transformation. An exact numerical match against a document is insufficient if the answer uses the value in the wrong comparison."},
+      {"title":"Retain the source identity","text":"Store the source document, passage, version and available-as-of time with each input. Reconstruct which evidence was eligible when the question was asked. Publication, reporting period and access permission answer different questions and should not be collapsed into a single timestamp."},
+      {"title":"Propagate corrections through artifacts","text":"When an input is superseded, recompute dependent figures and update the associated narrative, table and chart. Preserve the earlier value and change reason for reproducibility. Validate the final artifact, since formatting or export can drop units, periods or links even when the calculation was correct."}
+    ]
+  },
+  "appendix-passk": {
+    "headline": "pass@k measures an opportunity to succeed; deployed reliability also requires choosing correctly",
+    "lead": "Separate candidate generation from selection and acceptance. A multi-attempt benchmark can contain a passing answer while the deployed workflow selects a failing answer or spends excessive effort identifying the usable one.",
+    "insights": [
+      {"title":"State the benchmark question","text":"Under pass@k, a task succeeds when at least one of k sampled candidates meets the specified test; results are summarized over tasks. State the task distribution, test and attempt budget. This does not report whether the first candidate succeeds or an operational selector finds the passing candidate."},
+      {"title":"Evaluate the actual selector","text":"Run the verification, ranking or human-review process the deployed system will use. Measure acceptance of its chosen output, missed defects and rejection of usable candidates. Avoid interpreting an oracle-like benchmark that recognizes success using ground truth as a deployed selection capability."},
+      {"title":"Count the entire attempt budget","text":"Include all generated candidates, tool calls, verification, review time and latency. Compare policies at explicit budgets and acceptance standards. More attempts can create an opportunity for higher success while increasing cost and exposure; evaluate that tradeoff on the actual workflow."}
+    ]
+  },
+  "appendix-measures": {
+    "headline": "Accepted-task rate and full cost reveal what adoption metrics leave unresolved",
+    "lead": "Agree the eligible population, completion standard and comparison before reporting improvement. Pair output quality with operating effort so a reduction in one cost does not conceal increased work elsewhere.",
+    "insights": [
+      {"title":"Use two complementary denominators","text":"Accepted-task rate uses all eligible assigned tasks to show how often the workflow succeeds. Cost per accepted task divides total workflow cost, including failed attempts, by accepted tasks. Report both; a low unit cost can coexist with too many unsuccessful or excluded tasks."},
+      {"title":"Measure professional effort end-to-end","text":"Count preparation, correction, evidence checking, approval and follow-up, alongside system costs. Compare equivalent work at the same quality standard. Draft generation time alone cannot establish additional advisor or analyst capacity when people must reconstruct or repair the result."},
+      {"title":"Separate process from business impact","text":"Faster accepted work is a process result. Attributable returns, client outcomes or revenue require an additional credible comparison and attention to selection and other drivers. Contour’s recorded comparison motivates the question; the notes do not establish a causal financial estimate."}
+    ]
+  },
+  "appendix-unknowns": {
+    "headline": "Turn unresolved conference claims into specific engineering follow-up questions",
+    "lead": "Uncertainty becomes useful when it identifies the next inspection or test. Focus follow-up on coverage, failure handling, measurement and deployment scope rather than repeating an attractive claim without its conditions.",
+    "insights": [
+      {"title":"Ask what the checker misses","text":"For citation verification, judge calibration or approval triage, ask which cases are assessed, which serious errors pass, and what happens when support fails. Independent components can share blind spots. Request representative failures and adjudication procedures alongside aggregate agreement or architecture diagrams."},
+      {"title":"Ask what the result measures","text":"For reported time savings, productivity or financial effects, request the baseline, task population, exclusions, sample, uncertainty and full human effort. Clarify whether the figure describes adoption, a pilot, estimated opportunity or realized outcome. Preserve historical disclosure dates when comparing firms."},
+      {"title":"Ask what scope was demonstrated","text":"Clarify production scope, user entitlements, model and data versions, and operational stop conditions. Sonar’s code-size example and Kepler’s rough retrieval settings lack enough context to become defaults. Unresolved note terms and the Comet/NatWest affiliation discrepancy remain in the source context for follow-up."}
+    ]
+  },
+  "appendix-sources": {
+    "headline": "Source links preserve the distinction between company stories and proposed engineering methods",
+    "lead": "The complete catalog contains 39 references. Individual source dialogs connect the slide to its session or primary reference; reading mode retains the company atlas, detailed explanations and original source context.",
+    "insights": [
+      {"title":"Use company stories as evidence","text":"The deck consolidates twelve identified session-note sets with pre-conference program research. Notes capture the live accounts; agenda descriptions identify advertised topics and mechanisms. The presentation derives practical questions from those sources without treating reported implementation as independently tested effectiveness."},
+      {"title":"Keep external context dated","text":"The wealth examples draw on primary company releases and investor materials from 2024 and 2025. They establish what the firm described at that time. Current availability, rollout populations and causal benefits require separate verification; the dates remain visible on the comparison slide."},
+      {"title":"Reuse the illustrative methods deliberately","text":"Rubrics, typed-claim contracts, release gates and learning exercises translate the conference mechanisms into reviewable practices. AsterCo and the financial-review packet use invented values. Adapt acceptance and failure definitions with domain reviewers, and test the complete workflow before interpreting a method as an established result."}
+    ]
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed",
+  "output": {
+    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/exports/ai-engineer-conference-takeaways_20261017_110124_native_charts_tables.pptx",
+    "bytes": 184887
+  },
+  "source": {
+    "svg_slide_count": 37,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "3c75c53f8d6f633d3a518a9e677dceed9ff4010032ccb77fbe25fd61839426b8",
+      "file_count": 37,
+      "files": [
+        {
+          "file": "01_dependable_work.svg",
+          "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+        },
+        {
+          "file": "02_five_disciplines.svg",
+          "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+        },
+        {
+          "file": "03_reviewed_work_product.svg",
+          "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+        },
+        {
+          "file": "04_financial_bottlenecks.svg",
+          "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+        },
+        {
+          "file": "05_wealth_workflows.svg",
+          "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+        },
+        {
+          "file": "06_value_ladder.svg",
+          "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+        },
+        {
+          "file": "07_accepted_work_economics.svg",
+          "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+        },
+        {
+          "file": "08_evidence_boundary.svg",
+          "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+        },
+        {
+          "file": "09_retrieval_objectives.svg",
+          "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+        },
+        {
+          "file": "10_typed_facts.svg",
+          "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+        },
+        {
+          "file": "11_stale_source_example.svg",
+          "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+        },
+        {
+          "file": "12_inspectable_artifact.svg",
+          "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+        },
+        {
+          "file": "13_evaluation_contract.svg",
+          "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+        },
+        {
+          "file": "14_diagnostic_cash_flow_rubric.svg",
+          "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+        },
+        {
+          "file": "15_judges_and_selection.svg",
+          "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+        },
+        {
+          "file": "16_paired_ablations.svg",
+          "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+        },
+        {
+          "file": "17_release_decision.svg",
+          "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+        },
+        {
+          "file": "18_controlled_improvement.svg",
+          "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+        },
+        {
+          "file": "19_expert_skills.svg",
+          "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+        },
+        {
+          "file": "20_draft_review_authority.svg",
+          "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+        },
+        {
+          "file": "21_enforced_authority.svg",
+          "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+        },
+        {
+          "file": "22_three_verification_loops.svg",
+          "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+        },
+        {
+          "file": "23_financial_invariants.svg",
+          "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+        },
+        {
+          "file": "24_engineer_operating_loop.svg",
+          "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+        },
+        {
+          "file": "25_connected_fluency.svg",
+          "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+        },
+        {
+          "file": "26_lifespan_and_consequence.svg",
+          "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+        },
+        {
+          "file": "27_bounded_learning_experiment.svg",
+          "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+        },
+        {
+          "file": "28_three_decisions.svg",
+          "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+        },
+        {
+          "file": "29_discussion.svg",
+          "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+        },
+        {
+          "file": "30_implementation_checklist.svg",
+          "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+        },
+        {
+          "file": "31_company_mechanism_map.svg",
+          "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+        },
+        {
+          "file": "32_versioned_eval_spec.svg",
+          "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+        },
+        {
+          "file": "33_typed_claim_contract.svg",
+          "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+        },
+        {
+          "file": "34_passk_and_deployment.svg",
+          "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+        },
+        {
+          "file": "35_measurement_contract.svg",
+          "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+        },
+        {
+          "file": "36_questions_for_followup.svg",
+          "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+        },
+        {
+          "file": "37_sources.svg",
+          "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 37,
+    "notes": 37,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "passed",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "3c75c53f8d6f633d3a518a9e677dceed9ff4010032ccb77fbe25fd61839426b8",
+      "file_count": 37,
+      "files": [
+        {
+          "file": "01_dependable_work.svg",
+          "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+        },
+        {
+          "file": "02_five_disciplines.svg",
+          "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+        },
+        {
+          "file": "03_reviewed_work_product.svg",
+          "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+        },
+        {
+          "file": "04_financial_bottlenecks.svg",
+          "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+        },
+        {
+          "file": "05_wealth_workflows.svg",
+          "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+        },
+        {
+          "file": "06_value_ladder.svg",
+          "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+        },
+        {
+          "file": "07_accepted_work_economics.svg",
+          "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+        },
+        {
+          "file": "08_evidence_boundary.svg",
+          "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+        },
+        {
+          "file": "09_retrieval_objectives.svg",
+          "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+        },
+        {
+          "file": "10_typed_facts.svg",
+          "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+        },
+        {
+          "file": "11_stale_source_example.svg",
+          "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+        },
+        {
+          "file": "12_inspectable_artifact.svg",
+          "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+        },
+        {
+          "file": "13_evaluation_contract.svg",
+          "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+        },
+        {
+          "file": "14_diagnostic_cash_flow_rubric.svg",
+          "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+        },
+        {
+          "file": "15_judges_and_selection.svg",
+          "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+        },
+        {
+          "file": "16_paired_ablations.svg",
+          "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+        },
+        {
+          "file": "17_release_decision.svg",
+          "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+        },
+        {
+          "file": "18_controlled_improvement.svg",
+          "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+        },
+        {
+          "file": "19_expert_skills.svg",
+          "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+        },
+        {
+          "file": "20_draft_review_authority.svg",
+          "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+        },
+        {
+          "file": "21_enforced_authority.svg",
+          "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+        },
+        {
+          "file": "22_three_verification_loops.svg",
+          "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+        },
+        {
+          "file": "23_financial_invariants.svg",
+          "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+        },
+        {
+          "file": "24_engineer_operating_loop.svg",
+          "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+        },
+        {
+          "file": "25_connected_fluency.svg",
+          "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+        },
+        {
+          "file": "26_lifespan_and_consequence.svg",
+          "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+        },
+        {
+          "file": "27_bounded_learning_experiment.svg",
+          "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+        },
+        {
+          "file": "28_three_decisions.svg",
+          "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+        },
+        {
+          "file": "29_discussion.svg",
+          "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+        },
+        {
+          "file": "30_implementation_checklist.svg",
+          "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+        },
+        {
+          "file": "31_company_mechanism_map.svg",
+          "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+        },
+        {
+          "file": "32_versioned_eval_spec.svg",
+          "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+        },
+        {
+          "file": "33_typed_claim_contract.svg",
+          "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+        },
+        {
+          "file": "34_passk_and_deployment.svg",
+          "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+        },
+        {
+          "file": "35_measurement_contract.svg",
+          "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+        },
+        {
+          "file": "36_questions_for_followup.svg",
+          "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+        },
+        {
+          "file": "37_sources.svg",
+          "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+        }
+      ]
+    },
+    "summary": {
+      "total": 37,
+      "passed": 37,
+      "warnings": 0,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 0,
+        "issues": []
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Arial",
+        "Cambria",
+        "Consolas"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 0,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/backup/20261017_110124/svg_output",
+  "conversion_trace_path": null
+}

@@ -1,0 +1,137 @@
+{
+  "packaged": "2026-10-17",
+  "checks": {
+    "source_builds": [
+      {
+        "builder": "work/build_report.py",
+        "returncode": 0,
+        "error": ""
+      },
+      {
+        "builder": "work/build_industry_report.py",
+        "returncode": 0,
+        "error": ""
+      },
+      {
+        "builder": "work/day1_report_content.py",
+        "returncode": 0,
+        "error": ""
+      },
+      {
+        "builder": "work/day2_report_content.py",
+        "returncode": 0,
+        "error": ""
+      },
+      {
+        "builder": "work/presentation/build_deck.py",
+        "returncode": 0,
+        "error": ""
+      },
+      {
+        "builder": "work/applications/build_brief.py",
+        "returncode": 0,
+        "error": ""
+      }
+    ],
+    "rebuilt_outputs": [
+      {
+        "file": "ai-engineer-nyc-2026-application-roadmap.html",
+        "matches_packaged_final": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-day-1-notes.md",
+        "matches_packaged_final": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-day-2-notes.md",
+        "matches_packaged_final": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-field-guide.html",
+        "matches_packaged_final": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-industry-report.html",
+        "matches_packaged_final": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-presentation.html",
+        "matches_packaged_final": true
+      }
+    ],
+    "local_html_links": {
+      "checked": 15,
+      "missing": []
+    },
+    "final_artifact_integrity": [
+      {
+        "file": "ai-engineer-nyc-2026-application-demo-notes.md",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-application-improve.pptx",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-application-roadmap.html",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-conference-takeaways-notes.md",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-conference-takeaways.pptx",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-day-1-notes.md",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-day-2-notes.md",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-field-guide.html",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-industry-report.html",
+        "unchanged": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-presentation.html",
+        "unchanged": true
+      }
+    ],
+    "powerpoint_structure": [
+      {
+        "file": "ai-engineer-nyc-2026-application-improve.pptx",
+        "zip_integrity": true,
+        "slides": 28,
+        "note_pages": 28,
+        "native_tables": 10
+      },
+      {
+        "file": "ai-engineer-nyc-2026-conference-takeaways.pptx",
+        "zip_integrity": true,
+        "slides": 37,
+        "note_pages": 37,
+        "native_tables": 9
+      }
+    ],
+    "excluded_runtime_files": {
+      "present": []
+    },
+    "source_builds_status": "All six builders completed successfully in a disposable copy; all six regenerated report/note outputs matched packaged finals byte-for-byte.",
+    "curated_documentation_links": {
+      "missing": []
+    }
+  },
+  "limits": [
+    "No browser or PowerPoint rendering was performed for packaging.",
+    "PPTX export depends on the external ppt-master skill/runtime; it was not rerun.",
+    "Historical source paths in reviews/receipts are evidence context; the separate personal repository is not bundled."
+  ]
+}

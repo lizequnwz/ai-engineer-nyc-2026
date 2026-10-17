@@ -1,0 +1,1882 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "559ead5342e08b7390ae69fcf6ad2e73d58faab769f0ad90beae8a63f7c08f6a",
+    "file_count": 28,
+    "files": [
+      {
+        "file": "01_from_queries_to_accepted_work.svg",
+        "sha256": "a61f544b91112f900ed6480280736ed27bf599d7c87f21f61eff5cd9f88bb8d2"
+      },
+      {
+        "file": "02_two_release_paths.svg",
+        "sha256": "a1035760e6bd8502afe31191c44ab94e21cb4cc1b164ce3a000be6b629a077e5"
+      },
+      {
+        "file": "03_company_mechanisms.svg",
+        "sha256": "daa781f29264aab1e4a8571bf18bbaf09cb514ba617be65b98cf425f92baee68"
+      },
+      {
+        "file": "04_fidelity_baseline.svg",
+        "sha256": "1f6b0fa8f2a29f974db563020f0e7064987ff339750c7c6de944ba87727620f1"
+      },
+      {
+        "file": "05_shared_semantic_coordinator.svg",
+        "sha256": "ee546269d8d43b5105e9235589115163aaaa1d2ae980ecc565d879a750b4001e"
+      },
+      {
+        "file": "06_definitions_and_discovery.svg",
+        "sha256": "12b5a9b7efd53f3a0c88d6457fccc3b2837aff8c60a19b75135e0dc289168377"
+      },
+      {
+        "file": "07_dependency_complete_context.svg",
+        "sha256": "fd7a6beb2f53a8e63c806a4fee240e1717fe75afa312be215a7dbd63d2c17343"
+      },
+      {
+        "file": "08_context_latency_experiment.svg",
+        "sha256": "f406f4e8f44f029a1a4c4ff28593d42e577cd197538a6000e163176eb5ecf818"
+      },
+      {
+        "file": "09_same_row_count_failure.svg",
+        "sha256": "12d265290710f37b58e17d8999ace24e0644779f6f5c75e52e4ad644f1af8668"
+      },
+      {
+        "file": "10_layered_evaluation.svg",
+        "sha256": "7609669a777df898a22c230ba6a48a39936e547ea16d5d602f5e9f0072dc5388"
+      },
+      {
+        "file": "11_explicit_conversation_state.svg",
+        "sha256": "0248adb3b1ace2d6e023347fdd3af45ceaaa7fd3b8f94de204bfa9ee85b55985"
+      },
+      {
+        "file": "12_bounded_investigation.svg",
+        "sha256": "75755dcd49795bf7e2894e43b49764b7d09130492ec89f47315fb0cb2cae5f18"
+      },
+      {
+        "file": "13_sales_meeting_packet.svg",
+        "sha256": "ab8bed7947107a0e2461a46b687d875446d584048a42f9ff79c0b75664f2c2ff"
+      },
+      {
+        "file": "14_synthetic_sales_brief.svg",
+        "sha256": "f570dfe4069b829a421e91b4bae5e55643b34718a38525f3cb2970787df2819f"
+      },
+      {
+        "file": "15_expert_authored_skills.svg",
+        "sha256": "e2ff2ede9ad32126c0683edf8f5fff70e5b790bc6017ef847c7d8eccf20c4a31"
+      },
+      {
+        "file": "16_measure_salesforce_job.svg",
+        "sha256": "ad7517f981ce0c5c76b0314b3841189fd9efcf84e364bbe4acc12bdb71e43380"
+      },
+      {
+        "file": "17_fidelity_release_increments.svg",
+        "sha256": "62a82005bf66c0fa16cff7dc0d87caf646a41d5007d45fc1ee3e4bf99347d508"
+      },
+      {
+        "file": "18_personal_agent_foundation.svg",
+        "sha256": "d4ef137a34b780cd5cbe9f69152700cf308f5769547f94a00eceb95efd46a6fe"
+      },
+      {
+        "file": "19_analytical_correctness_contracts.svg",
+        "sha256": "2403dfd9682b29a3b04ed5f916987c8132d315ce7b7d27283cf2bab96292ce95"
+      },
+      {
+        "file": "20_bound_quantitative_narrative.svg",
+        "sha256": "5ed2d51526a342e0abebd27e1e961764af7e679a20f61b7d9c2d54d9d59e4664"
+      },
+      {
+        "file": "21_preserve_meaning_on_refresh.svg",
+        "sha256": "efb0ed71f648fbfa1f80a02c2cf63813892a6c63ff1e87b8ab3a1f48c2775678"
+      },
+      {
+        "file": "22_outcome_oracles.svg",
+        "sha256": "b9864bd93334a6962f12805e57f17e736c7b4ea1899199c1e817f124ae238699"
+      },
+      {
+        "file": "23_workspace_to_checked_result.svg",
+        "sha256": "6451fc91bdb5834611699ae657c2637829e56aa3bb0bbbc9f2302662480524a3"
+      },
+      {
+        "file": "24_next_accepted_work_product.svg",
+        "sha256": "ad1a1db8f7490bb6aefb362d314239aab7f427f8c12ad500dd2fe4b181e6ab80"
+      },
+      {
+        "file": "25_diagnostic_defect_suite.svg",
+        "sha256": "9bd5b5dc6652ee3d9f280ce56582193a2b4b212ee4f15d925a56f5417cd89678"
+      },
+      {
+        "file": "26_accepted_work_scorecard.svg",
+        "sha256": "442cc9da90c31f7e1331fd6843151a2d194f78ed4549a4c3d8ecced7224f88df"
+      },
+      {
+        "file": "27_implementation_anchors.svg",
+        "sha256": "737685e2b800176335387a91dfaf281cb50f79ab5627bb732788331c6a3afaf9"
+      },
+      {
+        "file": "28_primary_references.svg",
+        "sha256": "8521d3fef574e7c44f696459596402006edd77e2cfb784763f7ad88d278c570b"
+      }
+    ]
+  },
+  "summary": {
+    "total": 28,
+    "passed": 28,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 28,
+    "totals": {
+      "text_elements": 489,
+      "image_placements": 0,
+      "icons": 0,
+      "svg_geometry_elements": 147,
+      "preset_shapes": 12,
+      "page_frame_elements": 28,
+      "marker_uses": 6,
+      "inline_emphasis_runs": 1,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 0,
+      "presets": 5,
+      "charts": 0,
+      "tables": 9,
+      "formulas": 0,
+      "inline_emphasis_runs": 1,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 23,
+    "geometry_elements": {
+      "circle": 5,
+      "ellipse": 0,
+      "line": 76,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 66
+    },
+    "preset_names": {
+      "chevron": 6,
+      "foldedCorner": 1,
+      "rightArrow": 5
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 10
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_from_queries_to_accepted_work.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/01_from_queries_to_accepted_work.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "a61f544b91112f900ed6480280736ed27bf599d7c87f21f61eff5cd9f88bb8d2"
+    },
+    {
+      "file": "02_two_release_paths.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/02_two_release_paths.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "a1035760e6bd8502afe31191c44ab94e21cb4cc1b164ce3a000be6b629a077e5"
+    },
+    {
+      "file": "03_company_mechanisms.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/03_company_mechanisms.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "daa781f29264aab1e4a8571bf18bbaf09cb514ba617be65b98cf425f92baee68"
+    },
+    {
+      "file": "04_fidelity_baseline.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/04_fidelity_baseline.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "1f6b0fa8f2a29f974db563020f0e7064987ff339750c7c6de944ba87727620f1"
+    },
+    {
+      "file": "05_shared_semantic_coordinator.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/05_shared_semantic_coordinator.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "ee546269d8d43b5105e9235589115163aaaa1d2ae980ecc565d879a750b4001e"
+    },
+    {
+      "file": "06_definitions_and_discovery.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/06_definitions_and_discovery.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "12b5a9b7efd53f3a0c88d6457fccc3b2837aff8c60a19b75135e0dc289168377"
+    },
+    {
+      "file": "07_dependency_complete_context.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/07_dependency_complete_context.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "chevron": 2
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "fd7a6beb2f53a8e63c806a4fee240e1717fe75afa312be215a7dbd63d2c17343"
+    },
+    {
+      "file": "08_context_latency_experiment.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/08_context_latency_experiment.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "f406f4e8f44f029a1a4c4ff28593d42e577cd197538a6000e163176eb5ecf818"
+    },
+    {
+      "file": "09_same_row_count_failure.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/09_same_row_count_failure.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 2,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "12d265290710f37b58e17d8999ace24e0644779f6f5c75e52e4ad644f1af8668"
+    },
+    {
+      "file": "10_layered_evaluation.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/10_layered_evaluation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "7609669a777df898a22c230ba6a48a39936e547ea16d5d602f5e9f0072dc5388"
+    },
+    {
+      "file": "11_explicit_conversation_state.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/11_explicit_conversation_state.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "0248adb3b1ace2d6e023347fdd3af45ceaaa7fd3b8f94de204bfa9ee85b55985"
+    },
+    {
+      "file": "12_bounded_investigation.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/12_bounded_investigation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 4,
+            "preset_names": {
+              "chevron": 4
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 18
+      },
+      "passed": true,
+      "source_sha256": "75755dcd49795bf7e2894e43b49764b7d09130492ec89f47315fb0cb2cae5f18"
+    },
+    {
+      "file": "13_sales_meeting_packet.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/13_sales_meeting_packet.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "ab8bed7947107a0e2461a46b687d875446d584048a42f9ff79c0b75664f2c2ff"
+    },
+    {
+      "file": "14_synthetic_sales_brief.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/14_synthetic_sales_brief.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "foldedCorner": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "f570dfe4069b829a421e91b4bae5e55643b34718a38525f3cb2970787df2819f"
+    },
+    {
+      "file": "15_expert_authored_skills.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/15_expert_authored_skills.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "e2ff2ede9ad32126c0683edf8f5fff70e5b790bc6017ef847c7d8eccf20c4a31"
+    },
+    {
+      "file": "16_measure_salesforce_job.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/16_measure_salesforce_job.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "ad7517f981ce0c5c76b0314b3841189fd9efcf84e364bbe4acc12bdb71e43380"
+    },
+    {
+      "file": "17_fidelity_release_increments.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/17_fidelity_release_increments.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "62a82005bf66c0fa16cff7dc0d87caf646a41d5007d45fc1ee3e4bf99347d508"
+    },
+    {
+      "file": "18_personal_agent_foundation.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/18_personal_agent_foundation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 4
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 13
+      },
+      "passed": true,
+      "source_sha256": "d4ef137a34b780cd5cbe9f69152700cf308f5769547f94a00eceb95efd46a6fe"
+    },
+    {
+      "file": "19_analytical_correctness_contracts.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/19_analytical_correctness_contracts.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "2403dfd9682b29a3b04ed5f916987c8132d315ce7b7d27283cf2bab96292ce95"
+    },
+    {
+      "file": "20_bound_quantitative_narrative.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/20_bound_quantitative_narrative.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "rightArrow": 3
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "5ed2d51526a342e0abebd27e1e961764af7e679a20f61b7d9c2d54d9d59e4664"
+    },
+    {
+      "file": "21_preserve_meaning_on_refresh.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/21_preserve_meaning_on_refresh.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "rightArrow": 2
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "efb0ed71f648fbfa1f80a02c2cf63813892a6c63ff1e87b8ab3a1f48c2775678"
+    },
+    {
+      "file": "22_outcome_oracles.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/22_outcome_oracles.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "b9864bd93334a6962f12805e57f17e736c7b4ea1899199c1e817f124ae238699"
+    },
+    {
+      "file": "23_workspace_to_checked_result.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/23_workspace_to_checked_result.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "6451fc91bdb5834611699ae657c2637829e56aa3bb0bbbc9f2302662480524a3"
+    },
+    {
+      "file": "24_next_accepted_work_product.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/24_next_accepted_work_product.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "ad1a1db8f7490bb6aefb362d314239aab7f427f8c12ad500dd2fe4b181e6ab80"
+    },
+    {
+      "file": "25_diagnostic_defect_suite.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/25_diagnostic_defect_suite.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 10,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "9bd5b5dc6652ee3d9f280ce56582193a2b4b212ee4f15d925a56f5417cd89678"
+    },
+    {
+      "file": "26_accepted_work_scorecard.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/26_accepted_work_scorecard.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "442cc9da90c31f7e1331fd6843151a2d194f78ed4549a4c3d8ecced7224f88df"
+    },
+    {
+      "file": "27_implementation_anchors.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/27_implementation_anchors.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria",
+          "Consolas"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "737685e2b800176335387a91dfaf281cb50f79ab5627bb732788331c6a3afaf9"
+    },
+    {
+      "file": "28_primary_references.svg",
+      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-application-demo_20261017/svg_output/28_primary_references.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Cambria"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 2,
+        "hyperlinks": 10
+      },
+      "passed": true,
+      "source_sha256": "8521d3fef574e7c44f696459596402006edd77e2cfb784763f7ad88d278c570b"
+    }
+  ]
+}

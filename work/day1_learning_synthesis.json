@@ -1,0 +1,246 @@
+{
+  "title": "Day 1 synthesis: useful AI depends on the workflow, controls, evidence and value loop",
+  "date": "2026-10-13",
+  "sourceLimits": {
+    "primarySource": "/Users/charlie/.codex/attachments/0a2b5573-7b18-4c57-8baf-2a2ad8c8f5dd/Pasted text.txt",
+    "scope": "The attendee's notes from seven named sessions, followed by one unattributed closing reflection. These are notes about statements heard, not transcripts, slide decks, recordings or independent tests.",
+    "strongestEvidence": "Every named session is explicitly marked Speaker claim. None is upgraded to evidence shown, public artifact checked, or internally validated in this synthesis.",
+    "maturity": "Vault and Two Sigma are marked Production (speaker-reported). Capital One, Arize, New York Life, Contour and Kepler are marked Unclear. A more detailed mechanism does not by itself establish deployment maturity.",
+    "missingFields": "Several decision, failure/control, test and follow-up fields are blank. The notes often omit baselines, denominators, sample construction, uncertainty, independent results and exact product spellings.",
+    "unattributedReflection": "The closing text beginning 'Everyone has AI: how to have advantage' has no session, speaker or company attribution. Treat it as the attendee's unattributed reflection until clarified; do not assign it to a named speaker.",
+    "interpretationRule": "Cross-session learnings and practical tips are editorial synthesis. Application hypotheses are proposed tests; they do not describe the current architecture, performance, permissions or roadmap of Socrates or the sales meeting-preparation agent."
+  },
+  "executiveSynthesis": "The Day 1 notes suggest a coherent operating model for financial-services AI: make the right institutional information available in the workflow, define what an agent may access and do, test the complete system against consequential failures, preserve numerical evidence, and measure useful work against a baseline. The speakers' mechanisms are promising inputs to that model, but the notes do not establish comparative effectiveness or financial return. An additional tension runs through the day: broader agent recall and proactive delivery can increase usefulness while also increasing noise, exposure and review burden. The practical question is which bounded workflow improves after those costs and risks are included.",
+  "sessions": [
+    {
+      "id": "D1-01",
+      "title": "Vault: Making Unstructured Data Work for Investing",
+      "speakerCompany": "Aaron Linsky and Sam Green · Bridgewater",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+      "evidence": "Speaker claim",
+      "maturity": "Production (speaker-reported)"
+    },
+    {
+      "id": "D1-02",
+      "title": "Balancing Acceleration and Safety for AI Agents",
+      "speakerCompany": "John Feminella · Two Sigma",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
+      "evidence": "Speaker claim",
+      "maturity": "Production (speaker-reported)"
+    },
+    {
+      "id": "D1-03",
+      "title": "Does Code Quality Even Matter?",
+      "speakerCompany": "Max Kanat-Alexander · Capital One",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9",
+      "evidence": "Speaker claim",
+      "maturity": "Unclear"
+    },
+    {
+      "id": "D1-04",
+      "title": "What does an AI engineer do?",
+      "speakerCompany": "Aparna Dhinakaran · Arize AI",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c",
+      "evidence": "Speaker claim",
+      "maturity": "Unclear"
+    },
+    {
+      "id": "D1-05",
+      "title": "1,368 AI Failures: What They Teach Us About System Evals",
+      "speakerCompany": "Vishal Srivastava · New York Life Insurance / Tanmay Sah (company not captured)",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c",
+      "evidence": "Speaker claim",
+      "maturity": "Unclear"
+    },
+    {
+      "id": "D1-06",
+      "title": "Proving Alpha: Showcasing AI's Value in Fundamental Investing",
+      "speakerCompany": "Hari Kumar · Contour Asset Management",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca",
+      "evidence": "Speaker claim",
+      "maturity": "Unclear"
+    },
+    {
+      "id": "D1-07",
+      "title": "Do Not Let Models Invent Numbers",
+      "speakerCompany": "Vinoo Ganesh · Kepler",
+      "sourceUrl": "https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe",
+      "evidence": "Speaker claim",
+      "maturity": "Unclear"
+    }
+  ],
+  "learnings": [
+    {
+      "id": "L1",
+      "title": "Information access and delivery should match the work",
+      "synthesis": "The Vault notes distinguish human search, which needs a small high-signal result set, from agent retrieval, which may need broader recall at larger scale. The same notes emphasize reaching people through familiar channels and supplying time, market, country and concept context. This suggests designing both the information foundation and its route into the user's work rather than expecting a repository alone to change habits.",
+      "sessions": ["D1-01"],
+      "practicalTips": [
+        "Define the user decision and relevant time window before choosing a retrieval approach.",
+        "Measure retrieval recall for the agent and precision/usefulness of the final human-facing brief separately.",
+        "Compare a focused brief or feed with on-demand search; count important omissions, irrelevant items and review time."
+      ],
+      "limit": "The notes do not provide benchmark results, evidence that habits changed, or proof of better predictions. The direction of the reactive/proactive transition is inconsistent in the source."
+    },
+    {
+      "id": "L2",
+      "title": "Govern agents as owned systems with enforced access",
+      "synthesis": "The Two Sigma notes describe an agent registry, ownership, declared tools/endpoints/resources, risk-factor scoring, active controls and a shared evaluation framework. They also record an independent classifier for determining when human approval is required. The useful principle is to make ownership, access and oversight explicit; the classifier is a mechanism to investigate rather than an established substitute for review.",
+      "sessions": ["D1-02"],
+      "practicalTips": [
+        "Record the owner, purpose, data/resources, tools and evaluation evidence for each workflow.",
+        "Check denied access and tool calls as well as successful ones.",
+        "If triaging approvals automatically, measure missed high-risk cases and unnecessary escalations separately."
+      ],
+      "limit": "Production maturity is speaker-reported. The notes do not document the scoring rubric, enforcement architecture, classifier performance or measured effect on approval fatigue."
+    },
+    {
+      "id": "L3",
+      "title": "Use risk-based system evaluation to seek failures",
+      "synthesis": "The failure-analysis notes argue for evaluating the complete path from a failure through its reaching a consequential situation, escaping detection and causing harm. They favor seeking disproof and retesting a repair over accumulating confirming examples. This complements the Two Sigma shared-evaluation idea and the Arize build/evaluate/improve loop.",
+      "sessions": ["D1-05", "D1-02", "D1-04"],
+      "practicalTips": [
+        "Include rare but consequential errors rather than sampling only common requests.",
+        "Separate the chance of an error from the effectiveness of containment, detection and human intervention.",
+        "Turn a found failure into a held-out regression case, then verify the fix did not break other cases."
+      ],
+      "limit": "The notes do not establish the incident dataset's representativeness or validate the risk formula numerically. Claims about exponential growth and which categories dominate should remain attributed and provisional."
+    },
+    {
+      "id": "L4",
+      "title": "Financial numbers need a verifiable evidence path",
+      "synthesis": "The Kepler notes distinguish wrong-source, wrong-number and arithmetic errors. They describe a plan/retrieval/code path, typed facts and a citation registry/filter with attempted repair before rejection. The transferable idea is to bind a quantitative claim to its source and transformation, then define what happens when verification fails.",
+      "sessions": ["D1-07"],
+      "practicalTips": [
+        "Retain the source, entity, period, unit/currency and calculation path for each important number.",
+        "Compute arithmetic with an inspectable tool and verify the operands and intended formula.",
+        "When a quantitative claim cannot be supported, expose the unresolved claim or abstain; deleting the citation alone would not validate the sentence."
+      ],
+      "limit": "This is a vendor-described mechanism. The notes do not show error rates, refusal rates, adversarial results or a guarantee that deterministic processing verifies every fact. The exact retrieval settings may be task-specific or incompletely transcribed."
+    },
+    {
+      "id": "L5",
+      "title": "Measure useful work against a credible alternative",
+      "synthesis": "The Contour notes describe tracking workflows, sources, conclusions and outcomes with and without AI over a three-month period. Cost per useful insight and adoption/utilization are recorded as measures. The central question is what changed relative to the work that would otherwise have been done, and when any benefit becomes observable.",
+      "sessions": ["D1-06"],
+      "practicalTips": [
+        "Define 'useful' through accepted outputs and quality criteria before reporting cost per insight.",
+        "Keep adoption, time saved, work quality and financial outcomes as separate measures.",
+        "Include review and rework in effort/cost comparisons, and preserve the inputs available at the time of a decision."
+      ],
+      "limit": "The notes call the method A/B testing but do not specify randomization, comparison groups, sample size or controls. They do not establish causal ROI or investment alpha; three months is a reported observation window, not a generally sufficient validation period."
+    },
+    {
+      "id": "L6",
+      "title": "Match engineering rigor to consequence, dependency and lifespan",
+      "synthesis": "The Capital One notes distinguish disposable software used by a few people and replaceable in hours from durable software maintained for years with many dependents. A useful interpretation is to allocate maintainability effort deliberately. In financial workflows, short expected lifespan alone does not make incorrect outputs, sensitive access or consequential actions harmless.",
+      "sessions": ["D1-03"],
+      "practicalTips": [
+        "Ask who depends on the tool, how easily it can be removed, and what an error or outage would affect.",
+        "Separate maintainability needs from the controls required by data sensitivity and consequence.",
+        "Give a short-lived experiment an owner, an explicit expiry/retirement decision and clear limits on use."
+      ],
+      "limit": "This is a conceptual argument in the notes, with maturity marked unclear. It is not evidence that maintenance or replacement costs are actually zero, or that financial-system controls can be skipped."
+    },
+    {
+      "id": "L7",
+      "title": "Build an improvement loop around interpretable traces",
+      "synthesis": "The Arize notes frame AI engineering as running a build/evaluate/improve loop, with traces informing issue discovery and agents potentially consuming telemetry. They also mention explicit triggers such as messages, schedules, metrics and events. The transferable responsibility is to connect observed behavior to reviewable diagnosis and verified improvement.",
+      "sessions": ["D1-04", "D1-05"],
+      "practicalTips": [
+        "Capture enough structured context to connect the request, retrieved evidence, tools, result and evaluation outcome.",
+        "Define when a review or improvement process is triggered and who owns the proposed change.",
+        "Treat an automated diagnosis as a hypothesis; verify it on concrete traces and rerun relevant tests before accepting a change."
+      ],
+      "limit": "The Arize account is a vendor perspective, and the notes contain no measured results. Product/skill spellings and the exact capabilities of 'Signal' and 'arise-evaluator' need verification before using them as named instructions."
+    }
+  ],
+  "tensionsAndAmbiguities": [
+    {
+      "topic": "Reactive versus proactive delivery",
+      "source": "D1-01",
+      "issue": "The takeaway says shift reactive to proactive; the later capability note says proactive to reactive. Activity feeds and 'What am I missing' suggest proactive delivery, but that inference should be explicit.",
+      "reportTreatment": "Use 'investigate proactive briefs and feeds' as the attendee's hypothesis. Preserve the directional ambiguity rather than silently reporting a confirmed transition."
+    },
+    {
+      "topic": "Broad recall versus noise and cost",
+      "source": "D1-01",
+      "issue": "Agent recall needs and human precision needs are different, so a shared source foundation does not imply identical retrieval or presentation.",
+      "reportTreatment": "Describe the tradeoff and propose separate retrieval and final-output measures; do not claim that more retrieved data always improves an answer."
+    },
+    {
+      "topic": "Approval fatigue versus missed high-risk action",
+      "source": "D1-02 and D1-05",
+      "issue": "A classifier may reduce review burden while introducing another failure point. The notes do not give either benefit or error-rate evidence.",
+      "reportTreatment": "Frame this as a control tradeoff; ask how severe false negatives and escalation volume were assessed."
+    },
+    {
+      "topic": "Failure formula and incident rankings",
+      "source": "D1-05",
+      "issue": "The recorded expression is E(loss) = P(fail) × P(reach | fail) × P(miss | reach) × severity. The meaning and conditioning of each term, constant versus variable severity, dataset construction and denominators are not recorded. Exponential incident growth and category rankings lack supporting method in the notes.",
+      "reportTreatment": "Present it as a recorded risk-decomposition heuristic, not a calibrated estimator or independently established law. Keep the exact transcription if displaying the formula and add the missing definitions."
+    },
+    {
+      "topic": "A/B label versus causal investment impact",
+      "source": "D1-06",
+      "issue": "The notes do not identify whether workflows or users were randomly assigned, how market conditions were controlled, or how useful insight was defined. 'Manual idea agent' is also unclear.",
+      "reportTreatment": "Say 'speaker-described comparison/tracking approach'; retain A/B as the speaker's recorded label and ask for its design. Do not claim causal alpha or interpret the unclear phrase as a specific implemented component."
+    },
+    {
+      "topic": "Citation filtering versus correctness guarantees",
+      "source": "D1-07",
+      "issue": "'Deterministic model handles every facts' is too broad to substantiate from the notes. The effects of repair, stripping/refusal and overfetch/reranking settings are not quantified.",
+      "reportTreatment": "Describe a speaker-reported registry/verification mechanism. Leave '3× overfetch / 100 per namespace / max 5 per document / top 20' as rough settings requiring clarification, not a recommended default."
+    },
+    {
+      "topic": "Cheap software versus durable business consequence",
+      "source": "D1-03 in tension with D1-02, D1-05 and D1-07",
+      "issue": "Rapid replacement may reduce maintainability needs, but an incorrect number, unauthorized access or harmful action can still matter during a brief experiment.",
+      "reportTreatment": "Distinguish lifespan/dependency from consequence. This is a synthesis of the talks, not an asserted contradiction between speakers."
+    },
+    {
+      "topic": "Unattributed strategy claims",
+      "source": "Closing reflection",
+      "issue": "The closing reflection says leading companies have fewer AI use cases and concentrate investment, but no study, speaker or source is supplied. It also discusses scarce judgment, business-value-first framing, proactive work and shared core/personalized edges.",
+      "reportTreatment": "Retain the business-value and shared-capability ideas as attendee reflections. Remove or explicitly mark the 'studies show' statement as unverified; do not attribute it to a named firm or treat it as an empirical finding."
+    }
+  ],
+  "boundedApplicationHypotheses": [
+    {
+      "name": "Socrates text2SQL: verify meaning, numbers and accepted task value together",
+      "status": "Small application hypothesis prompted by the attendee; current implementation and performance are unknown.",
+      "learningLinks": ["L3", "L4", "L5"],
+      "hypothesis": "A traceable query/result path and risk-weighted task review may reveal whether a text-to-SQL answer is useful and quantitatively correct, beyond whether SQL executes successfully.",
+      "smallestTest": "Propose a small set of about 20–30 approved or synthetic representative questions with authoritative expected results. Include normal queries and cases with ambiguous definitions, wrong periods, duplicate joins, wrong grain, unit errors, missing data and denied access. Keep final assessment cases separate from tuning. Compare Socrates with the current approved query workflow on the same questions and a stable data snapshot, within existing access rules.",
+      "capture": "Question and intended business meaning; generated SQL; accessible source tables/fields; data snapshot/time; query result; transformations; final answer; reviewer corrections and acceptance.",
+      "measures": "Meaning and result correctness; important numerical errors; appropriate clarification/abstention; permission failures; accepted completion; end-to-end human time; cost per accepted task including review/rework.",
+      "decisionBoundary": "Do not infer a financial or productivity benefit from execution success alone. Agree quality and critical-control conditions before comparison. Repair critical failures before expanding use; inspect the cause instead of assuming more retrieval or a different model is the fix.",
+      "caveat": "The task count and design are proposals, not sufficient statistical validation or known Fidelity requirements. This does not assume Socrates currently lacks any of the named capabilities."
+    },
+    {
+      "name": "Sales meeting preparation: compare evidence-grounded briefs with the existing process",
+      "status": "Small application hypothesis prompted by the attendee; current agent design, user group and performance are unknown.",
+      "learningLinks": ["L1", "L4", "L5", "L7"],
+      "hypothesis": "A focused brief delivered at the right moment may reduce preparation effort while preserving factual quality and surfacing relevant developments; proactive delivery may also create noise or false urgency.",
+      "smallestTest": "Propose about 15–20 approved historical or synthetic meeting cases with a defined information cutoff. Compare the current preparation workflow with an agent-generated brief for the same case. Ask reviewers to judge completeness, support and usefulness using the same rubric, without knowing the author where practical. Separately compare on-demand access with a narrowly triggered pre-meeting delivery; do not mix delivery changes with content changes in the first comparison.",
+      "capture": "Meeting purpose; relevant time window; allowed sources; cited claims and numerical facts; missing/conflicting/stale information; reviewer edits; useful next-step suggestions and their evidence; preparation and review time.",
+      "measures": "Accepted brief quality; unsupported or wrong-client claims; important missed developments; stale/conflicting facts; relevance/noise; preparation plus review time; cost per accepted brief. Track adoption separately and treat sales outcomes as a later attribution question.",
+      "decisionBoundary": "Keep output advisory and reviewed in the approved workflow. Do not infer that more feeds improve predictions, that a suggested action is appropriate, or that preparation time saved proves incremental sales. Stop or repair critical privacy, wrong-client or factual failures before broadening delivery.",
+      "caveat": "These are illustrative cases and measures. Use only approved data/storage/tools and existing permissions; no customer communication, CRM change or outside data transfer is authorized by this synthesis."
+    }
+  ],
+  "unattributedClosingReflection": {
+    "label": "Attendee reflection — source/speaker not captured",
+    "coherentRestatement": "As model intelligence becomes more accessible, advantage may depend on choosing the consequential problem, deciding what to act on, redesigning work and building reusable capabilities. Begin with the business bottleneck rather than where AI can be inserted. Standardize capabilities that genuinely recur while preserving the context needed for different users.",
+    "evidenceLimit": "This is a strategic reflection, not a demonstrated conclusion from these notes. The statement about studies showing fewer use cases at leading firms is unverified and should not be repeated as a fact without a source."
+  },
+  "priorityFollowUps": [
+    "Resolve the Vault reactive/proactive transcription and obtain the retrieval benchmark, task definitions and measured results if available.",
+    "Ask Two Sigma for the risk-scoring dimensions, the enforcement point and evidence on approval-classifier false negatives and escalation burden.",
+    "Obtain the failure-study dataset/method, category denominators and exact definitions/conditioning of the risk formula.",
+    "Clarify Contour's comparison design, randomization or matching, definition of useful insight and limits of the three-month observation window.",
+    "Obtain Kepler's citation verification/refusal failure cases and clarify the typed-fact, repair/filter path and retrieval settings.",
+    "Verify the Arize product and evaluator-skill names from an official public artifact before sharing operational instructions.",
+    "Identify the source of the closing reflection and the unnamed study before attributing or quantifying its claims."
+  ]
+}

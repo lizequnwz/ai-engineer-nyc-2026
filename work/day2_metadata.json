@@ -1,0 +1,166 @@
+{
+  "checkedDate": "2026-10-14",
+  "generatedAt": "2026-10-14T23:37:42.922Z",
+  "sessions": {
+    "4add802c-6a68-4e9c-93fb-9c1e017193bc": {
+      "id": "4add802c-6a68-4e9c-93fb-9c1e017193bc",
+      "date": "2026-10-14",
+      "day": "Oct 14",
+      "time": "9:18am - 9:36am",
+      "startMinutes": 558,
+      "endMinutes": 576,
+      "startsAt": "2026-10-14T13:18:00.000Z",
+      "endsAt": "2026-10-14T13:36:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "room": "Simons Room (Metropolitan East)",
+      "roomOrder": 0,
+      "title": "The Machine that Changed the World, vAI",
+      "tentative": false,
+      "topics": [
+        "Main Stage"
+      ],
+      "description": "Software's future runs on agentic factories \u2014 and the same lessons that transformed manufacturing (prevent defects at the source, push quality control to the people doing the work, target the bottleneck) apply directly to building them. In a world of code abundance, the real constraint isn't model capability \u2014 it's verification: can you trust the code AI agents produce enough to put your name on it?\n\nTariq will show how enterprises can build software factories that ship fast and stand up to scrutiny, centered on three interlocking loops: an agentic loop that catches issues as code is generated, a CI verification loop that catches what slips through before shipping, and a maintenance loop that fixes issues already in production. Attendees leave with a practical framework for designing verification-powered agentic pipelines of their own.",
+      "speakers": [
+        {
+          "name": "Tariq Shaukat",
+          "role": "CEO",
+          "company": "Sonar",
+          "photo": "https://content-cdn.sessionboard.com/event-files%2Flrx8Hn3SvW9IwspxohPY_Tariq_Shaukat_headshot.png",
+          "bio": "",
+          "website": "",
+          "linkedin": "",
+          "twitter": ""
+        }
+      ]
+    },
+    "02f94835-c29d-4cf5-b77a-c5a491b747b8": {
+      "id": "02f94835-c29d-4cf5-b77a-c5a491b747b8",
+      "date": "2026-10-14",
+      "day": "Oct 14",
+      "time": "9:54am - 10:12am",
+      "startMinutes": 594,
+      "endMinutes": 612,
+      "startsAt": "2026-10-14T13:54:00.000Z",
+      "endsAt": "2026-10-14T14:12:00.000Z",
+      "type": "keynote",
+      "format": "Featured Keynote",
+      "room": "Simons Room (Metropolitan East)",
+      "roomOrder": 0,
+      "title": "Building the Next Chapter of AI in Finance",
+      "tentative": false,
+      "topics": [
+        "Main Stage"
+      ],
+      "description": "What does it take to turn advances in AI into meaningful progress for financial services? Joseph Kim, Head of ChatGPT for Financial Services, explores why and how the product was built, and the research and product direction guiding its evolution.",
+      "speakers": [
+        {
+          "name": "Joseph Kim",
+          "role": "Head of ChatGPT for Financial Services",
+          "company": "OpenAI",
+          "photo": "https://content-cdn.sessionboard.com/attendee-photo%2FYsBsMMOuSzTT07D6HQA1_headshot-1790201129006.png",
+          "bio": "",
+          "website": "",
+          "linkedin": "",
+          "twitter": ""
+        }
+      ]
+    },
+    "4607dbbe-8f94-4b0e-91ce-257d1cfb5448": {
+      "id": "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
+      "date": "2026-10-14",
+      "day": "Oct 14",
+      "time": "11:05am - 11:23am",
+      "startMinutes": 665,
+      "endMinutes": 683,
+      "startsAt": "2026-10-14T15:05:00.000Z",
+      "endsAt": "2026-10-14T15:23:00.000Z",
+      "type": "breakout",
+      "format": "Breakout Session (18 mins)",
+      "room": "Shannon Room (NY Ballroom E)",
+      "roomOrder": 0,
+      "title": "Building Better Agents Through End-to-End Evals",
+      "tentative": false,
+      "topics": [
+        "Engineering Track"
+      ],
+      "description": "More context should make an AI agent better. In our accounting agent, it often did the opposite. At Ramp, we built a benchmark of real-world accounting workflows to test frontier models, tools, skills, memory, and the agent harness end to end. What we found was that some of the most intuitive improvements actually made the system worse. In this talk, I\u2019ll walk through what we learned building and benchmarking a production finance agent: how we used skill ablation to identify context that was hurting performance, reduced one frequently loaded skill from 14k to 5k characters without sacrificing quality, and learned the hard way that agent memory needs to preserve reusable process, not stale facts from the last task. The broader lesson is that production agents are systems problems, not prompt problems. Better models help, but tool design, context management, telemetry, evals, latency, and cost all interact. I\u2019ll share the metrics and development loop we use to decide whether an agent change actually makes the product better. Attendees will leave with a practical framework for evaluating agent-harness changes against quality, reliability, latency, and cost rather than optimizing any one of them in isolation.",
+      "speakers": [
+        {
+          "name": "Ryan Stevens",
+          "role": "Director of Applied Science",
+          "company": "Ramp",
+          "photo": "https://content-cdn.sessionboard.com/3F2bkw3SVGovo5okGiEY_headshot-1789391590689.jpg",
+          "bio": "I am currently Director of Applied Sciences at Ramp, leading a team of Applied Scientists and Analytics Engineers. Our teams build the core ML models and data products powering Risk Management and Growth at Ramp. Prior to joining Ramp, I worked as a Data Scientist at Meta on their Ads Core ML team. Before that, I completed my Economics PhD at New York University. My academic research interests were primarily focused on industrial organization, applied econometrics and behavioral economics. Outside of work, I like to code, play around with interesting datasets, bike around, and spend time with my wife and our pup, Archie.",
+          "website": "",
+          "linkedin": "",
+          "twitter": ""
+        }
+      ]
+    },
+    "9b002687-09cf-42e2-9282-532ed9d0c184": {
+      "id": "9b002687-09cf-42e2-9282-532ed9d0c184",
+      "date": "2026-10-14",
+      "day": "Oct 14",
+      "time": "11:30am - 11:48am",
+      "startMinutes": 690,
+      "endMinutes": 708,
+      "startsAt": "2026-10-14T15:30:00.000Z",
+      "endsAt": "2026-10-14T15:48:00.000Z",
+      "type": "breakout",
+      "format": "Breakouts",
+      "room": "Turing Room (Riverside Ballroom)",
+      "roomOrder": 0,
+      "title": "We Let Our Financial Planners Write the Agents",
+      "tentative": false,
+      "topics": [
+        "Evaluations Track"
+      ],
+      "description": "We show how our CFPs built organizational skills to make planning more efficient and effective. Our planners write and maintain the agent skills they use daily, and none of them write code.\n\nWe started by using AI as a chat box to polish client messages. The real shift came when work began happening in the background: I can be on a call with one client while a full cash flow or insurance analysis is drafted for another, then review, adjust, and send recommendations afterward. A planner\u2019s bottleneck was never typing speed, but being in only one place at a time.\n\nThat requires an agent that works where the work lives and knows how we do planning, not how planning works in general. That\u2019s a skill. To build one: pick a repeatable workflow, walk the agent through one real case while narrating your judgment, package it with the questions it must ask and the limits it must respect, test it on five to ten real cases, then ship it with an owner and a reviewer.\n\nSix months in, we have 24 skills (17 in planning), and adoption spread to sales, product, and marketing without a mandate. I\u2019ll cover what changed when subject matter experts built for their own niches, how we peer-review skills like we review plans, and our open question: how to check quality at scale when the output is judgment.",
+      "speakers": [
+        {
+          "name": "Matt Ragone",
+          "role": "Financial Planner",
+          "company": "Range",
+          "photo": "https://content-cdn.sessionboard.com/attendee-photo%2FfjQrUkA2SbuYPYn7A5HF_headshot-1791983200354.jpg",
+          "bio": "",
+          "website": "",
+          "linkedin": "https://www.linkedin.com/in/matthew-ragone-cfp%C2%AE-crpc%E2%84%A2-a56a85106/",
+          "twitter": ""
+        }
+      ]
+    },
+    "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa": {
+      "id": "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+      "date": "2026-10-14",
+      "day": "Oct 14",
+      "time": "2:05pm - 2:23pm",
+      "startMinutes": 845,
+      "endMinutes": 863,
+      "startsAt": "2026-10-14T18:05:00.000Z",
+      "endsAt": "2026-10-14T18:23:00.000Z",
+      "type": "breakout",
+      "format": "Expo Session (18 mins)",
+      "room": "McCarthy Room (Riverside Suite)",
+      "roomOrder": 2,
+      "title": "From Agent Prototype to Production in Regulated Banking",
+      "tentative": false,
+      "topics": [
+        "Expo Session"
+      ],
+      "description": "Moving an AI agent from prototype to production is difficult anywhere. In regulated environments, the harder problem is proving that it is reliable enough to put in front of real customers.\n\nThis session looks at what that validation process requires in practice. We\u2019ll explore why a single accuracy score is not enough to characterize agent quality, how human evaluation can expose ambiguity in what \u201cgood\u201d even means, and what happens when the LLM-as-judge used to automate evaluation becomes another system that needs to be validated.\n\nWe\u2019ll also look at how evaluation moves from an offline exercise to production infrastructure: combining continuous scoring, regression gates, observability, and staged rollout to identify failures before they reach customers.\n\nThe session shares practical lessons for teams deploying agents in high-stakes environments, including how to define multidimensional quality, evaluate the evaluators themselves, and build the evidence needed to move from prototype to production with confidence.",
+      "speakers": [
+        {
+          "name": "Jonathan Osborne",
+          "role": "",
+          "company": "NatWest",
+          "photo": "",
+          "bio": "",
+          "website": "",
+          "linkedin": "",
+          "twitter": ""
+        }
+      ]
+    }
+  }
+}

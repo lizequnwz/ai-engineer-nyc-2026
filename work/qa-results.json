@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "22 concurrent slots / 66 ranked choices render without JavaScript errors",
+    "Default Tuesday path renders 11 choices + 8 plenary reviews",
+    "Wednesday day switch updates itinerary and selected state",
+    "Day/theme filters produce correct counts",
+    "Empty search has clear state",
+    "Reset and title search work",
+    "Compare link resets filters to reveal target slot",
+    "Per-talk notes retain separate drafts without relabeling evidence",
+    "Single-note export includes correct source and draft",
+    "All-draft export includes both separate notes",
+    "Reusable note template exports",
+    "Calendar exports 55 non-overlapping events with correct EDT→UTC conversion",
+    "Print includes both full days/all recommendations, then restores filters, disclosures, and notes",
+    "All internal links/field labels resolve; no duplicate IDs or external runtime resources/storage"
+  ],
+  "limitations": "DOM/content verification only. No browser visual/layout rendering was performed because local-file browser navigation was rejected by protocol policy."
+}

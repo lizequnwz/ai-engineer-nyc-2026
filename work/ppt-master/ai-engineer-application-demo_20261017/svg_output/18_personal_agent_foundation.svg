@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="20" data-pptx-page-role="section">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><polygon points="0,0 10,4 0,8" fill="#D5EF8C"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#102E3A"/>
+<g id="title" data-pptx-bounds="48 40 1184 120" fill="#FFFDF7"><text x="48" y="55" font-size="16" fill="#D5EF8C">PERSONAL ANALYTICS AGENT / BUILD ON THE FOUNDATION</text><text x="48" y="98" font-family="Cambria" font-size="36">The personal agent already has<tspan x="48" dy="43">a strong operating foundation</tspan></text></g>
+<g id="implemented-system" data-pptx-bounds="48 188 868 306">
+<rect x="48" y="188" width="868" height="306" fill="none" stroke="#50616A"/>
+<text x="72" y="222" font-size="16" fill="#D5EF8C">IMPLEMENTED / OCT 15 READ-ONLY REVIEW</text>
+<rect x="72" y="248" width="236" height="184" fill="#075E52"/><text x="92" y="282" font-size="24" font-family="Cambria" fill="#FFFDF7">Coordinator</text><text x="92" y="325" font-size="18" fill="#FFFDF7">Semantic discovery;<tspan x="92" dy="26">explicit specialist</tspan><tspan x="92" dy="26">ownership and scope.</tspan></text>
+<line x1="315" y1="290" x2="350" y2="290" stroke="#D5EF8C" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="315" y1="395" x2="350" y2="395" stroke="#D5EF8C" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="366" y="248" width="270" height="83" fill="#E7F0EA"/><text x="386" y="278" font-size="18" fill="#132F3B">SQL specialist<tspan x="386" dy="26">Owns warehouse access.</tspan></text>
+<rect x="366" y="349" width="270" height="83" fill="#E7F0EA"/><text x="386" y="379" font-size="18" fill="#132F3B">Python specialist<tspan x="386" dy="26">Uses named saved data.</tspan></text>
+<line x1="643" y1="290" x2="674" y2="290" stroke="#D5EF8C" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="643" y1="395" x2="674" y2="395" stroke="#D5EF8C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="692" y="280" font-size="18" fill="#FFFDF7">Typed complete data<tspan x="692" dy="26">Lineage and saved inputs</tspan><tspan x="692" dy="26">Immutable scope</tspan><tspan x="692" dy="26">Report revisions</tspan><tspan x="692" dy="26">Charts and reports</tspan></text>
+<text x="72" y="469" font-size="18" fill="#E7F0EA">Deterministic comparisons • persistent artifacts • Stop/Resume • retry • portable replay</text>
+</g>
+<g id="planned-frontier" data-pptx-bounds="948 188 284 306"><rect x="948" y="188" width="284" height="306" fill="none" stroke="#D5EF8C" stroke-dasharray="8,4"/><text x="970" y="222" font-size="16" fill="#D5EF8C">PLANNED FRONTIER</text><text x="970" y="275" font-size="24" font-family="Cambria" fill="#FFFDF7">Workspace journey</text><text x="970" y="321" font-size="18" fill="#E7F0EA">Read and search a project;<tspan x="970" dy="26">then controlled authoring</tspan><tspan x="970" dy="26">and checks, connected</tspan><tspan x="970" dy="26">to accepted evidence.</tspan></text></g>
+<g id="retained-harness" data-pptx-bounds="48 529 1184 105" fill="#FFFDF7"><text x="48" y="557" font-size="22" fill="#D5EF8C">Extend existing ownership and evidence paths.</text><text x="48" y="596">The paired evaluation harness already freezes receipts/fingerprints and protects boundary and<tspan x="48" dy="28">first-attempt outcomes. A second framework would duplicate valuable operating controls.</tspan></text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="48 664 1184 36" font-size="12" fill="#E7F0EA"><text x="48" y="682">Based on Oct 15 repository review. This deck reports neither new implementation nor a fresh model/provider evaluation.</text><text x="1232" y="682" text-anchor="end">18 / 28</text></g>
+</svg>

@@ -1,0 +1,2448 @@
+{
+  "schema": "conference-artifact-package.v1",
+  "title": "AI Engineer NYC 2026 conference knowledge archive",
+  "package_date": "2026-10-17",
+  "conference_dates": [
+    "2026-10-13",
+    "2026-10-14"
+  ],
+  "scope": "Complete personal archive; not public-redacted. Includes application-specific Fidelity context.",
+  "source_dates": "Research snapshots and reviews retain the dates stated inside their files; this package does not refresh external claims.",
+  "final_deliverables": 10,
+  "file_count_including_manifest_and_checksums": 306,
+  "hash_policy": "This manifest hashes all package files except itself and SHA256SUMS.txt. SHA256SUMS.txt also hashes this manifest and excludes only itself.",
+  "validation": "PACKAGING-VALIDATION.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 114,
+      "sha256": "80e164dd5f5bc52eeb4023570130171272d59f04d53eec56d2f28b4e499a717d",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 98,
+      "sha256": "24efe03a02d85d6560f2537f9001a862697a9bb3581e3790f0dcc7a447a4f338",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "BUILDING.md",
+      "bytes": 3844,
+      "sha256": "83f32cc3c9b2a5af760b23f9a8cc47fbebbce60a00f788259c9ebcbd252918f5",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "PACKAGING-VALIDATION.json",
+      "bytes": 3641,
+      "sha256": "343dd5fecb65e88c18842c9e7ca1e3e75a113899dc903431b024a9491781d531",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 6778,
+      "sha256": "c3439dfedf9c4bf884e3b8393720e91250e02ea14879f74ff5eb05d89af12768",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "START-HERE.html",
+      "bytes": 4625,
+      "sha256": "cfc84a158cb56c28f89cb5cd8d516508d8c0da18b64ba96bde5d2d7bcf3df20b",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "UPLOAD-TO-GITHUB.md",
+      "bytes": 3176,
+      "sha256": "4156b6579e555a9391e3a23bcc0268da681112529cbcf6256e002db6150695b6",
+      "role": "package_documentation_or_validation",
+      "created_for_package": true
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-application-demo-notes.md",
+      "bytes": 26387,
+      "sha256": "7231436e3494181991b6a16532e8edcc1707cd1fb13fcde53d286a0a740b14a0",
+      "role": "final_deliverable",
+      "original_sha256": "7231436e3494181991b6a16532e8edcc1707cd1fb13fcde53d286a0a740b14a0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-application-improve.pptx",
+      "bytes": 138214,
+      "sha256": "0402631c6a013c6daafbff5bb9c25a309632eee3425c81ccf98f75a34c2b70fc",
+      "role": "final_deliverable",
+      "original_sha256": "0402631c6a013c6daafbff5bb9c25a309632eee3425c81ccf98f75a34c2b70fc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-application-roadmap.html",
+      "bytes": 41260,
+      "sha256": "c3ea31595de59a47d30080a15822a4ef96297289b2a462e402854fe04876e04f",
+      "role": "final_deliverable",
+      "original_sha256": "c3ea31595de59a47d30080a15822a4ef96297289b2a462e402854fe04876e04f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-conference-takeaways-notes.md",
+      "bytes": 47022,
+      "sha256": "95e73e9152fc0d79d3dde84e8926a485403f8e4615030528a2a16d0540a7dab5",
+      "role": "final_deliverable",
+      "original_sha256": "95e73e9152fc0d79d3dde84e8926a485403f8e4615030528a2a16d0540a7dab5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-conference-takeaways.pptx",
+      "bytes": 184887,
+      "sha256": "995bc74cfaf9a11345985d4046f9644eb295298bf2e08dcec18b9f8dc7904084",
+      "role": "final_deliverable",
+      "original_sha256": "995bc74cfaf9a11345985d4046f9644eb295298bf2e08dcec18b9f8dc7904084",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-day-1-notes.md",
+      "bytes": 35466,
+      "sha256": "3c7c6d41941172c261c175b82f7d0cf1525d2ae05f1909de7f2e96e324bcf0cf",
+      "role": "final_deliverable",
+      "original_sha256": "3c7c6d41941172c261c175b82f7d0cf1525d2ae05f1909de7f2e96e324bcf0cf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-day-2-notes.md",
+      "bytes": 31284,
+      "sha256": "ea17204e1cf775300e2f515b1491c59a8f431eae5e99d34838820c90407babee",
+      "role": "final_deliverable",
+      "original_sha256": "ea17204e1cf775300e2f515b1491c59a8f431eae5e99d34838820c90407babee",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-field-guide.html",
+      "bytes": 204173,
+      "sha256": "fe5f79421ee4c53a6dd113b024215e7f60fcedeff532ae7c8f409e84959098fa",
+      "role": "final_deliverable",
+      "original_sha256": "fe5f79421ee4c53a6dd113b024215e7f60fcedeff532ae7c8f409e84959098fa",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-industry-report.html",
+      "bytes": 355457,
+      "sha256": "fb159a0987534194907ab8d8ce01019f27c509ab0a65d31d12248a530dd26bee",
+      "role": "final_deliverable",
+      "original_sha256": "fb159a0987534194907ab8d8ce01019f27c509ab0a65d31d12248a530dd26bee",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "outputs/ai-engineer-nyc-2026-presentation.html",
+      "bytes": 470439,
+      "sha256": "a41cc9775e1902772eef200ab4a70fa66dc90dc59841545c976eee8e4da1ab07",
+      "role": "final_deliverable",
+      "original_sha256": "a41cc9775e1902772eef200ab4a70fa66dc90dc59841545c976eee8e4da1ab07",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/applications/build_brief.py",
+      "bytes": 40641,
+      "sha256": "778e1c39215f0a52d761b17e4c2d4da5f2cc92b0537696272053c950c967f34e",
+      "role": "editable_source_or_research",
+      "original_sha256": "782e42dbd0a1185a03267387529a7dbd4d0c9345ad5921346328470ddfc3d34a",
+      "modified_for_packaging": true,
+      "packaging_change": "Workspace root made relative to the builder; historical personal-repository evidence text preserved."
+    },
+    {
+      "path": "work/applications/qa.json",
+      "bytes": 367,
+      "sha256": "27bde7725aec209361cf91d9ad288d1514103f10d1a0a5bced68198001830c3d",
+      "role": "editable_source_or_research",
+      "original_sha256": "27bde7725aec209361cf91d9ad288d1514103f10d1a0a5bced68198001830c3d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/applications-eval-review.md",
+      "bytes": 19860,
+      "sha256": "e3a334c93576c7e2f1d6db993d977ed35e0dd5836105771535b2adad896cea06",
+      "role": "editable_source_or_research",
+      "original_sha256": "e3a334c93576c7e2f1d6db993d977ed35e0dd5836105771535b2adad896cea06",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/applications-fidelity-plan.md",
+      "bytes": 20833,
+      "sha256": "8ee8d756dcd2a8bb90c09470551f916401c2d25ff1bb3a634c529b6c7f100a64",
+      "role": "editable_source_or_research",
+      "original_sha256": "8ee8d756dcd2a8bb90c09470551f916401c2d25ff1bb3a634c529b6c7f100a64",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/applications-grounding-review.md",
+      "bytes": 15428,
+      "sha256": "514995bbd42cb6e4649f32cdb9b985607b102a688290508a8696344b6e94c63c",
+      "role": "editable_source_or_research",
+      "original_sha256": "514995bbd42cb6e4649f32cdb9b985607b102a688290508a8696344b6e94c63c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/build_grounding_workflows.py",
+      "bytes": 22389,
+      "sha256": "458f2a4ee83ec1d0acd485f2a300ac62c95f17e2f9225599ab72e63a73f4dae6",
+      "role": "editable_source_or_research",
+      "original_sha256": "458f2a4ee83ec1d0acd485f2a300ac62c95f17e2f9225599ab72e63a73f4dae6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/build_industry_report.py",
+      "bytes": 54168,
+      "sha256": "5cfbf9edec2f63241cfdfbee7a93d066c107caed32c1b145ca15d3104ecbc3de",
+      "role": "editable_source_or_research",
+      "original_sha256": "5cfbf9edec2f63241cfdfbee7a93d066c107caed32c1b145ca15d3104ecbc3de",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/build_institution_cases.py",
+      "bytes": 28468,
+      "sha256": "f67f9aa8601ae92d463daf48eebe38dd99a9afd822facf2290d5185f1eda9189",
+      "role": "editable_source_or_research",
+      "original_sha256": "f67f9aa8601ae92d463daf48eebe38dd99a9afd822facf2290d5185f1eda9189",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/build_report.py",
+      "bytes": 8958,
+      "sha256": "d05b0e93dbe895e5d2d19da92dfbd8e953cd63049cf205b4bb1cc696d5608274",
+      "role": "editable_source_or_research",
+      "original_sha256": "d05b0e93dbe895e5d2d19da92dfbd8e953cd63049cf205b4bb1cc696d5608274",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/capture_strategy.md",
+      "bytes": 19328,
+      "sha256": "a1b4e57e3c23f8084506f73a2eaec16b8d4ab15bbc92a5f438e02289557dffef",
+      "role": "editable_source_or_research",
+      "original_sha256": "a1b4e57e3c23f8084506f73a2eaec16b8d4ab15bbc92a5f438e02289557dffef",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1-report.css",
+      "bytes": 4838,
+      "sha256": "245c731846ccacc299ae3d47d7c2663e0e36d2fd2e4cd0c0fed6068779c5eeff",
+      "role": "editable_source_or_research",
+      "original_sha256": "245c731846ccacc299ae3d47d7c2663e0e36d2fd2e4cd0c0fed6068779c5eeff",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_html_content_audit.md",
+      "bytes": 2735,
+      "sha256": "e12cd395e1f529ce4626c8880784fde556e9e63f7dfe5bbc053dcf7bdc549b50",
+      "role": "editable_source_or_research",
+      "original_sha256": "e12cd395e1f529ce4626c8880784fde556e9e63f7dfe5bbc053dcf7bdc549b50",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_learning_synthesis.json",
+      "bytes": 22796,
+      "sha256": "03598348caed5e2ac6b0b3329695422b290778c718750d0acfaa80c6a3fc9239",
+      "role": "editable_source_or_research",
+      "original_sha256": "03598348caed5e2ac6b0b3329695422b290778c718750d0acfaa80c6a3fc9239",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_md_audit.md",
+      "bytes": 6093,
+      "sha256": "fa2b844a4fb93e6aa2a943b6114e1a02b81cad22bf83646149c49af4250608de",
+      "role": "editable_source_or_research",
+      "original_sha256": "fa2b844a4fb93e6aa2a943b6114e1a02b81cad22bf83646149c49af4250608de",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_notes_data.json",
+      "bytes": 21873,
+      "sha256": "f25eb2c596ac66c0316c7cd28f380bf353fce1aa476396129611969252864218",
+      "role": "editable_source_or_research",
+      "original_sha256": "f25eb2c596ac66c0316c7cd28f380bf353fce1aa476396129611969252864218",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_report_content.py",
+      "bytes": 13095,
+      "sha256": "b8dfa2bb83a2c6eda0f9ddde42e1062820f411ffb219d0d420d89ea168c465f2",
+      "role": "editable_source_or_research",
+      "original_sha256": "b8dfa2bb83a2c6eda0f9ddde42e1062820f411ffb219d0d420d89ea168c465f2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day1_source_audit.md",
+      "bytes": 13854,
+      "sha256": "00b1128c5b6990db2d56f2d2dc614e7308be2fba87e2b96cbf934c02fc267e24",
+      "role": "editable_source_or_research",
+      "original_sha256": "00b1128c5b6990db2d56f2d2dc614e7308be2fba87e2b96cbf934c02fc267e24",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2-report.css",
+      "bytes": 3458,
+      "sha256": "5618d2ace8ec64d5a8fb59ebbd88d2187e8b9b68028c017c63d7232324b366ab",
+      "role": "editable_source_or_research",
+      "original_sha256": "5618d2ace8ec64d5a8fb59ebbd88d2187e8b9b68028c017c63d7232324b366ab",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_html_audit.md",
+      "bytes": 3084,
+      "sha256": "483398bd85de998a56e3f80423728a52f42f2f9038c88df05270ec2ce4e700c4",
+      "role": "editable_source_or_research",
+      "original_sha256": "483398bd85de998a56e3f80423728a52f42f2f9038c88df05270ec2ce4e700c4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_learning_synthesis.json",
+      "bytes": 21831,
+      "sha256": "ae5fbb7e7e261253516fc3dfefe71587ed2c052806d80e40fd7807da283fd348",
+      "role": "editable_source_or_research",
+      "original_sha256": "ae5fbb7e7e261253516fc3dfefe71587ed2c052806d80e40fd7807da283fd348",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_metadata.json",
+      "bytes": 10421,
+      "sha256": "85cc0b3a5aca106502b65961b662293fcdf2f63379cc39d5773b10a3caa0f60c",
+      "role": "editable_source_or_research",
+      "original_sha256": "85cc0b3a5aca106502b65961b662293fcdf2f63379cc39d5773b10a3caa0f60c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_notes_data.json",
+      "bytes": 19127,
+      "sha256": "8b865b4d2cd04409d858be0b5daef01a45dd22d41a326b078753dec57e5ce027",
+      "role": "editable_source_or_research",
+      "original_sha256": "8b865b4d2cd04409d858be0b5daef01a45dd22d41a326b078753dec57e5ce027",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_report_content.py",
+      "bytes": 11358,
+      "sha256": "d3d4325ae845349f1efd8b0c2b6bb72ebc90f95af02b0168bbcf73c3999c90e4",
+      "role": "editable_source_or_research",
+      "original_sha256": "d3d4325ae845349f1efd8b0c2b6bb72ebc90f95af02b0168bbcf73c3999c90e4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/day2_source_audit.md",
+      "bytes": 19451,
+      "sha256": "d5b74b040765b275750a823d277dcfe7d5587369fe623132011c075f71b65fff",
+      "role": "editable_source_or_research",
+      "original_sha256": "d5b74b040765b275750a823d277dcfe7d5587369fe623132011c075f71b65fff",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry-base.css",
+      "bytes": 11111,
+      "sha256": "cc920ceca2d24573ab26ce78e96ed2fb2937a28e18ed95160ee0869723ea9a59",
+      "role": "editable_source_or_research",
+      "original_sha256": "cc920ceca2d24573ab26ce78e96ed2fb2937a28e18ed95160ee0869723ea9a59",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry-qa-results.json",
+      "bytes": 1269,
+      "sha256": "0cca55d301f73a040d188754ca61de5e0078b77849a7b0a67b2df12d62f0edcd",
+      "role": "editable_source_or_research",
+      "original_sha256": "0cca55d301f73a040d188754ca61de5e0078b77849a7b0a67b2df12d62f0edcd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry-report-data.json",
+      "bytes": 52894,
+      "sha256": "6d6ca26144f8d607518f745406581a99d7591da82613fcabbb2d06c1c7a37326",
+      "role": "editable_source_or_research",
+      "original_sha256": "6d6ca26144f8d607518f745406581a99d7591da82613fcabbb2d06c1c7a37326",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry-report.css",
+      "bytes": 8915,
+      "sha256": "5e67ee3b6a0187483b36b0d0da71d833acf22e2d3ee4232ceadea6226e367b2f",
+      "role": "editable_source_or_research",
+      "original_sha256": "5e67ee3b6a0187483b36b0d0da71d833acf22e2d3ee4232ceadea6226e367b2f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry-report.js",
+      "bytes": 3284,
+      "sha256": "c4af590c6996bfdac52f0db79d91abbd8e2dc75e6a8e3842cc335f2ad796efdf",
+      "role": "editable_source_or_research",
+      "original_sha256": "c4af590c6996bfdac52f0db79d91abbd8e2dc75e6a8e3842cc335f2ad796efdf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/industry_themes.json",
+      "bytes": 32544,
+      "sha256": "e6f3adca47295058333629a2b9d606a7a26a935fa9dccb3fabbcc2b3774e1b44",
+      "role": "editable_source_or_research",
+      "original_sha256": "e6f3adca47295058333629a2b9d606a7a26a935fa9dccb3fabbcc2b3774e1b44",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/institution_cases.json",
+      "bytes": 38198,
+      "sha256": "c1339efb4435d124695e385c4a31a174856881581324ef4989943c640a7d276a",
+      "role": "editable_source_or_research",
+      "original_sha256": "c1339efb4435d124695e385c4a31a174856881581324ef4989943c640a7d276a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/README.md",
+      "bytes": 1311,
+      "sha256": "3cb0c0c01dc55a51c70599156377bc52b986c0d6c83779e7345d5ce65acad42c",
+      "role": "editable_source_or_research",
+      "original_sha256": "aaaad9b1dc400754e38cc695daf2352514fd998afac3e90147890a3d100fe2b8",
+      "modified_for_packaging": true,
+      "packaging_change": "Project README rewritten for the curated portable archive."
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/design_spec.md",
+      "bytes": 47445,
+      "sha256": "3281ca1a01a2af7854ee79b8ff955677e20da1d14b2d9bdc9a2fc5c83efb803e",
+      "role": "editable_source_or_research",
+      "original_sha256": "3281ca1a01a2af7854ee79b8ff955677e20da1d14b2d9bdc9a2fc5c83efb803e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/01_from_queries_to_accepted_work.md",
+      "bytes": 884,
+      "sha256": "e12347b539812406c04508e1b586de6b15770bb5f33e51831e4047e8e56219c2",
+      "role": "editable_source_or_research",
+      "original_sha256": "e12347b539812406c04508e1b586de6b15770bb5f33e51831e4047e8e56219c2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/02_two_release_paths.md",
+      "bytes": 893,
+      "sha256": "fa1d4c592f76c64b3db59913d6f63f4e77c44f74a5a6c944771c24659f8fc990",
+      "role": "editable_source_or_research",
+      "original_sha256": "fa1d4c592f76c64b3db59913d6f63f4e77c44f74a5a6c944771c24659f8fc990",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/03_company_mechanisms.md",
+      "bytes": 930,
+      "sha256": "9611eb21eabcf637ea45c75608b15440582cf12204caeac252b81de280f8fcd3",
+      "role": "editable_source_or_research",
+      "original_sha256": "9611eb21eabcf637ea45c75608b15440582cf12204caeac252b81de280f8fcd3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/04_fidelity_baseline.md",
+      "bytes": 923,
+      "sha256": "aa99321faaca5cba4c61ffc1bb01534273079ccae4b078c5d945c6939c351be0",
+      "role": "editable_source_or_research",
+      "original_sha256": "aa99321faaca5cba4c61ffc1bb01534273079ccae4b078c5d945c6939c351be0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/05_shared_semantic_coordinator.md",
+      "bytes": 819,
+      "sha256": "b347a8223d078e1d4cdda3946835e349473e07d28463129caf7f1bc539f6f802",
+      "role": "editable_source_or_research",
+      "original_sha256": "b347a8223d078e1d4cdda3946835e349473e07d28463129caf7f1bc539f6f802",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/06_definitions_and_discovery.md",
+      "bytes": 848,
+      "sha256": "7d9adc03f6ee75ffb98e47cbd9363e9a6498edb4b819d208728e7401b9e1cf43",
+      "role": "editable_source_or_research",
+      "original_sha256": "7d9adc03f6ee75ffb98e47cbd9363e9a6498edb4b819d208728e7401b9e1cf43",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/07_dependency_complete_context.md",
+      "bytes": 891,
+      "sha256": "f965f054d29ee9b4186ad240f2467a98b52a1ab427635102d91db2337c249735",
+      "role": "editable_source_or_research",
+      "original_sha256": "f965f054d29ee9b4186ad240f2467a98b52a1ab427635102d91db2337c249735",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/08_context_latency_experiment.md",
+      "bytes": 916,
+      "sha256": "5108ff15ad3279a370fe6b9d2e104bac3549046bc42ab9bbdd8e9a8a65d6d145",
+      "role": "editable_source_or_research",
+      "original_sha256": "5108ff15ad3279a370fe6b9d2e104bac3549046bc42ab9bbdd8e9a8a65d6d145",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/09_same_row_count_failure.md",
+      "bytes": 883,
+      "sha256": "c4a682bf37ea722a27a3c5485aa1f53b7dec485fc1a0b8169d732012f034af6e",
+      "role": "editable_source_or_research",
+      "original_sha256": "c4a682bf37ea722a27a3c5485aa1f53b7dec485fc1a0b8169d732012f034af6e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/10_layered_evaluation.md",
+      "bytes": 1013,
+      "sha256": "d965351663226f2109fa2838bd5c54662158df1320d6632cc519d69f5366d700",
+      "role": "editable_source_or_research",
+      "original_sha256": "d965351663226f2109fa2838bd5c54662158df1320d6632cc519d69f5366d700",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/11_explicit_conversation_state.md",
+      "bytes": 940,
+      "sha256": "6f26b6ec3932fa9328da5c5d4fb66d339531c1adeb80b363edb41cf04076f224",
+      "role": "editable_source_or_research",
+      "original_sha256": "6f26b6ec3932fa9328da5c5d4fb66d339531c1adeb80b363edb41cf04076f224",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/12_bounded_investigation.md",
+      "bytes": 903,
+      "sha256": "a6995d21ef7985ac045043369a9889685a9456c44303f1b6b0ecc9cca222bcc5",
+      "role": "editable_source_or_research",
+      "original_sha256": "a6995d21ef7985ac045043369a9889685a9456c44303f1b6b0ecc9cca222bcc5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/13_sales_meeting_packet.md",
+      "bytes": 928,
+      "sha256": "186662ee096e0b13b4a102463b854faf4e5bdaf16051127f943884f2ffa8adab",
+      "role": "editable_source_or_research",
+      "original_sha256": "186662ee096e0b13b4a102463b854faf4e5bdaf16051127f943884f2ffa8adab",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/14_synthetic_sales_brief.md",
+      "bytes": 868,
+      "sha256": "cae3934ed65c382bb2cfe953960f78e019d31128a5fe14c0b1bdafcf02f26b8e",
+      "role": "editable_source_or_research",
+      "original_sha256": "cae3934ed65c382bb2cfe953960f78e019d31128a5fe14c0b1bdafcf02f26b8e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/15_expert_authored_skills.md",
+      "bytes": 888,
+      "sha256": "b52acbf15978351ea18ec6f50f6edc9e575c8b498513f6276527de980ba24e60",
+      "role": "editable_source_or_research",
+      "original_sha256": "b52acbf15978351ea18ec6f50f6edc9e575c8b498513f6276527de980ba24e60",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/16_measure_salesforce_job.md",
+      "bytes": 926,
+      "sha256": "a24d8378d891f256a955a009faf4750382e95f8d5646bb5146c15bf79a6a27cb",
+      "role": "editable_source_or_research",
+      "original_sha256": "a24d8378d891f256a955a009faf4750382e95f8d5646bb5146c15bf79a6a27cb",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/17_fidelity_release_increments.md",
+      "bytes": 932,
+      "sha256": "454fe5cbc690506e303620be48f409ed579c91dfafe33ae224094a88728b4961",
+      "role": "editable_source_or_research",
+      "original_sha256": "454fe5cbc690506e303620be48f409ed579c91dfafe33ae224094a88728b4961",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/18_personal_agent_foundation.md",
+      "bytes": 899,
+      "sha256": "38e5fd829c60fb52f42a3070aba9198b57ec8613f0253ed25e124ab6e3d499d5",
+      "role": "editable_source_or_research",
+      "original_sha256": "38e5fd829c60fb52f42a3070aba9198b57ec8613f0253ed25e124ab6e3d499d5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/19_analytical_correctness_contracts.md",
+      "bytes": 948,
+      "sha256": "1071b8b58607299c2094ebe68a657d2cff92383b25c0f672f7d3e7487f82b4b0",
+      "role": "editable_source_or_research",
+      "original_sha256": "1071b8b58607299c2094ebe68a657d2cff92383b25c0f672f7d3e7487f82b4b0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/20_bound_quantitative_narrative.md",
+      "bytes": 885,
+      "sha256": "b63723dffa328575d5561510fa626ea0a277e9d6abc1335e69fb51f97020e673",
+      "role": "editable_source_or_research",
+      "original_sha256": "b63723dffa328575d5561510fa626ea0a277e9d6abc1335e69fb51f97020e673",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/21_preserve_meaning_on_refresh.md",
+      "bytes": 910,
+      "sha256": "2f40dcb76353140821e45b571869cdce19b319aff95fe8e58f36c5e81cbaed26",
+      "role": "editable_source_or_research",
+      "original_sha256": "2f40dcb76353140821e45b571869cdce19b319aff95fe8e58f36c5e81cbaed26",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/22_outcome_oracles.md",
+      "bytes": 943,
+      "sha256": "890a7f254ea60207562b8bad51eda39835cc87e4ffe1f1c630de98b80a87d702",
+      "role": "editable_source_or_research",
+      "original_sha256": "890a7f254ea60207562b8bad51eda39835cc87e4ffe1f1c630de98b80a87d702",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/23_workspace_to_checked_result.md",
+      "bytes": 1004,
+      "sha256": "a13a9a38b6a2cd32b3f83f5d4d2dc78a2f04197e3668ef73bdb592c427711ff7",
+      "role": "editable_source_or_research",
+      "original_sha256": "a13a9a38b6a2cd32b3f83f5d4d2dc78a2f04197e3668ef73bdb592c427711ff7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/24_next_accepted_work_product.md",
+      "bytes": 865,
+      "sha256": "224391997df4e561a4568f3d9d80aab13b43a234ef4bdb504f6df2e1e118172d",
+      "role": "editable_source_or_research",
+      "original_sha256": "224391997df4e561a4568f3d9d80aab13b43a234ef4bdb504f6df2e1e118172d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/25_diagnostic_defect_suite.md",
+      "bytes": 835,
+      "sha256": "8587bde19b5c48397b473f7994419b7cf1b0dc4689bdd6bdf368e9830d842241",
+      "role": "editable_source_or_research",
+      "original_sha256": "8587bde19b5c48397b473f7994419b7cf1b0dc4689bdd6bdf368e9830d842241",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/26_accepted_work_scorecard.md",
+      "bytes": 892,
+      "sha256": "6d9bf1f64ff26aea9cba90cae36117d7ef50a56c81eb524c24156b90cb868421",
+      "role": "editable_source_or_research",
+      "original_sha256": "6d9bf1f64ff26aea9cba90cae36117d7ef50a56c81eb524c24156b90cb868421",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/27_implementation_anchors.md",
+      "bytes": 840,
+      "sha256": "0e4ee0aa1847e30618d5bec5cec646672b43799f74e5d5542973bb7e7f101d75",
+      "role": "editable_source_or_research",
+      "original_sha256": "0e4ee0aa1847e30618d5bec5cec646672b43799f74e5d5542973bb7e7f101d75",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/28_primary_references.md",
+      "bytes": 943,
+      "sha256": "bc99e7fc71c05c683e8cbcf523b9f42ade4b5e9c522adbc74d8ff437e64df8a8",
+      "role": "editable_source_or_research",
+      "original_sha256": "bc99e7fc71c05c683e8cbcf523b9f42ade4b5e9c522adbc74d8ff437e64df8a8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/notes/total.md",
+      "bytes": 26387,
+      "sha256": "7231436e3494181991b6a16532e8edcc1707cd1fb13fcde53d286a0a740b14a0",
+      "role": "editable_source_or_research",
+      "original_sha256": "7231436e3494181991b6a16532e8edcc1707cd1fb13fcde53d286a0a740b14a0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/sources/ai-engineer-nyc-2026-application-roadmap.conversion_profile.json",
+      "bytes": 819,
+      "sha256": "5f996209e87b260a747e283197989dbb74fd82fb4f965dddd850157a57b5f007",
+      "role": "editable_source_or_research",
+      "original_sha256": "a0c8e79e643f724b2f310f2115970277d9aad0f384a24aeb32a6b9c65324ceb3",
+      "modified_for_packaging": true,
+      "packaging_change": "Conversion source path normalized to the canonical output HTML; provenance retained."
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/sources/ai-engineer-nyc-2026-application-roadmap.md",
+      "bytes": 26620,
+      "sha256": "0c4ec8095da2006bacfdfee413bfcfa69e5793ffceaf1a58725a8b319d28c946",
+      "role": "editable_source_or_research",
+      "original_sha256": "589b184d51b894fb5ee9da6243deecde8741007a4c78247cdd021af4c953d95b",
+      "modified_for_packaging": true,
+      "packaging_change": "Cross-link updated to the canonical HTML presentation in outputs/."
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/spec_lock.md",
+      "bytes": 2881,
+      "sha256": "be95dc4c1be5531f6f56bb67cb0274bf115cd2221e351f5575783dad6a6dac70",
+      "role": "editable_source_or_research",
+      "original_sha256": "be95dc4c1be5531f6f56bb67cb0274bf115cd2221e351f5575783dad6a6dac70",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/01_from_queries_to_accepted_work.svg",
+      "bytes": 2458,
+      "sha256": "6c5150f9da90736393adc892ff98883820a8123471045cb9abc6deea11e71e56",
+      "role": "editable_source_or_research",
+      "original_sha256": "6c5150f9da90736393adc892ff98883820a8123471045cb9abc6deea11e71e56",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/02_two_release_paths.svg",
+      "bytes": 2602,
+      "sha256": "4b492fddfbb6c2443c1336a97ab07c43333f675f270b001a9dbaa4bb9616e91f",
+      "role": "editable_source_or_research",
+      "original_sha256": "4b492fddfbb6c2443c1336a97ab07c43333f675f270b001a9dbaa4bb9616e91f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/03_company_mechanisms.svg",
+      "bytes": 3302,
+      "sha256": "ad2511fd057d0ce1d489572faa9c81e0aca8bc34476ad7794fa7d71f0e3b6476",
+      "role": "editable_source_or_research",
+      "original_sha256": "ad2511fd057d0ce1d489572faa9c81e0aca8bc34476ad7794fa7d71f0e3b6476",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/04_fidelity_baseline.svg",
+      "bytes": 2725,
+      "sha256": "c912fa6a0fc90a0c6a0278afa5e01f6eb52bc968a19553bb9a0322b78051105c",
+      "role": "editable_source_or_research",
+      "original_sha256": "c912fa6a0fc90a0c6a0278afa5e01f6eb52bc968a19553bb9a0322b78051105c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/05_shared_semantic_coordinator.svg",
+      "bytes": 2983,
+      "sha256": "dc43500fefbf873e87d825efde6307a94961c93852c3378154b13eb148dc5d23",
+      "role": "editable_source_or_research",
+      "original_sha256": "dc43500fefbf873e87d825efde6307a94961c93852c3378154b13eb148dc5d23",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/06_definitions_and_discovery.svg",
+      "bytes": 2831,
+      "sha256": "decae217b6a2be49d57e26eb3d9d55ac40621beeac9cc4e2fc60c2710dc526f9",
+      "role": "editable_source_or_research",
+      "original_sha256": "decae217b6a2be49d57e26eb3d9d55ac40621beeac9cc4e2fc60c2710dc526f9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/07_dependency_complete_context.svg",
+      "bytes": 3358,
+      "sha256": "c4ed64a39477c2d519e75c3454f56584c74ef92e52f33feddf1cf1b903e241fd",
+      "role": "editable_source_or_research",
+      "original_sha256": "c4ed64a39477c2d519e75c3454f56584c74ef92e52f33feddf1cf1b903e241fd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/08_context_latency_experiment.svg",
+      "bytes": 4153,
+      "sha256": "5a9310819089247f22b648d6b52ec7b1c54b29ca9769df39b056b02a326cbd92",
+      "role": "editable_source_or_research",
+      "original_sha256": "5a9310819089247f22b648d6b52ec7b1c54b29ca9769df39b056b02a326cbd92",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/09_same_row_count_failure.svg",
+      "bytes": 5350,
+      "sha256": "5b4d1e725aeba1899c0554e8dec79c0fbd5aa683ce78ba29dd01fc57accaffb6",
+      "role": "editable_source_or_research",
+      "original_sha256": "5b4d1e725aeba1899c0554e8dec79c0fbd5aa683ce78ba29dd01fc57accaffb6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/10_layered_evaluation.svg",
+      "bytes": 4366,
+      "sha256": "9b7792d486b8da08d8892649265a295986a7a034c5ba8ef357848881a7a65759",
+      "role": "editable_source_or_research",
+      "original_sha256": "9b7792d486b8da08d8892649265a295986a7a034c5ba8ef357848881a7a65759",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/11_explicit_conversation_state.svg",
+      "bytes": 4285,
+      "sha256": "94988acc4dc780312565a8c0a2a4f312a550675bd2bee84a53aced1bfe86aca8",
+      "role": "editable_source_or_research",
+      "original_sha256": "94988acc4dc780312565a8c0a2a4f312a550675bd2bee84a53aced1bfe86aca8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/12_bounded_investigation.svg",
+      "bytes": 4413,
+      "sha256": "8058df75e092466e6a918c526629d706284ecc44abba5c8725057a6264cebfe3",
+      "role": "editable_source_or_research",
+      "original_sha256": "8058df75e092466e6a918c526629d706284ecc44abba5c8725057a6264cebfe3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/13_sales_meeting_packet.svg",
+      "bytes": 2862,
+      "sha256": "f19785e26a102687a8cbecbf1fb3ec94cb2f5ead2b1e72fb098e4066b62e5d2a",
+      "role": "editable_source_or_research",
+      "original_sha256": "f19785e26a102687a8cbecbf1fb3ec94cb2f5ead2b1e72fb098e4066b62e5d2a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/14_synthetic_sales_brief.svg",
+      "bytes": 3431,
+      "sha256": "79fa583cac0d445de6b2b025f47867887cadb49698622e2e160ee80da2b81cb6",
+      "role": "editable_source_or_research",
+      "original_sha256": "79fa583cac0d445de6b2b025f47867887cadb49698622e2e160ee80da2b81cb6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/15_expert_authored_skills.svg",
+      "bytes": 3616,
+      "sha256": "1329a465090eb198bef36f4308d7ec15673d5115b88215f19be7edf874e990a4",
+      "role": "editable_source_or_research",
+      "original_sha256": "1329a465090eb198bef36f4308d7ec15673d5115b88215f19be7edf874e990a4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/16_measure_salesforce_job.svg",
+      "bytes": 2495,
+      "sha256": "fe624551a4fd1fc624a0d7ee27f01dd1e12a0587d1c98a70be9d8709e3ec6985",
+      "role": "editable_source_or_research",
+      "original_sha256": "fe624551a4fd1fc624a0d7ee27f01dd1e12a0587d1c98a70be9d8709e3ec6985",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/17_fidelity_release_increments.svg",
+      "bytes": 4525,
+      "sha256": "6b51dcb6e569baa4582eabea1dedc196784521dcd8167119b09c14ed8f02174f",
+      "role": "editable_source_or_research",
+      "original_sha256": "6b51dcb6e569baa4582eabea1dedc196784521dcd8167119b09c14ed8f02174f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/18_personal_agent_foundation.svg",
+      "bytes": 4166,
+      "sha256": "aa9add8d6b8e06e7f875dbf5795bc24acb6d81458dca7a1b61bbda07cd548188",
+      "role": "editable_source_or_research",
+      "original_sha256": "aa9add8d6b8e06e7f875dbf5795bc24acb6d81458dca7a1b61bbda07cd548188",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/19_analytical_correctness_contracts.svg",
+      "bytes": 2646,
+      "sha256": "73240760eb9e23fb188fc39250425c5e17a2c3b132e686bb43a4bea4613862a4",
+      "role": "editable_source_or_research",
+      "original_sha256": "73240760eb9e23fb188fc39250425c5e17a2c3b132e686bb43a4bea4613862a4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/20_bound_quantitative_narrative.svg",
+      "bytes": 3728,
+      "sha256": "1b0a16bde891ff5a7e8dfe68facc7cd74c4707655c8ebebd34d936f87b295ff1",
+      "role": "editable_source_or_research",
+      "original_sha256": "1b0a16bde891ff5a7e8dfe68facc7cd74c4707655c8ebebd34d936f87b295ff1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/21_preserve_meaning_on_refresh.svg",
+      "bytes": 3816,
+      "sha256": "1afebbb8cba79e0ce3f3e39f73bdc6be9af4ca0f19a79abd7b36f9166676615a",
+      "role": "editable_source_or_research",
+      "original_sha256": "1afebbb8cba79e0ce3f3e39f73bdc6be9af4ca0f19a79abd7b36f9166676615a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/22_outcome_oracles.svg",
+      "bytes": 4679,
+      "sha256": "4598b2b548abb3b3ddfe00bb1860bca82e1e0143ebf163a83de436e13383fe81",
+      "role": "editable_source_or_research",
+      "original_sha256": "4598b2b548abb3b3ddfe00bb1860bca82e1e0143ebf163a83de436e13383fe81",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/23_workspace_to_checked_result.svg",
+      "bytes": 2900,
+      "sha256": "da2caf7a9ff21260fcd30ea43ddcb8385c87bd5265fb7afe6e44f247362a8e2b",
+      "role": "editable_source_or_research",
+      "original_sha256": "da2caf7a9ff21260fcd30ea43ddcb8385c87bd5265fb7afe6e44f247362a8e2b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/24_next_accepted_work_product.svg",
+      "bytes": 2434,
+      "sha256": "1dd0d843b573d4180f900647ddacffb465563f16a0eb8e807e0b4746b301bc52",
+      "role": "editable_source_or_research",
+      "original_sha256": "1dd0d843b573d4180f900647ddacffb465563f16a0eb8e807e0b4746b301bc52",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/25_diagnostic_defect_suite.svg",
+      "bytes": 5135,
+      "sha256": "1f6ecb1f6b920903509e8fe0ec6e53a970410f5031763eac4e461dd436c3b05b",
+      "role": "editable_source_or_research",
+      "original_sha256": "1f6ecb1f6b920903509e8fe0ec6e53a970410f5031763eac4e461dd436c3b05b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/26_accepted_work_scorecard.svg",
+      "bytes": 4851,
+      "sha256": "5d852865c3c99de1232085c3932f1fcc73317020ed92a4e3ff9def36046785bf",
+      "role": "editable_source_or_research",
+      "original_sha256": "5d852865c3c99de1232085c3932f1fcc73317020ed92a4e3ff9def36046785bf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/27_implementation_anchors.svg",
+      "bytes": 4177,
+      "sha256": "be4c3871968acdaef5c977db767a327d86e1bf8cbbec3fb8dc3422c044e145f6",
+      "role": "editable_source_or_research",
+      "original_sha256": "be4c3871968acdaef5c977db767a327d86e1bf8cbbec3fb8dc3422c044e145f6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_final/28_primary_references.svg",
+      "bytes": 4559,
+      "sha256": "7ce6ffc25ca659386b36064ca28083975a1df064cf97d2e8816f676218e27245",
+      "role": "editable_source_or_research",
+      "original_sha256": "7ce6ffc25ca659386b36064ca28083975a1df064cf97d2e8816f676218e27245",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/01_from_queries_to_accepted_work.svg",
+      "bytes": 2382,
+      "sha256": "a61f544b91112f900ed6480280736ed27bf599d7c87f21f61eff5cd9f88bb8d2",
+      "role": "editable_source_or_research",
+      "original_sha256": "a61f544b91112f900ed6480280736ed27bf599d7c87f21f61eff5cd9f88bb8d2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/02_two_release_paths.svg",
+      "bytes": 2538,
+      "sha256": "a1035760e6bd8502afe31191c44ab94e21cb4cc1b164ce3a000be6b629a077e5",
+      "role": "editable_source_or_research",
+      "original_sha256": "a1035760e6bd8502afe31191c44ab94e21cb4cc1b164ce3a000be6b629a077e5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/03_company_mechanisms.svg",
+      "bytes": 3273,
+      "sha256": "daa781f29264aab1e4a8571bf18bbaf09cb514ba617be65b98cf425f92baee68",
+      "role": "editable_source_or_research",
+      "original_sha256": "daa781f29264aab1e4a8571bf18bbaf09cb514ba617be65b98cf425f92baee68",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/04_fidelity_baseline.svg",
+      "bytes": 2696,
+      "sha256": "1f6b0fa8f2a29f974db563020f0e7064987ff339750c7c6de944ba87727620f1",
+      "role": "editable_source_or_research",
+      "original_sha256": "1f6b0fa8f2a29f974db563020f0e7064987ff339750c7c6de944ba87727620f1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/05_shared_semantic_coordinator.svg",
+      "bytes": 2891,
+      "sha256": "ee546269d8d43b5105e9235589115163aaaa1d2ae980ecc565d879a750b4001e",
+      "role": "editable_source_or_research",
+      "original_sha256": "ee546269d8d43b5105e9235589115163aaaa1d2ae980ecc565d879a750b4001e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/06_definitions_and_discovery.svg",
+      "bytes": 2737,
+      "sha256": "12b5a9b7efd53f3a0c88d6457fccc3b2837aff8c60a19b75135e0dc289168377",
+      "role": "editable_source_or_research",
+      "original_sha256": "12b5a9b7efd53f3a0c88d6457fccc3b2837aff8c60a19b75135e0dc289168377",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/07_dependency_complete_context.svg",
+      "bytes": 3324,
+      "sha256": "fd7a6beb2f53a8e63c806a4fee240e1717fe75afa312be215a7dbd63d2c17343",
+      "role": "editable_source_or_research",
+      "original_sha256": "fd7a6beb2f53a8e63c806a4fee240e1717fe75afa312be215a7dbd63d2c17343",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/08_context_latency_experiment.svg",
+      "bytes": 4125,
+      "sha256": "f406f4e8f44f029a1a4c4ff28593d42e577cd197538a6000e163176eb5ecf818",
+      "role": "editable_source_or_research",
+      "original_sha256": "f406f4e8f44f029a1a4c4ff28593d42e577cd197538a6000e163176eb5ecf818",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/09_same_row_count_failure.svg",
+      "bytes": 5297,
+      "sha256": "12d265290710f37b58e17d8999ace24e0644779f6f5c75e52e4ad644f1af8668",
+      "role": "editable_source_or_research",
+      "original_sha256": "12d265290710f37b58e17d8999ace24e0644779f6f5c75e52e4ad644f1af8668",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/10_layered_evaluation.svg",
+      "bytes": 4313,
+      "sha256": "7609669a777df898a22c230ba6a48a39936e547ea16d5d602f5e9f0072dc5388",
+      "role": "editable_source_or_research",
+      "original_sha256": "7609669a777df898a22c230ba6a48a39936e547ea16d5d602f5e9f0072dc5388",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/11_explicit_conversation_state.svg",
+      "bytes": 4257,
+      "sha256": "0248adb3b1ace2d6e023347fdd3af45ceaaa7fd3b8f94de204bfa9ee85b55985",
+      "role": "editable_source_or_research",
+      "original_sha256": "0248adb3b1ace2d6e023347fdd3af45ceaaa7fd3b8f94de204bfa9ee85b55985",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/12_bounded_investigation.svg",
+      "bytes": 4377,
+      "sha256": "75755dcd49795bf7e2894e43b49764b7d09130492ec89f47315fb0cb2cae5f18",
+      "role": "editable_source_or_research",
+      "original_sha256": "75755dcd49795bf7e2894e43b49764b7d09130492ec89f47315fb0cb2cae5f18",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/13_sales_meeting_packet.svg",
+      "bytes": 2759,
+      "sha256": "ab8bed7947107a0e2461a46b687d875446d584048a42f9ff79c0b75664f2c2ff",
+      "role": "editable_source_or_research",
+      "original_sha256": "ab8bed7947107a0e2461a46b687d875446d584048a42f9ff79c0b75664f2c2ff",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/14_synthetic_sales_brief.svg",
+      "bytes": 3319,
+      "sha256": "f570dfe4069b829a421e91b4bae5e55643b34718a38525f3cb2970787df2819f",
+      "role": "editable_source_or_research",
+      "original_sha256": "f570dfe4069b829a421e91b4bae5e55643b34718a38525f3cb2970787df2819f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/15_expert_authored_skills.svg",
+      "bytes": 3506,
+      "sha256": "e2ff2ede9ad32126c0683edf8f5fff70e5b790bc6017ef847c7d8eccf20c4a31",
+      "role": "editable_source_or_research",
+      "original_sha256": "e2ff2ede9ad32126c0683edf8f5fff70e5b790bc6017ef847c7d8eccf20c4a31",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/16_measure_salesforce_job.svg",
+      "bytes": 2471,
+      "sha256": "ad7517f981ce0c5c76b0314b3841189fd9efcf84e364bbe4acc12bdb71e43380",
+      "role": "editable_source_or_research",
+      "original_sha256": "ad7517f981ce0c5c76b0314b3841189fd9efcf84e364bbe4acc12bdb71e43380",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/17_fidelity_release_increments.svg",
+      "bytes": 4488,
+      "sha256": "62a82005bf66c0fa16cff7dc0d87caf646a41d5007d45fc1ee3e4bf99347d508",
+      "role": "editable_source_or_research",
+      "original_sha256": "62a82005bf66c0fa16cff7dc0d87caf646a41d5007d45fc1ee3e4bf99347d508",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/18_personal_agent_foundation.svg",
+      "bytes": 3819,
+      "sha256": "d4ef137a34b780cd5cbe9f69152700cf308f5769547f94a00eceb95efd46a6fe",
+      "role": "editable_source_or_research",
+      "original_sha256": "d4ef137a34b780cd5cbe9f69152700cf308f5769547f94a00eceb95efd46a6fe",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/19_analytical_correctness_contracts.svg",
+      "bytes": 2621,
+      "sha256": "2403dfd9682b29a3b04ed5f916987c8132d315ce7b7d27283cf2bab96292ce95",
+      "role": "editable_source_or_research",
+      "original_sha256": "2403dfd9682b29a3b04ed5f916987c8132d315ce7b7d27283cf2bab96292ce95",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/20_bound_quantitative_narrative.svg",
+      "bytes": 3594,
+      "sha256": "5ed2d51526a342e0abebd27e1e961764af7e679a20f61b7d9c2d54d9d59e4664",
+      "role": "editable_source_or_research",
+      "original_sha256": "5ed2d51526a342e0abebd27e1e961764af7e679a20f61b7d9c2d54d9d59e4664",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/21_preserve_meaning_on_refresh.svg",
+      "bytes": 3445,
+      "sha256": "efb0ed71f648fbfa1f80a02c2cf63813892a6c63ff1e87b8ab3a1f48c2775678",
+      "role": "editable_source_or_research",
+      "original_sha256": "efb0ed71f648fbfa1f80a02c2cf63813892a6c63ff1e87b8ab3a1f48c2775678",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/22_outcome_oracles.svg",
+      "bytes": 4597,
+      "sha256": "b9864bd93334a6962f12805e57f17e736c7b4ea1899199c1e817f124ae238699",
+      "role": "editable_source_or_research",
+      "original_sha256": "b9864bd93334a6962f12805e57f17e736c7b4ea1899199c1e817f124ae238699",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/23_workspace_to_checked_result.svg",
+      "bytes": 2812,
+      "sha256": "6451fc91bdb5834611699ae657c2637829e56aa3bb0bbbc9f2302662480524a3",
+      "role": "editable_source_or_research",
+      "original_sha256": "6451fc91bdb5834611699ae657c2637829e56aa3bb0bbbc9f2302662480524a3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/24_next_accepted_work_product.svg",
+      "bytes": 2397,
+      "sha256": "ad1a1db8f7490bb6aefb362d314239aab7f427f8c12ad500dd2fe4b181e6ab80",
+      "role": "editable_source_or_research",
+      "original_sha256": "ad1a1db8f7490bb6aefb362d314239aab7f427f8c12ad500dd2fe4b181e6ab80",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/25_diagnostic_defect_suite.svg",
+      "bytes": 5089,
+      "sha256": "9bd5b5dc6652ee3d9f280ce56582193a2b4b212ee4f15d925a56f5417cd89678",
+      "role": "editable_source_or_research",
+      "original_sha256": "9bd5b5dc6652ee3d9f280ce56582193a2b4b212ee4f15d925a56f5417cd89678",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/26_accepted_work_scorecard.svg",
+      "bytes": 4827,
+      "sha256": "442cc9da90c31f7e1331fd6843151a2d194f78ed4549a4c3d8ecced7224f88df",
+      "role": "editable_source_or_research",
+      "original_sha256": "442cc9da90c31f7e1331fd6843151a2d194f78ed4549a4c3d8ecced7224f88df",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/27_implementation_anchors.svg",
+      "bytes": 4137,
+      "sha256": "737685e2b800176335387a91dfaf281cb50f79ab5627bb732788331c6a3afaf9",
+      "role": "editable_source_or_research",
+      "original_sha256": "737685e2b800176335387a91dfaf281cb50f79ab5627bb732788331c6a3afaf9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/svg_output/28_primary_references.svg",
+      "bytes": 4496,
+      "sha256": "8521d3fef574e7c44f696459596402006edd77e2cfb784763f7ad88d278c570b",
+      "role": "editable_source_or_research",
+      "original_sha256": "8521d3fef574e7c44f696459596402006edd77e2cfb784763f7ad88d278c570b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/validation/ai-engineer-application-demo_20261017_074737_native_charts_tables.report.json",
+      "bytes": 12552,
+      "sha256": "8b7f09cf8726e0598b535bd0953cedd9df23c53a23572aa99804c7bc6ae289d2",
+      "role": "editable_source_or_research",
+      "original_sha256": "8b7f09cf8726e0598b535bd0953cedd9df23c53a23572aa99804c7bc6ae289d2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/validation/carrier-review.md",
+      "bytes": 2229,
+      "sha256": "47067b81fbe9193beeff5deb3c013e6807edbde0d036b0f99703ad4550922031",
+      "role": "editable_source_or_research",
+      "original_sha256": "47067b81fbe9193beeff5deb3c013e6807edbde0d036b0f99703ad4550922031",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/validation/svg_quality_report.json",
+      "bytes": 52372,
+      "sha256": "6b78ee620c1f0d8d5f88651b6f5a7e591a4b0acde37131db9327a34d0d034d31",
+      "role": "editable_source_or_research",
+      "original_sha256": "6b78ee620c1f0d8d5f88651b6f5a7e591a4b0acde37131db9327a34d0d034d31",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-application-demo_20261017/validation/text_calibration.json",
+      "bytes": 4005,
+      "sha256": "f52230f0601ae72ff00d5235bee6c43e7b9c03c2b74682b50659478a4596127e",
+      "role": "editable_source_or_research",
+      "original_sha256": "f52230f0601ae72ff00d5235bee6c43e7b9c03c2b74682b50659478a4596127e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/README.md",
+      "bytes": 1308,
+      "sha256": "08decdb11c1732b4223e72fdefa8d1a9c580f6161f824faf644bc2f9a84bf28a",
+      "role": "editable_source_or_research",
+      "original_sha256": "6b81a88fed8ad63a0ef72179d02eb44cdba06be40d282fc9f841f992f9619454",
+      "modified_for_packaging": true,
+      "packaging_change": "Project README rewritten for the curated portable archive."
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/design_spec.md",
+      "bytes": 66332,
+      "sha256": "14d38c0d7fac29880430024eb6e3e5f95159928130d7e46bacf3f7ae43b49ffe",
+      "role": "editable_source_or_research",
+      "original_sha256": "14d38c0d7fac29880430024eb6e3e5f95159928130d7e46bacf3f7ae43b49ffe",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/01_dependable_work.md",
+      "bytes": 760,
+      "sha256": "c98ad3b3e65bf68c83ace4e9fc074c08740682f429c06b755e3294b8ce208958",
+      "role": "editable_source_or_research",
+      "original_sha256": "c98ad3b3e65bf68c83ace4e9fc074c08740682f429c06b755e3294b8ce208958",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/02_five_disciplines.md",
+      "bytes": 764,
+      "sha256": "47ad001a88533773d33403f7fa84e2287f6d5d161e70686f0adbdae2a8252ffb",
+      "role": "editable_source_or_research",
+      "original_sha256": "47ad001a88533773d33403f7fa84e2287f6d5d161e70686f0adbdae2a8252ffb",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/03_reviewed_work_product.md",
+      "bytes": 795,
+      "sha256": "cbf06e99ba6862d55e3065cbd528a3b092a0f9388d0ede14032a32ff1e3081a6",
+      "role": "editable_source_or_research",
+      "original_sha256": "cbf06e99ba6862d55e3065cbd528a3b092a0f9388d0ede14032a32ff1e3081a6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/04_financial_bottlenecks.md",
+      "bytes": 840,
+      "sha256": "f20edba4d1d6124821a79788ba31dfe9ab72ac46c619a27017f06358b96816d6",
+      "role": "editable_source_or_research",
+      "original_sha256": "f20edba4d1d6124821a79788ba31dfe9ab72ac46c619a27017f06358b96816d6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/05_wealth_workflows.md",
+      "bytes": 985,
+      "sha256": "50ccede29b1eda92f1afc23ea982c4a9630118edb4b2d9e4107866f4b7698d31",
+      "role": "editable_source_or_research",
+      "original_sha256": "50ccede29b1eda92f1afc23ea982c4a9630118edb4b2d9e4107866f4b7698d31",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/06_value_ladder.md",
+      "bytes": 850,
+      "sha256": "2e29167a03605901c0d54ced707847ace1d238b9888f34ec22c4eb02d3190e7b",
+      "role": "editable_source_or_research",
+      "original_sha256": "2e29167a03605901c0d54ced707847ace1d238b9888f34ec22c4eb02d3190e7b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/07_accepted_work_economics.md",
+      "bytes": 896,
+      "sha256": "8018dfdc660adae0614eee707fb81680a8b7acb22ef7db8c900c02ddf5bb931f",
+      "role": "editable_source_or_research",
+      "original_sha256": "8018dfdc660adae0614eee707fb81680a8b7acb22ef7db8c900c02ddf5bb931f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/08_evidence_boundary.md",
+      "bytes": 828,
+      "sha256": "b5be27f182f8bd4d1aab365d0777adc3584193586197d9ba2a859a8e2e073552",
+      "role": "editable_source_or_research",
+      "original_sha256": "b5be27f182f8bd4d1aab365d0777adc3584193586197d9ba2a859a8e2e073552",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/09_retrieval_objectives.md",
+      "bytes": 828,
+      "sha256": "d7b94fa5f0bb9ca57fbd73e8bfee114e4eb08696f17dac36dc5edacb40bdddf5",
+      "role": "editable_source_or_research",
+      "original_sha256": "d7b94fa5f0bb9ca57fbd73e8bfee114e4eb08696f17dac36dc5edacb40bdddf5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/10_typed_facts.md",
+      "bytes": 882,
+      "sha256": "7df47a07a18486d2f1be23c3738aa0634e95257841fc9ab6430ed5d93ba23973",
+      "role": "editable_source_or_research",
+      "original_sha256": "7df47a07a18486d2f1be23c3738aa0634e95257841fc9ab6430ed5d93ba23973",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/11_stale_source_example.md",
+      "bytes": 899,
+      "sha256": "c66eb78f91f3b8eea8a844ddb9b8399dbf8c7fe14477f30a19892912589fa291",
+      "role": "editable_source_or_research",
+      "original_sha256": "c66eb78f91f3b8eea8a844ddb9b8399dbf8c7fe14477f30a19892912589fa291",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/12_inspectable_artifact.md",
+      "bytes": 859,
+      "sha256": "c4e1953f60e6428667d3d9f597f3cfec8e08290cccdd5537709a95f227279b89",
+      "role": "editable_source_or_research",
+      "original_sha256": "c4e1953f60e6428667d3d9f597f3cfec8e08290cccdd5537709a95f227279b89",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/13_evaluation_contract.md",
+      "bytes": 904,
+      "sha256": "06aebc92645ab74a5219056ea31c5db23733a1d749e970634231df044929eb07",
+      "role": "editable_source_or_research",
+      "original_sha256": "06aebc92645ab74a5219056ea31c5db23733a1d749e970634231df044929eb07",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/14_diagnostic_cash_flow_rubric.md",
+      "bytes": 933,
+      "sha256": "d7652e16bfbdf26713e3814c12f50cb3b6fa5aac41270d3fe157766f7eb84baf",
+      "role": "editable_source_or_research",
+      "original_sha256": "d7652e16bfbdf26713e3814c12f50cb3b6fa5aac41270d3fe157766f7eb84baf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/15_judges_and_selection.md",
+      "bytes": 888,
+      "sha256": "4d49abebfcf791cb2c24651a0a67ad20b54cab35155f8b569cfc350cc6caa6fd",
+      "role": "editable_source_or_research",
+      "original_sha256": "4d49abebfcf791cb2c24651a0a67ad20b54cab35155f8b569cfc350cc6caa6fd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/16_paired_ablations.md",
+      "bytes": 915,
+      "sha256": "84f7b8fe0376a0e0d7f5b69b6a607301b14c5391a4e399bd6516e2f44144ca81",
+      "role": "editable_source_or_research",
+      "original_sha256": "84f7b8fe0376a0e0d7f5b69b6a607301b14c5391a4e399bd6516e2f44144ca81",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/17_release_decision.md",
+      "bytes": 902,
+      "sha256": "af77c663f2ae88a84c965c9fb1a2be2e2b4e2129d117e850e4af8e5526ea97f2",
+      "role": "editable_source_or_research",
+      "original_sha256": "af77c663f2ae88a84c965c9fb1a2be2e2b4e2129d117e850e4af8e5526ea97f2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/18_controlled_improvement.md",
+      "bytes": 922,
+      "sha256": "c60333e438f6e8aa6e723e6247c4fcaa5dc7fc758a55bdfe9996588a3355f485",
+      "role": "editable_source_or_research",
+      "original_sha256": "c60333e438f6e8aa6e723e6247c4fcaa5dc7fc758a55bdfe9996588a3355f485",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/19_expert_skills.md",
+      "bytes": 920,
+      "sha256": "5d4cf04461e3144b5e522bb29ca3f3828ba943aa48a70e95c7cd9af1c527c22b",
+      "role": "editable_source_or_research",
+      "original_sha256": "5d4cf04461e3144b5e522bb29ca3f3828ba943aa48a70e95c7cd9af1c527c22b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/20_draft_review_authority.md",
+      "bytes": 901,
+      "sha256": "3c275a2b6e0ace8852d6cf707819a13b8cb90be2dbabca6fcd178c89f50821c2",
+      "role": "editable_source_or_research",
+      "original_sha256": "3c275a2b6e0ace8852d6cf707819a13b8cb90be2dbabca6fcd178c89f50821c2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/21_enforced_authority.md",
+      "bytes": 917,
+      "sha256": "15bb118c7ec22db314c9a92886f901a425408c9d7e85361d77d25f8a07ff5bfa",
+      "role": "editable_source_or_research",
+      "original_sha256": "15bb118c7ec22db314c9a92886f901a425408c9d7e85361d77d25f8a07ff5bfa",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/22_three_verification_loops.md",
+      "bytes": 961,
+      "sha256": "227a912c63904f2abffefae3433ae0771dbcc941aa09410e637853d9c2a82966",
+      "role": "editable_source_or_research",
+      "original_sha256": "227a912c63904f2abffefae3433ae0771dbcc941aa09410e637853d9c2a82966",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/23_financial_invariants.md",
+      "bytes": 900,
+      "sha256": "8a72ac21e255c489033a5121aec0da3980362f6d74fde778331dbe018ef65049",
+      "role": "editable_source_or_research",
+      "original_sha256": "8a72ac21e255c489033a5121aec0da3980362f6d74fde778331dbe018ef65049",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/24_engineer_operating_loop.md",
+      "bytes": 848,
+      "sha256": "14a98622f802c9a0165598c413e77f9de654df23c6ab3f459819cf7048c1ef9a",
+      "role": "editable_source_or_research",
+      "original_sha256": "14a98622f802c9a0165598c413e77f9de654df23c6ab3f459819cf7048c1ef9a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/25_connected_fluency.md",
+      "bytes": 871,
+      "sha256": "3c595639c165fe3d9464e094dc9ccece00df977298925ea10731c74e0121efd1",
+      "role": "editable_source_or_research",
+      "original_sha256": "3c595639c165fe3d9464e094dc9ccece00df977298925ea10731c74e0121efd1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/26_lifespan_and_consequence.md",
+      "bytes": 883,
+      "sha256": "44bccc78980d8fd480952865ba803b67d5aa70fff15f9e0ecd085e1b27ed79d5",
+      "role": "editable_source_or_research",
+      "original_sha256": "44bccc78980d8fd480952865ba803b67d5aa70fff15f9e0ecd085e1b27ed79d5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/27_bounded_learning_experiment.md",
+      "bytes": 859,
+      "sha256": "56b4155c767cedf6d4faef7c424b5d7b8c4d9a76678dff0935c62e6ddbe2e85a",
+      "role": "editable_source_or_research",
+      "original_sha256": "56b4155c767cedf6d4faef7c424b5d7b8c4d9a76678dff0935c62e6ddbe2e85a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/28_three_decisions.md",
+      "bytes": 870,
+      "sha256": "8b28562d008cda9efe6b6b0521b728b0ebda30129cb96119baba50daa578bfd9",
+      "role": "editable_source_or_research",
+      "original_sha256": "8b28562d008cda9efe6b6b0521b728b0ebda30129cb96119baba50daa578bfd9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/29_discussion.md",
+      "bytes": 784,
+      "sha256": "a6329bd559bfccdf27eb2ae6c3ebfcdd5e65adcb0b0b698b30ba5dc9553e72d4",
+      "role": "editable_source_or_research",
+      "original_sha256": "a6329bd559bfccdf27eb2ae6c3ebfcdd5e65adcb0b0b698b30ba5dc9553e72d4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/30_implementation_checklist.md",
+      "bytes": 899,
+      "sha256": "1d1f857ef28fb9aaa181656f1907af92213db63519641d5dd73b0d8e7218ddad",
+      "role": "editable_source_or_research",
+      "original_sha256": "1d1f857ef28fb9aaa181656f1907af92213db63519641d5dd73b0d8e7218ddad",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/31_company_mechanism_map.md",
+      "bytes": 865,
+      "sha256": "225a1137fee1a10cffd8c8b6100f59e6aaab5c2b1a2bf48ee37a930e8798e435",
+      "role": "editable_source_or_research",
+      "original_sha256": "225a1137fee1a10cffd8c8b6100f59e6aaab5c2b1a2bf48ee37a930e8798e435",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/32_versioned_eval_spec.md",
+      "bytes": 866,
+      "sha256": "3d58645842728d8179b370b8ffbd5fce8bcf48e815b0f0c8d5a023b49d3d534c",
+      "role": "editable_source_or_research",
+      "original_sha256": "3d58645842728d8179b370b8ffbd5fce8bcf48e815b0f0c8d5a023b49d3d534c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/33_typed_claim_contract.md",
+      "bytes": 868,
+      "sha256": "adc3788ed1a2e65a9402d07e4b95445e74d9f87f542c0068a18883e4975e3618",
+      "role": "editable_source_or_research",
+      "original_sha256": "adc3788ed1a2e65a9402d07e4b95445e74d9f87f542c0068a18883e4975e3618",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/34_passk_and_deployment.md",
+      "bytes": 909,
+      "sha256": "1e7836766b8e3412ec8a1455051dfe0d695c8750fdd73e6516062c1c51868803",
+      "role": "editable_source_or_research",
+      "original_sha256": "1e7836766b8e3412ec8a1455051dfe0d695c8750fdd73e6516062c1c51868803",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/35_measurement_contract.md",
+      "bytes": 910,
+      "sha256": "dfb3378de12895dc0d33976b518f91833124489a0701ed6e20ff58b14f9a248c",
+      "role": "editable_source_or_research",
+      "original_sha256": "dfb3378de12895dc0d33976b518f91833124489a0701ed6e20ff58b14f9a248c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/36_questions_for_followup.md",
+      "bytes": 925,
+      "sha256": "699bca9c980eb8095b6244cf37d8e2b015764a5faefa45e1eeeb4d82d86db762",
+      "role": "editable_source_or_research",
+      "original_sha256": "699bca9c980eb8095b6244cf37d8e2b015764a5faefa45e1eeeb4d82d86db762",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/37_sources.md",
+      "bytes": 14206,
+      "sha256": "28e91c11c12507145f6a405a6f079b25ddee1bbca0780ccfc68aaf2c152f5197",
+      "role": "editable_source_or_research",
+      "original_sha256": "28e91c11c12507145f6a405a6f079b25ddee1bbca0780ccfc68aaf2c152f5197",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/notes/total.md",
+      "bytes": 47022,
+      "sha256": "95e73e9152fc0d79d3dde84e8926a485403f8e4615030528a2a16d0540a7dab5",
+      "role": "editable_source_or_research",
+      "original_sha256": "95e73e9152fc0d79d3dde84e8926a485403f8e4615030528a2a16d0540a7dab5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/sources/ai-engineer-nyc-2026-presentation.conversion_profile.json",
+      "bytes": 804,
+      "sha256": "321581649ae66428fc1a83494bd40bb5a7522a06c9d8df61facd9424c339c972",
+      "role": "editable_source_or_research",
+      "original_sha256": "7352503e282d86aec982ca70363716d6fc532161748c5ff6f34b984b181ed922",
+      "modified_for_packaging": true,
+      "packaging_change": "Conversion source path normalized to the canonical output HTML; provenance retained."
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/sources/ai-engineer-nyc-2026-presentation.md",
+      "bytes": 183872,
+      "sha256": "9478f87ca9a06618deb6dcc56dca23a6b2d1c68d818dab29889ebc149cf2ecf2",
+      "role": "editable_source_or_research",
+      "original_sha256": "9478f87ca9a06618deb6dcc56dca23a6b2d1c68d818dab29889ebc149cf2ecf2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/sources/conference-content.md",
+      "bytes": 103651,
+      "sha256": "0ae74e275d4228badec4b12e49a4a0c29a70c176c236cb4a82bef51560197a71",
+      "role": "editable_source_or_research",
+      "original_sha256": "0ae74e275d4228badec4b12e49a4a0c29a70c176c236cb4a82bef51560197a71",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/sources/conference-deck.json",
+      "bytes": 184833,
+      "sha256": "3d8a7084bba0629643e2a393255ca1402758b162096e9346b31cd16aab46711b",
+      "role": "editable_source_or_research",
+      "original_sha256": "3d8a7084bba0629643e2a393255ca1402758b162096e9346b31cd16aab46711b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/sources/curated-roster.json",
+      "bytes": 34865,
+      "sha256": "c93736d75bad1ee16030040b557be65ea6d97b266e25b4918305c1ad7d9ebdb8",
+      "role": "editable_source_or_research",
+      "original_sha256": "c93736d75bad1ee16030040b557be65ea6d97b266e25b4918305c1ad7d9ebdb8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/spec_lock.md",
+      "bytes": 2776,
+      "sha256": "2abb9eaca7b1b8d291d78d42c4faa68a7838b3b2eaa8ec210e8cd62b5605e4a1",
+      "role": "editable_source_or_research",
+      "original_sha256": "2abb9eaca7b1b8d291d78d42c4faa68a7838b3b2eaa8ec210e8cd62b5605e4a1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/01_dependable_work.svg",
+      "bytes": 1803,
+      "sha256": "e2d0d9500623c6e3620639bc16828813ab3c2ba775db0b730a73fa47f2ab9065",
+      "role": "editable_source_or_research",
+      "original_sha256": "e2d0d9500623c6e3620639bc16828813ab3c2ba775db0b730a73fa47f2ab9065",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/02_five_disciplines.svg",
+      "bytes": 3517,
+      "sha256": "4d5a5167c9a7762833adda65ad2033e9b205336bc44a1560e308ec02e3836eca",
+      "role": "editable_source_or_research",
+      "original_sha256": "4d5a5167c9a7762833adda65ad2033e9b205336bc44a1560e308ec02e3836eca",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/03_reviewed_work_product.svg",
+      "bytes": 2713,
+      "sha256": "4543d8885bc4cddf4dcec6a9e2f07af0f1c520aad6325428eb5e4add0c9b5283",
+      "role": "editable_source_or_research",
+      "original_sha256": "4543d8885bc4cddf4dcec6a9e2f07af0f1c520aad6325428eb5e4add0c9b5283",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/04_financial_bottlenecks.svg",
+      "bytes": 4586,
+      "sha256": "40129a53d906856e1cd0d8be9734933702bbab46410c6b83de4d7b11e578bf37",
+      "role": "editable_source_or_research",
+      "original_sha256": "40129a53d906856e1cd0d8be9734933702bbab46410c6b83de4d7b11e578bf37",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/05_wealth_workflows.svg",
+      "bytes": 3535,
+      "sha256": "7f62b161b86e7f4b095a3dc1859237f1abd22f25e0413372a4f1d5443b451c83",
+      "role": "editable_source_or_research",
+      "original_sha256": "7f62b161b86e7f4b095a3dc1859237f1abd22f25e0413372a4f1d5443b451c83",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/06_value_ladder.svg",
+      "bytes": 3884,
+      "sha256": "183b94b34fd67d0113999cd08f1aae24b077ce55d42e8f03306e7086b9f585bd",
+      "role": "editable_source_or_research",
+      "original_sha256": "183b94b34fd67d0113999cd08f1aae24b077ce55d42e8f03306e7086b9f585bd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/07_accepted_work_economics.svg",
+      "bytes": 2644,
+      "sha256": "357e220a8c7ec4aa96ddc66cccb605ad0fec166c53162df67cdffe6f74501a1d",
+      "role": "editable_source_or_research",
+      "original_sha256": "357e220a8c7ec4aa96ddc66cccb605ad0fec166c53162df67cdffe6f74501a1d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/08_evidence_boundary.svg",
+      "bytes": 3718,
+      "sha256": "33e842f8e94573dedcec16b39c87e40c1a0eb8ee0717f0c703c41cc576f2aba0",
+      "role": "editable_source_or_research",
+      "original_sha256": "33e842f8e94573dedcec16b39c87e40c1a0eb8ee0717f0c703c41cc576f2aba0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/09_retrieval_objectives.svg",
+      "bytes": 3926,
+      "sha256": "b2ee33053d1268d304c77cb3d844f3c02d8c1e7775611d9df96fcfcce88d10e5",
+      "role": "editable_source_or_research",
+      "original_sha256": "b2ee33053d1268d304c77cb3d844f3c02d8c1e7775611d9df96fcfcce88d10e5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/10_typed_facts.svg",
+      "bytes": 2800,
+      "sha256": "6f9cb3f239d67fc6c4702914d102421ab4f04f77679f36dfdd7738c2f7b27ad1",
+      "role": "editable_source_or_research",
+      "original_sha256": "6f9cb3f239d67fc6c4702914d102421ab4f04f77679f36dfdd7738c2f7b27ad1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/11_stale_source_example.svg",
+      "bytes": 4390,
+      "sha256": "380614c7754159bc2b1c156034a40262bd0a7e58340cf0a2d4b70005a047eae0",
+      "role": "editable_source_or_research",
+      "original_sha256": "380614c7754159bc2b1c156034a40262bd0a7e58340cf0a2d4b70005a047eae0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/12_inspectable_artifact.svg",
+      "bytes": 4161,
+      "sha256": "8868aa6a392f1b7719d2b92b257e660c9f6c9c5726afd3fa01b6bd2b2aead9f6",
+      "role": "editable_source_or_research",
+      "original_sha256": "8868aa6a392f1b7719d2b92b257e660c9f6c9c5726afd3fa01b6bd2b2aead9f6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/13_evaluation_contract.svg",
+      "bytes": 2742,
+      "sha256": "8d0695cd524a1ebaeb186258a473967ac6d48233f484b15654e92695b1298426",
+      "role": "editable_source_or_research",
+      "original_sha256": "8d0695cd524a1ebaeb186258a473967ac6d48233f484b15654e92695b1298426",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/14_diagnostic_cash_flow_rubric.svg",
+      "bytes": 4539,
+      "sha256": "75c1d56826875a24a3df5a0a215f1504d4a34a64d90df2f272bf39461c5517a2",
+      "role": "editable_source_or_research",
+      "original_sha256": "75c1d56826875a24a3df5a0a215f1504d4a34a64d90df2f272bf39461c5517a2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/15_judges_and_selection.svg",
+      "bytes": 4643,
+      "sha256": "f951092eff890b6a08a3d0e10b5f82e2f71e00a3082342d637d85fbd4e2c8a33",
+      "role": "editable_source_or_research",
+      "original_sha256": "f951092eff890b6a08a3d0e10b5f82e2f71e00a3082342d637d85fbd4e2c8a33",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/16_paired_ablations.svg",
+      "bytes": 4184,
+      "sha256": "c68d806973c510bef356954b934b0a1d47b1884bb44459190661fa16ba1954e5",
+      "role": "editable_source_or_research",
+      "original_sha256": "c68d806973c510bef356954b934b0a1d47b1884bb44459190661fa16ba1954e5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/17_release_decision.svg",
+      "bytes": 2955,
+      "sha256": "644965b96ff57d3b2b858819c2801f226c0b68be26a6b7f5c385681e6a583b37",
+      "role": "editable_source_or_research",
+      "original_sha256": "644965b96ff57d3b2b858819c2801f226c0b68be26a6b7f5c385681e6a583b37",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/18_controlled_improvement.svg",
+      "bytes": 3945,
+      "sha256": "bea845ed90c743e27f0534934ead4e8a828fb0820bf2e124d766275706c56e80",
+      "role": "editable_source_or_research",
+      "original_sha256": "bea845ed90c743e27f0534934ead4e8a828fb0820bf2e124d766275706c56e80",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/19_expert_skills.svg",
+      "bytes": 3919,
+      "sha256": "f240d8363264079fc8dd6f92aadbd6969be1cc951d1f14583a70ac4400b08372",
+      "role": "editable_source_or_research",
+      "original_sha256": "f240d8363264079fc8dd6f92aadbd6969be1cc951d1f14583a70ac4400b08372",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/20_draft_review_authority.svg",
+      "bytes": 3042,
+      "sha256": "0dbb219b493bf04f1b133e649850bf0ab6cfbab3976d9846e1eda163c5ab95d2",
+      "role": "editable_source_or_research",
+      "original_sha256": "0dbb219b493bf04f1b133e649850bf0ab6cfbab3976d9846e1eda163c5ab95d2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/21_enforced_authority.svg",
+      "bytes": 4038,
+      "sha256": "bde0f17e692cb692e9843b7e1936a7e01643341a1e2d6e80a912a5da40206ce3",
+      "role": "editable_source_or_research",
+      "original_sha256": "bde0f17e692cb692e9843b7e1936a7e01643341a1e2d6e80a912a5da40206ce3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/22_three_verification_loops.svg",
+      "bytes": 3464,
+      "sha256": "21bedfd5dcd864219d1f6774e63ede5269c18ed5178071ee281228cf1c6c2b05",
+      "role": "editable_source_or_research",
+      "original_sha256": "21bedfd5dcd864219d1f6774e63ede5269c18ed5178071ee281228cf1c6c2b05",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/23_financial_invariants.svg",
+      "bytes": 3618,
+      "sha256": "eeb887bbab7003d68e08e79e0d2fec6c50100a2ec1a0712ec62d48688cbb5eca",
+      "role": "editable_source_or_research",
+      "original_sha256": "eeb887bbab7003d68e08e79e0d2fec6c50100a2ec1a0712ec62d48688cbb5eca",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/24_engineer_operating_loop.svg",
+      "bytes": 2890,
+      "sha256": "bdc89afcb2f32cb22d042204c840a37dec85a3c7e2e446754d0d4d43c42fe4fb",
+      "role": "editable_source_or_research",
+      "original_sha256": "bdc89afcb2f32cb22d042204c840a37dec85a3c7e2e446754d0d4d43c42fe4fb",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/25_connected_fluency.svg",
+      "bytes": 2991,
+      "sha256": "123927a83e6e789588ba2e998026f0451712db8ee355c79e7e4e05bb2ddc7888",
+      "role": "editable_source_or_research",
+      "original_sha256": "123927a83e6e789588ba2e998026f0451712db8ee355c79e7e4e05bb2ddc7888",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/26_lifespan_and_consequence.svg",
+      "bytes": 3157,
+      "sha256": "3e41bc625f7ea4d5d70c622fe2285e3488c983800ffd08de5b1264f4340a67ab",
+      "role": "editable_source_or_research",
+      "original_sha256": "3e41bc625f7ea4d5d70c622fe2285e3488c983800ffd08de5b1264f4340a67ab",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/27_bounded_learning_experiment.svg",
+      "bytes": 3033,
+      "sha256": "4e736fb6ddc8dc3e7afe3d6742b02074e321aee2fe22f34cce6754b7f0b4787e",
+      "role": "editable_source_or_research",
+      "original_sha256": "4e736fb6ddc8dc3e7afe3d6742b02074e321aee2fe22f34cce6754b7f0b4787e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/28_three_decisions.svg",
+      "bytes": 3192,
+      "sha256": "d6c997484eac501441bcaeaeb1587da8c35867fdc1db2695a5861c2182f49323",
+      "role": "editable_source_or_research",
+      "original_sha256": "d6c997484eac501441bcaeaeb1587da8c35867fdc1db2695a5861c2182f49323",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/29_discussion.svg",
+      "bytes": 2538,
+      "sha256": "8c355c50a928927b8a91600ab2c99c76ef4222f78164ca0f8c4a718f4b9b8b8c",
+      "role": "editable_source_or_research",
+      "original_sha256": "8c355c50a928927b8a91600ab2c99c76ef4222f78164ca0f8c4a718f4b9b8b8c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/30_implementation_checklist.svg",
+      "bytes": 4436,
+      "sha256": "fc62a1a374a4a813cf73a45954b583d7039ecaea8a1a11651601fc638a995da0",
+      "role": "editable_source_or_research",
+      "original_sha256": "fc62a1a374a4a813cf73a45954b583d7039ecaea8a1a11651601fc638a995da0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/31_company_mechanism_map.svg",
+      "bytes": 4686,
+      "sha256": "b07e2b787da9f6e1923623d0b4ed506c3d0fb42d3bc3d3ec53533237a73047c9",
+      "role": "editable_source_or_research",
+      "original_sha256": "b07e2b787da9f6e1923623d0b4ed506c3d0fb42d3bc3d3ec53533237a73047c9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/32_versioned_eval_spec.svg",
+      "bytes": 3514,
+      "sha256": "983d195bccd26ca3948a1eb8b16fbbe60013dd7fd6bb6787427219c681cb1b7d",
+      "role": "editable_source_or_research",
+      "original_sha256": "983d195bccd26ca3948a1eb8b16fbbe60013dd7fd6bb6787427219c681cb1b7d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/33_typed_claim_contract.svg",
+      "bytes": 3584,
+      "sha256": "209a9d90c1769b1a08a234bc06fff4513cf4b00c791f4afb24cb07cb4bae5f67",
+      "role": "editable_source_or_research",
+      "original_sha256": "209a9d90c1769b1a08a234bc06fff4513cf4b00c791f4afb24cb07cb4bae5f67",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/34_passk_and_deployment.svg",
+      "bytes": 2978,
+      "sha256": "731675bef2ea4f892b0931fe10dbc0f7a1950a97a480858b52e0e687811b4bc5",
+      "role": "editable_source_or_research",
+      "original_sha256": "731675bef2ea4f892b0931fe10dbc0f7a1950a97a480858b52e0e687811b4bc5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/35_measurement_contract.svg",
+      "bytes": 4485,
+      "sha256": "a447bdb852d63c1f8aadce48117508a4fbc7f33564426684a4c724562940a668",
+      "role": "editable_source_or_research",
+      "original_sha256": "a447bdb852d63c1f8aadce48117508a4fbc7f33564426684a4c724562940a668",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/36_questions_for_followup.svg",
+      "bytes": 3671,
+      "sha256": "ea37f1009dfe4fc08ef3dc5328c9f252e2b27bfb6ff1e1e7a490f740c86d5c3d",
+      "role": "editable_source_or_research",
+      "original_sha256": "ea37f1009dfe4fc08ef3dc5328c9f252e2b27bfb6ff1e1e7a490f740c86d5c3d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_final/37_sources.svg",
+      "bytes": 4138,
+      "sha256": "0069dbd2bcd4be3dc82cc3faea9ead0e97a58971bb02939c17e02c29c06ef57f",
+      "role": "editable_source_or_research",
+      "original_sha256": "0069dbd2bcd4be3dc82cc3faea9ead0e97a58971bb02939c17e02c29c06ef57f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/01_dependable_work.svg",
+      "bytes": 1741,
+      "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d",
+      "role": "editable_source_or_research",
+      "original_sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/02_five_disciplines.svg",
+      "bytes": 3321,
+      "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb",
+      "role": "editable_source_or_research",
+      "original_sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/03_reviewed_work_product.svg",
+      "bytes": 2722,
+      "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732",
+      "role": "editable_source_or_research",
+      "original_sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/04_financial_bottlenecks.svg",
+      "bytes": 4583,
+      "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17",
+      "role": "editable_source_or_research",
+      "original_sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/05_wealth_workflows.svg",
+      "bytes": 3484,
+      "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48",
+      "role": "editable_source_or_research",
+      "original_sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/06_value_ladder.svg",
+      "bytes": 3783,
+      "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101",
+      "role": "editable_source_or_research",
+      "original_sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/07_accepted_work_economics.svg",
+      "bytes": 2659,
+      "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0",
+      "role": "editable_source_or_research",
+      "original_sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/08_evidence_boundary.svg",
+      "bytes": 3601,
+      "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5",
+      "role": "editable_source_or_research",
+      "original_sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/09_retrieval_objectives.svg",
+      "bytes": 3927,
+      "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235",
+      "role": "editable_source_or_research",
+      "original_sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/10_typed_facts.svg",
+      "bytes": 2725,
+      "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7",
+      "role": "editable_source_or_research",
+      "original_sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/11_stale_source_example.svg",
+      "bytes": 4355,
+      "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9",
+      "role": "editable_source_or_research",
+      "original_sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/12_inspectable_artifact.svg",
+      "bytes": 3793,
+      "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4",
+      "role": "editable_source_or_research",
+      "original_sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/13_evaluation_contract.svg",
+      "bytes": 2614,
+      "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c",
+      "role": "editable_source_or_research",
+      "original_sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/14_diagnostic_cash_flow_rubric.svg",
+      "bytes": 4473,
+      "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe",
+      "role": "editable_source_or_research",
+      "original_sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/15_judges_and_selection.svg",
+      "bytes": 4572,
+      "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574",
+      "role": "editable_source_or_research",
+      "original_sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/16_paired_ablations.svg",
+      "bytes": 4180,
+      "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b",
+      "role": "editable_source_or_research",
+      "original_sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/17_release_decision.svg",
+      "bytes": 2974,
+      "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0",
+      "role": "editable_source_or_research",
+      "original_sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/18_controlled_improvement.svg",
+      "bytes": 3850,
+      "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8",
+      "role": "editable_source_or_research",
+      "original_sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/19_expert_skills.svg",
+      "bytes": 3689,
+      "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6",
+      "role": "editable_source_or_research",
+      "original_sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/20_draft_review_authority.svg",
+      "bytes": 3065,
+      "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910",
+      "role": "editable_source_or_research",
+      "original_sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/21_enforced_authority.svg",
+      "bytes": 3941,
+      "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580",
+      "role": "editable_source_or_research",
+      "original_sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/22_three_verification_loops.svg",
+      "bytes": 3452,
+      "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390",
+      "role": "editable_source_or_research",
+      "original_sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/23_financial_invariants.svg",
+      "bytes": 3571,
+      "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014",
+      "role": "editable_source_or_research",
+      "original_sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/24_engineer_operating_loop.svg",
+      "bytes": 2888,
+      "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68",
+      "role": "editable_source_or_research",
+      "original_sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/25_connected_fluency.svg",
+      "bytes": 2794,
+      "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c",
+      "role": "editable_source_or_research",
+      "original_sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/26_lifespan_and_consequence.svg",
+      "bytes": 3021,
+      "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d",
+      "role": "editable_source_or_research",
+      "original_sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/27_bounded_learning_experiment.svg",
+      "bytes": 2976,
+      "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116",
+      "role": "editable_source_or_research",
+      "original_sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/28_three_decisions.svg",
+      "bytes": 3130,
+      "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408",
+      "role": "editable_source_or_research",
+      "original_sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/29_discussion.svg",
+      "bytes": 2484,
+      "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8",
+      "role": "editable_source_or_research",
+      "original_sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/30_implementation_checklist.svg",
+      "bytes": 4407,
+      "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898",
+      "role": "editable_source_or_research",
+      "original_sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/31_company_mechanism_map.svg",
+      "bytes": 4661,
+      "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9",
+      "role": "editable_source_or_research",
+      "original_sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/32_versioned_eval_spec.svg",
+      "bytes": 3111,
+      "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68",
+      "role": "editable_source_or_research",
+      "original_sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/33_typed_claim_contract.svg",
+      "bytes": 3230,
+      "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a",
+      "role": "editable_source_or_research",
+      "original_sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/34_passk_and_deployment.svg",
+      "bytes": 2898,
+      "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a",
+      "role": "editable_source_or_research",
+      "original_sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/35_measurement_contract.svg",
+      "bytes": 4433,
+      "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1",
+      "role": "editable_source_or_research",
+      "original_sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/36_questions_for_followup.svg",
+      "bytes": 3590,
+      "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da",
+      "role": "editable_source_or_research",
+      "original_sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/37_sources.svg",
+      "bytes": 4110,
+      "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5",
+      "role": "editable_source_or_research",
+      "original_sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/ai-engineer-conference-takeaways_20261017_110124_native_charts_tables.report.json",
+      "bytes": 15126,
+      "sha256": "aad025bf75bf106cfebfd8ca4a874025f2ca14cd5bd305630af272a94ce45cd7",
+      "role": "editable_source_or_research",
+      "original_sha256": "aad025bf75bf106cfebfd8ca4a874025f2ca14cd5bd305630af272a94ce45cd7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/carrier-review.md",
+      "bytes": 2447,
+      "sha256": "4ead5e7b9878ad4fa2395e520810cf44e023d67edb9efe732fc4fd35b8b23ed3",
+      "role": "editable_source_or_research",
+      "original_sha256": "4ead5e7b9878ad4fa2395e520810cf44e023d67edb9efe732fc4fd35b8b23ed3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/svg_quality_report.json",
+      "bytes": 68186,
+      "sha256": "f9cf21882887fd6d3503972fb34a9945a77bc64a065c57c312631353237f3eb1",
+      "role": "editable_source_or_research",
+      "original_sha256": "f9cf21882887fd6d3503972fb34a9945a77bc64a065c57c312631353237f3eb1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/text_calibration.json",
+      "bytes": 4004,
+      "sha256": "3ed37ee42d2b655cb51183e1e8256a27862418fdd71f2cbd39b3ef4bfefea3d6",
+      "role": "editable_source_or_research",
+      "original_sha256": "3ed37ee42d2b655cb51183e1e8256a27862418fdd71f2cbd39b3ef4bfefea3d6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/build_deck.py",
+      "bytes": 48377,
+      "sha256": "63bbeba2b8729df5dacd7320561e578f9400816fe2d37aec720084fedb324f3c",
+      "role": "editable_source_or_research",
+      "original_sha256": "63bbeba2b8729df5dacd7320561e578f9400816fe2d37aec720084fedb324f3c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/deck-data.json",
+      "bytes": 184814,
+      "sha256": "4b9a279cea84723afc9789fb34728cddac65b643fe5d366aca1044667eb49d89",
+      "role": "editable_source_or_research",
+      "original_sha256": "4b9a279cea84723afc9789fb34728cddac65b643fe5d366aca1044667eb49d89",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/deck.css",
+      "bytes": 30966,
+      "sha256": "16ce504fb5057a990af4a418797ecf9890af8c831c6e23641e08f11554d7f82f",
+      "role": "editable_source_or_research",
+      "original_sha256": "16ce504fb5057a990af4a418797ecf9890af8c831c6e23641e08f11554d7f82f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/deck.js",
+      "bytes": 7252,
+      "sha256": "fc51f5920c9e1af55c0238570005690501e94f2e415e013ea529eb6fe4fa4992",
+      "role": "editable_source_or_research",
+      "original_sha256": "fc51f5920c9e1af55c0238570005690501e94f2e415e013ea529eb6fe4fa4992",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/design-brief.md",
+      "bytes": 2215,
+      "sha256": "56440b52d6ef43eff638cef21e4b11d4f4028e902aea5b73320ffc27ce60aad7",
+      "role": "editable_source_or_research",
+      "original_sha256": "56440b52d6ef43eff638cef21e4b11d4f4028e902aea5b73320ffc27ce60aad7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/enrichment-evals.json",
+      "bytes": 9238,
+      "sha256": "40e2dd1b3176f327dc1026b8858009eea3da681c805c2dfc509e4c2e07d37230",
+      "role": "editable_source_or_research",
+      "original_sha256": "40e2dd1b3176f327dc1026b8858009eea3da681c805c2dfc509e4c2e07d37230",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/enrichment-grounding-workflows.json",
+      "bytes": 15469,
+      "sha256": "e990863a721f91806d43dae91b06d00381c0d0929ac5361d2b8d9aac464cc6d8",
+      "role": "editable_source_or_research",
+      "original_sha256": "e990863a721f91806d43dae91b06d00381c0d0929ac5361d2b8d9aac464cc6d8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/enrichment-strategy-growth.json",
+      "bytes": 16622,
+      "sha256": "10afd16bdf82211d3df40ccb3deea1c9291cc5562b440d2a56baa097f91ceb6d",
+      "role": "editable_source_or_research",
+      "original_sha256": "10afd16bdf82211d3df40ccb3deea1c9291cc5562b440d2a56baa097f91ceb6d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/enrichment-structure.json",
+      "bytes": 12969,
+      "sha256": "fcc824742fe81422df9b91a46457503d0bff7d61de5b08ba35a1a2d1c51968d6",
+      "role": "editable_source_or_research",
+      "original_sha256": "fcc824742fe81422df9b91a46457503d0bff7d61de5b08ba35a1a2d1c51968d6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/narrative_audit.md",
+      "bytes": 4210,
+      "sha256": "f6156758822a7e0b4cda62ff28c676e611f95b015398852452904f9fcbb7272b",
+      "role": "editable_source_or_research",
+      "original_sha256": "f6156758822a7e0b4cda62ff28c676e611f95b015398852452904f9fcbb7272b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/qa-results.json",
+      "bytes": 4965,
+      "sha256": "ff43c3270bd1cddd49e3d554dae8aa2836dffda3abfbcc21a2670fd4ec6b385e",
+      "role": "editable_source_or_research",
+      "original_sha256": "ff43c3270bd1cddd49e3d554dae8aa2836dffda3abfbcc21a2670fd4ec6b385e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/qa_deck.cjs",
+      "bytes": 11926,
+      "sha256": "6f4adfad2e9c5746b1795eb9367afd119b2405d4cd66cf36ef3a09389497a1f8",
+      "role": "editable_source_or_research",
+      "original_sha256": "6f4adfad2e9c5746b1795eb9367afd119b2405d4cd66cf36ef3a09389497a1f8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/source_audit.md",
+      "bytes": 9318,
+      "sha256": "8b273ca0f720251edd69f79d1b6c4880b92aa2ed6393e4d73edcad886918e6a2",
+      "role": "editable_source_or_research",
+      "original_sha256": "8b273ca0f720251edd69f79d1b6c4880b92aa2ed6393e4d73edcad886918e6a2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation/technical_audit.md",
+      "bytes": 4246,
+      "sha256": "48f274f72d0a4a8d7db85a2a7132e71c2f242bcc43131773cf8d12cb3b73af7e",
+      "role": "editable_source_or_research",
+      "original_sha256": "48f274f72d0a4a8d7db85a2a7132e71c2f242bcc43131773cf8d12cb3b73af7e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation_evals.json",
+      "bytes": 24834,
+      "sha256": "e1ea51d5997def1b82830e40c97b74bbe9fcdc2f56eb930b6b992579dda5a386",
+      "role": "editable_source_or_research",
+      "original_sha256": "e1ea51d5997def1b82830e40c97b74bbe9fcdc2f56eb930b6b992579dda5a386",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation_grounding_workflows.json",
+      "bytes": 28838,
+      "sha256": "dffb624702a9a6fb8da0699ddf46635d60a51f586e91627c4b36c6539c016d64",
+      "role": "editable_source_or_research",
+      "original_sha256": "dffb624702a9a6fb8da0699ddf46635d60a51f586e91627c4b36c6539c016d64",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/presentation_story_sections.json",
+      "bytes": 32471,
+      "sha256": "f650de7a91740766ccf8495798881d6c50f9b2a6e3eaa48650f810e9aa98a4f5",
+      "role": "editable_source_or_research",
+      "original_sha256": "f650de7a91740766ccf8495798881d6c50f9b2a6e3eaa48650f810e9aa98a4f5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/program.json",
+      "bytes": 325973,
+      "sha256": "e59d61df88afdaaae906732689d44624b9cd04ff0dff84d48761d7442c25a66b",
+      "role": "editable_source_or_research",
+      "original_sha256": "e59d61df88afdaaae906732689d44624b9cd04ff0dff84d48761d7442c25a66b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/qa/package-lock.json",
+      "bytes": 27091,
+      "sha256": "58dc54494e33c05b270a26fe35e316941f3f7bc22569bea8ccd5d6561faa2690",
+      "role": "editable_source_or_research",
+      "original_sha256": "58dc54494e33c05b270a26fe35e316941f3f7bc22569bea8ccd5d6561faa2690",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/qa/package.json",
+      "bytes": 79,
+      "sha256": "6884e542389461c69001a8a72ae5e5c7a669debf62becafe070a0c19a345ab2c",
+      "role": "editable_source_or_research",
+      "original_sha256": "6884e542389461c69001a8a72ae5e5c7a669debf62becafe070a0c19a345ab2c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/qa-results.json",
+      "bytes": 1094,
+      "sha256": "6c7c57d0f45439b74dbfe4f787e95efc5ee634fc7db715557d1731da2c58c52e",
+      "role": "editable_source_or_research",
+      "original_sha256": "6c7c57d0f45439b74dbfe4f787e95efc5ee634fc7db715557d1731da2c58c52e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/qa_industry_report.cjs",
+      "bytes": 9001,
+      "sha256": "8cd8d8f42774c1634d3667af1819bfb42153731090d021370b1c16097bf64058",
+      "role": "editable_source_or_research",
+      "original_sha256": "8cd8d8f42774c1634d3667af1819bfb42153731090d021370b1c16097bf64058",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/qa_report.cjs",
+      "bytes": 6965,
+      "sha256": "513ebedf552e48f2cf5aff1560278d83f812927ac2b9da8adc3a547cc9aadc1f",
+      "role": "editable_source_or_research",
+      "original_sha256": "513ebedf552e48f2cf5aff1560278d83f812927ac2b9da8adc3a547cc9aadc1f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report.css",
+      "bytes": 19649,
+      "sha256": "ff80ca47c96748f099e727314746253838f119ec1ea83accdc2d80c0c8eba1b0",
+      "role": "editable_source_or_research",
+      "original_sha256": "ff80ca47c96748f099e727314746253838f119ec1ea83accdc2d80c0c8eba1b0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report.html",
+      "bytes": 34417,
+      "sha256": "bc3682c58882dcc4e0f41810c6cfd73d8eed39020d656006bf14ca0279eb786a",
+      "role": "editable_source_or_research",
+      "original_sha256": "bc3682c58882dcc4e0f41810c6cfd73d8eed39020d656006bf14ca0279eb786a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report.js",
+      "bytes": 20768,
+      "sha256": "b6b6ad661fdf30a0eabeabc85d971a344b171ce2f8e3d5e4cc8f9fe33673dd6a",
+      "role": "editable_source_or_research",
+      "original_sha256": "b6b6ad661fdf30a0eabeabc85d971a344b171ce2f8e3d5e4cc8f9fe33673dd6a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report_content_audit.md",
+      "bytes": 2313,
+      "sha256": "7afedff1ebb22db69bfa37ad54c6cdeec61138d5c864265b20986619d2675a8f",
+      "role": "editable_source_or_research",
+      "original_sha256": "7afedff1ebb22db69bfa37ad54c6cdeec61138d5c864265b20986619d2675a8f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report_data.json",
+      "bytes": 163874,
+      "sha256": "61da35933dcf715011150dfd89894d99b90bfd363c5e078639764be199cc7c70",
+      "role": "editable_source_or_research",
+      "original_sha256": "61da35933dcf715011150dfd89894d99b90bfd363c5e078639764be199cc7c70",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/report_source_audit.md",
+      "bytes": 6201,
+      "sha256": "1eb624bb7e91bb1d4982351708a129ab42472241e2a1b7406fb3ed9fcb3f7aa8",
+      "role": "editable_source_or_research",
+      "original_sha256": "1eb624bb7e91bb1d4982351708a129ab42472241e2a1b7406fb3ed9fcb3f7aa8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/schedule-2026-10-14-data.json",
+      "bytes": 356898,
+      "sha256": "03bbd44c15cfd2cc2c99b9ebc98da350fca9a80bbb71aac0d86a5d89353480fd",
+      "role": "editable_source_or_research",
+      "original_sha256": "03bbd44c15cfd2cc2c99b9ebc98da350fca9a80bbb71aac0d86a5d89353480fd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/schedule-2026-10-14.html",
+      "bytes": 582113,
+      "sha256": "d2eca7ac885c724633231bde21330e05dce7a0bdd59df232f1825034773a69a1",
+      "role": "editable_source_or_research",
+      "original_sha256": "d2eca7ac885c724633231bde21330e05dce7a0bdd59df232f1825034773a69a1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/schedule.html",
+      "bytes": 569045,
+      "sha256": "f302c17ebb18075318d506e2611e8db09fb5687316c8b2d51a7a1cc35993dd70",
+      "role": "editable_source_or_research",
+      "original_sha256": "f302c17ebb18075318d506e2611e8db09fb5687316c8b2d51a7a1cc35993dd70",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/theme_audit.md",
+      "bytes": 4625,
+      "sha256": "ac51eea4dfe24dce54bd3a2ec019acb52f5fbafed6c0cfaeded0dcfdf373aa39",
+      "role": "editable_source_or_research",
+      "original_sha256": "ac51eea4dfe24dce54bd3a2ec019acb52f5fbafed6c0cfaeded0dcfdf373aa39",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/tuesday_rankings.json",
+      "bytes": 34322,
+      "sha256": "c12203bcfff4b9cd16b77480fae38848a5a2d8aff7b0f916c608ec7d948e8673",
+      "role": "editable_source_or_research",
+      "original_sha256": "c12203bcfff4b9cd16b77480fae38848a5a2d8aff7b0f916c608ec7d948e8673",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/tuesday_research.md",
+      "bytes": 9411,
+      "sha256": "73b91cf885db8d55066f19acd719540c1972ce50f0594518444eaf520bb268c7",
+      "role": "editable_source_or_research",
+      "original_sha256": "73b91cf885db8d55066f19acd719540c1972ce50f0594518444eaf520bb268c7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/wealth_context.json",
+      "bytes": 8036,
+      "sha256": "583d2019d2f94c651bd3c6814b3b07ea3418252e29ac374fb074a96cd40319bb",
+      "role": "editable_source_or_research",
+      "original_sha256": "583d2019d2f94c651bd3c6814b3b07ea3418252e29ac374fb074a96cd40319bb",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/wednesday_rankings.json",
+      "bytes": 29507,
+      "sha256": "ccd9b5be4d2c734de4eb33847d27761249023371934ae2898a8a278e207d7fb6",
+      "role": "editable_source_or_research",
+      "original_sha256": "ccd9b5be4d2c734de4eb33847d27761249023371934ae2898a8a278e207d7fb6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "work/wednesday_research.md",
+      "bytes": 10777,
+      "sha256": "65cf343e8048119e4333667456f785becb258ef981b6b23e8cdfa4cd67466fd5",
+      "role": "editable_source_or_research",
+      "original_sha256": "65cf343e8048119e4333667456f785becb258ef981b6b23e8cdfa4cd67466fd5",
+      "modified_for_packaging": false
+    }
+  ]
+}

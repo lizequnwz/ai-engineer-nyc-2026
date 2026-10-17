@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "7 Day1 sessions, 5 Day2 sessions, 7 combined learnings, 8 theme updates, 25 firm contexts, and 16 update fields render",
+    "Every referenced official session exists in snapshot; all 38 sources fall on planned Tuesday/Wednesday",
+    "All internal anchors and form labels resolve; no duplicate IDs",
+    "Firm search, evidence filter, empty state, and reset work",
+    "Unsaved notes trigger a close/reload reminder",
+    "Markdown export includes substantive full briefing, evidence sources, and entered notes",
+    "Copy produces the same complete report and notes as download",
+    "Printing includes entered updates and expands sources; restores disclosure state without losing notes or filters",
+    "Self-contained HTML has no external runtime assets, network calls, or persistent browser storage",
+    "Substantive report remains readable without executing JavaScript",
+    "Visible prose distinguishes two-day accounts, missing labels, agenda background, and dated external disclosures"
+  ],
+  "htmlBytes": 355457,
+  "visibleWordCount": 16427,
+  "sourceCount": 38,
+  "limitations": "Content/DOM/interaction checks only. No actual browser visual/layout rendering: local-file browser navigation is blocked by the available browser policy."
+}

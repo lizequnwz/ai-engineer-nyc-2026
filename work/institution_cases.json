@@ -1,0 +1,553 @@
+{
+  "source": "https://ai.engineer/nyc/2026/schedule",
+  "sourceGeneratedAt": "2026-10-10T19:11:37.092Z",
+  "preparedDate": "2026-10-10",
+  "status": "Pre-conference example intelligence based on program descriptions, not an attendance readout or independently verified deployment survey.",
+  "cases": [
+    {
+      "firm": "Bridgewater",
+      "segment": "Investment management / macro research",
+      "sessionIds": [
+        "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "88f71c9f-f0a9-4f42-96c0-0e1492bad1c2"
+      ],
+      "sessionTitles": [
+        "Vault: Making Unstructured Data Work for Investing",
+        "Can Your AI Analyst Keep a Secret?"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
+        "https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2"
+      ],
+      "reportedWork": "Reports building Vault as a centralized, high-quality repository of external research and internal unstructured knowledge. The abstract says Vault powers PAT, an analyst agent used daily by hundreds of investors, and is enabling a second-generation Researcher. A co-presentation with turbopuffer describes millions of documents and row-level permissions enforced at retrieval rather than only in application code.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "Production use and scale are claims in the program. No independent quality, leakage, latency, ROI, or access-revocation results are published in the abstracts. Researcher is described as being enabled, not proven generally deployed.",
+      "transferableLearning": "The distinctive investment appears to be the institution’s information foundation: source quality, connectors, and entitlement-aware access. A reusable analyst platform requires the same permissions as the human user, evaluated as part of retrieval quality rather than added after answer generation.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Institutional knowledge and permission-aware evidence"
+    },
+    {
+      "firm": "Wise",
+      "segment": "Cross-border payments",
+      "sessionIds": [
+        "ac709f86-ce51-4582-a680-70449c32d29c"
+      ],
+      "sessionTitles": [
+        "Stop turning your Humans Into APIs for your Agents"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c"
+      ],
+      "reportedWork": "Describes LOOP, a Lifecycle Onboarding and Oversight framework, separating model reasoning from authority to act. Human decisions become automated, versioned policies enforced by the platform; repeatable decisions become preventative controls while people handle judgment. The talk promises architecture, trust boundaries, and enforcement locations.",
+      "maturity": "framework",
+      "evidenceLimits": "The abstract describes a system Wise says it built, but does not quantify rollout scope, action classes, error rates, or measured control effectiveness. Do not infer that an LLM autonomously moves customer money.",
+      "transferableLearning": "Scale governance by making routine authority decisions explicit and executable. Separate a model’s proposal from the component allowed to execute it, and reserve human attention for genuine exceptions rather than every repeated approval.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Authority, policy, and deterministic controls"
+    },
+    {
+      "firm": "Monzo",
+      "segment": "Digital banking",
+      "sessionIds": [
+        "58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ],
+      "sessionTitles": [
+        "Compound value from building Monzo’s in-house agent using LLMs*"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11"
+      ],
+      "reportedWork": "Reports Agent Chip, a sandboxed internal agent, an MCP gateway, and an agent orchestration system. The abstract says it authors about 10% of merged pull requests and runs more than 1,800 tasks daily, with Slack distribution to technical and nontechnical staff and security/observability constraints.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "Usage and contribution statistics are company-reported. The program does not provide defect-adjusted productivity, avoided review effort, independent security results, or an ROI baseline; merged-PR share is not itself a quality measure.",
+      "transferableLearning": "Distribution inside existing work tools and a centrally controlled runtime can matter as much as model capability. Internal adoption should be read alongside review, quality, and control metrics rather than interpreted from task volume alone.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Firm-wide rollout and engineering operating models"
+    },
+    {
+      "firm": "Ramp",
+      "segment": "Finance operations / spend management",
+      "sessionIds": [
+        "caecd5f6-b352-4868-a995-f0f71679caf0",
+        "4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+      ],
+      "sessionTitles": [
+        "Chasing capabilities while waiting for the frontier",
+        "We gave our finance agent more context. It got worse."
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0",
+        "https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448"
+      ],
+      "reportedWork": "Ramp Labs describes rapidly replicating research to close capability gaps that finance teams face today. Its production accounting-agent session describes end-to-end benchmarks across models, tools, skills, memory, and the harness; skill ablations identified harmful context, and one frequently loaded skill was shortened from 14,000 to 5,000 characters without sacrificing reported quality. The speaker emphasizes reusable process in memory rather than stale task facts.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "The abstract does not release task definitions, holdout results, sample sizes, cost deltas, or independent reproduction. One successful context reduction should not be generalized into a rule that less context always wins.",
+      "transferableLearning": "Treat context, memory, tools, and harness changes as empirical interventions. Removing unhelpful content can improve an agent; the useful target is end-to-end quality, reliability, latency, and cost, not maximal context or the latest model alone.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Evaluation-driven harness improvement"
+    },
+    {
+      "firm": "Optiver",
+      "segment": "Electronic market making / trading",
+      "sessionIds": [
+        "272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ],
+      "sessionTitles": [
+        "Scaling AI with P&L on the line"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3"
+      ],
+      "reportedWork": "Describes agent adoption in engineering with a supported golden path and an experimental funnel requiring telemetry and a graduation-or-sunset decision. Model choice is handled through task-specific exams, routing toward the cheapest certified model, multiple access channels, and self-hosted open weights. The abstract identifies long-context work as an important inference-cost driver at large internal scale.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "The operational account is speaker-reported. The abstract does not publish exam validity, security findings, defect rates, causal productivity estimates, or cost savings; it does not establish AI control of trading decisions.",
+      "transferableLearning": "A mature rollout can offer both a dependable standard path and bounded experimentation. Certification should be task-specific, cost should be measured on successful work, and model independence can be an operating policy rather than an ad hoc vendor switch.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Firm-wide rollout and engineering operating models"
+    },
+    {
+      "firm": "Upstart",
+      "segment": "Consumer lending",
+      "sessionIds": [
+        "ece6925c-c979-483f-bd40-51eacdbbe11b"
+      ],
+      "sessionTitles": [
+        "From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b"
+      ],
+      "reportedWork": "Reports voice agents handling hundreds of thousands of customer calls per month. The described evaluation path starts with human review of every call and advances to LLM judges only after they match human graders; a co-presenter from Coval discusses evaluation infrastructure and simulation. Automated self-improvement loops are described as work they are building toward.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "Production voice use is reported, but judge-agreement metrics, error severity, approval thresholds, and outcome baselines are not supplied. The abstract distinguishes future automated loops from achieved capability; do not label the system fully self-healing today.",
+      "transferableLearning": "The evaluator must earn trust before it can substitute for review. Establish agreement with qualified humans on consequential failures, then expand automation in stages rather than assuming a model judge is reliable because it is fluent.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Evaluation-driven harness improvement"
+    },
+    {
+      "firm": "Contour Asset Management",
+      "segment": "Long/short fundamental equity investing",
+      "sessionIds": [
+        "ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+      ],
+      "sessionTitles": [
+        "Proving Alpha: Showcasing AI's Value in Fundamental Investing"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca"
+      ],
+      "reportedWork": "Describes agent workflows integrated into idea generation, overnight news synthesis, and earnings previews, developed with investors and used daily. It logs each generated idea at creation with its source and reasoning, scores utility, tracks progression to PM consideration and positions, and compares positions with benchmarks. Softer signals are compared with the previous way of producing the same metric.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "The abstract promises attribution methods but gives no realized return uplift, experiment design, controls for selection/market regime, or independently established alpha. Tracing a workflow into a position does not by itself demonstrate causal performance contribution.",
+      "transferableLearning": "Record the lineage from generated output to human use to a business decision. Evaluate research tools on utility, workflow adoption, time, and signal quality while keeping operational attribution distinct from claims of causal investment alpha.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Business value and investment-process measurement"
+    },
+    {
+      "firm": "Apollo Global Management",
+      "segment": "Private equity / alternative asset management",
+      "sessionIds": [
+        "5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+        "44e9d04a-e8b4-418c-8a85-02fbb9263dd0"
+      ],
+      "sessionTitles": [
+        "Turning AI Into Operating Margin: A Field Report from Private Equity",
+        "AI in Practice: An Inside Look at Apollo's Approach"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a",
+        "https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0"
+      ],
+      "reportedWork": "The portfolio-operations session describes AI assessment in deal diligence and underwriting, deployment cases in air-cargo network decisions and AI-native education, central reusable capabilities versus partnerships, and linking work to operating margin. A separate Apollo/Rowspace keynote is labeled only as a Rowspace customer co-presentation.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "Portfolio examples are described as shipping work, but no quantified margin improvement, deployment coverage, causal comparison, or detailed architecture is supplied. The Rowspace keynote has no substantive abstract, so it cannot support claims about a particular Apollo agent, platform, or use case.",
+      "transferableLearning": "AI investment can be evaluated as an operating intervention with a financial outcome, not only a technology rollout. Distinguish reusable central capabilities from company-specific workflows, and demand a measurement path to the margin or decision the business actually cares about.",
+      "attendanceDate": [
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "theme": "Business value and investment-process measurement"
+    },
+    {
+      "firm": "Vanguard",
+      "segment": "Asset management / cash infrastructure",
+      "sessionIds": [
+        "1779b934-d67b-45e9-ba11-0b19efac4b7e"
+      ],
+      "sessionTitles": [
+        "No Cash Left Behind: Vanguard's Ledger Modernization Journey"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e"
+      ],
+      "reportedWork": "Describes modernization of a cash ledger processing hundreds of thousands of daily transactions into active-active cloud-native microservices while the legacy system remained live. Producer migration, replicated gold-copy data, and consumer migration ran separately; CDC, GraphQL decoupling, and database-layer idempotency are highlighted. AI tools are said to have helped maintain both codebases during the migration.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "The production claim concerns the ledger migration. The abstract does not detail the AI tooling, isolate its productivity impact, or describe a deployed investor/advisor agent. Do not turn this case into a claim of Vanguard autonomous financial decision-making.",
+      "transferableLearning": "Reliable financial infrastructure still depends on explicit data consistency, decoupled change, and idempotency. AI assistance does not remove those system responsibilities; modernization evidence should distinguish the core architecture from the unspecified AI contribution.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Reliable infrastructure and controlled modernization"
+    },
+    {
+      "firm": "Wells Fargo",
+      "segment": "Banking / fraud and transaction modeling",
+      "sessionIds": [
+        "1c25f303-f38f-450b-862d-669fdbab5f82"
+      ],
+      "sessionTitles": [
+        "Wells Fargo Foundation Model: Application to Fraud Detection at Scale"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82"
+      ],
+      "reportedWork": "Reports developing transaction foundation models trained on billions of banking transactions. The session covers heterogeneous transaction representation, tokenization and sequence design, data curation, training/evaluation pipelines, and adaptive fine-tuning with multi-task learning for fraud detection and transaction decisioning.",
+      "maturity": "unknown",
+      "evidenceLimits": "The abstract uses production-grade language and promises lessons moving from experimentation to production, but does not clearly establish the deployment status or scope of any particular model. No performance, loss reduction, fairness, or operating-cost results are supplied.",
+      "transferableLearning": "Institutional AI activity includes domain-specific predictive models as well as LLM assistants. Data representation and validation are central design investments; evaluate this approach against task baselines before assuming a foundation model is preferable.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Domain models and financial data foundations"
+    },
+    {
+      "firm": "Two Sigma",
+      "segment": "Quantitative investment management",
+      "sessionIds": [
+        "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+      ],
+      "sessionTitles": [
+        "Balancing Acceleration and Safety for AI Agents"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
+      ],
+      "reportedWork": "John Feminella describes technical approaches Two Sigma says it uses to balance safe agentic AI with innovative research and engineering in a regulated firm. The abstract frames utility, cost, and risk as joint design concerns.",
+      "maturity": "framework",
+      "evidenceLimits": "The program does not name the controls, deployment scope, use cases, metrics, or evaluation results. The claim that safety need not trade off against innovation is an argument to examine, not demonstrated evidence that all such tradeoffs disappear.",
+      "transferableLearning": "Treat safety and utility as co-designed system properties. A useful industry comparison requires the actual control mechanism and its measured effect, not a general assertion of safe innovation.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Authority, policy, and deterministic controls"
+    },
+    {
+      "firm": "JPMC",
+      "segment": "Banking / security architecture",
+      "sessionIds": [
+        "e65f74f9-2174-406d-bd32-2d7073eb677d"
+      ],
+      "sessionTitles": [
+        "Intent Based Auth"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d"
+      ],
+      "reportedWork": "Global Chief Security Architect Michael Davis participates with Keycard and AAuth in a panel about authorizing an agent’s mission and resource scope beyond individual tool calls. The abstract introduces AAuth as a new protocol and discusses intent enforcement.",
+      "maturity": "framework",
+      "evidenceLimits": "Panel participation does not establish JPMC adoption of AAuth, Keycard, or a production intent-auth system. No JPMC deployment case or measured effectiveness appears in the abstract.",
+      "transferableLearning": "A valid credential and an allowed tool are insufficient descriptions of delegated authority. Evaluate whether policy binds the human, agent, resource, and intended task, and where a runtime can enforce those bounds.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Authority, policy, and deterministic controls"
+    },
+    {
+      "firm": "Citadel Securities",
+      "segment": "Market making / enterprise operations",
+      "sessionIds": [
+        "bf371da6-6ef6-42ec-865f-5de4974a9114"
+      ],
+      "sessionTitles": [
+        "Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114"
+      ],
+      "reportedWork": "Joao Wenzel, listed as COO at Citadel Securities, describes bootstrapping an enterprise state estimator from messages, screenshots/PDFs, decks, meetings, and voice notes. The proposed model tracks beliefs about entities over time, freshness, noisy observations, missing sources, and predictions, distinguishing current-state estimation from retrieval of past statements. His speaker bio says he is responsible for firm-wide agentic AI deployment.",
+      "maturity": "pilot or experiment",
+      "evidenceLimits": "The abstract describes a usable model but does not establish production rollout, prediction accuracy, business impact, permission controls, or firm-wide adoption of this specific system. Citadel Securities is the explicit affiliation; it must not be shortened to or conflated with Citadel, the separate firm referenced in other speakers’ past roles.",
+      "transferableLearning": "Some enterprise questions require maintained estimates of changing state, not only document search. The architecture claim is interesting but needs fresh-data, uncertainty, access-control, and out-of-sample prediction evidence before its superiority can be accepted.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Institutional knowledge and permission-aware evidence"
+    },
+    {
+      "firm": "GEICO",
+      "segment": "Insurance / enterprise engineering",
+      "sessionIds": [
+        "6b92fb75-064e-4cb5-8aa3-7c7f211e7420"
+      ],
+      "sessionTitles": [
+        "Inside the Fable War Room"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420"
+      ],
+      "reportedWork": "Describes an enterprise experiment with Anthropic on distributed legacy systems. A cross-functional team and on-call experts provided a modernization strategy, tools, context, rules, skills, system knowledge, validation tips, and structured routes back to humans. The abstract describes packaging this as a plugin methodology and claims a first-day outcome equivalent to $275,000 per year.",
+      "maturity": "pilot or experiment",
+      "evidenceLimits": "The abstract explicitly calls this an experiment. The annualized savings claim has no methodology, baseline, realized-period evidence, or attribution details; do not report it as audited savings or evidence of company-wide autonomous modernization.",
+      "transferableLearning": "For difficult legacy work, domain access and a coordinated team can be part of the agent system. A reusable method should include how uncertainties are routed to experts and how changes are validated, not just the model or prompt.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Reliable infrastructure and controlled modernization"
+    },
+    {
+      "firm": "Capital One",
+      "segment": "Banking / software engineering",
+      "sessionIds": [
+        "5191589c-a70e-4806-99dc-86f7794f46b9"
+      ],
+      "sessionTitles": [
+        "Does Code Quality Even Matter?"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9"
+      ],
+      "reportedWork": "Principal Software Engineer Max Kanat-Alexander proposes principles for deciding how to evaluate code quality and review practices as AI writes more software.",
+      "maturity": "framework",
+      "evidenceLimits": "This is a principles talk, not an abstract describing a named Capital One deployment, rollout policy, measured outcome, or eliminated review process.",
+      "transferableLearning": "Software review needs an explicit decision standard. Before accepting a faster AI delivery process, identify what correctness evidence remains necessary and which review responsibilities are being transferred or retained.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Firm-wide rollout and engineering operating models"
+    },
+    {
+      "firm": "Coinbase",
+      "segment": "Digital assets / financial developer infrastructure",
+      "sessionIds": [
+        "ee927042-2ba1-44c3-b304-d001ae247839",
+        "d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+        "bc4b6b4a-cf07-4326-8276-fcf845da0284"
+      ],
+      "sessionTitles": [
+        "Trusting Agents in Policy-Driven Workflows",
+        "Developer Docs as Knowledge Infrastructure for Fintech",
+        "Building the Financial Account for Agents"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839",
+        "https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480",
+        "https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284"
+      ],
+      "reportedWork": "Describes auditable workflows with bounded agent loops and human control; rebuilding Coinbase Developer Platform documentation for agents; and designing financial accounts with human-defined controls, stablecoin payments, and machine-scale transactions. The docs session claims agents account for 59% of traffic, more than 30,000 MCP tool calls, and 145 AI tools. The account session cites x402 ecosystem payment activity.",
+      "maturity": "speaker-reported production",
+      "evidenceLimits": "Production evidence is strongest for developer documentation/tool consumption. Traffic and protocol volumes are speaker-reported and are not measures of correctness, unique agent users, or Coinbase-specific autonomous-account deployment. The proposed account/control design and workflow framework should not be treated as a mature universally deployed product.",
+      "transferableLearning": "Agents can become consumers of documentation, APIs, and financial rails, so infrastructure must expose machine-usable knowledge and bounded authority. Adoption volume and transaction success must be supplemented by correctness, fraud, policy, and delivered-value measures.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Machine-facing financial infrastructure"
+    },
+    {
+      "firm": "Bloomberg",
+      "segment": "Financial data and technology",
+      "sessionIds": [
+        "01982251-7fdc-4828-8520-fb34b9bc7564"
+      ],
+      "sessionTitles": [
+        "Security in the Age of AI: Recent Attacks, Incidents & Defenses"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564"
+      ],
+      "reportedWork": "Head of Architecture and Emerging Technologies Andrey Rybka discusses recent incidents, prompt injection, data leakage, agentic AI, supply-chain risk, and defense patterns. His official bio describes leading architecture for Bloomberg’s open-source, AI-cloud, MCP/agentic-AI adoption, and AI-security initiatives.",
+      "maturity": "framework",
+      "evidenceLimits": "The session abstract and bio establish the speaker’s institutional remit, not a specific Bloomberg production architecture, security outcome, or failure-free deployment. Incident details and defense effectiveness remain to be inspected.",
+      "transferableLearning": "AI adoption broadens both internal attack surfaces and attacker capabilities. Security architecture should connect model and agent risks to existing identity, software supply-chain, data, and runtime controls, then test the combined system.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Authority, policy, and deterministic controls"
+    },
+    {
+      "firm": "Jump Trading",
+      "segment": "Trading / compute markets",
+      "sessionIds": [
+        "70532ab5-f3d2-48a2-aebd-c2018afcd318"
+      ],
+      "sessionTitles": [
+        "The Dark Pools of Compute"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=70532ab5-f3d2-48a2-aebd-c2018afcd318"
+      ],
+      "reportedWork": "Compute-trading leaders discuss GPU/compute supply, power and data-center economics, financing/depreciation, shifts in buyer contracts and hardware generations, policy, sovereign demand, and possible market maturation. The speaker bio describes a compute division trading, financing, and structuring compute/inference transactions.",
+      "maturity": "framework",
+      "evidenceLimits": "This is a market-structure perspective, not evidence of an AI agent deployment or a realized investment return. Policy and market forecasts in the abstract are not independently verified and should not be presented as settled developments.",
+      "transferableLearning": "AI economics extend beyond token pricing to capacity, contract duration, financing, and hardware generation risk. A mature cost comparison should distinguish model/application efficiency from the procurement and capital structure of compute.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Machine-facing financial infrastructure"
+    },
+    {
+      "firm": "Blackstone",
+      "segment": "Alternative asset management",
+      "sessionIds": [
+        "4cf641ef-436a-4e59-bd73-8a1988d8214c"
+      ],
+      "sessionTitles": [
+        "CTO, Blackstone"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c"
+      ],
+      "reportedWork": "CTO John Stecher is scheduled in conversation with Norm.ai CTO Scott Worland.",
+      "maturity": "unknown",
+      "evidenceLimits": "Role-placeholder title and empty abstract. The program does not support a claim that Blackstone deployed Norm.ai, a particular compliance agent, or a particular architecture; shared stage appearance alone is insufficient.",
+      "transferableLearning": "Treat this as a potential practitioner interview to learn from after the event, not as an existing case study in a report based only on abstracts.",
+      "attendanceDate": "2026-10-14",
+      "theme": "Evidence gap / practitioner to follow"
+    },
+    {
+      "firm": "Coatue",
+      "segment": "Investment management",
+      "sessionIds": [
+        "9a9dfcd0-459f-43eb-b3f8-004864b4ad2a"
+      ],
+      "sessionTitles": [
+        "Head of AI & AI Engineer, Coatue"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a"
+      ],
+      "reportedWork": "Head of AI Frank Long is scheduled for a keynote.",
+      "maturity": "unknown",
+      "evidenceLimits": "Role-placeholder title and empty abstract. No specific Coatue product, deployment, investment workflow, measured outcome, or architecture is supported by this record.",
+      "transferableLearning": "Keep institutional presence separate from evidence of institutional practice. Add a case only when the talk or released materials provide a substantive mechanism and scope.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Evidence gap / practitioner to follow"
+    },
+    {
+      "firm": "Arca",
+      "segment": "Financial-services workflow automation (as described in abstract)",
+      "sessionIds": [
+        "75bd85ed-b49d-41f6-98e1-7a22853c18ab"
+      ],
+      "sessionTitles": [
+        "Arca’s agent runtime for long horizon financial services work"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab"
+      ],
+      "reportedWork": "Describes an agent runtime for work spanning weeks, multiple agents and humans, and external systems. The promised architecture includes orchestration, tools, context, a sandbox, signals, and human involvement when work cannot progress; it is framed as managing clients’ financial lives and operational work.",
+      "maturity": "unknown",
+      "evidenceLimits": "The company name alone does not establish which similarly named entity or business segment is meant. The abstract claims broad automation but gives no rollout counts, task success, loss/risk metrics, or production maturity sufficient to classify this as proven full automation.",
+      "transferableLearning": "Financial work is often long-horizon rather than a single uninterrupted agent run. Durable state, explicit handoffs, external events, and bounded human involvement are distinct design needs that a fluent model loop does not resolve by itself.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Reliable infrastructure and controlled modernization"
+    },
+    {
+      "firm": "New York Life Insurance (speaker affiliation)",
+      "segment": "Insurance / AI evaluation research",
+      "sessionIds": [
+        "9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ],
+      "sessionTitles": [
+        "1,368 AI Failures: What They Teach Us About System Evals"
+      ],
+      "sourceUrls": [
+        "https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c"
+      ],
+      "reportedWork": "Vishal Srivastava and Tanmay Sah describe research on 1,368 documented failures across sectors and Risk-Based Evaluability Design. The proposed unit of evaluation is the deployed system—evidence, tools, state, authority, human intervention, exposure, and impact—rather than task completion alone.",
+      "maturity": "framework",
+      "evidenceLimits": "The speaker affiliation does not establish adoption of this framework at New York Life. Incident counts and the reported 92% multi-weakness result need sampling/labeling methodology; this is not a prevalence estimate of all AI systems or a New York Life incident dataset.",
+      "transferableLearning": "Evaluate consequential failure paths through the full system and design the evidence needed to reconstruct them. A correct answer can coexist with unsupported evidence or an unauthorized action; insufficient evidence can be the appropriate evaluation result.",
+      "attendanceDate": "2026-10-13",
+      "theme": "Evaluation-driven harness improvement"
+    }
+  ],
+  "attributionCautions": [
+    {
+      "topic": "Citadel vs Citadel Securities",
+      "detail": "Joao Wenzel is listed at Citadel Securities and his bio repeats that affiliation. Kepler speakers mention former Citadel roles; these do not establish current Citadel sponsorship or deployment of Kepler. Keep the organizations and current/former roles distinct.",
+      "sessionIds": [
+        "bf371da6-6ef6-42ec-865f-5de4974a9114",
+        "a244839c-239c-4789-b621-32a3568a218e"
+      ]
+    },
+    {
+      "topic": "SoFi vs Salesforce affiliation mismatch",
+      "detail": "Ishween Kaur’s company field says SoFi and role says Agentic Platform Agentforce; her bio says senior software engineer on Salesforce AgentForce. The payment-attack talk is a local simulation/testnet demonstration, not evidence of a SoFi deployment. Attribute it to the speaker unless the conflict is resolved.",
+      "sessionIds": [
+        "eaa39362-c0ec-4849-a90d-841f4825a5b3"
+      ]
+    },
+    {
+      "topic": "Goldman Sachs title is not a Goldman case",
+      "detail": "Can AI run Goldman Sachs? is presented by Epsilab founders, with no Goldman Sachs speaker or deployment asserted. Do not label its experiments as Goldman Sachs practice.",
+      "sessionIds": [
+        "471890b7-1779-41e1-8411-b499dd38c346"
+      ]
+    },
+    {
+      "topic": "Named wealth-manager evidence is limited",
+      "detail": "The concrete wealth-concierge workshop is delivered by OpenAI engineers on Monday October12. It demonstrates building with plugins, client information, skills, client questions, and advisor briefs; it does not name a wealth-management institution using the system in production and is outside the attendee’s Tuesday/Wednesday scope.",
+      "sessionIds": [
+        "b4d58021-e1c3-4703-b294-0f7cacaa5f68"
+      ]
+    },
+    {
+      "topic": "Sponsor and trusted-by logos are not case studies",
+      "detail": "Homepage logos for Morgan Stanley, BlackRock, Goldman Sachs, and others do not by themselves establish the use cases, architectures, adoption, or results of those firms. Do not fill gaps in the schedule from logos.",
+      "sessionIds": []
+    },
+    {
+      "topic": "Unnamed client banks remain unnamed",
+      "detail": "Cisco’s five-bank deployment description, Comet’s regulated-bank account, and Langfuse’s top-global-bank pattern do not identify client institutions. They can be vendor-reported patterns, not institution-attributed cases.",
+      "sessionIds": [
+        "71008b4d-f354-4f66-85dc-9052435c2955",
+        "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
+        "f7cd2f57-654a-4bbc-874b-ffa66a8ab3ed"
+      ]
+    }
+  ],
+  "suggestedThemes": [
+    {
+      "title": "Institutional knowledge is becoming an AI platform asset",
+      "caseFirms": [
+        "Bridgewater",
+        "Citadel Securities"
+      ],
+      "takeaway": "Permission-aware, high-quality source access and maintained organizational context are recurring investments; retrieval and current-state estimation answer different questions."
+    },
+    {
+      "title": "Governance is moving into executable runtime controls",
+      "caseFirms": [
+        "Wise",
+        "JPMC",
+        "Two Sigma",
+        "Bloomberg"
+      ],
+      "takeaway": "Reasoning should not automatically confer authority. Identify policy enforcement, trust boundaries, revocation, and evidence rather than equating governance with a review committee."
+    },
+    {
+      "title": "Evaluation is an operating loop, including evaluation of the evaluator",
+      "caseFirms": [
+        "Ramp",
+        "Upstart",
+        "New York Life Insurance (speaker affiliation)"
+      ],
+      "takeaway": "Institutional speakers emphasize ablations, human-calibrated judges, multi-metric evaluation, and system failure paths rather than relying on model leaderboards."
+    },
+    {
+      "title": "Firm-wide adoption needs both a standard path and bounded experimentation",
+      "caseFirms": [
+        "Optiver",
+        "Monzo",
+        "Capital One"
+      ],
+      "takeaway": "Platforms, approved runtimes, existing collaboration channels, task-specific model certification, and clear quality standards make adoption manageable."
+    },
+    {
+      "title": "Value is being tied to the investment or operating process",
+      "caseFirms": [
+        "Contour Asset Management",
+        "Apollo Global Management"
+      ],
+      "takeaway": "Capture lineage from generated output to use and decision, and compare outcomes with a baseline. Usage and annualized claims are not causal ROI or alpha."
+    },
+    {
+      "title": "Legacy and long-horizon work keep reliability fundamentals central",
+      "caseFirms": [
+        "Vanguard",
+        "GEICO",
+        "Arca"
+      ],
+      "takeaway": "Durable state, data consistency, idempotency, expert handoffs, and verified changes remain essential even when agents accelerate part of the work."
+    },
+    {
+      "title": "Financial AI includes domain models and machine-facing infrastructure",
+      "caseFirms": [
+        "Wells Fargo",
+        "Coinbase",
+        "Jump Trading"
+      ],
+      "takeaway": "Beyond chat interfaces, the agenda includes transaction models, agent-readable documentation and payment rails, and compute economics; maturity varies materially across these accounts."
+    }
+  ]
+}
