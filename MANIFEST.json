@@ -7,20 +7,12 @@
     "2026-10-14"
   ],
   "scope": "Complete personal archive; not public-redacted. Includes application-specific Fidelity context.",
-  "source_dates": "Conference presentation and notes refreshed from released sources inspected October25,2026. Historical research, field guide and application reviews retain their stated dates.",
+  "source_dates": "Conference presentation and notes refreshed from released sources inspected October 25, 2026. Historical research, field guide and application reviews retain their stated dates.",
   "final_deliverables": 11,
-  "file_count_including_manifest_and_checksums": 321,
+  "file_count_including_manifest_and_checksums": 320,
   "hash_policy": "This manifest hashes all package files except itself and SHA256SUMS.txt. SHA256SUMS.txt also hashes this manifest and excludes only itself.",
   "validation": "PACKAGING-VALIDATION.json",
   "files": [
-    {
-      "path": ".DS_Store",
-      "bytes": 6148,
-      "sha256": "6d4d23808f6346ddd4b22c34bdf13b9d0490754c982d0469be640bdc04a062c4",
-      "role": "package_documentation_or_validation",
-      "created_for_package": true,
-      "added": "2026-10-25"
-    },
     {
       "path": ".gitattributes",
       "bytes": 114,
