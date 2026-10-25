@@ -5,10 +5,9 @@
     "title": "Define successful work before choosing a metric",
     "layout": "workflow-and-quality-vector",
     "points": [
-      "Specify the job, permitted inputs/actions, and accepted work product.",
-      "Separate task quality, evidence, safety, experience, and operating cost.",
-      "Build representative, difficult, ambiguous, and critical-failure cases.",
-      "Version the cases, rubric, system, and evaluator; reserve a holdout."
+      "Replay accepted historical work with its original inputs and allowed tools. Report complete acceptance and diagnostic dimensions separately.",
+      "Advance the same business one period, remove prior-period amounts from memory and evaluate next-period work. Compare per-world regressions as well as the average.",
+      "Record applicable / not applicable separately from pass / fail. Allow an explained discrepancy rather than rewarding a fabricated balancing entry. Reproduce promising simulated repairs in the real environment."
     ],
     "visualData": {
       "caption": "Proposed evaluation framework · editorial synthesis, not a firm's deployed architecture",
@@ -50,21 +49,32 @@
       "suggestedVisual": "A four-step horizontal task path above five compact quality cards; a small case-slice strip below. Avoid a radar chart with invented quantitative scores."
     },
     "readerNotes": [
-      "A useful evaluation begins with a decision: selecting a system, approving a change, reducing review, or extending authority. Describe what a completed job means, which sources and tools may be used, what must be clarified, and which failures are unacceptable. Then select the measurements needed for that decision. A single average can conceal a serious safety or evidence failure.",
-      "Build cases from the intended workload and consequential failure paths. Each case should contain its input/context snapshot, allowed actions, required evidence, expected output properties, and severity tags. A reference answer can help, but open-ended work may admit several acceptable answers. Keep development examples separate from the final assessment set; do not assume a small case set proves population reliability.",
-      "Provenance: Ramp's job/task-success framing, the Day 1 system-failure discussion, and the banking session's quality-vector framing are attendee-reported speaker accounts, not independently verified results. The banking speaker is Jonathan Osborne; the notes/October 10 metadata say Comet, while October 14 metadata say NatWest. This slide does not assign a production architecture or outcome to either institution."
+      "The complete job needs more than one answer score. Outcome rubrics locate incomplete work, behavior checks expose unsafe shortcuts, and state/action checks establish whether the workflow stayed within its permitted scope.",
+      "Start from professional work: Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence.",
+      "Construct diagnostic variants: The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy.",
+      "Keep blockers outside the average: A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality."
     ],
     "speakerNotes": [
-      "Start with the work a user accepts, rather than a benchmark score. Ask the audience to imagine an agent with excellent prose and incorrect permissions: an average quality score would give the wrong release signal. Separate diagnostic scores from conditions that must hold.",
-      "Walk quickly through the five case slices. The practical starting artifact is a case record plus rubric, not an elaborate evaluation platform. We will make that concrete on the next slide."
+      "The complete job needs more than one answer score. Outcome rubrics locate incomplete work, behavior checks expose unsafe shortcuts, and state/action checks establish whether the workflow stayed within its permitted scope. Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence. The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy. A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality."
     ],
     "sourceIds": [
       "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
       "9d72d7ac-a2a2-42cf-b880-5859316d840c",
       "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa"
     ],
-    "externalSources": [],
-    "minutes": 1.25
+    "externalSources": [
+      "https://ai.engineer/nyc/2026/talks/vals",
+      "https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh",
+      "https://ai.engineer/nyc/2026/talks/basis",
+      "https://www.youtube.com/watch?v=c_SPW__jF9w"
+    ],
+    "minutes": 1.25,
+    "recordingIds": [
+      "vals",
+      "ramp-evals",
+      "basis",
+      "air-canada-release"
+    ]
   },
   {
     "id": "evals-02",
@@ -216,10 +226,8 @@
     "title": "Change one component; evaluate the whole job",
     "layout": "paired-ablation-matrix",
     "points": [
-      "Replay baseline and candidate on the same input snapshots and assessment cases.",
-      "Vary skills, memory, context, or model deliberately; inspect the paired failures.",
-      "Track task/evidence quality, critical defects, review effort, latency, and cost.",
-      "Retest fixes on known failures and a separate assessment set."
+      "Advance the same business one period, remove prior-period amounts from memory and evaluate next-period work. Compare per-world regressions as well as the average.",
+      "Identify the bottleneck and its task-specific score before specializing. Keep production, experiment and roadmap claims separate within the same talk."
     ],
     "visualData": {
       "caption": "Illustrative experiment plan · cells are measurements to collect, not company results",
@@ -269,21 +277,28 @@
       "suggestedVisual": "A compact comparison matrix with words rather than fabricated scores. Highlight one row at a time; below it show the variables held fixed."
     },
     "readerNotes": [
-      "Compare changes on matched cases so that task mix, source freshness, or grader changes do not masquerade as an improvement. Where feasible, vary one component at a time. For stochastic systems, use repeated assessments sufficient to examine uncertainty; compare distributions and important failure examples rather than only a single run's aggregate.",
-      "Ramp's Day 2 notes record experiments described as working: reducing an eight-skill bundle to four, trajectory-distilled memory, and shrinking an Excel skill. No effect sizes, controlled assessment details, or repeated-run results were captured. The method motivates an ablation design; the recorded counts are neither recommended defaults nor proof that reducing context always helps.",
-      "The proposed matrix adds explicit review and full attempt cost to the quality vector. Retest a discovered failure, but retain an assessment set not selected solely because it contains known failures. Otherwise an iteration can overfit the observed incidents while harming ordinary work. This is editorial methodology, not a claim that Ramp followed this exact protocol."
+      "Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period.",
+      "Challenge helpful-looking context: The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria.",
+      "Remember procedure; refresh facts: Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful.",
+      "Test transfer and changed rules: Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
     ],
     "speakerNotes": [
-      "The point is not to build this entire matrix before starting. Choose the next decision, hold the case set fixed, and compare one candidate against a working baseline. Show that even a seemingly obvious improvement—another skill, more memory—must earn its place.",
-      "Ask what would change our mind: better average scores with a new high-severity failure should trigger investigation, not an automatic win. Separate the cases used to fix a problem from those used to assess the final change."
+      "Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period. The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria. Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful. Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
     ],
     "sourceIds": [
       "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
       "9d72d7ac-a2a2-42cf-b880-5859316d840c",
       "b2ed4456-5671-4e8e-83fd-684c012fef8c"
     ],
-    "externalSources": [],
-    "minutes": 1.25
+    "externalSources": [
+      "https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh",
+      "https://ai.engineer/nyc/2026/talks/ramp"
+    ],
+    "minutes": 1.25,
+    "recordingIds": [
+      "ramp-evals",
+      "ramp"
+    ]
   },
   {
     "id": "evals-05",
@@ -291,10 +306,9 @@
     "title": "A release gate must keep critical failures outside the average",
     "layout": "release-decision-gate",
     "points": [
-      "Predeclare blocking conditions and acceptable quality/operating tradeoffs.",
-      "Review critical failures, paired regressions, uncertainty, and evaluator validity.",
-      "Retain the cases, versions, traces, decisions, and approved exceptions.",
-      "Roll out in stages with explicit stop, rollback, and renewed-review conditions."
+      "Keep a vector of consequential scores and paired regressions instead of declaring a fix successful from one improved number.",
+      "Fix the harness and environment when comparing models. Verify actual tool effects and immutable grading inputs; retain full task evidence.",
+      "Preserve allowed resources, evaluator integrity, repeated-run variability and the actual professional acceptance criteria."
     ],
     "visualData": {
       "caption": "Illustrative release logic · proposed framework, not a firm's approved policy",
@@ -324,21 +338,30 @@
       "suggestedVisual": "An evidence packet enters a gate with a separate red blocking lane and a blue quality/tradeoff lane. Both feed an accountable decision; monitoring follows release rather than disappearing after it."
     },
     "readerNotes": [
-      "Define the release decision's standard before seeing the candidate's results. Critical conditions may include unauthorized access, unsupported consequential claims, or missing required approval; which conditions block a release is a domain decision. Keep those conditions separate from graded usefulness. A finite assessment can support a bounded decision, but a clean test run is not a proof of zero risk.",
-      "Retain a reviewable evidence packet: intended use and scope, case/evaluator/system versions, results by important slice, material disagreement, representative traces, known limitations, exception decisions, and operational stop conditions. Repeat or broaden assessment when uncertainty could change the decision. Do not invent a universal pass threshold or regard a single combined accuracy score as sufficient.",
-      "The banking notes record multidimensional quality and a configurable fail-leaning judge, but no actual reviewer approval package, release threshold, or rollback trigger. Its current NatWest versus earlier Comet attribution remains unresolved. The gate shown here is an editorial proposal informed by that discussion and the Day 1 system-failure perspective; it is not attributed as an implemented bank policy."
+      "A stronger prompt or model can improve one dimension and degrade another. Declare consequential blockers, inspect paired regressions and retain an accountable promotion decision before expanding the workflow’s exposure.",
+      "Compare the whole vector: Sofia Jakovcevic’s release describes a prompt repair that improves safety while harming completion. Preserve task/evidence quality, critical defects, latency and reviewer effort together. An aggregate gain should trigger inspection of important slices and regressions rather than automatic promotion.",
+      "Trust observed execution: Omni’s release emphasizes full traces and gates that actually stop work. Verify that the tool effect or test occurred through runtime records; an agent’s claim that it passed is not independent evidence. Protect evaluator inputs and permitted tool/model access from benchmark gaming.",
+      "Make the decision reproducible: Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur."
     ],
     "speakerNotes": [
-      "Return to the synthetic rubric: excellent arithmetic cannot compensate for an unauthorized send. The gate preserves that logic at release level. Ask the team to name a blocker and the evidence needed to test it, rather than choose a convenient overall percentage.",
-      "Emphasize bounded scope and accountable judgment. Tests inform a release decision; monitoring and rollback address what the suite did not foresee. We are not claiming that any speaker supplied this exact evidence packet."
+      "A stronger prompt or model can improve one dimension and degrade another. Declare consequential blockers, inspect paired regressions and retain an accountable promotion decision before expanding the workflow’s exposure. Sofia Jakovcevic’s release describes a prompt repair that improves safety while harming completion. Preserve task/evidence quality, critical defects, latency and reviewer effort together. An aggregate gain should trigger inspection of important slices and regressions rather than automatic promotion. Omni’s release emphasizes full traces and gates that actually stop work. Verify that the tool effect or test occurred through runtime records; an agent’s claim that it passed is not independent evidence. Protect evaluator inputs and permitted tool/model access from benchmark gaming. Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur."
     ],
     "sourceIds": [
       "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
       "9d72d7ac-a2a2-42cf-b880-5859316d840c",
       "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1"
     ],
-    "externalSources": [],
-    "minutes": 1.25
+    "externalSources": [
+      "https://www.youtube.com/watch?v=v5tm5EAzsAs",
+      "https://www.youtube.com/watch?v=A3FL_zTQKU0",
+      "https://www.youtube.com/watch?v=aVbRSIQO2dE"
+    ],
+    "minutes": 1.25,
+    "recordingIds": [
+      "sofia-release",
+      "omni-release",
+      "linqalpha-release"
+    ]
   },
   {
     "id": "evals-06",
@@ -346,10 +369,8 @@
     "title": "Production feedback should create tests before it creates new behavior",
     "layout": "controlled-evaluation-loop",
     "points": [
-      "Observe complete traces and human corrections; triage by consequence.",
-      "Turn a failure into a versioned case and a proposed change.",
-      "Test the candidate against regressions and separate assessment cases.",
-      "Review, release in scope, monitor, and stop or roll back when conditions fail."
+      "Record applicable / not applicable separately from pass / fail. Allow an explained discrepancy rather than rewarding a fabricated balancing entry. Reproduce promising simulated repairs in the real environment.",
+      "Separate the lifetime of task state from the lifetime of execution authority. Trace the agents modifying the system as well as those serving users."
     ],
     "visualData": {
       "caption": "Proposed controlled improvement loop · not a claim of autonomous self-healing",
@@ -384,13 +405,13 @@
       "suggestedVisual": "Seven-node loop with human/accountability markers at adjudication and release. Use a red branch from monitoring to pause/rollback; do not animate an automatic production-change arrow."
     },
     "readerNotes": [
-      "Connect monitoring to decisions and experiments, not merely dashboards. Capture enough context to reproduce important behavior: request, available sources and permissions, tool interactions, output, reviewer correction, relevant versions, and evaluation results. Authorized handling of traces and sensitive data remains a prerequisite; collecting more telemetry is not permission to expose private content.",
-      "Arize's Day 1 notes describe a build/evaluate/trace-inspection/improvement loop and agents consuming telemetry. The product and skill names were recorded uncertainly, and no diagnostic accuracy or autonomous remediation result was captured. The controlled loop shown here adds explicit adjudication, assessment separation, and release authority as editorial recommendations.",
-      "Upstart's advertised session describes moving from human call review toward human-calibrated judges, with automated self-improvement loops still being built. That is agenda-based, speaker-reported context rather than an attended-case result. Use it to ask what evidence permits reduced review; do not present it as proof that a self-healing production system was achieved."
+      "Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change.",
+      "Separate applicability and adherence: A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too.",
+      "Fork near the bad decision: Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact.",
+      "Use simulation as diagnosis: A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
     ],
     "speakerNotes": [
-      "Close the chapter by tracing a failure around the loop. The failure becomes a test; a proposed change must prove it helps without causing an unacceptable regression. An agent can assist with diagnosis or propose a skill edit, while approval to change production remains explicit.",
-      "Give the team a manageable next step: one workflow, a small reviewable case set, a rubric, and a baseline. Add infrastructure when the working loop requires it. Invite discussion about which failure class deserves the first dedicated test."
+      "Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change. A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too. Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact. A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
     ],
     "sourceIds": [
       "b2ed4456-5671-4e8e-83fd-684c012fef8c",
@@ -398,7 +419,14 @@
       "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
       "ece6925c-c979-483f-bd40-51eacdbbe11b"
     ],
-    "externalSources": [],
-    "minutes": 1.25
+    "externalSources": [
+      "https://ai.engineer/nyc/2026/talks/basis",
+      "https://ai.engineer/nyc/2026/talks/arize"
+    ],
+    "minutes": 1.25,
+    "recordingIds": [
+      "basis",
+      "arize"
+    ]
   }
 ]

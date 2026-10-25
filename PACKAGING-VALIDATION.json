@@ -1,137 +1,130 @@
 {
-  "packaged": "2026-10-17",
+  "packaged": "2026-10-25",
   "checks": {
     "source_builds": [
       {
         "builder": "work/build_report.py",
-        "returncode": 0,
-        "error": ""
+        "returncode": 0
       },
       {
-        "builder": "work/build_industry_report.py",
-        "returncode": 0,
-        "error": ""
+        "builder": "work/recording_content.py",
+        "returncode": 0
       },
       {
         "builder": "work/day1_report_content.py",
-        "returncode": 0,
-        "error": ""
+        "returncode": 0
       },
       {
         "builder": "work/day2_report_content.py",
-        "returncode": 0,
-        "error": ""
+        "returncode": 0
+      },
+      {
+        "builder": "work/build_industry_report.py",
+        "returncode": 0
       },
       {
         "builder": "work/presentation/build_deck.py",
-        "returncode": 0,
-        "error": ""
+        "returncode": 0
       },
       {
         "builder": "work/applications/build_brief.py",
-        "returncode": 0,
-        "error": ""
+        "returncode": 0
       }
     ],
     "rebuilt_outputs": [
       {
         "file": "ai-engineer-nyc-2026-application-roadmap.html",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
       },
       {
         "file": "ai-engineer-nyc-2026-day-1-notes.md",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
       },
       {
         "file": "ai-engineer-nyc-2026-day-2-notes.md",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
       },
       {
         "file": "ai-engineer-nyc-2026-field-guide.html",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
       },
       {
         "file": "ai-engineer-nyc-2026-industry-report.html",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
       },
       {
         "file": "ai-engineer-nyc-2026-presentation.html",
-        "matches_packaged_final": true
+        "matches_rebuilt": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-recording-supplement.md",
+        "matches_rebuilt": true
       }
     ],
     "local_html_links": {
-      "checked": 15,
+      "checked": 16,
       "missing": []
     },
-    "final_artifact_integrity": [
-      {
-        "file": "ai-engineer-nyc-2026-application-demo-notes.md",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-application-improve.pptx",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-application-roadmap.html",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-conference-takeaways-notes.md",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-conference-takeaways.pptx",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-day-1-notes.md",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-day-2-notes.md",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-field-guide.html",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-industry-report.html",
-        "unchanged": true
-      },
-      {
-        "file": "ai-engineer-nyc-2026-presentation.html",
-        "unchanged": true
-      }
-    ],
-    "powerpoint_structure": [
+    "pptx_integrity": [
       {
         "file": "ai-engineer-nyc-2026-application-improve.pptx",
         "zip_integrity": true,
         "slides": 28,
-        "note_pages": 28,
+        "notes": 28,
         "native_tables": 10
       },
       {
         "file": "ai-engineer-nyc-2026-conference-takeaways.pptx",
         "zip_integrity": true,
         "slides": 37,
-        "note_pages": 37,
+        "notes": 37,
         "native_tables": 9
       }
     ],
-    "excluded_runtime_files": {
-      "present": []
-    },
-    "source_builds_status": "All six builders completed successfully in a disposable copy; all six regenerated report/note outputs matched packaged finals byte-for-byte.",
-    "curated_documentation_links": {
-      "missing": []
+    "recording_review": {
+      "reviewDate": "2026-10-25",
+      "channelUploadsScreened": 90,
+      "officialDescriptionsInspected": 50,
+      "organizerIndexSessions": 52,
+      "laterSourceBriefs": 37,
+      "coreSlidesRevised": 23,
+      "coreSlides": 29,
+      "appendixSlides": 8,
+      "minutes": 40,
+      "registeredReferences": 76,
+      "htmlReadingDeepDiveSections": 25,
+      "pptSlides": 37,
+      "pptNotes": 37,
+      "nativeTables": 9,
+      "pptBytes": 192049,
+      "pptSha256": "d4343a8c406656d95f9ba4883c8340f629f28c18f7e4f2404b07787b8f621260",
+      "captionTextRecovered": false,
+      "sourceSeparation": "Organizer transcripts, official descriptions, speaker-bylined written source, historical disclosures and synthesis remain distinct.",
+      "checks": [
+        "All37brief URLs registered",
+        "All37brief IDs unique",
+        "Slide36recording references corrected",
+        "Dailyfollowupsrenderonce",
+        "Newsourceclassesandpublicationdatesretained",
+        "HTMLcorecontains170\u2013290wordsperpage",
+        "PowerPointZIPandXMLvalid",
+        "37slidesand37notes",
+        "9nativeeditabletables",
+        "NativeSVGgatezeroerrorszerowarnings",
+        "HTMLDOMnavigationandinteractionchecks passed"
+      ],
+      "limitations": [
+        "No audiovisual viewing claimed",
+        "Standalonecaptionsreturnedempty;descriptionevidenceonly",
+        "Companyeffectsnotindependentlyvalidated",
+        "NoactualbrowserorPowerPointrenderperformed;localbrowserrestrictionremains"
+      ]
     }
   },
   "limits": [
-    "No browser or PowerPoint rendering was performed for packaging.",
-    "PPTX export depends on the external ppt-master skill/runtime; it was not rerun.",
-    "Historical source paths in reviews/receipts are evidence context; the separate personal repository is not bundled."
+    "No browser-rendered or PowerPoint-rendered visual inspection was performed.",
+    "Standalone captions returned no readable text; description-level evidence is labeled.",
+    "Speaker-reported outcomes are not independently validated.",
+    "Application materials and field guide retain earlier scope."
   ]
 }

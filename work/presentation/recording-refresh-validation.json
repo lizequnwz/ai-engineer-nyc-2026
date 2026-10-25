@@ -1,0 +1,39 @@
+{
+  "reviewDate": "2026-10-25",
+  "channelUploadsScreened": 90,
+  "officialDescriptionsInspected": 50,
+  "organizerIndexSessions": 52,
+  "laterSourceBriefs": 37,
+  "coreSlidesRevised": 23,
+  "coreSlides": 29,
+  "appendixSlides": 8,
+  "minutes": 40,
+  "registeredReferences": 76,
+  "htmlReadingDeepDiveSections": 25,
+  "pptSlides": 37,
+  "pptNotes": 37,
+  "nativeTables": 9,
+  "pptBytes": 192049,
+  "pptSha256": "d4343a8c406656d95f9ba4883c8340f629f28c18f7e4f2404b07787b8f621260",
+  "captionTextRecovered": false,
+  "sourceSeparation": "Organizer transcripts, official descriptions, speaker-bylined written source, historical disclosures and synthesis remain distinct.",
+  "checks": [
+    "All37brief URLs registered",
+    "All37brief IDs unique",
+    "Slide36recording references corrected",
+    "Dailyfollowupsrenderonce",
+    "Newsourceclassesandpublicationdatesretained",
+    "HTMLcorecontains170\u2013290wordsperpage",
+    "PowerPointZIPandXMLvalid",
+    "37slidesand37notes",
+    "9nativeeditabletables",
+    "NativeSVGgatezeroerrorszerowarnings",
+    "HTMLDOMnavigationandinteractionchecks passed"
+  ],
+  "limitations": [
+    "No audiovisual viewing claimed",
+    "Standalonecaptionsreturnedempty;descriptionevidenceonly",
+    "Companyeffectsnotindependentlyvalidated",
+    "NoactualbrowserorPowerPointrenderperformed;localbrowserrestrictionremains"
+  ]
+}

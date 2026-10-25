@@ -1,55 +1,55 @@
 {
   "grounding-01": {
-    "headline": "Time, meaning, and access define the financial question an agent can answer",
-    "lead": "Bridgewater’s Vault discussion connects institutional knowledge to time, business meaning, and access. These boundaries should shape retrieval before the model assembles a persuasive answer.",
+    "headline": "Ground facts and memory in time, meaning, access and source health",
+    "lead": "Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections.",
     "insights": [
       {
-        "title": "Scope before retrieving evidence",
-        "text": "Bridgewater describes combining external research, news, and transcripts with internal information, organized around market, country, concept, and time. Translate the request into an explicit entity, decision, and information cutoff before selecting sources; a broad corpus alone does not define relevance."
+        "title": "Set the evidence boundary",
+        "text": "Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task."
       },
       {
-        "title": "Enforce access during retrieval",
-        "text": "The Bridgewater and turbopuffer permissions case describes enforcing user-level permissions in retrieval. Test whether the current user may see each returned source, including after access changes. Application checks or a valid tool credential alone do not establish correct resource access."
+        "title": "Preserve changing beliefs",
+        "text": "Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence."
       },
       {
-        "title": "Carry definitions into context",
-        "text": "A model can retrieve the right document while answering with the wrong business definition. Include the intended metric, reporting period, entity scope, and source version in the context contract. Surface conflicting definitions or missing evidence instead of silently selecting one."
+        "title": "Treat missing signals honestly",
+        "text": "A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field."
       }
     ]
   },
   "grounding-02": {
-    "headline": "Human attention and agent coverage require different retrieval objectives",
-    "lead": "Bridgewater contrasts compact, high-signal human search with broader agent retrieval. Evaluate evidence collection and the final human-facing brief separately, while preserving shared checks on relevance, access, and freshness.",
+    "headline": "Evaluate eligible evidence coverage separately from human-facing relevance",
+    "lead": "Bridgewater supplies a concrete retrieval-learning loop: label relevant and plausible irrelevant evidence, reproduce complaints, and test filtering under the constraints found in real use. Larger context alone is not the objective.",
     "insights": [
       {
-        "title": "Protect scarce human attention",
-        "text": "The Vault notes emphasize precision and signal-to-noise for people consuming a small result set. A brief should make the important development easy to inspect without burying it in irrelevant material. Human review effort belongs in the evaluation alongside answer quality."
+        "title": "Make relevance observable",
+        "text": "The speakers describe roughly 200 manually labeled questions and a reported precision@10 rise from about 60% to 90–95%. The speaker corrects an initial “recall” reference to precision. This is an internal retrieval comparison, not measured final-answer quality or investment performance."
       },
       {
-        "title": "Test coverage before compression",
-        "text": "An agent may need broader retrieval to avoid missing decisive evidence, but irrelevant context can still distract it. Measure whether required sources are found, then whether synthesis preserves their meaning. Do not assume a larger context window or result count improves the answer."
+        "title": "Test restrictive filters",
+        "text": "Post-filtering can discard eligible candidates after vector search; exhaustive pre-filtered scoring can be slow. Evaluate combinations of time, source and asset constraints, including sparse matches and no evidence. Measure coverage and latency rather than choosing an index from a generic benchmark."
       },
       {
-        "title": "Evaluate the delivered feed",
-        "text": "Bridgewater’s investor-workbench examples include activity feeds and evidence-backed summaries around what an investor might be missing. Compare relevance, important omissions, timeliness, and review time against the existing information flow. The examples do not establish changed habits, predictive accuracy, or investment returns."
+        "title": "Design for the consumer",
+        "text": "An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration."
       }
     ]
   },
   "grounding-03": {
-    "headline": "Every reported number needs meaning, source history, and calculation lineage",
-    "lead": "Kepler describes retrieval, code-based arithmetic, typed facts, and citation checks. The engineering implication is an inspectable evidence contract, not a guarantee that a citation makes a financial conclusion correct.",
+    "headline": "Resolve numbers through facts and code, then verify the final claim",
+    "lead": "Kepler distinguishes a wrong source, a wrong fact inside the right source and a wrong calculation. Its released accounts add a constrained number path; final generation still needs checks after retrieval and arithmetic.",
     "insights": [
       {
-        "title": "Separate retrieval from arithmetic",
-        "text": "Kepler’s account distinguishes finding source material from calculating a result. Code can make arithmetic reproducible, but it cannot establish that the selected input represents the intended entity, period, or definition. Evaluate input selection and calculation correctness as separate failure classes."
+        "title": "Use a structured fact",
+        "text": "The standalone breakout description names value, unit, scale and period. The next-day transcript describes fact identifiers resolved by software while a model plans. Preserve the source anchor and calculation inputs; a valid identifier still needs the correct entity, definition and version."
       },
       {
-        "title": "Register meaning with values",
-        "text": "A useful typed-fact contract carries entity, metric, period, unit, currency, source version, and passage alongside the value. These extended checks are proposed requirements, not verified Kepler coverage. Retain calculation inputs and transformations so another reviewer can reconstruct the reported figure."
+        "title": "Keep access on every path",
+        "text": "Exact lookup does not bypass authorization. Search, direct reads, calculation inputs and output references must remain within the user and tenant scope. Test revoked access and empty evidence as well as the successful path; a citation chip does not enforce permission."
       },
       {
-        "title": "Make failed support visible",
-        "text": "Citation repair may recover an exact value or formatting variant without resolving a semantic mismatch. Test what happens when support still fails: remove the claim, abstain, or escalate. Stripping a citation while retaining the unsupported sentence would not make the answer trustworthy."
+        "title": "Verify what the user receives",
+        "text": "The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support."
       }
     ]
   },
@@ -72,110 +72,110 @@
     ]
   },
   "grounding-05": {
-    "headline": "Inspectability must survive the journey from source passage to exported artifact",
-    "lead": "OpenAI’s finance presentation described source passages, tables, charts, and generated documents. Connect these interfaces to an evidence contract that remains usable in the artifact people review and share.",
+    "headline": "Evidence and corrections must survive into the document people actually use",
+    "lead": "Financial work often ends in a workbook, report or presentation. Inspectable chat output is insufficient if an export loses provenance, carries an old calculation or hides a contradictory period in a polished chart.",
     "insights": [
       {
-        "title": "Connect claims to passages",
-        "text": "The OpenAI discussion links financial data access with interfaces for inspecting passages and tables. Keep the relevant evidence near consequential claims rather than providing a generic source list. Product availability, provider entitlements, and the exact citation implementation still require confirmation."
+        "title": "Preserve the claim chain",
+        "text": "OpenAI’s finance presentation connects source passages and tables to charts and reusable artifacts. Carry the material value, period, unit and source into the deliverable. Reconcile the document with the current evidence after a correction rather than treating export as a cosmetic step."
       },
       {
-        "title": "Carry provenance through transformations",
-        "text": "A correct intermediate value can become misleading when an exported chart drops its unit, period, or source version. Preserve typed fields and calculation lineage through tables, charts, and documents. Test the delivered artifact, including formatting changes, rather than only the model response."
+        "title": "Check collaborative scope",
+        "text": "Compound AI describes shared deal threads, an agent inbox and longer artifact work. Permissions must follow participants and source material, not only the connector. Inspect workbook depth, file coverage and final fidelity separately; vendor architecture is not independently verified Office parity."
       },
       {
-        "title": "Evaluate the reviewer’s task",
-        "text": "Inspectability makes review possible; it does not prove that a reviewer finds an error or that the source supports the claim. Measure whether someone can locate evidence, understand transformations, detect planted mistakes, and correct the final artifact without reconstructing the entire workflow."
+        "title": "Review the current saved artifact",
+        "text": "Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable."
       }
     ]
   },
   "workflows-01": {
-    "headline": "Reusable skills must encode expert reasons, required questions, and limits",
-    "lead": "Range’s planners describe turning their own methods into agent skills. Pick–Teach–Pack–Test–Ship makes judgment explicit, while ownership and peer review keep the instructions maintainable as practice changes.",
+    "headline": "Expert skills need reasons, stopping conditions, ownership and independent review",
+    "lead": "Range’s released account turns the five-step process into a maintained operating practice. The skill expresses professional judgment in a form agents can reuse; people remain responsible for its validity and for client-facing recommendations.",
     "insights": [
       {
-        "title": "Teach the firm’s method",
-        "text": "Range distinguishes general planning knowledge from how its professionals deliver recommendations. Start with a repeated workflow whose result an expert can judge, then narrate a representative case and the reasons behind decisions. Capture judgment rather than asking the agent to imitate a polished answer."
+        "title": "Pick and teach a whole task",
+        "text": "Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation."
       },
       {
-        "title": "Package questions and limits",
-        "text": "A skill needs required client inputs, ways to obtain authorized information, clarification questions, and boundaries it must respect. Missing facts should change the workflow, not invite invented assumptions. Make exceptions and handoff conditions explicit enough to test on difficult cases."
+        "title": "Pack the boundaries",
+        "text": "Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment."
       },
       {
-        "title": "Maintain an accountable instruction",
-        "text": "Range’s current abstract describes planners maintaining skills and peer-reviewing them like plans. Assign an owner and reviewer, retain change history, and retest revisions. Include incomplete facts and conflicting instructions to check when the skill clarifies, hands off or refuses an unsupported conclusion."
+        "title": "Ship with maintenance",
+        "text": "Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study."
       }
     ]
   },
   "workflows-02": {
-    "headline": "Drafting useful work does not grant permission to recommend or act",
-    "lead": "The synthetic review packet separates authorized facts, agent preparation, professional judgment, and execution. Its USD 36,000 arithmetic difference supports inspection, not an affordability conclusion or a product recommendation.",
+    "headline": "Let agents iterate inside a stage; require explicit evidence to advance",
+    "lead": "Coinbase’s framework places bounded draft/check/refine loops inside a forward-moving policy workflow. Drafting, professional judgment and execution authority remain different decisions, even when one interface makes the work feel continuous.",
     "insights": [
       {
-        "title": "Separate facts from judgment",
-        "text": "The fictional inputs show annual income of USD 120,000 and recorded expenses of USD 84,000. Their USD 36,000 difference is arithmetic, not disposable capacity or an insurance need. The agent should expose missing facts and assumptions rather than infer suitability from this subtraction."
+        "title": "Define the stage contract",
+        "text": "Specify the allowed inputs, checkable output, iteration budget and human takeover condition. The loop can improve a draft while the outer workflow waits for the required acceptance or approval. Faster generation can shift the bottleneck to review rather than remove it."
       },
       {
-        "title": "Make review a decision",
-        "text": "Range’s vignette has an agent draft another client’s analysis while a planner serves someone else, followed by review and adjustment. A useful review packet exposes inputs, calculations, gaps, and proposed conclusions. Evaluate accepted work after corrections, rather than counting drafts as completed professional service."
+        "title": "Keep professional judgment visible",
+        "text": "The invented annual packet below subtracts $84k recorded expenses from $120k income: $36k is only an arithmetic difference. It establishes neither disposable capacity nor suitability. Review the facts, gaps, assumptions and conclusions before the work can be considered accepted."
       },
       {
-        "title": "Keep execution authority separate",
-        "text": "Wise’s framework description separates model proposals from authority to act. In this proposed workflow, reviewing a draft does not automatically authorize sending it or executing a transaction. A separate service should enforce the permitted action and retain who approved it, for which case."
+        "title": "Separate review from permission",
+        "text": "Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence."
       }
     ]
   },
   "workflows-03": {
-    "headline": "Authority must be enforced outside the agent’s proposed action",
-    "lead": "Two Sigma describes ownership, declared access, risk scoring, and active controls; Wise separates reasoning from authority. Together, these ideas make the permission path as explicit as the data path.",
+    "headline": "Enforce identity, scope and stopping conditions outside the agent",
+    "lead": "Two Sigma’s ownership/access framing and Bloomberg’s execution defenses meet at one point: the model can propose an action, but an enforcing service must decide whether it can happen.",
     "insights": [
       {
-        "title": "Make agents owned systems",
-        "text": "Two Sigma’s registry records owners, products, tools, and evaluations, with risk scoring informed by access and controls. Use that inventory to locate responsibility and identify required checks. Registration provides visibility; it is not evidence that an agent’s permissions or behavior are constrained."
+        "title": "Make the agent accountable",
+        "text": "Register an owner, purpose, tools and accessible resources. Use short-lived scoped identity and carry the user’s authority through the tool path. A valid credential or schema does not establish that a business action is appropriate for this case."
       },
       {
-        "title": "Enforce the requested scope",
-        "text": "A model can propose a tool call while policy decides whether the user, case, resource, and action are permitted. Test revoked access, cross-user scope, retries, and duplicate requests. A valid credential or technically successful API call does not establish an appropriate business action."
+        "title": "Test the actual boundary",
+        "text": "Challenge cross-tenant queries, revoked access, agent-to-agent privilege escalation, retries and budget exhaustion. Bloomberg recommends deterministic invocation checks and egress limits including DNS. Verify that a denied action is blocked and a halt condition stops execution, rather than merely producing an alert."
       },
       {
-        "title": "Treat triage as fallible",
-        "text": "The Two Sigma notes mention an independent classifier for deciding when human approval is needed, without performance or enforcement details. Evaluate missed consequential cases and unnecessary interruptions. A classifier’s output can inform review routing; its independence alone does not justify waiving required approval."
+        "title": "Treat memory as an input surface",
+        "text": "A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval."
       }
     ]
   },
   "workflows-04": {
-    "headline": "Verification must catch different failures at creation, release, and operation",
-    "lead": "Sonar’s three-loop framing places checks during generation, before release, and after deployment. Intent, guardrails, verification, and evidence form a design checklist—not a calibrated confidence formula.",
+    "headline": "Make verification cheap at creation and independent at release and operation",
+    "lead": "Sonar’s three-loop framing becomes useful when each loop has a distinct job. Capital One adds a complementary lesson: standard infrastructure can reduce the cost of engineering rigor instead of leaving verification to a late manual cleanup.",
     "insights": [
       {
-        "title": "Prevent local mistakes early",
-        "text": "The creation loop guides generated work with explicit goals, standards, and constraints, then checks local changes before they accumulate. It can reduce avoidable rework in principle, but needs evaluation. Agreement from another model or a quick human approval is not independent correctness evidence."
+        "title": "Creation: prevent and inspect",
+        "text": "Supply intent, constraints, shared test fixtures and fast low-noise checks while work is generated. Keep deterministic checks for properties that can be asserted exactly. Another model’s agreement or a quick approval does not replace independent evidence of correctness."
       },
       {
-        "title": "Verify the system before release",
-        "text": "Release checks should examine behavior beyond the edited fragment: interfaces, permissions, financial invariants, and regressions. Keep reproducible test evidence and assess whether the checker detects important defects. Neither a passing suite nor a fail-leaning judge establishes that every consequential failure has been covered."
+        "title": "Release: verify the complete change",
+        "text": "Test interfaces, permissions, financial invariants and representative regressions. Inspect the current saved artifact after the last edit. Keep the evidence and the decision owner together; a check that can be bypassed or does not halt the relevant action is an incomplete gate."
       },
       {
-        "title": "Verify repairs during operation",
-        "text": "Production observations reveal failures the pre-release assessment missed. Turn an incident into a reproducible case, test the repair alongside other workloads, and retain rollback conditions. Prevention remains a priority, while detection and response remain necessary; the framework does not establish autonomous self-healing."
+        "title": "Operation: reproduce and repair",
+        "text": "Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software."
       }
     ]
   },
   "workflows-05": {
-    "headline": "Financial invariants remain essential when AI accelerates a code change",
-    "lead": "Vanguard’s ledger-modernization account separates producer migration, replicated financial state, and consumer migration. AI-assisted engineering remains subordinate to transaction completeness, consistency, controlled retries, and reviewable reconciliation.",
+    "headline": "Long-running financial work needs durable state and deliberate recovery",
+    "lead": "Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window.",
     "insights": [
       {
-        "title": "Map the financial dependencies",
-        "text": "Vanguard describes independently progressing producer and consumer migrations around a replicated gold copy, with change data capture (CDC) synchronization and decoupled access. The useful lesson is to identify where financial state originates, changes, and is consumed. This case structure is not a prescription for every modernization."
+        "title": "Persist the handoff",
+        "text": "Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed."
       },
       {
-        "title": "Make invariants directly observable",
-        "text": "Database-layer idempotency is highlighted in Vanguard’s account. Translate completeness, duplicate prevention, and consistency into observable checks at the relevant boundaries, including retry and recovery paths. Faster code generation cannot demonstrate that no transaction was omitted or that a repeated operation is safe."
+        "title": "Freeze the approved action",
+        "text": "Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action."
       },
       {
-        "title": "Isolate the contribution of AI",
-        "text": "Vanguard says AI tools helped maintain two codebases, without isolating their incremental benefit. Separate the migration controls that preserved financial behavior from any improvement in engineering effort. Compare equivalent changes, review and rework, correctness, and operating cost before attributing the whole project’s outcome to AI."
+        "title": "Distinguish unknown from failed",
+        "text": "A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy."
       }
     ]
   }

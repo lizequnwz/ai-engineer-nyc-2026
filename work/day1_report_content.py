@@ -1,6 +1,7 @@
 """Day 1 content shared by the Markdown synthesis and HTML report."""
 from pathlib import Path
 import json, html
+from recording_content import daily_update
 W=Path(__file__).resolve().parent
 NOTES=json.loads((W/'day1_notes_data.json').read_text())
 SYNTH=json.loads((W/'day1_learning_synthesis.json').read_text())
@@ -39,7 +40,7 @@ def markdown():
     for a in APPLICATIONS:
         out += ['### '+a['title'],'**Hypothesis:** '+a['hypothesis'],'**Smallest useful comparison:** '+a['test'],'**Measures:** '+a['measure'],'**Limit:** '+a['limit']]
     out+=['## Priority follow-ups',*['- '+x for x in FOLLOWUPS],'## Suggested team readout','1. Lead with three findings: task-specific information access, risk-based operating controls/evaluation, and counterfactual value measurement.','2. Explain the Bridgewater, Two Sigma, and Contour mechanisms, then use Kepler to make numerical trust concrete.','3. Discuss the durability and oversight tradeoffs rather than presenting every technique as universally beneficial.','4. Close with proposed evaluation questions and the evidence still missing. Day 2 can strengthen, qualify, or revise the argument.','## Source and editorial notes','Primary source: the attendee’s pasted Day 1 notes, supplied October 13, 2026. The wording has been corrected for spelling and organized for coherence. Ambiguous details remain explicit. No slides, recordings, datasets, product documentation, or independent results were inspected for this synthesis. Session metadata matches the previously saved official program; the schedule has not been newly verified.','The raw notes remain the underlying record. In particular, the reactive/proactive reversal, the undefined expected-loss terms, the unspecified A/B design, the recorded retrieval settings, and the unverified product/skill names have not been silently resolved.']
-    return '\n\n'.join(out)+'\n'
+    return '\n\n'.join(out)+'\n'+daily_update(1)
 
 def render_html(refs):
     lead='<div class="day1-lessons">'

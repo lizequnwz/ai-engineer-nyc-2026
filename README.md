@@ -1,16 +1,25 @@
 # AI Engineer NYC 2026 — conference knowledge archive
 
-Conference: October 13–14, 2026 · Package prepared: October 17, 2026
+Conference: October 13–14, 2026 · Package prepared: October 17, 2026 · Recording update: October 25, 2026
 
 Research, attendee notes, technical learnings, presentation decks and application recommendations prepared for a Principal Data Scientist at Fidelity Investments. Audience: data scientists, AI engineers and technical leads.
 
 **Start here:** download/clone the repository and open [START-HERE.html](START-HERE.html) locally. For the conference briefing, use the **conference-takeaways PowerPoint** or the **conference learning HTML presentation**. The application-improvements deck is a separate companion.
+
+## October 25 recording update
+
+The current conference materials include **37 later-source briefs and 76 registered references**. The review screened 90 channel uploads, inspected 50 official descriptions and read selected transcripts from the organizer’s 52-session NYC archive. Twenty-three core HTML slides were substantially revised; the presentation remains 29 core slides / 40 minutes plus eight reference pages.
+
+New detail covers Basis process supervision, Ramp roll-forward memory tests, Bridgewater retrieval evaluation, Kepler numerical verification, Range skill ownership, Arca/Perpetual durable financial workflows, and Citadel Securities institutional memory. Transcript evidence, description-level evidence, a separate speaker-bylined article, historical disclosures and teaching examples remain distinct.
+
+Begin with the [recording-enhanced learning report](outputs/ai-engineer-nyc-2026-recording-supplement.md) for the full synthesis and worked example. The daily notes preserve original observations and add dated follow-ups. The application roadmap and personal-project review retain their earlier scope.
 
 ## Final deliverables
 
 | Artifact | Purpose |
 | --- | --- |
 | [Conference takeaways · PowerPoint](outputs/ai-engineer-nyc-2026-conference-takeaways.pptx) | 37 editable slides; 29 core slides plus 8 appendix slides; embedded speaker notes. |
+| [Recording-enhanced learning report](outputs/ai-engineer-nyc-2026-recording-supplement.md) | Six teaching lessons, 37 company/method briefs, worked example, practitioner playbook and source boundaries. |
 | [Conference speaker notes](outputs/ai-engineer-nyc-2026-conference-takeaways-notes.md) | Narrative companion to the conference PowerPoint. |
 | [Conference learning presentation · HTML](outputs/ai-engineer-nyc-2026-presentation.html) | Integrated 40-minute briefing with presentation and reading modes, technical examples, company stories and sources. |
 | [Detailed industry report](outputs/ai-engineer-nyc-2026-industry-report.html) | Two-day synthesis of financial-services and wealth-management themes, evidence and practical techniques. |
@@ -21,7 +30,7 @@ Research, attendee notes, technical learnings, presentation decks and applicatio
 | [Application improvements · PowerPoint](outputs/ai-engineer-nyc-2026-application-improve.pptx) | 28 editable slides; separate from the conference-takeaways deck. |
 | [Application speaker notes](outputs/ai-engineer-nyc-2026-application-demo-notes.md) | Narrative companion to the application-improvements PowerPoint. |
 
-All ten files in `outputs/` are preserved byte-for-byte from the final local deliverables. The reports and presentations intentionally serve different purposes; they are not duplicate exports of the same document.
+All eleven files in `outputs/` match the current local deliverables. Conference materials were revised October 25; application companions and the historical field guide retain their original scope. The reports and presentations intentionally serve different purposes; they are not duplicate exports of the same document.
 
 ## Main learning themes
 
@@ -45,7 +54,7 @@ Interactive notes added while using an HTML report may live in browser storage. 
 ## Repository layout
 
 ```text
-outputs/              All 10 final reports, decks and Markdown notes
+outputs/              All 11 final reports, decks and Markdown notes
 work/                 Curated research data, snapshots, HTML builders and supporting reviews
   presentation/       HTML learning presentation: content, CSS, JavaScript and builder
   applications/       Application-roadmap builder and recorded checks
@@ -60,7 +69,7 @@ SHA256SUMS.txt         Checksums for package files, excluding itself
 
 ## Scope and evidence
 
-The archive combines dated pre-event research, attendee recollections, cited public materials, editorial synthesis and explicitly synthetic examples. Preserve the qualifications in the artifacts when reusing them. A conference description or speaker account does not independently validate production performance.
+The archive combines dated pre-event research, attendee recollections, released organizer transcripts, official video descriptions, a separate written follow-up, cited public materials, editorial synthesis and explicitly synthetic examples. Preserve the qualifications in the artifacts when reusing them. A conference description or speaker account does not independently validate production performance.
 
 Application materials include the attendee’s Fidelity architecture, evaluation practices, latency/context estimates and CRM plans, plus a dated read-only review of a separate personal analytics-agent repository. **A private repository is recommended for this complete package.** This is not a public-redacted edition. No internal Fidelity code or datasets, personal-project code checkout, credentials, installed dependencies or browser-stored notes are included. Historical filesystem paths and source-file anchors may appear as evidence context; the referenced personal repository is not bundled.
 
@@ -68,6 +77,6 @@ No repository-wide license has been selected. Third-party conference materials r
 
 ## Packaging and validation
 
-Final artifacts were preserved unchanged. Installed dependencies, caches, duplicate schedule/PPT exports, SVG backups, temporary text extracts, live-preview files and one-time mutation scripts were omitted. Source portability edits are recorded in `MANIFEST.json`; existing validation receipts retain original paths.
+The current artifacts were synchronized with the recording revision. Full third-party transcripts, raw watch pages and signed caption URLs are excluded. Installed dependencies, caches, duplicate schedule/PPT exports, SVG backups, temporary text extracts, live-preview files and one-time mutation scripts were omitted. Source portability edits are recorded in `MANIFEST.json`; existing validation receipts retain original paths.
 
 See [BUILDING.md](BUILDING.md) for checked build paths and limitations. Checksums verify file integrity; the original PPTX postflight reports describe structural checks. Neither is a substitute for reviewing the rendered slides before presenting.

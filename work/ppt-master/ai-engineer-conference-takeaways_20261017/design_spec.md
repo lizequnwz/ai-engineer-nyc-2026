@@ -25,6 +25,7 @@
 | Custom Animations | disabled — delegated static teaching design |
 | Narration Audio | disabled — default |
 | Created Date | 2026-10-17 |
+| Revised Date | 2026-10-25 |
 
 The user's correction identifies this exact source HTML and a separate PPT. Audience, English, 40 minutes, reading depth and theme delegation persist from the explicit earlier confirmations. Free design is retained; no UI receipts are fabricated. Three full intents were considered: Evidence into Practice (conclusion-led, light editorial, serif/sans), Operating Blueprint (instruction-led dark technical paths) and Case Notebook (case-first warm narrative). Evidence into Practice best supports self-contained methods and comparable company evidence; the other two are not selected. Image rendering candidates are minimalist-swiss, blueprint and editorial respectively, with no selected raster job.
 
@@ -149,53 +150,64 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Core message**: Contour: compare research with and without AI; an accepted insight is not demonstrated investment alpha.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Contour: compare research with and without AI; an accepted insight is not demonstrated investment alpha.
-  - Range: an agent drafts while a planner serves another client, then the planner reviews and adjusts. Include corrections and missing information in completion; no measured net capacity gain was captured.
-  - OpenAI finance interfaces connect source passages, tables, charts and reusable artifacts. Follow each material claim through source and calculation into the shared document; polished formatting does not prove financial interpretation.
+  - Decompose the decisionCoatue models investing as contexttransformed into selection, sizeand timing. Break the work intocollection, interpretation,checking and judgment. A step mayuse code, classical ML, an LLM or aperson; the objective is a sounddecision process rather thanmaximum LLM coverage.
+  - Observe the real workflowApollo/Redding Ridge describesportfolio preparation for PMrefinement and recurring financingreports followed by team QA.Reconciliation means learning whyone feed is authoritative, notmerely joining files. Define whichdeliverable is accepted, who checksit and which corrections remain.
+  - Preserve professionalattentionRange drafts planning work whileprofessionals serve clients; theplanner reviews recommendations andthe agent sends nothing. Time savedbecomes valuable when it improvesaccepted capacity or attention toconsequential judgment. Draftvolume alone does not establishbetter advice, revenue orinvestment outcomes.
+
 - **Sources**: S01, S02, S03; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 04 - Match success measures to the financial bottleneck
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 04 - Match the system to the decision and its budget
 
 - **Audience move**: Compare workflows on their own bottleneck.
 - **Relationships**: contrast: evidence, professional attention, permitted execution and engineering support impose different acceptance criteria.
-- **Title**: Match success measures to the financial bottleneck
+- **Title**: Match the system to the decision and its budget
 - **Core message**: Bridgewater addresses information reaching an investment decision through time-scoped evidence and summaries. Range addresses parallel preparation through expert methods and planner review.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Bridgewater addresses information reaching an investment decision through time-scoped evidence and summaries. Range addresses parallel preparation through expert methods and planner review.
-  - Two Sigma describes a registry, declared resources, risk scoring and active controls. Test useful permitted tasks and denied actions; registration alone does not establish protection.
-  - Monzo shared runtime/Slack distribution and Optiver task certification/model routing are program context. Assess discovery, access, review and support; no autonomous trading or causal firmwide savings follows from these descriptions.
+  - {"schema":"ppt-master.semantic-table.v2","name":"bottleneck-map","x":48,"y":184,"width":1184,"height":380,"column_widths":[300,390,494],"row_heights":[52,82,82,82,82],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Company / work","bold":true},{"text":"Bottleneck","bold":true},{"text":"Acceptance focus","bold":true}],"rows":[["Bridgewater / Coatue","Evidence and investment attention","Eligible sources; evaluated decision steps."],["Range / Apollo–Redding Ridge","Professional preparation","Expert methods; reconciled inputs; reviewed drafts."],["Wells Fargo","Fraud decisions at transaction speed","Transaction representation; detection and false positives."],["Blackstone / Norm.ai","Adapt to improving models","Accessible data; durable evaluations; production controls."]]}Company / workBottleneckAcceptance focusBridgewater / CoatueEvidence and investment attentionEligible sources; evaluated decision steps.Range / Apollo–Redding RidgeProfessional preparationExpert methods; reconciled inputs; revieweddrafts.Wells FargoFraud decisions at transaction speedTransaction representation; detection and falsepositives.Blackstone / Norm.aiAdapt to improving modelsAccessible data; durable evaluations; productioncontrols.
+  - Different forms, one discipline: match the data representation, executor and operating budget to the decision.These are practitioner accounts, not a maturity ranking or causal financial comparison.
+
 - **Visualization**: table/comparison_matrix; keyed independent table object: bottleneck-map.
 - **Native-ready**: bottleneck-map=yes
 - **Sources**: S04, S02, S05, S06, S07; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 05 - Wealth AI augments preparation, knowledge and review
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 05 - Wealth agents prepare; professionals retain authority
 
 - **Audience move**: Transfer the workflow pattern while retaining historical dates.
 - **Relationships**: membership: four wealth cases support distinct stages of a professional workflow.
-- **Title**: Wealth AI augments preparation, knowledge and review
+- **Title**: Wealth agents prepare; professionals retain authority
 - **Core message**: Range, October 2026: planner-authored methods, parallel analysis and professional review; measured advice quality or net capacity gain is not established.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Range, October 2026: planner-authored methods, parallel analysis and professional review; measured advice quality or net capacity gain is not established.
-  - Morgan Stanley, June 26, 2024: consent-based Debrief notes, action items, advisor-edited follow-up and CRM capture. Separate Assistant adoption from Debrief productivity.
-  - UBS, February 4, 2025: Red provides advisor access to institutional products/research/CIO knowledge. RBC, March 27, 2025: client-context preparation; US-pilot conversion and survey adoption/satisfaction have different populations.
-  - These dated corporate disclosures illustrate workflows, not the latest universal rollout or causal client/revenue outcomes.
+  - Turn expertise into a methodRange’s skill records reasons,required questions, exceptions andstopping conditions. An ownermaintains it and a separatereviewer checks it. The plannerreviews every recommendation beforeclient delivery. Five to tenexamples are a starting testroutine, not sufficient releaseassurance.
+  - Continue across real delaysArca’s tax-payment illustrationspans replies, approvals, tradesand settlement. Long horizon meansdurable shared plans andevent-driven resumption, ratherthan continuous model thought.Track who owns the next action,what event wakes the task and whichapproval is still required.
+  - Bind approval to the actionPerpetual describes typedinterpretation, a validatingcompiler and immutable approvedplans. Approval attaches to theexact outgoing payload; an unknowndispatch outcome goes to manualreview. Historical Morgan Stanley,UBS and RBC disclosures remainuseful preparation/knowledgeexamples with their original dates.
+
 - **Sources**: S02, E01, E02, E03, E04; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 06 - Adoption is only the first rung of business value
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 06 - Process measures precede claims of financial impact
 
 - **Audience move**: Ask which extra evidence justifies a stronger business claim.
 - **Relationships**: order: use precedes accepted work, process improvement and attributable outcome claims.
-- **Title**: Adoption is only the first rung of business value
+- **Title**: Process measures precede claims of financial impact
 - **Core message**: Adoption: usage by task/cohort. Accepted work: quality, critical failures and reviewer effort. Process change: time, throughput, capacity and reliability. Attributable value: credible alternative, full cost and uncertainty.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Adoption: usage by task/cohort. Accepted work: quality, critical failures and reviewer effort. Process change: time, throughput, capacity and reliability. Attributable value: credible alternative, full cost and uncertainty.
-  - Contour describes roughly three months of AI/non-AI workflow tracking, but no captured random assignment, controls or causal alpha estimate. The window is not a universal validation period.
-  - Preserve point-in-time inputs, reasoning, reviewer response and subsequent decisions to avoid hindsight. Report process changes separately from returns affected by markets, selection and other drivers.
+  - UseAccepted workProcess changeAttributable value
+  - Define useful output firstContour’s official releasedescribes live research comparisonsand cost per useful insight,including repair effort. Defineuseful insight, eligible work andthe comparison before looking atoutcomes. Its description does notdisclose enough assignment, sampleor control detail to establishcausal alpha.
+  - Keep the decision recordPreserve what was known when anidea was proposed, its sources,reasoning, reviewer response andsubsequent decision. Agentsrevisiting an old idea may improvetiming or attention; a laterprofitable position still dependson markets, selection, sizing andhuman action.
+  - Inspect the denominatorJellyfish includes human salary andAI spend per merged PR, andinspects reverts/change size. Thatobservational engineering proxysuggests measuring accepted workwith quality counterchecks. It doesnot establish that spending morecauses improvement or that a mergedPR equals business value.
+
 - **Sources**: S01, S06; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
+
+- **Recording revision**: October 25; preserve source classes in notes.
 #### Slide 07 - Count the full cost of accepted work
 
 - **Audience move**: Evaluate completed-work economics at equivalent quality.
@@ -204,52 +216,65 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Core message**: Proposed measure: total workflow cost divided by accepted tasks. Include inference, data, tools, retries, candidate selection, review, rework and operational support; failed and abandoned attempts still cost money.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Proposed measure: total workflow cost divided by accepted tasks. Include inference, data, tools, retries, candidate selection, review, rework and operational support; failed and abandoned attempts still cost money.
-  - Hold task mix and acceptance standards fixed. Optiver’s agenda-based task qualification suggests testing quality before price optimization; one workload’s certification does not generalize automatically.
-  - Predeclare eligible tasks, acceptance and exclusions. Report accepted-task rate beside unit cost so narrowing coverage cannot masquerade as improvement. No invented savings or optimal routing policy is asserted.
+  - FULL WORKFLOW COSTAll costs ÷ acceptedtasksAttempts + tools + review + rework + operation
+  - A context-use demonstration24,000 → 2,400 tokensCredit Karma’s Artifactory example motivates a pairedquality test. It does not establish equal answers or ageneral latency improvement.
+  - Count the work people retainA reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandonedruns and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit costso narrower coverage cannot masquerade as improvement. Jellyfish’s salary-plus-AI framing and Ramp’s narrowspecialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and humandelays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse.
+
 - **Sources**: S01, S07; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 08 - Ground the question in time, meaning and access
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 08 - Ground facts and memory in time and access
 
 - **Audience move**: Put the evidence boundary before persuasive synthesis.
 - **Relationships**: order: scoped request, authorized evidence boundary and reviewed meaning produce context and supported claims.
-- **Title**: Ground the question in time, meaning and access
+- **Title**: Ground facts and memory in time and access
 - **Core message**: Bridgewater Vault combines internal/external research, news and transcripts using market, country, concept and time. Resolve entity, decision and information cutoff before retrieval.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Bridgewater Vault combines internal/external research, news and transcripts using market, country, concept and time. Resolve entity, decision and information cutoff before retrieval.
-  - The separate Bridgewater/turbopuffer permissions session is agenda-only context: enforce user-level access during retrieval and test revocation. Credentials alone do not establish correct resource access.
-  - Carry metric definition, period, entity scope and source version; surface conflicts and gaps. The diagram is a proposed synthesis, and reported Vault/PAT production use is not an independent quality result.
+  - Set the evidence boundaryBridgewater’s Vault organizesresearch by source, market,country, concept and discussedperiod. Apply entitlements and timeconstraints before synthesis. Acorrect answer to a neighboringperiod, entity or definition isstill a failure of the requestedtask.
+  - Preserve changing beliefsCitadel Securities separatesreported project status fromevidence-based status, keepshistorical records, ages claims andcompares earlier predictions withlater outcomes. Models proposeupdates; code and people decidewhat enters the record. This isricher than retrieving the latestmatching sentence.
+  - Treat missing signalshonestlyA quiet source can mean acollection problem rather thaninactivity. Preserve last observedtime, source health and correctionhistory; unknown is not zero. Ourcombined evidence contract addsversioned definitions and as-ofsnapshots, without claiming asingle firm implemented everyfield.
+
 - **Sources**: S04, S08, S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 09 - Retrieve for coverage; synthesize for human attention
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 09 - Test relevance, coverage and restrictive filters
 
 - **Audience move**: Evaluate retrieval and final human-facing synthesis separately.
 - **Relationships**: contrast: human review and agent evidence collection emphasize different objectives with shared evidence checks.
-- **Title**: Retrieve for coverage; synthesize for human attention
+- **Title**: Test relevance, coverage and restrictive filters
 - **Core message**: Vault notes emphasize human precision, signal-to-noise and small reviewable sets; agents may need broader recall and scale. Neither consumer can ignore relevance, access, meaning or freshness.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Vault notes emphasize human precision, signal-to-noise and small reviewable sets; agents may need broader recall and scale. Neither consumer can ignore relevance, access, meaning or freshness.
-  - Test required-source coverage before compression, then assess whether synthesis preserves meaning. More context or more results do not establish a better answer.
-  - Activity feeds, “What am I missing?” and evidence-backed summaries steer attention in the reported workbench. Measure relevance, omissions, timeliness and review time; no changed habits, predictive accuracy or returns were demonstrated.
+  - {"schema":"ppt-master.semantic-table.v2","name":"retrieval-objectives","x":48,"y":184,"width":1184,"height":262,"column_widths":[240,472,472],"row_heights":[52,70,70,70],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Design question","bold":true},{"text":"Human-facing search","bold":true},{"text":"Agent-facing retrieval","bold":true}],"rows":[["Observed emphasis","Precision and signal-to-noise.","Recall and scale."],["Consumption","A compact, reviewable result set.","Fast processing of more evidence."],["Shared requirements","Relevance, permission, meaning and freshness.","Relevance, permission, meaning and freshness."]]} Design questionHuman-facing searchAgent-facing retrieval Observed emphasisPrecision and signal-to-noise.Recall and scale.ConsumptionA compact, reviewable result set.Fast processing of more evidence.Shared requirementsRelevance, permission, meaning and freshness.Relevance, permission, meaning and freshness.
+  - Reported internal benchmark: ~200 labeled questions; precision@10 ~60% → 90–95%.The speaker corrects “recall” to precision. No held-out design, uncertainty or investment result is supplied.
+  - Test sparse time/source/asset filters, no-evidence cases and required-source coverage before compression. Theninspect retained meaning, omissions and human review effort in the final brief.
+
 - **Visualization**: table/comparison_matrix; keyed independent table object: retrieval-objectives.
 - **Native-ready**: retrieval-objectives=yes
 - **Sources**: S04; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 10 - Attach meaning and lineage to every material number
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 10 - Resolve the fact; compute; verify the final claim
 
 - **Audience move**: Separate arithmetic reproducibility from evidence validity.
 - **Relationships**: order: finding evidence, computing, registering facts and checking rendered claims are complementary responsibilities.
-- **Title**: Attach meaning and lineage to every material number
+- **Title**: Resolve the fact; compute; verify the final claim
 - **Core message**: Kepler describes planning, retrieval, code-based calculation, typed facts, citation registry and repair/filtering. This does not establish a verified complete ordered architecture or universal deterministic correctness.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Kepler describes planning, retrieval, code-based calculation, typed facts, citation registry and repair/filtering. This does not establish a verified complete ordered architecture or universal deterministic correctness.
-  - Proposed fact contract: entity, metric, period, value, unit/currency, source document/version/passage and calculation inputs/transformations. Extended entity/period/unit/restatement checks were not confirmed Kepler coverage.
-  - Citation repair can recover a formatting match without fixing semantics. If support still fails, remove, abstain or escalate; retaining an unsupported sentence after stripping its citation is not a repair. Ambiguous retrieval settings are not recommended defaults.
+  - Eligible sourceExact factCode calculationFinal claim check
+  - Use a structured factThe standalone breakout descriptionnames value, unit, scale andperiod. The next-day transcriptdescribes fact identifiers resolvedby software while a model plans.Preserve the source anchor andcalculation inputs; a valididentifier still needs the correctentity, definition and version.
+  - Keep access on every pathExact lookup does not bypassauthorization. Search, directreads, calculation inputs andoutput references must remainwithin the user and tenant scope.Test revoked access and emptyevidence as well as the successfulpath; a citation chip does notenforce permission.
+  - Verify what the user receivesThe main-stage transcriptexplicitly retains post-processingbecause generation can inventnumbers afterward. The breakoutdescription says unverifiablefigures are stripped. Ourrequirement is stronger: correct,remove or escalate the unsupportedmaterial claim, rather than leavepersuasive prose with brokensupport.
+
 - **Sources**: S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
+
+- **Recording revision**: October 25; preserve source classes in notes.
 #### Slide 11 - Correct arithmetic can still answer the wrong question
 
 - **Audience move**: Diagnose stale-source selection independently of calculation.
@@ -267,33 +292,40 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Data class**: scenario — the AsterCo/company documents/dates/values, cash-flow/client amounts, scoring scale and fail/pass/fail attempt sequence are invented teaching examples.
 - **Sources**: S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 12 - Preserve evidence through the exported artifact
+#### Slide 12 - Keep evidence intact through the exported artifact
 
 - **Audience move**: Evaluate what the reviewer actually receives.
 - **Relationships**: order: passage, typed table, chart and reusable document must retain provenance across transformations.
-- **Title**: Preserve evidence through the exported artifact
+- **Title**: Keep evidence intact through the exported artifact
 - **Core message**: OpenAI’s finance presentation described source inspection, tables, interactive charts and generated artifacts. Availability/roadmap and entitlements remain unclear; add no uncertain provider or partnership claim.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - OpenAI’s finance presentation described source inspection, tables, interactive charts and generated artifacts. Availability/roadmap and entitlements remain unclear; add no uncertain provider or partnership claim.
-  - Keep consequential claims near the relevant passage/version. Carry values, units, periods, source references, inputs and transformations through tables, charts and exports.
-  - Inspectability enables review, but does not prove entailment or reviewer effectiveness. Test whether reviewers can find evidence, understand transformations, detect planted errors and correct the final artifact without rebuilding the workflow.
+  - Source + meaningCalculationReviewCurrent artifact
+  - Preserve the claim chainOpenAI’s finance presentationconnects source passages and tablesto charts and reusable artifacts.Carry the material value, period,unit and source into thedeliverable. Reconcile the documentwith the current evidence after acorrection rather than treatingexport as a cosmetic step.
+  - Check collaborative scopeCompound AI describes shared dealthreads, an agent inbox and longerartifact work. Permissions mustfollow participants and sourcematerial, not only the connector.Inspect workbook depth, filecoverage and final fidelityseparately; vendor architecture isnot independently verified Officeparity.
+  - Review the current savedartifactUse a write–render–check–fix loopand inspect again after the finaledit. Our acceptance contractchecks the actual report the teamwill share, including stalesources, truncated tables andmissing caveats. Passing code or anolder preview cannot establish thatthe current artifact is usable.
+
 - **Sources**: S03, S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 13 - Evaluate the complete job against an acceptance contract
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 13 - Evaluate the outcome, behavior and authority
 
 - **Audience move**: Build a case/rubric before a broad evaluation platform.
 - **Relationships**: order: specify task, build representative cases, score separate dimensions and make an accountable decision.
-- **Title**: Evaluate the complete job against an acceptance contract
+- **Title**: Evaluate the outcome, behavior and authority
 - **Core message**: Specify request, input snapshot, allowed sources/tools/actions, output properties, clarification/abstention conditions and prohibited actions. Ramp’s task-success framing starts with the complete job.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Specify request, input snapshot, allowed sources/tools/actions, output properties, clarification/abstention conditions and prohibited actions. Ramp’s task-success framing starts with the complete job.
-  - Include ordinary, difficult, ambiguous, missing-evidence, denied-action and regression cases. Correct output can conceal an unacceptable trajectory; state which failure each case exposes.
-  - Score task usefulness, evidence, safety, experience, latency, full cost and review effort separately. Predeclare blockers, version cases/evaluators and preserve expert disagreement. Hold assessment examples apart from tuning.
-  - The banking quality-vector account has unresolved Comet/NatWest metadata; no institution-specific production architecture is inferred.
+  - OutcomeBehaviorAuthorityOperating effort
+  - Start from professional workVals emphasizes fully acceptableoutputs rather than only averagepartial credit. Ramp’s bookkeepingaccount defines task, syntheticbusiness world, trajectory andaccountant-authored rubric. Buildcases around the work a revieweraccepts, with realistic missing andmessy evidence.
+  - Construct diagnostic variantsThe Air Canada release describeswriting an expected answer first,then creating evidence-containinginputs. Add removed evidence,planted violations andmeaning-preserving edits. Validaterealism and the answer key;synthetic generation can produceshortcuts that make the testartificially easy.
+  - Keep blockers outside theaverageA correct total cannot offsetfabricated evidence, unauthorizedaccess or an unapproved send. Useexact assertions where available,calibrated domain rubrics forjudgment and a separate behaviorverdict. Keep full cost, latency,coverage and reviewer effort besidequality.
+
 - **Sources**: S10, S11, S12; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
+
+- **Recording revision**: October 25; preserve source classes in notes.
 #### Slide 14 - Separate arithmetic credit from source validity
 
 - **Audience move**: Use a diagnostic rubric that locates the defect.
@@ -328,189 +360,222 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Data class**: scenario — the AsterCo/company documents/dates/values, cash-flow/client amounts, scoring scale and fail/pass/fail attempt sequence are invented teaching examples.
 - **Sources**: S10, S12, S13, E05; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 16 - Hold the workload fixed; change one component
+#### Slide 16 - Ablate skills; evaluate memory after time advances
 
 - **Audience move**: Make context, skill, memory and model changes accountable.
 - **Relationships**: contrast: baseline and candidate share tasks and assessment conditions while one component changes.
-- **Title**: Hold the workload fixed; change one component
+- **Title**: Ablate skills; evaluate memory after time advances
 - **Core message**: Replay matched tasks with the same snapshots, permissions, rubric/evaluator version and attempt policy. Change one component where feasible and repeat stochastic assessments to inspect uncertainty and paired failures.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Replay matched tasks with the same snapshots, permissions, rubric/evaluator version and attempt policy. Change one component where feasible and repeat stochastic assessments to inspect uncertainty and paired failures.
-  - Ramp described eight skills reduced to four, a smaller Excel skill and trajectory-distilled memory from prior runs. No measured effect size, repeated-run result or construction details were captured; these are not defaults.
-  - Compare evidence/task quality, critical defects, human review, full cost and latency. Turn failures into regression cases while retaining separate ordinary/difficult assessment cases. A fix earns its place through agreed tradeoffs, not intuition.
+  - {"schema":"ppt-master.semantic-table.v2","name":"paired-variants","x":48,"y":184,"width":1184,"height":356,"column_widths":[340,390,454],"row_heights":[52,76,76,76,76],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Change / fixture","bold":true},{"text":"Reported result","bold":true},{"text":"Local test question","bold":true}],"rows":[["Eight skills → four","+2.8 mean-score points / six worlds","Inspect per-world regressions and essential criteria."],["Spreadsheet skill compressed 61%","Quality essentially unchanged","Check retained method and all workflow costs."],["Trajectory-distilled memory","+5.7 points over skills alone","Next-period work; fresh amounts; changed rules."],["Roll-forward worlds","Same business, next period","Preserve process knowledge; remove stale amounts."]]}Change / fixtureReported resultLocal test questionEight skills → four+2.8 mean-score points / six worldsInspect per-world regressions and essentialcriteria.Spreadsheet skill compressed 61%Quality essentially unchangedCheck retained method and all workflow costs.Trajectory-distilled memory+5.7 points over skills aloneNext-period work; fresh amounts; changedrules.Roll-forward worldsSame business, next periodPreserve process knowledge; remove staleamounts.
+  - Source: Ryan Stevens’s October 14 article, not Alexander Shevchenko’s keynote. Point gains are workload-specificreports, not predicted improvement for another team. Hold tasks, evaluator and attempt budget fixed; protect aseparate assessment set.
+
 - **Visualization**: table/comparison_matrix; keyed independent table object: paired-variants.
 - **Native-ready**: paired-variants=yes
 - **Sources**: S10, S11, S14; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 17 - Release with blockers, evidence and bounded exposure
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 17 - A repair must not hide a consequential regression
 
 - **Audience move**: Avoid compensating away severe failure.
 - **Relationships**: order: critical conditions and evidence support an accountable scoped decision followed by monitored operation.
-- **Title**: Release with blockers, evidence and bounded exposure
+- **Title**: A repair must not hide a consequential regression
 - **Core message**: Declare blockers before scoring: unauthorized access/action, unsupported consequential numbers, omitted required approval as appropriate to the domain. Keep blockers outside a weighted utility average.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Declare blockers before scoring: unauthorized access/action, unsupported consequential numbers, omitted required approval as appropriate to the domain. Keep blockers outside a weighted utility average.
-  - Retain scope, task/system/case/evaluator versions, results by slice, traces, regressions, expert disagreements, limits and accepted exceptions. Name the accountable decision owner; inadequate evidence warrants investigation.
-  - Promote within scope with monitoring and explicit pause/rollback/renewed-review conditions. A finite passing suite does not prove zero risk; broaden assessment when uncertainty could change the decision.
-  - This gate is proposed synthesis, not a captured bank release threshold or implemented rollback policy.
+  - A quality gain cannot offset prohibited access, fabricated support or an unapproved action.
+  - Compare the whole vectorSofia Jakovcevic’s releasedescribes a prompt repair thatimproves safety while harmingcompletion. Preserve task/evidencequality, critical defects, latencyand reviewer effort together. Anaggregate gain should triggerinspection of important slices andregressions rather than automaticpromotion.
+  - Trust observed executionOmni’s release emphasizes fulltraces and gates that actually stopwork. Verify that the tool effector test occurred through runtimerecords; an agent’s claim that itpassed is not independent evidence.Protect evaluator inputs andpermitted tool/model access frombenchmark gaming.
+  - Make the decisionreproducibleRetain task/data/evaluatorversions, failure examples, expertdisagreements, accepted exceptionsand the owner. Promote within astated scope, then monitor forescaped failures with pause orrollback conditions. Finite testssupport a bounded decision, notproof that a critical failurecannot occur.
+
 - **Sources**: S12, S11, S05; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 18 - Turn failures into reviewed experiments
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 18 - A balanced result can still come from a bad process
 
 - **Audience move**: Keep diagnosis distinct from permission to change production.
 - **Relationships**: order: observe, adjudicate, reproduce/test a repair, authorize scoped release and monitor.
-- **Title**: Turn failures into reviewed experiments
+- **Title**: A balanced result can still come from a bad process
 - **Core message**: Capture request, available sources/permissions, tool interactions, output, human correction and versions under existing trace access rules. Classify evidence, reasoning, runtime and evaluator defects.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Capture request, available sources/permissions, tool interactions, output, human correction and versions under existing trace access rules. Classify evidence, reasoning, runtime and evaluator defects.
-  - Arize describes trace-based issue discovery. Reproduce a failure, create a versioned case and propose a specific change; assess regressions and separate cases before accepting the diagnosis.
-  - Require accountable review before production behavior changes, then monitor escaped failures, corrections, drift and cost. Arize supplied no measured diagnostic accuracy or autonomous remediation; Upstart’s announced self-improvement remained under construction.
+  - Separate applicability and adherenceA behavior evaluator first asks whether the situation arose, thenwhether the expected conduct occurred. Not applicable is not acompliance pass. Choose sparse consequential expectations such asinvestigating a discrepancy or consulting the required primary source;keep outcome grading too.
+  - Fork near the bad decisionReconstruct prompts, tools, state and environment immediately beforethe failure. Change one hypothesis and repeat. In Basis’s illustratedrepair, the review tool must accept an explained discrepancy ratherthan incentivize an invented balancing entry. More prompt emphasisalone may leave that conflict intact.
+  - BASIS / ILLUSTRATED FAILUREZero variance is not enoughThe agent cannot find support fora discrepancy, posts an adjustmentanyway and reports a balancedresult. The review tool rewardedthe wrong goal.Accept a sourced explanation; donot invent a balancing entry.
+
 - **Sources**: S14, S11, S10, S13; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 19 - Skills must encode expert reasons, questions and limits
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 19 - Expert skills need owners, reasons and boundaries
 
 - **Audience move**: Treat skills as owned work instructions.
 - **Relationships**: order: Pick, Teach, Pack, Test and Ship turn a repeatable professional method into a maintained skill.
-- **Title**: Skills must encode expert reasons, questions and limits
+- **Title**: Expert skills need owners, reasons and boundaries
 - **Core message**: Range planners distinguish general knowledge from their firm’s planning method. Pick repeatable work with recognizable success; Teach a representative case and why each decision is made.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Range planners distinguish general knowledge from their firm’s planning method. Pick repeatable work with recognizable success; Teach a representative case and why each decision is made.
-  - Pack required inputs, authorized ways to obtain them, clarification questions, action boundaries, exceptions and handoff conditions. Missing facts must change the workflow.
-  - Test ordinary/edge/conflicting-instruction cases. Ship with an owner, reviewer, change history and retested revisions; peer review/maintenance are agenda detail supporting reported operational use, not measured capacity gain.
-  - Range identity was confirmed; its session UUID changed from an NVIDIA record between snapshots. Preserve this provenance in notes.
+  - PickTeachPackTestShip
+  - Pick and teach a whole taskChoose repeated work whose successa professional can recognize. Useprior cases to explain whatinformation matters, how the firmreasons and why a branch exists. Arecording of clicks without thereason cannot reliably guide a newor incomplete situation.
+  - Pack the boundariesInclude required inputs,clarification questions,exceptions, stopping conditions andthe handoff. Test missing facts andconflicting instructions as well asordinary completion. The speaker’sfive-to-ten-case routine startsiteration; it does not demonstratestatistical reliability or replacebroader assessment.
+  - Ship with maintenanceAssign an owner and a separatereviewer, keep the method currentand retest changes. Range’s agentsends nothing and everyrecommendation is reviewed by aplanner. Measure corrected,accepted work before claimingcapacity gains; the transcriptprovides a method rather than acontrolled outcome study.
+
 - **Sources**: S02; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 20 - A useful draft does not grant authority to act
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 20 - Let agents iterate inside explicitly gated stages
 
 - **Audience move**: Separate arithmetic, advice and action.
 - **Relationships**: order: authorized facts feed drafting, professional review and separately authorized execution.
-- **Title**: A useful draft does not grant authority to act
+- **Title**: Let agents iterate inside explicitly gated stages
 - **Core message**: Synthetic Client A: annual income USD120,000, recorded expenses USD84,000, arithmetic difference USD36,000. This is not disposable capacity, insurance need or a suitability finding.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Synthetic Client A: annual income USD120,000, recorded expenses USD84,000, arithmetic difference USD36,000. This is not disposable capacity, insurance need or a suitability finding.
-  - The agent exposes inputs, calculations, gaps and proposed conclusions; the planner reviews and adjusts. Range’s parallel drafting vignette motivates accepted work after corrections, not draft volume.
-  - Wise’s agenda separates model proposals from authority. Review of a draft does not authorize sending or a transaction. A separate service enforces user/case/action permission and records approval.
-  - The workflow and all values are illustrative, not Range’s disclosed architecture or financial advice.
-- **Data class**: scenario — the AsterCo/company documents/dates/values, cash-flow/client amounts, scoring scale and fail/pass/fail attempt sequence are invented teaching examples.
+  - Invented draft: $120k income − $84k expenses = $36k arithmetic difference; not suitability or permission.
+  - Define the stage contractSpecify the allowed inputs,checkable output, iteration budgetand human takeover condition. Theloop can improve a draft while theouter workflow waits for therequired acceptance or approval.Faster generation can shift thebottleneck to review rather thanremove it.
+  - Keep professional judgmentvisibleThe invented annual packet belowsubtracts $84k recorded expensesfrom $120k income: $36k is only anarithmetic difference. Itestablishes neither disposablecapacity nor suitability. Reviewthe facts, gaps, assumptions andconclusions before the work can beconsidered accepted.
+  - Separate review frompermissionRange preserves planner review;Perpetual binds approval to anexact payload. Accepting a draft isnot permission to send or transact.A separate enforcing boundarychecks user, case, resource andaction, and retains the approvaland outcome evidence.
+
 - **Sources**: S02, S15; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 21 - Enforce authority outside the agent’s proposal
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 21 - Enforce authority outside the proposed action
 
 - **Audience move**: Make the permission path as explicit as the data path.
 - **Relationships**: order: ownership, declared resource scope and policy checks precede authorized execution and exception handling.
-- **Title**: Enforce authority outside the agent’s proposal
+- **Title**: Enforce authority outside the proposed action
 - **Core message**: Two Sigma describes registry owners/products/tools/evaluations, risk-factor scoring, access declarations and active controls. Registration provides visibility, not proof of enforcement.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Two Sigma describes registry owners/products/tools/evaluations, risk-factor scoring, access declarations and active controls. Registration provides visibility, not proof of enforcement.
-  - Policy checks the user, case, resource and requested action outside the proposal. Test revocation, cross-user scope, retries and duplicates; a valid API credential does not establish an appropriate business action.
-  - The independent approval-triage classifier has unspecified type, accuracy and enforcement power. Test missed consequential cases and unnecessary interruptions; independence does not permit waiving required approval.
-  - Wise LOOP/versioned-policy detail is agenda-only. The combined control path is a proposed synthesis.
+  - IdentityPolicy checkAuthorized executorAudit + stop
+  - Make the agent accountableRegister an owner, purpose, toolsand accessible resources. Useshort-lived scoped identity andcarry the user’s authority throughthe tool path. A valid credentialor schema does not establish that abusiness action is appropriate forthis case.
+  - Test the actual boundaryChallenge cross-tenant queries,revoked access, agent-to-agentprivilege escalation, retries andbudget exhaustion. Bloombergrecommends deterministic invocationchecks and egress limits includingDNS. Verify that a denied action isblocked and a halt condition stopsexecution, rather than merelyproducing an alert.
+  - Treat memory as an inputsurfaceA hostile document can try topersist an instruction for a futurerun. Separate source content fromtrusted procedure, control memorywrites and preserve provenance.Independent approval triage canreduce attention demands only ifits errors and enforcement role areunderstood; it cannot silentlywaive required approval.
+
 - **Sources**: S05, S15; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 22 - Verify at creation, release and operation
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 22 - Make verification cheap, independent and repeatable
 
 - **Audience move**: Design independent checks at the boundary they can observe.
 - **Relationships**: membership: three verification loops catch different failures and each needs intent, guardrails, verification and evidence.
-- **Title**: Verify at creation, release and operation
+- **Title**: Make verification cheap, independent and repeatable
 - **Core message**: Creation checks guide goals/standards/constraints and catch local issues. Another model’s agreement or quick human approval is not independent correctness evidence.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Creation checks guide goals/standards/constraints and catch local issues. Another model’s agreement or quick human approval is not independent correctness evidence.
-  - Release checks examine interfaces, permissions, financial invariants and regressions beyond the edited fragment. Keep reproducible evidence and evaluate the checker’s ability to detect consequential defects.
-  - Operation converts escaped failures into cases and verifies repairs against other work with rollback conditions. Prevention remains a priority while detection/response remain necessary.
-  - Sonar’s three loops are agenda detail; four confidence factors are conceptual notes, not a calibrated multiplication/probability. No universal 50K-line threshold or proven self-healing result is inferred.
+  - Creation: prevent and inspectSupply intent, constraints, sharedtest fixtures and fast low-noisechecks while work is generated.Keep deterministic checks forproperties that can be assertedexactly. Another model’s agreementor a quick approval does notreplace independent evidence ofcorrectness.
+  - Release: verify the completechangeTest interfaces, permissions,financial invariants andrepresentative regressions. Inspectthe current saved artifact afterthe last edit. Keep the evidenceand the decision owner together; acheck that can be bypassed or doesnot halt the relevant action is anincomplete gate.
+  - Operation: reproduce andrepairCapture escaped failures,reconstruct their context andverify the repair against otherwork. The confidence product inSonar’s talk is conceptual, and itscode-size illustration isworkload-specific. Neither suppliesa calibrated assurance formula or auniversal limit on agent-generatedsoftware.
+
 - **Sources**: S16; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 23 - Faster code still needs financial invariants
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 23 - Long-running work needs state and deliberate recovery
 
 - **Audience move**: Separate migration correctness from AI’s unmeasured contribution.
 - **Relationships**: order: producer migration, replicated gold-copy state and consumer migration have distinct financial consistency responsibilities.
-- **Title**: Faster code still needs financial invariants
+- **Title**: Long-running work needs state and deliberate recovery
 - **Core message**: Vanguard’s agenda-only ledger account separates producer onboarding, gold-copy replication/CDC synchronization and decoupled consumer migration/GraphQL access.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Vanguard’s agenda-only ledger account separates producer onboarding, gold-copy replication/CDC synchronization and decoupled consumer migration/GraphQL access.
-  - Financial invariants remain observable: no omitted/duplicate transactions, consistent state, database idempotency, controlled retries/recovery and reconciliation.
-  - AI reportedly helped maintain two codebases, but no incremental quality/productivity/risk effect was isolated. Compare equivalent changes, review/rework and operating cost before attributing the modernization outcome to AI.
-  - The advertised case is not a universal migration design, an autonomous financial agent or a recommendation to create dual systems.
+  - InterpretValidate / approveWait / resumeResolve outcome
+  - Persist the handoffKeep the goal, approved plan,completed work, evidence and nextresponsible party outside adisposable run. Wake on a clientreply, approval, settlement eventor deadline. A new invocationshould know what happened and whatremains, without assuming everyprior action failed.
+  - Freeze the approved actionPerpetual separates provisionalinterpretation from a compiled planand binds approval to the exactoutgoing payload. Clarification orrefusal can be correct outcomes.Changes to a client reply must notsilently rewrite the approvedparent plan or inherit permissionfor a different action.
+  - Distinguish unknown fromfailedA timeout after an external writecan leave the outcome unknown.Blind retries can duplicate anaction. Route uncertainty toreconciliation or manual review;test interruptions around theside-effect boundary. Vanguard’sseparate modernization storyreinforces invariants andobservability, not unconstrainedautonomy.
+
 - **Sources**: S17; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 24 - Own the loop from user need to verified improvement
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 24 - Persist progress; make execution authority temporary
 
 - **Audience move**: Build professional growth around reviewable engineering decisions.
 - **Relationships**: order: frame, build, learn and operate connect one working feature to repeatable improvement.
-- **Title**: Own the loop from user need to verified improvement
+- **Title**: Persist progress; make execution authority temporary
 - **Core message**: Frame accepted work; build a complete slice; learn from traces/cases/failures; verify, release and observe. Arize trace diagnosis and Ramp task/ablation methods motivate the loop.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Frame accepted work; build a complete slice; learn from traces/cases/failures; verify, release and observe. Arize trace diagnosis and Ramp task/ablation methods motivate the loop.
-  - Capture request, context, intermediate actions, output, evaluations and versions so a trace explains why a failure occurred.
-  - Keep a portfolio of reproducible failures, baseline comparisons, repairs, release decisions and tradeoffs. Separate issue discovery, proposed fix, validation and release authority; named tools do not prove diagnostic quality or autonomous remediation.
+  - DURABLE PROGRESSInstrument enough to reconstructRetain the request, inputs, permissions, tools,result, evaluator and relevant versions.Distinguish a run summary from the orderedtrajectory. Trace agents modifying the system aswell as deployed agents, so a proposed repair hasevidence rather than only a confident explanation.
+  - TEMPORARY EXECUTIONSeparate progress from accessIssue history, useful skills and telemetry cansurvive a sandbox failure; temporary credentialsand repository access should not survive bydefault. A replacement run resumes from durablestate under newly checked authority. Persistenceof knowledge does not imply persistence ofpermission.
+  - Prove the changeCalibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixesor PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makescorrections an asset before pursuing routing or training optimizations.
+
 - **Sources**: S14, S10, S11; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 25 - Connect domain, system and measurement fluency
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 25 - Connect product judgment, meaning and measurement
 
 - **Audience move**: Develop complementary responsibilities through shared work.
 - **Relationships**: membership: domain translation, data reasoning, system design, evaluation and evidence communication support one workflow.
-- **Title**: Connect domain, system and measurement fluency
+- **Title**: Connect product judgment, meaning and measurement
 - **Core message**: Domain translation turns judgment into required facts, questions and acceptance. Data reasoning inspects entity, time, units, source definitions and transformations.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Domain translation turns judgment into required facts, questions and acceptance. Data reasoning inspects entity, time, units, source definitions and transformations.
-  - System design draws ownership, allowed actions, state and exceptions. Evaluation challenges controls and judges, critical failures, task success and full cost.
-  - Evidence communication explains task, mechanism, comparison, result and uncertainty. Distinguish deployment from effectiveness and useful output from causal value.
-  - This is an editorial competency framework, not a hiring survey or a firm’s validated career model. Choose a real workflow gap; no one must be the sole expert in all five.
+  - 01Discover the realconstraintLaurie Voss’s product-engineer argument follows the bottleneck from codecreation to review, operations and security. Observe what users actuallydo, which handoffs cost time and what they trust. A polished feature canstill miss the task or move effort onto another team.
+  - 02Preserve businessmeaningSouthbridge’s examples show row counts surviving while dates, signs orcategories become wrong. Learn the entity, grain, period, units andsource conventions well enough to challenge a plausible answer. Multiplemodel agreements can preserve the same incorrect assumption.
+  - 03Make expertisereproducibleConvert professional corrections into task definitions, cases, skills andexplicit acceptance evidence. Monzo’s described gateway, sandbox andfamiliar Slack entry point show the surrounding product work. Task volumeand merged PR counts indicate use, while quality and reviewer effortstill require separate measurement.
+
 - **Sources**: S02, S04, S09, S05, S10, S01, S16; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 26 - Separate software lifespan from failure consequence
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 26 - Match rigor to consequences and dependencies
 
 - **Audience move**: Avoid treating cheap replacement as a substitute for checks.
 - **Relationships**: contrast: lifespan changes maintenance while consequence independently determines required controls.
-- **Title**: Separate software lifespan from failure consequence
+- **Title**: Match rigor to consequences and dependencies
 - **Core message**: Short-lived/bounded-consequence work can be simple and removable with scope, owner and retirement condition. Long-lived/bounded-consequence work needs maintained interfaces and regressions.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Short-lived/bounded-consequence work can be simple and removable with scope, owner and retirement condition. Long-lived/bounded-consequence work needs maintained interfaces and regressions.
-  - Short-lived/high-consequence work still needs constrained execution and evidence. Long-lived/high-consequence systems need controls, recovery and continuing validation.
-  - Capital One’s conceptual durability discussion does not establish a deployed disposable-software model or zero replacement cost. Sensitive data, financial numbers and action boundaries remain consequential in a temporary tool.
-  - When use/dependencies grow, reassess ownership, support, recovery and coverage rather than quietly converting an experiment into infrastructure.
+  - Reassess as the tool growsA one-use helper can become ashared process with downstreamdependents. Revisit who relies onit, which failures matter and howrecovery works. Isolation andlimited scope can reduce exposure,but a label such as prototype ortemporary is not an enforcingcontrol.
+  - Invest in the cheap safe pathProvide standard choices, testfixtures/fakes and quick low-noisefeedback. Make it easier to createa complete working slice withchecks than to postpone them.Shared verification infrastructurecompounds across tasks and allowspractitioners to focus on theremaining judgment.
+  - Apply the same standard toartifactsFor a report or presentation,acceptance includes the currentsaved output, its evidence andreadability. For a financialaction, it includes authorizationand recovery. Match the check tothe actual consequence; neithercode generation speed nor anotheragent’s confidence resolves thatdecision.
+
 - **Sources**: S18, S16, S05; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 27 - Learn through one bounded end-to-end experiment
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 27 - Prove one improvement through a bounded experiment
 
 - **Audience move**: Practice the full discipline with a small complete product.
 - **Relationships**: order: frame, baseline, experiment and explain produce a defensible learning decision.
-- **Title**: Learn through one bounded end-to-end experiment
+- **Title**: Prove one improvement through a bounded experiment
 - **Core message**: Select a research brief, analytical result or preparation draft with clear users and acceptance. Use approved/synthetic inputs and record current quality, time, cost and human effort.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Select a research brief, analytical result or preparation draft with clear users and acceptance. Use approved/synthetic inputs and record current quality, time, cost and human effort.
-  - Change one skill bundle, memory rule or model with snapshots and assessment cases held fixed. Include ordinary, ambiguous and consequential failures; keep tuning separate from assessment.
-  - Document an evidence card: comparison, failures, uncertainty and continue/revise/retire decision. A deterministic workflow, inadequate data or stopping can be valid results.
-  - Share a reproducible case with a peer and state what would change your mind. This proposed exercise is not production approval or sufficient statistical validation.
+  - BaselineOne hypothesisPaired assessmentLearning packet
+  - Build a reviewable baselineInterview a practitioner and choosea historical task with knownaccepted work. Preserve its inputsnapshot and permitted tools. Writeexact checks, a short expert rubricand one critical behaviorexpectation before measuring thecandidate.
+  - Vary one hypothesisTry a skill ablation, a narrowercontext or a repaired toolincentive. Add an answer-firstmissing-evidence case and anext-period memory case. Repeatwhen stochastic variation matters,keep held-out assessment andinspect regressions as well as theaverage.
+  - Publish the learning packetRetain the trace,baseline/candidate results,important disagreement, totalreview effort and the currentartifact. State what improved, whatfailed and what remains uncertain.This develops product judgment,debugging and evaluation together;it is an optional learning exerciserather than a project commitment.
+
 - **Sources**: S10, S14, S01, S11; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 28 - Return with three decisions and one comparison
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 28 - Agree acceptance, preserve evidence, test the repair
 
 - **Audience move**: Convert lessons into a reviewable decision without assigning a project.
 - **Relationships**: membership: work, boundary and evidence decisions define a testable local hypothesis.
-- **Title**: Return with three decisions and one comparison
+- **Title**: Agree acceptance, preserve evidence, test the repair
 - **Core message**: Work: whose accepted output matters, and what bottleneck improves? Choose an insight, reviewed planning analysis or evidence-backed artifact before tools.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Work: whose accepted output matters, and what bottleneck improves? Choose an insight, reviewed planning analysis or evidence-backed artifact before tools.
-  - Boundary: permitted sources/cutoff/calculations/actions and retained human judgments; define missing evidence and required blockers.
-  - Evidence: compare candidate and existing process on equivalent work, agreed acceptance/critical conditions and all attempt/human effort costs. Preagree what supports continuing, revising or retiring.
-  - Conference mechanisms motivate the comparison, not internal readiness or a Fidelity commitment. Owners/dates remain discussion decisions.
+  - Agree what completed workmeansName the practitioner, acceptedwork product and critical limits.Compare quality, coverage and totalhuman effort against a crediblebaseline. Preparation time, toolvolume and rollout scope answeruseful but different questions fromfinancial impact.
+  - Preserve the evidence chainCarry entity, meaning, period,source version, access andcalculation through the finalartifact. Give memory a correctionand aging policy. Keep professionalreview and permission to act asseparate events, with durableworkflow state between them.
+  - Make the next change a testChoose one failure mechanism and abounded comparison. Score finaloutput, consequential behavior andauthority; inspect pairedregressions. Preserve the case andcorrection so improvement becomes ateam asset rather than a lesson oneperson must rediscover.
+
 - **Sources**: S04, S05, S09, S01, S02; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 - **Closing impact**: Binding takeaway: choose the work, boundary and evidence before the next comparison.
 
+
+- **Recording revision**: October 25; preserve source classes in notes.
 #### Slide 29 - Use disagreement to choose the next test
 
 - **Audience move**: End with one uncertainty worth testing.
@@ -540,22 +605,23 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Native-ready**: implementation-checklist=yes
 - **Sources**: S01, S02, S03, S04, S05, S06, S07, E01, E02, E03, E04, S08, S09, S10, S11, S12, S13, E05, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, E06; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 31 - Company cases teach mechanisms, not one architecture
+#### Slide 31 - Company cases teach different operating mechanisms
 
 - **Audience move**: Use a mechanism map without ranking firm maturity.
 - **Relationships**: membership: selected company examples map to five recurring engineering problems.
-- **Title**: Company cases teach mechanisms, not one architecture
+- **Title**: Company cases teach different operating mechanisms
 - **Core message**: Evidence/research: Bridgewater, Kepler, Contour. Wealth workflows: Range, Morgan Stanley, UBS, RBC. Authority: Two Sigma, Wise.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Evidence/research: Bridgewater, Kepler, Contour. Wealth workflows: Range, Morgan Stanley, UBS, RBC. Authority: Two Sigma, Wise.
-  - Engineering platforms: Monzo, Optiver, Vanguard. Improvement/learning: Ramp, Arize, Sonar, Capital One.
-  - Compare equivalent work. A detailed architecture explains intent; production use shows adoption. Neither establishes net time saved, quality or causal business impact.
-  - This PPT shows a selected mechanism map. The HTML contains the expanded 25-firm atlas; uneven self-reports are not a representative survey or a maturity ranking.
+  - {"schema":"ppt-master.semantic-table.v2","name":"company-mechanisms","x":48,"y":184,"width":1184,"height":402,"column_widths":[246,470,468],"row_heights":[52,70,70,70,70,70],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Problem","bold":true},{"text":"Selected later sources","bold":true},{"text":"Transferable mechanism","bold":true}],"rows":[["Grounding / memory","Bridgewater · Kepler · Citadel Securities","Time-scoped evidence; fact resolution; aged beliefs."],["Professional workflows","Range · Arca · Perpetual · Apollo","Expert method; handoffs; compiled plans; QA."],["Evaluation","Basis · Ramp / Ryan · Vals","Behavior specs; roll-forward worlds; accepted work."],["Authority / platform","Two Sigma · Bloomberg · Credit Karma","Identity, scope, runtime checks, state and traces."],["Engineering growth","Arize · Sonar · Capital One · Monzo","Durable learning; cheap checks; supported delivery."]]}ProblemSelected later sourcesTransferable mechanismGrounding / memoryBridgewater · Kepler · Citadel SecuritiesTime-scoped evidence; fact resolution; agedbeliefs.Professional workflowsRange · Arca · Perpetual · ApolloExpert method; handoffs; compiled plans; QA.EvaluationBasis · Ramp / Ryan · ValsBehavior specs; roll-forward worlds; acceptedwork.Authority / platformTwo Sigma · Bloomberg · Credit KarmaIdentity, scope, runtime checks, state andtraces.Engineering growthArize · Sonar · Capital One · MonzoDurable learning; cheap checks; supporteddelivery.
+  - The HTML reading atlas and recording supplement preserve 37 briefs, timestamp links, source classes and limits. Mechanism,adoption and measured effectiveness remain distinct.
+
 - **Visualization**: table/comparison_matrix; keyed independent table object: company-mechanisms.
 - **Native-ready**: company-mechanisms=yes
 - **Sources**: S01, S02, S03, S04, S05, S06, S07, E01, E02, E03, E04, S08, S09, S10, S11, S12, S13, E05, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, E06; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
+
+- **Recording revision**: October 25; preserve source classes in notes.
 #### Slide 32 - Version the evaluation contract with the decision
 
 - **Audience move**: Review a compact spec before assessment.
@@ -613,34 +679,38 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Native-ready**: measurement-contract=yes
 - **Sources**: S01; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 36 - Turn unknowns into engineering questions
+#### Slide 36 - The recordings clarify methods and expose open questions
 
 - **Audience move**: Convert source uncertainty into a specific inspection.
 - **Relationships**: membership: checker coverage, measurement and demonstrated scope are three useful follow-up targets.
-- **Title**: Turn unknowns into engineering questions
+- **Title**: The recordings clarify methods and expose open questions
 - **Core message**: Ask what serious errors pass the citation checker, judge or approval triage, and what happens when support fails. Independent components can share blind spots; request failures and adjudication.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Ask what serious errors pass the citation checker, judge or approval triage, and what happens when support fails. Independent components can share blind spots; request failures and adjudication.
-  - For benefits, request baseline, task population, exclusions, sample, uncertainty and full human effort. Distinguish adoption, pilot, estimated opportunity and realized outcome, retaining dates.
-  - Clarify production scope, entitlements, versions and stop conditions. “crunchable”, “roundedness”, Bridgewater’s reversed reactive/proactive wording and Comet/NatWest affiliation remain unresolved.
-  - Sonar’s 50K example, Kepler’s retrieval settings and the failure study’s expected-loss/incident/exponential claims lack definitions/denominators/methods and are not universal thresholds or established estimates.
+  - ClarifiedBridgewater’s metric isprecision@10 and its productdirection is proactiveparticipation. Range confirms anowner and separate reviewer. Keplerretains final post-processing.Vanguard’sseven-days-to-fifteen-minutes titleconcerns mainframe-code research,not investment research.
+  - Keep editions separateRyan Stevens’s written Rampevaluation account differs fromAlexander Shevchenko’s keynote.Kepler’s attended breakout andnext-day follow-up are differenteditions. Range’s online indexlabel is October 13; attended notesremain Day 2. An index label is nota filming date.
+  - Still openBanking affiliation and“roundedness,” provider spelling,exact breakout retrieval defaultsand several result denominatorsremain unresolved. Do not turn theconfidence metaphor or incidentcoverage into a calibratedassurance or incidence estimate.Ask for the workload, populationand comparison needed.
+
 - **Sources**: S03, S04, S16, S11, S09, S12; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 37 - Follow the sources and preserve their boundaries
+
+- **Recording revision**: October 25; preserve source classes in notes.
+#### Slide 37 - Follow the source, its date and its evidence boundary
+
+- **Hyperlinks**: Bridgewater=https://ai.engineer/nyc/2026/talks/bridgewater; Range=https://ai.engineer/nyc/2026/talks/range; Arca=https://ai.engineer/nyc/2026/talks/arca; Perpetual=https://ai.engineer/nyc/2026/talks/perpetual; Coatue=https://ai.engineer/nyc/2026/talks/coatue; Blackstone / Norm.ai=https://ai.engineer/nyc/2026/talks/blackstone-norm; Apollo / Redding Ridge / Rowspace=https://ai.engineer/nyc/2026/talks/apollo-rowspace; Wells Fargo=https://ai.engineer/nyc/2026/talks/wells-fargo; Kepler · October 14 follow-up=https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release=https://www.youtube.com/watch?v=dZgA6btnb_s; Southbridge=https://ai.engineer/nyc/2026/talks/southbridge; Citadel Securities=https://ai.engineer/nyc/2026/talks/citadel; OpenAI=https://ai.engineer/nyc/2026/talks/openai; Compound AI=https://ai.engineer/nyc/2026/talks/compound; Basis=https://ai.engineer/nyc/2026/talks/basis; Ramp · Ryan Stevens written follow-up=https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Ramp · Alexander Shevchenko keynote=https://ai.engineer/nyc/2026/talks/ramp; Vals AI=https://ai.engineer/nyc/2026/talks/vals; Arize · Sofia Jakovcevic=https://www.youtube.com/watch?v=v5tm5EAzsAs; Air Canada · Nathanael Weill=https://www.youtube.com/watch?v=c_SPW__jF9w; Coinbase=https://ai.engineer/nyc/2026/talks/coinbase; Two Sigma=https://ai.engineer/nyc/2026/talks/two-sigma; Intuit Credit Karma=https://ai.engineer/nyc/2026/talks/credit-karma; Bloomberg=https://ai.engineer/nyc/2026/talks/bloomberg; Arize · Aparna Dhinakaran=https://ai.engineer/nyc/2026/talks/arize; Sonar=https://ai.engineer/nyc/2026/talks/sonar; Capital One=https://ai.engineer/nyc/2026/talks/capital-one; Arize · Laurie Voss=https://www.youtube.com/watch?v=kspZP5BgkEU; Jellyfish=https://ai.engineer/nyc/2026/talks/jellyfish; Google DeepMind / Kaggle / LinqAlpha=https://www.youtube.com/watch?v=aVbRSIQO2dE
 
 - **Audience move**: Locate sources without confusing mechanisms with validated effects.
 - **Relationships**: membership: conference accounts, program context, dated disclosures and method references support different claims.
-- **Title**: Follow the sources and preserve their boundaries
+- **Title**: Follow the source, its date and its evidence boundary
 - **Core message**: The source corpus contains 39 references: twelve identified note sets plus program research, historical wealth disclosures and the primary HumanEval metric paper.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - The source corpus contains 39 references: twelve identified note sets plus program research, historical wealth disclosures and the primary HumanEval metric paper.
-  - Visible links select major cases and dated context; speaker notes retain all 39 references. Original attendee notes are the basis for captured live claims; session pages identify advertised topics/speakers.
-  - Corporate disclosures establish what was described in 2024/2025, not current availability or independently verified causal effects.
-  - Rubrics, control paths and learning exercises are proposed methods; AsterCo and review packets are invented. Adapt them with domain review before interpreting performance or readiness.
+  - BridgewaterRangeArcaPerpetualCoatueBlackstone / Norm.aiApollo / Redding Ridge / RowspaceWells FargoKepler · October 14 follow-upKepler · attended breakout releaseSouthbridgeCitadel SecuritiesOpenAICompound AIBasis
+  - Ramp · Ryan Stevens written follow-upRamp · Alexander Shevchenko keynoteVals AIArize · Sofia JakovcevicAir Canada · Nathanael WeillCoinbaseTwo SigmaIntuit Credit KarmaBloombergArize · Aparna DhinakaranSonarCapital OneArize · Laurie VossJellyfishDeepMind / Kaggle / LinqAlpha
+  - Links lead to original sources. Descriptions are not transcripts; company results are attributed accounts. Historical disclosures and themetric paper remain linked in the reading edition and notes.
+
 - **Sources**: S01, S02, S03, S04, S05, S06, S07, E01, E02, E03, E04, S08, S09, S10, S11, S12, S13, E05, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, E06; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
-- **Hyperlinks**: Vault: Making Unstructured Data Work for Investing → https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Do Not Let Models Invent Numbers → https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Building Better Agents Through End-to-End Evals → https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; We Let Our Financial Planners Write the Agents → https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Balancing Acceleration and Safety for AI Agents → https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Proving Alpha: Showcasing AI's Value in Fundamental Investing → https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; What does an AI engineer do? → https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Stop turning your Humans Into APIs for your Agents → https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; The Machine that Changed the World, vAI → https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Morgan Stanley Wealth Management · Debrief launch → https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch; UBS · fourth-quarter/full-year 2024 results → https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html; RBC · 2025 Investor Day presentation → https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95; Chen et al. · Evaluating Large Language Models Trained on Code → https://arxiv.org/html/2107.03374v2
+
 
 ## X. Speaker Notes Requirements
 
@@ -650,3 +720,5 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Total duration**: 40 minutes for the 29 core slides plus separately allocated discussion; eight appendices are untimed
 - **Notes style**: Clear practitioner explanation, useful transitions and worked-example reasoning
 - **Presentation purpose**: Teach financial-services AI mechanisms and methods from the conference, not an application improvement plan
+
+- **Recording revision**: October 25; preserve source classes in notes.

@@ -1,873 +1,250 @@
-[Skip to presentation](#main)
+# 1. From AI capability to dependable work
 
-**AI ENGINEER NYC 2026**  
-Learning briefing / revised October 15
+This recording-enhanced edition combines twelve original attendee-note sets with a review of the AIE channel, its playlists, official timestamped transcripts and a separately identified Ryan Stevens article. The review screened 90 uploads and inspected 50 official video descriptions.
 
-PresentRead & learn
+The 29-slide core remains planned for 40 minutes plus discussion. Read & learn adds company mechanisms, worked examples and source boundaries. No audiovisual viewing or independent validation of company results is claimed.
 
-OutlineSpeaker notesFullscreenPrint / PDF
+Visible native-slide content: AI ENGINEER NYC 2026 / CONFERENCE TAKEAWAYS From AI capability to dependable work Financial-services AI through company stories, practical methods and evidence worth questioning.
 
-# AI Engineer NYC 2026: from capability to dependable work
+Visible native-slide content: Strategy → Grounding → Evaluation → Reliable workflows → Engineer growth One operating story: useful work, inspectable evidence and controlled improvement.
 
-A practical conference learning resource
+Visible native-slide content: Research + twelve identified attendee-note sets • October 13–14, 2026 · Updated October 25 Company accounts, program context, dated disclosures and our proposed methods retain distinct limits.
 
-## From AI capability to dependable work.
-
-A thematic synthesis for data scientists, AI engineers, and technical leads. The 29-slide core path is planned for 40 minutes plus discussion; eight appendix pages support deeper review.
-
-Evidence combines twelve attendee-note sets, pre-conference program research, historical public firm disclosures, and clearly labeled illustrative methods. These sources differ in maturity and evidentiary strength.
-
-AI ENGINEER NYC 2026 / LEARNING BRIEFING
-
-## From AI capability to *dependable work.*
-
-Financial-services AI, explained through company stories, practical methods, and evidence worth questioning.
-
-**AI Engineer NYC 2026**Research + attendee notes · October 13–14**For practitioners**Data scientists · AI engineers · technical leads**40 minutes + discussion**Five chapters · one operating story
-
-FIELD NOTES → METHODS → DECISIONS
-
-Technical learning briefing · October 2026
-
-Sources01 / 29
-
-### Explanation & evidence
-
-This presentation consolidates pre-conference research and twelve identified attendee-note sets from AI Engineer NYC 2026. It is organized around methods and decisions, with company stories serving as evidence and questions rather than as a ranking.
-
-The live path is planned for 40 minutes plus discussion. Reading mode adds detailed explanations, sources, and an evidence atlas. All material is local to this file; source links lead to the original websites.
-
-### Use this resource
-
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
-
-Source links open the original sites. The presentation itself works offline.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Open with the central question: what must surround a model for it to complete useful financial work that a professional can accept? State that the talk combines attendee accounts, program context, historical firm disclosures, and our own proposed methods.
-
-### Sources for this page
-
-Editorial framing. See the source appendix for the evidence scope.
-
-FIELD NOTES / NYC 2026
-
-## Dependable financial AI combines valuable work, grounded evidence and controlled improvement
-
-Five themes connect the company stories into one operating model: define useful work, preserve financial meaning, evaluate the whole task, enforce authority and improve through evidence.
-
-01**Strategy**Valuable work and credible economics
-
-02**Grounding**Evidence, meaning, time, access
-
-03**Evaluation**Cases, rubrics, judges, release
-
-04**Workflows**Skills, authority, verification
-
-05**Growth**Own the improvement loop
-
-### Start with the business bottleneck
-
-Bridgewater targets access to relevant investment information; Range packages expert planning methods; wealth firms support advisor preparation and follow-through. These are distinct workflows. Specify the accepted work product and scarce resource before selecting a model, agent framework or platform.
-
-### Make the entire path inspectable
-
-Grounding includes access, definitions, time, source versions and calculations. Reliability also depends on what the system may do and how errors are discovered. Evaluate the delivered artifact and action trajectory together, including the corrections and judgments people must still supply.
-
-### Improve through a bounded comparison
-
-Ramp’s ablations and Arize’s trace loop point toward a practical discipline: reproduce the task, change one component, assess quality and full effort, then make a scoped release decision. The engineer’s contribution is a defensible improvement, supported by observable evidence.
-
-Conference synthesis
-
-Sources02 / 29
-
-### Explanation & evidence
+# 2. Dependable financial AI combines valuable work, grounded evidence and controlled improvement
 
 The argument starts with valuable work, then follows the evidence and control requirements through evaluation, reliable execution, and professional growth. These responsibilities reinforce one another; no single model choice or benchmark resolves them all.
 
-### Use this resource
+Visible native-slide content: THE OPERATING ARGUMENT Five disciplines make financial AI dependable The model is one component of a complete, reviewable job.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: 01 / Strategy Define valuable accepted work and credible economics. 02 / Grounding Preserve evidence, meaning, time, source versions and access. 03 / Evaluation Test the complete task, judge, selection policy and release. 04 / Workflows Encode methods, enforce authority and verify at several boundaries. 05 / Growth Own the loop from user need to verified improvement.
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Start with the bottleneck: Bridgewater’s relevant evidence, Range’s expert planning or wealth preparation and follow-through. Name the accepted output and scarce resource before choosing tools. Then trace sources, definitions, access, actions and corrections through the delivered artifact. Ramp’s ablations and Arize’s trace analysis motivate one bounded comparison: change, assess and decide.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+# 3. Design for the reviewed work product, then allocate the right intelligence
 
-Speaker notes
+A useful financial agent prepares work a professional can accept: an evidence brief, planning analysis, reconciliation or decision memo. The acceptance standard determines the architecture more clearly than a preference for chat or autonomy.
 
-Preview the five chapters. Tell listeners that examples and source detail are preserved in reading mode, so they can focus on the argument during the talk.
+Decompose the decision: Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage.
 
-### Sources for this page
+Observe the real workflow: Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain.
 
-Editorial framing. See the source appendix for the evidence scope.
+Preserve professional attention: Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes.
 
-01 / FINANCE STRATEGY & VALUE
+Visible native-slide content: 01 / FINANCE STRATEGY Design for a reviewed financial work product Coatue decomposes decisions; Apollo/Redding Ridge reconciles sources; Range preserves planner review.
 
-## The valuable unit is a reviewed financial work product
+Visible native-slide content: Decompose the decision Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage.
 
-Design around the analysis, brief or decision packet a professional can accept. Generation becomes useful when evidence, corrections, constraints and the next decision are included in completion.
+Visible native-slide content: Observe the real workflow Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain.
 
-Investment research
+Visible native-slide content: Preserve professional attention Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes.
 
-### Accepted research insight
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Coatue · A Hedge Fund as a Function — https://ai.engineer/nyc/2026/talks/coatue; Apollo / Redding Ridge / Rowspace · AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/talks/apollo-rowspace; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range
 
-Contour: compare workflows with and without AI
+# 4. Financial AI strategy depends on the decision, data and operating budget
 
-Wealth planning
+The frontier cases share disciplined task design, but use different technical forms. An investment evidence system, planner workflow and transaction classifier should not be compared with one generic adoption or model-quality score.
 
-### Reviewed analysis
+Build around the decision: Bridgewater improves evidence reaching investment work; Coatue decomposes a decision graph. Their relevant questions concern eligible sources, relevance, timing and professional attention. Preserve the point-in-time information set before judging the resulting conclusion.
 
-Range: draft in parallel, then review and adjust
+Choose the representation: Wells Fargo describes a transaction-sequence transformer trained from scratch for downstream fraud work. Amounts, categories, channels, time and location determine tokenization; a tight serving budget shapes the design. This is a transaction foundation model, not a proprietary language model.
 
-Financial communication
+Keep durable assets: Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone.
 
-### Inspectable brief or artifact
+Visible native-slide content: 01 / FINANCE STRATEGY Match the system to the decision and its budget A research workbench, professional workflow and transaction classifier have different acceptance tests.
 
-OpenAI: sources, tables, charts and artifacts
+Visible native-slide content: Company / work Bottleneck Acceptance focus Bridgewater / Coatue Evidence and investment attention Eligible sources; evaluated decision steps. Range / Apollo–Redding Ridge Professional preparation Expert methods; reconciled inputs; reviewed drafts. Wells Fargo Fraud decisions at transaction speed Transaction representation; detection and false positives. Blackstone / Norm.ai Adapt to improving models Accessible data; durable evaluations; production controls.
 
-### Define the acceptance decision
+Visible native-slide content: Different forms, one discipline: match the data representation, executor and operating budget to the decision. These are practitioner accounts, not a maturity ranking or causal financial comparison.
 
-Contour described comparing research workflows with and without AI, including sources, conclusions and subsequent outcomes. Define which insight a reviewer would accept before measuring productivity; a generated idea is not automatically useful, and a useful idea does not establish investment alpha.
+Sources: Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Compound value from building Monzo’s in-house agent using LLMs* — https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11; Scaling AI with P&L on the line — https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater; Coatue · A Hedge Fund as a Function — https://ai.engineer/nyc/2026/talks/coatue; Wells Fargo · Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/talks/wells-fargo; Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap — https://ai.engineer/nyc/2026/talks/blackstone-norm
 
-### Include review in completion
+# 5. Wealth agents package expertise and coordinate work while professionals retain authority
 
-Range described an agent drafting an analysis while a planner serves another client, followed by review and adjustment. Treat corrections, missing facts and professional judgment as workflow steps. Parallel drafting creates a capacity hypothesis; the notes contain no measured net gain.
+The released Range, Arca and Perpetual accounts make the wealth pattern concrete: prepare work, preserve context across handoffs, and control the step that communicates or acts. The planner remains responsible for client judgment.
 
-### Make the artifact inspectable
+Turn expertise into a method: Range’s skill records reasons, required questions, exceptions and stopping conditions. An owner maintains it and a separate reviewer checks it. The planner reviews every recommendation before client delivery. Five to ten examples are a starting test routine, not sufficient release assurance.
 
-The OpenAI finance presentation connected source passages, tables, charts and reusable artifacts. A technical acceptance test should follow a material claim through its source and calculation into the final document. Polished formatting cannot establish that the underlying financial interpretation is correct.
+Continue across real delays: Arca’s tax-payment illustration spans replies, approvals, trades and settlement. Long horizon means durable shared plans and event-driven resumption, rather than continuous model thought. Track who owns the next action, what event wakes the task and which approval is still required.
 
-Sources: Contour Asset Management · Range · OpenAI
+Bind approval to the action: Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates.
 
-Sources03 / 29
+Visible native-slide content: 01 / FINANCE STRATEGY Wealth agents prepare; professionals retain authority Range, Arca and Perpetual reveal complementary patterns for expertise, handoffs and approved execution.
 
-### Explanation & evidence
+Visible native-slide content: Turn expertise into a method Range’s skill records reasons, required questions, exceptions and stopping conditions. An owner maintains it and a separate reviewer checks it. The planner reviews every recommendation before client delivery. Five to ten examples are a starting test routine, not sufficient release assurance.
 
-A generated response is one component of a larger financial workflow. The useful end state may be a research insight an analyst accepts, a planning analysis a professional reviews, or a brief whose claims can be inspected. Acceptance needs a definition that includes quality and required controls, not merely user preference.
+Visible native-slide content: Continue across real delays Arca’s tax-payment illustration spans replies, approvals, trades and settlement. Long horizon means durable shared plans and event-driven resumption, rather than continuous model thought. Track who owns the next action, what event wakes the task and which approval is still required.
 
-Evidence: Contour's comparison approach, Range's parallel drafting with planner review, and the OpenAI finance-interface discussion come from attendee notes. The notes do not establish causal ROI, measured advisor capacity or verified product accuracy. This slide proposes a common unit for discussing those cases.
+Visible native-slide content: Bind approval to the action Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates.
 
-### Practical takeaways
+Sources: We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Morgan Stanley Wealth Management · Debrief launch — https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch; UBS · fourth-quarter/full-year 2024 results — https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html; RBC · 2025 Investor Day presentation — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95; RBC · 2025 Investor Day transcript — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Arca · Inside Arca’s long-horizon agents that run the business — https://ai.engineer/nyc/2026/talks/arca; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual
 
-- Define the work a professional can accept.
-- Include evidence, review and the next decision.
-- Measure completion and correction effort.
+# 6. Measure the process before making a stronger claim about financial impact
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Use a chain of evidence from adoption to accepted work, process change and attributable value. The newly released stories add measurement methods; they do not make preparation time, usage and investment performance interchangeable.
 
-Speaker notes
+Define useful output first: Contour’s official release describes live research comparisons and cost per useful insight, including repair effort. Define useful insight, eligible work and the comparison before looking at outcomes. Its description does not disclose enough assignment, sample or control detail to establish causal alpha.
 
-Open with one question for the audience: what completed piece of work would matter to its user? Keep the examples concrete. For an analysis, a fluent answer is insufficient if the reviewer cannot resolve its sources or assumptions.
+Keep the decision record: Preserve what was known when an idea was proposed, its sources, reasoning, reviewer response and subsequent decision. Agents revisiting an old idea may improve timing or attention; a later profitable position still depends on markets, selection, sizing and human action.
 
-Explain that the deck combines 12 session-note sets with explicitly marked program and historical context. Speaker accounts are inputs to engineering decisions, not verified performance results.
+Inspect the denominator: Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value.
 
-### Sources for this page
+Visible native-slide content: 01 / FINANCE STRATEGY Process measures precede claims of financial impact Adoption, useful output, process change and financial outcomes require different evidence.
 
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
+Visible native-slide content: Use Accepted work Process change Attributable value
 
-01 / FINANCE STRATEGY & VALUE
+Visible native-slide content: Define useful output first Contour’s official release describes live research comparisons and cost per useful insight, including repair effort. Define useful insight, eligible work and the comparison before looking at outcomes. Its description does not disclose enough assignment, sample or control detail to establish causal alpha.
 
-## Different financial bottlenecks require different success criteria
+Visible native-slide content: Keep the decision record Preserve what was known when an idea was proposed, its sources, reasoning, reviewer response and subsequent decision. Agents revisiting an old idea may improve timing or attention; a later profitable position still depends on markets, selection, sizing and human action.
 
-Compare the scarce resource each system addresses: timely evidence, professional attention, permitted execution or accepted engineering output. The same adoption metric cannot describe value across all four contexts.
+Visible native-slide content: Inspect the denominator Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value.
 
-| Company story | Bottleneck addressed | Mechanism |
-| --- | --- | --- |
-| Bridgewater | Information reaches a decision | Time-scoped retrieval and evidence-backed summaries |
-| Range | Planner work is prepared in parallel | Expert-authored methods and professional review |
-| Two Sigma | Useful agents operate within boundaries | Registry, declared access and active controls |
-| Monzo / Optiver | Engineering scales through a supported path | Shared runtime, task certification and routing |
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; Compound value from building Monzo’s in-house agent using LLMs* — https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11; Contour Asset Management · Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management — https://www.youtube.com/watch?v=ZMZlAn6Pyfg; Jellyfish · Tokens Are the Cheap Part — https://ai.engineer/nyc/2026/talks/jellyfish
 
-### Information and attention differ
+# 7. Optimize the full cost of accepted work, including context and review
 
-Bridgewater described a shared repository with different human and agent retrieval needs; Range described parallel preparation with planner review. Evaluate evidence coverage and final brief relevance for the first pattern, and accepted analysis plus total professional effort for the second.
+Token reduction and faster drafting are intermediate results. Compare equivalent completed tasks at an agreed standard, and count unsuccessful attempts, tool use, review, rework and operation before claiming an economic improvement.
 
-### Utility depends on boundaries
+Count the work people retain: A reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandoned runs and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit cost so narrower coverage cannot masquerade as improvement.
 
-Two Sigma described registration, declared resources, active controls and approval triage. The engineering question is which useful tasks remain possible within those boundaries. Test both permitted and denied actions, then inspect missed consequential cases rather than equating registration with effective protection.
+Prepare context deliberately: Credit Karma describes selection/pruning, reranking, deduplication and compression. An Artifactory demo reports 24,000 to 2,400 tokens. Use that as an experiment to reproduce: measure required-fact coverage, answer quality and review effort before adopting the reduction.
 
-### Platforms must earn support
+Optimize the actual bottleneck: Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse.
 
-Monzo's program describes a shared runtime and Slack distribution; Optiver's describes task certification, routing and an experiment funnel. These patterns suggest evaluating discovery, access, review and support alongside model quality. Their program descriptions do not establish causal firmwide engineering savings.
+Visible native-slide content: 01 / FINANCE STRATEGY Count the full cost of accepted work A smaller prompt or cheaper model is valuable only when the complete, reviewed job improves.
 
-Sources: Bridgewater · Range · Two Sigma · Monzo · Optiver
+Visible native-slide content: FULL WORKFLOW COST All costs ÷ accepted tasks Attempts + tools + review + rework + operation
 
-Sources04 / 29
+Visible native-slide content: A context-use demonstration 24,000 → 2,400 tokens Credit Karma’s Artifactory example motivates a paired quality test. It does not establish equal answers or a general latency improvement.
 
-### Explanation & evidence
+Visible native-slide content: Count the work people retain A reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandoned runs and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit cost so narrower coverage cannot masquerade as improvement. Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse.
 
-A financial-services AI landscape is easier to compare when the workflow and bottleneck are explicit. An investment information foundation, a financial-planning skill and an internal engineering agent have different success criteria, risk exposures and operating constraints. This map is a selected set of cases, not a representative survey or firm ranking.
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; Scaling AI with P&L on the line — https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3; Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents — https://ai.engineer/nyc/2026/talks/credit-karma; Jellyfish · Tokens Are the Cheap Part — https://ai.engineer/nyc/2026/talks/jellyfish; Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/talks/ramp
 
-Evidence: Bridgewater, Range and Two Sigma are recorded attendee accounts. Monzo's shared agent runtime and Optiver's certification/routing approach remain descriptions from the earlier official program. Those engineering cases do not establish autonomous trading, banking or causal firmwide savings.
+# 8. Ground facts and memory in time, meaning, access and source health
 
-### Practical takeaways
+Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections.
 
-- Investment: information and decision relevance.
-- Wealth: preparation and professional capacity.
-- Banking: controlled, repeatable execution.
-- Engineering: accepted change and operating cost.
+Set the evidence boundary: Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Preserve changing beliefs: Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence.
 
-Speaker notes
+Treat missing signals honestly: A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field.
 
-Use this map to establish breadth without turning the presentation into a company catalog. Ask which resource is scarce in each case: evidence, professional attention, safe execution or accepted engineering output.
+Visible native-slide content: 02 / GROUNDED EVIDENCE Ground facts and memory in time and access Scope the question and keep changing beliefs attached to dated evidence, access and correction history.
 
-Mention that mechanisms can transfer across firms while success measures often cannot. The next chapters will examine what each workflow needs from its data, evaluation and runtime.
+Visible native-slide content: Set the evidence boundary Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task.
 
-### Sources for this page
+Visible native-slide content: Preserve changing beliefs Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence.
 
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S06 · Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-- [S07 · Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
+Visible native-slide content: Treat missing signals honestly A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field.
 
-01 / FINANCE STRATEGY & VALUE
+Sources: Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Can Your AI Analyst Keep a Secret? — https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater; Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/talks/citadel
 
-## Wealth AI connects preparation, institutional knowledge and professional review
+# 9. Evaluate eligible evidence coverage separately from human-facing relevance
 
-The concrete wealth examples augment recognizable advisor work. Compare their mechanisms while preserving dates, review responsibilities and the distinction between reported deployment, useful outputs and demonstrated client outcomes.
+Bridgewater supplies a concrete retrieval-learning loop: label relevant and plausible irrelevant evidence, reproduce complaints, and test filtering under the constraints found in real use. Larger context alone is not the objective.
 
-Range
+Make relevance observable: The speakers describe roughly 200 manually labeled questions and a reported precision@10 rise from about 60% to 90–95%. The speaker corrects an initial “recall” reference to precision. This is an internal retrieval comparison, not measured final-answer quality or investment performance.
 
-### Expert-authored planning
+Test restrictive filters: Post-filtering can discard eligible candidates after vector search; exhaustive pre-filtered scoring can be slow. Evaluate combinations of time, source and asset constraints, including sparse matches and no evidence. Measure coverage and latency rather than choosing an index from a generic benchmark.
 
-Parallel drafts; planner reviews and adjusts.
+Design for the consumer: An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration.
 
-October 2026
+Visible native-slide content: 02 / GROUNDED EVIDENCE Test relevance, coverage and restrictive filters Bridgewater’s reported retrieval comparison is specific; it does not establish answer quality or alpha.
 
-Morgan Stanley
+Visible native-slide content: Design question Human-facing search Agent-facing retrieval Observed emphasis Precision and signal-to-noise. Recall and scale. Consumption A compact, reviewable result set. Fast processing of more evidence. Shared requirements Relevance, permission, meaning and freshness. Relevance, permission, meaning and freshness.
 
-### Meeting to follow-up
+Visible native-slide content: Reported internal benchmark: ~200 labeled questions; precision@10 ~60% → 90–95%. The speaker corrects “recall” to precision. No held-out design, uncertainty or investment result is supplied.
 
-Consent-based notes, action items and draft follow-up.
+Visible native-slide content: Test sparse time/source/asset filters, no-evidence cases and required-source coverage before compression. Then inspect retained meaning, omissions and human review effort in the final brief.
 
-June 2024
+Sources: Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater
 
-UBS
+# 10. Resolve numbers through facts and code, then verify the final claim
 
-### Institutional knowledge
+Kepler distinguishes a wrong source, a wrong fact inside the right source and a wrong calculation. Its released accounts add a constrained number path; final generation still needs checks after retrieval and arithmetic.
 
-Advisor access to products, research and CIO reports.
+Use a structured fact: The standalone breakout description names value, unit, scale and period. The next-day transcript describes fact identifiers resolved by software while a model plans. Preserve the source anchor and calculation inputs; a valid identifier still needs the correct entity, definition and version.
 
-February 2025
+Keep access on every path: Exact lookup does not bypass authorization. Search, direct reads, calculation inputs and output references must remain within the user and tenant scope. Test revoked access and empty evidence as well as the successful path; a citation chip does not enforce permission.
 
-RBC
+Verify what the user receives: The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support.
 
-### Client-context preparation
+Visible native-slide content: 02 / GROUNDED EVIDENCE Resolve the fact; compute; verify the final claim Wrong source, fact and arithmetic need different checks; verify final generation too.
 
-Meeting preparation using relevant client information.
+Visible native-slide content: Eligible source Exact fact Code calculation Final claim check
 
-March 2025
+Visible native-slide content: Use a structured fact The standalone breakout description names value, unit, scale and period. The next-day transcript describes fact identifiers resolved by software while a model plans. Preserve the source anchor and calculation inputs; a valid identifier still needs the correct entity, definition and version.
 
-### Encode the planning method
+Visible native-slide content: Keep access on every path Exact lookup does not bypass authorization. Search, direct reads, calculation inputs and output references must remain within the user and tenant scope. Test revoked access and empty evidence as well as the successful path; a citation chip does not enforce permission.
 
-Range's planners package what client information exists, how to obtain it and how their firm prepares recommendations. Agents draft cash-flow or insurance analyses; planners review and adjust them. Measure accepted planning capacity after correction effort before claiming improved advice or throughput.
+Visible native-slide content: Verify what the user receives The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support.
 
-### Connect meetings to follow-through
+Sources: Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI — https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release · Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler — https://www.youtube.com/watch?v=dZgA6btnb_s
 
-Morgan Stanley's June 26, 2024 release describes consent-based Debrief notes, action items, advisor-edited follow-up and CRM capture. Its separate Assistant adoption claim does not demonstrate Debrief productivity. Assess the complete meeting-to-follow-up process, including consent, accuracy, corrections and the advisor's final decision.
-
-### Preserve historical evidence boundaries
-
-UBS's February 4, 2025 release describes advisor knowledge access through Red. RBC's March 27, 2025 materials describe client-context preparation alongside survey and pilot measures. These historical disclosures illustrate different workflows; neither rollout scope nor pilot conversion establishes universal deployment or causal revenue.
-
-Sources: Range · Morgan Stanley (2024) · UBS (2025) · RBC (2025)
-
-Sources05 / 29
-
-### Explanation & evidence
-
-The common wealth-management pattern is augmentation of a professional workflow. Range's recorded example drafts another client's analysis while a planner is on a call, then leaves review and adjustment with the planner. Morgan Stanley's historical release describes consent-based meeting capture and advisor-edited follow-up. UBS and RBC provide public examples of advisor knowledge access and preparation.
-
-Evidence: Range's identity was confirmed by the attendee and matched to Matt Ragone's official session. Its notes omit explicit evidence/maturity labels and contain no measured benefit. The other three cases are dated company disclosures; they are not independent evaluations or NYC attendance evidence. The RBC presentation's conversion measure is US-pilot based, and its adoption/satisfaction measures are separately labeled survey results.
-
-### Practical takeaways
-
-- Connect institutional knowledge to an advisor's workflow.
-- Make client context and professional review explicit.
-- Keep rollout evidence separate from outcome evidence.
-
-#### Company evidence comparison
-
-| Firm / source date | Reported mechanism | Evidence boundary |
-| --- | --- | --- |
-| Range · October 14, 2026 · attendee account | Planner-authored skills; cash-flow/insurance drafts; review and adjustment | No measured capacity or advice-quality result captured |
-| Morgan Stanley · June 26, 2024 · external firm release | Knowledge Assistant plus consent-based Debrief notes, draft follow-up and CRM capture | Assistant adoption does not establish Debrief-wide productivity |
-| UBS · February 4, 2025 · external results release | Red gives advisors access to institutional products, research and CIO knowledge | Reported rollout scope does not establish quality or client outcomes |
-| RBC · March 27, 2025 · external Investor Day | Advisor Assist and client-context meeting preparation | Roadmap, survey use and pilot outcomes are distinct evidence |
-
-**Evidence boundary:** Range: attendee account with confirmed company/session. Morgan Stanley 2024, UBS 2025, RBC 2025: dated external firm disclosures, not conference findings or latest-state claims.
-
-Speaker notes
-
-Use the four cards to show a pattern, then make the boundary clear: generating a draft is different from authorizing advice or demonstrating better client outcomes. The professional's review is an observable part of the workflow and must be included in any productivity measure.
-
-Keep the historical dates visible. Do not introduce the cases as the latest industry state, or compare their adoption percentages as if the denominators and tools were the same.
-
-### Sources for this page
-
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [E01 · Morgan Stanley Wealth Management · Debrief launch](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
-- [E02 · UBS · fourth-quarter/full-year 2024 results](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html)
-- [E03 · RBC · 2025 Investor Day presentation](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95)
-- [E04 · RBC · 2025 Investor Day transcript](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20)
-
-01 / FINANCE STRATEGY & VALUE
-
-## Business value requires evidence beyond adoption and accepted output
-
-Track a chain from use to accepted work, process improvement and attributable outcomes. Each step changes the claim being made and therefore requires a different comparison and evidence.
-
-01**Adoption**
-
-Usage by task and cohort
-
-02**Accepted work**
-
-Quality, critical failures, reviewer effort
-
-03**Process change**
-
-Time, throughput, capacity, reliability
-
-04**Attributable value**
-
-Comparable baseline, full costs, uncertainty
-
-### Separate use from usefulness
-
-Count who uses a system, for which tasks, and what outputs reviewers accept, correct or reject. Define usefulness before examining downstream outcomes. Adoption can coexist with heavy rework, and an accepted answer may still leave the underlying business process unchanged.
-
-### Establish the credible alternative
-
-Contour's notes describe AI and non-AI workflow tracking over roughly three months. The relevant question is what would have happened otherwise, at what quality, effort and timing. The notes do not specify randomization or controls, so the comparison cannot establish causal alpha.
-
-### Preserve decisions through time
-
-For investment research, retain the information available when an idea was generated, its reasoning, reviewer response and subsequent decision. This prevents successful outcomes from being reconstructed with hindsight. Report process improvements separately from returns influenced by markets, selection and other drivers.
-
-Sources: Contour Asset Management · Monzo
-
-Sources06 / 29
-
-### Explanation & evidence
-
-Contour's notes ask whether the research process would have reached the same conclusion without AI and describe a comparison/tracking approach over roughly three months. This gives an actionable measurement question, but the notes do not specify random assignment, comparable groups, contamination control or a causal return estimate. Three months is a reported window, not a universal ROI-validation period.
-
-The ladder keeps different claims from collapsing into one success story. A widely used assistant can still require substantial corrections; accepted work can improve a process without a financial effect being attributable to AI. For research, preserve point-in-time inputs and decision lineage to avoid reconstructing success with hindsight.
-
-### Practical takeaways
-
-- Adoption measures use.
-- Accepted work measures usefulness and quality.
-- Process change measures time, capacity and reliability.
-- Attributable value needs a credible comparison.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Walk upward one step at a time. Ask what extra evidence would justify the next claim. Use Contour's cost-per-useful-insight idea to make the denominator concrete: useful must be defined before the outcome is known.
-
-Emphasize that a good conference report can bring back a measurement method without claiming verified alpha. The same distinction applies to advisor adoption, conversation volume and merged pull requests.
-
-### Sources for this page
-
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S06 · Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-
-01 / FINANCE STRATEGY & VALUE
-
-## Count every attempt and human intervention in accepted-task economics
-
-A lower inference bill can conceal greater review, retry or maintenance work. Compare equivalent tasks at agreed quality, using all workflow costs and reporting accepted completion alongside cost.
-
-Proposed measurement
-
-Total workflow cost  
-÷ accepted tasks
-
-Attempts + tools + review + rework + operation
-
-**Same task**
-
-Baseline and candidate face equivalent work.
-
-**Same standard**
-
-Acceptance criteria and critical limits are agreed.
-
-**Full effort**
-
-Count the work that people still perform.
-
-### Include downstream operating work
-
-Record inference, data, tools, retries, selection, human review, rework and support costs. If several candidates are generated before one is accepted, all attempts belong in the numerator. A cheaper draft is not cheaper completed work when correction effort rises.
-
-### Qualify before optimizing cost
-
-Optiver's program describes routing to models certified for particular tasks. The transferable idea is a task-specific quality requirement before price optimization. A qualification must cover consequential failures and operating conditions; certification on one workload does not establish readiness for another.
-
-### Keep the denominator honest
-
-Define eligible tasks, accepted completion and exclusions before comparing workflows. Include failed and abandoned attempts in total costs, then report accepted-task rate beside cost per accepted task. Otherwise narrowing the task population can make an unchanged system appear economically better.
-
-Sources: Contour Asset Management · Optiver
-
-Sources07 / 29
-
-### Explanation & evidence
-
-A cheap model response can create expensive downstream work. A fair comparison records the cost of all attempts, the work needed to select or repair an output, and the services needed to operate the workflow. Compare equivalent workloads and accepted quality; otherwise the denominator changes while the metric appears to improve.
-
-Evidence: Contour's attendee notes provide the value/cost-per-useful-insight framing. Optiver's task certification and routing to qualifying models remain program background. The all-in-cost stack is an editorial measurement proposal. Neither source establishes avoided headcount, causal firmwide savings or a generally optimal model-routing policy.
-
-### Practical takeaways
-
-- Include attempts, tools, review, rework and operation.
-- Compare equivalent tasks at agreed quality.
-- Separate estimated savings from realized value.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Use a failure example rather than made-up numbers: a retry that requires another review belongs in the cost, even if the final artifact is accepted. Ask whether a faster draft actually frees professional time after corrections.
-
-Hand off to grounding: now that the unit of value is clear, the next question is which facts, sources and calculations make that work defensible.
-
-### Sources for this page
-
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S07 · Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
-
-02 / GROUNDED AGENTS
-
-## Time, meaning, and access define the financial question an agent can answer
-
-Bridgewater’s Vault discussion connects institutional knowledge to time, business meaning, and access. These boundaries should shape retrieval before the model assembles a persuasive answer.
-
-01**Request**
-
-Entity · task · as-of date
-
-02**Evidence boundary**
-
-Allowed sources · entitlement · effective time
-
-03**Meaning**
-
-Ontology · metric definitions · versions
-
-04**Context**
-
-Relevant evidence · explicit gaps
-
-05**Answer**
-
-Supported claims · uncertainty
-
-### Scope before retrieving evidence
-
-Bridgewater describes combining external research, news, and transcripts with internal information, organized around market, country, concept, and time. Translate the request into an explicit entity, decision, and information cutoff before selecting sources; a broad corpus alone does not define relevance.
-
-### Enforce access during retrieval
-
-The Bridgewater and turbopuffer permissions case describes enforcing user-level permissions in retrieval. Test whether the current user may see each returned source, including after access changes. Application checks or a valid tool credential alone do not establish correct resource access.
-
-### Carry definitions into context
-
-A model can retrieve the right document while answering with the wrong business definition. Include the intended metric, reporting period, entity scope, and source version in the context contract. Surface conflicting definitions or missing evidence instead of silently selecting one.
-
-Sources: Bridgewater · Bridgewater / turbopuffer · Kepler
-
-Sources08 / 29
-
-### Explanation & evidence
-
-Bridgewater’s Vault presentation, captured in the attendee notes, describes external and internal unstructured information with an ontology organized around market, country, concept, and time. The notes emphasize restricting the relevant time period and serving both people and agents. The official program reports production use of Vault/PAT; this is a speaker-reported deployment claim rather than an independent quality result.
-
-The separate Bridgewater/turbopuffer permissions session is agenda-only background here: its abstract describes user-level permissions enforced at retrieval. It was not one of the supplied attended-note blocks. The diagram is our proposed method combining these ideas with Kepler’s source-verification discussion; it does not claim to reproduce either company’s implementation.
-
-### Practical takeaways
-
-- Scope the time, corpus, and user permissions.
-- Resolve business meaning before assembling context.
-- Measure whether evidence supports a useful answer.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Start with the boundary of the answer. A model cannot repair an omitted source, a definition that means different things to two desks, or permission that was never enforced. Ask the audience to identify where their own system checks time, identity, and meaning.
-
-Keep the company evidence precise: Vault’s production status is reported, while the effect of a particular ontology or filter was not measured in these notes.
-
-### Sources for this page
-
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S08 · Can Your AI Analyst Keep a Secret?](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-
-02 / GROUNDED AGENTS
-
-## Human attention and agent coverage require different retrieval objectives
-
-Bridgewater contrasts compact, high-signal human search with broader agent retrieval. Evaluate evidence collection and the final human-facing brief separately, while preserving shared checks on relevance, access, and freshness.
-
-| Design question | Human-facing search | Agent-facing retrieval |
-| --- | --- | --- |
-| Observed emphasis | Precision and signal-to-noise | Recall and scale |
-| Consumption | Small, reviewable result set | Fast processing of more evidence |
-| Shared checks | Permissions • meaning • freshness | Permissions • meaning • freshness |
-
-### Protect scarce human attention
-
-The Vault notes emphasize precision and signal-to-noise for people consuming a small result set. A brief should make the important development easy to inspect without burying it in irrelevant material. Human review effort belongs in the evaluation alongside answer quality.
-
-### Test coverage before compression
-
-An agent may need broader retrieval to avoid missing decisive evidence, but irrelevant context can still distract it. Measure whether required sources are found, then whether synthesis preserves their meaning. Do not assume a larger context window or result count improves the answer.
-
-### Evaluate the delivered feed
-
-Bridgewater’s investor-workbench examples include activity feeds and evidence-backed summaries around what an investor might be missing. Compare relevance, important omissions, timeliness, and review time against the existing information flow. The examples do not establish changed habits, predictive accuracy, or investment returns.
-
-Sources: Bridgewater
-
-Sources09 / 29
-
-### Explanation & evidence
-
-The attendee recorded a contrast between human search needs—precision, high signal-to-noise, and small scale—and agent needs—broad recall, scale, and fast consumption. This is useful for choosing an evaluation workload, but agents cannot ignore precision and people sometimes need exhaustive recall. No benchmark result or optimal retrieval setting was captured.
-
-The notes also describe activity feeds, “What am I missing?” surfaces, and evidence-backed summaries intended to steer investor attention. They contain contradictory reactive-to-proactive wording, so this slide avoids attributing an exact directional claim. New-feature deployment scope and measured impact are not established.
-
-### Practical takeaways
-
-- Humans often need a compact, high-signal result.
-- Agents may need broader coverage and rapid consumption.
-- Both still require access, freshness, and relevance checks.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Use the matrix to ask what failure each consumer tolerates. For a human, irrelevant results can consume scarce attention; for an agent, missing the decisive source can make a polished answer wrong. The shared contract is evidence quality.
-
-If discussing feeds, describe attention steering as reported functionality. Do not promise that a feed changes habits, predicts markets, or improves returns.
-
-### Sources for this page
-
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-
-02 / GROUNDED AGENTS
-
-## Every reported number needs meaning, source history, and calculation lineage
-
-Kepler describes retrieval, code-based arithmetic, typed facts, and citation checks. The engineering implication is an inspectable evidence contract, not a guarantee that a citation makes a financial conclusion correct.
-
-01**Retrieve evidence**
-
-02**Compute deterministically**
-
-03**Register typed facts**
-
-04**Validate rendered claims**
-
-EntityMetricPeriodUnit / currencyValueSource version / passage
-
-### Separate retrieval from arithmetic
-
-Kepler’s account distinguishes finding source material from calculating a result. Code can make arithmetic reproducible, but it cannot establish that the selected input represents the intended entity, period, or definition. Evaluate input selection and calculation correctness as separate failure classes.
-
-### Register meaning with values
-
-A useful typed-fact contract carries entity, metric, period, unit, currency, source version, and passage alongside the value. These extended checks are proposed requirements, not verified Kepler coverage. Retain calculation inputs and transformations so another reviewer can reconstruct the reported figure.
-
-### Make failed support visible
-
-Citation repair may recover an exact value or formatting variant without resolving a semantic mismatch. Test what happens when support still fails: remove the claim, abstain, or escalate. Stripping a citation while retaining the unsupported sentence would not make the answer trustworthy.
-
-Sources: Kepler
-
-Sources10 / 29
-
-### Explanation & evidence
-
-Kepler’s presentation notes describe an LLM-generated plan, source retrieval, code-based calculation, a citation registry carrying metadata and typed facts, and citation repair/filtering. The key transferable idea is to make the path from a figure to its source and calculation inspectable. The notes do not establish a complete ordered architecture or prove that every generated fact is deterministically correct.
-
-The entity/period/unit/currency/restatement checks shown here are proposed requirements. They appeared in a prefilled question without a recorded answer, so they must not be presented as verified Kepler coverage. Exact-match or formatting repair can recover a citation while still leaving a semantic mismatch. The recorded 3× overfetch, 100 per namespace, maximum 5 per document, and top-20 wording are ambiguous implementation examples, not recommended defaults.
-
-### Practical takeaways
-
-- Retrieve the source and compute with code.
-- Bind values to entity, period, unit, and source version.
-- Reject unsupported claims and expose unresolved ambiguity.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Point to the typed fact, not only the citation icon. A cited value can still belong to the wrong period or unit. Code arithmetic solves one failure class; it does not select the right input by itself.
-
-Explain that abstention and repair behavior need testing. “Verified citation” is not a blanket guarantee of a correct financial conclusion.
-
-### Sources for this page
-
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-
-02 / GROUNDED AGENTS
-
-## Correct arithmetic can produce the wrong answer when the source is stale
-
-This synthetic AsterCo example separates calculation correctness from source validity: preliminary revenue produces 18% growth, while the final source available at the requested cutoff produces 20%.
-
-Illustrative example
-
-AsterCo: FY2025 revenue growth as of March 1, 2026?
-
-| Invented document | USD m | Treatment |
-| --- | --- | --- |
-| FY2024 final | 100 | Prior-year input |
-| FY2025 preliminary | 118 | Superseded |
-| FY2025 final | 120 | Current-year input |
-
-Synthetic calculation
-
-(120 − 100) / 100  
-= 20%
-
-Using 118 gives 18%: correct arithmetic on the wrong source version.
-
-### Apply the information cutoff
-
-All company data and documents here are invented. The March 1 cutoff permits the February 1 final report, which supersedes the preliminary version. Source eligibility depends on what was available then; selecting today’s latest document would not answer every historical question.
-
-### Recompute the dependent claim
-
-Using preliminary revenue of 118 against prior-year revenue of 100 gives 18%; using final revenue of 120 gives 20%. Both calculations are arithmetically valid. A source correction must update the derived figure and any narrative or chart that depends on it.
-
-### Preserve the rejected version
-
-Retain the chosen inputs, publication dates, calculation, and reason the preliminary source was superseded. That record explains why the answer changed and supports later reproduction. Extend the test to missing, conflicting, restated, and unauthorized sources before claiming dependable financial analysis.
-
-Sources: Kepler
-
-Sources11 / 29
-
-### Explanation & evidence
+# 11. Correct arithmetic can produce the wrong answer when the source is stale
 
 All company names, documents, publication dates, amounts, and results in this example are invented for teaching. The exercise is not a result achieved by Kepler, Bridgewater, Fidelity, or any real company, and is not investment advice. It illustrates a source-version failure that deterministic arithmetic alone cannot prevent.
 
 The chosen as-of date permits D3, while the earlier D2 is superseded. A complete evidence record retains the entity, definition, period, units, source choice, and calculation. A different as-of date could require a different source or an explicit uncertainty statement. This proposed contract should be evaluated on stale, conflicting, absent, and unauthorized evidence before claiming production reliability.
 
-### Practical takeaways
+Visible native-slide content: 02 / SYNTHETIC EXAMPLE — ALL ENTITIES, DOCUMENTS, DATES AND VALUES INVENTED Correct arithmetic can still answer the wrong question AsterCo: FY2025 revenue growth as of March 1, 2026? Values below are USD millions.
 
-- Select the final source valid at the requested date.
-- Calculate growth from the selected typed values.
-- Retain both inputs and the superseded-source decision.
+Visible native-slide content: Invented document USD m Published Treatment at cutoff D1 / FY2024 final 100 February 1, 2025 Prior-year input D2 / FY2025 preliminary 118 January 15, 2026 Superseded D3 / FY2025 final 120 February 1, 2026 Eligible current-year input
 
-#### Full synthetic source history
+Visible native-slide content: (118 − 100) / 100 = 18% Correct arithmetic; superseded source.
 
-| Invented source | Period | Revenue, USD m | Published | Treatment |
-| --- | --- | --- | --- | --- |
-| D1 · FY2024 final | FY2024 | 100 | 2025-02-01 | Use as prior-year input |
-| D2 · FY2025 preliminary | FY2025 | 118 | 2026-01-15 | Superseded by final source |
-| D3 · FY2025 final | FY2025 | 120 | 2026-02-01 | Use as current-year input |
+Visible native-slide content: (120 − 100) / 100 = 20% Eligible final source answers this question.
 
-**Evidence boundary:** Synthetic teaching example or illustrative contract. Invented values and workflows do not represent a firm result, client recommendation, or validated implementation.
+Visible native-slide content: Retain selected and rejected versions, publication dates and calculation lineage. Propagate corrections to narrative, table and chart. Test missing, conflicting, restated and unauthorized evidence; historical cutoffs can change the answer.
 
-Speaker notes
+Sources: Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe
 
-Ask for the answer before revealing the treatment column. Eighteen percent is mathematically valid for the preliminary inputs; twenty percent follows from the final inputs. That difference is the point.
+# 12. Evidence and corrections must survive into the document people actually use
 
-Close by asking what a citation registry must retain for another person to reproduce the answer later. Remind the audience that these are fictional values, not a market example.
+Financial work often ends in a workbook, report or presentation. Inspectable chat output is insufficient if an export loses provenance, carries an old calculation or hides a contradictory period in a polished chart.
 
-### Sources for this page
+Preserve the claim chain: OpenAI’s finance presentation connects source passages and tables to charts and reusable artifacts. Carry the material value, period, unit and source into the deliverable. Reconcile the document with the current evidence after a correction rather than treating export as a cosmetic step.
 
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
+Check collaborative scope: Compound AI describes shared deal threads, an agent inbox and longer artifact work. Permissions must follow participants and source material, not only the connector. Inspect workbook depth, file coverage and final fidelity separately; vendor architecture is not independently verified Office parity.
 
-02 / GROUNDED AGENTS
+Review the current saved artifact: Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable.
 
-## Inspectability must survive the journey from source passage to exported artifact
+Visible native-slide content: 02 / GROUNDED EVIDENCE Keep evidence intact through the exported artifact A source-backed chat response is insufficient if the saved workbook, report or presentation becomes stale.
 
-OpenAI’s finance presentation described source passages, tables, charts, and generated documents. Connect these interfaces to an evidence contract that remains usable in the artifact people review and share.
+Visible native-slide content: Source + meaning Calculation Review Current artifact
 
-01**Source passage**
+Visible native-slide content: Preserve the claim chain OpenAI’s finance presentation connects source passages and tables to charts and reusable artifacts. Carry the material value, period, unit and source into the deliverable. Reconcile the document with the current evidence after a correction rather than treating export as a cosmetic step.
 
-Inspect the relevant excerpt and version
+Visible native-slide content: Check collaborative scope Compound AI describes shared deal threads, an agent inbox and longer artifact work. Permissions must follow participants and source material, not only the connector. Inspect workbook depth, file coverage and final fidelity separately; vendor architecture is not independently verified Office parity.
 
-02**Typed table**
+Visible native-slide content: Review the current saved artifact Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable.
 
-Values, units, periods, and source references
+Sources: Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; OpenAI · Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/talks/openai; Compound AI · Towards Autonomous Analysts in Finance — https://ai.engineer/nyc/2026/talks/compound
 
-03**Chart**
+# 13. Evaluate outcomes, consequential behavior and authority as separate views
 
-Visible inputs and transformations
+The complete job needs more than one answer score. Outcome rubrics locate incomplete work, behavior checks expose unsafe shortcuts, and state/action checks establish whether the workflow stayed within its permitted scope.
 
-04**Reusable artifact**
+Start from professional work: Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence.
 
-Preserved provenance and unresolved limits
+Construct diagnostic variants: The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy.
 
-### Connect claims to passages
+Keep blockers outside the average: A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality.
 
-The OpenAI discussion links financial data access with interfaces for inspecting passages and tables. Keep the relevant evidence near consequential claims rather than providing a generic source list. Product availability, provider entitlements, and the exact citation implementation still require confirmation.
+Visible native-slide content: 03 / EVALUATION ENGINEERING Evaluate the outcome, behavior and authority A correct total cannot compensate for fabricated evidence, a prohibited shortcut or an unapproved send.
 
-### Carry provenance through transformations
+Visible native-slide content: Outcome Behavior Authority Operating effort
 
-A correct intermediate value can become misleading when an exported chart drops its unit, period, or source version. Preserve typed fields and calculation lineage through tables, charts, and documents. Test the delivered artifact, including formatting changes, rather than only the model response.
+Visible native-slide content: Start from professional work Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence.
 
-### Evaluate the reviewer’s task
+Visible native-slide content: Construct diagnostic variants The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy.
 
-Inspectability makes review possible; it does not prove that a reviewer finds an error or that the source supports the claim. Measure whether someone can locate evidence, understand transformations, detect planted mistakes, and correct the final artifact without reconstructing the entire workflow.
+Visible native-slide content: Keep blockers outside the average A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality.
 
-Sources: OpenAI · Kepler
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; Vals AI · Beyond the Model Card: The Jagged Frontier of AI in Finance — https://ai.engineer/nyc/2026/talks/vals; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada — https://www.youtube.com/watch?v=c_SPW__jF9w
 
-Sources12 / 29
-
-### Explanation & evidence
-
-The OpenAI keynote notes describe finance-oriented interfaces, source passages, tables, interactive charts, and document/presentation artifacts. These are speaker-reported capabilities, with maturity and available-now versus roadmap distinctions unclear in the capture. This slide intentionally avoids naming uncertain data providers or asserting partnership, entitlement, licensing, or current rollout availability.
-
-The proposed output stack connects the interface discussion to the provenance problem. Inspectability makes review possible; it does not establish source entailment, numerical correctness, or an effective reviewer. The evidence contract must survive export into the table, chart, or document the user actually consumes.
-
-### Practical takeaways
-
-- Keep source passages near the claims they support.
-- Carry calculation lineage into tables and artifacts.
-- Separate interface polish from correctness evidence.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Use the stack to show how evidence can get lost after generation. A correct intermediate value is less useful if the exported chart omits its unit, period, or source.
-
-Keep vendor discussion at the level actually captured. Attractive citations and interactive charts still need end-to-end checks.
-
-### Sources for this page
-
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-
-03 / BUILDING EVALUATIONS
-
-## Evaluate the complete job against an explicit acceptance contract
-
-A useful evaluation states the decision, permitted behavior, and accepted work product before scoring. Task quality, evidence, safety, experience, and operating effort then become separate tests.
-
-01**Specify**
-
-Job, permitted inputs, acceptance
-
-02**Build cases**
-
-Common, difficult, missing, denied
-
-03**Score**
-
-Task, evidence, safety, experience
-
-04**Decide**
-
-Versioned evidence + accountable review
-
-### Write the task contract
-
-Specify the request, input snapshot, allowed sources and tools, required output, clarification conditions, and prohibited actions. Ramp’s task mapping starts here: judge the result against the complete job the user needed, including evidence and the next permitted decision.
-
-### Cover consequential failure paths
-
-Build cases for ordinary work, ambiguity, missing evidence, denied actions, and known regressions. The system-failure discussion emphasizes that a correct output can conceal an unacceptable trajectory. Record which failure each case tests and how a reviewer recognizes it.
-
-### Separate diagnostics from acceptance
-
-Score usefulness, source support, experience, latency, cost, and review effort individually. Predeclare which failures block acceptance regardless of other scores. Version cases and rubrics, preserve expert disagreement, and reserve assessment examples that were not used to tune the system.
-
-Sources: Ramp · New York Life Insurance / · Banking session
-
-Sources13 / 29
-
-### Explanation & evidence
-
-A useful evaluation begins with a decision: selecting a system, approving a change, reducing review, or extending authority. Describe what a completed job means, which sources and tools may be used, what must be clarified, and which failures are unacceptable. Then select the measurements needed for that decision. A single average can conceal a serious safety or evidence failure.
-
-Build cases from the intended workload and consequential failure paths. Each case should contain its input/context snapshot, allowed actions, required evidence, expected output properties, and severity tags. A reference answer can help, but open-ended work may admit several acceptable answers. Keep development examples separate from the final assessment set; do not assume a small case set proves population reliability.
-
-Provenance: Ramp's job/task-success framing, the Day 1 system-failure discussion, and the banking session's quality-vector framing are attendee-reported speaker accounts, not independently verified results. The banking speaker is Jonathan Osborne; the notes/October 10 metadata say Comet, while October 14 metadata say NatWest. This slide does not assign a production architecture or outcome to either institution.
-
-### Practical takeaways
-
-- Specify the job, permitted inputs/actions, and accepted work product.
-- Separate task quality, evidence, safety, experience, and operating cost.
-- Build representative, difficult, ambiguous, and critical-failure cases.
-- Version the cases, rubric, system, and evaluator; reserve a holdout.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Start with the work a user accepts, rather than a benchmark score. Ask the audience to imagine an agent with excellent prose and incorrect permissions: an average quality score would give the wrong release signal. Separate diagnostic scores from conditions that must hold.
-
-Walk quickly through the five case slices. The practical starting artifact is a case record plus rubric, not an elaborate evaluation platform. We will make that concrete on the next slide.
-
-### Sources for this page
-
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-
-03 / BUILDING EVALUATIONS
-
-## Score arithmetic and source validity independently to locate the actual defect
-
-The synthetic cash-flow example separates correct computation from correct evidence selection. An answer can earn arithmetic credit while failing the complete task because its input is superseded.
-
-Illustrative example
-
-Draft a monthly cash-flow snapshot. Use current approved records. Do not recommend or send.
-
-| Synthetic input | Value |
-| --- | --- |
-| Income | $8,000 / month |
-| Current expenses | $6,000 / month |
-| Superseded expenses | $5,500 / month |
-| Insurance details | Missing |
-
-| Rubric dimension | Scoring / acceptance |
-| --- | --- |
-| Arithmetic | 0: wrong · 1: correct but derivation incomplete · 2: correct and reconstructable |
-| Source validity | Use current $8,000 and $6,000 inputs; a superseded input fails this dimension |
-| Uncertainty | State missing insurance facts and the needed clarification |
-| Action boundary | BLOCK recommendation or send; scores cannot offset it |
-
-### Grade calculation and inputs
-
-Check arithmetic on the operands the answer actually states, then assess whether those operands answer the requested question. Give source validity its own rubric covering period, version, permissions, and provenance. This keeps an input-selection failure from being misdiagnosed as faulty subtraction.
-
-### Diagnose the stale-input example
-
-In this invented case, $8,000 minus superseded expenses of $5,500 correctly produces $2,500, but fails current-source validity. Approved expenses of $6,000 produce $2,000. Both calculations can be arithmetically sound; only the latter uses the current input required by the task.
-
-### Block explicitly forbidden behavior
-
-For this draft-only teaching task, a product recommendation or outbound message blocks acceptance even if diagnostic scores are high. Missing insurance facts must remain explicit. The diagnostic rubric needs domain review and calibration before use on real work.
-
-Sources: Ramp · Kepler · New York Life Insurance / 
-
-Sources14 / 29
-
-### Explanation & evidence
+# 14. Score arithmetic and source validity independently to locate the actual defect
 
 Every value, case, score guide, and output on this slide is synthetic and was authored for this presentation. The example is a draft financial-information task, not financial advice, a Fidelity test, or a benchmark used by any conference speaker. The general lessons connect Ramp's task-success framing with the notes on numerical evidence and risk-based evaluation.
 
@@ -877,87 +254,17 @@ Acceptance here requires the expected properties and respected boundary. The rub
 
 Rubric clarification: arithmetic is checked on the operands the answer actually states. A $2,500 calculation can earn arithmetic credit if it correctly subtracts $5,500 from $8,000, while failing source validity and the complete task because the $5,500 expense record is superseded. Do not double-count source selection as an arithmetic defect.
 
-### Practical takeaways
+Visible native-slide content: 03 / SYNTHETIC CASE AND ILLUSTRATIVE RUBRIC Separate arithmetic credit from source validity Draft a monthly cash-flow snapshot using current approved records. Do not recommend or send.
 
-- Synthetic task: draft a cash-flow snapshot; do not recommend or send.
-- Score arithmetic, source validity, and treatment of missing information separately.
-- A forbidden action blocks acceptance, even when other scores are high.
-- Use partial credit to diagnose a failure, not to excuse a critical defect.
+Visible native-slide content: Monthly inputs Income: $8,000 Current expenses: $6,000 Superseded expenses: $5,500 Insurance details: missing 8,000 − 5,500 = 2,500 (stale) 8,000 − 6,000 = 2,000 (current)
 
-#### Full illustrative rubric
+Visible native-slide content: Dimension Diagnostic / acceptance rule Arithmetic 0 wrong; 1 correct but incomplete derivation; 2 correct and reconstructable on stated operands. Source validity Use current $8,000 and $6,000 inputs. Superseded $5,500 fails this dimension. Uncertainty Disclose missing insurance facts and the required clarification. Action boundary Recommendation or outbound send blocks acceptance; other scores cannot offset it.
 
-| Dimension | Diagnostic score / condition |
-| --- | --- |
-| Arithmetic | 0: incorrect arithmetic on stated operands · 1: correct calculation with incomplete derivation · 2: inspectable, correct arithmetic on the stated operands. Source choice is scored separately. |
-| Source validity | 0: wrong/stale input · 1: current inputs with incomplete provenance · 2: current input versions and period identified |
-| Uncertainty | 0: invents missing facts · 1: vague caveat · 2: states the missing information and limits the conclusion |
-| Action boundary | BLOCK if it recommends a product or sends a message; do not average this into the diagnostic scores |
+Visible native-slide content: The $2,500 subtraction is correct on its stated operands, while the complete task fails source validity. Do not double-count input selection as an arithmetic defect. Real rubrics require domain review and calibration.
 
-$2,000/month = $8,000 − $6,000, using the current approved records. Insurance information is missing. Draft only; no recommendation or message sent.
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c
 
-**Evidence boundary:** Synthetic teaching example or illustrative contract. Invented values and workflows do not represent a firm result, client recommendation, or validated implementation.
-
-Speaker notes
-
-Ask: Is $2,500 an arithmetic failure? The subtraction is correct for the old record, which is exactly why one accuracy label is too coarse. The real failure is selecting the wrong version. Walk through the acceptable draft and its explicit limit on insurance information.
-
-Then point to the action gate. The proposal is to keep a forbidden action outside a weighted average. These are invented teaching numbers and conditions; the point is the structure, not a recommended universal threshold.
-
-### Sources for this page
-
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-
-03 / BUILDING EVALUATIONS
-
-## Calibrate the judge and evaluate how the system selects a usable answer
-
-Reliable evaluation requires both a trustworthy grader and a tested candidate-selection policy. A passing attempt, a selected acceptable output, and consistent first-attempt success describe different system behaviors.
-
-Illustrative example
-
-Human accepts
-
-Human rejects
-
-Judge passes
-
-Agreement
-
-**False pass**Missed consequential failure
-
-Judge fails
-
-**False failure**Lost utility / review burden
-
-Agreement
-
-Synthetic attempt illustration
-
-1 · fail2 · pass3 · fail
-
-### One success among three attempts
-
-Who recognizes the usable answer? What are retry, verification, latency, and review costs?
-
-### Calibrate against reviewed cases
-
-Compare judge decisions with independently reviewed examples and adjudicate important disagreements. Inspect serious false passes separately from overall agreement. Upstart’s announced account describes judges earning trust against human graders; stricter grading alone can also increase false failures and review burden.
-
-### Separate attempts from selection
-
-pass@k concerns at least one successful candidate among k attempts under a defined test. In the synthetic three-attempt strip, the second candidate passes. That establishes neither the system’s ability to choose it nor reliable first-attempt completion of the deployed task.
-
-### Price the deployed retry policy
-
-Report the acceptance test, k, single-attempt results, selection success, and total retry cost together. Evaluate the actual selection or verification mechanism under the same attempt budget. Include latency and human review; a benchmark’s successful candidate may remain unrecognized in operation.
-
-Sources: Ramp · Banking session · Upstart / Coval · Chen et al. (2021)
-
-Sources15 / 29
-
-### Explanation & evidence
+# 15. Calibrate the judge and evaluate how the system selects a usable answer
 
 Treat the judge as another evaluated system. Use independently reviewed examples, retain expert disagreement, and adjudicate important conflicts rather than treating one person's label as infallible. Check high-consequence false passes separately from overall agreement. A fail-leaning judge can also reject useful work and increase human burden; stricter grading is a hypothesis to test, not proof of reliability.
 
@@ -965,985 +272,305 @@ In standard pass@k evaluation, a task counts as solved when at least one of k sa
 
 Provenance: Ramp's Day 2 notes mention pass@k without k, scoring rules, or results. The banking session records a fail-leaning configurable judge, with Comet/NatWest affiliation unresolved. Upstart's advertised abstract describes human calibration for voice-agent judges; it is agenda evidence, not an attendee observation. Its automated self-improvement loops are described as under development, not achieved self-healing.
 
-### Practical takeaways
+Visible native-slide content: 03 / TWO SYSTEMS TO EVALUATE Evaluate the judge—and the answer-selection policy A passing attempt, a selected acceptable answer and first-attempt success describe different behavior.
 
-- Calibrate judges against independently reviewed cases; adjudicate disagreement.
-- Inspect serious false passes, false failures, and repeated-run variability.
-- pass@k asks whether at least one of k attempts meets the success test.
-- Production also needs a selection rule, acceptable single-run behavior, and full retry cost.
+Visible native-slide content: Judge / human Human accepts Human rejects Judge passes Agreement False pass: missed consequential failure. Judge fails False failure: lost utility / review burden. Agreement
 
-**Evidence boundary:** Judge matrix is a proposed method; the three-attempt strip is synthetic. Ramp and the banking account are unverified notes; Upstart is program context. The method paper supports the pass@k distinction.
+Visible native-slide content: SYNTHETIC SINGLE-CASE ILLUSTRATION 1 fail → 2 pass → 3 fail A success exists among three attempts. Who identifies the usable second answer? This is not an empirical pass@3 estimate.
 
-Speaker notes
+Visible native-slide content: Calibrate against adjudicated cases Inspect severe false passes beyond average agreement. Stricter grading can increase false failures. Upstart’s judge-calibration story is program context; automated self-improvement remained under development.
 
-Spend the first half on the dangerous top-right cell: the judge passes an unacceptable output. Ask whether a system could have excellent average agreement while missing rare severe defects. Then acknowledge the opposite cost: a judge that fails everything is not useful.
+Visible native-slide content: Test and price the deployed selection policy pass@k asks if at least one of k candidates passes. State workload, test, k and first-attempt behavior; evaluate the actual selector under that budget. Count retries, tools, verification, latency and review.
 
-Use the attempt strip to prevent a common metric misunderstanding. There is one successful candidate, but someone must recognize it. The end-to-end retry and selection policy must be evaluated and costed. The illustration is one synthetic case, not an empirical pass@3 estimate.
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale — https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b; Chen et al. · Evaluating Large Language Models Trained on Code — https://arxiv.org/html/2107.03374v2
 
-### Sources for this page
+# 16. Ablate skills and test memory after time has advanced
 
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-- [S13 · From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
-- [E05 · Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
+Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period.
 
-03 / BUILDING EVALUATIONS
+Challenge helpful-looking context: The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria.
 
-## Hold the workload fixed while testing one system change at a time
+Remember procedure; refresh facts: Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful.
 
-Ablations make context, skills, memory, and model changes accountable to the complete job. Paired comparisons reveal improvements and regressions that disappear when task mix or grader behavior changes.
+Test transfer and changed rules: Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context.
 
-| Variant | Task + evidence | Critical defects | Human effort | Cost / latency |
-| --- | --- | --- | --- | --- |
-| Baseline | Measure | Inspect | Measure | Measure |
-| Skill bundle | Paired change | New regression? | Paired change | Paired change |
-| Memory policy | Paired change | Stale facts? | Paired change | Paired change |
-| Model | Paired change | New regression? | Paired change | Paired change |
+Visible native-slide content: 03 / EVALUATION ENGINEERING Ablate skills; evaluate memory after time advances Ryan Stevens’s written account evaluates task + world + trajectory + accountant-authored rubric.
 
-### Control the comparison conditions
+Visible native-slide content: Change / fixture Reported result Local test question Eight skills → four +2.8 mean-score points / six worlds Inspect per-world regressions and essential criteria. Spreadsheet skill compressed 61% Quality essentially unchanged Check retained method and all workflow costs. Trajectory-distilled memory +5.7 points over skills alone Next-period work; fresh amounts; changed rules. Roll-forward worlds Same business, next period Preserve process knowledge; remove stale amounts.
 
-Replay baseline and candidate on matched tasks with the same source snapshots, permissions, rubric, evaluator version, and attempt policy. Change one component where feasible. Repeat stochastic assessments to inspect variation and paired failures; one aggregate run can conceal an unstable advantage.
+Visible native-slide content: Source: Ryan Stevens’s October 14 article, not Alexander Shevchenko’s keynote. Point gains are workload-specific reports, not predicted improvement for another team. Hold tasks, evaluator and attempt budget fixed; protect a separate assessment set.
 
-### Use ablations to challenge intuition
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/talks/ramp
 
-Ramp described reducing an eight-skill bundle to four, shrinking an Excel skill, and what it called trajectory-distilled memory: memory derived from prior agent runs. The notes do not capture its construction or measured effect. Test each component’s contribution instead of assuming that more memory or fewer skills always helps.
+# 17. A repair must improve the quality vector without bypassing release authority
 
-### Protect an independent assessment set
+A stronger prompt or model can improve one dimension and degrade another. Declare consequential blockers, inspect paired regressions and retain an accountable promotion decision before expanding the workflow’s exposure.
 
-Turn discovered failures into regression cases, while retaining a separate assessment set covering ordinary and difficult work. Compare evidence quality, critical defects, review effort, latency, and full cost. A fix earns its place only within explicitly agreed quality and operating tradeoffs.
+Compare the whole vector: Sofia Jakovcevic’s release describes a prompt repair that improves safety while harming completion. Preserve task/evidence quality, critical defects, latency and reviewer effort together. An aggregate gain should trigger inspection of important slices and regressions rather than automatic promotion.
 
-Sources: Ramp · New York Life Insurance / · Arize AI
+Trust observed execution: Omni’s release emphasizes full traces and gates that actually stop work. Verify that the tool effect or test occurred through runtime records; an agent’s claim that it passed is not independent evidence. Protect evaluator inputs and permitted tool/model access from benchmark gaming.
 
-Sources16 / 29
+Make the decision reproducible: Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur.
 
-### Explanation & evidence
+Visible native-slide content: 03 / EVALUATION ENGINEERING A repair must not hide a consequential regression Compare a vector of quality, critical defects, time and reviewer effort before expanding exposure.
 
-Compare changes on matched cases so that task mix, source freshness, or grader changes do not masquerade as an improvement. Where feasible, vary one component at a time. For stochastic systems, use repeated assessments sufficient to examine uncertainty; compare distributions and important failure examples rather than only a single run's aggregate.
+Visible native-slide content: A quality gain cannot offset prohibited access, fabricated support or an unapproved action.
 
-Ramp's Day 2 notes record experiments described as working: reducing an eight-skill bundle to four, trajectory-distilled memory, and shrinking an Excel skill. No effect sizes, controlled assessment details, or repeated-run results were captured. The method motivates an ablation design; the recorded counts are neither recommended defaults nor proof that reducing context always helps.
+Visible native-slide content: Compare the whole vector Sofia Jakovcevic’s release describes a prompt repair that improves safety while harming completion. Preserve task/evidence quality, critical defects, latency and reviewer effort together. An aggregate gain should trigger inspection of important slices and regressions rather than automatic promotion.
 
-The proposed matrix adds explicit review and full attempt cost to the quality vector. Retest a discovered failure, but retain an assessment set not selected solely because it contains known failures. Otherwise an iteration can overfit the observed incidents while harming ordinary work. This is editorial methodology, not a claim that Ramp followed this exact protocol.
+Visible native-slide content: Trust observed execution Omni’s release emphasizes full traces and gates that actually stop work. Verify that the tool effect or test occurred through runtime records; an agent’s claim that it passed is not independent evidence. Protect evaluator inputs and permitted tool/model access from benchmark gaming.
 
-### Practical takeaways
+Visible native-slide content: Make the decision reproducible Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur.
 
-- Replay baseline and candidate on the same input snapshots and assessment cases.
-- Vary skills, memory, context, or model deliberately; inspect the paired failures.
-- Track task/evidence quality, critical defects, review effort, latency, and cost.
-- Retest fixes on known failures and a separate assessment set.
+Sources: From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Arize · Sofia Jakovcevic · Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI — https://www.youtube.com/watch?v=v5tm5EAzsAs; Omni Analytics · Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics — https://www.youtube.com/watch?v=A3FL_zTQKU0; Google DeepMind / Kaggle / LinqAlpha · Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha — https://www.youtube.com/watch?v=aVbRSIQO2dE
 
-#### Variables to hold fixed
+# 18. Inspect the decision that produced the answer, then test a causal repair
 
-- Input/source snapshots
-- Assessment cases
-- Rubric and evaluator versions
-- Attempt/retry policy
+Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Separate applicability and adherence: A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too.
 
-Speaker notes
+Fork near the bad decision: Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact.
 
-The point is not to build this entire matrix before starting. Choose the next decision, hold the case set fixed, and compare one candidate against a working baseline. Show that even a seemingly obvious improvement—another skill, more memory—must earn its place.
+Use simulation as diagnosis: A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause.
 
-Ask what would change our mind: better average scores with a new high-severity failure should trigger investigation, not an automatic win. Separate the cases used to fix a problem from those used to assess the final change.
+Visible native-slide content: 03 / EVALUATION ENGINEERING A balanced result can still come from a bad process Basis’s reconciliation example exposes an incentive conflict that final-answer scoring can miss.
 
-### Sources for this page
+Visible native-slide content: Separate applicability and adherence A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too.
 
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
+Visible native-slide content: Fork near the bad decision Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact.
 
-03 / BUILDING EVALUATIONS
+Visible native-slide content: BASIS / ILLUSTRATED FAILURE Zero variance is not enough The agent cannot find support for a discrepancy, posts an adjustment anyway and reports a balanced result. The review tool rewarded the wrong goal. Accept a sourced explanation; do not invent a balancing entry.
 
-## Release decisions need explicit blockers, accountable judgment, and bounded exposure
+Sources: What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale — https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Arize · Aparna Dhinakaran · What does an AI engineer do? — https://ai.engineer/nyc/2026/talks/arize
 
-A release gate combines critical conditions with useful-work evidence and an accountable decision. Passing a finite suite supports a scoped judgment; it cannot establish that consequential failures are impossible.
+# 19. Expert skills need reasons, stopping conditions, ownership and independent review
 
-**Blocking conditions**
+Range’s released account turns the five-step process into a maintained operating practice. The skill expresses professional judgment in a form agents can reuse; people remain responsible for its validity and for client-facing recommendations.
 
-Unauthorized action · unsupported consequential number · omitted required approval
+Pick and teach a whole task: Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation.
 
-**Quality & economics**
+Pack the boundaries: Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment.
 
-Task acceptance · paired regressions · judge validity · uncertainty · review cost
+Ship with maintenance: Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study.
 
-01**Evidence packet**
+Visible native-slide content: 04 / CONTROLLED WORKFLOWS Expert skills need owners, reasons and boundaries Range’s skill encodes the professional method; client-facing recommendations remain reviewed.
 
-Cases, versions, traces
+Visible native-slide content: Pick Teach Pack Test Ship
 
-02**Accountable decision**
+Visible native-slide content: Pick and teach a whole task Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation.
 
-Investigate or promote within scope
+Visible native-slide content: Pack the boundaries Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment.
 
-03**Staged operation**
+Visible native-slide content: Ship with maintenance Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study.
 
-Monitor, stop, roll back
+Sources: We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range
 
-### Declare blockers before scoring
+# 20. Let agents iterate inside a stage; require explicit evidence to advance
 
-Specify prohibited access or actions, unsupported consequential claims, and omitted approvals before reviewing candidate results. Keep these conditions outside a compensating average. The banking session’s quality-vector discussion motivates multidimensional review, but supplied no captured release threshold or implemented rollback policy.
+Coinbase’s framework places bounded draft/check/refine loops inside a forward-moving policy workflow. Drafting, professional judgment and execution authority remain different decisions, even when one interface makes the work feel continuous.
 
-### Assemble a reviewable evidence packet
+Define the stage contract: Specify the allowed inputs, checkable output, iteration budget and human takeover condition. The loop can improve a draft while the outer workflow waits for the required acceptance or approval. Faster generation can shift the bottleneck to review rather than remove it.
 
-Retain intended scope, task and evaluator versions, results by important slice, representative traces, material regressions, expert disagreements, and known limits. Name the accountable decision owner and record accepted exceptions. Inadequate evidence is a reason to investigate before expanding exposure.
+Keep professional judgment visible: The invented annual packet below subtracts $84k recorded expenses from $120k income: $36k is only an arithmetic difference. It establishes neither disposable capacity nor suitability. Review the facts, gaps, assumptions and conclusions before the work can be considered accepted.
 
-### Limit promotion and monitor outcomes
+Separate review from permission: Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence.
 
-Promote only within agreed scope, with operational monitoring and explicit pause, rollback, or renewed-review conditions. A clean finite assessment does not prove zero risk. Broaden or repeat testing when unresolved uncertainty could change the decision, and retain authority outside automated diagnosis.
+Visible native-slide content: 04 / CONTROLLED WORKFLOWS Let agents iterate inside explicitly gated stages Coinbase’s framework places bounded draft/check/refine loops inside a forward-moving policy workflow.
 
-Sources: Banking session · New York Life Insurance / · Two Sigma
+Visible native-slide content: Invented draft: $120k income − $84k expenses = $36k arithmetic difference; not suitability or permission.
 
-Sources17 / 29
+Visible native-slide content: Define the stage contract Specify the allowed inputs, checkable output, iteration budget and human takeover condition. The loop can improve a draft while the outer workflow waits for the required acceptance or approval. Faster generation can shift the bottleneck to review rather than remove it.
 
-### Explanation & evidence
+Visible native-slide content: Keep professional judgment visible The invented annual packet below subtracts $84k recorded expenses from $120k income: $36k is only an arithmetic difference. It establishes neither disposable capacity nor suitability. Review the facts, gaps, assumptions and conclusions before the work can be considered accepted.
 
-Define the release decision's standard before seeing the candidate's results. Critical conditions may include unauthorized access, unsupported consequential claims, or missing required approval; which conditions block a release is a domain decision. Keep those conditions separate from graded usefulness. A finite assessment can support a bounded decision, but a clean test run is not a proof of zero risk.
+Visible native-slide content: Separate review from permission Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence.
 
-Retain a reviewable evidence packet: intended use and scope, case/evaluator/system versions, results by important slice, material disagreement, representative traces, known limitations, exception decisions, and operational stop conditions. Repeat or broaden assessment when uncertainty could change the decision. Do not invent a universal pass threshold or regard a single combined accuracy score as sufficient.
+Sources: We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Stop turning your Humans Into APIs for your Agents — https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; Coinbase · Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/talks/coinbase; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual
 
-The banking notes record multidimensional quality and a configurable fail-leaning judge, but no actual reviewer approval package, release threshold, or rollback trigger. Its current NatWest versus earlier Comet attribution remains unresolved. The gate shown here is an editorial proposal informed by that discussion and the Day 1 system-failure perspective; it is not attributed as an implemented bank policy.
+# 21. Enforce identity, scope and stopping conditions outside the agent
 
-### Practical takeaways
+Two Sigma’s ownership/access framing and Bloomberg’s execution defenses meet at one point: the model can propose an action, but an enforcing service must decide whether it can happen.
 
-- Predeclare blocking conditions and acceptable quality/operating tradeoffs.
-- Review critical failures, paired regressions, uncertainty, and evaluator validity.
-- Retain the cases, versions, traces, decisions, and approved exceptions.
-- Roll out in stages with explicit stop, rollback, and renewed-review conditions.
+Make the agent accountable: Register an owner, purpose, tools and accessible resources. Use short-lived scoped identity and carry the user’s authority through the tool path. A valid credential or schema does not establish that a business action is appropriate for this case.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Test the actual boundary: Challenge cross-tenant queries, revoked access, agent-to-agent privilege escalation, retries and budget exhaustion. Bloomberg recommends deterministic invocation checks and egress limits including DNS. Verify that a denied action is blocked and a halt condition stops execution, rather than merely producing an alert.
 
-Speaker notes
+Treat memory as an input surface: A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval.
 
-Return to the synthetic rubric: excellent arithmetic cannot compensate for an unauthorized send. The gate preserves that logic at release level. Ask the team to name a blocker and the evidence needed to test it, rather than choose a convenient overall percentage.
+Visible native-slide content: 04 / CONTROLLED WORKFLOWS Enforce authority outside the proposed action Two Sigma makes ownership and scope visible; Bloomberg makes the execution boundary concrete.
 
-Emphasize bounded scope and accountable judgment. Tests inform a release decision; monitoring and rollback address what the suite did not foresee. We are not claiming that any speaker supplied this exact evidence packet.
+Visible native-slide content: Identity Policy check Authorized executor Audit + stop
 
-### Sources for this page
+Visible native-slide content: Make the agent accountable Register an owner, purpose, tools and accessible resources. Use short-lived scoped identity and carry the user’s authority through the tool path. A valid credential or schema does not establish that a business action is appropriate for this case.
 
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
+Visible native-slide content: Test the actual boundary Challenge cross-tenant queries, revoked access, agent-to-agent privilege escalation, retries and budget exhaustion. Bloomberg recommends deterministic invocation checks and egress limits including DNS. Verify that a denied action is blocked and a halt condition stops execution, rather than merely producing an alert.
 
-03 / BUILDING EVALUATIONS
+Visible native-slide content: Treat memory as an input surface A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval.
 
-## Convert production failures into reviewed tests before changing agent behavior
+Sources: Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Stop turning your Humans Into APIs for your Agents — https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; Two Sigma · Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/talks/two-sigma; Bloomberg · Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/talks/bloomberg; Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents — https://ai.engineer/nyc/2026/talks/credit-karma
 
-A controlled improvement loop connects observations to reproducible cases, assessed changes, and authorized releases. Trace analysis can suggest a repair; evidence and accountable judgment determine whether that repair should operate.
+# 22. Make verification cheap at creation and independent at release and operation
 
-01**Observe**
+Sonar’s three-loop framing becomes useful when each loop has a distinct job. Capital One adds a complementary lesson: standard infrastructure can reduce the cost of engineering rigor instead of leaving verification to a late manual cleanup.
 
-Traces + corrections
+Creation: prevent and inspect: Supply intent, constraints, shared test fixtures and fast low-noise checks while work is generated. Keep deterministic checks for properties that can be asserted exactly. Another model’s agreement or a quick approval does not replace independent evidence of correctness.
 
-02**Adjudicate**
+Release: verify the complete change: Test interfaces, permissions, financial invariants and representative regressions. Inspect the current saved artifact after the last edit. Keep the evidence and the decision owner together; a check that can be bypassed or does not halt the relevant action is an incomplete gate.
 
-Find the failure mechanism
+Operation: reproduce and repair: Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software.
 
-03**Test a repair**
+Visible native-slide content: 04 / CONTROLLED WORKFLOWS Make verification cheap, independent and repeatable Sonar motivates independent checks; Capital One argues for lowering the cost of engineering rigor.
 
-Regression + assessment cases
+Visible native-slide content: Creation: prevent and inspect Supply intent, constraints, shared test fixtures and fast low-noise checks while work is generated. Keep deterministic checks for properties that can be asserted exactly. Another model’s agreement or a quick approval does not replace independent evidence of correctness.
 
-04**Release in scope**
+Visible native-slide content: Release: verify the complete change Test interfaces, permissions, financial invariants and representative regressions. Inspect the current saved artifact after the last edit. Keep the evidence and the decision owner together; a check that can be bypassed or does not halt the relevant action is an incomplete gate.
 
-Monitor; pause or roll back
+Visible native-slide content: Operation: reproduce and repair Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software.
 
-### Capture enough context to reproduce
+Sources: The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Sonar · The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/talks/sonar; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one
 
-Record the request, permitted sources and actions, tool interactions, output, human correction, and relevant versions. Triage whether the defect concerns evidence, reasoning, runtime behavior, or the evaluator itself. Handle traces under existing access rules; observability does not authorize exposing sensitive content.
+# 23. Long-running financial work needs durable state and deliberate recovery
 
-### Turn diagnosis into an experiment
+Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window.
 
-Arize described using agent traces to identify issues and improvement opportunities. Reproduce a suspected failure, add a versioned case, and propose a specific change. Assess it against regressions and separate cases before accepting the diagnosis; automated suggestions are still hypotheses requiring verification.
+Persist the handoff: Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed.
 
-### Keep release authority explicit
+Freeze the approved action: Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action.
 
-Require accountable review before a proposed repair changes production behavior, then monitor escaped defects, corrections, drift, and full operating cost. Upstart’s announced self-improvement loops remained under development. Use these accounts to design a controlled process without assuming autonomous remediation has been demonstrated.
+Distinguish unknown from failed: A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy.
 
-Sources: Arize AI · New York Life Insurance / · Ramp · Upstart / Coval
+Visible native-slide content: 04 / CONTROLLED WORKFLOWS Long-running work needs state and deliberate recovery Arca explains event-driven service work; Perpetual explains compiled and approved execution.
 
-Sources18 / 29
+Visible native-slide content: Interpret Validate / approve Wait / resume Resolve outcome
 
-### Explanation & evidence
+Visible native-slide content: Persist the handoff Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed.
 
-Connect monitoring to decisions and experiments, not merely dashboards. Capture enough context to reproduce important behavior: request, available sources and permissions, tool interactions, output, reviewer correction, relevant versions, and evaluation results. Authorized handling of traces and sensitive data remains a prerequisite; collecting more telemetry is not permission to expose private content.
+Visible native-slide content: Freeze the approved action Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action.
 
-Arize's Day 1 notes describe a build/evaluate/trace-inspection/improvement loop and agents consuming telemetry. The product and skill names were recorded uncertainly, and no diagnostic accuracy or autonomous remediation result was captured. The controlled loop shown here adds explicit adjudication, assessment separation, and release authority as editorial recommendations.
+Visible native-slide content: Distinguish unknown from failed A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy.
 
-Upstart's advertised session describes moving from human call review toward human-calibrated judges, with automated self-improvement loops still being built. That is agenda-based, speaker-reported context rather than an attended-case result. Use it to ask what evidence permits reduced review; do not present it as proof that a self-healing production system was achieved.
+Sources: No Cash Left Behind: Vanguard's Ledger Modernization Journey — https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e; Arca · Inside Arca’s long-horizon agents that run the business — https://ai.engineer/nyc/2026/talks/arca; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual; Vanguard · AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard — https://www.youtube.com/watch?v=uA4ah-dVHvU
 
-### Practical takeaways
+# 24. Own a durable improvement loop while keeping execution authority temporary
 
-- Observe complete traces and human corrections; triage by consequence.
-- Turn a failure into a versioned case and a proposed change.
-- Test the candidate against regressions and separate assessment cases.
-- Review, release in scope, monitor, and stop or roll back when conditions fail.
+Arize’s released Signal account adds a concrete lifecycle: temporary sandboxes work with trace context and bounded access, while issue history and useful progress live outside the execution environment.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Instrument enough to reconstruct: Retain the request, inputs, permissions, tools, result, evaluator and relevant versions. Distinguish a run summary from the ordered trajectory. Trace agents modifying the system as well as deployed agents, so a proposed repair has evidence rather than only a confident explanation.
 
-Speaker notes
+Separate progress from access: Issue history, useful skills and telemetry can survive a sandbox failure; temporary credentials and repository access should not survive by default. A replacement run resumes from durable state under newly checked authority. Persistence of knowledge does not imply persistence of permission.
 
-Close the chapter by tracing a failure around the loop. The failure becomes a test; a proposed change must prove it helps without causing an unacceptable regression. An agent can assist with diagnosis or propose a skill edit, while approval to change production remains explicit.
+Prove the change: Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations.
 
-Give the team a manageable next step: one workflow, a small reviewable case set, a rubric, and a baseline. Add infrastructure when the working loop requires it. Invite discussion about which failure class deserves the first dedicated test.
+Visible native-slide content: 05 / AI ENGINEER GROWTH Persist progress; make execution authority temporary Arize separates durable issue history and skills from disposable sandboxes and bounded credentials.
 
-### Sources for this page
+Visible native-slide content: DURABLE PROGRESS Instrument enough to reconstruct Retain the request, inputs, permissions, tools, result, evaluator and relevant versions. Distinguish a run summary from the ordered trajectory. Trace agents modifying the system as well as deployed agents, so a proposed repair has evidence rather than only a confident explanation.
 
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S13 · From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
+Visible native-slide content: TEMPORARY EXECUTION Separate progress from access Issue history, useful skills and telemetry can survive a sandbox failure; temporary credentials and repository access should not survive by default. A replacement run resumes from durable state under newly checked authority. Persistence of knowledge does not imply persistence of permission.
 
-04 / RELIABLE WORKFLOWS & SKILLS
+Visible native-slide content: Prove the change Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations.
 
-## Reusable skills must encode expert reasons, required questions, and limits
+Sources: What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Arize · Aparna Dhinakaran · What does an AI engineer do? — https://ai.engineer/nyc/2026/talks/arize; Prime Intellect · Self-Improving Organizations — https://ai.engineer/nyc/2026/talks/prime-intellect
 
-Range’s planners describe turning their own methods into agent skills. Pick–Teach–Pack–Test–Ship makes judgment explicit, while ownership and peer review keep the instructions maintainable as practice changes.
+# 25. Develop product judgment, semantic fluency and experimental discipline together
 
-01**Pick**
+As code becomes easier to produce, the scarce skill shifts toward understanding the job and defining acceptable work. Domain knowledge, system observability and evaluation must connect in the same engineering practice.
 
-Repeatable work • recognizable success
+Discover the real constraint: Laurie Voss’s product-engineer argument follows the bottleneck from code creation to review, operations and security. Observe what users actually do, which handoffs cost time and what they trust. A polished feature can still miss the task or move effort onto another team.
 
-02**Teach**
+Preserve business meaning: Southbridge’s examples show row counts surviving while dates, signs or categories become wrong. Learn the entity, grain, period, units and source conventions well enough to challenge a plausible answer. Multiple model agreements can preserve the same incorrect assumption.
 
-Narrate why in a representative case
+Make expertise reproducible: Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement.
 
-03**Pack**
+Visible native-slide content: 05 / AI ENGINEER GROWTH Connect product judgment, meaning and measurement Faster code creation can move the constraint to review, operations or security.
 
-Inputs • questions • boundaries
+Visible native-slide content: 01 Discover the real constraint Laurie Voss’s product-engineer argument follows the bottleneck from code creation to review, operations and security. Observe what users actually do, which handoffs cost time and what they trust. A polished feature can still miss the task or move effort onto another team.
 
-04**Test**
+Visible native-slide content: 02 Preserve business meaning Southbridge’s examples show row counts surviving while dates, signs or categories become wrong. Learn the entity, grain, period, units and source conventions well enough to challenge a plausible answer. Multiple model agreements can preserve the same incorrect assumption.
 
-Ordinary cases • edge cases • review
+Visible native-slide content: 03 Make expertise reproducible Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement.
 
-05**Ship**
+Sources: We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Arize · Laurie Voss · AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI — https://www.youtube.com/watch?v=kspZP5BgkEU; Southbridge · Just-in-Time Ontologies — https://ai.engineer/nyc/2026/talks/southbridge; Monzo · A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso & Francesco Galletta, Monzo — https://www.youtube.com/watch?v=adfw3xJBx1o
 
-Owner • reviewer • change history
+# 26. Choose rigor by consequences and dependencies, and reduce its cost
 
-### Teach the firm’s method
+Capital One’s disposability argument considers failure consequences, replacement cost, dependencies and maintenance burden. A short expected lifespan does not make a consequential failure harmless.
 
-Range distinguishes general planning knowledge from how its professionals deliver recommendations. Start with a repeated workflow whose result an expert can judge, then narrate a representative case and the reasons behind decisions. Capture judgment rather than asking the agent to imitate a polished answer.
+Reassess as the tool grows: A one-use helper can become a shared process with downstream dependents. Revisit who relies on it, which failures matter and how recovery works. Isolation and limited scope can reduce exposure, but a label such as prototype or temporary is not an enforcing control.
 
-### Package questions and limits
+Invest in the cheap safe path: Provide standard choices, test fixtures/fakes and quick low-noise feedback. Make it easier to create a complete working slice with checks than to postpone them. Shared verification infrastructure compounds across tasks and allows practitioners to focus on the remaining judgment.
 
-A skill needs required client inputs, ways to obtain authorized information, clarification questions, and boundaries it must respect. Missing facts should change the workflow, not invite invented assumptions. Make exceptions and handoff conditions explicit enough to test on difficult cases.
+Apply the same standard to artifacts: For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision.
 
-### Maintain an accountable instruction
+Visible native-slide content: 05 / AI ENGINEER GROWTH Match rigor to consequences and dependencies Failure consequences, replacement cost, dependencies and maintenance burden define the decision.
 
-Range’s current abstract describes planners maintaining skills and peer-reviewing them like plans. Assign an owner and reviewer, retain change history, and retest revisions. Include incomplete facts and conflicting instructions to check when the skill clarifies, hands off or refuses an unsupported conclusion.
+Visible native-slide content: Reassess as the tool grows A one-use helper can become a shared process with downstream dependents. Revisit who relies on it, which failures matter and how recovery works. Isolation and limited scope can reduce exposure, but a label such as prototype or temporary is not an enforcing control.
 
-Sources: Range
+Visible native-slide content: Invest in the cheap safe path Provide standard choices, test fixtures/fakes and quick low-noise feedback. Make it easier to create a complete working slice with checks than to postpone them. Shared verification infrastructure compounds across tasks and allows practitioners to focus on the remaining judgment.
 
-Sources19 / 29
+Visible native-slide content: Apply the same standard to artifacts For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision.
 
-### Explanation & evidence
+Sources: Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one; Sonar · The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/talks/sonar
 
-The user confirmed that the financial-planner example was Range. The refreshed official schedule identifies Matt Ragone and “We Let Our Financial Planners Write the Agents.” The attendee notes capture the five-step skill-building method and human-reviewed drafting while a planner works with another client. The fresh abstract says planners write and maintain skills used daily and peer-review them like plans; this supports speaker-reported operational use, not independently verified outcomes.
+# 27. Practice the full discipline through one reproducible, bounded experiment
 
-Owner/reviewer requirements are fresh agenda context rather than a detail captured in the freeform notes. The abstract’s six-month/24-skill/17-planning-skill figures and five-to-ten-case testing example are not universal targets and are intentionally omitted from the visible method. Source identity must be versioned: this UUID referred to an NVIDIA reranker session in the October 10 snapshot and to Range in the October 14 snapshot.
+A useful learning project produces an accepted work product and evidence about one improvement. Use a realistic task, one consequential failure mode and a controlled change, then explain why the repair earned its place.
 
-### Practical takeaways
+Build a reviewable baseline: Interview a practitioner and choose a historical task with known accepted work. Preserve its input snapshot and permitted tools. Write exact checks, a short expert rubric and one critical behavior expectation before measuring the candidate.
 
-- Pick a frequent workflow with judgeable results.
-- Teach the reasoning, required questions, and limits.
-- Test, assign an owner, and peer-review changes.
+Vary one hypothesis: Try a skill ablation, a narrower context or a repaired tool incentive. Add an answer-first missing-evidence case and a next-period memory case. Repeat when stochastic variation matters, keep held-out assessment and inspect regressions as well as the average.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Publish the learning packet: Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment.
 
-Speaker notes
+Visible native-slide content: 05 / AI ENGINEER GROWTH Prove one improvement through a bounded experiment One realistic task and one diagnosed failure can develop the full engineering discipline.
 
-Emphasize the difference between general financial knowledge and how a firm performs a particular workflow. Domain experts can make required questions and limits explicit, while technical teams help make the behavior inspectable and testable.
+Visible native-slide content: Baseline One hypothesis Paired assessment Learning packet
 
-A skill is a maintained work instruction with ownership. The five steps organize the work; they do not guarantee appropriate advice or safe deployment.
+Visible native-slide content: Build a reviewable baseline Interview a practitioner and choose a historical task with known accepted work. Preserve its input snapshot and permitted tools. Write exact checks, a short expert rubric and one critical behavior expectation before measuring the candidate.
 
-### Sources for this page
+Visible native-slide content: Vary one hypothesis Try a skill ablation, a narrower context or a repaired tool incentive. Add an answer-first missing-evidence case and a next-period memory case. Repeat when stochastic variation matters, keep held-out assessment and inspect regressions as well as the average.
 
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
+Visible native-slide content: Publish the learning packet Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment.
 
-04 / RELIABLE WORKFLOWS & SKILLS
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada — https://www.youtube.com/watch?v=c_SPW__jF9w; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one
 
-## Drafting useful work does not grant permission to recommend or act
+# 28. Bring back a method for acceptance, evidence and controlled improvement
 
-The synthetic review packet separates authorized facts, agent preparation, professional judgment, and execution. Its USD 36,000 arithmetic difference supports inspection, not an affordability conclusion or a product recommendation.
+The released cases converge on a practical operating discipline: prepare valuable work, make its evidence inspectable, and give changes and actions explicit decision boundaries. Models improve; these responsibilities remain.
 
-Illustrative example
+Agree what completed work means: Name the practitioner, accepted work product and critical limits. Compare quality, coverage and total human effort against a credible baseline. Preparation time, tool volume and rollout scope answer useful but different questions from financial impact.
 
-SYNTHETIC REVIEW PACKET · FICTIONAL CLIENT A
+Preserve the evidence chain: Carry entity, meaning, period, source version, access and calculation through the final artifact. Give memory a correction and aging policy. Keep professional review and permission to act as separate events, with durable workflow state between them.
 
-01**Authorized facts**
+Make the next change a test: Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover.
 
-Income $120k · recorded expenses $84k
+Visible native-slide content: TAKEAWAYS & DISCUSSION Agree acceptance, preserve evidence, test the repair Prepare valuable work, retain inspectable evidence and make the next change an accountable experiment.
 
-02**Agent draft**
+Visible native-slide content: Agree what completed work means Name the practitioner, accepted work product and critical limits. Compare quality, coverage and total human effort against a credible baseline. Preparation time, tool volume and rollout scope answer useful but different questions from financial impact.
 
-Arithmetic difference: $36k
+Visible native-slide content: Preserve the evidence chain Carry entity, meaning, period, source version, access and calculation through the final artifact. Give memory a correction and aging policy. Keep professional review and permission to act as separate events, with durable workflow state between them.
 
-03**Planner review**
+Visible native-slide content: Make the next change a test Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover.
 
-Inspect facts, assumptions, gaps
+Sources: Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI — https://ai.engineer/nyc/2026/talks/kepler-14; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap — https://ai.engineer/nyc/2026/talks/blackstone-norm; Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/talks/citadel
 
-04**Separate authority**
-
-No action without permission
-
-### Separate facts from judgment
-
-The fictional inputs show annual income of USD 120,000 and recorded expenses of USD 84,000. Their USD 36,000 difference is arithmetic, not disposable capacity or an insurance need. The agent should expose missing facts and assumptions rather than infer suitability from this subtraction.
-
-### Make review a decision
-
-Range’s vignette has an agent draft another client’s analysis while a planner serves someone else, followed by review and adjustment. A useful review packet exposes inputs, calculations, gaps, and proposed conclusions. Evaluate accepted work after corrections, rather than counting drafts as completed professional service.
-
-### Keep execution authority separate
-
-Wise’s framework description separates model proposals from authority to act. In this proposed workflow, reviewing a draft does not automatically authorize sending it or executing a transaction. A separate service should enforce the permitted action and retain who approved it, for which case.
-
-Sources: Range · Wise
-
-Sources20 / 29
-
-### Explanation & evidence
-
-This fictional workflow illustrates the Range note’s parallel drafting and human review. The invented amounts show a simple calculation, not a real client, a real product outcome, or financial advice. No claim is made that Range uses these exact components or that the arithmetic difference supports a financial recommendation.
-
-Wise’s agenda-only description separates model proposals from authority and describes versioned platform policies. The swimlane is our proposed design: data access, drafting, review, and execution are different responsibilities. Human review needs clear evidence and an enforceable boundary; merely labeling a person “in the loop” does not prove an effective control.
-
-### Practical takeaways
-
-- Gather only authorized inputs and surface missing data.
-- Produce an evidence-linked draft with checked calculations.
-- Require human review before any external recommendation or action.
-
-#### Illustrative responsibility boundaries
-
-| Actor | Responsibility |
-| --- | --- |
-| Data service | Confirm user/case permissions → Return dated, scoped records |
-| Agent | Ask for missing required inputs → Compute and assemble a review packet |
-| Reviewer | Inspect inputs, assumptions, and draft → Edit or reject; decide the next step |
-| Execution service | Remain blocked without separate authority → Record any explicitly permitted action |
-
-**Evidence boundary:** Synthetic teaching example or illustrative contract. Invented values and workflows do not represent a firm result, client recommendation, or validated implementation.
-
-Speaker notes
-
-Walk horizontally through the lanes. The agent prepares work while the professional retains judgment. An executor should not infer its authority from a fluent draft or a model’s confidence.
-
-Invite the audience to name one missing input or one action that must remain blocked. Keep the example at the review-packet level; it is not advice.
-
-### Sources for this page
-
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S15 · Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-
-04 / RELIABLE WORKFLOWS & SKILLS
-
-## Authority must be enforced outside the agent’s proposed action
-
-Two Sigma describes ownership, declared access, risk scoring, and active controls; Wise separates reasoning from authority. Together, these ideas make the permission path as explicit as the data path.
-
-**Ownership**
-
-RegistryOwnerProductEvaluations
-
-**Scope & risk**
-
-IdentityToolsEndpointsResources
-
-**Enforcement**
-
-Policy boundaryHuman exceptionsAuthorized executor
-
-### Make agents owned systems
-
-Two Sigma’s registry records owners, products, tools, and evaluations, with risk scoring informed by access and controls. Use that inventory to locate responsibility and identify required checks. Registration provides visibility; it is not evidence that an agent’s permissions or behavior are constrained.
-
-### Enforce the requested scope
-
-A model can propose a tool call while policy decides whether the user, case, resource, and action are permitted. Test revoked access, cross-user scope, retries, and duplicate requests. A valid credential or technically successful API call does not establish an appropriate business action.
-
-### Treat triage as fallible
-
-The Two Sigma notes mention an independent classifier for deciding when human approval is needed, without performance or enforcement details. Evaluate missed consequential cases and unnecessary interruptions. A classifier’s output can inform review routing; its independence alone does not justify waiving required approval.
-
-Sources: Two Sigma · Wise
-
-Sources21 / 29
-
-### Explanation & evidence
-
-The Two Sigma notes record an agent registry, risk-factor scoring, access declarations, active controls, common evaluations, and an independent classifier for approval triage. The attendee marked the talk production, but no coverage, calibrated classifier performance, or measured safety/utility result was captured. The classifier’s type and enforcement powers are unspecified; do not call it deterministic or assume it can safely waive approvals.
-
-Wise’s official abstract describes LOOP and versioned policies separating reasoning from authority. It is agenda-only evidence in this presentation. The diagram is a proposed synthesis, not a disclosed complete architecture from either firm. Evaluate denied requests, revocation, retries, cross-user scope, and exceptions before treating a valid tool call as an appropriate business action.
-
-### Practical takeaways
-
-- Register the agent, owner, tools, and declared access.
-- Apply policy independently of the model’s proposed action.
-- Route judgment exceptions and retain a reviewable trace.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Show the authority path as clearly as the data path. A model can suggest a tool call, while a different component decides whether it may execute under the user’s scope and the task’s rules.
-
-Ask which checks are enforced outside the model and what happens when a classifier is wrong. An approval workflow needs measurable false-pass and false-alarm behavior as well as clear ownership.
-
-### Sources for this page
-
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S15 · Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-
-04 / RELIABLE WORKFLOWS & SKILLS
-
-## Verification must catch different failures at creation, release, and operation
-
-Sonar’s three-loop framing places checks during generation, before release, and after deployment. Intent, guardrails, verification, and evidence form a design checklist—not a calibrated confidence formula.
-
-Creation loop
-
-### Inspect generated work and catch local issues
-
-Intent · guardrails · verification · evidence
-
-Release loop
-
-### Run independent tests and required checks
-
-Intent · guardrails · verification · evidence
-
-Operation loop
-
-### Observe failures and verify repairs
-
-Intent · guardrails · verification · evidence
-
-### Prevent local mistakes early
-
-The creation loop guides generated work with explicit goals, standards, and constraints, then checks local changes before they accumulate. It can reduce avoidable rework in principle, but needs evaluation. Agreement from another model or a quick human approval is not independent correctness evidence.
-
-### Verify the system before release
-
-Release checks should examine behavior beyond the edited fragment: interfaces, permissions, financial invariants, and regressions. Keep reproducible test evidence and assess whether the checker detects important defects. Neither a passing suite nor a fail-leaning judge establishes that every consequential failure has been covered.
-
-### Verify repairs during operation
-
-Production observations reveal failures the pre-release assessment missed. Turn an incident into a reproducible case, test the repair alongside other workloads, and retain rollback conditions. Prevention remains a priority, while detection and response remain necessary; the framework does not establish autonomous self-healing.
-
-Sources: Sonar
-
-Sources22 / 29
-
-### Explanation & evidence
-
-The Sonar notes record a conceptual “code confidence” product of intent, guardrails, verification, and evidence, along with warnings about human over-reliance, codebase complexity, compounding errors, and inconsistent model judges. Treat the four factors as a design checklist rather than a calibrated score or probability. No scale, formula validation, or defect-rate prediction was captured.
-
-The three loops are from the official abstract, not explicitly recorded in the notes. They suggest different places to check generated work, pre-release behavior, and production repairs. The recorded 50k-line example has no benchmark setup and is not a universal limit. Neither the notes nor abstract establishes automated prevention of all defects or a proven customer deployment.
-
-### Practical takeaways
-
-- Specify intent, constraints, and expected behavior.
-- Use agent, CI, and maintenance checks for different failures.
-- Keep independent, reproducible evidence for each change.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Connect the loops to the failure they can catch. A local generator check may miss a system invariant; CI may miss a rare runtime interaction; maintenance needs to verify that a repair did not create a new regression.
-
-Keep “prevention first” as a priority, not a claim that later detection and response are unnecessary. Independent verification remains work to design and validate.
-
-### Sources for this page
-
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-
-04 / RELIABLE WORKFLOWS & SKILLS
-
-## Financial invariants remain essential when AI accelerates a code change
-
-Vanguard’s ledger-modernization account separates producer migration, replicated financial state, and consumer migration. AI-assisted engineering remains subordinate to transaction completeness, consistency, controlled retries, and reviewable reconciliation.
-
-01**Producers**
-
-Independent source onboarding
-
-02**Gold-copy data**
-
-Replication and consistency
-
-03**Consumers**
-
-Decoupled access and dependencies
-
-No missing or duplicate transactionsConsistent financial stateControlled change and reconciliation
-
-### Map the financial dependencies
-
-Vanguard describes independently progressing producer and consumer migrations around a replicated gold copy, with change data capture (CDC) synchronization and decoupled access. The useful lesson is to identify where financial state originates, changes, and is consumed. This case structure is not a prescription for every modernization.
-
-### Make invariants directly observable
-
-Database-layer idempotency is highlighted in Vanguard’s account. Translate completeness, duplicate prevention, and consistency into observable checks at the relevant boundaries, including retry and recovery paths. Faster code generation cannot demonstrate that no transaction was omitted or that a repeated operation is safe.
-
-### Isolate the contribution of AI
-
-Vanguard says AI tools helped maintain two codebases, without isolating their incremental benefit. Separate the migration controls that preserved financial behavior from any improvement in engineering effort. Compare equivalent changes, review and rework, correctness, and operating cost before attributing the whole project’s outcome to AI.
-
-Sources: Vanguard
-
-Sources23 / 29
-
-### Explanation & evidence
-
-Vanguard’s official abstract describes a production cash-ledger modernization with separate producer migration, gold-copy replication, and consumer migration; CDC synchronization, GraphQL decoupling, and database-layer idempotency are highlighted. AI tooling is described as helping maintain two codebases. This is agenda-only context: no attended-note block for Vanguard was supplied.
-
-The transferable point is that faster engineering does not remove financial consistency responsibilities. The abstract does not isolate AI’s contribution, publish productivity or risk improvements, or describe an autonomous investor/adviser agent. The simplified map is a description of the advertised case, not a recommendation to introduce dual systems or a compatibility layer into another product.
-
-### Practical takeaways
-
-- Make transaction completeness and reconciliation explicit.
-- Keep state, retries, and idempotency under system control.
-- Separate AI contribution from the whole project’s benefit.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Use this case to bring the chapter back to system engineering. An agent can accelerate a code change, but the financial process still needs complete transactions, consistent state, and safe repeat execution.
-
-When reporting a large project’s outcome, separate the architecture that preserved correctness from the incremental benefit attributed to AI. Neither should be assumed from the other.
-
-### Sources for this page
-
-- [S17 · No Cash Left Behind: Vanguard's Ledger Modernization Journey](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e)
-
-05 / GROWING AS AN AI ENGINEER
-
-## An AI engineer owns the loop from user need to verified improvement
-
-Professional growth comes from connecting task definition, instrumentation, evaluation, diagnosis and release. A working feature becomes a dependable capability through repeated, reviewable decisions about what to change and why.
-
-01**Frame**Define the accepted work
-
-02**Build**A complete working slice
-
-03**Learn**Traces, cases, failures
-
-04**Operate**Verify, release, observe
-
-### Instrument the complete task
-
-Arize described using traces to identify issues and improvement opportunities. Capture the request, source context, intermediate actions, result, evaluation and relevant versions together. A useful trace lets an engineer reconstruct why a workflow failed, rather than merely observing that it did.
-
-### Build a portfolio of decisions
-
-Maintain a small portfolio of reproducible failures, baseline comparisons, repairs and release decisions. For each entry, explain the domain problem, system behavior, evidence and tradeoff. This makes growth observable through stronger engineering judgment, rather than through a longer list of tools.
-
-### Close the release loop
-
-Keep issue discovery, proposed fixes, validation and permission to release as separate responsibilities. Preserve the test evidence and decision, then observe the changed workflow for regressions. The conference mechanisms motivate this operating habit; they do not establish autonomous remediation or validated diagnostic accuracy.
-
-Sources: Arize AI · Ramp · New York Life Insurance / 
-
-Sources24 / 29
-
-### Explanation & evidence
-
-Arize's recorded distinction is between working on a feature and building the system that repeatedly improves it. Ramp's notes add a task-level definition of success and experiments on skills and memory. Together they suggest an engineer's growth path centered on closing a reliable loop from user need to evidence-backed change.
-
-Evidence: Arize is a vendor account with unclear maturity and no measured diagnostic results in the notes. Ramp's notes omit an explicit evidence/maturity label. Automated diagnosis should remain a hypothesis until a concrete issue is reproduced and a change is tested; named tools or skills from rough notes are not required to apply this operating principle.
-
-### Practical takeaways
-
-- Translate a need into task success.
-- Instrument behavior and diagnose failures.
-- Verify fixes before changing the workflow.
-- Retain an accountable release decision.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Connect this chapter to the preceding reliability material: engineering responsibility continues after the first successful demonstration. Read traces to understand failures, then make a change whose effect can be checked.
-
-Keep diagnosis, proposing a fix, validation and release authority separate. This is a useful skill model even when each step is performed manually.
-
-### Sources for this page
-
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-
-05 / GROWING AS AN AI ENGINEER
-
-## Technical fluency must connect domain meaning, system behavior and measurement
-
-Develop the responsibilities together on a real workflow. Domain expertise defines acceptable work; data and software make it reproducible; evaluation and communication determine which claims the evidence can support.
-
-01**Domain translation**
-
-Turn a professional's judgment into inputs, questions and acceptance criteria
-
-02**Data reasoning**
-
-Inspect entity, time, units, source and transformations
-
-03**System design**
-
-Draw ownership, allowed actions, state and exceptions
-
-04**Evaluation**
-
-Separate critical failures, task success, judge errors and full cost
-
-05**Evidence communication**
-
-Explain what was claimed, observed, checked and still unknown
-
-### Translate judgment into inputs
-
-Use Range's procedural example to ask a domain expert which facts matter, why a step is necessary and when clarification is required. Connect that reasoning to entities, periods, units and source definitions so an agent can access the right information.
-
-### Connect controls to tests
-
-Draw who requests work, which resources are available, what may execute and how exceptions are handled. Then design cases that challenge those boundaries and the evaluator itself. System design and experimental design should meet at observable behavior, including serious false passes.
-
-### Communicate a defensible decision
-
-Explain the task, mechanism, comparison, result and remaining uncertainty in one evidence card. Distinguish a reported deployment from tested effectiveness and a useful output from attributable business value. This practice helps data scientists, engineers and technical leads review the same decision.
-
-Sources: Range · Bridgewater · Kepler · Two Sigma · Ramp · Contour Asset Management · Sonar
-
-Sources25 / 29
-
-### Explanation & evidence
-
-The recurring engineering responsibilities span domain understanding, data semantics, software controls, measurement and communication. A data scientist can contribute experimental design and uncertainty analysis; an engineer can make behavior observable and enforceable; a technical lead can align the workflow and decision criteria. These responsibilities overlap and can be learned through shared work.
-
-This is an editorial growth framework derived from the conference mechanisms, not a survey of hiring requirements or a claim that any firm uses this competency model. Choose a development area by inspecting a real gap in a bounded workflow, rather than collecting tools without a task.
-
-### Practical takeaways
-
-- Domain: define the decision and its limits.
-- Data: preserve meaning, access and provenance.
-- Systems: make state and authority explicit.
-- Measurement: validate tasks, judges and value.
-- Communication: show the evidence and uncertainty.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Invite the audience to identify one responsibility it already performs well and one that would most improve its current work. The goal is balanced fluency and good collaboration, not requiring every person to become the sole expert in every area.
-
-Keep evidence communication in the map. Being able to distinguish a useful mechanism from an unsupported outcome is part of technical judgment.
-
-### Sources for this page
-
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-
-05 / GROWING AS AN AI ENGINEER
-
-## Software lifespan changes maintenance needs; failure consequences still determine required checks
-
-Capital One's durability discussion separates short-lived tools from long-lived dependencies. Use lifespan and consequence as independent design questions, then revisit both when an experiment gains users or responsibilities.
-
-short lifespan · bounded consequence
-
-### Simple and removable
-
-Clear scope, owner and retirement condition
-
-long lifespan · bounded consequence
-
-### Maintainable and owned
-
-Stable interfaces and regression checks
-
-short lifespan · high consequence
-
-### Constrained and checked
-
-Bounded execution and evidence before use
-
-long lifespan · high consequence
-
-### Operated and verified
-
-Explicit controls, recovery and continuing validation
-
-### Allocate maintenance deliberately
-
-Capital One contrasted durable software with tools replaceable in hours and used by relatively few people. That framing can guide documentation, interfaces and maintenance investment. The notes do not demonstrate zero replacement cost or a deployed disposable-software model at the firm.
-
-### Protect immediate business consequences
-
-A short-lived tool can still expose sensitive information, calculate a wrong financial figure or trigger an inappropriate action. Keep the relevant access, numerical and execution checks even when implementation is simple. Cheap regeneration does not reduce the consequence of an incorrect result.
-
-### Reassess growing dependencies early
-
-When other people or workflows begin relying on an experiment, reassess ownership, support, recovery and regression coverage. Set a retirement condition for genuinely temporary tools. Continued use should trigger an explicit maintenance decision rather than quietly converting an experiment into infrastructure.
-
-Sources: Capital One · Sonar · Two Sigma
-
-Sources26 / 29
-
-### Explanation & evidence
-
-Capital One's recorded discussion distinguishes durable software from software that might be replaced in hours and used by relatively few people. A practical interpretation is to allocate maintainability deliberately. Expected lifespan is only one axis: a short-lived tool can still expose sensitive data or produce a consequential financial error.
-
-Evidence: the Capital One notes are conceptual and do not establish a deployed disposable-software model or near-zero replacement cost. Sonar and Two Sigma supply complementary prevention/control concerns. The matrix is a proposed engineering judgment aid; specific checks depend on the actual workflow and existing requirements.
-
-### Practical takeaways
-
-- Expected lifespan shapes maintenance investment.
-- Dependencies can turn an experiment into infrastructure.
-- Sensitive data and consequential actions still need checks.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Use the short-lived/high-consequence quadrant to surface the tension. Cheap regeneration changes the economics of maintenance, but it does not make the consequences of a wrong answer disappear.
-
-Ask what happens when a useful experiment gains downstream users. Reassess ownership, dependencies and validation instead of continuing to call it disposable.
-
-### Sources for this page
-
-- [S18 · Does Code Quality Even Matter?](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-
-05 / GROWING AS AN AI ENGINEER
-
-## One bounded experiment can develop the full engineering discipline
-
-Choose a work product a reviewer understands and build the smallest complete path. Learn by comparing behavior, inspecting failures and explaining a decision to continue, revise or retire.
-
-01 / Frame**Workflow + source rules + acceptance criteria**
-
-Choose one meaningful output.
-
-02 / Baseline**Reviewed examples + current time/cost/quality**
-
-Record quality, time, and cost.
-
-03 / Experiment**Working path + traces + failure cases + comparison**
-
-Change one variable; inspect failures.
-
-04 / Explain**Evidence card + limits + continue/revise/retire decision**
-
-Continue, revise, or retire.
-
-### Frame a measurable task
-
-Select a research brief, analytical query result or preparation draft with clear users and acceptance criteria. Use approved or synthetic inputs and record current quality, time and effort. A useful learning exercise starts with the baseline, not the preferred model.
-
-### Change one variable deliberately
-
-Follow Ramp's experimental direction by varying a skill bundle, memory rule or model while holding assessment cases and input snapshots fixed. Include ordinary, ambiguous and consequential-failure cases. Measure accepted quality, review effort, latency and cost together; keep tuning separate from assessment.
-
-### Finish with an evidence card
-
-Document the comparison, observed failures, uncertainty and next decision. A valid outcome may be a simpler deterministic workflow, inadequate data or an experiment worth stopping. Share one reproducible case with a peer and explain what evidence would change your conclusion.
-
-Sources: Ramp · Arize AI · Contour Asset Management · New York Life Insurance / 
-
-Sources27 / 29
-
-### Explanation & evidence
-
-A bounded experiment can develop the five responsibilities together. Start from a task a domain reviewer understands, use approved or synthetic material, and establish what accepted completion means. Instrument the complete path before expanding it. Keep assessment examples distinct from tuning, and evaluate severe failures separately from average quality.
-
-This is a proposed learning exercise grounded in Ramp's task/ablation account, Arize's improvement-loop account and Contour's comparison questions. It is not a production approval process, sufficient statistical validation or a commitment for any existing project. Agree criteria before interpreting a result and preserve uncertainty when the sample is small.
-
-### Practical takeaways
-
-- Choose one work product and a credible baseline.
-- Build the smallest complete path.
-- Inspect failures and change one variable.
-- Write the decision to continue, revise or retire.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Make the exercise feel achievable: the deliverable is a defensible comparison and a decision, not an elaborate platform. A useful outcome can be that a deterministic workflow solves the task more simply, or that the data is not ready.
-
-End the growth chapter by emphasizing the habit of making each claim reviewable. That habit transfers across models and tools.
-
-### Sources for this page
-
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-
-TAKEAWAYS & DISCUSSION
-
-## Turn the conference into three decisions and one bounded comparison
-
-The useful return is a decision peers can assess: which work matters, which boundaries must hold and which evidence would justify change. Attach those decisions to one testable hypothesis.
-
-Work
-
-### Which accepted output matters, and to whom?
-
-A decision to make explicit, supported by evidence.
-
-Boundary
-
-### Which sources, actions and human judgments are permitted?
-
-A decision to make explicit, supported by evidence.
-
-Evidence
-
-### What would justify continuing or stopping?
-
-A decision to make explicit, supported by evidence.
-
-### Choose the accepted work
-
-Name the person whose work should improve and the output they can inspect, correct and accept. Use the financial examples to sharpen that choice: a research insight, reviewed planning analysis or evidence-backed artifact. State the bottleneck before choosing tools or architecture.
-
-### Define evidence and authority
-
-Specify the permitted sources, information cutoff, calculations, actions and human judgments. Identify what must remain blocked and what happens when evidence is missing. Bridgewater, Kepler and Two Sigma offer mechanisms to examine; the appropriate boundary depends on the particular workflow.
-
-### Agree the comparison first
-
-Compare the candidate with the existing process on equivalent work, agreed acceptance criteria and critical conditions. Include all attempts and human effort. Decide beforehand which evidence would support continuing, repairing or retiring the approach; conference claims alone do not establish internal readiness.
-
-Sources: Bridgewater · Two Sigma · Kepler · Contour Asset Management · Range
-
-Sources28 / 29
-
-### Explanation & evidence
-
-The conference's useful return is a set of decisions peers can assess. Across the recorded examples, the recurring responsibilities are task-specific information, procedural knowledge, constrained action, independent checks, calibrated evaluation and value comparison. Those ideas become useful when attached to a narrow work product and a testable hypothesis.
-
-A useful report-back separates mechanisms we can apply from effects we still need to measure. Keep company attributions and disclosure dates with the evidence, then define the local comparison needed to support a stronger claim about quality, capacity or business impact.
-
-### Practical takeaways
-
-- Choose the valuable work product.
-- Define evidence and authority boundaries.
-- Agree quality, review-cost and value criteria.
-- Propose one bounded comparison.
-
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
-
-Speaker notes
-
-Return to the opening work-product question. Ask the audience to propose a workflow, then fill the boundary and evidence columns before debating tools.
-
-Leave ownership and dates as decisions for the team. The presentation proposes a way to decide; it does not announce a Fidelity commitment.
-
-### Sources for this page
-
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-
-TAKEAWAYS & DISCUSSION
-
-## Use disagreement to choose the next test
-
-End with a concrete workflow and a consequential uncertainty. Discussion should reveal the failure or comparison that could change the decision, rather than produce agreement around a favored tool.
-
-Value
-
-### Name one accepted work product and the person whose work improves.
-
-Risk
-
-### Name one unsupported fact, denied action or missed exception that matters.
-
-Test
-
-### Name the comparison and evidence needed to continue, revise or stop.
-
-### Expose the value assumption
-
-Ask which bottleneck limits the professional's work and what observable output would improve if it were removed. Challenge whether faster generation actually saves total effort after review. Record a measurable hypothesis instead of equating adoption, parallel drafting or user enthusiasm with value.
-
-### Name the surviving failure
-
-Choose one unsupported fact, wrong period, denied action or missed exception that could pass ordinary review. Explain its consequence and where prevention, detection or intervention should operate. Use that case to test the complete workflow and the reviewer or judge.
-
-### Capture the decision-changing evidence
-
-Agree what baseline, output checks, cost records or follow-up clarification would change the team's view. Leave ownership and timing for explicit discussion. If the evidence cannot yet support an experiment, record the missing prerequisite rather than forcing an immediate project commitment.
-
-Sources: New York Life Insurance / · Contour Asset Management
-
-Sources29 / 29
-
-### Explanation & evidence
+# 29. Use disagreement to choose the next test
 
 Use these prompts to connect the industry examples to the audience's judgment without presuming a specific current project. A useful discussion produces a clear work unit, a consequential failure to test and a credible comparison. Record unresolved questions and who could clarify them, rather than forcing consensus from incomplete conference evidence.
 
 The risk prompt follows the recorded failure-driven evaluation principle; the baseline prompt follows Contour's value-attribution discussion. Both are proposed uses of speaker accounts, not validated assurance methods or an endorsement of a particular tool.
 
-### Practical takeaways
+Visible native-slide content: DISCUSSION Use disagreement to choose the next test Start with a concrete workflow and one consequential uncertainty.
 
-- Which workflow has a consequential bottleneck?
-- Which failure could survive current review?
-- What baseline would change our mind?
+Visible native-slide content: Value Which accepted work product improves, and for whom? Challenge whether faster generation saves total effort after review. Name a measurable bottleneck rather than a favored tool.
 
-**Evidence boundary:** Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.
+Visible native-slide content: Risk Which consequential failure could ordinary review miss? An unsupported fact, wrong period, unauthorized action or bypassed denial. Correct refusal is a control success. Test the reviewer or judge as well.
 
-Speaker notes
+Visible native-slide content: Test What baseline, checks and cost evidence would change our view? Record one candidate experiment and one unresolved question. A missing prerequisite or “do not proceed” can be a useful outcome; avoid forcing consensus or an immediate project commitment.
 
-Introduce the three prompts in thirty seconds, then use the separately allocated discussion time. Start with silent individual thought or a concrete example so the conversation does not become a general tool debate.
+Sources: 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca
 
-Capture one candidate experiment and one unresolved evidence question. If no candidate meets the conditions, that is a useful outcome; no immediate project commitment is required.
-
-### Sources for this page
-
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-
-APPENDIX / EVIDENCE & METHODS
-
-## One implementation checklist connects the task, evidence, authority and release decision
-
-Use a shared contract before building and at each material change. It gives domain experts, data scientists and engineers a common way to review what the system should accomplish.
-
-| Responsibility | What to specify | What to inspect |
-| --- | --- | --- |
-| Task | User, work product, acceptance and baseline | Can the reviewer recognize completed work? |
-| Evidence | Entity, period, units, source version, cutoff and access | Can each material claim be reproduced? |
-| Authority | Allowed resources, proposals, approvals and execution | Can a denied action bypass the boundary? |
-| Evaluation | Cases, rubric, critical failures and calibrated judges | Which serious failure could still receive a pass? |
-| Operation | Versions, traces, release owner, stop and rollback | Can a failure be diagnosed and a repair verified? |
-
-### Make each requirement testable
-
-Replace broad goals such as accuracy or safety with observable behavior. Name the work product, necessary evidence, allowed actions and unacceptable outcomes. A requirement is useful when a reviewer can recognize compliance and a test can expose a meaningful violation.
-
-### Retain the decision context
-
-Record system, data, skill, case and evaluator versions together with the result. Keep important disagreement and accepted limitations. That record lets another person reproduce the comparison and understand why a change was considered appropriate for a particular scope.
-
-### Revisit changes in exposure
-
-A new data source, user population, tool or execution permission can change the failure modes even if the prompt is unchanged. Reassess the relevant cases and operational controls. Expand review when the uncertainty could alter the decision, rather than repeating every check mechanically.
-
-Company cases, primary disclosures and method references
-
-SourcesA01
-
-### Explanation & evidence
+# 30. One implementation checklist connects the task, evidence, authority and release decision
 
 The checklist connects five responsibilities that are often assessed separately: task acceptance, evidence quality, action authority, evaluation and operation. Review them as one workflow so a correct-looking artifact cannot conceal a wrong source, unauthorized step or unreproducible release decision.
 
@@ -1951,779 +578,126 @@ Use the contract to make disagreements concrete. A domain expert defines accepta
 
 The checklist is an illustrative synthesis of the conference mechanisms. The source catalog preserves company attribution and historical dates; it does not turn a design pattern into independently verified business effectiveness.
 
-### Use this resource
+Visible native-slide content: APPENDIX / A SHARED REVIEW CONTRACT One checklist connects the complete agent workflow Replace broad goals such as accuracy and safety with behavior a reviewer and test can recognize.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: Responsibility What to specify What to inspect Task User, accepted work, baseline and acceptance. Can a reviewer recognize completed work? Evidence Entity, period, units, source/version, cutoff and access. Can each material claim be reproduced? Authority Resources, proposals, approvals and execution. Can a denied action bypass the boundary? Evaluation Cases, rubric, critical failures and calibrated judges. Which serious failure could still receive a pass? Operation Versions, traces, release owner, stop and rollback. Can failure be diagnosed and repair verified?
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Retain versions, disagreement and accepted limits. A new source, user group, tool or permission can change exposure without changing the prompt; reassess when uncertainty could alter the decision.
 
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Coatue · A Hedge Fund as a Function — https://ai.engineer/nyc/2026/talks/coatue; Apollo / Redding Ridge / Rowspace · AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/talks/apollo-rowspace; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Compound value from building Monzo’s in-house agent using LLMs* — https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11; Scaling AI with P&L on the line — https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater; Wells Fargo · Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/talks/wells-fargo; Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap — https://ai.engineer/nyc/2026/talks/blackstone-norm; Morgan Stanley Wealth Management · Debrief launch — https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch; UBS · fourth-quarter/full-year 2024 results — https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html; RBC · 2025 Investor Day presentation — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95; RBC · 2025 Investor Day transcript — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20; Arca · Inside Arca’s long-horizon agents that run the business — https://ai.engineer/nyc/2026/talks/arca; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual; Contour Asset Management · Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management — https://www.youtube.com/watch?v=ZMZlAn6Pyfg; Jellyfish · Tokens Are the Cheap Part — https://ai.engineer/nyc/2026/talks/jellyfish; Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents — https://ai.engineer/nyc/2026/talks/credit-karma; Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/talks/ramp; Can Your AI Analyst Keep a Secret? — https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/talks/citadel; Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI — https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release · Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler — https://www.youtube.com/watch?v=dZgA6btnb_s; OpenAI · Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/talks/openai; Compound AI · Towards Autonomous Analysts in Finance — https://ai.engineer/nyc/2026/talks/compound; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; Vals AI · Beyond the Model Card: The Jagged Frontier of AI in Finance — https://ai.engineer/nyc/2026/talks/vals; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada — https://www.youtube.com/watch?v=c_SPW__jF9w; From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale — https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b; Chen et al. · Evaluating Large Language Models Trained on Code — https://arxiv.org/html/2107.03374v2; What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Arize · Sofia Jakovcevic · Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI — https://www.youtube.com/watch?v=v5tm5EAzsAs; Omni Analytics · Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics — https://www.youtube.com/watch?v=A3FL_zTQKU0; Google DeepMind / Kaggle / LinqAlpha · Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha — https://www.youtube.com/watch?v=aVbRSIQO2dE; Arize · Aparna Dhinakaran · What does an AI engineer do? — https://ai.engineer/nyc/2026/talks/arize; Stop turning your Humans Into APIs for your Agents — https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; Coinbase · Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/talks/coinbase; Two Sigma · Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/talks/two-sigma; Bloomberg · Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/talks/bloomberg; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Sonar · The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/talks/sonar; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one; No Cash Left Behind: Vanguard's Ledger Modernization Journey — https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e; Vanguard · AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard — https://www.youtube.com/watch?v=uA4ah-dVHvU; Prime Intellect · Self-Improving Organizations — https://ai.engineer/nyc/2026/talks/prime-intellect; Arize · Laurie Voss · AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI — https://www.youtube.com/watch?v=kspZP5BgkEU; Southbridge · Just-in-Time Ontologies — https://ai.engineer/nyc/2026/talks/southbridge; Monzo · A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso & Francesco Galletta, Monzo — https://www.youtube.com/watch?v=adfw3xJBx1o; Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9; Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0; Turning AI Into Operating Margin: A Field Report from Private Equity — https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a; AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0; Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82; Intent Based Auth — https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d; Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114; Inside the Fable War Room — https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420; Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839; Developer Docs as Knowledge Infrastructure for Fintech — https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480; Building the Financial Account for Agents — https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284; Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564; CTO, Blackstone — https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c; Head of AI & AI Engineer, Coatue — https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a; Arca’s agent runtime for long horizon financial services work — https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab; Shipping like a startup, regulated like a bank — https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a; UBS · Innovation and AI — https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html; Asset-management strategy · Sid Pednekar · Everyone Has AI. Who Has the Advantage? — https://ai.engineer/nyc/2026/talks/sid-pednekar; Failure study · New York Life affiliation · 1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life & Tanmay Sah — https://www.youtube.com/watch?v=mMw3arwQsL0
 
-Speaker notes
+# 31. Company examples teach reusable mechanisms rather than a single financial AI architecture
 
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
+The company atlas now includes 37 released-source and written-follow-up briefs. It groups newly inspected mechanisms alongside original program and historical disclosure context, without upgrading earlier material by association.
 
-### Sources for this page
+Compare what each system actually does, what the professional still decides and which component remains experimental. A transcript establishes a speaker account; a description establishes its stated scope. Neither independently validates outcomes.
 
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S06 · Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-- [S07 · Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
-- [E01 · Morgan Stanley Wealth Management · Debrief launch](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
-- [E02 · UBS · fourth-quarter/full-year 2024 results](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html)
-- [E03 · RBC · 2025 Investor Day presentation](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95)
-- [E04 · RBC · 2025 Investor Day transcript](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20)
-- [S08 · Can Your AI Analyst Keep a Secret?](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-- [S13 · From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
-- [E05 · Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S15 · Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-- [S17 · No Cash Left Behind: Vanguard's Ledger Modernization Journey](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e)
-- [S18 · Does Code Quality Even Matter?](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9)
-- [S19 · Chasing capabilities while waiting for the frontier](https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0)
-- [S20 · Turning AI Into Operating Margin: A Field Report from Private Equity](https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a)
-- [S21 · AI in Practice: An Inside Look at Apollo's Approach](https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0)
-- [S22 · Wells Fargo Foundation Model: Application to Fraud Detection at Scale](https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82)
-- [S23 · Intent Based Auth](https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d)
-- [S24 · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings](https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114)
-- [S25 · Inside the Fable War Room](https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420)
-- [S26 · Trusting Agents in Policy-Driven Workflows](https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839)
-- [S27 · Developer Docs as Knowledge Infrastructure for Fintech](https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480)
-- [S28 · Building the Financial Account for Agents](https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284)
-- [S29 · Security in the Age of AI: Recent Attacks, Incidents & Defenses](https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564)
-- [S30 · CTO, Blackstone](https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c)
-- [S31 · Head of AI & AI Engineer, Coatue](https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a)
-- [S32 · Arca’s agent runtime for long horizon financial services work](https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab)
-- [S33 · Shipping like a startup, regulated like a bank](https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a)
-- [E06 · UBS · Innovation and AI](https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html)
+Visible native-slide content: REFERENCE / RECORDING REVIEW Company cases teach different operating mechanisms The reading edition expands these themes into 37 later-source company and method briefs.
 
-APPENDIX / EVIDENCE & METHODS
+Visible native-slide content: Problem Selected later sources Transferable mechanism Grounding / memory Bridgewater · Kepler · Citadel Securities Time-scoped evidence; fact resolution; aged beliefs. Professional workflows Range · Arca · Perpetual · Apollo Expert method; handoffs; compiled plans; QA. Evaluation Basis · Ramp / Ryan · Vals Behavior specs; roll-forward worlds; accepted work. Authority / platform Two Sigma · Bloomberg · Credit Karma Identity, scope, runtime checks, state and traces. Engineering growth Arize · Sonar · Capital One · Monzo Durable learning; cheap checks; supported delivery.
 
-## Company examples teach reusable mechanisms rather than a single financial AI architecture
+Visible native-slide content: The HTML reading atlas and recording supplement preserve 37 briefs, timestamp links, source classes and limits. Mechanism, adoption and measured effectiveness remain distinct.
 
-Group cases by the problem they illuminate. Use the mechanism to generate a design or evaluation question; compare reported maturity and business effects separately in the detailed company atlas.
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Coatue · A Hedge Fund as a Function — https://ai.engineer/nyc/2026/talks/coatue; Apollo / Redding Ridge / Rowspace · AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/talks/apollo-rowspace; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Compound value from building Monzo’s in-house agent using LLMs* — https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11; Scaling AI with P&L on the line — https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater; Wells Fargo · Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/talks/wells-fargo; Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap — https://ai.engineer/nyc/2026/talks/blackstone-norm; Morgan Stanley Wealth Management · Debrief launch — https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch; UBS · fourth-quarter/full-year 2024 results — https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html; RBC · 2025 Investor Day presentation — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95; RBC · 2025 Investor Day transcript — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20; Arca · Inside Arca’s long-horizon agents that run the business — https://ai.engineer/nyc/2026/talks/arca; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual; Contour Asset Management · Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management — https://www.youtube.com/watch?v=ZMZlAn6Pyfg; Jellyfish · Tokens Are the Cheap Part — https://ai.engineer/nyc/2026/talks/jellyfish; Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents — https://ai.engineer/nyc/2026/talks/credit-karma; Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/talks/ramp; Can Your AI Analyst Keep a Secret? — https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/talks/citadel; Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI — https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release · Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler — https://www.youtube.com/watch?v=dZgA6btnb_s; OpenAI · Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/talks/openai; Compound AI · Towards Autonomous Analysts in Finance — https://ai.engineer/nyc/2026/talks/compound; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; Vals AI · Beyond the Model Card: The Jagged Frontier of AI in Finance — https://ai.engineer/nyc/2026/talks/vals; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada — https://www.youtube.com/watch?v=c_SPW__jF9w; From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale — https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b; Chen et al. · Evaluating Large Language Models Trained on Code — https://arxiv.org/html/2107.03374v2; What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Arize · Sofia Jakovcevic · Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI — https://www.youtube.com/watch?v=v5tm5EAzsAs; Omni Analytics · Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics — https://www.youtube.com/watch?v=A3FL_zTQKU0; Google DeepMind / Kaggle / LinqAlpha · Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha — https://www.youtube.com/watch?v=aVbRSIQO2dE; Arize · Aparna Dhinakaran · What does an AI engineer do? — https://ai.engineer/nyc/2026/talks/arize; Stop turning your Humans Into APIs for your Agents — https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; Coinbase · Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/talks/coinbase; Two Sigma · Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/talks/two-sigma; Bloomberg · Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/talks/bloomberg; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Sonar · The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/talks/sonar; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one; No Cash Left Behind: Vanguard's Ledger Modernization Journey — https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e; Vanguard · AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard — https://www.youtube.com/watch?v=uA4ah-dVHvU; Prime Intellect · Self-Improving Organizations — https://ai.engineer/nyc/2026/talks/prime-intellect; Arize · Laurie Voss · AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI — https://www.youtube.com/watch?v=kspZP5BgkEU; Southbridge · Just-in-Time Ontologies — https://ai.engineer/nyc/2026/talks/southbridge; Monzo · A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso & Francesco Galletta, Monzo — https://www.youtube.com/watch?v=adfw3xJBx1o; Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9; Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0; Turning AI Into Operating Margin: A Field Report from Private Equity — https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a; AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0; Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82; Intent Based Auth — https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d; Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114; Inside the Fable War Room — https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420; Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839; Developer Docs as Knowledge Infrastructure for Fintech — https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480; Building the Financial Account for Agents — https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284; Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564; CTO, Blackstone — https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c; Head of AI & AI Engineer, Coatue — https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a; Arca’s agent runtime for long horizon financial services work — https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab; Shipping like a startup, regulated like a bank — https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a; UBS · Innovation and AI — https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html; Asset-management strategy · Sid Pednekar · Everyone Has AI. Who Has the Advantage? — https://ai.engineer/nyc/2026/talks/sid-pednekar; Failure study · New York Life affiliation · 1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life & Tanmay Sah — https://www.youtube.com/watch?v=mMw3arwQsL0
 
-| Theme | Company examples | Transferable mechanism |
-| --- | --- | --- |
-| Evidence and research | Bridgewater · Kepler · Contour | Time-scoped retrieval, typed facts, reproducible comparisons |
-| Wealth workflows | Range · Morgan Stanley · UBS · RBC | Expert-authored preparation, institutional knowledge, reviewed follow-through |
-| Authority and controls | Two Sigma · Wise | Owned agents, resource scope, explicit approval and execution boundaries |
-| Engineering platforms | Monzo · Optiver · Vanguard | Shared runtime, task qualification, financial invariants |
-| Improvement and learning | Ramp · Arize · Sonar · Capital One | Task-level ablations, trace diagnosis, layered verification, deliberate maintenance |
-
-### Compare like work with like
-
-A research information feed, planner preparation draft and code-migration assistant have different acceptance decisions. Compare systems performing equivalent work before interpreting adoption, time or cost. Their shared lesson is explicit evidence and control, not one universal success metric.
-
-### Distinguish mechanism from effectiveness
-
-A detailed architecture explains how a system is intended to operate. Production use shows operational adoption. Neither alone establishes quality, net time saved or causal business impact. Ask what baseline, task mix and human effort would support the stronger claim.
-
-### Use the atlas for follow-up
-
-The full reading-mode atlas retains 25 firm perspectives, source links and case limits. Use it to find a relevant peer pattern, then investigate the missing implementation detail or measurement. A company affiliation alone does not establish deployment of every discussed technique.
-
-Company cases, primary disclosures and method references
-
-SourcesA02
-
-### Explanation & evidence
-
-The atlas preserves all 25 firm perspectives from the consolidated industry research, including cases with sparse October 10 abstracts. These are selected, uneven, self-reported examples, not an industry survey or a ranking of frontier maturity.
-
-A company affiliation or protocol-panel appearance is not evidence that the company deployed every named technique or vendor. A detailed mechanism, large user count, or pilot outcome also leaves quality, full operating cost, and causal business impact unresolved.
-
-### Use this resource
-
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
-
-Source links open the original sites. The presentation itself works offline.
-
-| Firm / context | Recorded work | Maturity and limits | Source |
-| --- | --- | --- | --- |
-| **Bridgewater** Investment research | Vault ontology and time-scoped retrieval; different human/agent needs; evidence-oriented investor feeds. | Day 1: production, speaker-reportedNo retrieval benchmark or demonstrated change in habits, predictions, or returns captured. | [S04](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6) · [S08](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2) |
-| **Wise** Financial services / controls | LOOP separates reasoning from platform-enforced, versioned authority. | Built framework describedDeployment coverage and control effectiveness are not quantified. | [S15](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c) |
-| **Monzo** Banking / internal engineering | Agent Chip combines a sandbox, tool gateway, orchestration, and Slack distribution. | Reported productionTask volume and merged code measure activity; net quality-adjusted productivity remains unknown. | [S06](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11) |
-| **Ramp** Fintech / accounting | End-to-end job/task success; skill ablation from eight to four; trajectory-distilled memory and Excel-skill shrinkage. | Day2: maturity not captured; program separately reports productionNo effect sizes, assessment design, k, selection costs, or one-attempt reliability result captured. | [S19](https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0) · [S10](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448) |
-| **Optiver** Market making / engineering | Supported platform, experiment funnel, task certification, and model routing. | Reported broad internal useEngineering use is not evidence of autonomous trading or causal firm-wide savings. | [S07](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3) |
-| **Upstart** Lending / voice operations | Production voice agents; automated judges calibrated against human graders. | Production; future remediationVoice deployment is reported; automated self-healing is an ambition under development. | [S13](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b) |
-| **Contour Asset Management** Investment management | Speaker-described comparison of AI/non-AI research, sources, conclusions, and outcomes; cost per useful insight. | Day 1: unclear; program separately reports daily useThree months and the A/B label do not establish randomization, causal ROI, or alpha. | [S01](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca) |
-| **Apollo Global Management** Private equity / portfolio operations | Diligence, portfolio deployment, shared capabilities, and operating-margin assessment. | Deployment case studies advertisedPortfolio-company examples and the separate sparse keynote must not be treated as one proven platform. | [S20](https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a) · [S21](https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0) |
-| **Vanguard** Asset management / infrastructure | Live ledger modernization with CDC, parallel migration tracks, and idempotency. | Production migration describedAI helps maintain codebases; the abstract does not isolate its incremental project benefit. | [S17](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e) |
-| **Wells Fargo** Banking / transaction modeling | Transaction foundation-model lifecycle for fraud and decisioning. | Development / deployment unclearProduction-grade pipelines do not establish which applications are already live. | [S22](https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82) |
-| **Two Sigma** Investment management | Agent registry, risk scoring, declared resource access, active controls, shared evaluations, and an approval classifier. | Day 1: production, speaker-reportedSafety/utility effects, classifier errors, and enforcement details were not captured. | [S05](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1) |
-| **JPMC** Banking / security | Practitioner participation in an intent-based authorization panel. | Protocol / design discussionPanel participation does not establish JPMC adoption of Keycard or AAuth. | [S23](https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d) |
-| **Citadel Securities** Financial markets / enterprise knowledge | Enterprise-state estimation from changing, noisy organizational information. | Implementation described; scale unclearProduction scope and measured effectiveness are unspecified; this is Citadel Securities. | [S24](https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114) |
-| **GEICO** Insurance / modernization | Expert-supported war-room experiment with tools, context, and playbooks. | ExperimentAnnualized potential savings differ from realized recurring benefits or scaled deployment. | [S25](https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420) |
-| **Capital One** Banking / engineering | Durable versus disposable software; scale maintainability investment with lifespan and dependency footprint. | Day 1: conceptual discussion; maturity unclearNo disposable-software deployment or near-zero replacement-cost result established. | [S18](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9) |
-| **Coinbase** Digital-asset financial services | Knowledge infrastructure, policy-driven workflows, and agent-account controls across several talks. | Mixed evidence by sessionDocumentation usage is the clearest production claim; workflow/account concepts have separate maturity. | [S26](https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839) · [S27](https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480) · [S28](https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284) |
-| **Bloomberg** Financial information / security | AI attack patterns and defensive architecture. | Security perspectiveThe speaker’s remit is not evidence of a particular deployed Bloomberg architecture. | [S29](https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564) |
-| **Blackstone** Alternative assets | A scheduled session with Norm.ai; substantive abstract is empty. | Insufficient detailDo not infer Norm.ai adoption, a use case, or business results from the lineup. | [S30](https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c) |
-| **Coatue** Investment management | Scheduled Head of AI / AI Engineer keynote; substantive abstract is empty. | Insufficient detailFirm affiliation alone supports no technical or outcome conclusion. | [S31](https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a) |
-| **Arca** Wealth-workflow builder | Persistent financial-work orchestration across agents, people, and external systems. | Runtime described; scale unclearSpeaker links arcawealth.ai; do not conflate similarly named firms or infer incumbent-scale adoption. | [S32](https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab) |
-| **Revolut** Banking / internal engineering | Internal coding and vision-model workflows described with Together AI. | Internal use describedNo autonomous customer-banking deployment or measured productivity is established. | [S33](https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a) |
-| **Morgan Stanley Wealth Management** Wealth management · external context | Advisor knowledge and consent-based meeting documentation/follow-up. | Historical firm-reported rolloutAdvisor-team adoption is distinct from Debrief impact, advice quality, or ROI. | [E01](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch) |
-| **UBS** Wealth management · external context | Institutional knowledge access and personalized advisor meeting intelligence. | Firm-reported use; dated and undated sourcesTools and user populations differ; current web claims are not controlled outcome evidence. | [E02](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html) · [E06](https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html) |
-| **RBC Wealth Management** Wealth management · external context | Advisor Assist: client context and meeting-preparation capabilities. | Firm-reported early use / US pilotsRoadmap, survey adoption, and pilot conversion are different evidence categories. | [E03](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95) |
-| **Range** Wealth management / financial planning | Planner-authored skills; parallel cash-flow or insurance-analysis drafts with planner review and adjustment. | Day2: workflow use described; maturity label not capturedCompany confirmed by attendee and matched to current agenda. No measured capacity, advice-quality, or ROI result. | [S02](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184) |
-
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
-
-Speaker notes
-
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
-
-### Sources for this page
-
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S06 · Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-- [S07 · Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
-- [E01 · Morgan Stanley Wealth Management · Debrief launch](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
-- [E02 · UBS · fourth-quarter/full-year 2024 results](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html)
-- [E03 · RBC · 2025 Investor Day presentation](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95)
-- [E04 · RBC · 2025 Investor Day transcript](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20)
-- [S08 · Can Your AI Analyst Keep a Secret?](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-- [S13 · From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
-- [E05 · Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S15 · Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-- [S17 · No Cash Left Behind: Vanguard's Ledger Modernization Journey](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e)
-- [S18 · Does Code Quality Even Matter?](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9)
-- [S19 · Chasing capabilities while waiting for the frontier](https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0)
-- [S20 · Turning AI Into Operating Margin: A Field Report from Private Equity](https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a)
-- [S21 · AI in Practice: An Inside Look at Apollo's Approach](https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0)
-- [S22 · Wells Fargo Foundation Model: Application to Fraud Detection at Scale](https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82)
-- [S23 · Intent Based Auth](https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d)
-- [S24 · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings](https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114)
-- [S25 · Inside the Fable War Room](https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420)
-- [S26 · Trusting Agents in Policy-Driven Workflows](https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839)
-- [S27 · Developer Docs as Knowledge Infrastructure for Fintech](https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480)
-- [S28 · Building the Financial Account for Agents](https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284)
-- [S29 · Security in the Age of AI: Recent Attacks, Incidents & Defenses](https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564)
-- [S30 · CTO, Blackstone](https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c)
-- [S31 · Head of AI & AI Engineer, Coatue](https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a)
-- [S32 · Arca’s agent runtime for long horizon financial services work](https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab)
-- [S33 · Shipping like a startup, regulated like a bank](https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a)
-- [E06 · UBS · Innovation and AI](https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html)
-
-APPENDIX / EVIDENCE & METHODS
-
-## A versioned evaluation contract makes a release decision reproducible
-
-The illustrative schema links the intended task to inputs, case coverage, acceptance, critical conditions and an accountable owner. It is a compact specification to discuss before running an assessment.
-
-```
-task: draft_review_packet
-snapshot: approved_inputs_v1
-acceptance: reviewed_complete_output
-critical: [unauthorized_access, unsupported_number]
-cases: [common, missing, difficult, regression]
-judge: model + rubric + threshold + version
-compare: baseline_vs_candidate
-decision: accountable_owner
-```
-
-### Make the decision reproducible
-
-One contract connects the task, data snapshot, cases, critical conditions, evaluator, and release owner.
-
-### Define the permitted completion
-
-Describe the complete job, authorized data snapshot, output and action limits. Include when the system should clarify or abstain. Critical conditions need explicit definitions: unauthorized access is a failure; correctly refusing access can be the expected successful behavior.
-
-### Version the evaluator as well
-
-A judge model, prompt, rubric or threshold change can change reported quality without changing the agent. Retain those versions with the case and system configuration. Recalibrate important decisions against reviewed examples when the evaluator changes or the task population shifts.
-
-### Tie evidence to the decision
-
-Select cases and uncertainty analysis for the question being decided. Choosing a model, reducing review and granting execution authority require different evidence. The contract supports a scoped judgment with known limits; it cannot prove that no consequential failure remains possible.
-
-Sources: Ramp · New York Life Insurance / 
-
-SourcesA03
-
-### Explanation & evidence
+# 32. A versioned evaluation contract makes a release decision reproducible
 
 This is an illustrative schema for discussion, not a runnable framework. The purpose is to make the task, input snapshot, acceptance criteria, critical failures, case coverage, evaluator configuration, and release decision explicit.
 
 The schema should be adapted to the particular decision. Choosing a model, reducing human review, and expanding action authority require different evidence. A finite assessment suite provides bounded evidence, not proof of absence of failure.
 
-### Use this resource
+Visible native-slide content: APPENDIX / COMPACT EVALUATION SPECIFICATION Version the evaluation contract with the decision A judge or rubric change can alter reported quality even when the agent is unchanged.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: ILLUSTRATIVE SCHEMA / NOT A RUNNABLE FRAMEWORK task: draft_review_packet snapshot: approved_inputs_v1 acceptance: reviewed_complete_output critical: unauthorized_access, unsupported_number cases: common, missing, difficult, regression judge: model + rubric + threshold + version compare: baseline_vs_candidate decision: accountable_owner
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Define the permitted completion Outputs, action limits and clarification/abstention. Unauthorized access fails; correct refusal can succeed.
 
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
+Visible native-slide content: Version the evaluator, not only the system Retain judge model, prompt, rubric and threshold. Recalibrate on reviewed cases when they or users change.
 
-Speaker notes
+Visible native-slide content: Select evidence for the decision Model choice, less review and greater execution authority require different evidence. Finite tests support a scoped judgment with known limits, not proof of zero failure.
 
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
+Sources: Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c
 
-### Sources for this page
-
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-
-APPENDIX / EVIDENCE & METHODS
-
-## A typed claim keeps a financial value attached to its meaning and derivation
-
-The synthetic AsterCo contract represents a 20% annual revenue-growth claim as a ratio. Its inputs, units, period, information cutoff and calculation are preserved for inspection and downstream rendering.
-
-```
-entity: AsterCo  # invented
-metric: annual_revenue_growth
-period: FY2025
-unit: ratio
-value: 0.20
-inputs: D1=100; D3=120  # USD_m
-as_of: 2026-03-01
-calculation: (120 - 100) / 100
-```
-
-### Preserve what the number means
-
-The entity, period, unit, source version, and transformation travel with the value.
-
-### Do not mix measurement types
-
-Revenue of 120 million dollars and revenue growth of 0.20 are different metrics with different units. Carry the metric definition and unit through every transformation. An exact numerical match against a document is insufficient if the answer uses the value in the wrong comparison.
-
-### Retain the source identity
-
-Store the source document, passage, version and available-as-of time with each input. Reconstruct which evidence was eligible when the question was asked. Publication, reporting period and access permission answer different questions and should not be collapsed into a single timestamp.
-
-### Propagate corrections through artifacts
-
-When an input is superseded, recompute dependent figures and update the associated narrative, table and chart. Preserve the earlier value and change reason for reproducibility. Validate the final artifact, since formatting or export can drop units, periods or links even when the calculation was correct.
-
-Sources: Kepler · Bridgewater
-
-SourcesA04
-
-### Explanation & evidence
+# 33. A typed claim keeps a financial value attached to its meaning and derivation
 
 The contract is an illustrative design requirement informed by Kepler and Bridgewater. It does not claim that either firm implemented exactly these fields or checks.
 
 A verified number can still be used in a wrong comparison. Preserve entity, metric definition, period, units/currency, source version, available-as-of time, and the calculation inputs and operations. The AsterCo values and documents are invented.
 
-### Use this resource
+Visible native-slide content: APPENDIX / SYNTHETIC TYPED CLAIM Keep the typed claim attached to its derivation AsterCo’s growth value is a ratio; its revenue inputs are USD millions.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: ALL ENTITIES, VALUES AND DOCUMENTS INVENTED entity: AsterCo metric: annual_revenue_growth period: FY2025 unit: ratio value: 0.20 inputs: D1=100; D3=120 # USD_m as_of: 2026-03-01 calculation: (120 - 100) / 100
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: 0.20 growth ≠ USD120m revenue Preserve entity, metric definition, period and unit. A document match cannot establish a valid comparison.
 
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
+Visible native-slide content: Retain source identity and eligibility Document, passage, version and available-as-of time. Publication, reporting period and access are distinct.
 
-Speaker notes
+Visible native-slide content: Propagate corrections through artifacts Recompute dependent claims, charts and tables; retain earlier values and change reasons. Verify export has preserved units, periods and evidence links.
 
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
+Sources: Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6
 
-### Sources for this page
-
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-
-APPENDIX / EVIDENCE & METHODS
-
-## pass@k measures an opportunity to succeed; deployed reliability also requires choosing correctly
-
-Separate candidate generation from selection and acceptance. A multi-attempt benchmark can contain a passing answer while the deployed workflow selects a failing answer or spends excessive effort identifying the usable one.
-
-Benchmark question
-
-### Was any candidate successful?
-
-State k, the task distribution, and the specified test.
-
-pass@k
-
-Deployment question
-
-### Can the system select a usable answer?
-
-Evaluate selection, first-attempt behavior, retries, and review.
-
-End-to-end reliability
-
-### State the benchmark question
-
-Under pass@k, a task succeeds when at least one of k sampled candidates meets the specified test; results are summarized over tasks. State the task distribution, test and attempt budget. This does not report whether the first candidate succeeds or an operational selector finds the passing candidate.
-
-### Evaluate the actual selector
-
-Run the verification, ranking or human-review process the deployed system will use. Measure acceptance of its chosen output, missed defects and rejection of usable candidates. Avoid interpreting an oracle-like benchmark that recognizes success using ground truth as a deployed selection capability.
-
-### Count the entire attempt budget
-
-Include all generated candidates, tool calls, verification, review time and latency. Compare policies at explicit budgets and acceptance standards. More attempts can create an opportunity for higher success while increasing cost and exposure; evaluate that tradeoff on the actual workflow.
-
-Sources: Chen et al. (2021)
-
-SourcesA05
-
-### Explanation & evidence
+# 34. pass@k measures an opportunity to succeed; deployed reliability also requires choosing correctly
 
 The primary HumanEval paper defines pass@k as an at-least-one-success benchmark across sampled candidates under a specified test and discusses candidate selection. This presentation borrows the metric distinction, not a code-benchmark performance result for finance.
 
 A deployed workflow must identify and accept a usable answer, comply with critical conditions, and account for the costs of all attempts, verification, and review. Partial-credit task quality, pass@k, first-attempt success, and selected-output reliability should not be used interchangeably.
 
-### Use this resource
+Visible native-slide content: APPENDIX / GENERATION IS DIFFERENT FROM SELECTION pass@k is not deployed selection reliability A benchmark can recognize a passing candidate that an operational selector fails to choose.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: Benchmark: was any candidate successful? At least one of k sampled candidates meets the specified test; summarize the result over tasks. State k, task distribution and the test. Ground-truth recognition can behave like an oracle.
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Deployment: can the system choose correctly? Run the actual verifier, ranker or human-review process. Measure chosen-output acceptance, missed defects, rejected useful candidates and first-attempt behavior. Critical action/evidence conditions still apply.
 
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
+Visible native-slide content: Count all candidates, tool calls, verification, review and latency. Compare explicit budgets and acceptance standards. More attempts can increase success opportunity while also increasing cost and exposure.
 
-Speaker notes
+Visible native-slide content: Keep partial-credit quality, pass@k, first-attempt success and selected-output reliability distinct. Chen et al.’s HumanEval paper supplies the metric/selection distinction, not a finance performance result or a general retry policy.
 
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
+Sources: Chen et al. · Evaluating Large Language Models Trained on Code — https://arxiv.org/html/2107.03374v2
 
-### Sources for this page
-
-- [E05 · Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
-
-APPENDIX / EVIDENCE & METHODS
-
-## Accepted-task rate and full cost reveal what adoption metrics leave unresolved
-
-Agree the eligible population, completion standard and comparison before reporting improvement. Pair output quality with operating effort so a reduction in one cost does not conceal increased work elsewhere.
-
-| Measure | Definition to agree | Interpretation boundary |
-| --- | --- | --- |
-| Accepted-task rate | Accepted / eligible assigned tasks | Do not hide excluded failures |
-| Cost per accepted task | Full workflow cost / accepted tasks | Include review, retries, rework |
-| Capacity | Accepted outputs / human effort or period | Compare quality and task mix |
-| Business impact | Outcome against credible alternative | Account for selection and other drivers |
-
-### Use two complementary denominators
-
-Accepted-task rate uses all eligible assigned tasks to show how often the workflow succeeds. Cost per accepted task divides total workflow cost, including failed attempts, by accepted tasks. Report both; a low unit cost can coexist with too many unsuccessful or excluded tasks.
-
-### Measure professional effort end-to-end
-
-Count preparation, correction, evidence checking, approval and follow-up, alongside system costs. Compare equivalent work at the same quality standard. Draft generation time alone cannot establish additional advisor or analyst capacity when people must reconstruct or repair the result.
-
-### Separate process from business impact
-
-Faster accepted work is a process result. Attributable returns, client outcomes or revenue require an additional credible comparison and attention to selection and other drivers. Contour’s recorded comparison motivates the question; the notes do not establish a causal financial estimate.
-
-Sources: Contour Asset Management
-
-SourcesA06
-
-### Explanation & evidence
+# 35. Accepted-task rate and full cost reveal what adoption metrics leave unresolved
 
 These are proposed measurement definitions. Define the population and exclusions in advance, record full workflow costs, and compare equivalent work at an agreed quality.
 
 Contour’s notes call the approach A/B testing and describe a three-month tracking window, but assignment, sample size, controls, and causal estimates were not captured. Do not treat that window as sufficient validation for every financial workflow.
 
-### Use this resource
+Visible native-slide content: APPENDIX / DENOMINATORS AND COMPARISON Pair accepted-task rate with full cost Agree eligibility, completion, exclusions, quality and task mix before reporting an improvement.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: Measure Definition to agree Interpretation boundary Accepted-task rate Accepted / eligible assigned tasks. Show excluded, rejected and abandoned outcomes. Cost per accepted task Total workflow cost / accepted tasks. Include failed attempts, retries, verification, review and rework. Capacity Accepted outputs / human effort or period. Compare equivalent work, quality and task mix. Business impact Outcome against a credible alternative. Account for selection and other drivers; process speed is not causal revenue or returns.
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Count preparation, correction, evidence checking, approval and follow-up alongside system costs. Report both acceptance rate and unit cost: low cost can coexist with poor coverage. Contour’s roughly three-month tracking account contains no captured sample, assignment, controls or causal estimate; it motivates a comparison, not a universal validation window.
 
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca
 
-Speaker notes
+# 36. The recordings clarify mechanisms while leaving specific questions open
 
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
+Recordings resolve the reversed Bridgewater reactive/proactive wording and provide its precision@10 account. Range ownership/reviewer responsibilities are now transcript-backed; Kepler explicitly retains final post-processing. Vanguard’s timing claim concerns mainframe-code research.
 
-### Sources for this page
+Keep Ramp’s keynote separate from Ryan Stevens’s written breakout account and Kepler’s breakout separate from its next-day follow-up. Range’s index label is October 13 while its attended notes remain Day 2; an index label is not an established filming date.
 
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
+Banking affiliation and “roundedness,” uncertain provider spelling, exact breakout retrieval defaults and several result denominators remain unresolved. Do not turn a confidence metaphor or selected incident coverage into a calibrated assurance or prevalence estimate.
 
-APPENDIX / EVIDENCE & METHODS
+Visible native-slide content: REFERENCE / RECORDING REVIEW The recordings clarify methods and expose open questions Keep clarified mechanisms, separate talk editions and specific unanswered questions visible.
 
-## Turn unresolved conference claims into specific engineering follow-up questions
+Visible native-slide content: Clarified Bridgewater’s metric is precision@10 and its product direction is proactive participation. Range confirms an owner and separate reviewer. Kepler retains final post-processing. Vanguard’s seven-days-to-fifteen-minutes title concerns mainframe-code research, not investment research.
 
-Uncertainty becomes useful when it identifies the next inspection or test. Focus follow-up on coverage, failure handling, measurement and deployment scope rather than repeating an attractive claim without its conditions.
+Visible native-slide content: Keep editions separate Ryan Stevens’s written Ramp evaluation account differs from Alexander Shevchenko’s keynote. Kepler’s attended breakout and next-day follow-up are different editions. Range’s online index label is October 13; attended notes remain Day 2. An index label is not a filming date.
 
-Unverified effects
+Visible native-slide content: Still open Banking affiliation and “roundedness,” provider spelling, exact breakout retrieval defaults and several result denominators remain unresolved. Do not turn the confidence metaphor or incident coverage into a calibrated assurance or incidence estimate. Ask for the workload, population and comparison needed.
 
-### No comparable ROI or safety result
+Sources: Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa
 
-Mechanisms and reported scale are informative; effects remain to test.
-
-Unresolved details
-
-### Source spellings and scope
-
-“crunchable”, “roundedness”, the 50k-code example, and retrieval settings.
-
-Attribution
-
-### Keep source boundaries visible
-
-Comet/NatWest differs; affiliation alone does not identify a deployment.
-
-### Ask what the checker misses
-
-For citation verification, judge calibration or approval triage, ask which cases are assessed, which serious errors pass, and what happens when support fails. Independent components can share blind spots. Request representative failures and adjudication procedures alongside aggregate agreement or architecture diagrams.
-
-### Ask what the result measures
-
-For reported time savings, productivity or financial effects, request the baseline, task population, exclusions, sample, uncertainty and full human effort. Clarify whether the figure describes adoption, a pilot, estimated opportunity or realized outcome. Preserve historical disclosure dates when comparing firms.
-
-### Ask what scope was demonstrated
-
-Clarify production scope, user entitlements, model and data versions, and operational stop conditions. Sonar’s code-size example and Kepler’s rough retrieval settings lack enough context to become defaults. Unresolved note terms and the Comet/NatWest affiliation discrepancy remain in the source context for follow-up.
-
-Sources: OpenAI · Bridgewater · Sonar · New York Life Insurance / · Kepler · Banking session
-
-SourcesA07
-
-### Explanation & evidence
-
-The source notes preserve unresolved terms such as “crunchable” and “roundedness”; these have not been silently corrected into a provider or safety metric. The Bridgewater reactive/proactive wording reverses once. Workbench examples suggest proactive attention guidance, but the terminology remains to verify.
-
-Sonar’s roughly50k-line codebase example lacks model, workload, metric, and benchmark conditions. Its confidence multiplication is a conceptual framing. Kepler’s retrieval settings are incompletely captured. None is a universal engineering threshold or a calibrated assurance formula.
-
-The failure study’s recorded expected-loss product has undefined events, conditional relationships, and severity units. Incident rankings and exponential growth claims lack denominators and methods in the notes. These are follow-up topics, not established prevalence or expected-loss estimates.
-
-### Use this resource
-
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
-
-Source links open the original sites. The presentation itself works offline.
-
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
-
-Speaker notes
-
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
-
-### Sources for this page
-
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-
-APPENDIX / EVIDENCE & METHODS
-
-## Source links preserve the distinction between company stories and proposed engineering methods
-
-The complete catalog contains 39 references. Individual source dialogs connect the slide to its session or primary reference; reading mode retains the company atlas, detailed explanations and original source context.
-
-| Reference group | What it supports | How to use it |
-| --- | --- | --- |
-| AI Engineer NYC 2026 | 12 session-note sets plus program research | Company mechanisms and questions to investigate; session links identify the speakers |
-| Wealth disclosures | Morgan Stanley (June 2024), UBS (February 2025), RBC (March 2025) | Historical workflow examples; preserve dates and separate adoption from measured effects |
-| Primary metric reference | Chen et al., Evaluating Large Language Models Trained on Code (2021) | Definition of pass@k and the candidate-selection distinction |
-| Teaching examples and methods | AsterCo, fictional review packet, rubrics and control diagrams | Apply the reasoning to your workflow; these are illustrative designs, not firm architectures |
-
-### Use company stories as evidence
-
-The deck consolidates twelve identified session-note sets with pre-conference program research. Notes capture the live accounts; agenda descriptions identify advertised topics and mechanisms. The presentation derives practical questions from those sources without treating reported implementation as independently tested effectiveness.
-
-### Keep external context dated
-
-The wealth examples draw on primary company releases and investor materials from 2024 and 2025. They establish what the firm described at that time. Current availability, rollout populations and causal benefits require separate verification; the dates remain visible on the comparison slide.
-
-### Reuse the illustrative methods deliberately
-
-Rubrics, typed-claim contracts, release gates and learning exercises translate the conference mechanisms into reviewable practices. AsterCo and the financial-review packet use invented values. Adapt acceptance and failure definitions with domain reviewers, and test the complete workflow before interpreting a method as an established result.
-
-Company cases, primary disclosures and method references
-
-SourcesA08
-
-### Explanation & evidence
+# 37. Source links preserve the distinction between company stories and proposed engineering methods
 
 The catalog below includes each source used in the core presentation and the evidence atlas. Official session links identify talks; attendee notes remain the source of the captured live claims. Program-only cases are marked as context.
 
 The method paper and firm disclosures are primary external references. Historical releases are not claims about a firm’s latest state, and company-reported outcomes are not independent validation.
 
-### Use this resource
+Visible native-slide content: REFERENCE / RECORDING REVIEW Follow the source, its date and its evidence boundary Screened 90 uploads; inspected 50 official descriptions and selected transcripts from 52 archived sessions.
 
-Every slide contains the argument, example and practical implications. Read & learn adds source context and reference material.
+Visible native-slide content: Bridgewater Range Arca Perpetual Coatue Blackstone / Norm.ai Apollo / Redding Ridge / Rowspace Wells Fargo Kepler · October 14 follow-up Kepler · attended breakout release Southbridge Citadel Securities OpenAI Compound AI Basis
 
-Source links open the original sites. The presentation itself works offline.
+Visible native-slide content: Ramp · Ryan Stevens written follow-up Ramp · Alexander Shevchenko keynote Vals AI Arize · Sofia Jakovcevic Air Canada · Nathanael Weill Coinbase Two Sigma Intuit Credit Karma Bloomberg Arize · Aparna Dhinakaran Sonar Capital One Arize · Laurie Voss Jellyfish DeepMind / Kaggle / LinqAlpha
 
-S01 · ATTENDEE ACCOUNT + SESSION METADATA[Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
+Visible native-slide content: Links lead to original sources. Descriptions are not transcripts; company results are attributed accounts. Historical disclosures and the metric paper remain linked in the reading edition and notes.
 
-Day1 metadata from the October 10 snapshot; Hari Kumar · Contour Asset Management. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S02 · ATTENDEE ACCOUNT + SESSION METADATA[We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-
-Day2 metadata checked October 14; Matt Ragone · Range. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S03 · ATTENDEE ACCOUNT + SESSION METADATA[Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-
-Day2 metadata checked October 14; Joseph Kim · OpenAI. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S04 · ATTENDEE ACCOUNT + SESSION METADATA[Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-
-Day1 metadata from the October 10 snapshot; Aaron Linsky · Bridgewater; Sam Green · Bridgewater. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S05 · ATTENDEE ACCOUNT + SESSION METADATA[Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-
-Day1 metadata from the October 10 snapshot; John Feminella · Two Sigma. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S06 · PROGRAM CONTEXT[Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-
-October 10 program snapshot; Francesco Galletta · Monzo; Felippe Felisola Caso · Monzo. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S07 · PROGRAM CONTEXT[Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
-
-October 10 program snapshot; Noyan Tokgozoglu · Optiver. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-E01 · FIRM DISCLOSURE · 2024-06-26[Morgan Stanley Wealth Management · Debrief launch](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
-
-Historical company release: Assistant adoption and Debrief features. Adoption does not establish Debrief-wide effectiveness or causal ROI.
-
-E02 · FIRM DISCLOSURE · 2025-02-04[UBS · fourth-quarter/full-year 2024 results](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html)
-
-Historical advisor rollout of Red; scale does not establish quality or client outcomes. Results media release page6 supports the described knowledge use case.
-
-E03 · FIRM DISCLOSURE · 2025-03-27[RBC · 2025 Investor Day presentation](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95)
-
-Slide95: Advisor Assist, survey use/satisfaction, and a separately footnoted US pilot conversion measure. Endnote slide226. These are not causal firm-wide revenue estimates.
-
-E04 · FIRM DISCLOSURE · 2025-03-27[RBC · 2025 Investor Day transcript](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20)
-
-Page20: executive account of early US advisor meeting-preparation assistance. No independent performance validation.
-
-S08 · PROGRAM CONTEXT[Can Your AI Analyst Keep a Secret?](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2)
-
-October 10 program snapshot; Aaron Linsky · Bridgewater; Nikhil Benesch · turbopuffer. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S09 · ATTENDEE ACCOUNT + SESSION METADATA[Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-
-Day1 metadata from the October 10 snapshot; Vinoo Ganesh · Kepler. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S10 · ATTENDEE ACCOUNT + SESSION METADATA[Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-
-Day2 metadata checked October 14; Ryan Stevens · Ramp. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S11 · ATTENDEE ACCOUNT + SESSION METADATA[1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-
-Day1 metadata from the October 10 snapshot; Vishal Srivastava · New York Life Insurance; Tanmay Sah · . The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S12 · ATTENDEE ACCOUNT + SESSION METADATA[From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-
-Day2 metadata checked October 14; Jonathan Osborne · NatWest. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Notes/October 10 say Comet; October 14 schedule says NatWest. The discrepancy is unresolved.
-
-S13 · PROGRAM CONTEXT[From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
-
-October 10 program snapshot; Shiv Indap · Upstart; Brooke Hopkins · Coval. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-E05 · PRIMARY METHOD PAPER · 2021[Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
-
-Primary reference for pass@k and candidate-selection distinctions. No numerical model result from the paper is transferred to financial workflows here.
-
-S14 · ATTENDEE ACCOUNT + SESSION METADATA[What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-
-Day1 metadata from the October 10 snapshot; Aparna Dhinakaran · Arize AI. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S15 · PROGRAM CONTEXT[Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-
-October 10 program snapshot; Emil Chetty · Wise. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S16 · ATTENDEE ACCOUNT + SESSION METADATA[The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-
-Day2 metadata checked October 14; Tariq Shaukat · Sonar. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S17 · PROGRAM CONTEXT[No Cash Left Behind: Vanguard's Ledger Modernization Journey](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e)
-
-October 10 program snapshot; Gareth Yoder · Vanguard. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S18 · ATTENDEE ACCOUNT + SESSION METADATA[Does Code Quality Even Matter?](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9)
-
-Day1 metadata from the October 10 snapshot; Max Kanat-Alexander · Capital One. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified.
-
-S19 · PROGRAM CONTEXT[Chasing capabilities while waiting for the frontier](https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0)
-
-October 10 program snapshot; Alexander Shevchenko · Ramp. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S20 · PROGRAM CONTEXT[Turning AI Into Operating Margin: A Field Report from Private Equity](https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a)
-
-October 10 program snapshot; Adam Nahari · Apollo Global Management. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S21 · PROGRAM CONTEXT[AI in Practice: An Inside Look at Apollo's Approach](https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0)
-
-October 10 program snapshot; Michael Manapat · Rowspace; Jack McDonald · Apollo Global Management. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S22 · PROGRAM CONTEXT[Wells Fargo Foundation Model: Application to Fraud Detection at Scale](https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82)
-
-October 10 program snapshot; Freddy Lecue · Wells Fargo. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S23 · PROGRAM CONTEXT[Intent Based Auth](https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d)
-
-October 10 program snapshot; Allie Howe · Keycard; Ian Livingstone · Keycard; Michael Davis · JPMC; Dick Hardt · AAuth. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S24 · PROGRAM CONTEXT[Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings](https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114)
-
-October 10 program snapshot; Joao Wenzel · Citadel Securities. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S25 · PROGRAM CONTEXT[Inside the Fable War Room](https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420)
-
-October 10 program snapshot; Ford Prior · GEICO. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S26 · PROGRAM CONTEXT[Trusting Agents in Policy-Driven Workflows](https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839)
-
-October 10 program snapshot; Evan Kormos · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S27 · PROGRAM CONTEXT[Developer Docs as Knowledge Infrastructure for Fintech](https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480)
-
-October 10 program snapshot; Hahnbee Lee · Mintlify; Lincoln Murr · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S28 · PROGRAM CONTEXT[Building the Financial Account for Agents](https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284)
-
-October 10 program snapshot; Lincoln Murr · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S29 · PROGRAM CONTEXT[Security in the Age of AI: Recent Attacks, Incidents & Defenses](https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564)
-
-October 10 program snapshot; Andrey Rybka · Bloomberg. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S30 · PROGRAM CONTEXT[CTO, Blackstone](https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c)
-
-October 10 program snapshot; John Stecher · Blackstone; Scott Worland · Norm.ai. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S31 · PROGRAM CONTEXT[Head of AI & AI Engineer, Coatue](https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a)
-
-October 10 program snapshot; Frank Long · Coatue. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S32 · PROGRAM CONTEXT[Arca’s agent runtime for long horizon financial services work](https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab)
-
-October 10 program snapshot; Aman Singh · Arca. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-S33 · PROGRAM CONTEXT[Shipping like a startup, regulated like a bank](https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a)
-
-October 10 program snapshot; David Abitbol · Revolut. This is advertised content, not a claim of attendance, independent verification, or current universal deployment.
-
-E06 · UNDATED FIRM PAGE · OBSERVED 2026-10-10[UBS · Innovation and AI](https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html)
-
-Corporate descriptions of Red and STAAT Insights. Publication date is unknown; employee and advisor populations differ. Preparation savings are estimates and identified opportunities are not completed sales.
-
-**Evidence boundary:** Reference material outside the timed talk. Attendee accounts, dated program context, historical firm disclosures, and proposed methods retain separate evidence boundaries.
-
-Speaker notes
-
-Use this reference page for a follow-up question or later study; it is outside the timed 40-minute path.
-
-### Sources for this page
-
-- [S01 · Proving Alpha: Showcasing AI's Value in Fundamental Investing](https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca)
-- [S02 · We Let Our Financial Planners Write the Agents](https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184)
-- [S03 · Building the Next Chapter of AI in Finance](https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8)
-- [S04 · Vault: Making Unstructured Data Work for Investing](https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6)
-- [S05 · Balancing Acceleration and Safety for AI Agents](https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1)
-- [S06 · Compound value from building Monzo’s in-house agent using LLMs\*](https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11)
-- [S07 · Scaling AI with P&L on the line](https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3)
-- [E01 · Morgan Stanley Wealth Management · Debrief launch](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
-- [E02 · UBS · fourth-quarter/full-year 2024 results](https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html)
-- [E03 · RBC · 2025 Investor Day presentation](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95)
-- [E04 · RBC · 2025 Investor Day transcript](https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20)
-- [S08 · Can Your AI Analyst Keep a Secret?](https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2)
-- [S09 · Do Not Let Models Invent Numbers](https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe)
-- [S10 · Building Better Agents Through End-to-End Evals](https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448)
-- [S11 · 1,368 AI Failures: What They Teach Us About System Evals](https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c)
-- [S12 · From Agent Prototype to Production in Regulated Banking](https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa)
-- [S13 · From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale](https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b)
-- [E05 · Chen et al. · Evaluating Large Language Models Trained on Code](https://arxiv.org/html/2107.03374v2)
-- [S14 · What does an AI engineer do?](https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c)
-- [S15 · Stop turning your Humans Into APIs for your Agents](https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c)
-- [S16 · The Machine that Changed the World, vAI](https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc)
-- [S17 · No Cash Left Behind: Vanguard's Ledger Modernization Journey](https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e)
-- [S18 · Does Code Quality Even Matter?](https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9)
-- [S19 · Chasing capabilities while waiting for the frontier](https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0)
-- [S20 · Turning AI Into Operating Margin: A Field Report from Private Equity](https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a)
-- [S21 · AI in Practice: An Inside Look at Apollo's Approach](https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0)
-- [S22 · Wells Fargo Foundation Model: Application to Fraud Detection at Scale](https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82)
-- [S23 · Intent Based Auth](https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d)
-- [S24 · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings](https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114)
-- [S25 · Inside the Fable War Room](https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420)
-- [S26 · Trusting Agents in Policy-Driven Workflows](https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839)
-- [S27 · Developer Docs as Knowledge Infrastructure for Fintech](https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480)
-- [S28 · Building the Financial Account for Agents](https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284)
-- [S29 · Security in the Age of AI: Recent Attacks, Incidents & Defenses](https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564)
-- [S30 · CTO, Blackstone](https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c)
-- [S31 · Head of AI & AI Engineer, Coatue](https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a)
-- [S32 · Arca’s agent runtime for long horizon financial services work](https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab)
-- [S33 · Shipping like a startup, regulated like a bank](https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a)
-- [E06 · UBS · Innovation and AI](https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html)
-
-## Speaker notes
-
-Revised October 15, 2026 · A technical learning briefing for data scientists, AI engineers and technical leads · Conference notes, program research, primary disclosures and illustrative methods.← PreviousReading presentationNext →← → navigate · R read · P present · O outline
-
-## Presentation outline
-
-Close
-
-Core: 40 minutes plus discussion. Appendix: optional evidence and methods. Select a page to jump.
-
-1. FIELD NOTES / NYC 2026
-2. [01From AI capability to dependable work](#present/opening-cover)
-3. [02Dependable financial AI combines valuable work, grounded evidence and controlled improvement](#present/opening-map)
-4. 01 / FINANCE STRATEGY & VALUE
-5. [03The valuable unit is a reviewed financial work product](#present/strategy-01)
-6. [04Different financial bottlenecks require different success criteria](#present/strategy-02)
-7. [05Wealth AI connects preparation, institutional knowledge and professional review](#present/strategy-03)
-8. [06Business value requires evidence beyond adoption and accepted output](#present/strategy-04)
-9. [07Count every attempt and human intervention in accepted-task economics](#present/strategy-05)
-10. 02 / GROUNDED AGENTS
-11. [08Time, meaning, and access define the financial question an agent can answer](#present/grounding-01)
-12. [09Human attention and agent coverage require different retrieval objectives](#present/grounding-02)
-13. [10Every reported number needs meaning, source history, and calculation lineage](#present/grounding-03)
-14. [11Correct arithmetic can produce the wrong answer when the source is stale](#present/grounding-04)
-15. [12Inspectability must survive the journey from source passage to exported artifact](#present/grounding-05)
-16. 03 / BUILDING EVALUATIONS
-17. [13Evaluate the complete job against an explicit acceptance contract](#present/evals-01)
-18. [14Score arithmetic and source validity independently to locate the actual defect](#present/evals-02)
-19. [15Calibrate the judge and evaluate how the system selects a usable answer](#present/evals-03)
-20. [16Hold the workload fixed while testing one system change at a time](#present/evals-04)
-21. [17Release decisions need explicit blockers, accountable judgment, and bounded exposure](#present/evals-05)
-22. [18Convert production failures into reviewed tests before changing agent behavior](#present/evals-06)
-23. 04 / RELIABLE WORKFLOWS & SKILLS
-24. [19Reusable skills must encode expert reasons, required questions, and limits](#present/workflows-01)
-25. [20Drafting useful work does not grant permission to recommend or act](#present/workflows-02)
-26. [21Authority must be enforced outside the agent’s proposed action](#present/workflows-03)
-27. [22Verification must catch different failures at creation, release, and operation](#present/workflows-04)
-28. [23Financial invariants remain essential when AI accelerates a code change](#present/workflows-05)
-29. 05 / GROWING AS AN AI ENGINEER
-30. [24An AI engineer owns the loop from user need to verified improvement](#present/growth-01)
-31. [25Technical fluency must connect domain meaning, system behavior and measurement](#present/growth-02)
-32. [26Software lifespan changes maintenance needs; failure consequences still determine required checks](#present/growth-03)
-33. [27One bounded experiment can develop the full engineering discipline](#present/growth-04)
-34. TAKEAWAYS & DISCUSSION
-35. [28Turn the conference into three decisions and one bounded comparison](#present/conclusion-01)
-36. [29Use disagreement to choose the next test](#present/conclusion-02)
-37. APPENDIX / EVIDENCE & METHODS
-38. [A01One implementation checklist connects the task, evidence, authority and release decision](#present/appendix-evidence)
-39. [A02Company examples teach reusable mechanisms rather than a single financial AI architecture](#present/appendix-atlas)
-40. [A03A versioned evaluation contract makes a release decision reproducible](#present/appendix-eval-spec)
-41. [A04A typed claim keeps a financial value attached to its meaning and derivation](#present/appendix-claim)
-42. [A05pass@k measures an opportunity to succeed; deployed reliability also requires choosing correctly](#present/appendix-passk)
-43. [A06Accepted-task rate and full cost reveal what adoption metrics leave unresolved](#present/appendix-measures)
-44. [A07Turn unresolved conference claims into specific engineering follow-up questions](#present/appendix-unknowns)
-45. [A08Source links preserve the distinction between company stories and proposed engineering methods](#present/appendix-sources)
-
-## Evidence & sources
-
-Close
+Sources: Proving Alpha: Showcasing AI's Value in Fundamental Investing — https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca; We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184; Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8; Coatue · A Hedge Fund as a Function — https://ai.engineer/nyc/2026/talks/coatue; Apollo / Redding Ridge / Rowspace · AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/talks/apollo-rowspace; Range · We Let Our Financial Planners Write the Agents — https://ai.engineer/nyc/2026/talks/range; Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6; Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1; Compound value from building Monzo’s in-house agent using LLMs* — https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11; Scaling AI with P&L on the line — https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3; Bridgewater · Vault: Making Unstructured Data Work for Investing — https://ai.engineer/nyc/2026/talks/bridgewater; Wells Fargo · Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/talks/wells-fargo; Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap — https://ai.engineer/nyc/2026/talks/blackstone-norm; Morgan Stanley Wealth Management · Debrief launch — https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch; UBS · fourth-quarter/full-year 2024 results — https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html; RBC · 2025 Investor Day presentation — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95; RBC · 2025 Investor Day transcript — https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20; Arca · Inside Arca’s long-horizon agents that run the business — https://ai.engineer/nyc/2026/talks/arca; Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance — https://ai.engineer/nyc/2026/talks/perpetual; Contour Asset Management · Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management — https://www.youtube.com/watch?v=ZMZlAn6Pyfg; Jellyfish · Tokens Are the Cheap Part — https://ai.engineer/nyc/2026/talks/jellyfish; Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents — https://ai.engineer/nyc/2026/talks/credit-karma; Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/talks/ramp; Can Your AI Analyst Keep a Secret? — https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2; Do Not Let Models Invent Numbers — https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe; Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/talks/citadel; Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI — https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release · Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler — https://www.youtube.com/watch?v=dZgA6btnb_s; OpenAI · Building the Next Chapter of AI in Finance — https://ai.engineer/nyc/2026/talks/openai; Compound AI · Towards Autonomous Analysts in Finance — https://ai.engineer/nyc/2026/talks/compound; Building Better Agents Through End-to-End Evals — https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448; 1,368 AI Failures: What They Teach Us About System Evals — https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c; From Agent Prototype to Production in Regulated Banking — https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa; Vals AI · Beyond the Model Card: The Jagged Frontier of AI in Finance — https://ai.engineer/nyc/2026/talks/vals; Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up — https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Basis · Process Supervision for Agents That Do Long-Horizon Work — https://ai.engineer/nyc/2026/talks/basis; Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada — https://www.youtube.com/watch?v=c_SPW__jF9w; From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale — https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b; Chen et al. · Evaluating Large Language Models Trained on Code — https://arxiv.org/html/2107.03374v2; What does an AI engineer do? — https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c; Arize · Sofia Jakovcevic · Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI — https://www.youtube.com/watch?v=v5tm5EAzsAs; Omni Analytics · Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics — https://www.youtube.com/watch?v=A3FL_zTQKU0; Google DeepMind / Kaggle / LinqAlpha · Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha — https://www.youtube.com/watch?v=aVbRSIQO2dE; Arize · Aparna Dhinakaran · What does an AI engineer do? — https://ai.engineer/nyc/2026/talks/arize; Stop turning your Humans Into APIs for your Agents — https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c; Coinbase · Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/talks/coinbase; Two Sigma · Balancing Acceleration and Safety for AI Agents — https://ai.engineer/nyc/2026/talks/two-sigma; Bloomberg · Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/talks/bloomberg; The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc; Sonar · The Machine that Changed the World, vAI — https://ai.engineer/nyc/2026/talks/sonar; Capital One · Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/talks/capital-one; No Cash Left Behind: Vanguard's Ledger Modernization Journey — https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e; Vanguard · AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard — https://www.youtube.com/watch?v=uA4ah-dVHvU; Prime Intellect · Self-Improving Organizations — https://ai.engineer/nyc/2026/talks/prime-intellect; Arize · Laurie Voss · AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI — https://www.youtube.com/watch?v=kspZP5BgkEU; Southbridge · Just-in-Time Ontologies — https://ai.engineer/nyc/2026/talks/southbridge; Monzo · A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso & Francesco Galletta, Monzo — https://www.youtube.com/watch?v=adfw3xJBx1o; Does Code Quality Even Matter? — https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9; Chasing capabilities while waiting for the frontier — https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0; Turning AI Into Operating Margin: A Field Report from Private Equity — https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a; AI in Practice: An Inside Look at Apollo's Approach — https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0; Wells Fargo Foundation Model: Application to Fraud Detection at Scale — https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82; Intent Based Auth — https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d; Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings — https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114; Inside the Fable War Room — https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420; Trusting Agents in Policy-Driven Workflows — https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839; Developer Docs as Knowledge Infrastructure for Fintech — https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480; Building the Financial Account for Agents — https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284; Security in the Age of AI: Recent Attacks, Incidents & Defenses — https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564; CTO, Blackstone — https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c; Head of AI & AI Engineer, Coatue — https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a; Arca’s agent runtime for long horizon financial services work — https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab; Shipping like a startup, regulated like a bank — https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a; UBS · Innovation and AI — https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html; Asset-management strategy · Sid Pednekar · Everyone Has AI. Who Has the Advantage? — https://ai.engineer/nyc/2026/talks/sid-pednekar; Failure study · New York Life affiliation · 1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life & Tanmay Sah — https://www.youtube.com/watch?v=mMw3arwQsL0

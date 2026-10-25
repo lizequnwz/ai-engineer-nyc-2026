@@ -12,3 +12,7 @@ Final PowerPoint: [open/download](../../../outputs/ai-engineer-nyc-2026-conferen
 The PPTX itself is editable in PowerPoint. Exporting these SVG sources back to native PowerPoint requires a separately installed compatible `ppt-master` skill and its Python dependencies. This archive does not vendor that skill or promise an independent PPTX build environment. Font assumptions: Arial, Cambria and Consolas. No external image files were required by the recorded exports.
 
 Validation receipts retain their original authoring paths and hashes as historical provenance. Omitted backup/export paths in those receipts refer to excluded duplicate intermediates. See the package manifest for the files present here.
+
+## Recording revision · October 25, 2026
+
+The current37-slide deck incorporates the released-source review. Sources include37curatedbriefs, with source classes and limitations in notes. The final native export has37slides,37notes and9editabletables. The current export postflight and final SVG report passed with zero warnings. Actual PowerPoint rendering was not performed.

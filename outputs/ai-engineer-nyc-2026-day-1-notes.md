@@ -544,3 +544,70 @@ These respond to the questions you raised about Socrates and sales meeting prepa
 Primary source: the attendee’s pasted Day 1 notes, supplied October 13, 2026. The wording has been corrected for spelling and organized for coherence. Ambiguous details remain explicit. No slides, recordings, datasets, product documentation, or independent results were inspected for this synthesis. Session metadata matches the previously saved official program; the schedule has not been newly verified.
 
 The raw notes remain the underlying record. In particular, the reactive/proactive reversal, the undefined expected-loss terms, the unspecified A/B design, the recorded retrieval settings, and the unverified product/skill names have not been silently resolved.
+## Recording follow-up · October 25, 2026
+
+The original attendee observations above are preserved. The following later-source findings clarify them or add related sessions; this is not a claim of additional attendance. The [complete recording supplement](ai-engineer-nyc-2026-recording-supplement.md) contains the wider thematic synthesis and source limits.
+
+### Bridgewater
+
+Vault joins time- and source-aware retrieval with an investor workbench and feedback into the research corpus. The transcript adds a roughly 200-question labeled relevance set and a reported precision@10 improvement from about 60% to 90–95%.
+
+**Practical implication:** Test eligible-source coverage separately from human-facing relevance; include plausible negatives and restrictive filters. Preserve information cutoff and access scope before synthesis.
+
+**Source and scope:** Organizer transcript. Internal retrieval results, without a disclosed held-out design or investment-performance estimate. The speaker corrects 'recall' to precision; the intended product direction is reactive resource to proactive participant.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/bridgewater) · [Recording at the session start](https://www.youtube.com/watch?v=akEqiXFo3GM&t=442s)
+
+### Two Sigma
+
+An agent registry makes ownership, purpose, tools, resources and risk visible. Scoped access and a separate approval path constrain execution; approval triage is a different responsibility from enforcement.
+
+**Practical implication:** Test a requested action at the enforcing boundary, including revocation, cross-user access and duplicate requests. Record which component can actually deny it.
+
+**Source and scope:** Organizer transcript. A described control framework is not a measured protection rate or proof that a triage classifier can waive required approval.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/two-sigma) · [Recording at the session start](https://www.youtube.com/watch?v=akEqiXFo3GM&t=1435s)
+
+### Kepler · attended breakout release
+
+The standalone release describes a citation registry, deterministic calculation, hybrid retrieval, tenant isolation and typed facts with value, unit, scale and period. Chapters separate retrieval, verification and the limits of guarantees.
+
+**Practical implication:** Use the source's exact fact structure to organize review, then test semantic selection and final output independently.
+
+**Source and scope:** Official video description and chapters. Description/chapter evidence only for this edition. Its 20:58 duration and contents differ from the October 14 main-stage follow-up; exact retrieval settings are not adopted as defaults.
+
+[Read / watch source](https://www.youtube.com/watch?v=dZgA6btnb_s)
+
+### Contour Asset Management
+
+The release describes live research comparisons, cost per useful insight, timing agents that revisit older ideas and the hidden cost of fixing tools. Chapter markers locate those topics for review.
+
+**Practical implication:** Predefine useful insight and track decision timing, human effort and repairs, rather than relying on an attractive ROI title.
+
+**Source and scope:** Official video description and chapters. No usable caption text was recovered. Randomization, controls, sample size and causal alpha remain unverified; description supplements the original attendee notes.
+
+[Read / watch source](https://www.youtube.com/watch?v=ZMZlAn6Pyfg)
+
+### Failure study · New York Life affiliation
+
+The description organizes selected public incidents around technical strength, deployment controls and business impact, and motivates failure-driven tests plus evaluation of the evaluators themselves.
+
+**Practical implication:** Use incident mechanisms to build adversarial and regression cases. Separate materiality from frequency, and inspect false passes in the grader.
+
+**Source and scope:** Official video description and chapters. Coverage of a selected incident database is not population incidence or proof of causation. The original expected-loss equation and insurer-wide deployment remain unverified.
+
+[Read / watch source](https://www.youtube.com/watch?v=mMw3arwQsL0)
+
+### Arize · Aparna Dhinakaran
+
+A disposable sandbox receives temporary repository/credential access; issue history, useful skills and run telemetry persist outside it. Replacement runs can resume from durable progress. Human-labeled data calibrates evaluators before use.
+
+**Practical implication:** Separate the lifetime of task state from the lifetime of execution authority. Trace the agents modifying the system as well as those serving users.
+
+**Source and scope:** Organizer transcript. Proposed fixes/PRs and regression evaluation do not establish safe autonomous production release or measured diagnostic accuracy.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/arize) · [Recording at the session start](https://www.youtube.com/watch?v=akEqiXFo3GM&t=3643s)
+
+### Clarifications that remain open
+
+The Comet/NatWest affiliation discrepancy and the banking notes' “roundedness” label remain unresolved. OpenAI's uncertain provider spelling is not guessed. The failure-study expression is not adopted as a calibrated expected-loss formula. Ryan Stevens's written account is separate from Alexander Shevchenko's recorded keynote. Range's online recording is labeled October 13; its attended notes remain in Day 2.

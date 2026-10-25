@@ -1,181 +1,181 @@
 {
   "strategy-01": {
-    "headline": "The valuable unit is a reviewed financial work product",
-    "lead": "Design around the analysis, brief or decision packet a professional can accept. Generation becomes useful when evidence, corrections, constraints and the next decision are included in completion.",
+    "headline": "Design for the reviewed work product, then allocate the right intelligence",
+    "lead": "A useful financial agent prepares work a professional can accept: an evidence brief, planning analysis, reconciliation or decision memo. The acceptance standard determines the architecture more clearly than a preference for chat or autonomy.",
     "insights": [
       {
-        "title": "Define the acceptance decision",
-        "text": "Contour described comparing research workflows with and without AI, including sources, conclusions and subsequent outcomes. Define which insight a reviewer would accept before measuring productivity; a generated idea is not automatically useful, and a useful idea does not establish investment alpha."
+        "title": "Decompose the decision",
+        "text": "Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage."
       },
       {
-        "title": "Include review in completion",
-        "text": "Range described an agent drafting an analysis while a planner serves another client, followed by review and adjustment. Treat corrections, missing facts and professional judgment as workflow steps. Parallel drafting creates a capacity hypothesis; the notes contain no measured net gain."
+        "title": "Observe the real workflow",
+        "text": "Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain."
       },
       {
-        "title": "Make the artifact inspectable",
-        "text": "The OpenAI finance presentation connected source passages, tables, charts and reusable artifacts. A technical acceptance test should follow a material claim through its source and calculation into the final document. Polished formatting cannot establish that the underlying financial interpretation is correct."
+        "title": "Preserve professional attention",
+        "text": "Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes."
       }
     ]
   },
   "strategy-02": {
-    "headline": "Different financial bottlenecks require different success criteria",
-    "lead": "Compare the scarce resource each system addresses: timely evidence, professional attention, permitted execution or accepted engineering output. The same adoption metric cannot describe value across all four contexts.",
+    "headline": "Financial AI strategy depends on the decision, data and operating budget",
+    "lead": "The frontier cases share disciplined task design, but use different technical forms. An investment evidence system, planner workflow and transaction classifier should not be compared with one generic adoption or model-quality score.",
     "insights": [
       {
-        "title": "Information and attention differ",
-        "text": "Bridgewater described a shared repository with different human and agent retrieval needs; Range described parallel preparation with planner review. Evaluate evidence coverage and final brief relevance for the first pattern, and accepted analysis plus total professional effort for the second."
+        "title": "Build around the decision",
+        "text": "Bridgewater improves evidence reaching investment work; Coatue decomposes a decision graph. Their relevant questions concern eligible sources, relevance, timing and professional attention. Preserve the point-in-time information set before judging the resulting conclusion."
       },
       {
-        "title": "Utility depends on boundaries",
-        "text": "Two Sigma described registration, declared resources, active controls and approval triage. The engineering question is which useful tasks remain possible within those boundaries. Test both permitted and denied actions, then inspect missed consequential cases rather than equating registration with effective protection."
+        "title": "Choose the representation",
+        "text": "Wells Fargo describes a transaction-sequence transformer trained from scratch for downstream fraud work. Amounts, categories, channels, time and location determine tokenization; a tight serving budget shapes the design. This is a transaction foundation model, not a proprietary language model."
       },
       {
-        "title": "Platforms must earn support",
-        "text": "Monzo's program describes a shared runtime and Slack distribution; Optiver's describes task certification, routing and an experiment funnel. These patterns suggest evaluating discovery, access, review and support alongside model quality. Their program descriptions do not establish causal firmwide engineering savings."
+        "title": "Keep durable assets",
+        "text": "Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone."
       }
     ]
   },
   "strategy-03": {
-    "headline": "Wealth AI connects preparation, institutional knowledge and professional review",
-    "lead": "The concrete wealth examples augment recognizable advisor work. Compare their mechanisms while preserving dates, review responsibilities and the distinction between reported deployment, useful outputs and demonstrated client outcomes.",
+    "headline": "Wealth agents package expertise and coordinate work while professionals retain authority",
+    "lead": "The released Range, Arca and Perpetual accounts make the wealth pattern concrete: prepare work, preserve context across handoffs, and control the step that communicates or acts. The planner remains responsible for client judgment.",
     "insights": [
       {
-        "title": "Encode the planning method",
-        "text": "Range's planners package what client information exists, how to obtain it and how their firm prepares recommendations. Agents draft cash-flow or insurance analyses; planners review and adjust them. Measure accepted planning capacity after correction effort before claiming improved advice or throughput."
+        "title": "Turn expertise into a method",
+        "text": "Range’s skill records reasons, required questions, exceptions and stopping conditions. An owner maintains it and a separate reviewer checks it. The planner reviews every recommendation before client delivery. Five to ten examples are a starting test routine, not sufficient release assurance."
       },
       {
-        "title": "Connect meetings to follow-through",
-        "text": "Morgan Stanley's June 26, 2024 release describes consent-based Debrief notes, action items, advisor-edited follow-up and CRM capture. Its separate Assistant adoption claim does not demonstrate Debrief productivity. Assess the complete meeting-to-follow-up process, including consent, accuracy, corrections and the advisor's final decision."
+        "title": "Continue across real delays",
+        "text": "Arca’s tax-payment illustration spans replies, approvals, trades and settlement. Long horizon means durable shared plans and event-driven resumption, rather than continuous model thought. Track who owns the next action, what event wakes the task and which approval is still required."
       },
       {
-        "title": "Preserve historical evidence boundaries",
-        "text": "UBS's February 4, 2025 release describes advisor knowledge access through Red. RBC's March 27, 2025 materials describe client-context preparation alongside survey and pilot measures. These historical disclosures illustrate different workflows; neither rollout scope nor pilot conversion establishes universal deployment or causal revenue."
+        "title": "Bind approval to the action",
+        "text": "Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates."
       }
     ]
   },
   "strategy-04": {
-    "headline": "Business value requires evidence beyond adoption and accepted output",
-    "lead": "Track a chain from use to accepted work, process improvement and attributable outcomes. Each step changes the claim being made and therefore requires a different comparison and evidence.",
+    "headline": "Measure the process before making a stronger claim about financial impact",
+    "lead": "Use a chain of evidence from adoption to accepted work, process change and attributable value. The newly released stories add measurement methods; they do not make preparation time, usage and investment performance interchangeable.",
     "insights": [
       {
-        "title": "Separate use from usefulness",
-        "text": "Count who uses a system, for which tasks, and what outputs reviewers accept, correct or reject. Define usefulness before examining downstream outcomes. Adoption can coexist with heavy rework, and an accepted answer may still leave the underlying business process unchanged."
+        "title": "Define useful output first",
+        "text": "Contour’s official release describes live research comparisons and cost per useful insight, including repair effort. Define useful insight, eligible work and the comparison before looking at outcomes. Its description does not disclose enough assignment, sample or control detail to establish causal alpha."
       },
       {
-        "title": "Establish the credible alternative",
-        "text": "Contour's notes describe AI and non-AI workflow tracking over roughly three months. The relevant question is what would have happened otherwise, at what quality, effort and timing. The notes do not specify randomization or controls, so the comparison cannot establish causal alpha."
+        "title": "Keep the decision record",
+        "text": "Preserve what was known when an idea was proposed, its sources, reasoning, reviewer response and subsequent decision. Agents revisiting an old idea may improve timing or attention; a later profitable position still depends on markets, selection, sizing and human action."
       },
       {
-        "title": "Preserve decisions through time",
-        "text": "For investment research, retain the information available when an idea was generated, its reasoning, reviewer response and subsequent decision. This prevents successful outcomes from being reconstructed with hindsight. Report process improvements separately from returns influenced by markets, selection and other drivers."
+        "title": "Inspect the denominator",
+        "text": "Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value."
       }
     ]
   },
   "strategy-05": {
-    "headline": "Count every attempt and human intervention in accepted-task economics",
-    "lead": "A lower inference bill can conceal greater review, retry or maintenance work. Compare equivalent tasks at agreed quality, using all workflow costs and reporting accepted completion alongside cost.",
+    "headline": "Optimize the full cost of accepted work, including context and review",
+    "lead": "Token reduction and faster drafting are intermediate results. Compare equivalent completed tasks at an agreed standard, and count unsuccessful attempts, tool use, review, rework and operation before claiming an economic improvement.",
     "insights": [
       {
-        "title": "Include downstream operating work",
-        "text": "Record inference, data, tools, retries, selection, human review, rework and support costs. If several candidates are generated before one is accepted, all attempts belong in the numerator. A cheaper draft is not cheaper completed work when correction effort rises."
+        "title": "Count the work people retain",
+        "text": "A reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandoned runs and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit cost so narrower coverage cannot masquerade as improvement."
       },
       {
-        "title": "Qualify before optimizing cost",
-        "text": "Optiver's program describes routing to models certified for particular tasks. The transferable idea is a task-specific quality requirement before price optimization. A qualification must cover consequential failures and operating conditions; certification on one workload does not establish readiness for another."
+        "title": "Prepare context deliberately",
+        "text": "Credit Karma describes selection/pruning, reranking, deduplication and compression. An Artifactory demo reports 24,000 to 2,400 tokens. Use that as an experiment to reproduce: measure required-fact coverage, answer quality and review effort before adopting the reduction."
       },
       {
-        "title": "Keep the denominator honest",
-        "text": "Define eligible tasks, accepted completion and exclusions before comparing workflows. Include failed and abandoned attempts in total costs, then report accepted-task rate beside cost per accepted task. Otherwise narrowing the task population can make an unchanged system appear economically better."
+        "title": "Optimize the actual bottleneck",
+        "text": "Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse."
       }
     ]
   },
   "growth-01": {
-    "headline": "An AI engineer owns the loop from user need to verified improvement",
-    "lead": "Professional growth comes from connecting task definition, instrumentation, evaluation, diagnosis and release. A working feature becomes a dependable capability through repeated, reviewable decisions about what to change and why.",
+    "headline": "Own a durable improvement loop while keeping execution authority temporary",
+    "lead": "Arize’s released Signal account adds a concrete lifecycle: temporary sandboxes work with trace context and bounded access, while issue history and useful progress live outside the execution environment.",
     "insights": [
       {
-        "title": "Instrument the complete task",
-        "text": "Arize described using traces to identify issues and improvement opportunities. Capture the request, source context, intermediate actions, result, evaluation and relevant versions together. A useful trace lets an engineer reconstruct why a workflow failed, rather than merely observing that it did."
+        "title": "Instrument enough to reconstruct",
+        "text": "Retain the request, inputs, permissions, tools, result, evaluator and relevant versions. Distinguish a run summary from the ordered trajectory. Trace agents modifying the system as well as deployed agents, so a proposed repair has evidence rather than only a confident explanation."
       },
       {
-        "title": "Build a portfolio of decisions",
-        "text": "Maintain a small portfolio of reproducible failures, baseline comparisons, repairs and release decisions. For each entry, explain the domain problem, system behavior, evidence and tradeoff. This makes growth observable through stronger engineering judgment, rather than through a longer list of tools."
+        "title": "Separate progress from access",
+        "text": "Issue history, useful skills and telemetry can survive a sandbox failure; temporary credentials and repository access should not survive by default. A replacement run resumes from durable state under newly checked authority. Persistence of knowledge does not imply persistence of permission."
       },
       {
-        "title": "Close the release loop",
-        "text": "Keep issue discovery, proposed fixes, validation and permission to release as separate responsibilities. Preserve the test evidence and decision, then observe the changed workflow for regressions. The conference mechanisms motivate this operating habit; they do not establish autonomous remediation or validated diagnostic accuracy."
+        "title": "Prove the change",
+        "text": "Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations."
       }
     ]
   },
   "growth-02": {
-    "headline": "Technical fluency must connect domain meaning, system behavior and measurement",
-    "lead": "Develop the responsibilities together on a real workflow. Domain expertise defines acceptable work; data and software make it reproducible; evaluation and communication determine which claims the evidence can support.",
+    "headline": "Develop product judgment, semantic fluency and experimental discipline together",
+    "lead": "As code becomes easier to produce, the scarce skill shifts toward understanding the job and defining acceptable work. Domain knowledge, system observability and evaluation must connect in the same engineering practice.",
     "insights": [
       {
-        "title": "Translate judgment into inputs",
-        "text": "Use Range's procedural example to ask a domain expert which facts matter, why a step is necessary and when clarification is required. Connect that reasoning to entities, periods, units and source definitions so an agent can access the right information."
+        "title": "Discover the real constraint",
+        "text": "Laurie Voss’s product-engineer argument follows the bottleneck from code creation to review, operations and security. Observe what users actually do, which handoffs cost time and what they trust. A polished feature can still miss the task or move effort onto another team."
       },
       {
-        "title": "Connect controls to tests",
-        "text": "Draw who requests work, which resources are available, what may execute and how exceptions are handled. Then design cases that challenge those boundaries and the evaluator itself. System design and experimental design should meet at observable behavior, including serious false passes."
+        "title": "Preserve business meaning",
+        "text": "Southbridge’s examples show row counts surviving while dates, signs or categories become wrong. Learn the entity, grain, period, units and source conventions well enough to challenge a plausible answer. Multiple model agreements can preserve the same incorrect assumption."
       },
       {
-        "title": "Communicate a defensible decision",
-        "text": "Explain the task, mechanism, comparison, result and remaining uncertainty in one evidence card. Distinguish a reported deployment from tested effectiveness and a useful output from attributable business value. This practice helps data scientists, engineers and technical leads review the same decision."
+        "title": "Make expertise reproducible",
+        "text": "Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement."
       }
     ]
   },
   "growth-03": {
-    "headline": "Software lifespan changes maintenance needs; failure consequences still determine required checks",
-    "lead": "Capital One's durability discussion separates short-lived tools from long-lived dependencies. Use lifespan and consequence as independent design questions, then revisit both when an experiment gains users or responsibilities.",
+    "headline": "Choose rigor by consequences and dependencies, and reduce its cost",
+    "lead": "Capital One’s disposability argument considers failure consequences, replacement cost, dependencies and maintenance burden. A short expected lifespan does not make a consequential failure harmless.",
     "insights": [
       {
-        "title": "Allocate maintenance deliberately",
-        "text": "Capital One contrasted durable software with tools replaceable in hours and used by relatively few people. That framing can guide documentation, interfaces and maintenance investment. The notes do not demonstrate zero replacement cost or a deployed disposable-software model at the firm."
+        "title": "Reassess as the tool grows",
+        "text": "A one-use helper can become a shared process with downstream dependents. Revisit who relies on it, which failures matter and how recovery works. Isolation and limited scope can reduce exposure, but a label such as prototype or temporary is not an enforcing control."
       },
       {
-        "title": "Protect immediate business consequences",
-        "text": "A short-lived tool can still expose sensitive information, calculate a wrong financial figure or trigger an inappropriate action. Keep the relevant access, numerical and execution checks even when implementation is simple. Cheap regeneration does not reduce the consequence of an incorrect result."
+        "title": "Invest in the cheap safe path",
+        "text": "Provide standard choices, test fixtures/fakes and quick low-noise feedback. Make it easier to create a complete working slice with checks than to postpone them. Shared verification infrastructure compounds across tasks and allows practitioners to focus on the remaining judgment."
       },
       {
-        "title": "Reassess growing dependencies early",
-        "text": "When other people or workflows begin relying on an experiment, reassess ownership, support, recovery and regression coverage. Set a retirement condition for genuinely temporary tools. Continued use should trigger an explicit maintenance decision rather than quietly converting an experiment into infrastructure."
+        "title": "Apply the same standard to artifacts",
+        "text": "For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision."
       }
     ]
   },
   "growth-04": {
-    "headline": "One bounded experiment can develop the full engineering discipline",
-    "lead": "Choose a work product a reviewer understands and build the smallest complete path. Learn by comparing behavior, inspecting failures and explaining a decision to continue, revise or retire.",
+    "headline": "Practice the full discipline through one reproducible, bounded experiment",
+    "lead": "A useful learning project produces an accepted work product and evidence about one improvement. Use a realistic task, one consequential failure mode and a controlled change, then explain why the repair earned its place.",
     "insights": [
       {
-        "title": "Frame a measurable task",
-        "text": "Select a research brief, analytical query result or preparation draft with clear users and acceptance criteria. Use approved or synthetic inputs and record current quality, time and effort. A useful learning exercise starts with the baseline, not the preferred model."
+        "title": "Build a reviewable baseline",
+        "text": "Interview a practitioner and choose a historical task with known accepted work. Preserve its input snapshot and permitted tools. Write exact checks, a short expert rubric and one critical behavior expectation before measuring the candidate."
       },
       {
-        "title": "Change one variable deliberately",
-        "text": "Follow Ramp's experimental direction by varying a skill bundle, memory rule or model while holding assessment cases and input snapshots fixed. Include ordinary, ambiguous and consequential-failure cases. Measure accepted quality, review effort, latency and cost together; keep tuning separate from assessment."
+        "title": "Vary one hypothesis",
+        "text": "Try a skill ablation, a narrower context or a repaired tool incentive. Add an answer-first missing-evidence case and a next-period memory case. Repeat when stochastic variation matters, keep held-out assessment and inspect regressions as well as the average."
       },
       {
-        "title": "Finish with an evidence card",
-        "text": "Document the comparison, observed failures, uncertainty and next decision. A valid outcome may be a simpler deterministic workflow, inadequate data or an experiment worth stopping. Share one reproducible case with a peer and explain what evidence would change your conclusion."
+        "title": "Publish the learning packet",
+        "text": "Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment."
       }
     ]
   },
   "conclusion-01": {
-    "headline": "Turn the conference into three decisions and one bounded comparison",
-    "lead": "The useful return is a decision peers can assess: which work matters, which boundaries must hold and which evidence would justify change. Attach those decisions to one testable hypothesis.",
+    "headline": "Bring back a method for acceptance, evidence and controlled improvement",
+    "lead": "The released cases converge on a practical operating discipline: prepare valuable work, make its evidence inspectable, and give changes and actions explicit decision boundaries. Models improve; these responsibilities remain.",
     "insights": [
       {
-        "title": "Choose the accepted work",
-        "text": "Name the person whose work should improve and the output they can inspect, correct and accept. Use the financial examples to sharpen that choice: a research insight, reviewed planning analysis or evidence-backed artifact. State the bottleneck before choosing tools or architecture."
+        "title": "Agree what completed work means",
+        "text": "Name the practitioner, accepted work product and critical limits. Compare quality, coverage and total human effort against a credible baseline. Preparation time, tool volume and rollout scope answer useful but different questions from financial impact."
       },
       {
-        "title": "Define evidence and authority",
-        "text": "Specify the permitted sources, information cutoff, calculations, actions and human judgments. Identify what must remain blocked and what happens when evidence is missing. Bridgewater, Kepler and Two Sigma offer mechanisms to examine; the appropriate boundary depends on the particular workflow."
+        "title": "Preserve the evidence chain",
+        "text": "Carry entity, meaning, period, source version, access and calculation through the final artifact. Give memory a correction and aging policy. Keep professional review and permission to act as separate events, with durable workflow state between them."
       },
       {
-        "title": "Agree the comparison first",
-        "text": "Compare the candidate with the existing process on equivalent work, agreed acceptance criteria and critical conditions. Include all attempts and human effort. Decide beforehand which evidence would support continuing, repairing or retiring the approach; conference claims alone do not establish internal readiness."
+        "title": "Make the next change a test",
+        "text": "Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover."
       }
     ]
   },

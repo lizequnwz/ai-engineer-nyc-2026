@@ -1,50 +1,37 @@
-# Editing, rebuilding and verification
+# Editing and rebuilding the archive
 
-## Final files first
+The final HTML, Markdown and PPTX files are ready to consume. Current conference deliverables include the October 25 recording revision. Application companions and the pre-conference field guide retain their original scope. Rebuilding overwrites generated outputs; commit edits first.
 
-The final HTML, Markdown and PPTX files are ready to consume. The original final deliverables are preserved unchanged under `outputs/`. Rebuilding can overwrite those files, so work in a separate checkout or commit your edits first.
+## HTML and Markdown
 
-## HTML and daily-note sources
-
-The builders use Python’s standard library. From the repository root, using Python 3.10 or later:
+From the repository root with Python 3.10 or later (standard library only):
 
 ```sh
 python3 work/build_report.py
-python3 work/build_industry_report.py
+python3 work/recording_content.py
 python3 work/day1_report_content.py
 python3 work/day2_report_content.py
+python3 work/build_industry_report.py
 python3 work/presentation/build_deck.py
 python3 work/applications/build_brief.py
 ```
 
-`work/build_report.py` creates the historical field guide. The industry builder consumes the integrated daily-note modules and source JSON. The presentation builder consumes the research/notes and its enrichment JSON. The application builder contains the dated review findings in its source; it does not open or re-inspect the separate personal repository.
+The presentation builder writes the HTML and its generated `work/presentation/deck-data.json`. Edit the owning story/grounding/eval JSONs and four enrichment JSONs, plus the body renderers when a diagram changes. `work/recording_evidence.json` holds the 37 later-source briefs; `work/recording_content.py` renders the recording supplement, daily follow-ups and report digest.
 
-Data JSON, research Markdown and schedule HTML are snapshots. These commands do not fetch a current conference schedule or refresh public company claims. Do not rerun `build_institution_cases.py` or `build_grounding_workflows.py` merely to build the final reports: they are earlier content-authoring helpers, retained for editing context.
+These commands do not fetch a current schedule, video or company disclosure. Preserve source dates and classes when authoring. Earlier content-authoring helpers such as `build_grounding_workflows.py` are not required rebuild steps; rerunning them can replace editorial content.
 
 ## PowerPoint
 
-Use either final `.pptx` file directly in PowerPoint for editing. Native text, diagrams, tables and notes are retained. Editable SVG sources, slide content, per-slide notes, design specifications and final validation receipts are in the two `work/ppt-master/` projects.
+Final decks contain editable native text, diagrams, tables and speaker notes. The two authoring projects under `work/ppt-master/` include canonical `svg_output/`, preview `svg_final/`, notes, normalized content and design specifications. The conference deck has 37 slides, 37 note pages and nine native tables. The application deck has 28 slides and 28 note pages.
 
-Native re-export from those projects depends on the separately installed `ppt-master` skill used for authoring. Its implementation and runtime are not included. The archive supplies editable sources, not a fully vendored PPTX exporter. Finalized SVGs are previews, not a replacement for the native PowerPoint files.
+HTML rebuilding does not regenerate PowerPoint automatically. Revise the canonical SVG and its plan/notes together, then use the external `ppt-master` skill/runtime to validate, split notes, finalize and export. The skill and installed dependencies are not bundled. The October 25 conference export receipt is `validation/ai-engineer-conference-takeaways_20261025_065805_native_charts_tables.report.json` inside its project.
 
-## Packaging checks
+## Validation
 
-All six Python builders above were run in a disposable copy of this archive. The four HTML reports and two daily Markdown note files they regenerated matched the packaged final files byte-for-byte. All ten final artifacts match their original local files. Both PPTX archives passed ZIP integrity checks and their slide/note/table counts were verified. See `PACKAGING-VALIDATION.json`.
+`PACKAGING-VALIDATION.json` records actual package checks. `work/presentation/recording-refresh-validation.json` records the current content/source/structure audit. The conference SVG gate passed all 37 pages with zero errors and warnings; the PPTX postflight passed. HTML DOM/navigation checks passed, including source dialogs, keyboard controls, print-state restoration, self-contained assets and contrast. These are not browser-layout or PowerPoint-render inspections; the prior local-browser restriction prevented those checks.
 
-## Recorded checks
+Seven source builders were run in a disposable copy. Their regenerated outputs were compared byte-for-byte with the package. Source links remain external and require internet. Historical audits retain their dates and can describe issues later resolved; they are not current validation receipts. JavaScript QA dependencies are pinned in `work/qa/package-lock.json`, but installed packages are omitted.
 
-The existing PPTX export receipts report passed structural postflight checks: 37 slides/37 note pages for the conference deck and 28 slides/28 note pages for the application deck. Final SVG quality reports are included. These historical receipts preserve original authoring paths; the package contains stable output filenames rather than timestamped duplicate exports.
+## Package integrity
 
-Historical HTML/content audits and QA results are retained as working evidence. They can include issues later resolved, blocked browser checks and source-specific assumptions. Read their status and date; their presence does not mean every browser interaction passed. QA scripts are development aids and can need path adjustments for a new environment. Optional JavaScript dependencies are pinned in `work/qa/package-lock.json`; installed dependencies are omitted. The lockfile’s jsdom dependency requires a compatible modern Node version.
-
-No new browser-rendered or PowerPoint-rendered visual inspection was performed during packaging. The packaging validation report records integrity, archive structure, local artifact links and source-build checks actually performed.
-
-## Integrity
-
-On macOS, from the repository root:
-
-```sh
-shasum -a 256 -c SHA256SUMS.txt
-```
-
-`MANIFEST.json` hashes the archive content except itself and `SHA256SUMS.txt`. `SHA256SUMS.txt` also covers the manifest, excluding only itself. After intentional edits, those original checksums will no longer match.
+`MANIFEST.json` hashes every file except itself and `SHA256SUMS.txt`. The checksum list also covers the manifest and excludes only itself. Regenerate both after intentional changes. The package omits Git metadata, installed dependencies, caches, duplicate exports, SVG backups, raw third-party transcripts/watch pages and browser annotations. Re-export browser-added notes separately if needed.

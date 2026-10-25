@@ -406,3 +406,90 @@ The raw notes’ uncertain terms—“crunchable” and “roundedness”—rema
 No slide deck, recording, benchmark dataset, product specification, deployment, or financial outcome was independently verified.
 
 Official schedule: [AI Engineer NYC 2026](https://ai.engineer/nyc/2026/schedule).
+## Recording follow-up · October 25, 2026
+
+The original attendee observations above are preserved. The following later-source findings clarify them or add related sessions; this is not a claim of additional attendance. The [complete recording supplement](ai-engineer-nyc-2026-recording-supplement.md) contains the wider thematic synthesis and source limits.
+
+### Range
+
+Planners encode repeated work through Pick → Teach → Pack → Test → Ship. Skills retain reasons, clarification questions and stopping conditions. Each has an owner and a separate reviewer; agents send nothing to clients and professionals review recommendations.
+
+**Practical implication:** Start with a recognizable work product and previous cases. Test incomplete and conflicting inputs, then maintain the method as rules change.
+
+**Source and scope:** Organizer transcript. Five to ten cases is the speaker's practical starting suggestion, not statistical release assurance. Online recording is labeled October 13; attended notes place the session on October 14.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/range) · [Recording at the session start](https://www.youtube.com/watch?v=akEqiXFo3GM&t=10811s)
+
+### Ramp · Ryan Stevens written follow-up
+
+Each case combines task, synthetic business world, trajectory and accountant-authored rubric. The account reports eight-to-four skill ablation (+2.8 mean-score points across six worlds), 61% spreadsheet-skill compression with essentially unchanged quality, and trajectory-distilled memory (+5.7 points over skills alone).
+
+**Practical implication:** Advance the same business one period, remove prior-period amounts from memory and evaluate next-period work. Compare per-world regressions as well as the average.
+
+**Source and scope:** Speaker-bylined article · October 14. Written primary account, not a located breakout recording or independently reproduced benchmark. Point gains are not relative percentages or a forecast for another team.
+
+[Read / watch source](https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh)
+
+### Sonar
+
+The transcript emphasizes intent, preventive constraints, independent verification and repeatable release evidence. The creation/release/operation three-loop teaching structure also draws on the prior agenda and our synthesis.
+
+**Practical implication:** Provide low-noise checks at generation time, broader release tests and reproduction of escaped failures. Maintain an accountable promotion/rollback decision.
+
+**Source and scope:** Organizer transcript + agenda-informed synthesis. The confidence product is conceptual. The 50k-line code-translation example is not a universal limit; survey sentiment and vendor results are not independently verified defect reductions.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/sonar) · [Recording at the session start](https://www.youtube.com/watch?v=jiUC6IUMdvc&t=2100s)
+
+### OpenAI
+
+The finance product discussion links data access, inspectable source passages/tables, charts and reusable work artifacts. A useful answer must fit the professional's existing output and review process.
+
+**Practical implication:** Test the exported document as well as the chat response: values, periods, units, provenance and corrections must survive into the artifact.
+
+**Source and scope:** Organizer transcript. Product description and forward-looking agent capabilities do not establish universal availability, entitlements or measured financial accuracy. Uncertain provider spelling in the attendee notes is not guessed.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/openai) · [Recording at the session start](https://www.youtube.com/watch?v=jiUC6IUMdvc&t=4203s)
+
+### Basis
+
+A reconciliation can reach zero variance through an unsupported adjustment and still be wrong. Behavior specs first ask whether a situation occurred, then whether the agent acted appropriately. Forks isolate a decision; cheaper simulations test repair hypotheses.
+
+**Practical implication:** Record applicable / not applicable separately from pass / fail. Allow an explained discrepancy rather than rewarding a fabricated balancing entry. Reproduce promising simulated repairs in the real environment.
+
+**Source and scope:** Organizer transcript. Agent explanations are clues, not proven causes. The fork is an illustrated repair, not a measured general success rate; outcome evaluations remain necessary.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/basis) · [Recording at the session start](https://www.youtube.com/watch?v=jiUC6IUMdvc&t=29362s)
+
+### Coinbase
+
+A forward-moving policy workflow can contain bounded draft/check/refine loops. A policy-checkable result authorizes leaving a node; human review and escalation remain explicit.
+
+**Practical implication:** Define entry, acceptance, iteration budget and takeover conditions for each stage. Reduce supervision only when representative evidence supports the change.
+
+**Source and scope:** Organizer transcript. Framework and examples, not evidence that every illustrated process runs autonomously at Coinbase. Thresholds shown are not portable safety constants.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/coinbase) · [Recording at the session start](https://www.youtube.com/watch?v=jiUC6IUMdvc&t=3124s)
+
+### Perpetual
+
+Language interpretation produces typed intent. A compiler validates a closed action vocabulary and can request clarification or refuse. Approved plans are immutable; approval binds the exact outgoing payload. An unknown side-effect outcome goes to manual review rather than blind retry.
+
+**Practical implication:** Distinguish failed, succeeded and outcome-unknown actions. Test changed payloads after approval and interruptions around external writes.
+
+**Source and scope:** Organizer transcript. Typed validity does not establish semantic correctness. Local-model routing examples are not measured fleetwide parity; the training feedback loop is described as future work.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/perpetual) · [Recording at the session start](https://www.youtube.com/watch?v=akEqiXFo3GM&t=15828s)
+
+### Citadel Securities
+
+Institutional memory updates and ages beliefs, observes contradictions, grades past predictions and accepts corrections. Reported status and evidence-based status remain separate; historical snapshots are preserved. Models propose updates, while code and people commit them.
+
+**Practical implication:** Store evidence time, origin, source health and correction history. Missing telemetry is unknown, not zero. Backtest as-of snapshots against later observations without rewriting history.
+
+**Source and scope:** Organizer transcript. The reported associations are observational. Client-franchise expansion is a direction, not an established completed capability.
+
+[Read / watch source](https://ai.engineer/nyc/2026/talks/citadel) · [Recording at the session start](https://www.youtube.com/watch?v=jiUC6IUMdvc&t=23913s)
+
+### Clarifications that remain open
+
+The Comet/NatWest affiliation discrepancy and the banking notes' “roundedness” label remain unresolved. OpenAI's uncertain provider spelling is not guessed. The failure-study expression is not adopted as a calibrated expected-loss formula. Ryan Stevens's written account is separate from Alexander Shevchenko's recorded keynote. Range's online recording is labeled October 13; its attended notes remain in Day 2.

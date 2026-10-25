@@ -1,6 +1,7 @@
 """Day 2 notes and the combined conference synthesis."""
 from pathlib import Path
 import json,html
+from recording_content import daily_update
 from urllib.parse import urlparse,parse_qs
 from day1_report_content import NOTES as DAY1
 W=Path(__file__).resolve().parent
@@ -32,7 +33,7 @@ def markdown():
  out+=['## Three messages for the team report']
  for i,r in enumerate(SYNTH['reportBackMessages'],1):out += [f'### {i}. {r["headline"]}',r['message'],'**Evidence boundary:** '+r['evidenceBoundary']]
  out+=['## Priority follow-ups',*['- '+x for x in NOTES['followups']],'## Editorial and source notes','Primary content source: your pasted Day2 notes, supplied October14, 2026, and your subsequent clarification that the financial-planning company was Range. Session metadata was matched to the official conference schedule refreshed October14. Speaker claims, official program facts, our interpretations, and proposed tests are kept distinct.','The raw notes’ uncertain terms—“crunchable” and “roundedness”—remain unresolved. The 50k-line code example, eight-to-four skill bundle, and 100K/day conversation volume are preserved as contextual claims, not universal thresholds or verified outcomes. Prefilled questions about approval evidence, release/rollback, and judge validation remain unanswered.','No slide deck, recording, benchmark dataset, product specification, deployment, or financial outcome was independently verified.','Official schedule: [AI Engineer NYC 2026](https://ai.engineer/nyc/2026/schedule).']
- return '\n\n'.join(out)+'\n'
+ return '\n\n'.join(out)+'\n'+daily_update(2)
 
 def render_combined(refs):
  cards=''

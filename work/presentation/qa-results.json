@@ -1,7 +1,7 @@
 {
   "checks": [
     "37 pages render:29 core slides,8 appendices,exactly40 timed minutes; discussion untimed",
-    "All12attendee-note sources appear in core,with reading/speaker notes and39 distinct registered references",
+    "All12attendee-note sources appear in core,with reading/speaker notes and76 distinct registered references",
     "Source links,router targets,unique IDs,heading entry,and accessible button names are valid",
     "Previous/next and keyboard navigation work without hijacking modifier or focused-button shortcuts",
     "Native outline opens/closes,ignores slide keys while open,and focuses the chosen slide",
@@ -21,7 +21,7 @@
   "coreSlides": 29,
   "appendixPages": 8,
   "minutes": 40,
-  "sources": 39,
+  "sources": 76,
   "contrastPairs": [
     {
       "foreground": "#132f3b",
@@ -87,7 +87,7 @@
   "coreWordCounts": [
     {
       "id": "opening-cover",
-      "words": 59
+      "words": 58
     },
     {
       "id": "opening-map",
@@ -95,35 +95,35 @@
     },
     {
       "id": "strategy-01",
-      "words": 205
+      "words": 225
     },
     {
       "id": "strategy-02",
-      "words": 218
+      "words": 208
     },
     {
       "id": "strategy-03",
-      "words": 217
+      "words": 236
     },
     {
       "id": "strategy-04",
-      "words": 195
+      "words": 204
     },
     {
       "id": "strategy-05",
-      "words": 206
+      "words": 221
     },
     {
       "id": "grounding-01",
-      "words": 197
+      "words": 209
     },
     {
       "id": "grounding-02",
-      "words": 196
+      "words": 194
     },
     {
       "id": "grounding-03",
-      "words": 183
+      "words": 215
     },
     {
       "id": "grounding-04",
@@ -131,11 +131,11 @@
     },
     {
       "id": "grounding-05",
-      "words": 196
+      "words": 207
     },
     {
       "id": "evals-01",
-      "words": 184
+      "words": 199
     },
     {
       "id": "evals-02",
@@ -147,55 +147,55 @@
     },
     {
       "id": "evals-04",
-      "words": 213
-    },
-    {
-      "id": "evals-05",
-      "words": 218
-    },
-    {
-      "id": "evals-06",
-      "words": 207
-    },
-    {
-      "id": "workflows-01",
-      "words": 199
-    },
-    {
-      "id": "workflows-02",
-      "words": 208
-    },
-    {
-      "id": "workflows-03",
-      "words": 187
-    },
-    {
-      "id": "workflows-04",
-      "words": 213
-    },
-    {
-      "id": "workflows-05",
-      "words": 199
-    },
-    {
-      "id": "growth-01",
-      "words": 201
-    },
-    {
-      "id": "growth-02",
-      "words": 232
-    },
-    {
-      "id": "growth-03",
       "words": 225
     },
     {
+      "id": "evals-05",
+      "words": 229
+    },
+    {
+      "id": "evals-06",
+      "words": 224
+    },
+    {
+      "id": "workflows-01",
+      "words": 204
+    },
+    {
+      "id": "workflows-02",
+      "words": 201
+    },
+    {
+      "id": "workflows-03",
+      "words": 192
+    },
+    {
+      "id": "workflows-04",
+      "words": 220
+    },
+    {
+      "id": "workflows-05",
+      "words": 217
+    },
+    {
+      "id": "growth-01",
+      "words": 194
+    },
+    {
+      "id": "growth-02",
+      "words": 222
+    },
+    {
+      "id": "growth-03",
+      "words": 226
+    },
+    {
       "id": "growth-04",
-      "words": 233
+      "words": 238
     },
     {
       "id": "conclusion-01",
-      "words": 222
+      "words": 204
     },
     {
       "id": "conclusion-02",

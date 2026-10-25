@@ -2,164 +2,164 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed",
   "output": {
-    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/exports/ai-engineer-conference-takeaways_20261017_110124_native_charts_tables.pptx",
-    "bytes": 184887
+    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/exports/ai-engineer-conference-takeaways_20261025_065805_native_charts_tables.pptx",
+    "bytes": 192049
   },
   "source": {
     "svg_slide_count": 37,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "3c75c53f8d6f633d3a518a9e677dceed9ff4010032ccb77fbe25fd61839426b8",
+      "digest": "bd72e8c9449836faacda4a59d0683abea089cb25c903ef311a70ffda5d81d485",
       "file_count": 37,
       "files": [
         {
           "file": "01_dependable_work.svg",
-          "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+          "sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
         },
         {
           "file": "02_five_disciplines.svg",
-          "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+          "sha256": "33cf9e13c47967782d6efa30d872a8e7d16446a7861764d1fb6de4f7a176e60e"
         },
         {
           "file": "03_reviewed_work_product.svg",
-          "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+          "sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
         },
         {
           "file": "04_financial_bottlenecks.svg",
-          "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+          "sha256": "d3e912c6e5e4e0d87ac7c0fbb1aa5585f35c5ed49772c5dbc6b690f2d0f070d7"
         },
         {
           "file": "05_wealth_workflows.svg",
-          "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+          "sha256": "38585047223476318291de204cda62a8f1a9daf536f0a3e2a2a2fc78a2ae5715"
         },
         {
           "file": "06_value_ladder.svg",
-          "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+          "sha256": "70bdff06bd74c62e4b5644308abf461b6719b3b6d1b70d9ada3ac2c94bb43260"
         },
         {
           "file": "07_accepted_work_economics.svg",
-          "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+          "sha256": "e4d008cdf57c69b4b55ae544710d8f3c3609e392e5f9f19b9120f8c4d124ccf2"
         },
         {
           "file": "08_evidence_boundary.svg",
-          "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+          "sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
         },
         {
           "file": "09_retrieval_objectives.svg",
-          "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+          "sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
         },
         {
           "file": "10_typed_facts.svg",
-          "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+          "sha256": "69b469b505aece0e2bce1ff805a69b47d3f24795f394c39e304ffe21a2b5d2fe"
         },
         {
           "file": "11_stale_source_example.svg",
-          "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+          "sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
         },
         {
           "file": "12_inspectable_artifact.svg",
-          "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+          "sha256": "3b774e555af7e98585669ef2bb75470854aa8e37b29d135aded8902a49b6200c"
         },
         {
           "file": "13_evaluation_contract.svg",
-          "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+          "sha256": "28cd308e3e27f7790c97642831c34d663135d36cc2429b496a27eed52c74583b"
         },
         {
           "file": "14_diagnostic_cash_flow_rubric.svg",
-          "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+          "sha256": "6c6c480039fc904b300db3255d11a13c43ddd45ee6dd073f579d6d79bb281b2f"
         },
         {
           "file": "15_judges_and_selection.svg",
-          "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+          "sha256": "cc7fa82ad5194b91e58a851db3b8ca02eccb950ad39e6ad7c40e99b8f3140a78"
         },
         {
           "file": "16_paired_ablations.svg",
-          "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+          "sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
         },
         {
           "file": "17_release_decision.svg",
-          "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+          "sha256": "20526f171605e6860baeb622d9dc4fb0890a22de156c0b7aa04958148425c8f1"
         },
         {
           "file": "18_controlled_improvement.svg",
-          "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+          "sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
         },
         {
           "file": "19_expert_skills.svg",
-          "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+          "sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
         },
         {
           "file": "20_draft_review_authority.svg",
-          "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+          "sha256": "3ab3213ed67c87cd4da5facddbd2f00c577ddab50be2ba2f48b53589fa4a2a8a"
         },
         {
           "file": "21_enforced_authority.svg",
-          "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+          "sha256": "b472ed95ebebbd23150adf374604e127d1b9bf675ac2fdcffcc566e5dcb3f467"
         },
         {
           "file": "22_three_verification_loops.svg",
-          "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+          "sha256": "2a99d9af8728bf67ce6b292f4e304f5d001dfe16b33f968c44081b5874afeb6f"
         },
         {
           "file": "23_financial_invariants.svg",
-          "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+          "sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
         },
         {
           "file": "24_engineer_operating_loop.svg",
-          "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+          "sha256": "69e53f2d2322fe4c4e0c6df6651134fae0cddf0fa54739d3e8477ce62299793c"
         },
         {
           "file": "25_connected_fluency.svg",
-          "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+          "sha256": "e950fe0c5c2cb3a1086180770b5ab662f17173b148153fd321e3a49ac2c90af2"
         },
         {
           "file": "26_lifespan_and_consequence.svg",
-          "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+          "sha256": "8a72ceb063a6ac1b38ca2a20d1b38a1621ad64841cd8b059fb539d3e7be66867"
         },
         {
           "file": "27_bounded_learning_experiment.svg",
-          "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+          "sha256": "562914d7f0b515e8fe98cbd152d77df52ed86f7999916ae68dfb45d9a7c2344b"
         },
         {
           "file": "28_three_decisions.svg",
-          "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+          "sha256": "82d335614738edeace74fbd0bf8d33358eeff3bac173ab42aa5bfcd751b99d32"
         },
         {
           "file": "29_discussion.svg",
-          "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+          "sha256": "ca71b9676cdd9ee80b1bea2f2b542bda80324462d3afc4d44473e3bf839819c4"
         },
         {
           "file": "30_implementation_checklist.svg",
-          "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+          "sha256": "2ed49f1db805ea26d17f9ca1cf47b5848ab0094db1bf677e280d8581af0d3538"
         },
         {
           "file": "31_company_mechanism_map.svg",
-          "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+          "sha256": "2d6a408dc6e3a40c6cf1483ab9e910d5fdcdfb1b113832fa63be5a049689bb8e"
         },
         {
           "file": "32_versioned_eval_spec.svg",
-          "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+          "sha256": "ae60b5e2bdd3354fda8f22dbf83058e4bc448edab6d1285f8471a6aa48ab961e"
         },
         {
           "file": "33_typed_claim_contract.svg",
-          "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+          "sha256": "dc148c75ef23b8a2f7d1c750f9256ec2b61dedff8a45931e764af6bed4e88ca2"
         },
         {
           "file": "34_passk_and_deployment.svg",
-          "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+          "sha256": "101d17ce46a73226f5f6d029ed3caa24d4293d6143bd7c0bf8b669bc0a576f24"
         },
         {
           "file": "35_measurement_contract.svg",
-          "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+          "sha256": "520ffd4915484e7354692b6b50eab27aa484f887732bd3e73c8599c06ccec4cc"
         },
         {
           "file": "36_questions_for_followup.svg",
-          "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+          "sha256": "84ece25a7d217ceeabf1565f6b682597d06f6098395d215677cc31ec4b611c7c"
         },
         {
           "file": "37_sources.svg",
-          "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+          "sha256": "c82ddb506523b76024a790f24ffbb38035e41707467b411c03e50f4875246933"
         }
       ]
     },
@@ -197,156 +197,156 @@
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "3c75c53f8d6f633d3a518a9e677dceed9ff4010032ccb77fbe25fd61839426b8",
+      "digest": "bd72e8c9449836faacda4a59d0683abea089cb25c903ef311a70ffda5d81d485",
       "file_count": 37,
       "files": [
         {
           "file": "01_dependable_work.svg",
-          "sha256": "59bb8ebce6c6dedb4a9e4b357ec0772297973afd9f519b54c24241bb75cc545d"
+          "sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
         },
         {
           "file": "02_five_disciplines.svg",
-          "sha256": "7eb3bfa25a29a8a47a40408ba6d4b139566f277a7f3ad5c385b074bfe767f3bb"
+          "sha256": "33cf9e13c47967782d6efa30d872a8e7d16446a7861764d1fb6de4f7a176e60e"
         },
         {
           "file": "03_reviewed_work_product.svg",
-          "sha256": "0f084a647819dbdef1634f7938275ffc701397645e92d0a718783331616c0732"
+          "sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
         },
         {
           "file": "04_financial_bottlenecks.svg",
-          "sha256": "c9cb8ae75707de1cd35b86b7976c291b3087154c179e6b63d245d536e271ab17"
+          "sha256": "d3e912c6e5e4e0d87ac7c0fbb1aa5585f35c5ed49772c5dbc6b690f2d0f070d7"
         },
         {
           "file": "05_wealth_workflows.svg",
-          "sha256": "a21df35776620b95f3e0fec2e9cdb3ec8f83ee65197b8d2922b28820de14ca48"
+          "sha256": "38585047223476318291de204cda62a8f1a9daf536f0a3e2a2a2fc78a2ae5715"
         },
         {
           "file": "06_value_ladder.svg",
-          "sha256": "6dbcd2c51a3cad98bc4ec78d9239e30702049ad72d5ddcf5b451161498777101"
+          "sha256": "70bdff06bd74c62e4b5644308abf461b6719b3b6d1b70d9ada3ac2c94bb43260"
         },
         {
           "file": "07_accepted_work_economics.svg",
-          "sha256": "35fd227f72b9e96fee3411dfbf70399b17469d8b3afbadfbe5301fdc658d61d0"
+          "sha256": "e4d008cdf57c69b4b55ae544710d8f3c3609e392e5f9f19b9120f8c4d124ccf2"
         },
         {
           "file": "08_evidence_boundary.svg",
-          "sha256": "0c294c6cea521d9358b8b06544d745fb1be2515aaf6da5e36148b5672101dab5"
+          "sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
         },
         {
           "file": "09_retrieval_objectives.svg",
-          "sha256": "e110cd6721aaec0279e4665dd67312ce4e7ca1895b842a98eff101c602f66235"
+          "sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
         },
         {
           "file": "10_typed_facts.svg",
-          "sha256": "cdec7e294938e7f1145c34b704a85157649e5a7fccd3e46ffe4492c130619fd7"
+          "sha256": "69b469b505aece0e2bce1ff805a69b47d3f24795f394c39e304ffe21a2b5d2fe"
         },
         {
           "file": "11_stale_source_example.svg",
-          "sha256": "d419be98c6533cd1641dfa2c8f97170b3326e12b4176ccfbf49c5ea58911fdd9"
+          "sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
         },
         {
           "file": "12_inspectable_artifact.svg",
-          "sha256": "4afee9285c95b2abbf918bcf9246e2ca9e2c407ba1507a4819e090b70a04d8c4"
+          "sha256": "3b774e555af7e98585669ef2bb75470854aa8e37b29d135aded8902a49b6200c"
         },
         {
           "file": "13_evaluation_contract.svg",
-          "sha256": "e9b6ebbe34fc033b207944242e6149d6eb90bfaa79351ba5d3e428fa89212e4c"
+          "sha256": "28cd308e3e27f7790c97642831c34d663135d36cc2429b496a27eed52c74583b"
         },
         {
           "file": "14_diagnostic_cash_flow_rubric.svg",
-          "sha256": "db32b58b997238e903721ee46a8b513668a177a841538842960f8862d67fa3fe"
+          "sha256": "6c6c480039fc904b300db3255d11a13c43ddd45ee6dd073f579d6d79bb281b2f"
         },
         {
           "file": "15_judges_and_selection.svg",
-          "sha256": "03049e62ba457a7d2e6988af631409a8ffe8f2638fc78315517a02171015f574"
+          "sha256": "cc7fa82ad5194b91e58a851db3b8ca02eccb950ad39e6ad7c40e99b8f3140a78"
         },
         {
           "file": "16_paired_ablations.svg",
-          "sha256": "3974047f70214916fab119d5eb10c923277d268fbc7be68b2c1bf19b47ba9f0b"
+          "sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
         },
         {
           "file": "17_release_decision.svg",
-          "sha256": "7a1e5cea10110be6c2b5ec63092b3ffa5221720a698a96cfb570fcd2131ea5b0"
+          "sha256": "20526f171605e6860baeb622d9dc4fb0890a22de156c0b7aa04958148425c8f1"
         },
         {
           "file": "18_controlled_improvement.svg",
-          "sha256": "754a8417263097a90a8d806c021e7405d722ce5c2031f14ff3599d8e0b4a58a8"
+          "sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
         },
         {
           "file": "19_expert_skills.svg",
-          "sha256": "4e8ae06d8e66c349c64e21760d97614599970a1ca0c8c9f6ab081bc7f6986af6"
+          "sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
         },
         {
           "file": "20_draft_review_authority.svg",
-          "sha256": "1d7d675c83846ad42aa907149a1e118e3f6f1f0b96398329f0bb148373327910"
+          "sha256": "3ab3213ed67c87cd4da5facddbd2f00c577ddab50be2ba2f48b53589fa4a2a8a"
         },
         {
           "file": "21_enforced_authority.svg",
-          "sha256": "7dd70a04435869c0e433e17bc99edc702ef9e40bdc42fb3f6393d3d0bf5a7580"
+          "sha256": "b472ed95ebebbd23150adf374604e127d1b9bf675ac2fdcffcc566e5dcb3f467"
         },
         {
           "file": "22_three_verification_loops.svg",
-          "sha256": "dfabf42fda069aa763be2185a617593df4d2f9794d5f24b97dad09e0b287f390"
+          "sha256": "2a99d9af8728bf67ce6b292f4e304f5d001dfe16b33f968c44081b5874afeb6f"
         },
         {
           "file": "23_financial_invariants.svg",
-          "sha256": "b2c955f08336fb661e345ee8dc969b145333f20aced6a4c54e9d555cd6c6d014"
+          "sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
         },
         {
           "file": "24_engineer_operating_loop.svg",
-          "sha256": "f5e46edfb98ecebb18605f1595ed73e67b0cc07a43d55f3eb3f422c068b4fe68"
+          "sha256": "69e53f2d2322fe4c4e0c6df6651134fae0cddf0fa54739d3e8477ce62299793c"
         },
         {
           "file": "25_connected_fluency.svg",
-          "sha256": "e4da0faef571dfa067aa4810702e82f3cd98d7a52e069c250c0bb6f219aa505c"
+          "sha256": "e950fe0c5c2cb3a1086180770b5ab662f17173b148153fd321e3a49ac2c90af2"
         },
         {
           "file": "26_lifespan_and_consequence.svg",
-          "sha256": "6cf63684fc43575d216b70335e596ded1310bd900489fc50d7dc5021fde9316d"
+          "sha256": "8a72ceb063a6ac1b38ca2a20d1b38a1621ad64841cd8b059fb539d3e7be66867"
         },
         {
           "file": "27_bounded_learning_experiment.svg",
-          "sha256": "25999d60036966ab9d3250a88a904976e40504533134dafa330d8c076ba2d116"
+          "sha256": "562914d7f0b515e8fe98cbd152d77df52ed86f7999916ae68dfb45d9a7c2344b"
         },
         {
           "file": "28_three_decisions.svg",
-          "sha256": "fcf0cbc944806c8bcc0b69421a6861ea103261d82635362c2ff7472b7330c408"
+          "sha256": "82d335614738edeace74fbd0bf8d33358eeff3bac173ab42aa5bfcd751b99d32"
         },
         {
           "file": "29_discussion.svg",
-          "sha256": "a4da7786adb790d4c95da727e9b5662aa2613407adcc0d352862cd5f6c0e8ea8"
+          "sha256": "ca71b9676cdd9ee80b1bea2f2b542bda80324462d3afc4d44473e3bf839819c4"
         },
         {
           "file": "30_implementation_checklist.svg",
-          "sha256": "ef63dfba5ec8eaefddf5b4ef22a0b4459d28ef0c806da1a3ca698ae5d8f88898"
+          "sha256": "2ed49f1db805ea26d17f9ca1cf47b5848ab0094db1bf677e280d8581af0d3538"
         },
         {
           "file": "31_company_mechanism_map.svg",
-          "sha256": "f62f1dfa82a436c205ad807789131e6fcb4033825ed343dba87753f60df267f9"
+          "sha256": "2d6a408dc6e3a40c6cf1483ab9e910d5fdcdfb1b113832fa63be5a049689bb8e"
         },
         {
           "file": "32_versioned_eval_spec.svg",
-          "sha256": "bc99c80d9a9e9becbf17619464ad70daf326f59e05dd735d42e224bfa22caf68"
+          "sha256": "ae60b5e2bdd3354fda8f22dbf83058e4bc448edab6d1285f8471a6aa48ab961e"
         },
         {
           "file": "33_typed_claim_contract.svg",
-          "sha256": "a56a1303fdfd926307861189051ec27ad5525f0e83e4fee740e58d92b7cd572a"
+          "sha256": "dc148c75ef23b8a2f7d1c750f9256ec2b61dedff8a45931e764af6bed4e88ca2"
         },
         {
           "file": "34_passk_and_deployment.svg",
-          "sha256": "9ec042d93420bd473dd26ad1d920d6e87e1223cfef0b6d4fc0c2a6cdb44aa97a"
+          "sha256": "101d17ce46a73226f5f6d029ed3caa24d4293d6143bd7c0bf8b669bc0a576f24"
         },
         {
           "file": "35_measurement_contract.svg",
-          "sha256": "144c49179b78ccd3b953ef82c295bc4e784f63e8ac26d575c6ec9a75d6b42ab1"
+          "sha256": "520ffd4915484e7354692b6b50eab27aa484f887732bd3e73c8599c06ccec4cc"
         },
         {
           "file": "36_questions_for_followup.svg",
-          "sha256": "f9cba0aba3c6806faad07deb7d691cedcee33098e776ab9ddb781619ec6245da"
+          "sha256": "84ece25a7d217ceeabf1565f6b682597d06f6098395d215677cc31ec4b611c7c"
         },
         {
           "file": "37_sources.svg",
-          "sha256": "dc076d2a58d6620569548b24804724f7aff1012c32b5dfcab8d40fc6d13ac6f5"
+          "sha256": "c82ddb506523b76024a790f24ffbb38035e41707467b411c03e50f4875246933"
         }
       ]
     },
@@ -427,6 +427,6 @@
     },
     "narration_timings": false
   },
-  "backup_path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/backup/20261017_110124/svg_output",
+  "backup_path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/backup/20261025_065805/svg_output",
   "conversion_trace_path": null
 }

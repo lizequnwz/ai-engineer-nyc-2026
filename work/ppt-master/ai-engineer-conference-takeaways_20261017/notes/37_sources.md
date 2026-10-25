@@ -1,79 +1,153 @@
-The complete corpus contains thirty-nine references, with selected primary links on the slide and the full catalog below. Attendee notes capture the live accounts; official session pages identify speakers and advertised topics, while program-only cases remain context. Historical Morgan Stanley, UBS and RBC materials establish what firms described at their publication dates, not the latest state or independently verified causal outcomes. The HumanEval paper supplies the metric and candidate-selection distinction. Rubrics, contracts, release gates and learning exercises translate mechanisms into proposed methods, and AsterCo and the review packets use invented teaching values. Adapt acceptance and failure definitions with domain reviewers before interpreting a method as production readiness. Source-scope counts do not measure evidence strength.
+The review screened ninety channel uploads and inspected fifty official video descriptions, alongside selected transcripts from the organizer’s fifty-two-session archive. Links on this page lead to primary source accounts. A description does not establish an unobserved demonstration, and a speaker report is not independent result validation. Original attendee notes, historical firm disclosures, the metric paper and proposed teaching examples retain their separate boundaries.
 
-Reference S01: Proving Alpha: Showcasing AI's Value in Fundamental Investing. Day1 metadata from the October 10 snapshot; Hari Kumar · Contour Asset Management. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca
+Proving Alpha: Showcasing AI's Value in Fundamental Investing is available at https://ai.engineer/nyc/2026/schedule?session=ae273f0b-db0f-4638-8ae3-05874bebf9ca.
 
-Reference S02: We Let Our Financial Planners Write the Agents. Day2 metadata checked October 14; Matt Ragone · Range. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184
+We Let Our Financial Planners Write the Agents is available at https://ai.engineer/nyc/2026/schedule?session=9b002687-09cf-42e2-9282-532ed9d0c184.
 
-Reference S03: Building the Next Chapter of AI in Finance. Day2 metadata checked October 14; Joseph Kim · OpenAI. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8
+Building the Next Chapter of AI in Finance is available at https://ai.engineer/nyc/2026/schedule?session=02f94835-c29d-4cf5-b77a-c5a491b747b8.
 
-Reference S04: Vault: Making Unstructured Data Work for Investing. Day1 metadata from the October 10 snapshot; Aaron Linsky · Bridgewater; Sam Green · Bridgewater. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6
+Coatue · A Hedge Fund as a Function is available at https://ai.engineer/nyc/2026/talks/coatue.
 
-Reference S05: Balancing Acceleration and Safety for AI Agents. Day1 metadata from the October 10 snapshot; John Feminella · Two Sigma. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1
+Apollo / Redding Ridge / Rowspace · AI in Practice: An Inside Look at Apollo's Approach is available at https://ai.engineer/nyc/2026/talks/apollo-rowspace.
 
-Reference S06: Compound value from building Monzo’s in-house agent using LLMs*. October 10 program snapshot; Francesco Galletta · Monzo; Felippe Felisola Caso · Monzo. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11
+Range · We Let Our Financial Planners Write the Agents is available at https://ai.engineer/nyc/2026/talks/range.
 
-Reference S07: Scaling AI with P&L on the line. October 10 program snapshot; Noyan Tokgozoglu · Optiver. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3
+Vault: Making Unstructured Data Work for Investing is available at https://ai.engineer/nyc/2026/schedule?session=a84ca3a8-cc2f-4b50-a635-fc380f6f04f6.
 
-Reference E01: Morgan Stanley Wealth Management · Debrief launch. Historical company release: Assistant adoption and Debrief features. Adoption does not establish Debrief-wide effectiveness or causal ROI. Source link: https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch
+Balancing Acceleration and Safety for AI Agents is available at https://ai.engineer/nyc/2026/schedule?session=73badd10-6f8c-4c95-b5e7-55fc3d7bafc1.
 
-Reference E02: UBS · fourth-quarter/full-year 2024 results. Historical advisor rollout of Red; scale does not establish quality or client outcomes. Results media release page6 supports the described knowledge use case. Source link: https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html
+Compound value from building Monzo’s in-house agent using LLMs* is available at https://ai.engineer/nyc/2026/schedule?session=58fe4b11-571e-4afd-bd89-8ad63e6cfe11.
 
-Reference E03: RBC · 2025 Investor Day presentation. Slide95: Advisor Assist, survey use/satisfaction, and a separately footnoted US pilot conversion measure. Endnote slide226. These are not causal firm-wide revenue estimates. Source link: https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95
+Scaling AI with P&L on the line is available at https://ai.engineer/nyc/2026/schedule?session=272a7ef0-4b78-41a3-813d-a67361fcd2d3.
 
-Reference E04: RBC · 2025 Investor Day transcript. Page20: executive account of early US advisor meeting-preparation assistance. No independent performance validation. Source link: https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20
+Bridgewater · Vault: Making Unstructured Data Work for Investing is available at https://ai.engineer/nyc/2026/talks/bridgewater.
 
-Reference S08: Can Your AI Analyst Keep a Secret?. October 10 program snapshot; Aaron Linsky · Bridgewater; Nikhil Benesch · turbopuffer. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2
+Wells Fargo · Wells Fargo Foundation Model: Application to Fraud Detection at Scale is available at https://ai.engineer/nyc/2026/talks/wells-fargo.
 
-Reference S09: Do Not Let Models Invent Numbers. Day1 metadata from the October 10 snapshot; Vinoo Ganesh · Kepler. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe
+Blackstone / Norm.ai · Built to Scale: Future-Proofing Your Technology Roadmap is available at https://ai.engineer/nyc/2026/talks/blackstone-norm.
 
-Reference S10: Building Better Agents Through End-to-End Evals. Day2 metadata checked October 14; Ryan Stevens · Ramp. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448
+Morgan Stanley Wealth Management · Debrief launch is available at https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch.
 
-Reference S11: 1,368 AI Failures: What They Teach Us About System Evals. Day1 metadata from the October 10 snapshot; Vishal Srivastava · New York Life Insurance; Tanmay Sah · . The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c
+UBS · fourth-quarter/full-year 2024 results is available at https://www.ubs.com/global/en/media/display-page-ndp/en-20250204-4q24-quarterly-result.html.
 
-Reference S12: From Agent Prototype to Production in Regulated Banking. Day2 metadata checked October 14; Jonathan Osborne · NatWest. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Notes/October 10 say Comet; October 14 schedule says NatWest. The discrepancy is unresolved. Source link: https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa
+RBC · 2025 Investor Day presentation is available at https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_presentation.pdf#page=95.
 
-Reference S13: From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale. October 10 program snapshot; Shiv Indap · Upstart; Brooke Hopkins · Coval. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b
+RBC · 2025 Investor Day transcript is available at https://www.rbc.com/investor-relations/_assets-custom/pdf/investorday2025_transcript.pdf#page=20.
 
-Reference E05: Chen et al. · Evaluating Large Language Models Trained on Code. Primary reference for pass@k and candidate-selection distinctions. No numerical model result from the paper is transferred to financial workflows here. Source link: https://arxiv.org/html/2107.03374v2
+Arca · Inside Arca’s long-horizon agents that run the business is available at https://ai.engineer/nyc/2026/talks/arca.
 
-Reference S14: What does an AI engineer do?. Day1 metadata from the October 10 snapshot; Aparna Dhinakaran · Arize AI. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c
+Perpetual · Building Reliable, yet Smart Workflows for Finance, Wealth and Insurance is available at https://ai.engineer/nyc/2026/talks/perpetual.
 
-Reference S15: Stop turning your Humans Into APIs for your Agents. October 10 program snapshot; Emil Chetty · Wise. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c
+Contour Asset Management · Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management is available at https://www.youtube.com/watch?v=ZMZlAn6Pyfg.
 
-Reference S16: The Machine that Changed the World, vAI. Day2 metadata checked October 14; Tariq Shaukat · Sonar. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc
+Jellyfish · Tokens Are the Cheap Part is available at https://ai.engineer/nyc/2026/talks/jellyfish.
 
-Reference S17: No Cash Left Behind: Vanguard's Ledger Modernization Journey. October 10 program snapshot; Gareth Yoder · Vanguard. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e
+Intuit Credit Karma · Paving the Road to Production: Governed Enterprise AI Agents is available at https://ai.engineer/nyc/2026/talks/credit-karma.
 
-Reference S18: Does Code Quality Even Matter?. Day1 metadata from the October 10 snapshot; Max Kanat-Alexander · Capital One. The program identifies the talk; the attendee notes supply the claims. No outcome was independently verified. Source link: https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9
+Ramp · Alexander Shevchenko keynote · Chasing capabilities while waiting for the frontier is available at https://ai.engineer/nyc/2026/talks/ramp.
 
-Reference S19: Chasing capabilities while waiting for the frontier. October 10 program snapshot; Alexander Shevchenko · Ramp. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0
+Can Your AI Analyst Keep a Secret? is available at https://ai.engineer/nyc/2026/schedule?session=88f71c9f-f0a9-4f42-96c0-0e1492bad1c2.
 
-Reference S20: Turning AI Into Operating Margin: A Field Report from Private Equity. October 10 program snapshot; Adam Nahari · Apollo Global Management. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a
+Do Not Let Models Invent Numbers is available at https://ai.engineer/nyc/2026/schedule?session=2d29f925-f16b-41b3-8086-de0524829cbe.
 
-Reference S21: AI in Practice: An Inside Look at Apollo's Approach. October 10 program snapshot; Michael Manapat · Rowspace; Jack McDonald · Apollo Global Management. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0
+Citadel Securities · Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings is available at https://ai.engineer/nyc/2026/talks/citadel.
 
-Reference S22: Wells Fargo Foundation Model: Application to Fraud Detection at Scale. October 10 program snapshot; Freddy Lecue · Wells Fargo. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82
+Kepler · October 14 follow-up · Why Wall Street Still Doesn’t Trust AI is available at https://ai.engineer/nyc/2026/talks/kepler-14.
 
-Reference S23: Intent Based Auth. October 10 program snapshot; Allie Howe · Keycard; Ian Livingstone · Keycard; Michael Davis · JPMC; Dick Hardt · AAuth. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d
+Kepler · attended breakout release · Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler is available at https://www.youtube.com/watch?v=dZgA6btnb_s.
 
-Reference S24: Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings. October 10 program snapshot; Joao Wenzel · Citadel Securities. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114
+OpenAI · Building the Next Chapter of AI in Finance is available at https://ai.engineer/nyc/2026/talks/openai.
 
-Reference S25: Inside the Fable War Room. October 10 program snapshot; Ford Prior · GEICO. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420
+Compound AI · Towards Autonomous Analysts in Finance is available at https://ai.engineer/nyc/2026/talks/compound.
 
-Reference S26: Trusting Agents in Policy-Driven Workflows. October 10 program snapshot; Evan Kormos · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839
+Building Better Agents Through End-to-End Evals is available at https://ai.engineer/nyc/2026/schedule?session=4607dbbe-8f94-4b0e-91ce-257d1cfb5448.
 
-Reference S27: Developer Docs as Knowledge Infrastructure for Fintech. October 10 program snapshot; Hahnbee Lee · Mintlify; Lincoln Murr · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480
+1,368 AI Failures: What They Teach Us About System Evals is available at https://ai.engineer/nyc/2026/schedule?session=9d72d7ac-a2a2-42cf-b880-5859316d840c.
 
-Reference S28: Building the Financial Account for Agents. October 10 program snapshot; Lincoln Murr · Coinbase. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284
+From Agent Prototype to Production in Regulated Banking is available at https://ai.engineer/nyc/2026/schedule?session=e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa.
 
-Reference S29: Security in the Age of AI: Recent Attacks, Incidents & Defenses. October 10 program snapshot; Andrey Rybka · Bloomberg. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564
+Vals AI · Beyond the Model Card: The Jagged Frontier of AI in Finance is available at https://ai.engineer/nyc/2026/talks/vals.
 
-Reference S30: CTO, Blackstone. October 10 program snapshot; John Stecher · Blackstone; Scott Worland · Norm.ai. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c
+Ramp · Ryan Stevens written follow-up · Ramp · Ryan Stevens written follow-up is available at https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh.
 
-Reference S31: Head of AI & AI Engineer, Coatue. October 10 program snapshot; Frank Long · Coatue. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a
+Basis · Process Supervision for Agents That Do Long-Horizon Work is available at https://ai.engineer/nyc/2026/talks/basis.
 
-Reference S32: Arca’s agent runtime for long horizon financial services work. October 10 program snapshot; Aman Singh · Arca. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab
+Air Canada · Nathanael Weill · How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada is available at https://www.youtube.com/watch?v=c_SPW__jF9w.
 
-Reference S33: Shipping like a startup, regulated like a bank. October 10 program snapshot; David Abitbol · Revolut. This is advertised content, not a claim of attendance, independent verification, or current universal deployment. Source link: https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a
+From Human Review to Self-Healing Agents: How Upstart Evaluates Voice AI at Regulated-Lending Scale is available at https://ai.engineer/nyc/2026/schedule?session=ece6925c-c979-483f-bd40-51eacdbbe11b.
 
-Reference E06: UBS · Innovation and AI. Corporate descriptions of Red and STAAT Insights. Publication date is unknown; employee and advisor populations differ. Preparation savings are estimates and identified opportunities are not completed sales. Source link: https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html
+Chen et al. · Evaluating Large Language Models Trained on Code is available at https://arxiv.org/html/2107.03374v2.
+
+What does an AI engineer do? is available at https://ai.engineer/nyc/2026/schedule?session=b2ed4456-5671-4e8e-83fd-684c012fef8c.
+
+Arize · Sofia Jakovcevic · Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI is available at https://www.youtube.com/watch?v=v5tm5EAzsAs.
+
+Omni Analytics · Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics is available at https://www.youtube.com/watch?v=A3FL_zTQKU0.
+
+Google DeepMind / Kaggle / LinqAlpha · Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha is available at https://www.youtube.com/watch?v=aVbRSIQO2dE.
+
+Arize · Aparna Dhinakaran · What does an AI engineer do? is available at https://ai.engineer/nyc/2026/talks/arize.
+
+Stop turning your Humans Into APIs for your Agents is available at https://ai.engineer/nyc/2026/schedule?session=ac709f86-ce51-4582-a680-70449c32d29c.
+
+Coinbase · Trusting Agents in Policy-Driven Workflows is available at https://ai.engineer/nyc/2026/talks/coinbase.
+
+Two Sigma · Balancing Acceleration and Safety for AI Agents is available at https://ai.engineer/nyc/2026/talks/two-sigma.
+
+Bloomberg · Security in the Age of AI: Recent Attacks, Incidents & Defenses is available at https://ai.engineer/nyc/2026/talks/bloomberg.
+
+The Machine that Changed the World, vAI is available at https://ai.engineer/nyc/2026/schedule?session=4add802c-6a68-4e9c-93fb-9c1e017193bc.
+
+Sonar · The Machine that Changed the World, vAI is available at https://ai.engineer/nyc/2026/talks/sonar.
+
+Capital One · Does Code Quality Even Matter? is available at https://ai.engineer/nyc/2026/talks/capital-one.
+
+No Cash Left Behind: Vanguard's Ledger Modernization Journey is available at https://ai.engineer/nyc/2026/schedule?session=1779b934-d67b-45e9-ba11-0b19efac4b7e.
+
+Vanguard · AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard is available at https://www.youtube.com/watch?v=uA4ah-dVHvU.
+
+Prime Intellect · Self-Improving Organizations is available at https://ai.engineer/nyc/2026/talks/prime-intellect.
+
+Arize · Laurie Voss · AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI is available at https://www.youtube.com/watch?v=kspZP5BgkEU.
+
+Southbridge · Just-in-Time Ontologies is available at https://ai.engineer/nyc/2026/talks/southbridge.
+
+Monzo · A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso & Francesco Galletta, Monzo is available at https://www.youtube.com/watch?v=adfw3xJBx1o.
+
+Does Code Quality Even Matter? is available at https://ai.engineer/nyc/2026/schedule?session=5191589c-a70e-4806-99dc-86f7794f46b9.
+
+Chasing capabilities while waiting for the frontier is available at https://ai.engineer/nyc/2026/schedule?session=caecd5f6-b352-4868-a995-f0f71679caf0.
+
+Turning AI Into Operating Margin: A Field Report from Private Equity is available at https://ai.engineer/nyc/2026/schedule?session=5049757d-8a2e-46fd-9d7b-c8c1f3d7b72a.
+
+AI in Practice: An Inside Look at Apollo's Approach is available at https://ai.engineer/nyc/2026/schedule?session=44e9d04a-e8b4-418c-8a85-02fbb9263dd0.
+
+Wells Fargo Foundation Model: Application to Fraud Detection at Scale is available at https://ai.engineer/nyc/2026/schedule?session=1c25f303-f38f-450b-862d-669fdbab5f82.
+
+Intent Based Auth is available at https://ai.engineer/nyc/2026/schedule?session=e65f74f9-2174-406d-bd32-2d7073eb677d.
+
+Your Company Has No Model of Itself: Bootstrapping a World Model from Slack, Decks and Meetings is available at https://ai.engineer/nyc/2026/schedule?session=bf371da6-6ef6-42ec-865f-5de4974a9114.
+
+Inside the Fable War Room is available at https://ai.engineer/nyc/2026/schedule?session=6b92fb75-064e-4cb5-8aa3-7c7f211e7420.
+
+Trusting Agents in Policy-Driven Workflows is available at https://ai.engineer/nyc/2026/schedule?session=ee927042-2ba1-44c3-b304-d001ae247839.
+
+Developer Docs as Knowledge Infrastructure for Fintech is available at https://ai.engineer/nyc/2026/schedule?session=d3d8c80e-84b7-4106-b8b5-ca63bc508480.
+
+Building the Financial Account for Agents is available at https://ai.engineer/nyc/2026/schedule?session=bc4b6b4a-cf07-4326-8276-fcf845da0284.
+
+Security in the Age of AI: Recent Attacks, Incidents & Defenses is available at https://ai.engineer/nyc/2026/schedule?session=01982251-7fdc-4828-8520-fb34b9bc7564.
+
+CTO, Blackstone is available at https://ai.engineer/nyc/2026/schedule?session=4cf641ef-436a-4e59-bd73-8a1988d8214c.
+
+Head of AI & AI Engineer, Coatue is available at https://ai.engineer/nyc/2026/schedule?session=9a9dfcd0-459f-43eb-b3f8-004864b4ad2a.
+
+Arca’s agent runtime for long horizon financial services work is available at https://ai.engineer/nyc/2026/schedule?session=75bd85ed-b49d-41f6-98e1-7a22853c18ab.
+
+Shipping like a startup, regulated like a bank is available at https://ai.engineer/nyc/2026/schedule?session=2a07765d-fe3a-48df-be0f-75c111dbee6a.
+
+UBS · Innovation and AI is available at https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html.
+
+Asset-management strategy · Sid Pednekar · Everyone Has AI. Who Has the Advantage? is available at https://ai.engineer/nyc/2026/talks/sid-pednekar.
+
+Failure study · New York Life affiliation · 1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life & Tanmay Sah is available at https://www.youtube.com/watch?v=mMw3arwQsL0.
