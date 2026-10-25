@@ -1,9 +1,9 @@
-Use a chain of evidence from adoption to accepted work, process change and attributable value. The newly released stories add measurement methods; they do not make preparation time, usage and investment performance interchangeable.
+The ladder separates four increasingly strong claims: people use the system, people accept its work, the process improves, and a business outcome is attributable to it.
 
-Define useful output first. Contour’s official release describes live research comparisons and cost per useful insight, including repair effort. Define useful insight, eligible work and the comparison before looking at outcomes. Its description does not disclose enough assignment, sample or control detail to establish causal alpha.
+Contour's official release describes comparing research with and without AI and tracking cost per useful insight. It also calls attention to the hidden cost of fixing tools. That is a valuable measurement direction. The description does not supply the assignment, sample and controls needed to establish causal investment alpha.
 
-Keep the decision record. Preserve what was known when an idea was proposed, its sources, reasoning, reviewer response and subsequent decision. Agents revisiting an old idea may improve timing or attention; a later profitable position still depends on markets, selection, sizing and human action.
+For investment work, retain what was known when an idea was proposed, the reasoning, the reviewer response and the decision. Otherwise a later successful outcome can rewrite the story through hindsight.
 
-Inspect the denominator. Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value.
+Jellyfish offers a software example: human salary plus AI spend per merged pull request, with reverts and change size as counterchecks. That is an observational proxy for engineering work. It does not establish that more spending causes improvement, or that every merged change produces business value.
 
-The primary source accounts for this page are Contour Asset Management at https://www.youtube.com/watch?v=ZMZlAn6Pyfg; Jellyfish at https://ai.engineer/nyc/2026/talks/jellyfish.
+To compare alternatives fairly, we also need an honest numerator and denominator.

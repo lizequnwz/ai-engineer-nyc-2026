@@ -1,0 +1,21 @@
+"""Visible teaching scenes shared by the live and reading HTML editions."""
+from html import escape as E
+
+def render_case(sid, table, flow, small):
+ if sid=='strategy-01':
+  return '<p class="worked-question">Apollo / Redding Ridge · preparing a structured-credit portfolio</p>'+flow([('Reconcile feeds','Which source governs, and why?'),('Prepare draft','Agent assembles the mock portfolio'),('Refine','Portfolio-manager judgment')])+small('Separate recurring workflow: warehouse-financing and trade-reconciliation reports receive daily QA.')
+ if sid=='grounding-01':
+  return '<p class="worked-question">Citadel Securities · “Is the project on track?”</p><div class="case-evolution"><div><span>Earlier record</span><b>Monthly deck: green</b><p>Retain the reported status and its date.</p></div><div><span>Newer evidence</span><b>Dependency unresolved</b><p>Message or attachment changes the assessment.</p></div><div class="case-conclusion"><span>Updated record</span><b>Reported ≠ evidence-supported</b><p>Preserve both, with reasons and source health.</p></div></div>'+small('Reconstruction of the narrated example; not a production screenshot or measured prediction result.')
+ if sid=='grounding-02':
+  return '<p class="worked-question">Vault demo · an October question about AI and currencies draws on a July source</p>'+table(['Decision','Bridgewater mechanism','Test separately'],[['Eligible evidence','Time · source · asset · access','Restrictive filters; sparse or empty matches'],['Relevance','~200 labeled questions; plausible negatives','Precision@10: ~60% → 90–95% reported'],['Usable brief','Saved search → evidence card → feedback','Coverage, omissions and investor review']])
+ if sid=='grounding-04':
+  return '<p class="worked-question">Invented AsterCo · FY2025 revenue growth under two information cutoffs</p><div class="split">'+table(['Published','FY / status','USD m'],[['2025-02-01','FY2024 final','100'],['2026-01-15','FY2025 preliminary','118'],['2026-02-01','FY2025 final','120']])+'<div class="cutoff-comparison"><div><b>As of January 20 → 18%</b><p>(118 − 100) / 100 · preliminary</p></div><div><b>As of March 1 → 20%</b><p>(120 − 100) / 100 · final available</p></div></div></div>'+small('All documents and values are synthetic. Later information cannot answer an earlier as-of question.')
+ if sid=='evals-04':
+  return '<p class="worked-question">Invented next-month fixture · preserve the procedure; refresh the facts</p>'+table(['Synthetic period','Invoice total','Ledger total','Unexplained gap'],[['January','12,400','12,000','400'],['February','15,000','13,900','1,100']])+'<div class="memory-contrast"><p><b>Stale memory:</b> “Last time the gap was 400.”</p><p><b>Reusable method:</b> Fetch current records → match identifiers → explain or flag the gap.</p></div>'+small('Invented amounts illustrate the Ramp article’s roll-forward test; they are not Ramp data or permission to post.')
+ if sid=='evals-06':
+  return '<p class="worked-question">Basis · why a balanced reconciliation can still fail</p>'+flow([('Find gap','No supporting entry found'),('Take shortcut','Post unsupported adjustment'),('Look successful','Zero variance; process failed')])+'<div class="memory-contrast"><p><b>Conflicting tool:</b> accepts only a reconciliation that ties.</p><p><b>Repair to test:</b> accept a sourced explanation or an explicitly flagged gap.</p></div>'
+ if sid=='workflows-01':
+  return '<div class="case-lanes"><div><b>Planner</b><p>Client conversation → professional review → controlled delivery</p></div><div><b>Agent</b><p>Parallel analysis → reviewable draft → no client send</p></div></div>'+flow([('Pick','Repeated work'),('Teach','Reasons + questions'),('Pack','Rules + limits'),('Test','Cases + exceptions'),('Ship','Owner + reviewer')])
+ if sid=='workflows-05':
+  return '<div class="case-lanes"><div><b>Perpetual · execution</b><p>Exact-payload approval → dispatch → outcome unknown → review before retry</p></div><div><b>Arca · service across days</b><p>Shared plan → reply / approval / settlement wait → event or deadline → next owner</p></div></div>'+small('Timeout after an approved email request is our teaching reconstruction of Perpetual’s unknown-outcome policy, not a reported incident. The two firms describe distinct systems.')
+ return None

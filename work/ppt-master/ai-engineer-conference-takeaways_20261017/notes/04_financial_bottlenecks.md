@@ -1,9 +1,9 @@
-The frontier cases share disciplined task design, but use different technical forms. An investment evidence system, planner workflow and transaction classifier should not be compared with one generic adoption or model-quality score.
+Financial AI is broader than a financial chatbot. The decision, data representation and operating budget can lead to very different systems.
 
-Build around the decision. Bridgewater improves evidence reaching investment work; Coatue decomposes a decision graph. Their relevant questions concern eligible sources, relevance, timing and professional attention. Preserve the point-in-time information set before judging the resulting conclusion.
+Bridgewater concentrates on evidence reaching investment work. Coatue emphasizes decomposing the decision. Wells Fargo describes a transformer trained on transaction sequences for downstream fraud classification. Assess detection and false positives within the authorization-time budget; amounts, categories, channels, time and location shape the transaction representation. That is a transaction foundation model; calling it a proprietary language model would miss the design.
 
-Choose the representation. Wells Fargo describes a transaction-sequence transformer trained from scratch for downstream fraud work. Amounts, categories, channels, time and location determine tokenization; a tight serving budget shapes the design. This is a transaction foundation model, not a proprietary language model.
+The Blackstone and Norm discussion contributes another strategy point: keep useful data, expert evaluations and production controls while models and scaffolding change. The expert-labeled regression assets in that account belong to Norm's example. Sharing a panel does not establish that Blackstone deployed every component.
 
-Keep durable assets. Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone.
+The transferable lesson is to preserve the assets that define good work. Model choice matters, but the surrounding definitions, evidence and scorecards make comparisons possible.
 
-The primary source accounts for this page are Bridgewater at https://ai.engineer/nyc/2026/talks/bridgewater; Coatue at https://ai.engineer/nyc/2026/talks/coatue; Wells Fargo at https://ai.engineer/nyc/2026/talks/wells-fargo; Blackstone / Norm.ai at https://ai.engineer/nyc/2026/talks/blackstone-norm.
+Wealth workflows show particularly clearly where those durable professional assets live.

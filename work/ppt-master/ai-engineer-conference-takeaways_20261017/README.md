@@ -15,4 +15,6 @@ Validation receipts retain their original authoring paths and hashes as historic
 
 ## Recording revision · October 25, 2026
 
-The current37-slide deck incorporates the released-source review. Sources include37curatedbriefs, with source classes and limitations in notes. The final native export has37slides,37notes and9editabletables. The current export postflight and final SVG report passed with zero warnings. Actual PowerPoint rendering was not performed.
+The current 37-slide deck incorporates the released-source review and eight further core storytelling revisions. It has 29 core pages, eight appendices, 37 note pages and nine editable native tables. The live allocations total 40 minutes plus discussion; actual delivery needs rehearsal. The current export postflight and final SVG report passed. Actual PowerPoint rendering was not performed.
+
+Core spoken notes now match `sources/presenter-script.json` and the final presenter guide. Delivery cues, transitions, a shorter route and Q&A are available in [the presenter guide](../../../outputs/ai-engineer-nyc-2026-presenter-guide.html). Current source context is in `sources/conference-deck.json`, `sources/recording-evidence.json` and `sources/recording-supplement.md`. The earlier HTML conversion Markdown/profile, curated roster and conference-content Markdown are original ingestion snapshots; they are not the current slide text or build inputs.

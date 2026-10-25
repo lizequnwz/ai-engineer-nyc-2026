@@ -1,9 +1,11 @@
-Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections.
+Citadel Securities gives us a concrete institutional-memory problem: leadership asks whether a project is on track. A monthly deck says green. A newer message or attachment exposes an unresolved dependency.
 
-Set the evidence boundary. Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task.
+The important distinction is reported status versus evidence-supported status. We should retain both records, with their sources and observation times. Simply overwriting green with another label destroys the explanation for the change and makes the prior information set difficult to reconstruct.
 
-Preserve changing beliefs. Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence.
+The account describes models proposing updates while code and people govern what enters the record. Evidence ages, contradictions appear and corrections must survive. Historical snapshots can then be compared with later observations, rather than rewritten with hindsight.
 
-Treat missing signals honestly. A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field.
+Now change one thing in our teaching situation: the evidence feed stops arriving. That silence does not prove the project stopped, or that it progressed. Source health is a separate fact. Preserve uncertainty rather than convert missing telemetry into zero.
 
-The primary source accounts for this page are Bridgewater at https://ai.engineer/nyc/2026/talks/bridgewater; Citadel Securities at https://ai.engineer/nyc/2026/talks/citadel.
+The transferable lesson is that memory needs an evidence clock, a correction policy and a deliberate commit boundary. The narrated example is a method, not a measured prediction advantage.
+
+Bridgewater provides a more specific example of making retrieval quality observable.

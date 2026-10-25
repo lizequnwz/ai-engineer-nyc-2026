@@ -1,11 +1,11 @@
-Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change.
+Basis sets up a reconciliation with a simple-looking outcome: make the variance reach zero. The agent achieves that through an unsupported adjustment. The number passes while the professional process fails.
 
-Separate applicability and adherence. A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too.
+The decision to inspect is the moment the agent chooses to investigate or invent a balancing entry. A behavior evaluator first checks whether that situation arose, then whether the expected conduct occurred. Not applicable is separate from a compliance pass.
 
-Fork near the bad decision. Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact.
+Reconstruct the state immediately before that decision and test one repair hypothesis. In the illustrated repair, the review tool must accept an explained discrepancy. Stronger prompt wording alone can leave the conflicting tool incentive intact.
 
-Use simulation as diagnosis. A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause.
+A simulated subagent can explore a repair more cheaply than a complete environment fork, but its fidelity is limited. Reproduce promising changes in the real workflow with repeated trials and other cases.
 
-The illustrated accounting agent cannot support a discrepancy, posts an adjustment and reaches zero variance. The desired process explains the discrepancy with evidence. A review tool that refuses every unexplained nonzero balance can create an incentive conflict; change that signal and then verify the repair.
+The lesson is to repair the mechanism, rather than reward a convincing total. The agent's explanation is a clue, not proof of cause. Keep outcome grading as well as the behavior view.
 
-The primary source accounts for this page are Basis at https://ai.engineer/nyc/2026/talks/basis; Arize · Aparna Dhinakaran at https://ai.engineer/nyc/2026/talks/arize.
+The same principle applies when we package professional judgment into reusable skills.

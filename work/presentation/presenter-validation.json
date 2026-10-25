@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "coreSections": 29,
+  "minutes": 40,
+  "qa": 8,
+  "audiencePrompts": 3,
+  "checks": [
+    "All core IDs, order, spoken notes and pacing match the presentation",
+    "All 29 guide anchors and cue cards resolve",
+    "Cue view toggles with aria state; print calls browser print",
+    "No external runtime assets, storage or network calls",
+    "Eight Q&A and three planned audience prompts",
+    "Time-cutoff, next-period fixture and unknown-outcome boundaries present"
+  ],
+  "limits": [
+    "DOM and static source checks only; no browser rendering",
+    "Timing is a rehearsal target, not measured live delivery"
+  ]
+}

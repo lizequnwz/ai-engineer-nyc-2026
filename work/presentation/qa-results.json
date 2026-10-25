@@ -12,7 +12,7 @@
     "Printing includes the complete deck in the chosen mode,then restores navigation state",
     "Fullscreen uses the browser API without changing content or navigation",
     "Synthetic calculations,typed claim units,arithmetic/source separation,and denial-vs-violation logic are consistent",
-    "UBS dated/undated citations,Range notes/program distinction,and banking/Upstart boundaries remain visible",
+    "UBS dated/undated citations,Range transcript-backed review boundary,and banking/Upstart boundaries remain visible",
     "All12 tested text/surface color pairs meet4.5:1 contrast",
     "Self-contained runtime:no external assets,network calls,or persistence;responsive,reduced-motion,and zoom support are declared",
     "No-JavaScript reading remains complete,including methods,case atlas,and source catalog",
@@ -95,7 +95,7 @@
     },
     {
       "id": "strategy-01",
-      "words": 225
+      "words": 200
     },
     {
       "id": "strategy-02",
@@ -115,11 +115,11 @@
     },
     {
       "id": "grounding-01",
-      "words": 209
+      "words": 214
     },
     {
       "id": "grounding-02",
-      "words": 194
+      "words": 221
     },
     {
       "id": "grounding-03",
@@ -127,7 +127,7 @@
     },
     {
       "id": "grounding-04",
-      "words": 203
+      "words": 205
     },
     {
       "id": "grounding-05",
@@ -147,7 +147,7 @@
     },
     {
       "id": "evals-04",
-      "words": 225
+      "words": 218
     },
     {
       "id": "evals-05",
@@ -155,11 +155,11 @@
     },
     {
       "id": "evals-06",
-      "words": 224
+      "words": 230
     },
     {
       "id": "workflows-01",
-      "words": 204
+      "words": 205
     },
     {
       "id": "workflows-02",
@@ -175,7 +175,7 @@
     },
     {
       "id": "workflows-05",
-      "words": 217
+      "words": 221
     },
     {
       "id": "growth-01",

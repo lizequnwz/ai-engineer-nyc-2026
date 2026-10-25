@@ -1,9 +1,9 @@
-Coinbase’s framework places bounded draft/check/refine loops inside a forward-moving policy workflow. Drafting, professional judgment and execution authority remain different decisions, even when one interface makes the work feel continuous.
+Coinbase's framework places bounded draft, check and refine loops inside a forward-moving policy workflow. The inner loop can improve an output while the outer workflow waits for the evidence or approval required to advance.
 
-Define the stage contract. Specify the allowed inputs, checkable output, iteration budget and human takeover condition. The loop can improve a draft while the outer workflow waits for the required acceptance or approval. Faster generation can shift the bottleneck to review rather than remove it.
+A stage needs allowed inputs, a checkable output, an iteration budget and a human takeover condition. Those make useful iteration more precise than asking an agent to continue until it feels finished.
 
-Keep professional judgment visible. The invented annual packet below subtracts $84k recorded expenses from $120k income: $36k is only an arithmetic difference. It establishes neither disposable capacity nor suitability. Review the facts, gaps, assumptions and conclusions before the work can be considered accepted.
+The annual packet is fictional. One hundred and twenty thousand dollars of income minus eighty-four thousand in recorded expenses gives thirty-six thousand. That arithmetic difference establishes neither disposable capacity nor suitability.
 
-Separate review from permission. Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence.
+The professional still reviews facts, gaps and interpretation. Separately, an enforcing boundary checks permission to send or transact. Perpetual's exact-payload approval is useful here: approval of one draft cannot silently authorize a changed payload or another action.
 
-The primary source accounts for this page are Coinbase at https://ai.engineer/nyc/2026/talks/coinbase; Range at https://ai.engineer/nyc/2026/talks/range; Perpetual at https://ai.engineer/nyc/2026/talks/perpetual.
+That requires identity, scope and stopping controls that the model cannot override.

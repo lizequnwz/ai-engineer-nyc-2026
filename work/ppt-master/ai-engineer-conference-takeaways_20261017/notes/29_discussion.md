@@ -1,1 +1,9 @@
-Use discussion to identify a concrete workflow and an uncertainty that matters. First ask whose accepted work improves and whether faster generation actually saves total effort after review. Next name an unsupported fact, wrong period, unauthorized action or bypassed denial that could escape ordinary review. Correct refusal is a control success, and the judge or reviewer also needs testing. Finally agree which baseline, output checks, cost records or missing prerequisite could change the decision. Record one candidate experiment and one unresolved evidence question. A useful discussion can conclude that prerequisites are missing or that the team should not proceed. Avoid turning the conversation into a tool preference debate or forcing consensus and an immediate commitment.
+Which one failure would most change your confidence in a workflow you know, and what comparison would test it?
+
+Take a moment to choose a specific case: an unsupported number, a wrong period, an unauthorized action or an exception that ordinary review might miss.
+
+For discussion, we can name the accepted output, existing baseline and evidence that would change the decision. If a prerequisite is missing, identifying it is a useful result too.
+
+There is no need to choose a favorite framework or make a project commitment today. The useful outcome is a clear uncertainty and a practical way to investigate it.
+
+Open discussion; use the technical questions in the companion notes as needed.

@@ -1,9 +1,11 @@
-Arize’s released Signal account adds a concrete lifecycle: temporary sandboxes work with trace context and bounded access, while issue history and useful progress live outside the execution environment.
+Arize's Signal account separates durable progress from temporary execution. A disposable sandbox receives bounded repository and credential access, while issue history, skills and telemetry live outside it.
 
-Instrument enough to reconstruct. Retain the request, inputs, permissions, tools, result, evaluator and relevant versions. Distinguish a run summary from the ordered trajectory. Trace agents modifying the system as well as deployed agents, so a proposed repair has evidence rather than only a confident explanation.
+A replacement run can resume useful work after a sandbox failure. It still needs newly checked authority. Persistent knowledge does not imply persistent permission.
 
-Separate progress from access. Issue history, useful skills and telemetry can survive a sandbox failure; temporary credentials and repository access should not survive by default. A replacement run resumes from durable state under newly checked authority. Persistence of knowledge does not imply persistence of permission.
+Instrument enough to reconstruct the request, evidence, tools, outcome, evaluator and versions. Trace agents changing the system as well as agents serving users.
 
-Prove the change. Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations.
+Calibrate evaluators on human-labeled cases, reproduce failures and inspect paired regressions. A proposed fix or pull request remains a proposal until accountable review permits release.
 
-The primary source accounts for this page are Arize · Aparna Dhinakaran at https://ai.engineer/nyc/2026/talks/arize; Prime Intellect at https://ai.engineer/nyc/2026/talks/prime-intellect.
+Prime Intellect's learning progression reinforces preserving corrections and evaluation assets before pursuing routing or specialized training. The durable contribution is a verified learning loop, rather than a confident automatic diagnosis.
+
+That changes which skills become most valuable as code becomes easier to produce.

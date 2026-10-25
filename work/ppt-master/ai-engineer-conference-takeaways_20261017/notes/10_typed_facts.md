@@ -1,9 +1,11 @@
-Kepler distinguishes a wrong source, a wrong fact inside the right source and a wrong calculation. Its released accounts add a constrained number path; final generation still needs checks after retrieval and arithmetic.
+Kepler distinguishes three failures: selecting the wrong source, selecting the wrong fact within the right source, and calculating incorrectly. Fixing only arithmetic addresses one of them.
 
-Use a structured fact. The standalone breakout description names value, unit, scale and period. The next-day transcript describes fact identifiers resolved by software while a model plans. Preserve the source anchor and calculation inputs; a valid identifier still needs the correct entity, definition and version.
+There are two source editions here. The attended breakout's standalone description names typed facts with value, unit, scale and period. The next-day transcript describes models planning with fact identifiers that software resolves. They should not be collapsed into one fully disclosed architecture.
 
-Keep access on every path. Exact lookup does not bypass authorization. Search, direct reads, calculation inputs and output references must remain within the user and tenant scope. Test revoked access and empty evidence as well as the successful path; a citation chip does not enforce permission.
+The account still retains final post-processing, because generation can invent a number after retrieval and calculation. The breakout description says unverifiable figures are stripped.
 
-Verify what the user receives. The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support.
+Our acceptance requirement is to correct, remove or escalate an unsupported material claim. Merely removing its citation would leave the problem intact.
 
-The primary source accounts for this page are Kepler · October 14 follow-up at https://ai.engineer/nyc/2026/talks/kepler-14; Kepler · attended breakout release at https://www.youtube.com/watch?v=dZgA6btnb_s.
+Access also applies to every path: search, exact lookup, calculation inputs and output references. An exact identifier is useful structure; it does not establish that the user may see the underlying fact or that the fact answers the intended question.
+
+The invented example next makes the difference between arithmetic and source validity easy to see.

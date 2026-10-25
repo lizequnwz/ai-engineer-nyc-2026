@@ -1,9 +1,11 @@
-Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window.
+Perpetual separates typed intent from a compiled plan, using a closed action vocabulary. Clarification and refusal can be valid outcomes. Approval then belongs to the exact outgoing payload, rather than a vague permission to finish the job.
 
-Persist the handoff. Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed.
+Our teaching reconstruction is an approved email request followed by a timeout. We do not know whether the provider sent it. There are two possible worlds: the side effect happened, or it did not. A timeout proves neither one.
 
-Freeze the approved action. Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action.
+That is the decision point. Do not turn unknown into failed and automatically resend. Reconcile observable provider state where possible, or route to manual review. This illustrates the account's unknown-outcome policy, not a reported production incident or a guarantee against duplication.
 
-Distinguish unknown from failed. A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy.
+A new client reply can also change the work. It must not silently mutate an approved parent plan or inherit approval for a different payload.
 
-The primary source accounts for this page are Arca at https://ai.engineer/nyc/2026/talks/arca; Perpetual at https://ai.engineer/nyc/2026/talks/perpetual; Vanguard at https://www.youtube.com/watch?v=uA4ah-dVHvU.
+Arca supplies a distinct story about time: a tax-payment workflow spans replies, approval, trades and settlement. Shared plans persist and wake on an event or deadline. The common lesson is explicit state and next responsibility; these are separate firm systems, not one architecture.
+
+These lifecycle decisions also define the engineer's own improvement system.

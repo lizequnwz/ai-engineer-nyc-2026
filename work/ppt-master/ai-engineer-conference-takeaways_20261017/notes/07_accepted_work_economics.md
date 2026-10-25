@@ -1,11 +1,11 @@
-Token reduction and faster drafting are intermediate results. Compare equivalent completed tasks at an agreed standard, and count unsuccessful attempts, tool use, review, rework and operation before claiming an economic improvement.
+Cost per accepted task means total workflow cost divided by accepted tasks. All the unsuccessful work belongs in the numerator too: retries, abandoned runs, candidate selection, investigation, review and repair.
 
-Count the work people retain. A reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandoned runs and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit cost so narrower coverage cannot masquerade as improvement.
+Report accepted-task rate alongside unit cost. Otherwise a system can look cheaper simply because it quietly stops attempting difficult cases.
 
-Prepare context deliberately. Credit Karma describes selection/pruning, reranking, deduplication and compression. An Artifactory demo reports 24,000 to 2,400 tokens. Use that as an experiment to reproduce: measure required-fact coverage, answer quality and review effort before adopting the reduction.
+Credit Karma supplies a concrete context-preparation example. Its Artifactory demonstration reports reducing context from twenty-four thousand to twenty-four hundred tokens through selection, reranking, deduplication and compression. That is a reported token-use demonstration. It does not establish equal answer quality or a general latency improvement.
 
-Optimize the actual bottleneck. Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse.
+The practical experiment measures required-fact coverage, final quality, review effort and stage timing together. A faster generation stage can still leave the complete job slower. A smaller prompt can omit the one definition that matters.
 
-The proposed unit measure is total workflow cost divided by accepted tasks. Credit Karma’s Artifactory demonstration reports context use changing from twenty-four thousand to twenty-four hundred tokens; equivalent quality and end-to-end time still need testing.
+We should optimize the current bottleneck while preserving the acceptance standard, rather than choose whichever intermediate metric moves most dramatically.
 
-The primary source accounts for this page are Intuit Credit Karma at https://ai.engineer/nyc/2026/talks/credit-karma; Jellyfish at https://ai.engineer/nyc/2026/talks/jellyfish; Ramp · Alexander Shevchenko keynote at https://ai.engineer/nyc/2026/talks/ramp.
+Now we can examine the evidence that makes an accepted financial answer defensible.

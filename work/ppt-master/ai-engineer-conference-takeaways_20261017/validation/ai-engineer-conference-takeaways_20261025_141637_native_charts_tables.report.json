@@ -2,20 +2,20 @@
   "schema": "ppt-master.pptx-postflight-report.v1",
   "status": "passed",
   "output": {
-    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/exports/ai-engineer-conference-takeaways_20261025_065805_native_charts_tables.pptx",
-    "bytes": 192049
+    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/exports/ai-engineer-conference-takeaways_20261025_141637_native_charts_tables.pptx",
+    "bytes": 190071
   },
   "source": {
     "svg_slide_count": 37,
     "layout_definition_count": 0,
     "fingerprint": {
       "algorithm": "sha256",
-      "digest": "bd72e8c9449836faacda4a59d0683abea089cb25c903ef311a70ffda5d81d485",
+      "digest": "5251a367730782f0083196058f783d91e073be897150efb3295efa9d9f05d419",
       "file_count": 37,
       "files": [
         {
           "file": "01_dependable_work.svg",
-          "sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
+          "sha256": "8444288a8cee968b738c32e27f99d8816ce81d977fc56df487866405af6b2008"
         },
         {
           "file": "02_five_disciplines.svg",
@@ -23,7 +23,7 @@
         },
         {
           "file": "03_reviewed_work_product.svg",
-          "sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
+          "sha256": "42c0aaffb6976532b737c360988ff1b75fe7d4de2af61ad3dd1edf14a1503116"
         },
         {
           "file": "04_financial_bottlenecks.svg",
@@ -43,11 +43,11 @@
         },
         {
           "file": "08_evidence_boundary.svg",
-          "sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
+          "sha256": "13ea298fa770eb37e044de171f3616e43715047ac6870e969d10c0bd3b72dba9"
         },
         {
           "file": "09_retrieval_objectives.svg",
-          "sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
+          "sha256": "e4f95780ea97bfe94d6ebddf480edbf26618412580f12d73de7a7dc396a3d7f2"
         },
         {
           "file": "10_typed_facts.svg",
@@ -55,7 +55,7 @@
         },
         {
           "file": "11_stale_source_example.svg",
-          "sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
+          "sha256": "20c2e0ba1d7ef83a7978b933fc14ebcca23344a46f594a88d2ec1fedb4fb3e13"
         },
         {
           "file": "12_inspectable_artifact.svg",
@@ -75,7 +75,7 @@
         },
         {
           "file": "16_paired_ablations.svg",
-          "sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
+          "sha256": "59e6727598f1b709b1677576a2fe299ea032eca3497ad0753b66bb30bb0876e3"
         },
         {
           "file": "17_release_decision.svg",
@@ -83,11 +83,11 @@
         },
         {
           "file": "18_controlled_improvement.svg",
-          "sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
+          "sha256": "ff47fe6efbb6fb8e6c00cb06f9c3fbc931ced6b1eae3fd28ca0f37713283e1ff"
         },
         {
           "file": "19_expert_skills.svg",
-          "sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
+          "sha256": "47a000ebcb6c83d92ee676f08d4ea0323c3c19b2020e3c3bf655cda4b5a65ee0"
         },
         {
           "file": "20_draft_review_authority.svg",
@@ -103,7 +103,7 @@
         },
         {
           "file": "23_financial_invariants.svg",
-          "sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
+          "sha256": "853787098619721ab6d355c75213fef140a2392e60488cbeff819d86aaa931e9"
         },
         {
           "file": "24_engineer_operating_loop.svg",
@@ -191,18 +191,18 @@
   },
   "quality": {
     "status": "loaded",
-    "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/svg_quality_report.json",
+    "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/validation/svg_quality_report.json",
     "schema": "ppt-master.svg-quality-report.v1",
     "stage": "final",
     "source_match": "passed",
     "source_fingerprint": {
       "algorithm": "sha256",
-      "digest": "bd72e8c9449836faacda4a59d0683abea089cb25c903ef311a70ffda5d81d485",
+      "digest": "5251a367730782f0083196058f783d91e073be897150efb3295efa9d9f05d419",
       "file_count": 37,
       "files": [
         {
           "file": "01_dependable_work.svg",
-          "sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
+          "sha256": "8444288a8cee968b738c32e27f99d8816ce81d977fc56df487866405af6b2008"
         },
         {
           "file": "02_five_disciplines.svg",
@@ -210,7 +210,7 @@
         },
         {
           "file": "03_reviewed_work_product.svg",
-          "sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
+          "sha256": "42c0aaffb6976532b737c360988ff1b75fe7d4de2af61ad3dd1edf14a1503116"
         },
         {
           "file": "04_financial_bottlenecks.svg",
@@ -230,11 +230,11 @@
         },
         {
           "file": "08_evidence_boundary.svg",
-          "sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
+          "sha256": "13ea298fa770eb37e044de171f3616e43715047ac6870e969d10c0bd3b72dba9"
         },
         {
           "file": "09_retrieval_objectives.svg",
-          "sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
+          "sha256": "e4f95780ea97bfe94d6ebddf480edbf26618412580f12d73de7a7dc396a3d7f2"
         },
         {
           "file": "10_typed_facts.svg",
@@ -242,7 +242,7 @@
         },
         {
           "file": "11_stale_source_example.svg",
-          "sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
+          "sha256": "20c2e0ba1d7ef83a7978b933fc14ebcca23344a46f594a88d2ec1fedb4fb3e13"
         },
         {
           "file": "12_inspectable_artifact.svg",
@@ -262,7 +262,7 @@
         },
         {
           "file": "16_paired_ablations.svg",
-          "sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
+          "sha256": "59e6727598f1b709b1677576a2fe299ea032eca3497ad0753b66bb30bb0876e3"
         },
         {
           "file": "17_release_decision.svg",
@@ -270,11 +270,11 @@
         },
         {
           "file": "18_controlled_improvement.svg",
-          "sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
+          "sha256": "ff47fe6efbb6fb8e6c00cb06f9c3fbc931ced6b1eae3fd28ca0f37713283e1ff"
         },
         {
           "file": "19_expert_skills.svg",
-          "sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
+          "sha256": "47a000ebcb6c83d92ee676f08d4ea0323c3c19b2020e3c3bf655cda4b5a65ee0"
         },
         {
           "file": "20_draft_review_authority.svg",
@@ -290,7 +290,7 @@
         },
         {
           "file": "23_financial_invariants.svg",
-          "sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
+          "sha256": "853787098619721ab6d355c75213fef140a2392e60488cbeff819d86aaa931e9"
         },
         {
           "file": "24_engineer_operating_loop.svg",
@@ -427,6 +427,6 @@
     },
     "narration_timings": false
   },
-  "backup_path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/backup/20261025_065805/svg_output",
+  "backup_path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/backup/20261025_141637/svg_output",
   "conversion_trace_path": null
 }

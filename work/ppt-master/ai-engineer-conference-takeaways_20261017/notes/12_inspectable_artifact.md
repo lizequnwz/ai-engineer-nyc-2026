@@ -1,9 +1,11 @@
-Financial work often ends in a workbook, report or presentation. Inspectable chat output is insufficient if an export loses provenance, carries an old calculation or hides a contradictory period in a polished chart.
+Financial work commonly ends in a workbook, report or presentation. A correct intermediate value can become misleading when the exported chart loses its unit, period or source version.
 
-Preserve the claim chain. OpenAI’s finance presentation connects source passages and tables to charts and reusable artifacts. Carry the material value, period, unit and source into the deliverable. Reconcile the document with the current evidence after a correction rather than treating export as a cosmetic step.
+OpenAI's finance presentation connects source passages and tables with charts and reusable artifacts. It gives us an interface direction, rather than evidence of universal availability or verified numerical accuracy.
 
-Check collaborative scope. Compound AI describes shared deal threads, an agent inbox and longer artifact work. Permissions must follow participants and source material, not only the connector. Inspect workbook depth, file coverage and final fidelity separately; vendor architecture is not independently verified Office parity.
+Compound describes shared deal threads, an agent inbox and longer artifact work. Participant access and source permissions still need to survive collaboration. Its architecture does not independently establish complete Office parity.
 
-Review the current saved artifact. Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable.
+The practical discipline is write, render, check and fix, followed by inspecting the saved artifact again after the final edit. Check the actual deliverable: current values, source references, complete tables and visible limits.
 
-The primary source accounts for this page are OpenAI at https://ai.engineer/nyc/2026/talks/openai; Compound AI at https://ai.engineer/nyc/2026/talks/compound.
+Passing a code check, or reviewing an earlier preview, cannot establish that the document now being shared is correct and usable.
+
+With that work product in view, evaluation becomes much more concrete.

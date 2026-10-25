@@ -142,22 +142,28 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
   - Bridgewater targets relevant investment information; Range packages expert planning; wealth firms augment preparation and follow-through. Name the scarce resource and accepted work product first.
   - Trace source, meaning, time, access, action and corrections through the delivered artifact. Ramp ablations and Arize trace analysis motivate a bounded comparison; neither a model choice nor a benchmark resolves the whole job.
 
-#### Slide 03 - Design for a reviewed financial work product
+#### Slide 03 - Reconcile inputs before preparing the work product
 
 - **Audience move**: Replace response generation with an explicit acceptance decision.
 - **Relationships**: membership: investment insight, planning analysis and financial communication are three useful completion units.
-- **Title**: Design for a reviewed financial work product
+- **Title**: Reconcile inputs before preparing the work product
 - **Core message**: Contour: compare research with and without AI; an accepted insight is not demonstrated investment alpha.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Decompose the decisionCoatue models investing as contexttransformed into selection, sizeand timing. Break the work intocollection, interpretation,checking and judgment. A step mayuse code, classical ML, an LLM or aperson; the objective is a sounddecision process rather thanmaximum LLM coverage.
-  - Observe the real workflowApollo/Redding Ridge describesportfolio preparation for PMrefinement and recurring financingreports followed by team QA.Reconciliation means learning whyone feed is authoritative, notmerely joining files. Define whichdeliverable is accepted, who checksit and which corrections remain.
-  - Preserve professionalattentionRange drafts planning work whileprofessionals serve clients; theplanner reviews recommendations andthe agent sends nothing. Time savedbecomes valuable when it improvesaccepted capacity or attention toconsequential judgment. Draftvolume alone does not establishbetter advice, revenue orinvestment outcomes.
+  - 01 / Resolve conflicting feeds Which source governs this task, and why?
+  - 02 / Prepare a mock portfolio Agent prepares; portfolio manager refines.
+  - Separate / recurring reports Warehouse financing and trade reconciliation.
+  - Observe the actual workflow Embedded engineers learn source precedence and professional exceptions before automating preparation.
+  - Keep judgment explicit The described structured-credit workflow retains PM refinement and daily QA; it is not unconstrained portfolio management.
+  - Measure accepted work Days-to-minutes is reported. Full review cost and a controlled comparison are not supplied; measure corrections and total cycle time.
 
 - **Sources**: S01, S02, S03; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+- **Story revision / geometry signature**: Source precedence → preparation → PM refinement / QA; open order across editorial fields.
+- **Timing**: 1.5 minutes, rehearsal estimate.
 #### Slide 04 - Match the system to the decision and its budget
 
 - **Audience move**: Compare workflows on their own bottleneck.
@@ -224,33 +230,42 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 08 - Ground facts and memory in time and access
+#### Slide 08 - A changing belief needs a dated evidence trail
 
 - **Audience move**: Put the evidence boundary before persuasive synthesis.
 - **Relationships**: order: scoped request, authorized evidence boundary and reviewed meaning produce context and supported claims.
-- **Title**: Ground facts and memory in time and access
+- **Title**: A changing belief needs a dated evidence trail
 - **Core message**: Bridgewater Vault combines internal/external research, news and transcripts using market, country, concept and time. Resolve entity, decision and information cutoff before retrieval.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Set the evidence boundaryBridgewater’s Vault organizesresearch by source, market,country, concept and discussedperiod. Apply entitlements and timeconstraints before synthesis. Acorrect answer to a neighboringperiod, entity or definition isstill a failure of the requestedtask.
-  - Preserve changing beliefsCitadel Securities separatesreported project status fromevidence-based status, keepshistorical records, ages claims andcompares earlier predictions withlater outcomes. Models proposeupdates; code and people decidewhat enters the record. This isricher than retrieving the latestmatching sentence.
-  - Treat missing signalshonestlyA quiet source can mean acollection problem rather thaninactivity. Preserve last observedtime, source health and correctionhistory; unknown is not zero. Ourcombined evidence contract addsversioned definitions and as-ofsnapshots, without claiming asingle firm implemented everyfield.
+  - Earlier / monthly deck Reported project status: green.
+  - Newer / message or attachment An unresolved dependency changes the assessment.
+  - Retain both records Reported status ≠ evidence-supported status. Keep the reason for change.
+  - Reconstruction of a narrated example; no prediction result is measured.
+  - Do not overwrite history Attach evidence, source and observation time. Earlier snapshots must reflect what was knowable then.
+  - Govern the commit Models propose updates; code and people accept corrections. Preserve contradictions and aging evidence.
+  - Missing signal ≠ zero A quiet feed may be a collection failure. Track source health and mark uncertainty before inferring progress.
 
 - **Sources**: S04, S08, S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 09 - Test relevance, coverage and restrictive filters
+
+- **Story revision / geometry signature**: Dated evidence progression → retained distinct records; asymmetric chronology, not binary automatic judgment.
+- **Timing**: 2 minutes, rehearsal estimate.
+#### Slide 09 - Bridgewater makes timely retrieval a learning loop
 
 - **Audience move**: Evaluate retrieval and final human-facing synthesis separately.
 - **Relationships**: contrast: human review and agent evidence collection emphasize different objectives with shared evidence checks.
-- **Title**: Test relevance, coverage and restrictive filters
+- **Title**: Bridgewater makes timely retrieval a learning loop
 - **Core message**: Vault notes emphasize human precision, signal-to-noise and small reviewable sets; agents may need broader recall and scale. Neither consumer can ignore relevance, access, meaning or freshness.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - {"schema":"ppt-master.semantic-table.v2","name":"retrieval-objectives","x":48,"y":184,"width":1184,"height":262,"column_widths":[240,472,472],"row_heights":[52,70,70,70],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Design question","bold":true},{"text":"Human-facing search","bold":true},{"text":"Agent-facing retrieval","bold":true}],"rows":[["Observed emphasis","Precision and signal-to-noise.","Recall and scale."],["Consumption","A compact, reviewable result set.","Fast processing of more evidence."],["Shared requirements","Relevance, permission, meaning and freshness.","Relevance, permission, meaning and freshness."]]} Design questionHuman-facing searchAgent-facing retrieval Observed emphasisPrecision and signal-to-noise.Recall and scale.ConsumptionA compact, reviewable result set.Fast processing of more evidence.Shared requirementsRelevance, permission, meaning and freshness.Relevance, permission, meaning and freshness.
-  - Reported internal benchmark: ~200 labeled questions; precision@10 ~60% → 90–95%.The speaker corrects “recall” to precision. No held-out design, uncertainty or investment result is supplied.
-  - Test sparse time/source/asset filters, no-evidence cases and required-source coverage before compression. Theninspect retained meaning, omissions and human review effort in the final brief.
+  - Problem: a relevant-looking July source may be stale for an October research question.
+  - Decision Reported mechanism Test independently Eligible evidence Time · source · asset · access Restrictive filters; sparse / empty matches Relevance ~200 labeled questions; plausible negatives Precision@10 ~60% → 90–95% reported Usable brief Saved search → evidence card → feedback Required coverage, omissions and review
+  - Preserve the metric The speaker corrects recall to precision. No held-out design or uncertainty is supplied.
+  - Separate the end result Retrieval relevance does not establish final-answer correctness, investment performance or alpha.
+  - Fit investor habits Agents gather broadly; people inspect concise evidence. A demo’s source count is not a quality benchmark.
 
 - **Visualization**: table/comparison_matrix; keyed independent table object: retrieval-objectives.
 - **Native-ready**: retrieval-objectives=yes
@@ -258,6 +273,9 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+- **Story revision / geometry signature**: Decision × mechanism × test; semantic grid with one timely-question anchor.
+- **Timing**: 2 minutes, rehearsal estimate.
 #### Slide 10 - Resolve the fact; compute; verify the final claim
 
 - **Audience move**: Separate arithmetic reproducibility from evidence validity.
@@ -275,23 +293,27 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 11 - Correct arithmetic can still answer the wrong question
+#### Slide 11 - The right answer depends on the information cutoff
 
 - **Audience move**: Diagnose stale-source selection independently of calculation.
 - **Relationships**: contrast: final and superseded source versions both permit valid arithmetic but answer different temporal questions.
-- **Title**: Correct arithmetic can still answer the wrong question
+- **Title**: The right answer depends on the information cutoff
 - **Core message**: Entirely synthetic AsterCo question: FY2025 revenue growth as of March 1, 2026. All companies, documents, dates and amounts are invented; units are USD millions.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Entirely synthetic AsterCo question: FY2025 revenue growth as of March 1, 2026. All companies, documents, dates and amounts are invented; units are USD millions.
-  - D1 FY2024 final 100, published February 1, 2025. D2 FY2025 preliminary 118, published January 15, 2026. D3 FY2025 final 120, published February 1, 2026; D3 supersedes D2 and is eligible by the cutoff.
-  - (118−100)/100 gives 18%; (120−100)/100 gives 20%. Both arithmetic operations are valid; only the latter uses the required current source. Preserve rejected versions and propagate source corrections into narrative, table and chart.
-  - Test missing, conflicting, restated and unauthorized evidence before claiming dependable analysis.
+  - Published Invented document Revenue / USD m 2025-02-01 FY2024 final 100 2026-01-15 FY2025 preliminary 118 2026-02-01 FY2025 final 120
+  - January 20 cutoff → 18% (118 − 100) / 100. Preliminary; final not yet available.
+  - March 1 cutoff → 20% (120 − 100) / 100. Final source now eligible.
+  - Correct arithmetic cannot repair the wrong information set. Retain publication dates and selection reasons; update each dependent sentence, table and chart. All documents and values here are invented.
+
 - **Visualization**: table/record_table; keyed independent table object: source-versions.
 - **Native-ready**: source-versions=yes
 - **Data class**: scenario — the AsterCo/company documents/dates/values, cash-flow/client amounts, scoring scale and fail/pass/fail attempt sequence are invented teaching examples.
 - **Sources**: S09; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
+
+- **Story revision / geometry signature**: Document publication grid plus contrasted cutoffs; information eligibility, not a quantitative timeline.
+- **Timing**: 2 minutes, rehearsal estimate.
 #### Slide 12 - Keep evidence intact through the exported artifact
 
 - **Audience move**: Evaluate what the reviewer actually receives.
@@ -360,16 +382,20 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Data class**: scenario — the AsterCo/company documents/dates/values, cash-flow/client amounts, scoring scale and fail/pass/fail attempt sequence are invented teaching examples.
 - **Sources**: S10, S12, S13, E05; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
-#### Slide 16 - Ablate skills; evaluate memory after time advances
+#### Slide 16 - Memory must refresh facts as the business moves on
 
 - **Audience move**: Make context, skill, memory and model changes accountable.
 - **Relationships**: contrast: baseline and candidate share tasks and assessment conditions while one component changes.
-- **Title**: Ablate skills; evaluate memory after time advances
+- **Title**: Memory must refresh facts as the business moves on
 - **Core message**: Replay matched tasks with the same snapshots, permissions, rubric/evaluator version and attempt policy. Change one component where feasible and repeat stochastic assessments to inspect uncertainty and paired failures.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - {"schema":"ppt-master.semantic-table.v2","name":"paired-variants","x":48,"y":184,"width":1184,"height":356,"column_widths":[340,390,454],"row_heights":[52,76,76,76,76],"style":{"font_family":"Arial","font_size":18,"header_font_size":18,"header_fill":"#102E3A","header_text":"#FFFDF7","body_text":"#132F3B","band_row":false,"padding":{"left":16,"right":16,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CBD4D1","width":1}}}},"columns":[{"text":"Change / fixture","bold":true},{"text":"Reported result","bold":true},{"text":"Local test question","bold":true}],"rows":[["Eight skills → four","+2.8 mean-score points / six worlds","Inspect per-world regressions and essential criteria."],["Spreadsheet skill compressed 61%","Quality essentially unchanged","Check retained method and all workflow costs."],["Trajectory-distilled memory","+5.7 points over skills alone","Next-period work; fresh amounts; changed rules."],["Roll-forward worlds","Same business, next period","Preserve process knowledge; remove stale amounts."]]}Change / fixtureReported resultLocal test questionEight skills → four+2.8 mean-score points / six worldsInspect per-world regressions and essentialcriteria.Spreadsheet skill compressed 61%Quality essentially unchangedCheck retained method and all workflow costs.Trajectory-distilled memory+5.7 points over skills aloneNext-period work; fresh amounts; changedrules.Roll-forward worldsSame business, next periodPreserve process knowledge; remove staleamounts.
-  - Source: Ryan Stevens’s October 14 article, not Alexander Shevchenko’s keynote. Point gains are workload-specificreports, not predicted improvement for another team. Hold tasks, evaluator and attempt budget fixed; protect aseparate assessment set.
+  - Invented period Invoices Ledger Unexplained gap January 12,400 12,000 400 February 15,000 13,900 1,100
+  - Stale fact “Last month the gap was 400.”
+  - Reusable procedure Fetch current records → match IDs → explain or flag the gap.
+  - Test temporal transfer Refresh amounts; retain the method. Add a changed approval rule as a separate proposed test.
+  - Inspect regressions Reported gain: +5.7 score points over skills alone. Later worlds improve and regress.
+  - Keep the scope Separate written account, not the keynote. Invented amounts grant no permission to post.
 
 - **Visualization**: table/comparison_matrix; keyed independent table object: paired-variants.
 - **Native-ready**: paired-variants=yes
@@ -377,6 +403,9 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+- **Story revision / geometry signature**: Period × amounts grid plus stale fact versus reusable procedure; table and contrasting prose fields.
+- **Timing**: 2.25 minutes, rehearsal estimate.
 #### Slide 17 - A repair must not hide a consequential regression
 
 - **Audience move**: Avoid compensating away severe failure.
@@ -394,39 +423,50 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 18 - A balanced result can still come from a bad process
+#### Slide 18 - A balanced answer can conceal a fabricated adjustment
 
 - **Audience move**: Keep diagnosis distinct from permission to change production.
 - **Relationships**: order: observe, adjudicate, reproduce/test a repair, authorize scoped release and monitor.
-- **Title**: A balanced result can still come from a bad process
+- **Title**: A balanced answer can conceal a fabricated adjustment
 - **Core message**: Capture request, available sources/permissions, tool interactions, output, human correction and versions under existing trace access rules. Classify evidence, reasoning, runtime and evaluator defects.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - Separate applicability and adherenceA behavior evaluator first asks whether the situation arose, thenwhether the expected conduct occurred. Not applicable is not acompliance pass. Choose sparse consequential expectations such asinvestigating a discrepancy or consulting the required primary source;keep outcome grading too.
-  - Fork near the bad decisionReconstruct prompts, tools, state and environment immediately beforethe failure. Change one hypothesis and repeat. In Basis’s illustratedrepair, the review tool must accept an explained discrepancy ratherthan incentivize an invented balancing entry. More prompt emphasisalone may leave that conflict intact.
-  - BASIS / ILLUSTRATED FAILUREZero variance is not enoughThe agent cannot find support fora discrepancy, posts an adjustmentanyway and reports a balancedresult. The review tool rewardedthe wrong goal.Accept a sourced explanation; donot invent a balancing entry.
+  - 01 / Find discrepancy Supporting entry cannot be found.
+  - 02 / Take shortcut Agent posts an unsupported adjustment.
+  - 03 / Appear successful Variance = zero; accounting process failed.
+  - Conflicting tool: only accepts a tying reconciliation. Repair to test: accept a sourced explanation or flagged gap.
+  - Behavior specification First ask: applicable? Then: adhered? Not applicable is a separate state, not a pass.
+  - Fork before the decision Reconstruct state and test the incentive hypothesis. Prompt changes alone sometimes helped; tool design mattered.
+  - Verify beyond one replay A simulated branch is cheaper and less faithful. Reproduce in the real environment and inspect repeated trials and regressions.
 
 - **Sources**: S14, S11, S10, S13; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 19 - Expert skills need owners, reasons and boundaries
+
+- **Story revision / geometry signature**: Unsupported step in an ordered failure; competing tool-acceptance contracts contrasted below.
+- **Timing**: 2.25 minutes, rehearsal estimate.
+#### Slide 19 - Range drafts in parallel; planners retain authority
 
 - **Audience move**: Treat skills as owned work instructions.
 - **Relationships**: order: Pick, Teach, Pack, Test and Ship turn a repeatable professional method into a maintained skill.
-- **Title**: Expert skills need owners, reasons and boundaries
+- **Title**: Range drafts in parallel; planners retain authority
 - **Core message**: Range planners distinguish general knowledge from their firm’s planning method. Pick repeatable work with recognizable success; Teach a representative case and why each decision is made.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - PickTeachPackTestShip
-  - Pick and teach a whole taskChoose repeated work whose successa professional can recognize. Useprior cases to explain whatinformation matters, how the firmreasons and why a branch exists. Arecording of clicks without thereason cannot reliably guide a newor incomplete situation.
-  - Pack the boundariesInclude required inputs,clarification questions,exceptions, stopping conditions andthe handoff. Test missing facts andconflicting instructions as well asordinary completion. The speaker’sfive-to-ten-case routine startsiteration; it does not demonstratestatistical reliability or replacebroader assessment.
-  - Ship with maintenanceAssign an owner and a separatereviewer, keep the method currentand retest changes. Range’s agentsends nothing and everyrecommendation is reviewed by aplanner. Measure corrected,accepted work before claimingcapacity gains; the transcriptprovides a method rather than acontrolled outcome study.
+  - PLANNER Client conversation → professional review → controlled delivery AGENT Parallel analysis → reviewable draft → no client send
+  - Pick  →  Teach  →  Pack  →  Test  →  Ship
+  - Teach the reasons Capture required facts, branching questions and stopping conditions. Click sequences alone do not transfer judgment.
+  - Test the exceptions Missing or conflicting information belongs in the cases. Five to ten cases starts iteration; it does not prove reliability.
+  - Own the method Assign an owner and separate reviewer. Retest changes and measure accepted work plus correction effort before claiming capacity.
 
 - **Sources**: S02; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+- **Story revision / geometry signature**: Professional and agent membership lanes; parallel work precedes a maintained five-step method.
+- **Timing**: 1.5 minutes, rehearsal estimate.
 #### Slide 20 - Let agents iterate inside explicitly gated stages
 
 - **Audience move**: Separate arithmetic, advice and action.
@@ -477,23 +517,27 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
-#### Slide 23 - Long-running work needs state and deliberate recovery
+#### Slide 23 - Unknown execution outcomes require deliberate recovery
 
 - **Audience move**: Separate migration correctness from AI’s unmeasured contribution.
 - **Relationships**: order: producer migration, replicated gold-copy state and consumer migration have distinct financial consistency responsibilities.
-- **Title**: Long-running work needs state and deliberate recovery
+- **Title**: Unknown execution outcomes require deliberate recovery
 - **Core message**: Vanguard’s agenda-only ledger account separates producer onboarding, gold-copy replication/CDC synchronization and decoupled consumer migration/GraphQL access.
 - **Composition**: Page-fit native explanation following the stated relationship; preserve the working example and limits.
 - **Content**:
-  - InterpretValidate / approveWait / resumeResolve outcome
-  - Persist the handoffKeep the goal, approved plan,completed work, evidence and nextresponsible party outside adisposable run. Wake on a clientreply, approval, settlement eventor deadline. A new invocationshould know what happened and whatremains, without assuming everyprior action failed.
-  - Freeze the approved actionPerpetual separates provisionalinterpretation from a compiled planand binds approval to the exactoutgoing payload. Clarification orrefusal can be correct outcomes.Changes to a client reply must notsilently rewrite the approvedparent plan or inherit permissionfor a different action.
-  - Distinguish unknown fromfailedA timeout after an external writecan leave the outcome unknown.Blind retries can duplicate anaction. Route uncertainty toreconciliation or manual review;test interruptions around theside-effect boundary. Vanguard’sseparate modernization storyreinforces invariants andobservability, not unconstrainedautonomy.
+  - PERPETUAL / EXACT-PAYLOAD APPROVAL Approve payload → dispatch request → timeout Teaching reconstruction: an approved email request loses its response.
+  - Possible world A The provider sent the email.
+  - Possible world B The provider did not send it.
+  - Outcome unknown ≠ failed Reconcile observable state or route to manual review before retry. A changed payload requires new authority.
+  - ARCA / DISTINCT SYSTEM Service spans days A narrated tax-payment plan waits for replies, approval, trades and settlement. Persist the plan and next owner. Wake on an event or deadline. Illustrative story; no measured reliability result. The timeout at left is not a reported incident.
 
 - **Sources**: S17; identities/URLs in sources/conference-deck.json, with material qualifications retained in content and notes.
 
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+- **Story revision / geometry signature**: Dispatch uncertainty branches into two possible worlds, then one review boundary; Arca owns a separate service lane.
+- **Timing**: 2 minutes, rehearsal estimate.
 #### Slide 24 - Persist progress; make execution authority temporary
 
 - **Audience move**: Build professional growth around reviewable engineering decisions.
@@ -722,3 +766,7 @@ Whole-roster review selected no image job. Financial controls, typed facts, work
 - **Presentation purpose**: Teach financial-services AI mechanisms and methods from the conference, not an application improvement plan
 
 - **Recording revision**: October 25; preserve source classes in notes.
+
+## Live-story and presenter revision — October 25, 2026
+
+Eight core pages (03, 08, 09, 11, 16, 18, 19, 23) now use concrete situations, decisions and failure modes. The existing 29-page live route remains a 40-minute rehearsal target, plus discussion. Pacing and spoken notes come from sources/presenter-script.json, shared with the HTML. The stand-alone presenter guide adds cues, transitions, a roughly 25-minute route and eight Q&A. Reported accounts and teaching reconstructions stay distinct.

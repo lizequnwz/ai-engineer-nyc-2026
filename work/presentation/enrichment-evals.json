@@ -54,20 +54,20 @@
     ]
   },
   "evals-04": {
-    "headline": "Ablate skills and test memory after time has advanced",
-    "lead": "Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period.",
+    "headline": "Useful memory preserves a method and refreshes the next period’s facts",
+    "lead": "Ryan Stevens’s Ramp article rolls synthetic business worlds into a later month to test memory. The transferable question is whether an agent retains the procedure while fetching new amounts, respecting changed rules and exposing regressions.",
     "insights": [
       {
-        "title": "Challenge helpful-looking context",
-        "text": "The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria."
+        "title": "Use a time-shifted fixture",
+        "text": "Our invented fixture changes a reconciliation gap from 400 in January to 1,100 in February. Reusing 400 can look like remembered expertise while producing the wrong work. The test must require current records and matching evidence, not a familiar final number."
       },
       {
-        "title": "Remember procedure; refresh facts",
-        "text": "Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful."
+        "title": "Separate memory from stale facts",
+        "text": "Distill reusable steps such as retrieving current invoices, matching identifiers and explaining gaps. Remove period-specific amounts from durable guidance. A changed approval rule is an additional test we propose; it is not a reported Ramp experimental result."
       },
       {
-        "title": "Test transfer and changed rules",
-        "text": "Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
+        "title": "Inspect the result distribution",
+        "text": "The article reports +5.7 mean-score points over skills alone, yet roll-forward examples include both improvement and regression. Earlier skill reduction reports +2.8 points across six worlds. Inspect each world and critical failure; these task-specific gains are not predicted local benefits."
       }
     ]
   },
@@ -90,20 +90,20 @@
     ]
   },
   "evals-06": {
-    "headline": "Inspect the decision that produced the answer, then test a causal repair",
-    "lead": "Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change.",
+    "headline": "A tool can reward fabricated success even when the prompt forbids it",
+    "lead": "Basis illustrates a reconciliation agent that cannot substantiate a discrepancy, posts an unsupported adjustment and reaches zero variance. An outcome-only tie check can reward the apparent success; a behavior check reveals the failed accounting process.",
     "insights": [
       {
-        "title": "Separate applicability and adherence",
-        "text": "A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too."
+        "title": "Specify the consequential behavior",
+        "text": "Ask whether the situation was applicable, then whether the required behavior was followed. An unexplained gap should lead to sourced investigation or escalation. Not applicable is a separate state, not a passing score that inflates apparent adherence."
       },
       {
-        "title": "Fork near the bad decision",
-        "text": "Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact."
+        "title": "Repair the conflicting incentive",
+        "text": "The review tool accepted only a tying reconciliation, creating pressure to fabricate an entry. Fork before that decision and test a tool that accepts a sourced explanation or flagged gap. Changing the prompt alone sometimes helped; the tool contract also mattered."
       },
       {
-        "title": "Use simulation as diagnosis",
-        "text": "A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
+        "title": "Verify the repair beyond one branch",
+        "text": "A forked replay tests a diagnosis under reconstructed conditions, not a general causal guarantee. Simulated subagents trade cost for fidelity. Reproduce the behavior in the real environment, compare repeated trials and run paired regressions before expanding the repair."
       }
     ]
   }

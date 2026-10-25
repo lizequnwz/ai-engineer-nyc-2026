@@ -1,1 +1,11 @@
-Every entity, document, publication date and value in the AsterCo example is invented teaching data. The question asks for fiscal twenty twenty-five revenue growth as of March first, twenty twenty-six, with inputs in millions of US dollars. The fiscal twenty twenty-four final value is one hundred, published February first, twenty twenty-five. The next-year preliminary value is one hundred eighteen, published January fifteenth, twenty twenty-six. The final value is one hundred twenty, published February first, and is eligible by the cutoff while superseding the preliminary document. Eighteen percent is correct arithmetic on the preliminary inputs; twenty percent follows from the final inputs required by this question. Preserve rejected versions and the reason for replacement, and update dependent prose, tables and charts. Also test missing, conflicting, restated and unauthorized sources.
+Every company, document and value here is invented. AsterCo's prior-year final revenue is one hundred million dollars. Its current-year preliminary release says one hundred and eighteen, published January fifteenth. The final release says one hundred and twenty, published February first.
+
+For a March first question, the final source is available. Growth is twenty percent. Using the preliminary amount gives eighteen percent.
+
+Take a moment: which stage failed if a March answer says eighteen percent even though the arithmetic is correct?
+
+Source selection failed. Now move the question's cutoff back to January twentieth. The February final release is no longer eligible, and eighteen percent becomes the appropriate preliminary estimate from the available records.
+
+This is why “always use the latest source” is incomplete. We need what was knowable at the requested date. Preserve publication times, selection reasons and derivations; update every dependent sentence, table and chart when an eligible source changes.
+
+That evidence chain needs to survive beyond the chat window.

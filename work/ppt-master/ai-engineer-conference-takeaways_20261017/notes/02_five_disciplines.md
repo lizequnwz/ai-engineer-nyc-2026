@@ -1,1 +1,9 @@
-Dependable financial AI is a complete job, not a model in isolation. Begin by defining valuable accepted work and credible economics. Ground that work in sources, meaning, time, versions and access; evaluate the task, judge, answer selection and release; then encode expert methods and enforce authority through reliable workflows. The engineer owns the improvement loop across all five responsibilities. Bridgewater’s information problem, Range’s planning method and wealth preparation illustrate distinct bottlenecks. Name the accepted output and scarce resource before choosing a tool. Trace definitions, actions and corrections through the final artifact, and use Ramp’s ablations and Arize’s diagnosis ideas to make one bounded, reviewable comparison.
+The five chapters follow the life of a useful system.
+
+Strategy establishes which work matters. Grounding establishes what the evidence means and which evidence is eligible. Evaluation establishes what completed work looks like and how failures become visible. Workflows establish which actions can happen and how progress survives interruptions. Growth brings those responsibilities together in the engineer's daily practice.
+
+These are connected decisions. A better retrieval result can still become an unsupported sentence. A good draft can still be sent without permission. A cheaper model can still create more review work.
+
+The company examples make those connections concrete. The goal is to leave with a method for choosing and testing the next improvement, rather than a list of products.
+
+First, we need a better definition of the thing we are trying to deliver.

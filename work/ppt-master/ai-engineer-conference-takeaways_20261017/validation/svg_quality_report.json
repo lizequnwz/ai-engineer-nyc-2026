@@ -4,12 +4,12 @@
   "target": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "bd72e8c9449836faacda4a59d0683abea089cb25c903ef311a70ffda5d81d485",
+    "digest": "5251a367730782f0083196058f783d91e073be897150efb3295efa9d9f05d419",
     "file_count": 37,
     "files": [
       {
         "file": "01_dependable_work.svg",
-        "sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
+        "sha256": "8444288a8cee968b738c32e27f99d8816ce81d977fc56df487866405af6b2008"
       },
       {
         "file": "02_five_disciplines.svg",
@@ -17,7 +17,7 @@
       },
       {
         "file": "03_reviewed_work_product.svg",
-        "sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
+        "sha256": "42c0aaffb6976532b737c360988ff1b75fe7d4de2af61ad3dd1edf14a1503116"
       },
       {
         "file": "04_financial_bottlenecks.svg",
@@ -37,11 +37,11 @@
       },
       {
         "file": "08_evidence_boundary.svg",
-        "sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
+        "sha256": "13ea298fa770eb37e044de171f3616e43715047ac6870e969d10c0bd3b72dba9"
       },
       {
         "file": "09_retrieval_objectives.svg",
-        "sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
+        "sha256": "e4f95780ea97bfe94d6ebddf480edbf26618412580f12d73de7a7dc396a3d7f2"
       },
       {
         "file": "10_typed_facts.svg",
@@ -49,7 +49,7 @@
       },
       {
         "file": "11_stale_source_example.svg",
-        "sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
+        "sha256": "20c2e0ba1d7ef83a7978b933fc14ebcca23344a46f594a88d2ec1fedb4fb3e13"
       },
       {
         "file": "12_inspectable_artifact.svg",
@@ -69,7 +69,7 @@
       },
       {
         "file": "16_paired_ablations.svg",
-        "sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
+        "sha256": "59e6727598f1b709b1677576a2fe299ea032eca3497ad0753b66bb30bb0876e3"
       },
       {
         "file": "17_release_decision.svg",
@@ -77,11 +77,11 @@
       },
       {
         "file": "18_controlled_improvement.svg",
-        "sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
+        "sha256": "ff47fe6efbb6fb8e6c00cb06f9c3fbc931ced6b1eae3fd28ca0f37713283e1ff"
       },
       {
         "file": "19_expert_skills.svg",
-        "sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
+        "sha256": "47a000ebcb6c83d92ee676f08d4ea0323c3c19b2020e3c3bf655cda4b5a65ee0"
       },
       {
         "file": "20_draft_review_authority.svg",
@@ -97,7 +97,7 @@
       },
       {
         "file": "23_financial_invariants.svg",
-        "sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
+        "sha256": "853787098619721ab6d355c75213fef140a2392e60488cbeff819d86aaa931e9"
       },
       {
         "file": "24_engineer_operating_loop.svg",
@@ -194,10 +194,10 @@
     "scope": "informational-not-a-quota",
     "pages": 37,
     "totals": {
-      "text_elements": 587,
+      "text_elements": 616,
       "image_placements": 0,
       "icons": 0,
-      "svg_geometry_elements": 150,
+      "svg_geometry_elements": 157,
       "preset_shapes": 1,
       "page_frame_elements": 37,
       "marker_uses": 0,
@@ -222,11 +222,11 @@
     "geometry_elements": {
       "circle": 0,
       "ellipse": 0,
-      "line": 53,
+      "line": 55,
       "path": 0,
       "polygon": 0,
       "polyline": 0,
-      "rect": 97
+      "rect": 102
     },
     "preset_names": {
       "foldedCorner": 1
@@ -250,7 +250,7 @@
   "files": [
     {
       "file": "01_dependable_work.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/01_dependable_work.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/01_dependable_work.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -305,11 +305,11 @@
         "tspan_elements": 3
       },
       "passed": true,
-      "source_sha256": "c6f7d4b8aa28159bf38f2b506505578c2f2d3e2588542022212aa6f746a9a2be"
+      "source_sha256": "8444288a8cee968b738c32e27f99d8816ce81d977fc56df487866405af6b2008"
     },
     {
       "file": "02_five_disciplines.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/02_five_disciplines.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/02_five_disciplines.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -368,14 +368,14 @@
     },
     {
       "file": "03_reviewed_work_product.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/03_reviewed_work_product.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/03_reviewed_work_product.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 11,
+          "text_elements": 17,
           "images": {
             "placements": 0,
             "files": [],
@@ -390,7 +390,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 1,
+              "rect": 4,
               "circle": 0,
               "ellipse": 0,
               "line": 0,
@@ -419,15 +419,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 11,
-        "tspan_elements": 26
+        "text_elements": 17,
+        "tspan_elements": 13
       },
       "passed": true,
-      "source_sha256": "08ffb013df5ea5bf95f1e00b6e42fa7f39d1053994332bceb4cbb8484c966d25"
+      "source_sha256": "42c0aaffb6976532b737c360988ff1b75fe7d4de2af61ad3dd1edf14a1503116"
     },
     {
       "file": "04_financial_bottlenecks.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/04_financial_bottlenecks.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/04_financial_bottlenecks.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -486,7 +486,7 @@
     },
     {
       "file": "05_wealth_workflows.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/05_wealth_workflows.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/05_wealth_workflows.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -545,7 +545,7 @@
     },
     {
       "file": "06_value_ladder.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/06_value_ladder.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/06_value_ladder.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -604,7 +604,7 @@
     },
     {
       "file": "07_accepted_work_economics.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/07_accepted_work_economics.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/07_accepted_work_economics.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -663,14 +663,14 @@
     },
     {
       "file": "08_evidence_boundary.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/08_evidence_boundary.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/08_evidence_boundary.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 11,
+          "text_elements": 18,
           "images": {
             "placements": 0,
             "files": [],
@@ -685,7 +685,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 1,
+              "rect": 4,
               "circle": 0,
               "ellipse": 0,
               "line": 0,
@@ -714,22 +714,22 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 11,
-        "tspan_elements": 27
+        "text_elements": 18,
+        "tspan_elements": 11
       },
       "passed": true,
-      "source_sha256": "8935dd4499c30889725ea87b68754e0c2a3c4a19e4a852d1accf3ec3fe0e922f"
+      "source_sha256": "13ea298fa770eb37e044de171f3616e43715047ac6870e969d10c0bd3b72dba9"
     },
     {
       "file": "09_retrieval_objectives.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/09_retrieval_objectives.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/09_retrieval_objectives.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 20,
+          "text_elements": 24,
           "images": {
             "placements": 0,
             "files": [],
@@ -773,15 +773,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 20,
-        "tspan_elements": 1
+        "text_elements": 24,
+        "tspan_elements": 7
       },
       "passed": true,
-      "source_sha256": "b8a04cf2110d50332715d3226f84df85dbca8ed576c69fb56ddb44d6efda7287"
+      "source_sha256": "e4f95780ea97bfe94d6ebddf480edbf26618412580f12d73de7a7dc396a3d7f2"
     },
     {
       "file": "10_typed_facts.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/10_typed_facts.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/10_typed_facts.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -840,14 +840,14 @@
     },
     {
       "file": "11_stale_source_example.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/11_stale_source_example.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/11_stale_source_example.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 26,
+          "text_elements": 22,
           "images": {
             "placements": 0,
             "files": [],
@@ -891,15 +891,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 26,
-        "tspan_elements": 1
+        "text_elements": 22,
+        "tspan_elements": 3
       },
       "passed": true,
-      "source_sha256": "51262cbbcb4d578a80244c929c6751e5b1598ae6603047690425d1c82c3f540c"
+      "source_sha256": "20c2e0ba1d7ef83a7978b933fc14ebcca23344a46f594a88d2ec1fedb4fb3e13"
     },
     {
       "file": "12_inspectable_artifact.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/12_inspectable_artifact.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/12_inspectable_artifact.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -958,7 +958,7 @@
     },
     {
       "file": "13_evaluation_contract.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/13_evaluation_contract.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/13_evaluation_contract.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1017,7 +1017,7 @@
     },
     {
       "file": "14_diagnostic_cash_flow_rubric.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/14_diagnostic_cash_flow_rubric.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/14_diagnostic_cash_flow_rubric.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1076,7 +1076,7 @@
     },
     {
       "file": "15_judges_and_selection.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/15_judges_and_selection.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/15_judges_and_selection.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1135,14 +1135,14 @@
     },
     {
       "file": "16_paired_ablations.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/16_paired_ablations.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/16_paired_ablations.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 21,
+          "text_elements": 27,
           "images": {
             "placements": 0,
             "files": [],
@@ -1157,10 +1157,10 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 2,
+              "rect": 4,
               "circle": 0,
               "ellipse": 0,
-              "line": 5,
+              "line": 3,
               "polyline": 0,
               "polygon": 0,
               "path": 0
@@ -1186,15 +1186,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 21,
-        "tspan_elements": 5
+        "text_elements": 27,
+        "tspan_elements": 7
       },
       "passed": true,
-      "source_sha256": "4ed5713db6a745ee84a56ca721e50391aac9922188397df0e4f96b286c2a8139"
+      "source_sha256": "59e6727598f1b709b1677576a2fe299ea032eca3497ad0753b66bb30bb0876e3"
     },
     {
       "file": "17_release_decision.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/17_release_decision.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/17_release_decision.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1253,14 +1253,14 @@
     },
     {
       "file": "18_controlled_improvement.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/18_controlled_improvement.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/18_controlled_improvement.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 13,
+          "text_elements": 19,
           "images": {
             "placements": 0,
             "files": [],
@@ -1275,10 +1275,10 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 2,
+              "rect": 4,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 1,
               "polyline": 0,
               "polygon": 0,
               "path": 0
@@ -1304,15 +1304,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 13,
-        "tspan_elements": 13
+        "text_elements": 19,
+        "tspan_elements": 14
       },
       "passed": true,
-      "source_sha256": "306042fc4ad29cea9d3a51cb1a19e4316c9b461ef5088ce9b8024c443efd430e"
+      "source_sha256": "ff47fe6efbb6fb8e6c00cb06f9c3fbc931ced6b1eae3fd28ca0f37713283e1ff"
     },
     {
       "file": "19_expert_skills.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/19_expert_skills.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/19_expert_skills.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1334,10 +1334,10 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 6,
+              "rect": 2,
               "circle": 0,
               "ellipse": 0,
-              "line": 0,
+              "line": 3,
               "polyline": 0,
               "polygon": 0,
               "path": 0
@@ -1364,14 +1364,14 @@
           "Cambria"
         ],
         "text_elements": 16,
-        "tspan_elements": 25
+        "tspan_elements": 10
       },
       "passed": true,
-      "source_sha256": "13c82a4b9b7062a5f8ed62bc60ebdb0a523ec35d2de953cd401afb480cc1dd21"
+      "source_sha256": "47a000ebcb6c83d92ee676f08d4ea0323c3c19b2020e3c3bf655cda4b5a65ee0"
     },
     {
       "file": "20_draft_review_authority.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/20_draft_review_authority.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/20_draft_review_authority.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1430,7 +1430,7 @@
     },
     {
       "file": "21_enforced_authority.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/21_enforced_authority.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/21_enforced_authority.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1489,7 +1489,7 @@
     },
     {
       "file": "22_three_verification_loops.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/22_three_verification_loops.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/22_three_verification_loops.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1548,14 +1548,14 @@
     },
     {
       "file": "23_financial_invariants.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/23_financial_invariants.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/23_financial_invariants.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 15,
+          "text_elements": 19,
           "images": {
             "placements": 0,
             "files": [],
@@ -1570,7 +1570,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 5,
+              "rect": 4,
               "circle": 0,
               "ellipse": 0,
               "line": 0,
@@ -1599,15 +1599,15 @@
           "Arial",
           "Cambria"
         ],
-        "text_elements": 15,
-        "tspan_elements": 27
+        "text_elements": 19,
+        "tspan_elements": 7
       },
       "passed": true,
-      "source_sha256": "68ff2a9570f6629a97a51ca7597ab297a9005bb5af6de3477f4b4e95144045f0"
+      "source_sha256": "853787098619721ab6d355c75213fef140a2392e60488cbeff819d86aaa931e9"
     },
     {
       "file": "24_engineer_operating_loop.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/24_engineer_operating_loop.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/24_engineer_operating_loop.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1666,7 +1666,7 @@
     },
     {
       "file": "25_connected_fluency.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/25_connected_fluency.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/25_connected_fluency.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1725,7 +1725,7 @@
     },
     {
       "file": "26_lifespan_and_consequence.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/26_lifespan_and_consequence.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/26_lifespan_and_consequence.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1784,7 +1784,7 @@
     },
     {
       "file": "27_bounded_learning_experiment.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/27_bounded_learning_experiment.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/27_bounded_learning_experiment.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1843,7 +1843,7 @@
     },
     {
       "file": "28_three_decisions.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/28_three_decisions.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/28_three_decisions.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1902,7 +1902,7 @@
     },
     {
       "file": "29_discussion.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/29_discussion.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/29_discussion.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -1961,7 +1961,7 @@
     },
     {
       "file": "30_implementation_checklist.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/30_implementation_checklist.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/30_implementation_checklist.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2020,7 +2020,7 @@
     },
     {
       "file": "31_company_mechanism_map.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/31_company_mechanism_map.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/31_company_mechanism_map.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2079,7 +2079,7 @@
     },
     {
       "file": "32_versioned_eval_spec.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/32_versioned_eval_spec.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/32_versioned_eval_spec.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2139,7 +2139,7 @@
     },
     {
       "file": "33_typed_claim_contract.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/33_typed_claim_contract.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/33_typed_claim_contract.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2201,7 +2201,7 @@
     },
     {
       "file": "34_passk_and_deployment.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/34_passk_and_deployment.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/34_passk_and_deployment.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2260,7 +2260,7 @@
     },
     {
       "file": "35_measurement_contract.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/35_measurement_contract.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/35_measurement_contract.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2319,7 +2319,7 @@
     },
     {
       "file": "36_questions_for_followup.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/36_questions_for_followup.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/36_questions_for_followup.svg",
       "exists": true,
       "errors": [],
       "warnings": [],
@@ -2378,7 +2378,7 @@
     },
     {
       "file": "37_sources.svg",
-      "path": "/Users/charlie/Documents/Codex/2026-10-10/che/work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/37_sources.svg",
+      "path": "work/ppt-master/ai-engineer-conference-takeaways_20261017/svg_output/37_sources.svg",
       "exists": true,
       "errors": [],
       "warnings": [],

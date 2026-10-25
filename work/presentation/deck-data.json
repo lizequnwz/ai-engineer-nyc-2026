@@ -12,18 +12,22 @@
         "The 29-slide core remains planned for 40 minutes plus discussion. Read & learn adds company mechanisms, worked examples and source boundaries. No audiovisual viewing or independent validation of company results is claimed."
       ],
       "speakerNotes": [
-        "Introduce the updated source base and the five connected responsibilities: valuable work, grounded evidence, evaluation, controlled execution and professional learning. Explain that the examples distinguish what was reported from methods we propose."
+        "Today I want to connect the conference material to one practical idea: dependable AI completes work that another professional can inspect and accept.",
+        "The interesting examples extend beyond generating an answer. They prepare evidence, encode a professional method, check what happened and control the next action. That is the thread through this briefing.",
+        "This combines the original attendee notes with later organizer transcripts, video descriptions and a separately identified written Ramp account. I will distinguish reported company mechanisms from our proposed methods. A speaker's result is useful evidence to investigate, rather than a promise that it will transfer to our work.",
+        "Let us start with the five responsibilities that hold that whole job together."
       ],
       "sourceIds": [],
       "externalSources": [],
-      "minutes": 0.5,
       "core": true,
+      "minutes": 1,
+      "deliveryCue": "Settle the room. Speak conversationally; do not read the source list.",
       "sourceKeys": [],
       "evidenceTypes": [
         "synthesis"
       ],
       "evidenceNote": "Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.",
-      "cumulative": 0.5
+      "cumulative": 1
     },
     {
       "id": "opening-map",
@@ -36,11 +40,14 @@
         "The argument starts with valuable work, then follows the evidence and control requirements through evaluation, reliable execution, and professional growth. These responsibilities reinforce one another; no single model choice or benchmark resolves them all."
       ],
       "speakerNotes": [
-        "Preview the five chapters. Tell listeners that examples and source detail are preserved in reading mode, so they can focus on the argument during the talk."
+        "The five chapters follow the life of a useful system.",
+        "Strategy establishes which work matters. Grounding establishes what the evidence means and which evidence is eligible. Evaluation establishes what completed work looks like and how failures become visible. Workflows establish which actions can happen and how progress survives interruptions. Growth brings those responsibilities together in the engineer's daily practice.",
+        "These are connected decisions. A better retrieval result can still become an unsupported sentence. A good draft can still be sent without permission. A cheaper model can still create more review work.",
+        "The company examples make those connections concrete. The goal is to leave with a method for choosing and testing the next improvement, rather than a list of products.",
+        "First, we need a better definition of the thing we are trying to deliver."
       ],
       "sourceIds": [],
       "externalSources": [],
-      "minutes": 1,
       "core": true,
       "lead": "Five themes connect the company stories into one operating model: define useful work, preserve financial meaning, evaluate the whole task, enforce authority and improve through evidence.",
       "insights": [
@@ -57,17 +64,19 @@
           "text": "Ramp’s ablations and Arize’s trace loop point toward a practical discipline: reproduce the task, change one component, assess quality and full effort, then make a scoped release decision. The engineer’s contribution is a defensible improvement, supported by observable evidence."
         }
       ],
+      "minutes": 1,
+      "deliveryCue": "Trace the five chapters once. Avoid explaining every example here.",
       "sourceKeys": [],
       "evidenceTypes": [
         "synthesis"
       ],
       "evidenceNote": "Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.",
-      "cumulative": 1.5
+      "cumulative": 2
     },
     {
       "id": "strategy-01",
       "chapter": "strategy",
-      "title": "Design for the reviewed work product, then allocate the right intelligence",
+      "title": "Professional value starts with reconciled inputs and a reviewed work product",
       "layout": "thesis-with-workflow-cards",
       "points": [
         "Give each step observable inputs, outputs and acceptance criteria. Use the appropriate executor for the step rather than maximizing the portion assigned to an LLM.",
@@ -105,7 +114,11 @@
         "Preserve professional attention: Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes."
       ],
       "speakerNotes": [
-        "A useful financial agent prepares work a professional can accept: an evidence brief, planning analysis, reconciliation or decision memo. The acceptance standard determines the architecture more clearly than a preference for chat or autonomy. Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage. Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain. Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes."
+        "Start with Apollo and Redding Ridge preparing a structured-credit portfolio. Before the agent writes anything, conflicting feeds have to be reconciled. Which source governs this task, and why? That rule comes from understanding the professional workflow, not from making the prompt longer.",
+        "The agent then prepares a mock portfolio for portfolio-manager refinement. Recurring warehouse-financing and trade-reconciliation reports add daily QA. Preparation, professional judgment and recurring controls remain distinct responsibilities.",
+        "Take ten seconds: name one work product that a professional in your area would actually accept. Include the person who reviews it.",
+        "That is the unit to measure. A reported days-to-minutes improvement is interesting, but we still need total reviewer effort, corrections and accepted output. Coatue's decision decomposition reinforces the same principle: assign each step to the combination of code, model and person that fits its acceptance test.",
+        "Once the work product is clear, different technical choices become easier to compare."
       ],
       "sourceIds": [
         "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
@@ -117,28 +130,29 @@
         "https://ai.engineer/nyc/2026/talks/apollo-rowspace",
         "https://ai.engineer/nyc/2026/talks/range"
       ],
-      "minutes": 1.25,
+      "minutes": 1.5,
       "recordingIds": [
         "coatue",
         "apollo-rowspace",
         "range"
       ],
       "core": true,
-      "lead": "A useful financial agent prepares work a professional can accept: an evidence brief, planning analysis, reconciliation or decision memo. The acceptance standard determines the architecture more clearly than a preference for chat or autonomy.",
+      "lead": "Apollo and Redding Ridge describe structured-credit work in which engineers learn how professionals reconcile conflicting feeds before agents prepare a portfolio draft. The useful output is a decision-ready packet with a review path.",
       "insights": [
         {
-          "title": "Decompose the decision",
-          "text": "Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage."
+          "title": "Resolve authority before generation",
+          "text": "When two feeds disagree, the hard question is which source governs this task and why. Apollo’s account emphasizes source adjudication and embedded workflow observation. A longer prompt cannot substitute for the professional rule that determines which input is valid."
         },
         {
-          "title": "Observe the real workflow",
-          "text": "Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain."
+          "title": "Separate preparation from judgment",
+          "text": "The agent prepares a mock portfolio; a portfolio manager refines it. Recurring warehouse-financing and trade-reconciliation reports add daily QA. These are specific structured-credit workflows, rather than evidence that an unconstrained agent manages every investment decision."
         },
         {
-          "title": "Preserve professional attention",
-          "text": "Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes."
+          "title": "Measure the complete job",
+          "text": "Reported days-to-minutes improvements motivate a local comparison, but the account does not supply full reviewer effort or a controlled protocol. Count accepted packets, corrections and total cycle time before interpreting draft speed as realized capacity."
         }
       ],
+      "deliveryCue": "Audience prompt 1 of 3. Allow 10 seconds of silent reflection; no round-robin responses.",
       "sourceKeys": [
         "S01",
         "S02",
@@ -153,7 +167,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 2.75
+      "cumulative": 3.5
     },
     {
       "id": "strategy-02",
@@ -203,7 +217,11 @@
         "Keep durable assets: Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone."
       ],
       "speakerNotes": [
-        "The frontier cases share disciplined task design, but use different technical forms. An investment evidence system, planner workflow and transaction classifier should not be compared with one generic adoption or model-quality score. Bridgewater improves evidence reaching investment work; Coatue decomposes a decision graph. Their relevant questions concern eligible sources, relevance, timing and professional attention. Preserve the point-in-time information set before judging the resulting conclusion. Wells Fargo describes a transaction-sequence transformer trained from scratch for downstream fraud work. Amounts, categories, channels, time and location determine tokenization; a tight serving budget shapes the design. This is a transaction foundation model, not a proprietary language model. Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone."
+        "Financial AI is broader than a financial chatbot. The decision, data representation and operating budget can lead to very different systems.",
+        "Bridgewater concentrates on evidence reaching investment work. Coatue emphasizes decomposing the decision. Wells Fargo describes a transformer trained on transaction sequences for downstream fraud classification. Assess detection and false positives within the authorization-time budget; amounts, categories, channels, time and location shape the transaction representation. That is a transaction foundation model; calling it a proprietary language model would miss the design.",
+        "The Blackstone and Norm discussion contributes another strategy point: keep useful data, expert evaluations and production controls while models and scaffolding change. The expert-labeled regression assets in that account belong to Norm's example. Sharing a panel does not establish that Blackstone deployed every component.",
+        "The transferable lesson is to preserve the assets that define good work. Model choice matters, but the surrounding definitions, evidence and scorecards make comparisons possible.",
+        "Wealth workflows show particularly clearly where those durable professional assets live."
       ],
       "sourceIds": [
         "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
@@ -241,6 +259,7 @@
           "text": "Blackstone and Norm.ai emphasize accessible data, repeatable evaluations and production controls as models and scaffolding change. Norm’s expert-labeled regression assets support architecture comparisons. Attribute that account to Norm; a shared discussion does not prove deployment of every component at Blackstone."
         }
       ],
+      "deliveryCue": "Emphasize the contrast in technical forms. Keep the Wells Fargo representation example concrete.",
       "sourceKeys": [
         "S04",
         "S02",
@@ -259,7 +278,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 4.0
+      "cumulative": 4.75
     },
     {
       "id": "strategy-03",
@@ -308,7 +327,12 @@
         "Bind approval to the action: Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates."
       ],
       "speakerNotes": [
-        "The released Range, Arca and Perpetual accounts make the wealth pattern concrete: prepare work, preserve context across handoffs, and control the step that communicates or acts. The planner remains responsible for client judgment. Range’s skill records reasons, required questions, exceptions and stopping conditions. An owner maintains it and a separate reviewer checks it. The planner reviews every recommendation before client delivery. Five to ten examples are a starting test routine, not sufficient release assurance. Arca’s tax-payment illustration spans replies, approvals, trades and settlement. Long horizon means durable shared plans and event-driven resumption, rather than continuous model thought. Track who owns the next action, what event wakes the task and which approval is still required. Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates."
+        "Range, Arca and Perpetual give us three complementary wealth-workflow mechanisms.",
+        "Range packages the planner's method: reasons, required questions, exceptions and stopping conditions. A named owner maintains a skill, a separate reviewer checks it, and the planner reviews recommendations. The account says agents send nothing to clients.",
+        "Arca's illustrative tax-payment story spans client replies, approvals, trades and settlement. The important engineering idea is a shared plan that survives those waits and wakes on an event. Long-running work need not mean keeping a model thinking continuously.",
+        "Perpetual adds a stronger execution boundary. Language becomes typed intent, a compiler validates an allowed action vocabulary, and approval binds an exact outgoing payload. If dispatch has an unknown outcome, the account routes it to manual review.",
+        "These are reported methods, not controlled demonstrations of better advice or net capacity. Earlier Morgan Stanley, UBS and RBC examples remain useful historical context, with their original dates and different measures.",
+        "That distinction between a useful mechanism and a demonstrated benefit leads directly to measurement."
       ],
       "sourceIds": [
         "9b002687-09cf-42e2-9282-532ed9d0c184"
@@ -322,7 +346,7 @@
         "https://ai.engineer/nyc/2026/talks/arca",
         "https://ai.engineer/nyc/2026/talks/perpetual"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "range",
         "arca",
@@ -344,6 +368,7 @@
           "text": "Perpetual describes typed interpretation, a validating compiler and immutable approved plans. Approval attaches to the exact outgoing payload; an unknown dispatch outcome goes to manual review. Historical Morgan Stanley, UBS and RBC disclosures remain useful preparation/knowledge examples with their original dates."
         }
       ],
+      "deliveryCue": "Move across the three current cases; mention the incumbent disclosures as dated context.",
       "sourceKeys": [
         "S02",
         "E07",
@@ -361,7 +386,7 @@
         "synthesis"
       ],
       "evidenceNote": "Range, Arca and Perpetual: released practitioner accounts with explicit review/authority boundaries. Morgan Stanley 2024, UBS 2025 and RBC 2025 remain historical firm disclosures. Range’s online recording label differs from Day 2 attendance placement.",
-      "cumulative": 5.5
+      "cumulative": 6.0
     },
     {
       "id": "strategy-04",
@@ -406,7 +431,11 @@
         "Inspect the denominator: Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value."
       ],
       "speakerNotes": [
-        "Use a chain of evidence from adoption to accepted work, process change and attributable value. The newly released stories add measurement methods; they do not make preparation time, usage and investment performance interchangeable. Contour’s official release describes live research comparisons and cost per useful insight, including repair effort. Define useful insight, eligible work and the comparison before looking at outcomes. Its description does not disclose enough assignment, sample or control detail to establish causal alpha. Preserve what was known when an idea was proposed, its sources, reasoning, reviewer response and subsequent decision. Agents revisiting an old idea may improve timing or attention; a later profitable position still depends on markets, selection, sizing and human action. Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value."
+        "The ladder separates four increasingly strong claims: people use the system, people accept its work, the process improves, and a business outcome is attributable to it.",
+        "Contour's official release describes comparing research with and without AI and tracking cost per useful insight. It also calls attention to the hidden cost of fixing tools. That is a valuable measurement direction. The description does not supply the assignment, sample and controls needed to establish causal investment alpha.",
+        "For investment work, retain what was known when an idea was proposed, the reasoning, the reviewer response and the decision. Otherwise a later successful outcome can rewrite the story through hindsight.",
+        "Jellyfish offers a software example: human salary plus AI spend per merged pull request, with reverts and change size as counterchecks. That is an observational proxy for engineering work. It does not establish that more spending causes improvement, or that every merged change produces business value.",
+        "To compare alternatives fairly, we also need an honest numerator and denominator."
       ],
       "sourceIds": [
         "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
@@ -416,7 +445,7 @@
         "https://www.youtube.com/watch?v=ZMZlAn6Pyfg",
         "https://ai.engineer/nyc/2026/talks/jellyfish"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "contour-release",
         "jellyfish"
@@ -437,6 +466,7 @@
           "text": "Jellyfish includes human salary and AI spend per merged PR, and inspects reverts/change size. That observational engineering proxy suggests measuring accepted work with quality counterchecks. It does not establish that spending more causes improvement or that a merged PR equals business value."
         }
       ],
+      "deliveryCue": "Keep the ladder visible while naming the stronger evidence required at each step.",
       "sourceKeys": [
         "S01",
         "S06",
@@ -450,7 +480,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 7.0
+      "cumulative": 7.25
     },
     {
       "id": "strategy-05",
@@ -490,7 +520,12 @@
         "Optimize the actual bottleneck: Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse."
       ],
       "speakerNotes": [
-        "Token reduction and faster drafting are intermediate results. Compare equivalent completed tasks at an agreed standard, and count unsuccessful attempts, tool use, review, rework and operation before claiming an economic improvement. A reviewer’s correction, candidate selection and investigation time belong in the comparison. Include abandoned runs and retries in cost even when only one final output is accepted. Report accepted-task rate beside unit cost so narrower coverage cannot masquerade as improvement. Credit Karma describes selection/pruning, reranking, deduplication and compression. An Artifactory demo reports 24,000 to 2,400 tokens. Use that as an experiment to reproduce: measure required-fact coverage, answer quality and review effort before adopting the reduction. Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse."
+        "Cost per accepted task means total workflow cost divided by accepted tasks. All the unsuccessful work belongs in the numerator too: retries, abandoned runs, candidate selection, investigation, review and repair.",
+        "Report accepted-task rate alongside unit cost. Otherwise a system can look cheaper simply because it quietly stops attempting difficult cases.",
+        "Credit Karma supplies a concrete context-preparation example. Its Artifactory demonstration reports reducing context from twenty-four thousand to twenty-four hundred tokens through selection, reranking, deduplication and compression. That is a reported token-use demonstration. It does not establish equal answer quality or a general latency improvement.",
+        "The practical experiment measures required-fact coverage, final quality, review effort and stage timing together. A faster generation stage can still leave the complete job slower. A smaller prompt can omit the one definition that matters.",
+        "We should optimize the current bottleneck while preserving the acceptance standard, rather than choose whichever intermediate metric moves most dramatically.",
+        "Now we can examine the evidence that makes an accepted financial answer defensible."
       ],
       "sourceIds": [
         "ae273f0b-db0f-4638-8ae3-05874bebf9ca",
@@ -501,7 +536,7 @@
         "https://ai.engineer/nyc/2026/talks/jellyfish",
         "https://ai.engineer/nyc/2026/talks/ramp"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "credit-karma",
         "jellyfish",
@@ -523,6 +558,7 @@
           "text": "Jellyfish’s salary-plus-AI framing and Ramp’s narrow specialist work both shift attention to end-to-end economics. Separate prefill, generation, tool and human delays. A smaller prompt or model can improve a stage while leaving total delivery time or quality worse."
         }
       ],
+      "deliveryCue": "Say the token values slowly. The demonstration is not a recommended compression target.",
       "sourceKeys": [
         "S01",
         "S07",
@@ -542,7 +578,7 @@
     {
       "id": "grounding-01",
       "chapter": "grounding",
-      "title": "Ground facts and memory in time, meaning, access and source health",
+      "title": "A changing belief needs a dated evidence trail, not just a newer summary",
       "layout": "pipeline",
       "points": [
         "Test eligible-source coverage separately from human-facing relevance; include plausible negatives and restrictive filters. Preserve information cutoff and access scope before synthesis.",
@@ -582,7 +618,12 @@
         "Treat missing signals honestly: A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field."
       ],
       "speakerNotes": [
-        "Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections. Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task. Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence. A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field."
+        "Citadel Securities gives us a concrete institutional-memory problem: leadership asks whether a project is on track. A monthly deck says green. A newer message or attachment exposes an unresolved dependency.",
+        "The important distinction is reported status versus evidence-supported status. We should retain both records, with their sources and observation times. Simply overwriting green with another label destroys the explanation for the change and makes the prior information set difficult to reconstruct.",
+        "The account describes models proposing updates while code and people govern what enters the record. Evidence ages, contradictions appear and corrections must survive. Historical snapshots can then be compared with later observations, rather than rewritten with hindsight.",
+        "Now change one thing in our teaching situation: the evidence feed stops arriving. That silence does not prove the project stopped, or that it progressed. Source health is a separate fact. Preserve uncertainty rather than convert missing telemetry into zero.",
+        "The transferable lesson is that memory needs an evidence clock, a correction policy and a deliberate commit boundary. The narrated example is a method, not a measured prediction advantage.",
+        "Bridgewater provides a more specific example of making retrieval quality observable."
       ],
       "sourceIds": [
         "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
@@ -593,27 +634,28 @@
         "https://ai.engineer/nyc/2026/talks/bridgewater",
         "https://ai.engineer/nyc/2026/talks/citadel"
       ],
-      "minutes": 1.5,
+      "minutes": 2,
       "recordingIds": [
         "bridgewater",
         "citadel"
       ],
       "core": true,
-      "lead": "Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections.",
+      "lead": "Citadel Securities illustrates why institutional memory must distinguish reported project status from evidence-supported status. A green monthly deck and a newer unresolved dependency can both be true records, while implying different answers to “Are we on track?”",
       "insights": [
         {
-          "title": "Set the evidence boundary",
-          "text": "Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task."
+          "title": "Keep both records",
+          "text": "Preserve the earlier report and the later dependency evidence; attach each to its source and observation time. Replacing the green status with a new assessment loses why the assessment changed and prevents a faithful reconstruction of the earlier information set."
         },
         {
-          "title": "Preserve changing beliefs",
-          "text": "Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence."
+          "title": "Commit updates deliberately",
+          "text": "Models propose changes to the institutional record; code and people govern acceptance. Contradictions, aging evidence and corrections belong in the update process. A model-generated confidence label alone does not establish that an update is reliable or authorized."
         },
         {
-          "title": "Treat missing signals honestly",
-          "text": "A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field."
+          "title": "Evaluate across time",
+          "text": "Freeze a prior snapshot and compare its assessment with later observations. Keep source health separate: silence can mean missing telemetry rather than progress or inactivity. The narrated project example illustrates a method, without establishing a measured prediction advantage."
         }
       ],
+      "deliveryCue": "Contrast the earlier green report with the newer dependency evidence. Then introduce missing source telemetry as a separate teaching variation.",
       "sourceKeys": [
         "S04",
         "S08",
@@ -628,12 +670,12 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 10.0
+      "cumulative": 10.5
     },
     {
       "id": "grounding-02",
       "chapter": "grounding",
-      "title": "Evaluate eligible evidence coverage separately from human-facing relevance",
+      "title": "Bridgewater turns a timely research question into a retrieval-learning loop",
       "layout": "comparison-matrix",
       "points": [
         "Test eligible-source coverage separately from human-facing relevance; include plausible negatives and restrictive filters. Preserve information cutoff and access scope before synthesis."
@@ -677,7 +719,11 @@
         "Design for the consumer: An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration."
       ],
       "speakerNotes": [
-        "Bridgewater supplies a concrete retrieval-learning loop: label relevant and plausible irrelevant evidence, reproduce complaints, and test filtering under the constraints found in real use. Larger context alone is not the objective. The speakers describe roughly 200 manually labeled questions and a reported precision@10 rise from about 60% to 90–95%. The speaker corrects an initial “recall” reference to precision. This is an internal retrieval comparison, not measured final-answer quality or investment performance. Post-filtering can discard eligible candidates after vector search; exhaustive pre-filtered scoring can be slow. Evaluate combinations of time, source and asset constraints, including sparse matches and no evidence. Measure coverage and latency rather than choosing an index from a generic benchmark. An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration."
+        "Bridgewater's Vault demonstration begins with a timely question about AI and currencies. It is early October, but a generic answer draws on a July source. That source may be relevant and still be too stale for the question.",
+        "First define the eligible information set: time, source, asset and access. Then test whether retrieval finds the required material. Post-filtering can lose eligible matches; exhaustive scoring over a filtered set can be slow. Restrictive filters, sparse matches and no evidence all belong in the test.",
+        "The speakers describe roughly two hundred labeled questions with plausible negatives, and precision at ten rising from about sixty percent to ninety to ninety-five percent. The speaker corrects an initial reference to recall. This is an internal relevance comparison, not answer accuracy or investment performance; no held-out design or uncertainty is supplied.",
+        "Finally, make the evidence useful to the investor. Saved searches, collections and evidence cards fit familiar habits. An agent can gather broadly while a person needs a reviewable brief. Test coverage before compression and omissions afterward. Seven sources in one demonstration do not, by themselves, prove a better answer.",
+        "Numbers inside those sources require an additional path of verification."
       ],
       "sourceIds": [
         "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6"
@@ -685,26 +731,27 @@
       "externalSources": [
         "https://ai.engineer/nyc/2026/talks/bridgewater"
       ],
-      "minutes": 1.25,
+      "minutes": 2,
       "recordingIds": [
         "bridgewater"
       ],
       "core": true,
-      "lead": "Bridgewater supplies a concrete retrieval-learning loop: label relevant and plausible irrelevant evidence, reproduce complaints, and test filtering under the constraints found in real use. Larger context alone is not the objective.",
+      "lead": "In the Vault demonstration, an early-October question about AI and currencies exposes a July source in a generic answer. The lesson is to define eligible evidence, test relevance and return a brief an investor can inspect.",
       "insights": [
         {
-          "title": "Make relevance observable",
-          "text": "The speakers describe roughly 200 manually labeled questions and a reported precision@10 rise from about 60% to 90–95%. The speaker corrects an initial “recall” reference to precision. This is an internal retrieval comparison, not measured final-answer quality or investment performance."
+          "title": "Define eligible evidence first",
+          "text": "Time, source, asset and access constraints determine the usable corpus. July material may be relevant but insufficiently current for an October question. Evaluate restrictive and sparse filters, including no-evidence cases; a plausible passage is not automatically eligible evidence."
         },
         {
-          "title": "Test restrictive filters",
-          "text": "Post-filtering can discard eligible candidates after vector search; exhaustive pre-filtered scoring can be slow. Evaluate combinations of time, source and asset constraints, including sparse matches and no evidence. Measure coverage and latency rather than choosing an index from a generic benchmark."
+          "title": "Test retrieval separately",
+          "text": "The speakers describe roughly 200 labeled questions with plausible negatives and precision@10 rising from about 60% to 90–95%. The speaker corrects “recall” to precision. This internal comparison does not establish answer correctness, investment performance or a held-out estimate."
         },
         {
-          "title": "Design for the consumer",
-          "text": "An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration."
+          "title": "Connect quality to adoption",
+          "text": "Saved searches, collections and evidence cards fit existing investor habits. Agents can collect broadly while people need concise, reviewable support. Assess required-source coverage before compression, then omissions and review effort; more cited sources in one demo do not prove a better answer."
         }
       ],
+      "deliveryCue": "Pronounce precision at ten explicitly. Pause after its scope so it is not heard as answer accuracy.",
       "sourceKeys": [
         "S04",
         "E04"
@@ -715,7 +762,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 11.25
+      "cumulative": 12.5
     },
     {
       "id": "grounding-03",
@@ -758,7 +805,12 @@
         "Verify what the user receives: The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support."
       ],
       "speakerNotes": [
-        "Kepler distinguishes a wrong source, a wrong fact inside the right source and a wrong calculation. Its released accounts add a constrained number path; final generation still needs checks after retrieval and arithmetic. The standalone breakout description names value, unit, scale and period. The next-day transcript describes fact identifiers resolved by software while a model plans. Preserve the source anchor and calculation inputs; a valid identifier still needs the correct entity, definition and version. Exact lookup does not bypass authorization. Search, direct reads, calculation inputs and output references must remain within the user and tenant scope. Test revoked access and empty evidence as well as the successful path; a citation chip does not enforce permission. The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support."
+        "Kepler distinguishes three failures: selecting the wrong source, selecting the wrong fact within the right source, and calculating incorrectly. Fixing only arithmetic addresses one of them.",
+        "There are two source editions here. The attended breakout's standalone description names typed facts with value, unit, scale and period. The next-day transcript describes models planning with fact identifiers that software resolves. They should not be collapsed into one fully disclosed architecture.",
+        "The account still retains final post-processing, because generation can invent a number after retrieval and calculation. The breakout description says unverifiable figures are stripped.",
+        "Our acceptance requirement is to correct, remove or escalate an unsupported material claim. Merely removing its citation would leave the problem intact.",
+        "Access also applies to every path: search, exact lookup, calculation inputs and output references. An exact identifier is useful structure; it does not establish that the user may see the underlying fact or that the fact answers the intended question.",
+        "The invented example next makes the difference between arithmetic and source validity easy to see."
       ],
       "sourceIds": [
         "2d29f925-f16b-41b3-8086-de0524829cbe"
@@ -767,7 +819,7 @@
         "https://ai.engineer/nyc/2026/talks/kepler-14",
         "https://www.youtube.com/watch?v=dZgA6btnb_s"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "kepler-14",
         "kepler-breakout"
@@ -788,6 +840,7 @@
           "text": "The main-stage transcript explicitly retains post-processing because generation can invent numbers afterward. The breakout description says unverifiable figures are stripped. Our requirement is stronger: correct, remove or escalate the unsupported material claim, rather than leave persuasive prose with broken support."
         }
       ],
+      "deliveryCue": "Distinguish the two Kepler editions without lingering on scheduling details.",
       "sourceKeys": [
         "S09",
         "E18",
@@ -799,12 +852,12 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 12.75
+      "cumulative": 13.75
     },
     {
       "id": "grounding-04",
       "chapter": "grounding",
-      "title": "Correct arithmetic can produce the wrong answer when the source is stale",
+      "title": "The right financial answer changes when the information cutoff changes",
       "layout": "worked-example",
       "points": [
         "Select the final source valid at the requested date.",
@@ -857,8 +910,12 @@
         "The chosen as-of date permits D3, while the earlier D2 is superseded. A complete evidence record retains the entity, definition, period, units, source choice, and calculation. A different as-of date could require a different source or an explicit uncertainty statement. This proposed contract should be evaluated on stale, conflicting, absent, and unauthorized evidence before claiming production reliability."
       ],
       "speakerNotes": [
-        "Ask for the answer before revealing the treatment column. Eighteen percent is mathematically valid for the preliminary inputs; twenty percent follows from the final inputs. That difference is the point.",
-        "Close by asking what a citation registry must retain for another person to reproduce the answer later. Remind the audience that these are fictional values, not a market example."
+        "Every company, document and value here is invented. AsterCo's prior-year final revenue is one hundred million dollars. Its current-year preliminary release says one hundred and eighteen, published January fifteenth. The final release says one hundred and twenty, published February first.",
+        "For a March first question, the final source is available. Growth is twenty percent. Using the preliminary amount gives eighteen percent.",
+        "Take a moment: which stage failed if a March answer says eighteen percent even though the arithmetic is correct?",
+        "Source selection failed. Now move the question's cutoff back to January twentieth. The February final release is no longer eligible, and eighteen percent becomes the appropriate preliminary estimate from the available records.",
+        "This is why “always use the latest source” is incomplete. We need what was knowable at the requested date. Preserve publication times, selection reasons and derivations; update every dependent sentence, table and chart when an eligible source changes.",
+        "That evidence chain needs to survive beyond the chat window."
       ],
       "sourceIds": [
         "2d29f925-f16b-41b3-8086-de0524829cbe"
@@ -866,21 +923,22 @@
       "externalSources": [],
       "minutes": 2,
       "core": true,
-      "lead": "This synthetic AsterCo example separates calculation correctness from source validity: preliminary revenue produces 18% growth, while the final source available at the requested cutoff produces 20%.",
+      "lead": "The invented AsterCo example uses the same business and arithmetic under two dates. March 1 permits final revenue and 20% growth; January 20 permits only the preliminary release and an explicitly preliminary 18% estimate.",
       "insights": [
         {
-          "title": "Apply the information cutoff",
-          "text": "All company data and documents here are invented. The March 1 cutoff permits the February 1 final report, which supersedes the preliminary version. Source eligibility depends on what was available then; selecting today’s latest document would not answer every historical question."
+          "title": "Select what was knowable then",
+          "text": "FY2024 final revenue is 100; FY2025 preliminary revenue is 118, published January 15; final revenue is 120, published February 1. All values are invented USD millions. A January 20 request cannot use the later final release."
         },
         {
-          "title": "Recompute the dependent claim",
-          "text": "Using preliminary revenue of 118 against prior-year revenue of 100 gives 18%; using final revenue of 120 gives 20%. Both calculations are arithmetically valid. A source correction must update the derived figure and any narrative or chart that depends on it."
+          "title": "Recompute every dependent claim",
+          "text": "At March 1, (120 − 100) / 100 gives 20%. At January 20, (118 − 100) / 100 gives 18%, labeled preliminary. Correct arithmetic cannot repair a source from the wrong information set or silently remove uncertainty."
         },
         {
-          "title": "Preserve the rejected version",
-          "text": "Retain the chosen inputs, publication dates, calculation, and reason the preliminary source was superseded. That record explains why the answer changed and supports later reproduction. Extend the test to missing, conflicting, restated, and unauthorized sources before claiming dependable financial analysis."
+          "title": "Retain the selection reason",
+          "text": "Keep publication dates, chosen inputs, rejected versions and derivations with the exported answer. A changed source must update its narrative and chart too. Extend this fixture to restatements, conflicting definitions and revoked access before claiming dependable analysis."
         }
       ],
+      "deliveryCue": "Audience prompt 2 of 3. Allow 8 seconds before answering. Then move the cutoff backward and point to the publication date.",
       "sourceKeys": [
         "S09"
       ],
@@ -890,7 +948,7 @@
         "synthesis"
       ],
       "evidenceNote": "Synthetic teaching example or illustrative contract. Invented values and workflows do not represent a firm result, client recommendation, or validated implementation.",
-      "cumulative": 14.75
+      "cumulative": 15.75
     },
     {
       "id": "grounding-05",
@@ -931,7 +989,12 @@
         "Review the current saved artifact: Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable."
       ],
       "speakerNotes": [
-        "Financial work often ends in a workbook, report or presentation. Inspectable chat output is insufficient if an export loses provenance, carries an old calculation or hides a contradictory period in a polished chart. OpenAI’s finance presentation connects source passages and tables to charts and reusable artifacts. Carry the material value, period, unit and source into the deliverable. Reconcile the document with the current evidence after a correction rather than treating export as a cosmetic step. Compound AI describes shared deal threads, an agent inbox and longer artifact work. Permissions must follow participants and source material, not only the connector. Inspect workbook depth, file coverage and final fidelity separately; vendor architecture is not independently verified Office parity. Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable."
+        "Financial work commonly ends in a workbook, report or presentation. A correct intermediate value can become misleading when the exported chart loses its unit, period or source version.",
+        "OpenAI's finance presentation connects source passages and tables with charts and reusable artifacts. It gives us an interface direction, rather than evidence of universal availability or verified numerical accuracy.",
+        "Compound describes shared deal threads, an agent inbox and longer artifact work. Participant access and source permissions still need to survive collaboration. Its architecture does not independently establish complete Office parity.",
+        "The practical discipline is write, render, check and fix, followed by inspecting the saved artifact again after the final edit. Check the actual deliverable: current values, source references, complete tables and visible limits.",
+        "Passing a code check, or reviewing an earlier preview, cannot establish that the document now being shared is correct and usable.",
+        "With that work product in view, evaluation becomes much more concrete."
       ],
       "sourceIds": [
         "02f94835-c29d-4cf5-b77a-c5a491b747b8",
@@ -941,7 +1004,7 @@
         "https://ai.engineer/nyc/2026/talks/openai",
         "https://ai.engineer/nyc/2026/talks/compound"
       ],
-      "minutes": 1.25,
+      "minutes": 1,
       "recordingIds": [
         "openai",
         "compound"
@@ -962,6 +1025,7 @@
           "text": "Use a write–render–check–fix loop and inspect again after the final edit. Our acceptance contract checks the actual report the team will share, including stale sources, truncated tables and missing caveats. Passing code or an older preview cannot establish that the current artifact is usable."
         }
       ],
+      "deliveryCue": "Connect this to familiar exported reports. Visual inspection alone does not prove financial correctness.",
       "sourceKeys": [
         "S03",
         "S09",
@@ -974,7 +1038,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 16.0
+      "cumulative": 16.75
     },
     {
       "id": "evals-01",
@@ -1032,7 +1096,12 @@
         "Keep blockers outside the average: A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality."
       ],
       "speakerNotes": [
-        "The complete job needs more than one answer score. Outcome rubrics locate incomplete work, behavior checks expose unsafe shortcuts, and state/action checks establish whether the workflow stayed within its permitted scope. Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence. The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy. A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality."
+        "Evaluation needs three complementary views: the outcome, consequential behavior and authority.",
+        "Vals emphasizes fully acceptable work rather than only average rubric credit. Ramp's bookkeeping account makes a case concrete through a task, a synthetic business world, a trajectory and an accountant-authored rubric.",
+        "A diagnostic variant can make the failure easier to locate. The Air Canada release describes starting with the expected answer and constructing evidence-containing inputs. Remove a needed clause, plant a violation or make an edit that should preserve meaning. Then have an expert check realism and the answer key; synthetic cases can accidentally become easy puzzles.",
+        "Keep blockers outside the average. Correct totals cannot compensate for fabricated evidence, unauthorized access or an unapproved send.",
+        "Use exact checks when a property is exact. Use a calibrated domain rubric where judgment matters. Keep behavior verdicts and action boundaries inspectable, with cost, latency, coverage and reviewer effort alongside quality.",
+        "Our second invented example shows why those dimensions should remain separate."
       ],
       "sourceIds": [
         "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
@@ -1045,7 +1114,7 @@
         "https://ai.engineer/nyc/2026/talks/basis",
         "https://www.youtube.com/watch?v=c_SPW__jF9w"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "vals",
         "ramp-evals",
@@ -1068,6 +1137,7 @@
           "text": "A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality."
         }
       ],
+      "deliveryCue": "Count the three views on your fingers. Avoid introducing a new aggregate score.",
       "sourceKeys": [
         "S10",
         "S11",
@@ -1083,7 +1153,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 17.5
+      "cumulative": 18.0
     },
     {
       "id": "evals-02",
@@ -1152,8 +1222,12 @@
         "Rubric clarification: arithmetic is checked on the operands the answer actually states. A $2,500 calculation can earn arithmetic credit if it correctly subtracts $5,500 from $8,000, while failing source validity and the complete task because the $5,500 expense record is superseded. Do not double-count source selection as an arithmetic defect."
       ],
       "speakerNotes": [
-        "Ask: Is $2,500 an arithmetic failure? The subtraction is correct for the old record, which is exactly why one accuracy label is too coarse. The real failure is selecting the wrong version. Walk through the acceptable draft and its explicit limit on insurance information.",
-        "Then point to the action gate. The proposal is to keep a forbidden action outside a weighted average. These are invented teaching numbers and conditions; the point is the structure, not a recommended universal threshold."
+        "This is a fictional monthly cash-flow task, with permission to draft only. Income is eight thousand dollars. Current approved expenses are six thousand. A superseded expense record says five thousand five hundred. Insurance information is missing.",
+        "An answer using the old expenses can correctly calculate twenty-five hundred dollars. It can receive arithmetic credit on its stated operands and still fail the complete task because the source is stale.",
+        "Using the current expenses gives two thousand dollars. That calculation still does not authorize a product recommendation, resolve the missing insurance information or permit an outbound message.",
+        "Keeping dimensions separate makes repair more precise. An input-selection defect needs a source-validity fix, rather than extra subtraction training. Missing required information needs clarification. A prohibited action needs an enforcing boundary.",
+        "The scoring scale is a teaching rubric. Before real use, a domain reviewer would need to define exceptions, calibrate the rubric and agree which conditions block acceptance.",
+        "The grader making those decisions is itself a system that needs evaluation."
       ],
       "sourceIds": [
         "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
@@ -1161,7 +1235,7 @@
         "9d72d7ac-a2a2-42cf-b880-5859316d840c"
       ],
       "externalSources": [],
-      "minutes": 2,
+      "minutes": 1.75,
       "core": true,
       "lead": "The synthetic cash-flow example separates correct computation from correct evidence selection. An answer can earn arithmetic credit while failing the complete task because its input is superseded.",
       "insights": [
@@ -1178,6 +1252,7 @@
           "text": "For this draft-only teaching task, a product recommendation or outbound message blocks acceptance even if diagnostic scores are high. Missing insurance facts must remain explicit. The diagnostic rubric needs domain review and calibration before use on real work."
         }
       ],
+      "deliveryCue": "Contrast arithmetic credit with complete-task rejection. Invented values; no financial advice or company benchmark.",
       "sourceKeys": [
         "S10",
         "S09",
@@ -1189,7 +1264,7 @@
         "synthesis"
       ],
       "evidenceNote": "Synthetic teaching example or illustrative contract. Invented values and workflows do not represent a firm result, client recommendation, or validated implementation.",
-      "cumulative": 19.5
+      "cumulative": 19.75
     },
     {
       "id": "evals-03",
@@ -1244,8 +1319,12 @@
         "Provenance: Ramp's Day 2 notes mention pass@k without k, scoring rules, or results. The banking session records a fail-leaning configurable judge, with Comet/NatWest affiliation unresolved. Upstart's advertised abstract describes human calibration for voice-agent judges; it is agenda evidence, not an attendee observation. Its automated self-improvement loops are described as under development, not achieved self-healing."
       ],
       "speakerNotes": [
-        "Spend the first half on the dangerous top-right cell: the judge passes an unacceptable output. Ask whether a system could have excellent average agreement while missing rare severe defects. Then acknowledge the opposite cost: a judge that fails everything is not useful.",
-        "Use the attempt strip to prevent a common metric misunderstanding. There is one successful candidate, but someone must recognize it. The end-to-end retry and selection policy must be evaluated and costed. The illustration is one synthetic case, not an empirical pass@3 estimate."
+        "A judge can agree with people on most ordinary cases and still pass a rare serious failure. Inspect consequential false passes separately from overall agreement. Also inspect false failures: rejecting useful work creates review burden and lost utility.",
+        "Calibrate against independently reviewed cases, retain disagreements and adjudicate important conflicts. Stricter grading is a choice to assess, not proof of better judgment.",
+        "The attempt strip illustrates a second distinction. Attempt one fails, attempt two passes, and attempt three fails. One successful candidate exists. The deployed system still has to recognize and select it.",
+        "Pass-at-k concerns at least one success among k attempts under a specified test. It is different from first-attempt success and from the reliability of the selected output. This strip is synthetic, not a measured pass-at-three result.",
+        "Evaluate the actual verifier, ranker or human selection policy. Include every attempt, verification step, review and delay in the deployed cost.",
+        "Ramp's written follow-up offers concrete changes that can be tested within that complete-task view."
       ],
       "sourceIds": [
         "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
@@ -1255,7 +1334,7 @@
       "externalSources": [
         "https://arxiv.org/html/2107.03374v2"
       ],
-      "minutes": 2,
+      "minutes": 1.5,
       "core": true,
       "lead": "Reliable evaluation requires both a trustworthy grader and a tested candidate-selection policy. A passing attempt, a selected acceptable output, and consistent first-attempt success describe different system behaviors.",
       "insights": [
@@ -1272,6 +1351,7 @@
           "text": "Report the acceptance test, k, single-attempt results, selection success, and total retry cost together. Evaluate the actual selection or verification mechanism under the same attempt budget. Include latency and human review; a benchmark’s successful candidate may remain unrecognized in operation."
         }
       ],
+      "deliveryCue": "Point to false passes, then the passing candidate. Keep benchmark opportunity and deployed selection distinct.",
       "sourceKeys": [
         "S10",
         "S12",
@@ -1285,12 +1365,12 @@
         "synthesis"
       ],
       "evidenceNote": "Judge matrix is a proposed method; the three-attempt strip is synthetic. Ramp and the banking account are unverified notes; Upstart is program context. The method paper supports the pass@k distinction.",
-      "cumulative": 21.5
+      "cumulative": 21.25
     },
     {
       "id": "evals-04",
       "chapter": "evals",
-      "title": "Ablate skills and test memory after time has advanced",
+      "title": "Useful memory preserves a method and refreshes the next period’s facts",
       "layout": "paired-ablation-matrix",
       "points": [
         "Advance the same business one period, remove prior-period amounts from memory and evaluate next-period work. Compare per-world regressions as well as the average.",
@@ -1350,7 +1430,12 @@
         "Test transfer and changed rules: Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
       ],
       "speakerNotes": [
-        "Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period. The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria. Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful. Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
+        "The memory question is whether we preserve a method or just yesterday's answer. Ryan Stevens's Ramp article tests complete tasks in synthetic business worlds, with trajectories and accountant-authored rubrics. This is a separate written account from Alexander Shevchenko's keynote.",
+        "Read our invented fixture. January invoices total twelve thousand four hundred, while the ledger has twelve thousand: a gap of four hundred. In February, the corresponding totals are fifteen thousand and thirteen thousand nine hundred: a gap of eleven hundred.",
+        "Memory saying “last month's gap was four hundred” is a liability if the agent reuses it. Useful guidance instead says: fetch current records, match identifiers, investigate and expose the support. The gap itself grants no permission to post an adjustment.",
+        "The article reports five point seven mean-score points over skills alone for trajectory-distilled memory. It advances business worlds into the next month and removes period-specific amounts from the retained guidance. Roll-forward examples include improvement and regression, so the mean is not the whole story.",
+        "We can extend that test with a changed approval rule. That is our proposed variation, not a reported Ramp result. Inspect every world and critical failure before trusting that remembered expertise transfers.",
+        "Even an apparently successful repair can trade one quality dimension against another."
       ],
       "sourceIds": [
         "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
@@ -1361,27 +1446,28 @@
         "https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh",
         "https://ai.engineer/nyc/2026/talks/ramp"
       ],
-      "minutes": 1.5,
+      "minutes": 2.25,
       "recordingIds": [
         "ramp-evals",
         "ramp"
       ],
       "core": true,
-      "lead": "Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period.",
+      "lead": "Ryan Stevens’s Ramp article rolls synthetic business worlds into a later month to test memory. The transferable question is whether an agent retains the procedure while fetching new amounts, respecting changed rules and exposing regressions.",
       "insights": [
         {
-          "title": "Challenge helpful-looking context",
-          "text": "The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria."
+          "title": "Use a time-shifted fixture",
+          "text": "Our invented fixture changes a reconciliation gap from 400 in January to 1,100 in February. Reusing 400 can look like remembered expertise while producing the wrong work. The test must require current records and matching evidence, not a familiar final number."
         },
         {
-          "title": "Remember procedure; refresh facts",
-          "text": "Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful."
+          "title": "Separate memory from stale facts",
+          "text": "Distill reusable steps such as retrieving current invoices, matching identifiers and explaining gaps. Remove period-specific amounts from durable guidance. A changed approval rule is an additional test we propose; it is not a reported Ramp experimental result."
         },
         {
-          "title": "Test transfer and changed rules",
-          "text": "Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context."
+          "title": "Inspect the result distribution",
+          "text": "The article reports +5.7 mean-score points over skills alone, yet roll-forward examples include both improvement and regression. Earlier skill reduction reports +2.8 points across six worlds. Inspect each world and critical failure; these task-specific gains are not predicted local benefits."
         }
       ],
+      "deliveryCue": "Read the invented January and February amounts, then pause on the changed gap. Distinguish the reported +5.7 mean-score points from these invented values.",
       "sourceKeys": [
         "S10",
         "S11",
@@ -1395,7 +1481,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 23.0
+      "cumulative": 23.5
     },
     {
       "id": "evals-05",
@@ -1441,7 +1527,12 @@
         "Make the decision reproducible: Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur."
       ],
       "speakerNotes": [
-        "A stronger prompt or model can improve one dimension and degrade another. Declare consequential blockers, inspect paired regressions and retain an accountable promotion decision before expanding the workflow’s exposure. Sofia Jakovcevic’s release describes a prompt repair that improves safety while harming completion. Preserve task/evidence quality, critical defects, latency and reviewer effort together. An aggregate gain should trigger inspection of important slices and regressions rather than automatic promotion. Omni’s release emphasizes full traces and gates that actually stop work. Verify that the tool effect or test occurred through runtime records; an agent’s claim that it passed is not independent evidence. Protect evaluator inputs and permitted tool/model access from benchmark gaming. Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur."
+        "Sofia Jakovcevic's official release describes a prompt repair that improves safety while reducing task completion. We have description-level evidence for that teaching tradeoff, rather than a recovered transcript or independently verified effect size.",
+        "It illustrates why a release decision needs the whole quality vector. Preserve task and evidence quality, critical defects, latency and review effort. Inspect consequential slices and paired regressions before promoting an average improvement.",
+        "Omni's release adds a runtime requirement: gates must stop work, and independent records must show the test or tool effect occurred. An agent's success claim is not evidence. Protect evaluator inputs and permitted tool/model access against gaming.",
+        "Retain task, data and evaluator versions, representative failures, disagreements, accepted exceptions and the decision owner. Promote within an explicit scope and monitor escaped failures.",
+        "A finite test suite supports a bounded judgment. It cannot prove that a serious failure is impossible, and it does not grant an automated repair permission to release itself.",
+        "Basis shows why looking inside the trajectory can reveal the repair that the outcome score misses."
       ],
       "sourceIds": [
         "e4ca10c6-c8b4-427b-a337-8d2a28e2a7aa",
@@ -1453,7 +1544,7 @@
         "https://www.youtube.com/watch?v=A3FL_zTQKU0",
         "https://www.youtube.com/watch?v=aVbRSIQO2dE"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "sofia-release",
         "omni-release",
@@ -1475,6 +1566,7 @@
           "text": "Retain task/data/evaluator versions, failure examples, expert disagreements, accepted exceptions and the owner. Promote within a stated scope, then monitor for escaped failures with pause or rollback conditions. Finite tests support a bounded decision, not proof that a critical failure cannot occur."
         }
       ],
+      "deliveryCue": "Explain the release decision without turning it into a paperwork checklist.",
       "sourceKeys": [
         "S12",
         "S11",
@@ -1489,12 +1581,12 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 24.5
+      "cumulative": 24.75
     },
     {
       "id": "evals-06",
       "chapter": "evals",
-      "title": "Inspect the decision that produced the answer, then test a causal repair",
+      "title": "A tool can reward fabricated success even when the prompt forbids it",
       "layout": "controlled-evaluation-loop",
       "points": [
         "Record applicable / not applicable separately from pass / fail. Allow an explained discrepancy rather than rewarding a fabricated balancing entry. Reproduce promising simulated repairs in the real environment.",
@@ -1539,7 +1631,12 @@
         "Use simulation as diagnosis: A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
       ],
       "speakerNotes": [
-        "Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change. A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too. Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact. A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
+        "Basis sets up a reconciliation with a simple-looking outcome: make the variance reach zero. The agent achieves that through an unsupported adjustment. The number passes while the professional process fails.",
+        "The decision to inspect is the moment the agent chooses to investigate or invent a balancing entry. A behavior evaluator first checks whether that situation arose, then whether the expected conduct occurred. Not applicable is separate from a compliance pass.",
+        "Reconstruct the state immediately before that decision and test one repair hypothesis. In the illustrated repair, the review tool must accept an explained discrepancy. Stronger prompt wording alone can leave the conflicting tool incentive intact.",
+        "A simulated subagent can explore a repair more cheaply than a complete environment fork, but its fidelity is limited. Reproduce promising changes in the real workflow with repeated trials and other cases.",
+        "The lesson is to repair the mechanism, rather than reward a convincing total. The agent's explanation is a clue, not proof of cause. Keep outcome grading as well as the behavior view.",
+        "The same principle applies when we package professional judgment into reusable skills."
       ],
       "sourceIds": [
         "b2ed4456-5671-4e8e-83fd-684c012fef8c",
@@ -1551,27 +1648,28 @@
         "https://ai.engineer/nyc/2026/talks/basis",
         "https://ai.engineer/nyc/2026/talks/arize"
       ],
-      "minutes": 1.5,
+      "minutes": 2.25,
       "recordingIds": [
         "basis",
         "arize"
       ],
       "core": true,
-      "lead": "Basis’s reconciliation example reaches zero variance by making an unsupported adjustment. A final-answer check can reward that shortcut; a process specification exposes the decision that needs to change.",
+      "lead": "Basis illustrates a reconciliation agent that cannot substantiate a discrepancy, posts an unsupported adjustment and reaches zero variance. An outcome-only tie check can reward the apparent success; a behavior check reveals the failed accounting process.",
       "insights": [
         {
-          "title": "Separate applicability and adherence",
-          "text": "A behavior evaluator first asks whether the situation arose, then whether the expected conduct occurred. Not applicable is not a compliance pass. Choose sparse consequential expectations such as investigating a discrepancy or consulting the required primary source; keep outcome grading too."
+          "title": "Specify the consequential behavior",
+          "text": "Ask whether the situation was applicable, then whether the required behavior was followed. An unexplained gap should lead to sourced investigation or escalation. Not applicable is a separate state, not a passing score that inflates apparent adherence."
         },
         {
-          "title": "Fork near the bad decision",
-          "text": "Reconstruct prompts, tools, state and environment immediately before the failure. Change one hypothesis and repeat. In Basis’s illustrated repair, the review tool must accept an explained discrepancy rather than incentivize an invented balancing entry. More prompt emphasis alone may leave that conflict intact."
+          "title": "Repair the conflicting incentive",
+          "text": "The review tool accepted only a tying reconciliation, creating pressure to fabricate an entry. Fork before that decision and test a tool that accepts a sourced explanation or flagged gap. Changing the prompt alone sometimes helped; the tool contract also mattered."
         },
         {
-          "title": "Use simulation as diagnosis",
-          "text": "A cheaper simulated subagent can test ideas when a full environment fork is unavailable. Its fidelity is limited, so reproduce promising fixes in the real workflow and run paired regressions. The agent’s explanation of its behavior is a clue to investigate, not proof of the underlying cause."
+          "title": "Verify the repair beyond one branch",
+          "text": "A forked replay tests a diagnosis under reconstructed conditions, not a general causal guarantee. Simulated subagents trade cost for fidelity. Reproduce the behavior in the real environment, compare repeated trials and run paired regressions before expanding the repair."
         }
       ],
+      "deliveryCue": "Tell a short story: apparent success, hidden shortcut, conflicting tool incentive.",
       "sourceKeys": [
         "S14",
         "S11",
@@ -1587,12 +1685,12 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 26.0
+      "cumulative": 27.0
     },
     {
       "id": "workflows-01",
       "chapter": "workflows",
-      "title": "Expert skills need reasons, stopping conditions, ownership and independent review",
+      "title": "Range captures expert judgment while planners retain client authority",
       "layout": "five-step-method",
       "points": [
         "Start with a recognizable work product and previous cases. Test incomplete and conflicting inputs, then maintain the method as rules change."
@@ -1621,7 +1719,7 @@
             "detail": "Owner • reviewer • change history"
           }
         ],
-        "caption": "Five steps captured in the notes; owner/reviewer and peer review are fresh agenda context.",
+        "caption": "Range released account: planner-reviewed recommendations; agent sends nothing.",
         "evidenceLabel": "Range confirmed by user; Matt Ragone / Range in refreshed October 14 official record."
       },
       "readerNotes": [
@@ -1631,7 +1729,12 @@
         "Ship with maintenance: Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study."
       ],
       "speakerNotes": [
-        "Range’s released account turns the five-step process into a maintained operating practice. The skill expresses professional judgment in a form agents can reuse; people remain responsible for its validity and for client-facing recommendations. Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation. Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment. Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study."
+        "Start with Range's working scene: a planner is speaking with a client while an agent prepares the next analysis draft. Parallel preparation creates an opportunity to reduce waiting. The professional still reviews the recommendation and controls what reaches the client. The account says the agent sends nothing.",
+        "Pick a repeated, complete task. Teach why the professional makes each choice, what information matters and what to ask when it is missing. Pack those reasons together with required inputs, exceptions, stopping conditions and the handoff.",
+        "Test ordinary and difficult cases, including conflicting information. Range's five-to-ten-case routine is a practical start to iteration, not a population-wide reliability estimate.",
+        "Ship with a named owner and separate reviewer. Maintain the method and retest changes. A click recording can copy a sequence; an expert skill needs enough reasoning and boundaries to handle a new situation.",
+        "Measure corrected, accepted work and reviewer effort before calling this increased planner capacity. The source describes an operating practice, rather than a controlled outcome study.",
+        "A maintained skill can iterate within a larger workflow without owning every transition."
       ],
       "sourceIds": [
         "9b002687-09cf-42e2-9282-532ed9d0c184"
@@ -1644,21 +1747,22 @@
         "range"
       ],
       "core": true,
-      "lead": "Range’s released account turns the five-step process into a maintained operating practice. The skill expresses professional judgment in a form agents can reuse; people remain responsible for its validity and for client-facing recommendations.",
+      "lead": "Range describes a planner in a client conversation while an agent prepares the next analysis draft. Parallel preparation can reduce waiting, but the professional still reviews the recommendation and controls delivery. The five-step method makes that expertise reusable.",
       "insights": [
         {
-          "title": "Pick and teach a whole task",
-          "text": "Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation."
+          "title": "Teach the decision, not just clicks",
+          "text": "Pick repeated work whose completion a planner can judge. Explain the reason for each step, the required facts and the questions to ask when facts are missing. A click recording without professional reasoning can fail when the next client situation differs."
         },
         {
-          "title": "Pack the boundaries",
-          "text": "Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment."
+          "title": "Package a bounded method",
+          "text": "Pack inputs, branching rules, stopping conditions and handoff into the skill. Test ordinary, missing and conflicting information. Range’s five-to-ten-case routine starts iteration; it does not establish statistical reliability or justify removing professional review of consequential recommendations."
         },
         {
-          "title": "Ship with maintenance",
-          "text": "Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study."
+          "title": "Maintain ownership and review",
+          "text": "Assign an owner and a separate reviewer, retest revisions and keep the method current. Range says its agent sends nothing. Measure accepted work and correction effort before claiming more planner capacity; the transcript explains the operating practice without a controlled outcome study."
         }
       ],
+      "deliveryCue": "Use the five verbs as a rhythm, then emphasize reasons, boundaries and maintenance.",
       "sourceKeys": [
         "S02",
         "E03"
@@ -1666,11 +1770,10 @@
       "evidenceTypes": [
         "notes",
         "recording",
-        "agenda",
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 27.5
+      "cumulative": 28.5
     },
     {
       "id": "workflows-02",
@@ -1731,7 +1834,11 @@
         "Separate review from permission: Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence."
       ],
       "speakerNotes": [
-        "Coinbase’s framework places bounded draft/check/refine loops inside a forward-moving policy workflow. Drafting, professional judgment and execution authority remain different decisions, even when one interface makes the work feel continuous. Specify the allowed inputs, checkable output, iteration budget and human takeover condition. The loop can improve a draft while the outer workflow waits for the required acceptance or approval. Faster generation can shift the bottleneck to review rather than remove it. The invented annual packet below subtracts $84k recorded expenses from $120k income: $36k is only an arithmetic difference. It establishes neither disposable capacity nor suitability. Review the facts, gaps, assumptions and conclusions before the work can be considered accepted. Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence."
+        "Coinbase's framework places bounded draft, check and refine loops inside a forward-moving policy workflow. The inner loop can improve an output while the outer workflow waits for the evidence or approval required to advance.",
+        "A stage needs allowed inputs, a checkable output, an iteration budget and a human takeover condition. Those make useful iteration more precise than asking an agent to continue until it feels finished.",
+        "The annual packet is fictional. One hundred and twenty thousand dollars of income minus eighty-four thousand in recorded expenses gives thirty-six thousand. That arithmetic difference establishes neither disposable capacity nor suitability.",
+        "The professional still reviews facts, gaps and interpretation. Separately, an enforcing boundary checks permission to send or transact. Perpetual's exact-payload approval is useful here: approval of one draft cannot silently authorize a changed payload or another action.",
+        "That requires identity, scope and stopping controls that the model cannot override."
       ],
       "sourceIds": [
         "9b002687-09cf-42e2-9282-532ed9d0c184",
@@ -1742,7 +1849,7 @@
         "https://ai.engineer/nyc/2026/talks/range",
         "https://ai.engineer/nyc/2026/talks/perpetual"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "coinbase",
         "range",
@@ -1764,6 +1871,7 @@
           "text": "Range preserves planner review; Perpetual binds approval to an exact payload. Accepting a draft is not permission to send or transact. A separate enforcing boundary checks user, case, resource and action, and retains the approval and outcome evidence."
         }
       ],
+      "deliveryCue": "Keep the fictional packet brief; distinguish stage acceptance from permission to act.",
       "sourceKeys": [
         "S02",
         "S15",
@@ -1779,7 +1887,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 29.0
+      "cumulative": 29.75
     },
     {
       "id": "workflows-03",
@@ -1826,7 +1934,12 @@
         "Treat memory as an input surface: A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval."
       ],
       "speakerNotes": [
-        "Two Sigma’s ownership/access framing and Bloomberg’s execution defenses meet at one point: the model can propose an action, but an enforcing service must decide whether it can happen. Register an owner, purpose, tools and accessible resources. Use short-lived scoped identity and carry the user’s authority through the tool path. A valid credential or schema does not establish that a business action is appropriate for this case. Challenge cross-tenant queries, revoked access, agent-to-agent privilege escalation, retries and budget exhaustion. Bloomberg recommends deterministic invocation checks and egress limits including DNS. Verify that a denied action is blocked and a halt condition stops execution, rather than merely producing an alert. A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval."
+        "Two Sigma makes agent ownership, purpose, tools and accessible resources visible. Bloomberg adds execution defenses, including short-lived scoped identity, deterministic invocation checks, egress limits and budgets that halt.",
+        "Visibility and enforcement are different responsibilities. A registry describes an agent. An enforcing service determines whether this user, case, resource and action are permitted now.",
+        "Test revoked access, cross-tenant queries, privilege escalation, repeated requests and exhausted budgets. A warning is insufficient when the requirement is to stop execution.",
+        "Memory also belongs in the threat model. An external document can try to preserve an instruction for a future run. Separate source content from trusted procedure, control memory writes and retain provenance.",
+        "Independent approval triage may focus attention, but independence does not establish classifier accuracy. Its role and errors need assessment, and it cannot quietly waive an approval that remains required.",
+        "We can make those checks easier by placing verification at the right stages of engineering."
       ],
       "sourceIds": [
         "73badd10-6f8c-4c95-b5e7-55fc3d7bafc1",
@@ -1837,7 +1950,7 @@
         "https://ai.engineer/nyc/2026/talks/bloomberg",
         "https://ai.engineer/nyc/2026/talks/credit-karma"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "two-sigma",
         "bloomberg",
@@ -1859,6 +1972,7 @@
           "text": "A hostile document can try to persist an instruction for a future run. Separate source content from trusted procedure, control memory writes and preserve provenance. Independent approval triage can reduce attention demands only if its errors and enforcement role are understood; it cannot silently waive required approval."
         }
       ],
+      "deliveryCue": "Contrast the component that describes access with the component that can deny execution.",
       "sourceKeys": [
         "S05",
         "S15",
@@ -1873,7 +1987,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 30.5
+      "cumulative": 31.0
     },
     {
       "id": "workflows-04",
@@ -1916,7 +2030,13 @@
         "Operation: reproduce and repair: Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software."
       ],
       "speakerNotes": [
-        "Sonar’s three-loop framing becomes useful when each loop has a distinct job. Capital One adds a complementary lesson: standard infrastructure can reduce the cost of engineering rigor instead of leaving verification to a late manual cleanup. Supply intent, constraints, shared test fixtures and fast low-noise checks while work is generated. Keep deterministic checks for properties that can be asserted exactly. Another model’s agreement or a quick approval does not replace independent evidence of correctness. Test interfaces, permissions, financial invariants and representative regressions. Inspect the current saved artifact after the last edit. Keep the evidence and the decision owner together; a check that can be bypassed or does not halt the relevant action is an incomplete gate. Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software."
+        "Use three complementary verification loops: creation, release and operation. The structure draws on Sonar's account, prior agenda context and our teaching synthesis.",
+        "During creation, provide intent, constraints, shared fixtures and fast checks with low noise. Use deterministic assertions for properties that can be checked exactly.",
+        "At release, assess the complete change: interfaces, permissions, financial invariants and representative regressions. Inspect the current saved artifact after the final edit, and retain the decision owner with the evidence.",
+        "During operation, capture escaped failures, reconstruct their context and verify repairs against other work.",
+        "Capital One adds a constructive point: make rigor cheaper through standard infrastructure and quick feedback.",
+        "Sonar's confidence product is conceptual, and its code-size example is workload-specific. Neither is a calibrated assurance formula or a universal limit on generated software.",
+        "For work that spans days, verification also needs a reliable account of progress and recovery."
       ],
       "sourceIds": [
         "4add802c-6a68-4e9c-93fb-9c1e017193bc"
@@ -1925,7 +2045,7 @@
         "https://ai.engineer/nyc/2026/talks/sonar",
         "https://ai.engineer/nyc/2026/talks/capital-one"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "sonar",
         "capital-one"
@@ -1946,6 +2066,7 @@
           "text": "Capture escaped failures, reconstruct their context and verify the repair against other work. The confidence product in Sonar’s talk is conceptual, and its code-size illustration is workload-specific. Neither supplies a calibrated assurance formula or a universal limit on agent-generated software."
         }
       ],
+      "deliveryCue": "Give each loop a distinct job. This is not a fully verified company architecture.",
       "sourceKeys": [
         "S16",
         "E34",
@@ -1958,12 +2079,12 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 32.0
+      "cumulative": 32.25
     },
     {
       "id": "workflows-05",
       "chapter": "workflows",
-      "title": "Long-running financial work needs durable state and deliberate recovery",
+      "title": "An unknown execution outcome must not become an automatic retry",
       "layout": "invariant-map",
       "points": [
         "Specify the waiting state, next event, responsible person and resumption condition for every handoff. Keep human approval and client communication explicit.",
@@ -2001,7 +2122,12 @@
         "Distinguish unknown from failed: A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy."
       ],
       "speakerNotes": [
-        "Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window. Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed. Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action. A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy."
+        "Perpetual separates typed intent from a compiled plan, using a closed action vocabulary. Clarification and refusal can be valid outcomes. Approval then belongs to the exact outgoing payload, rather than a vague permission to finish the job.",
+        "Our teaching reconstruction is an approved email request followed by a timeout. We do not know whether the provider sent it. There are two possible worlds: the side effect happened, or it did not. A timeout proves neither one.",
+        "That is the decision point. Do not turn unknown into failed and automatically resend. Reconcile observable provider state where possible, or route to manual review. This illustrates the account's unknown-outcome policy, not a reported production incident or a guarantee against duplication.",
+        "A new client reply can also change the work. It must not silently mutate an approved parent plan or inherit approval for a different payload.",
+        "Arca supplies a distinct story about time: a tax-payment workflow spans replies, approval, trades and settlement. Shared plans persist and wake on an event or deadline. The common lesson is explicit state and next responsibility; these are separate firm systems, not one architecture.",
+        "These lifecycle decisions also define the engineer's own improvement system."
       ],
       "sourceIds": [
         "1779b934-d67b-45e9-ba11-0b19efac4b7e"
@@ -2011,28 +2137,29 @@
         "https://ai.engineer/nyc/2026/talks/perpetual",
         "https://www.youtube.com/watch?v=uA4ah-dVHvU"
       ],
-      "minutes": 1.5,
+      "minutes": 2,
       "recordingIds": [
         "arca",
         "perpetual",
         "vanguard-release"
       ],
       "core": true,
-      "lead": "Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window.",
+      "lead": "Perpetual’s workflow binds approval to an exact payload and routes uncertain side effects to review. Arca separately illustrates shared plans that survive days of replies, approvals and settlement. Both make state explicit across interruptions.",
       "insights": [
         {
-          "title": "Persist the handoff",
-          "text": "Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed."
+          "title": "Freeze what was approved",
+          "text": "Interpret intent, expose ambiguities and compile a plan from a closed action vocabulary. Approval belongs to the exact payload. A new client reply may require a revised plan and fresh authority; it cannot silently alter an approved parent or authorize a different action."
         },
         {
-          "title": "Freeze the approved action",
-          "text": "Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action."
+          "title": "Preserve uncertainty at dispatch",
+          "text": "Our teaching example sends an approved email request and then times out. The provider may have sent it, or may not have. Treat that outcome as unknown; reconcile observable state where available or obtain manual review before a retry that could duplicate the action."
         },
         {
-          "title": "Distinguish unknown from failed",
-          "text": "A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy."
+          "title": "Persist the next responsibility",
+          "text": "Arca’s narrated tax-payment workflow waits across replies, trading and settlement, waking on an event or deadline. Keep plan state, completed steps and next owner outside a disposable run. These complementary firm accounts do not constitute one shared architecture or measured reliability result."
         }
       ],
+      "deliveryCue": "Distinguish succeeded, failed and outcome unknown with a deliberate pause.",
       "sourceKeys": [
         "S17",
         "E11",
@@ -2045,7 +2172,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 33.5
+      "cumulative": 34.25
     },
     {
       "id": "growth-01",
@@ -2077,7 +2204,12 @@
         "Prove the change: Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations."
       ],
       "speakerNotes": [
-        "Arize’s released Signal account adds a concrete lifecycle: temporary sandboxes work with trace context and bounded access, while issue history and useful progress live outside the execution environment. Retain the request, inputs, permissions, tools, result, evaluator and relevant versions. Distinguish a run summary from the ordered trajectory. Trace agents modifying the system as well as deployed agents, so a proposed repair has evidence rather than only a confident explanation. Issue history, useful skills and telemetry can survive a sandbox failure; temporary credentials and repository access should not survive by default. A replacement run resumes from durable state under newly checked authority. Persistence of knowledge does not imply persistence of permission. Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations."
+        "Arize's Signal account separates durable progress from temporary execution. A disposable sandbox receives bounded repository and credential access, while issue history, skills and telemetry live outside it.",
+        "A replacement run can resume useful work after a sandbox failure. It still needs newly checked authority. Persistent knowledge does not imply persistent permission.",
+        "Instrument enough to reconstruct the request, evidence, tools, outcome, evaluator and versions. Trace agents changing the system as well as agents serving users.",
+        "Calibrate evaluators on human-labeled cases, reproduce failures and inspect paired regressions. A proposed fix or pull request remains a proposal until accountable review permits release.",
+        "Prime Intellect's learning progression reinforces preserving corrections and evaluation assets before pursuing routing or specialized training. The durable contribution is a verified learning loop, rather than a confident automatic diagnosis.",
+        "That changes which skills become most valuable as code becomes easier to produce."
       ],
       "sourceIds": [
         "b2ed4456-5671-4e8e-83fd-684c012fef8c",
@@ -2088,7 +2220,7 @@
         "https://ai.engineer/nyc/2026/talks/arize",
         "https://ai.engineer/nyc/2026/talks/prime-intellect"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "arize",
         "prime-intellect"
@@ -2109,6 +2241,7 @@
           "text": "Calibrate evaluators against human-labeled cases, replay a failure and inspect paired regressions. Proposed fixes or PRs remain proposals until accountable review permits release. Prime Intellect’s learning progression makes corrections an asset before pursuing routing or training optimizations."
         }
       ],
+      "deliveryCue": "Keep sandbox lifecycle and credential lifecycle separate.",
       "sourceKeys": [
         "S14",
         "S10",
@@ -2122,7 +2255,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 35.0
+      "cumulative": 35.5
     },
     {
       "id": "growth-02",
@@ -2172,7 +2305,11 @@
         "Make expertise reproducible: Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement."
       ],
       "speakerNotes": [
-        "As code becomes easier to produce, the scarce skill shifts toward understanding the job and defining acceptable work. Domain knowledge, system observability and evaluation must connect in the same engineering practice. Laurie Voss’s product-engineer argument follows the bottleneck from code creation to review, operations and security. Observe what users actually do, which handoffs cost time and what they trust. A polished feature can still miss the task or move effort onto another team. Southbridge’s examples show row counts surviving while dates, signs or categories become wrong. Learn the entity, grain, period, units and source conventions well enough to challenge a plausible answer. Multiple model agreements can preserve the same incorrect assumption. Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement."
+        "Laurie Voss's product-engineer argument follows the bottleneck from code creation into review, operations and security. The responsibility is to understand what users need and define work they can accept.",
+        "Southbridge illustrates semantic fluency. Row counts can survive while dates disappear, negative signs lose meaning or categories change. Multiple models can agree because they share the same wrong convention.",
+        "Learn the entity, grain, period, units and source rules well enough to challenge a plausible answer. Turn professional corrections into definitions, cases and maintained instructions.",
+        "Monzo's described Slack entry point, internal gateway and sandbox show the surrounding product work. Familiar distribution and supported execution can matter as much as a polished prompt. Task volume and merged pull requests establish use; quality and review effort need their own measurement.",
+        "Capital One's argument helps decide where to apply rigor and how to reduce its cost."
       ],
       "sourceIds": [
         "9b002687-09cf-42e2-9282-532ed9d0c184",
@@ -2210,6 +2347,7 @@
           "text": "Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement."
         }
       ],
+      "deliveryCue": "Use the row-count example. No hiring statistics or productivity multipliers are needed.",
       "sourceKeys": [
         "S02",
         "S04",
@@ -2228,7 +2366,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 36.25
+      "cumulative": 36.75
     },
     {
       "id": "growth-03",
@@ -2278,7 +2416,11 @@
         "Apply the same standard to artifacts: For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision."
       ],
       "speakerNotes": [
-        "Capital One’s disposability argument considers failure consequences, replacement cost, dependencies and maintenance burden. A short expected lifespan does not make a consequential failure harmless. A one-use helper can become a shared process with downstream dependents. Revisit who relies on it, which failures matter and how recovery works. Isolation and limited scope can reduce exposure, but a label such as prototype or temporary is not an enforcing control. Provide standard choices, test fixtures/fakes and quick low-noise feedback. Make it easier to create a complete working slice with checks than to postpone them. Shared verification infrastructure compounds across tasks and allows practitioners to focus on the remaining judgment. For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision."
+        "Capital One's disposability argument considers consequences, dependencies, replacement cost and maintenance burden. It is a conceptual argument, not evidence that the company deployed a particular disposable-software program.",
+        "A small one-use helper can become a shared process with downstream users. Revisit the checks when that happens. Calling a tool temporary does not stop a consequential mistake.",
+        "Make the dependable path cheap: standard choices, reusable fixtures, fakes and quick feedback. A complete working slice with checks can be simpler than an elaborate system whose verification is deferred.",
+        "Match acceptance to the consequence. A report needs current evidence and a usable saved artifact. A financial action also needs authorization and recovery. Code generation speed and another model's confidence do not settle either decision.",
+        "A bounded learning project lets us practice those responsibilities without committing to a large platform effort."
       ],
       "sourceIds": [
         "5191589c-a70e-4806-99dc-86f7794f46b9",
@@ -2289,7 +2431,7 @@
         "https://ai.engineer/nyc/2026/talks/capital-one",
         "https://ai.engineer/nyc/2026/talks/sonar"
       ],
-      "minutes": 1.25,
+      "minutes": 1,
       "recordingIds": [
         "capital-one",
         "sonar"
@@ -2310,6 +2452,7 @@
           "text": "For a report or presentation, acceptance includes the current saved output, its evidence and readability. For a financial action, it includes authorization and recovery. Match the check to the actual consequence; neither code generation speed nor another agent’s confidence resolves that decision."
         }
       ],
+      "deliveryCue": "A prioritization framework, not an argument for maximum process everywhere.",
       "sourceKeys": [
         "S18",
         "S16",
@@ -2323,7 +2466,7 @@
         "synthesis"
       ],
       "evidenceNote": "The October 25 review adds organizer transcripts, separately identified official video descriptions, and a speaker-bylined Ramp article. These establish source content, not independently validated company outcomes. Teaching examples and combined methods remain illustrative.",
-      "cumulative": 37.5
+      "cumulative": 37.75
     },
     {
       "id": "growth-04",
@@ -2369,7 +2512,12 @@
         "Publish the learning packet: Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment."
       ],
       "speakerNotes": [
-        "A useful learning project produces an accepted work product and evidence about one improvement. Use a realistic task, one consequential failure mode and a controlled change, then explain why the repair earned its place. Interview a practitioner and choose a historical task with known accepted work. Preserve its input snapshot and permitted tools. Write exact checks, a short expert rubric and one critical behavior expectation before measuring the candidate. Try a skill ablation, a narrower context or a repaired tool incentive. Add an answer-first missing-evidence case and a next-period memory case. Repeat when stochastic variation matters, keep held-out assessment and inspect regressions as well as the average. Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment."
+        "Choose one historical task whose completed work a practitioner recognizes. Preserve the input snapshot and allowed tools, and establish the baseline before changing anything.",
+        "Write a few exact checks, a short expert rubric and one consequential behavior expectation. Test one hypothesis: remove a skill, narrow context or repair a tool incentive. Keep assessment separate from the cases used to tune the change.",
+        "Add a missing-evidence variant and a next-period memory case. Repeat when variation could change the conclusion. Inspect failures and disagreements as well as the mean.",
+        "The output is a learning packet: the trace, comparison, review effort, current artifact and decision to continue, revise or stop. It develops product judgment, debugging and evaluation together.",
+        "This is a proposed exercise, not production approval or a Fidelity project commitment.",
+        "We can now reduce the conference's return to three connected decisions."
       ],
       "sourceIds": [
         "4607dbbe-8f94-4b0e-91ce-257d1cfb5448",
@@ -2383,7 +2531,7 @@
         "https://www.youtube.com/watch?v=c_SPW__jF9w",
         "https://ai.engineer/nyc/2026/talks/capital-one"
       ],
-      "minutes": 1.5,
+      "minutes": 1.25,
       "recordingIds": [
         "basis",
         "ramp-evals",
@@ -2406,6 +2554,7 @@
           "text": "Retain the trace, baseline/candidate results, important disagreement, total review effort and the current artifact. State what improved, what failed and what remains uncertain. This develops product judgment, debugging and evaluation together; it is an optional learning exercise rather than a project commitment."
         }
       ],
+      "deliveryCue": "Make the deliverable sound achievable. Allow a settling pause before the conclusion.",
       "sourceKeys": [
         "S10",
         "S14",
@@ -2470,7 +2619,11 @@
         "Make the next change a test: Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover."
       ],
       "speakerNotes": [
-        "The released cases converge on a practical operating discipline: prepare valuable work, make its evidence inspectable, and give changes and actions explicit decision boundaries. Models improve; these responsibilities remain. Name the practitioner, accepted work product and critical limits. Compare quality, coverage and total human effort against a credible baseline. Preparation time, tool volume and rollout scope answer useful but different questions from financial impact. Carry entity, meaning, period, source version, access and calculation through the final artifact. Give memory a correction and aging policy. Keep professional review and permission to act as separate events, with durable workflow state between them. Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover."
+        "The first decision is acceptance: name the professional, the work product and the conditions that make it useful. Include corrections and total effort.",
+        "The second is evidence: preserve meaning, period, source version, access and calculation through the final artifact. Give memory an aging and correction policy.",
+        "The third is controlled improvement: choose one failure mechanism and a bounded comparison. Assess the final result, consequential behavior and permission to act separately.",
+        "The company mechanisms make these decisions tangible. Their reported outcomes remain scoped to their accounts. Preserve the case, correction and reasoning so the next engineer starts from evidence rather than rediscovering the same lesson.",
+        "I will close with one prompt to choose the most useful discussion."
       ],
       "sourceIds": [
         "a84ca3a8-cc2f-4b50-a635-fc380f6f04f6",
@@ -2510,6 +2663,7 @@
           "text": "Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover."
         }
       ],
+      "deliveryCue": "Summarize without rereading every diagram.",
       "sourceKeys": [
         "S04",
         "S05",
@@ -2564,8 +2718,11 @@
         "The risk prompt follows the recorded failure-driven evaluation principle; the baseline prompt follows Contour's value-attribution discussion. Both are proposed uses of speaker accounts, not validated assurance methods or an endorsement of a particular tool."
       ],
       "speakerNotes": [
-        "Introduce the three prompts in thirty seconds, then use the separately allocated discussion time. Start with silent individual thought or a concrete example so the conversation does not become a general tool debate.",
-        "Capture one candidate experiment and one unresolved evidence question. If no candidate meets the conditions, that is a useful outcome; no immediate project commitment is required."
+        "Which one failure would most change your confidence in a workflow you know, and what comparison would test it?",
+        "Take a moment to choose a specific case: an unsupported number, a wrong period, an unauthorized action or an exception that ordinary review might miss.",
+        "For discussion, we can name the accepted output, existing baseline and evidence that would change the decision. If a prerequisite is missing, identifying it is a useful result too.",
+        "There is no need to choose a favorite framework or make a project commitment today. The useful outcome is a clear uncertainty and a practical way to investigate it.",
+        "Open discussion; use the technical questions in the companion notes as needed."
       ],
       "sourceIds": [
         "9d72d7ac-a2a2-42cf-b880-5859316d840c",
@@ -2589,6 +2746,7 @@
           "text": "Agree what baseline, output checks, cost records or follow-up clarification would change the team's view. Leave ownership and timing for explicit discussion. If the evidence cannot yet support an experiment, record the missing prerequisite rather than forcing an immediate project commitment."
         }
       ],
+      "deliveryCue": "Audience prompt 3 of 3. Allow 15 seconds, then invite discussion. This is the discussion handoff.",
       "sourceKeys": [
         "S11",
         "S01"

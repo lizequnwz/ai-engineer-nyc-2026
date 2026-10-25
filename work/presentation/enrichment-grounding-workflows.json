@@ -1,37 +1,37 @@
 {
   "grounding-01": {
-    "headline": "Ground facts and memory in time, meaning, access and source health",
-    "lead": "Financial context is a changing information set, not a bag of relevant passages. A request needs an entity, decision, period and cutoff; persistent knowledge additionally needs evidence age, contradictions and a way to accept corrections.",
+    "headline": "A changing belief needs a dated evidence trail, not just a newer summary",
+    "lead": "Citadel Securities illustrates why institutional memory must distinguish reported project status from evidence-supported status. A green monthly deck and a newer unresolved dependency can both be true records, while implying different answers to “Are we on track?”",
     "insights": [
       {
-        "title": "Set the evidence boundary",
-        "text": "Bridgewater’s Vault organizes research by source, market, country, concept and discussed period. Apply entitlements and time constraints before synthesis. A correct answer to a neighboring period, entity or definition is still a failure of the requested task."
+        "title": "Keep both records",
+        "text": "Preserve the earlier report and the later dependency evidence; attach each to its source and observation time. Replacing the green status with a new assessment loses why the assessment changed and prevents a faithful reconstruction of the earlier information set."
       },
       {
-        "title": "Preserve changing beliefs",
-        "text": "Citadel Securities separates reported project status from evidence-based status, keeps historical records, ages claims and compares earlier predictions with later outcomes. Models propose updates; code and people decide what enters the record. This is richer than retrieving the latest matching sentence."
+        "title": "Commit updates deliberately",
+        "text": "Models propose changes to the institutional record; code and people govern acceptance. Contradictions, aging evidence and corrections belong in the update process. A model-generated confidence label alone does not establish that an update is reliable or authorized."
       },
       {
-        "title": "Treat missing signals honestly",
-        "text": "A quiet source can mean a collection problem rather than inactivity. Preserve last observed time, source health and correction history; unknown is not zero. Our combined evidence contract adds versioned definitions and as-of snapshots, without claiming a single firm implemented every field."
+        "title": "Evaluate across time",
+        "text": "Freeze a prior snapshot and compare its assessment with later observations. Keep source health separate: silence can mean missing telemetry rather than progress or inactivity. The narrated project example illustrates a method, without establishing a measured prediction advantage."
       }
     ]
   },
   "grounding-02": {
-    "headline": "Evaluate eligible evidence coverage separately from human-facing relevance",
-    "lead": "Bridgewater supplies a concrete retrieval-learning loop: label relevant and plausible irrelevant evidence, reproduce complaints, and test filtering under the constraints found in real use. Larger context alone is not the objective.",
+    "headline": "Bridgewater turns a timely research question into a retrieval-learning loop",
+    "lead": "In the Vault demonstration, an early-October question about AI and currencies exposes a July source in a generic answer. The lesson is to define eligible evidence, test relevance and return a brief an investor can inspect.",
     "insights": [
       {
-        "title": "Make relevance observable",
-        "text": "The speakers describe roughly 200 manually labeled questions and a reported precision@10 rise from about 60% to 90–95%. The speaker corrects an initial “recall” reference to precision. This is an internal retrieval comparison, not measured final-answer quality or investment performance."
+        "title": "Define eligible evidence first",
+        "text": "Time, source, asset and access constraints determine the usable corpus. July material may be relevant but insufficiently current for an October question. Evaluate restrictive and sparse filters, including no-evidence cases; a plausible passage is not automatically eligible evidence."
       },
       {
-        "title": "Test restrictive filters",
-        "text": "Post-filtering can discard eligible candidates after vector search; exhaustive pre-filtered scoring can be slow. Evaluate combinations of time, source and asset constraints, including sparse matches and no evidence. Measure coverage and latency rather than choosing an index from a generic benchmark."
+        "title": "Test retrieval separately",
+        "text": "The speakers describe roughly 200 labeled questions with plausible negatives and precision@10 rising from about 60% to 90–95%. The speaker corrects “recall” to precision. This internal comparison does not establish answer correctness, investment performance or a held-out estimate."
       },
       {
-        "title": "Design for the consumer",
-        "text": "An agent may collect broad evidence while a human needs a small reviewable brief. Assess both stages: required-source coverage before compression, then retained meaning and review effort. Saved searches, collections and familiar-channel migration are part of adoption, not merely interface decoration."
+        "title": "Connect quality to adoption",
+        "text": "Saved searches, collections and evidence cards fit existing investor habits. Agents can collect broadly while people need concise, reviewable support. Assess required-source coverage before compression, then omissions and review effort; more cited sources in one demo do not prove a better answer."
       }
     ]
   },
@@ -54,20 +54,20 @@
     ]
   },
   "grounding-04": {
-    "headline": "Correct arithmetic can produce the wrong answer when the source is stale",
-    "lead": "This synthetic AsterCo example separates calculation correctness from source validity: preliminary revenue produces 18% growth, while the final source available at the requested cutoff produces 20%.",
+    "headline": "The right financial answer changes when the information cutoff changes",
+    "lead": "The invented AsterCo example uses the same business and arithmetic under two dates. March 1 permits final revenue and 20% growth; January 20 permits only the preliminary release and an explicitly preliminary 18% estimate.",
     "insights": [
       {
-        "title": "Apply the information cutoff",
-        "text": "All company data and documents here are invented. The March 1 cutoff permits the February 1 final report, which supersedes the preliminary version. Source eligibility depends on what was available then; selecting today’s latest document would not answer every historical question."
+        "title": "Select what was knowable then",
+        "text": "FY2024 final revenue is 100; FY2025 preliminary revenue is 118, published January 15; final revenue is 120, published February 1. All values are invented USD millions. A January 20 request cannot use the later final release."
       },
       {
-        "title": "Recompute the dependent claim",
-        "text": "Using preliminary revenue of 118 against prior-year revenue of 100 gives 18%; using final revenue of 120 gives 20%. Both calculations are arithmetically valid. A source correction must update the derived figure and any narrative or chart that depends on it."
+        "title": "Recompute every dependent claim",
+        "text": "At March 1, (120 − 100) / 100 gives 20%. At January 20, (118 − 100) / 100 gives 18%, labeled preliminary. Correct arithmetic cannot repair a source from the wrong information set or silently remove uncertainty."
       },
       {
-        "title": "Preserve the rejected version",
-        "text": "Retain the chosen inputs, publication dates, calculation, and reason the preliminary source was superseded. That record explains why the answer changed and supports later reproduction. Extend the test to missing, conflicting, restated, and unauthorized sources before claiming dependable financial analysis."
+        "title": "Retain the selection reason",
+        "text": "Keep publication dates, chosen inputs, rejected versions and derivations with the exported answer. A changed source must update its narrative and chart too. Extend this fixture to restatements, conflicting definitions and revoked access before claiming dependable analysis."
       }
     ]
   },
@@ -90,20 +90,20 @@
     ]
   },
   "workflows-01": {
-    "headline": "Expert skills need reasons, stopping conditions, ownership and independent review",
-    "lead": "Range’s released account turns the five-step process into a maintained operating practice. The skill expresses professional judgment in a form agents can reuse; people remain responsible for its validity and for client-facing recommendations.",
+    "headline": "Range captures expert judgment while planners retain client authority",
+    "lead": "Range describes a planner in a client conversation while an agent prepares the next analysis draft. Parallel preparation can reduce waiting, but the professional still reviews the recommendation and controls delivery. The five-step method makes that expertise reusable.",
     "insights": [
       {
-        "title": "Pick and teach a whole task",
-        "text": "Choose repeated work whose success a professional can recognize. Use prior cases to explain what information matters, how the firm reasons and why a branch exists. A recording of clicks without the reason cannot reliably guide a new or incomplete situation."
+        "title": "Teach the decision, not just clicks",
+        "text": "Pick repeated work whose completion a planner can judge. Explain the reason for each step, the required facts and the questions to ask when facts are missing. A click recording without professional reasoning can fail when the next client situation differs."
       },
       {
-        "title": "Pack the boundaries",
-        "text": "Include required inputs, clarification questions, exceptions, stopping conditions and the handoff. Test missing facts and conflicting instructions as well as ordinary completion. The speaker’s five-to-ten-case routine starts iteration; it does not demonstrate statistical reliability or replace broader assessment."
+        "title": "Package a bounded method",
+        "text": "Pack inputs, branching rules, stopping conditions and handoff into the skill. Test ordinary, missing and conflicting information. Range’s five-to-ten-case routine starts iteration; it does not establish statistical reliability or justify removing professional review of consequential recommendations."
       },
       {
-        "title": "Ship with maintenance",
-        "text": "Assign an owner and a separate reviewer, keep the method current and retest changes. Range’s agent sends nothing and every recommendation is reviewed by a planner. Measure corrected, accepted work before claiming capacity gains; the transcript provides a method rather than a controlled outcome study."
+        "title": "Maintain ownership and review",
+        "text": "Assign an owner and a separate reviewer, retest revisions and keep the method current. Range says its agent sends nothing. Measure accepted work and correction effort before claiming more planner capacity; the transcript explains the operating practice without a controlled outcome study."
       }
     ]
   },
@@ -162,20 +162,20 @@
     ]
   },
   "workflows-05": {
-    "headline": "Long-running financial work needs durable state and deliberate recovery",
-    "lead": "Arca and Perpetual supply complementary mechanisms: persist the shared plan across real-world waits, then constrain the execution transitions and side effects. Long horizon is a workflow property, not simply a larger context window.",
+    "headline": "An unknown execution outcome must not become an automatic retry",
+    "lead": "Perpetual’s workflow binds approval to an exact payload and routes uncertain side effects to review. Arca separately illustrates shared plans that survive days of replies, approvals and settlement. Both make state explicit across interruptions.",
     "insights": [
       {
-        "title": "Persist the handoff",
-        "text": "Keep the goal, approved plan, completed work, evidence and next responsible party outside a disposable run. Wake on a client reply, approval, settlement event or deadline. A new invocation should know what happened and what remains, without assuming every prior action failed."
+        "title": "Freeze what was approved",
+        "text": "Interpret intent, expose ambiguities and compile a plan from a closed action vocabulary. Approval belongs to the exact payload. A new client reply may require a revised plan and fresh authority; it cannot silently alter an approved parent or authorize a different action."
       },
       {
-        "title": "Freeze the approved action",
-        "text": "Perpetual separates provisional interpretation from a compiled plan and binds approval to the exact outgoing payload. Clarification or refusal can be correct outcomes. Changes to a client reply must not silently rewrite the approved parent plan or inherit permission for a different action."
+        "title": "Preserve uncertainty at dispatch",
+        "text": "Our teaching example sends an approved email request and then times out. The provider may have sent it, or may not have. Treat that outcome as unknown; reconcile observable state where available or obtain manual review before a retry that could duplicate the action."
       },
       {
-        "title": "Distinguish unknown from failed",
-        "text": "A timeout after an external write can leave the outcome unknown. Blind retries can duplicate an action. Route uncertainty to reconciliation or manual review; test interruptions around the side-effect boundary. Vanguard’s separate modernization story reinforces invariants and observability, not unconstrained autonomy."
+        "title": "Persist the next responsibility",
+        "text": "Arca’s narrated tax-payment workflow waits across replies, trading and settlement, waking on an event or deadline. Keep plan state, completed steps and next owner outside a disposable run. These complementary firm accounts do not constitute one shared architecture or measured reliability result."
       }
     ]
   }

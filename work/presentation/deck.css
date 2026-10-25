@@ -455,3 +455,20 @@ body[data-mode=read] .dark .slide-card {min-height:580px}
   .reader-appendix-table a,.reader-appendix-table .limit {font-size:8pt}
   .table-scroll {overflow:visible}
 }
+
+/* Concrete scenes retain one reading path before the three analytical explanations. */
+.case-evolution {display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:0;border:1px solid var(--line)}
+.case-evolution>div {padding:16px 18px;border-right:1px solid var(--line)}
+.case-evolution>div:last-child {border:0;background:var(--night);color:var(--night-ink)}
+.case-evolution span {display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+.case-evolution .case-conclusion span {color:var(--night-muted)}
+.case-evolution b {display:block;font-size:19px;line-height:1.3;margin-bottom:8px}
+.case-evolution p,.case-lanes p,.memory-contrast p,.cutoff-comparison p {font-size:15px;line-height:1.45}
+.case-lanes {border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.case-lanes>div {display:grid;grid-template-columns:230px 1fr;gap:18px;padding:12px 4px}
+.case-lanes>div+div {border-top:1px solid var(--line)}
+.case-lanes b {color:var(--accent);font-size:17px}
+.memory-contrast {display:grid;grid-template-columns:1fr 1.5fr;background:var(--soft);padding:12px 18px;gap:20px}
+.cutoff-comparison {display:grid;gap:14px;padding:18px;background:var(--night);color:var(--night-ink)}
+.cutoff-comparison b {font-size:20px;color:var(--lime)}
+@media(max-width:700px) {.case-evolution,.memory-contrast {grid-template-columns:1fr}.case-evolution>div {border-right:0;border-bottom:1px solid var(--line)}.case-lanes>div {grid-template-columns:1fr;gap:5px}}

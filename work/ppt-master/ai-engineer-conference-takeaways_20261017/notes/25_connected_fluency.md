@@ -1,9 +1,9 @@
-As code becomes easier to produce, the scarce skill shifts toward understanding the job and defining acceptable work. Domain knowledge, system observability and evaluation must connect in the same engineering practice.
+Laurie Voss's product-engineer argument follows the bottleneck from code creation into review, operations and security. The responsibility is to understand what users need and define work they can accept.
 
-Discover the real constraint. Laurie Voss’s product-engineer argument follows the bottleneck from code creation to review, operations and security. Observe what users actually do, which handoffs cost time and what they trust. A polished feature can still miss the task or move effort onto another team.
+Southbridge illustrates semantic fluency. Row counts can survive while dates disappear, negative signs lose meaning or categories change. Multiple models can agree because they share the same wrong convention.
 
-Preserve business meaning. Southbridge’s examples show row counts surviving while dates, signs or categories become wrong. Learn the entity, grain, period, units and source conventions well enough to challenge a plausible answer. Multiple model agreements can preserve the same incorrect assumption.
+Learn the entity, grain, period, units and source rules well enough to challenge a plausible answer. Turn professional corrections into definitions, cases and maintained instructions.
 
-Make expertise reproducible. Convert professional corrections into task definitions, cases, skills and explicit acceptance evidence. Monzo’s described gateway, sandbox and familiar Slack entry point show the surrounding product work. Task volume and merged PR counts indicate use, while quality and reviewer effort still require separate measurement.
+Monzo's described Slack entry point, internal gateway and sandbox show the surrounding product work. Familiar distribution and supported execution can matter as much as a polished prompt. Task volume and merged pull requests establish use; quality and review effort need their own measurement.
 
-The primary source accounts for this page are Arize · Laurie Voss at https://www.youtube.com/watch?v=kspZP5BgkEU; Southbridge at https://ai.engineer/nyc/2026/talks/southbridge; Monzo at https://www.youtube.com/watch?v=adfw3xJBx1o.
+Capital One's argument helps decide where to apply rigor and how to reduce its cost.

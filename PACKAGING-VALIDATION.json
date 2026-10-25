@@ -27,6 +27,10 @@
         "returncode": 0
       },
       {
+        "builder": "work/presentation/build_presenter_guide.py",
+        "returncode": 0
+      },
+      {
         "builder": "work/applications/build_brief.py",
         "returncode": 0
       }
@@ -57,12 +61,20 @@
         "matches_rebuilt": true
       },
       {
+        "file": "ai-engineer-nyc-2026-presenter-guide.html",
+        "matches_rebuilt": true
+      },
+      {
+        "file": "ai-engineer-nyc-2026-presenter-guide.md",
+        "matches_rebuilt": true
+      },
+      {
         "file": "ai-engineer-nyc-2026-recording-supplement.md",
         "matches_rebuilt": true
       }
     ],
     "local_html_links": {
-      "checked": 16,
+      "checked": 18,
       "missing": []
     },
     "pptx_integrity": [
@@ -119,12 +131,74 @@
         "Companyeffectsnotindependentlyvalidated",
         "NoactualbrowserorPowerPointrenderperformed;localbrowserrestrictionremains"
       ]
+    },
+    "core_story_revision": {
+      "date": "2026-10-25",
+      "revision": "Live stories and presenter support",
+      "revisedCoreSlides": [
+        3,
+        8,
+        9,
+        11,
+        16,
+        18,
+        19,
+        23
+      ],
+      "coreSlides": 29,
+      "appendixPages": 8,
+      "plannedMinutes": 40,
+      "presenterGuide": {
+        "sections": 29,
+        "qa": 8,
+        "audiencePrompts": 3,
+        "shortRoute": "approximately25minutes",
+        "sharedScript": "work/presentation/presenter-script.json"
+      },
+      "pptx": {
+        "slides": 37,
+        "nativeTables": 9,
+        "notes": 37,
+        "spokenCoreMatches": 29,
+        "postflight": "passed"
+      },
+      "sourceBoundaries": [
+        "Ramp fixture and changed-rule test explicitly invented",
+        "Perpetual timeout is teaching reconstruction, not reported incident",
+        "Bridgewater precision@10 is internal retrieval metric, not answer accuracy or alpha",
+        "Citadel status is reconstructed narration; history and source health remain distinct",
+        "Apollo portfolio refinement and recurring-report QA are separate workflows"
+      ],
+      "validationLimits": [
+        "No browser or PowerPoint visual rendering",
+        "Live duration must be rehearsed"
+      ]
+    },
+    "presenter_guide": {
+      "date": "2026-10-25",
+      "coreSections": 29,
+      "minutes": 40,
+      "qa": 8,
+      "audiencePrompts": 3,
+      "checks": [
+        "All core IDs, order, spoken notes and pacing match the presentation",
+        "All 29 guide anchors and cue cards resolve",
+        "Cue view toggles with aria state; print calls browser print",
+        "No external runtime assets, storage or network calls",
+        "Eight Q&A and three planned audience prompts",
+        "Time-cutoff, next-period fixture and unknown-outcome boundaries present"
+      ],
+      "limits": [
+        "DOM and static source checks only; no browser rendering",
+        "Timing is a rehearsal target, not measured live delivery"
+      ]
     }
   },
   "limits": [
     "No browser-rendered or PowerPoint-rendered visual inspection was performed.",
     "Standalone captions returned no readable text; description-level evidence is labeled.",
     "Speaker-reported outcomes are not independently validated.",
-    "Application materials and field guide retain earlier scope."
+    "Application materials and field guide retain earlier scope.",
+    "40 minutes and the short route are rehearsal targets, not measured delivery."
   ]
 }

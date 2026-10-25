@@ -1,11 +1,11 @@
-Ryan Stevens’s written follow-up makes the original Ramp notes more specific: hold the business worlds and rubrics fixed, test the contribution of each skill, and evaluate whether prior experience helps in the next period.
+The memory question is whether we preserve a method or just yesterday's answer. Ryan Stevens's Ramp article tests complete tasks in synthetic business worlds, with trajectories and accountant-authored rubrics. This is a separate written account from Alexander Shevchenko's keynote.
 
-Challenge helpful-looking context. The article reports trimming eight skills to four with a +2.8-point mean-score change across six worlds. A 61% compression of the largest spreadsheet skill left quality essentially unchanged. More instructions are not automatically better; inspect per-world failures and essential criteria.
+Read our invented fixture. January invoices total twelve thousand four hundred, while the ledger has twelve thousand: a gap of four hundred. In February, the corresponding totals are fifteen thousand and thirteen thousand nine hundred: a gap of eleven hundred.
 
-Remember procedure; refresh facts. Trajectory-distilled memory reportedly adds 5.7 mean-score points over skills alone. Roll-forward worlds advance the same business a month and remove period-specific amounts from memory. A stale successful recipe can damage the next task even when the memory looks useful.
+Memory saying “last month's gap was four hundred” is a liability if the agent reuses it. Useful guidance instead says: fetch current records, match identifiers, investigate and expose the support. The gap itself grants no permission to post an adjustment.
 
-Test transfer and changed rules. Use a next-period assessment with new values and one changed procedure, not only repeats of tuned cases. Preserve the comparison, judge and attempt budget. These are speaker-bylined, workload-specific results; the separately recorded Ramp keynote concerns specialist models and prepared context.
+The article reports five point seven mean-score points over skills alone for trajectory-distilled memory. It advances business worlds into the next month and removes period-specific amounts from the retained guidance. Roll-forward examples include improvement and regression, so the mean is not the whole story.
 
-The written Ramp account reports eight skills reduced to four, a two-point-eight mean-score-point improvement across six worlds, sixty-one percent spreadsheet-skill compression with quality essentially unchanged, and five-point-seven points from trajectory-distilled memory over skills alone. These are reported task-specific point changes, not relative percentages or predicted gains.
+We can extend that test with a changed approval rule. That is our proposed variation, not a reported Ramp result. Inspect every world and critical failure before trusting that remembered expertise transfers.
 
-The primary source accounts for this page are Ramp · Ryan Stevens written follow-up at https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Ramp · Alexander Shevchenko keynote at https://ai.engineer/nyc/2026/talks/ramp.
+Even an apparently successful repair can trade one quality dimension against another.

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-25",
+  "revision": "Live stories and presenter support",
+  "revisedCoreSlides": [
+    3,
+    8,
+    9,
+    11,
+    16,
+    18,
+    19,
+    23
+  ],
+  "coreSlides": 29,
+  "appendixPages": 8,
+  "plannedMinutes": 40,
+  "presenterGuide": {
+    "sections": 29,
+    "qa": 8,
+    "audiencePrompts": 3,
+    "shortRoute": "approximately25minutes",
+    "sharedScript": "work/presentation/presenter-script.json"
+  },
+  "pptx": {
+    "slides": 37,
+    "nativeTables": 9,
+    "notes": 37,
+    "spokenCoreMatches": 29,
+    "postflight": "passed"
+  },
+  "sourceBoundaries": [
+    "Ramp fixture and changed-rule test explicitly invented",
+    "Perpetual timeout is teaching reconstruction, not reported incident",
+    "Bridgewater precision@10 is internal retrieval metric, not answer accuracy or alpha",
+    "Citadel status is reconstructed narration; history and source health remain distinct",
+    "Apollo portfolio refinement and recurring-report QA are separate workflows"
+  ],
+  "validationLimits": [
+    "No browser or PowerPoint visual rendering",
+    "Live duration must be rehearsed"
+  ]
+}

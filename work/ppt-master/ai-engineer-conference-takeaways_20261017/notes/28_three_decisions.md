@@ -1,9 +1,9 @@
-The released cases converge on a practical operating discipline: prepare valuable work, make its evidence inspectable, and give changes and actions explicit decision boundaries. Models improve; these responsibilities remain.
+The first decision is acceptance: name the professional, the work product and the conditions that make it useful. Include corrections and total effort.
 
-Agree what completed work means. Name the practitioner, accepted work product and critical limits. Compare quality, coverage and total human effort against a credible baseline. Preparation time, tool volume and rollout scope answer useful but different questions from financial impact.
+The second is evidence: preserve meaning, period, source version, access and calculation through the final artifact. Give memory an aging and correction policy.
 
-Preserve the evidence chain. Carry entity, meaning, period, source version, access and calculation through the final artifact. Give memory a correction and aging policy. Keep professional review and permission to act as separate events, with durable workflow state between them.
+The third is controlled improvement: choose one failure mechanism and a bounded comparison. Assess the final result, consequential behavior and permission to act separately.
 
-Make the next change a test. Choose one failure mechanism and a bounded comparison. Score final output, consequential behavior and authority; inspect paired regressions. Preserve the case and correction so improvement becomes a team asset rather than a lesson one person must rediscover.
+The company mechanisms make these decisions tangible. Their reported outcomes remain scoped to their accounts. Preserve the case, correction and reasoning so the next engineer starts from evidence rather than rediscovering the same lesson.
 
-The primary source accounts for this page are Range at https://ai.engineer/nyc/2026/talks/range; Kepler · October 14 follow-up at https://ai.engineer/nyc/2026/talks/kepler-14; Basis at https://ai.engineer/nyc/2026/talks/basis; Blackstone / Norm.ai at https://ai.engineer/nyc/2026/talks/blackstone-norm; Citadel Securities at https://ai.engineer/nyc/2026/talks/citadel.
+I will close with one prompt to choose the most useful discussion.

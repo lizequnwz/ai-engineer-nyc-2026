@@ -1,6 +1,7 @@
 from pathlib import Path
 import json,html,re
 from urllib.parse import urlparse,parse_qs
+from core_cases import render_case
 ROOT=Path(__file__).resolve().parents[2];W=ROOT/'work';P=W/'presentation';O=ROOT/'outputs'
 H=lambda s:html.escape(str(s),quote=True)
 notes1=json.loads((W/'day1_notes_data.json').read_text())['sessions'];notes2=json.loads((W/'day2_notes_data.json').read_text())['sessions']
@@ -30,12 +31,12 @@ def takeaway(t):return '<div class="takehome">'+H(t)+'</div>'
 def small(t):return '<p class="small-note">'+H(t)+'</p>'
 def body(s):
  v=s['visualData'];lid=s['layout'];sid=s['id']
+ scene=render_case(sid,table,flow,small)
+ if scene is not None:return scene
  if lid=='cover':
   return '<div><h2 class="cover-title slide-title" id="title-opening-cover" tabindex="-1">From AI capability<br>to <em>dependable work.</em></h2><p class="cover-intro">Financial-services AI, explained through company stories, practical methods, and reconstructable examples.</p><div class="cover-meta"><span><b>AI Engineer NYC 2026</b>October 13–14 · recordings reviewed October 25</span><span><b>For practitioners</b>Data scientists · AI engineers · technical leads</span><span><b>40 minutes + discussion</b>Five chapters · detailed reading edition</span></div></div><span class="cover-rail" aria-hidden="true">EVIDENCE → METHODS → ACCEPTED WORK</span>'
  if lid=='roadmap':
   return '<div class="chapter-map">'+''.join(f'<div><span>{i:02}</span><b>{H(a)}</b><small>{H(b)}</small></div>' for i,(a,b) in enumerate([('Strategy','Valuable work and credible economics'),('Grounding','Evidence, meaning, time, access'),('Evaluation','Cases, rubrics, judges, release'),('Workflows','Skills, authority, verification'),('Growth','Own the improvement loop')],1))+'</div>'+takeaway('The unit of progress is accepted work with evidence, controls, and a credible baseline.')
- if lid=='thesis-with-workflow-cards':
-  return cards([(x['label'],x['output'],x['case'],'') for x in v['cards']])
  if lid=='qualitative-case-map':
   rows=[['Bridgewater / Coatue','Investment attention','Eligible evidence; evaluated decision steps'],['Range / Apollo–Redding Ridge','Professional preparation','Expert method; reconciliation; reviewed drafts'],['Wells Fargo','Fraud decision at transaction speed','Transaction representation; detection vs false positives'],['Blackstone / Norm.ai','Adapt as models improve','Accessible data; durable acceptance assets; production controls']]
   return table(['Company story','Bottleneck addressed','Mechanism'],rows)
@@ -45,14 +46,8 @@ def body(s):
   return flow([(x['name'],x['evidence']) for x in v['stages']])+takeaway('Contour’s comparison question: what would the workflow have concluded without AI?')
  if lid=='cost-equation-with-baseline':
   return '<div class="split"><div class="calculation"><div class="label-note" style="color:var(--lime)">Proposed measurement</div><div class="formula">Total workflow cost<br>÷ accepted tasks</div><p>Attempts + tools + review + rework + operation</p></div><div>'+''.join(f'<div class="case-strip"><b>{H(a)}</b><p>{H(b)}</p></div>' for a,b in [('Jellyfish','Human salary + AI spend per merged PR; inspect quality too.'),('Credit Karma demo','24,000 → 2,400 context tokens; quality still needs evaluation.'),('Local comparison','Same tasks, input snapshots, acceptance and review standard.')])+'</div></div>'+small('Reported engineering observations and a token-use demonstration motivate the measure; neither establishes causal savings for another workflow.')
- if lid=='pipeline':
-  return flow([(x['label'],x['detail'].replace(' • ',' · ')) for x in v['nodes']])+takeaway('Grounding includes what the user may access and what the facts mean as of a particular time.')
- if lid=='comparison-matrix':
-  return table(['Design question']+v['columns'],[[r['label']]+r['values'] for r in v['rows']])+takeaway('Bridgewater’s emphasis: common information foundation, task-specific retrieval and presentation.')
  if lid=='fact-contract':
   return flow([('Select evidence','Eligible source + exact anchor'),('Resolve fact','Model chooses a fact identifier'),('Compute','Code preserves inputs and operations'),('Verify output','Check final number and supporting claim')])+'<div class="claim-facts">'+''.join('<span>'+H(x)+'</span>' for x in ['Value · unit · scale · period','Entity · metric · source version','As-of cutoff · access · derivation'])+'</div>'+takeaway('Kepler still checks generation after retrieval: pointer lookup does not prove every final claim correct.')
- if lid=='worked-example':
-  return '<p class="worked-question">AsterCo: FY2025 revenue growth as of March 1, 2026?</p><div class="split"><div>'+table(['Invented document','USD m','Treatment'],[['FY2024 final','100','Prior-year input'],['FY2025 preliminary','118','Superseded'],['FY2025 final','120','Current-year input']])+'</div><div class="calculation"><div class="label-note" style="color:var(--lime)">Synthetic calculation</div><div class="formula">(120 − 100) / 100<br>= 20%</div><p>Using 118 gives 18%: correct arithmetic on the wrong source version.</p></div></div>'+small('Invented company, documents, and values. Final sources precede the requested cutoff; the full source history is in reading mode.')
  if lid=='inspectable-output':
   return flow([(x['label'],x['detail']) for x in v['layers']])+takeaway('OpenAI’s product presentation and Kepler’s verification story meet at the point where a user inspects a claim.')
  if lid=='workflow-and-quality-vector':
@@ -61,22 +56,14 @@ def body(s):
   return '<p class="worked-question">Draft a monthly cash-flow snapshot. Use current approved records. Do not recommend or send.</p><div class="split"><div>'+table(['Synthetic input','Value'],[['Income','$8,000 / month'],['Current expenses','$6,000 / month'],['Superseded expenses','$5,500 / month'],['Insurance details','Missing']])+'</div><div>'+table(['Rubric dimension','Scoring / acceptance'],[['Arithmetic','0: wrong · 1: correct but derivation incomplete · 2: correct and reconstructable'],['Source validity','Use current $8,000 and $6,000 inputs; a superseded input fails this dimension'],['Uncertainty','State missing insurance facts and the needed clarification'],['Action boundary','BLOCK recommendation or send; scores cannot offset it']])+'</div></div>'
  if lid=='judge-calibration-and-passk':
   return '<div class="split"><div><div class="matrix"><div class="matrix-head"></div><div class="matrix-head">Human accepts</div><div class="matrix-head">Human rejects</div><div class="matrix-head">Judge passes</div><div>Agreement</div><div class="bad"><b>False pass</b><small>Missed consequential failure</small></div><div class="matrix-head">Judge fails</div><div class="bad"><b>False failure</b><small>Lost utility / review burden</small></div><div>Agreement</div></div></div><div><div class="label-note">Synthetic attempt illustration</div><div class="attempt-strip"><span>1 · fail</span><span class="pass">2 · pass</span><span>3 · fail</span></div><h3>One success among three attempts</h3><p>Who recognizes the usable answer? What are retry, verification, latency, and review costs?</p></div></div>'+small('pass@k measures an at-least-one-success opportunity under a defined test, not first-attempt reliability. No empirical rate is shown.')
- if lid=='paired-ablation-matrix':
-  return table(['Ryan Stevens written account','Reported result','What to test locally'],[['8 skills → 4','+2.8 mean-score points / 6 worlds','Per-world regressions; critical criteria'],['Spreadsheet skill compressed 61%','Quality essentially unchanged','Retained instructions; total review cost'],['Trajectory-distilled memory','+5.7 points over skills alone','Next-period tasks; current facts'],['Roll-forward worlds','Reusable process; fresh amounts','Changed rule; stale recipe; leakage']])+takeaway('Speaker-bylined article, not the Ramp keynote recording. These are task-specific reported results, not predicted gains.')
  if lid=='release-decision-gate':
   return '<div class="decision-banner hard"><b>Blocking conditions</b><p>Unauthorized action · unsupported consequential number · omitted required approval</p></div><div class="decision-banner"><b>Quality & economics</b><p>Task acceptance · paired regressions · judge validity · uncertainty · review cost</p></div>'+flow([('Evidence packet','Cases, versions, traces'),('Accountable decision','Investigate or promote within scope'),('Staged operation','Monitor, stop, roll back')])+small('Illustrative release logic. Passing a finite suite does not prove that a critical failure is impossible.')
- if lid=='controlled-evaluation-loop':
-  return flow([('Detect behavior','Did the situation arise? Was conduct sound?'),('Fork a decision','Reconstruct state, tools and context'),('Test a hypothesis','Change incentive or context; repeat'),('Verify broadly','Real environment + paired regressions')])+takeaway('Basis: an unsupported adjustment can make the books tie. Reward a sourced explanation, not a fabricated zero variance.')
- if lid=='five-step-method':
-  return flow([(x['label'],x['detail']) for x in v['steps']])+takeaway('Range: every skill has an owner and separate reviewer. The agent sends nothing; a planner reviews recommendations.')
  if lid=='worked-workflow':
   return '<div class="boundary"><div class="boundary-title">SYNTHETIC REVIEW PACKET · FICTIONAL CLIENT A</div>'+flow([('Authorized facts','Income $120k · recorded expenses $84k'),('Agent draft','Arithmetic difference: $36k'),('Planner review','Inspect facts, assumptions, gaps'),('Separate authority','No action without permission')])+'</div>'+small('Illustrative workflow, not a firm architecture or advice. The arithmetic difference does not establish affordability, suitability, or an insurance need.')
  if lid=='control-path':
   return '<div>'+''.join('<div class="control-layer"><strong>'+H(a)+'</strong><div class="nodes">'+''.join('<span>'+H(x)+'</span>' for x in xs)+'</div></div>' for a,xs in [('Ownership',['Registry','Owner','Product','Evaluations']),('Scope & risk',['Identity','Tools','Endpoints','Resources']),('Enforcement',['Policy boundary','Human exceptions','Authorized executor'])])+'</div>'+takeaway('Two Sigma describes the components; Wise’s program case separates model reasoning from authority. Test the boundary under failure.')
  if lid=='three-loops':
   return cards([(x['label'],x['detail'],'Intent · guardrails · verification · evidence','') for x in v['loops']])
- if lid=='invariant-map':
-  return flow([('Interpret','Typed intent + ambiguities'),('Validate & approve','Closed actions; exact plan / payload'),('Wait & resume','Persist state; wake on event / deadline'),('Resolve outcome','Success, failure or manual review')])+'<div class="claim-facts">'+''.join('<span>'+H(x)+'</span>' for x in ['Immutable approved plan','Explicit owner + next event','Unknown outcome ≠ safe retry'])+'</div>'+takeaway('Arca explains event-driven service work; Perpetual explains compiled execution. This comparison is a synthesis, not one firm’s complete architecture.')
  if lid=='operating-loop':
   return '<div class="cycle">'+''.join(f'<div><span class="index">{i:02}</span><b>{a}</b><span>{b}</span></div>' for i,(a,b) in enumerate([('Frame','Define the accepted work'),('Build','A complete working slice'),('Learn','Traces, cases, failures'),('Operate','Verify, release, observe')],1))+'</div>'+takeaway('Grow from producing a feature to owning the evidence and decisions that improve it.')
  if lid=='competency-map':
@@ -190,12 +177,11 @@ def source_footnote(s):
 
 def load_slides():
  story=json.loads((W/'presentation_story_sections.json').read_text())['slides'];ground=json.loads((W/'presentation_grounding_workflows.json').read_text());evals=json.loads((W/'presentation_evals.json').read_text())
- front=[{'id':'opening-cover','chapter':'opening','title':'From AI capability to dependable work','layout':'cover','points':[],'visualData':{},'readerNotes':['This presentation consolidates pre-conference research and twelve identified attendee-note sets from AI Engineer NYC 2026. It is organized around methods and decisions, with company stories serving as evidence and questions rather than as a ranking.','The live path is planned for 40 minutes plus discussion. Reading mode adds detailed explanations, sources, and an evidence atlas. All material is local to this file; source links lead to the original websites.'],'speakerNotes':['Open with the central question: what must surround a model for it to complete useful financial work that a professional can accept? State that the talk combines attendee accounts, program context, historical firm disclosures, and our own proposed methods.'],'sourceIds':[],'externalSources':[],'minutes':.5}, {'id':'opening-map','chapter':'opening','title':'Five chapters connect business value to engineering practice','layout':'roadmap','points':[],'visualData':{},'readerNotes':['The argument starts with valuable work, then follows the evidence and control requirements through evaluation, reliable execution, and professional growth. These responsibilities reinforce one another; no single model choice or benchmark resolves them all.'],'speakerNotes':['Preview the five chapters. Tell listeners that examples and source detail are preserved in reading mode, so they can focus on the argument during the talk.'],'sourceIds':[],'externalSources':[],'minutes':1}]
- sections=[('strategy',[x for x in story if x['id'].startswith('strategy')],[1.25,1.25,1.5,1.5,1.5]),('grounding',[x for x in ground if x['id'].startswith('grounding')],[1.5,1.25,1.5,2,1.25]),('evals',evals,[1.5,2,2,1.5,1.5,1.5]),('workflows',[x for x in ground if x['id'].startswith('workflows')],[1.5]*5),('growth',[x for x in story if x['id'].startswith('growth')],[1.5,1.25,1.25,1.5]),('closing',[x for x in story if x['id'].startswith('conclusion')],[1,0])]
+ front=[{'id':'opening-cover','chapter':'opening','title':'From AI capability to dependable work','layout':'cover','points':[],'visualData':{},'readerNotes':['This presentation consolidates pre-conference research and twelve identified attendee-note sets from AI Engineer NYC 2026. It is organized around methods and decisions, with company stories serving as evidence and questions rather than as a ranking.','The live path is planned for 40 minutes plus discussion. Reading mode adds detailed explanations, sources, and an evidence atlas. All material is local to this file; source links lead to the original websites.'],'speakerNotes':['Open with the central question: what must surround a model for it to complete useful financial work that a professional can accept? State that the talk combines attendee accounts, program context, historical firm disclosures, and our own proposed methods.'],'sourceIds':[],'externalSources':[]}, {'id':'opening-map','chapter':'opening','title':'Five chapters connect business value to engineering practice','layout':'roadmap','points':[],'visualData':{},'readerNotes':['The argument starts with valuable work, then follows the evidence and control requirements through evaluation, reliable execution, and professional growth. These responsibilities reinforce one another; no single model choice or benchmark resolves them all.'],'speakerNotes':['Preview the five chapters. Tell listeners that examples and source detail are preserved in reading mode, so they can focus on the argument during the talk.'],'sourceIds':[],'externalSources':[]}]
+ sections=[('strategy',[x for x in story if x['id'].startswith('strategy')]),('grounding',[x for x in ground if x['id'].startswith('grounding')]),('evals',evals),('workflows',[x for x in ground if x['id'].startswith('workflows')]),('growth',[x for x in story if x['id'].startswith('growth')]),('closing',[x for x in story if x['id'].startswith('conclusion')])]
  slides=front
- for chapter,ss,minutes in sections:
-  assert len(ss)==len(minutes)
-  for s,m in zip(ss,minutes):s['chapter']=chapter;s['minutes']=m;slides.append(s)
+ for chapter,ss in sections:
+  for s in ss:s['chapter']=chapter;slides.append(s)
  for s in slides:s['core']=True
  appendix=[
  ('appendix-evidence','An implementation contract connects requirements to observable behavior','appendix-evidence',{},['The checklist connects five responsibilities that are often assessed separately: task acceptance, evidence quality, action authority, evaluation and operation. Review them as one workflow so a correct-looking artifact cannot conceal a wrong source, unauthorized step or unreproducible release decision.','Use the contract to make disagreements concrete. A domain expert defines acceptable completion; data and engineering owners identify source semantics and enforceable boundaries; reviewers agree which failures block acceptance and what evidence permits a scoped change.','The checklist is an illustrative synthesis of the conference mechanisms. The source catalog preserves company attribution and historical dates; it does not turn a design pattern into independently verified business effectiveness.']),
@@ -229,7 +215,6 @@ def load_slides():
 
 SLIDES=load_slides()
 SLIDES[0]['readerNotes']=['This recording-enhanced edition combines twelve original attendee-note sets with a review of the AIE channel, its playlists, official timestamped transcripts and a separately identified Ryan Stevens article. The review screened 90 uploads and inspected 50 official video descriptions.','The 29-slide core remains planned for 40 minutes plus discussion. Read & learn adds company mechanisms, worked examples and source boundaries. No audiovisual viewing or independent validation of company results is claimed.']
-SLIDES[0]['speakerNotes']=['Introduce the updated source base and the five connected responsibilities: valuable work, grounded evidence, evaluation, controlled execution and professional learning. Explain that the examples distinguish what was reported from methods we propose.']
 for s in SLIDES:
  if s['id']=='appendix-unknowns':
   s['recordingIds']=['bridgewater','range','ramp-evals','ramp','kepler-breakout','kepler-14','vanguard-release']
@@ -239,6 +224,15 @@ for s in SLIDES:
  if s['id']=='appendix-atlas':
   s['readerNotes']=['The company atlas now includes 37 released-source and written-follow-up briefs. It groups newly inspected mechanisms alongside original program and historical disclosure context, without upgrading earlier material by association.','Compare what each system actually does, what the professional still decides and which component remains experimental. A transcript establishes a speaker account; a description establishes its stated scope. Neither independently validates outcomes.']
   s['speakerNotes']=s['readerNotes'][:]
+SCRIPT=json.loads((P/'presenter-script.json').read_text())
+SPOKEN={s['slideId']:s for s in SCRIPT['sections']}
+assert set(SPOKEN)=={s['id'] for s in SLIDES if s['core']}
+for s in SLIDES:
+ if s['core']:
+  talk=SPOKEN[s['id']]
+  s['minutes']=talk['minutes']
+  s['speakerNotes']=talk['talkTrack']+[talk['transition']]
+  s['deliveryCue']=talk['deliveryCue']
 # Register every source before constructing HTML (counts and atlas must be stable).
 for s in SLIDES:
  s['externalSources']=[u for u in s['externalSources'] if not('ai.engineer' in urlparse(u).netloc and '/schedule' in urlparse(u).path)]
@@ -257,7 +251,7 @@ for s in SLIDES:
  if any(i not in NOTE_IDS for i in s['sourceIds']):labels.append('agenda')
  if any(u in RECORDING_URLS for u in s['externalSources']):labels.append('recording')
  if any(u not in RECORDING_URLS and 'arxiv' not in u for u in s['externalSources']):labels.append('disclosure')
- if s['id'] in ['workflows-01','workflows-04']:labels.append('agenda')
+ if s['id']=='workflows-04':labels.append('agenda')
  if s['layout'] in ['worked-example','synthetic-worked-rubric','judge-calibration-and-passk','worked-workflow','appendix-eval-spec','appendix-claim']:labels.append('synthetic')
  labels.append('synthesis');s['evidenceTypes']=list(dict.fromkeys(labels))
  s['evidenceNote']='Company mechanisms are recorded speaker accounts or program/disclosure claims. Practices and diagrams are proposed synthesis. Detailed boundaries and unresolved claims are preserved below.'

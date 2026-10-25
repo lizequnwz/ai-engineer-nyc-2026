@@ -1,19 +1,19 @@
 {
   "strategy-01": {
-    "headline": "Design for the reviewed work product, then allocate the right intelligence",
-    "lead": "A useful financial agent prepares work a professional can accept: an evidence brief, planning analysis, reconciliation or decision memo. The acceptance standard determines the architecture more clearly than a preference for chat or autonomy.",
+    "headline": "Professional value starts with reconciled inputs and a reviewed work product",
+    "lead": "Apollo and Redding Ridge describe structured-credit work in which engineers learn how professionals reconcile conflicting feeds before agents prepare a portfolio draft. The useful output is a decision-ready packet with a review path.",
     "insights": [
       {
-        "title": "Decompose the decision",
-        "text": "Coatue models investing as context transformed into selection, size and timing. Break the work into collection, interpretation, checking and judgment. A step may use code, classical ML, an LLM or a person; the objective is a sound decision process rather than maximum LLM coverage."
+        "title": "Resolve authority before generation",
+        "text": "When two feeds disagree, the hard question is which source governs this task and why. Apollo’s account emphasizes source adjudication and embedded workflow observation. A longer prompt cannot substitute for the professional rule that determines which input is valid."
       },
       {
-        "title": "Observe the real workflow",
-        "text": "Apollo/Redding Ridge describes portfolio preparation for PM refinement and recurring financing reports followed by team QA. Reconciliation means learning why one feed is authoritative, not merely joining files. Define which deliverable is accepted, who checks it and which corrections remain."
+        "title": "Separate preparation from judgment",
+        "text": "The agent prepares a mock portfolio; a portfolio manager refines it. Recurring warehouse-financing and trade-reconciliation reports add daily QA. These are specific structured-credit workflows, rather than evidence that an unconstrained agent manages every investment decision."
       },
       {
-        "title": "Preserve professional attention",
-        "text": "Range drafts planning work while professionals serve clients; the planner reviews recommendations and the agent sends nothing. Time saved becomes valuable when it improves accepted capacity or attention to consequential judgment. Draft volume alone does not establish better advice, revenue or investment outcomes."
+        "title": "Measure the complete job",
+        "text": "Reported days-to-minutes improvements motivate a local comparison, but the account does not supply full reviewer effort or a controlled protocol. Count accepted packets, corrections and total cycle time before interpreting draft speed as realized capacity."
       }
     ]
   },

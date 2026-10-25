@@ -1,9 +1,11 @@
-The complete job needs more than one answer score. Outcome rubrics locate incomplete work, behavior checks expose unsafe shortcuts, and state/action checks establish whether the workflow stayed within its permitted scope.
+Evaluation needs three complementary views: the outcome, consequential behavior and authority.
 
-Start from professional work. Vals emphasizes fully acceptable outputs rather than only average partial credit. Ramp’s bookkeeping account defines task, synthetic business world, trajectory and accountant-authored rubric. Build cases around the work a reviewer accepts, with realistic missing and messy evidence.
+Vals emphasizes fully acceptable work rather than only average rubric credit. Ramp's bookkeeping account makes a case concrete through a task, a synthetic business world, a trajectory and an accountant-authored rubric.
 
-Construct diagnostic variants. The Air Canada release describes writing an expected answer first, then creating evidence-containing inputs. Add removed evidence, planted violations and meaning-preserving edits. Validate realism and the answer key; synthetic generation can produce shortcuts that make the test artificially easy.
+A diagnostic variant can make the failure easier to locate. The Air Canada release describes starting with the expected answer and constructing evidence-containing inputs. Remove a needed clause, plant a violation or make an edit that should preserve meaning. Then have an expert check realism and the answer key; synthetic cases can accidentally become easy puzzles.
 
-Keep blockers outside the average. A correct total cannot offset fabricated evidence, unauthorized access or an unapproved send. Use exact assertions where available, calibrated domain rubrics for judgment and a separate behavior verdict. Keep full cost, latency, coverage and reviewer effort beside quality.
+Keep blockers outside the average. Correct totals cannot compensate for fabricated evidence, unauthorized access or an unapproved send.
 
-The primary source accounts for this page are Vals AI at https://ai.engineer/nyc/2026/talks/vals; Ramp · Ryan Stevens written follow-up at https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh; Basis at https://ai.engineer/nyc/2026/talks/basis; Air Canada · Nathanael Weill at https://www.youtube.com/watch?v=c_SPW__jF9w.
+Use exact checks when a property is exact. Use a calibrated domain rubric where judgment matters. Keep behavior verdicts and action boundaries inspectable, with cost, latency, coverage and reviewer effort alongside quality.
+
+Our second invented example shows why those dimensions should remain separate.
