@@ -10,91 +10,92 @@
     "Slide and reading deep links work; later hash changes focus the selected slide and invalid destinations normalize safely",
     "Every slide has a conclusion, substantial visible analysis, and an engineering implication; tables have consistent cells and scoped headers; no-JavaScript reading and offline runtime independence remain complete",
     "The updated guide matches all 22 slides, preserves 35+10 timing and reflection, opens and restores print details, and uses valid local links",
+    "Five case openers introduce the application or engineering perspective; every case footer retains the talk title, presenter, and accurate product/workflow context",
     "All five original caption checksums and registered timestamps remain valid; retrieval/ROI limits, four quality factors, and fictional calculation scope are preserved",
     "All nine tested text/surface pairs meet 4.5:1 contrast in the restrained white, navy, and teal design"
   ],
   "slides": 22,
-  "scriptWords": 4185,
+  "scriptWords": 4022,
   "faceWords": [
     {
       "id": "executive-summary",
-      "words": 203
+      "words": 230
     },
     {
       "id": "three-failures",
-      "words": 166
+      "words": 203
     },
     {
       "id": "fact-address",
-      "words": 154
+      "words": 173
     },
     {
       "id": "output-boundary",
-      "words": 150
+      "words": 169
     },
     {
       "id": "one-row",
-      "words": 141
+      "words": 160
     },
     {
       "id": "october",
-      "words": 170
+      "words": 219
     },
     {
       "id": "evidence-window",
-      "words": 161
-    },
-    {
-      "id": "two-readers",
-      "words": 159
-    },
-    {
-      "id": "inbox",
-      "words": 172
-    },
-    {
-      "id": "workday",
-      "words": 191
-    },
-    {
-      "id": "parked-idea",
-      "words": 186
-    },
-    {
-      "id": "compare-work",
-      "words": 167
-    },
-    {
-      "id": "repair-cost",
       "words": 184
     },
     {
-      "id": "client-concern",
+      "id": "two-readers",
+      "words": 182
+    },
+    {
+      "id": "inbox",
+      "words": 195
+    },
+    {
+      "id": "workday",
+      "words": 214
+    },
+    {
+      "id": "parked-idea",
+      "words": 239
+    },
+    {
+      "id": "compare-work",
       "words": 196
     },
     {
+      "id": "repair-cost",
+      "words": 213
+    },
+    {
+      "id": "client-concern",
+      "words": 225
+    },
+    {
       "id": "next-failure",
-      "words": 147
+      "words": 194
     },
     {
       "id": "survives",
-      "words": 159
+      "words": 184
     },
     {
       "id": "grader",
-      "words": 145
+      "words": 170
     },
     {
       "id": "quality-spectrum",
-      "words": 165
+      "words": 217
     },
     {
       "id": "dependency",
-      "words": 166
+      "words": 193
     },
     {
       "id": "cheaper-rigor",
-      "words": 167
+      "words": 194
     },
     {
       "id": "two-products",

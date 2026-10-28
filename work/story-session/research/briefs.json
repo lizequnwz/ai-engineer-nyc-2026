@@ -33,7 +33,12 @@
         1124,
         "Inspect source and calculation"
       ]
-    ]
+    ],
+    "context": {
+      "label": "Source application",
+      "name": "Kepler financial-research assistant",
+      "description": "Retrieval-augmented financial answers and reports with inspectable sources and calculations."
+    }
   },
   "vault": {
     "story": "In an October demonstration about AI investment and the Korean won, a public chat response includes older July research. Vault supplies explicitly time-scoped evidence. Later, an improved search engine still does not make researchers visit every morning. Their working routine remains email subscriptions and folders.",
@@ -65,7 +70,12 @@
         944,
         "Findings return to the corpus"
       ]
-    ]
+    ],
+    "context": {
+      "label": "Source application",
+      "name": "Bridgewater Vault",
+      "description": "Shared unstructured-research corpus and search platform for both human researchers and agents."
+    }
   },
   "contour": {
     "story": "An analyst spends a day or two on an idea. Another priority takes precedence. The idea disappears for months and a useful price window can be missed. Kumar discusses agents revisiting old notes against changing markets, rather than only generating more new ideas.",
@@ -97,7 +107,12 @@
         1000,
         "Broken connectors and operating effort"
       ]
-    ]
+    ],
+    "context": {
+      "label": "Source workflow",
+      "name": "Contour’s AI-assisted investment research",
+      "description": "Analyst research and synthesis workflows, with value measurement and an emerging direction for revisiting prior ideas."
+    }
   },
   "arize": {
     "story": "Signal provides a concrete example of the engineer’s improvement loop: traces expose recurring problems, investigations retain history, and an agent proposes changes that need evaluation. A run can end without erasing what it learned.",
@@ -125,7 +140,12 @@
         703,
         "Trusting and evaluating the evaluator"
       ]
-    ]
+    ],
+    "context": {
+      "label": "Source application",
+      "name": "Arize Signal",
+      "description": "An investigation agent that reads traces, retains issue history, and proposes fixes for AI engineering teams."
+    }
   },
   "quality": {
     "story": "Max moves from tiny changes to Chromium, then from a one-party planning tool to systems people depend on. The real question is what makes software disposable or durable. He then shifts attention to reducing the effort needed to apply rigor.",
@@ -157,6 +177,11 @@
         859,
         "Fast deterministic tests and service fakes"
       ]
-    ]
+    ],
+    "context": {
+      "label": "Engineering perspective",
+      "name": "Max’s software-quality framework",
+      "description": "Choosing rigor by consequences, dependencies, replacement cost, and maintenance; making that rigor easier to apply."
+    }
   }
 }

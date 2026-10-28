@@ -15,6 +15,7 @@ TITLE, SUBTITLE = CONTENT['title'], CONTENT['subtitle']
 SLIDES, CHAPTERS, DISCUSSION = CONTENT['slides'], CONTENT['chapters'], CONTENT['discussion']
 SOURCES = {s['id']: s for s in json.loads((HERE / 'research/sources.json').read_text())['sources']}
 BRIEFS = json.loads((HERE / 'research/briefs.json').read_text())
+CASE_OPENERS = {next(s['id'] for s in SLIDES if s['source'] == key) for key in SOURCES}
 CSS = (HERE / 'deck.css').read_text()
 JS = (HERE / 'deck.js').read_text()
 
@@ -40,7 +41,11 @@ def source_links(slide):
 
 
 def slide_notes(slide, full_brief=False):
-    html = '<h3>Further explanation and evidence boundaries</h3>' + paragraphs(slide['reading'])
+    html = ''
+    if slide['source']:
+        context = BRIEFS[slide['source']]['context']
+        html += f'<h3>{h(context["label"])}</h3><p><strong>{h(context["name"])}.</strong> {h(context["description"])}</p>'
+    html += '<h3>Further explanation and evidence boundaries</h3>' + paragraphs(slide['reading'])
     if slide['technical']:
         html += '<details><summary>Technical illustration</summary><pre>' + h(slide['technical']) + '</pre></details>'
     if slide['source']:
@@ -59,15 +64,18 @@ def render_slide(slide, index):
     chapter = next(label for key, label, _ in CHAPTERS if key == slide['chapter'])
     if slide['source']:
         source = SOURCES[slide['source']]
+        context = BRIEFS[slide['source']]['context']
         url = f'{source["url"]}&t={slide["timestamp"]}s'
-        credit = f'<a href="{h(url)}" target="_blank" rel="noopener">{h(source["organization"])} · {h(source["speaker"])} · {clock(slide["timestamp"])}</a>'
+        credit = f'<div class="source-credit-block"><a class="source-talk" href="{h(url)}" target="_blank" rel="noopener">{h(source["title"])}</a><span class="source-byline">{h(source["speaker"])} · {h(source["organization"])} · {clock(slide["timestamp"])}</span><span class="source-context" data-source-context="{slide["source"]}"><strong>{h(context["label"])}: {h(context["name"])}.</strong> {h(context["description"])}</span></div>'
     else:
-        credit = 'Synthesis · Kepler, Bridgewater, Contour, Arize, Max Kanat-Alexander'
+        credit = '<span>Synthesis · Kepler, Bridgewater, Contour, Arize, Max Kanat-Alexander</span>'
+    lead_class = 'slide-lead case-context' if slide['id'] in CASE_OPENERS else 'slide-lead'
+    lead_prefix = '<strong>Case context.</strong> ' if slide['id'] in CASE_OPENERS else ''
     return f'''<section class="slide" id="slide-{slide['id']}" data-slide="{slide['id']}" data-title="{h(slide['title'])}" data-chapter="{slide['chapter']}" aria-labelledby="title-{slide['id']}">
-<div class="face"><header class="slide-header"><div class="slide-topline"><span class="chapter-label">{h(chapter)}</span><span class="origin">{h(slide['origin'])}</span></div><h2 class="slide-title" id="title-{slide['id']}" tabindex="-1">{h(slide['title'])}</h2><p class="slide-lead">{h(slide['lead'])}</p></header>
+<div class="face"><header class="slide-header"><div class="slide-topline"><span class="chapter-label">{h(chapter)}</span><span class="origin">{h(slide['origin'])}</span></div><h2 class="slide-title" id="title-{slide['id']}" tabindex="-1">{h(slide['title'])}</h2><p class="{lead_class}">{lead_prefix}{h(slide['lead'])}</p></header>
 <div class="analysis">{render_exhibit(slide)}</div>
 <div class="application-line"><strong>Engineering implication</strong><p>{h(slide['application'])}</p></div>
-<footer class="slide-credit"><div class="credit-main"><span>{credit}</span><button type="button" data-show-source="{slide['id']}">Detail &amp; sources</button></div><span class="slide-index">{index + 1:02} / {len(SLIDES):02}</span></footer></div>
+<footer class="slide-credit"><div class="credit-main">{credit}<button type="button" data-show-source="{slide['id']}">Detail &amp; sources</button></div><span class="slide-index">{index + 1:02} / {len(SLIDES):02}</span></footer></div>
 <div class="reading-material">{slide_notes(slide)}<details><summary>Presenter’s notes</summary>{paragraphs(slide['script'])}</details></div></section>'''
 
 
@@ -104,8 +112,9 @@ def build_guide():
     source_sections = []
     for key, source in SOURCES.items():
         brief = BRIEFS[key]
+        context = brief['context']
         moments = ''.join(f'<li><a href="{h(source["url"])}&amp;t={seconds}s" target="_blank" rel="noopener">{clock(seconds)} · {h(label)}</a></li>' for seconds, label in brief['moments'])
-        source_sections.append(f'<section class="guide-section"><h2>{h(source["organization"])}</h2><p><a href="{h(source["url"])}" target="_blank" rel="noopener">{h(source["title"])}</a><br>{h(source["speaker"])}</p><h3>Case context</h3>{paragraphs(brief["story"])}<h3>Mechanism</h3>{paragraphs(brief["mechanism"])}<h3>Evidence limits</h3>{paragraphs(brief["limits"])}<h3>Our application</h3>{paragraphs(brief["application"])}<ul>{moments}</ul></section>')
+        source_sections.append(f'<section class="guide-section"><h2>{h(source["organization"])}</h2><p><a href="{h(source["url"])}" target="_blank" rel="noopener">{h(source["title"])}</a><br>{h(source["speaker"])}</p><h3>{h(context["label"])}</h3><p><strong>{h(context["name"])}.</strong> {h(context["description"])}</p><h3>Case context</h3>{paragraphs(brief["story"])}<h3>Mechanism</h3>{paragraphs(brief["mechanism"])}<h3>Evidence limits</h3>{paragraphs(brief["limits"])}<h3>Our application</h3>{paragraphs(brief["application"])}<ul>{moments}</ul></section>')
     discussion = ''.join(f'<h3>{i + 1:02}. {h(question)}</h3><p>{h(prompt)}</p>' for i, (question, prompt) in enumerate(DISCUSSION))
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Presenter guide · {h(TITLE)}</title><style>{CSS}</style></head><body class="guide"><header class="guide-header"><span class="small-label">PRESENTER GUIDE / AI ENGINEER NYC 2026</span><h1>{h(TITLE)}</h1><p>{h(SUBTITLE)}. Analytical speaking notes, timing, engineering implications, source evidence, and a separate ten-minute team discussion.</p><div class="guide-tools"><a href="{DECK_NAME}" target="_blank" rel="noopener">Open presentation</a><a href="#discussion">Discussion</a><a href="#source-briefs">Source briefs</a><button type="button" id="print-guide">Print guide</button></div></header><main class="guide-main"><h2>Session structure</h2><p class="guide-note">Target: 35 minutes presenting and 10 minutes discussing. The fully visible slides support both explanation and independent reading. Timings are editorial allocations and still need rehearsal in the presenter’s voice. Keep this guide on a second screen.</p><table class="run-of-show"><thead><tr><th>Elapsed</th><th>Section</th><th>Duration</th></tr></thead><tbody>{''.join(rows)}<tr><td>35:00–45:00</td><td>Team discussion</td><td>10 min</td></tr></tbody></table><p class="guide-note">Research uses five complete original-release English auto-generated transcripts. Official metadata and organizer readings informed names and technical terms. Exhibits are original analyses or reconstructions. Optional recording links use individual-release timestamps.</p>{''.join(sections)}<section class="guide-section guide-discussion" id="discussion"><span class="small-label">35:00–45:00 / TEAM DISCUSSION</span><h2>Use the cases to examine our assumptions and tradeoffs</h2>{discussion}<p>Allow roughly three minutes per question and one minute for closing reflections. Follow useful concrete examples and invite limits on the analogies. No roadmap, experiment choice, or owner assignment is required.</p></section><div id="source-briefs"><h2>The five source briefs</h2>{''.join(source_sections)}</div></main><script>document.getElementById('print-guide').addEventListener('click',()=>window.print());let printState=[];window.addEventListener('beforeprint',()=>{{printState=[...document.querySelectorAll('details')].map(d=>[d,d.open]);printState.forEach(([d])=>d.open=true)}});window.addEventListener('afterprint',()=>printState.forEach(([d,open])=>d.open=open));</script></body></html>'''
 
@@ -114,7 +123,9 @@ def build_research_briefs():
     lines = [f'# Source briefs: {TITLE}', '', 'Reviewed October 27, 2026. Five complete original-release English auto-generated transcripts were extracted and reviewed. No audiovisual viewing or independent validation of company results is claimed.', '']
     for key, source in SOURCES.items():
         brief = BRIEFS[key]
+        context = brief['context']
         lines += [f'## {source["organization"]}: {source["title"]}', '', f'{source["speaker"]} · [Original recording]({source["url"]})', '']
+        lines += [f'**{context["label"]}: {context["name"]}.** {context["description"]}', '']
         for title, field in [('Case context', 'story'), ('Mechanism', 'mechanism'), ('Evidence limits', 'limits'), ('Our application', 'application')]:
             lines += [f'**{title}.** {brief[field]}', '']
         lines += [f'- [{clock(seconds)} · {label}]({source["url"]}&t={seconds}s)' for seconds, label in brief['moments']]

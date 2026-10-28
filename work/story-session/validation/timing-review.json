@@ -1,8 +1,8 @@
 {
-  "scriptWords": 4185,
+  "scriptWords": 4022,
   "assumedSpokenWordsPerMinute": 140,
-  "estimatedSpeakingMinutes": 29.89,
-  "remainingMinutesForTransitionsAndDiscussionPauses": 5.11,
+  "estimatedSpeakingMinutes": 28.73,
+  "remainingMinutesForTransitionsAndDiscussionPauses": 6.27,
   "presentationTargetMinutes": 35,
   "discussionMinutes": 10,
   "status": "Editorial pacing estimate; no spoken rehearsal or audio timing claimed."

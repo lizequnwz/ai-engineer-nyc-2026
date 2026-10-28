@@ -6,6 +6,8 @@ Reviewed October 27, 2026. Five complete original-release English auto-generated
 
 Vinoo Ganesh · [Original recording](https://www.youtube.com/watch?v=dZgA6btnb_s)
 
+**Source application: Kepler financial-research assistant.** Retrieval-augmented financial answers and reports with inspectable sources and calculations.
+
 **Case context.** A retrieved filing contains 17. Without unit, scale, period, and location, it could mean millions of yen, dollars, an older reporting year, or the page number. Attaching a source after generation does not settle the financial meaning.
 
 **Mechanism.** Ganesh describes language-model planning, source retrieval, typed facts with registered anchors, predetermined human-written calculation code, and a post-processing citation filter. The filter resolves numerical claims against registered evidence and strips unsupported output. Some cases attempt citation repair, whose complete method is not disclosed. The model can still hallucinate; the architectural claim concerns what reaches the user.
@@ -28,6 +30,8 @@ Local caption: `transcripts/kepler.txt`. Acquisition method and checksum: `sourc
 
 Sam Green and Aaron Linsky · [Original recording](https://www.youtube.com/watch?v=CLve4Nx_RwI)
 
+**Source application: Bridgewater Vault.** Shared unstructured-research corpus and search platform for both human researchers and agents.
+
 **Case context.** In an October demonstration about AI investment and the Korean won, a public chat response includes older July research. Vault supplies explicitly time-scoped evidence. Later, an improved search engine still does not make researchers visit every morning. Their working routine remains email subscriptions and folders.
 
 **Mechanism.** Bridgewater distinguishes high-signal human search from broader agent retrieval. The team describes time/source/asset filtering, authorized information, a roughly 200-question manually labeled relevance set, and reported precision@10 improvements from about 60% to 90–95%. They bring familiar subscriptions into saved searches and folders into collections, then introduce cross-corpus questions, feeds, and agent work. A research workbench and returning findings to the shared corpus are further described directions.
@@ -48,6 +52,8 @@ Local caption: `transcripts/vault.txt`. Acquisition method and checksum: `source
 ## Contour Asset Management: Proving Alpha: How a Hedge Fund Measures AI’s ROI
 
 Hari Kumar · [Original recording](https://www.youtube.com/watch?v=ZMZlAn6Pyfg)
+
+**Source workflow: Contour’s AI-assisted investment research.** Analyst research and synthesis workflows, with value measurement and an emerging direction for revisiting prior ideas.
 
 **Case context.** An analyst spends a day or two on an idea. Another priority takes precedence. The idea disappears for months and a useful price window can be missed. Kumar discusses agents revisiting old notes against changing markets, rather than only generating more new ideas.
 
@@ -70,6 +76,8 @@ Local caption: `transcripts/contour.txt`. Acquisition method and checksum: `sour
 
 Aparna Dhinakaran · [Original recording](https://www.youtube.com/watch?v=ImnZ7s68jw8)
 
+**Source application: Arize Signal.** An investigation agent that reads traces, retains issue history, and proposes fixes for AI engineering teams.
+
 **Case context.** Signal provides a concrete example of the engineer’s improvement loop: traces expose recurring problems, investigations retain history, and an agent proposes changes that need evaluation. A run can end without erasing what it learned.
 
 **Mechanism.** Dhinakaran describes agent-consumable telemetry, triggers, context, temporary workspaces, scoped access, proxies, and tracing. Outputs and progress persist as temporary access and environments disappear. She emphasizes comparing evaluators with human-adjudicated examples before shipping a new evaluator.
@@ -89,6 +97,8 @@ Local caption: `transcripts/arize.txt`. Acquisition method and checksum: `source
 ## Capital One: Does Code Quality Still Matter? It Depends on This
 
 Max Kanat-Alexander · [Original recording](https://www.youtube.com/watch?v=bU5gDVyu_28)
+
+**Engineering perspective: Max’s software-quality framework.** Choosing rigor by consequences, dependencies, replacement cost, and maintenance; making that rigor easier to apply.
 
 **Case context.** Max moves from tiny changes to Chromium, then from a one-party planning tool to systems people depend on. The real question is what makes software disposable or durable. He then shifts attention to reducing the effort needed to apply rigor.
 

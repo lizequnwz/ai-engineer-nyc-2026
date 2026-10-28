@@ -198,6 +198,23 @@ function contrast(a, b) {
     assert.ok(slide.focus&&slide.application&&slide.lead);
     if(slide.source) assert.ok(sources.find(s=>s.id===slide.source).timestamps.includes(slide.timestamp));
   }
+  assert.equal(sd.querySelectorAll('.case-context').length,5);
+  assert.equal(sd.querySelectorAll('.source-context').length,content.slides.filter(s=>s.source).length);
+  for(const source of sources){
+    const context=briefs[source.id].context;
+    assert.ok(context.label&&context.name&&context.description);
+    const first=content.slides.find(s=>s.source===source.id);
+    assert.ok(sd.querySelector('#slide-'+first.id+' .case-context'));
+    for(const slide of content.slides.filter(s=>s.source===source.id)){
+      const footer=sd.querySelector('#slide-'+slide.id+' .slide-credit');
+      assert.equal(footer.querySelector('.source-talk').textContent,source.title);
+      assert.ok(footer.querySelector('.source-byline').textContent.includes(source.speaker));
+      assert.ok(footer.querySelector('.source-context').textContent.includes(context.name));
+      assert.ok(footer.querySelector('.source-context').textContent.includes(context.description));
+    }
+  }
+  assert.match(sd.querySelector('#slide-quality-spectrum .source-context').textContent,/Engineering perspective/);
+  checks.push('Five case openers introduce the application or engineering perspective; every case footer retains the talk title, presenter, and accurate product/workflow context');
   assert.equal(800000-1000000,-200000);
   assert.match(sd.querySelector('#slide-two-readers').textContent,/precision@10/);
   assert.match(sd.querySelector('#slide-two-readers').textContent,/not answer accuracy/);

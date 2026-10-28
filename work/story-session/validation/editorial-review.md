@@ -17,6 +17,14 @@ engineering briefing with details, conclusions, and explicit takeaways.
   styling were removed. There is no alternate theatrical mode.
 - The guide uses the same headlines and source bindings, with analytical speaking
   notes and focus guidance. No reveal cues remain.
+- The five case openers now introduce the users, business problem, and system
+  before the lessons. Every case footer includes the original talk title,
+  presenter, and source application/workflow description. The executive summary
+  also orients readers to what each team built or what perspective the talk adds.
+  Kepler is described as a retrieval-augmented financial-research assistant;
+  Vault as a shared research platform for people and agents; Contour as investment
+  research workflows with evolving capabilities; Signal as an investigation agent;
+  and Max’s talk as an engineering framework rather than a deployed application.
 
 ## Evidence and application review
 
@@ -61,8 +69,8 @@ engineering briefing with details, conclusions, and explicit takeaways.
 
 ## Verification boundary
 
-The current build and DOM checks pass. Main-slide content ranges from 141 to
-203 words, and the nine tested text/surface pairs all exceed 4.5:1 contrast.
+The current build and DOM checks pass. Main-slide content ranges from 160 to
+239 words, and the nine tested text/surface pairs all exceed 4.5:1 contrast.
 The timing estimate is based on the updated script and an assumed speaking rate;
 it is not an audio-timed rehearsal.
 

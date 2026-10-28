@@ -3,7 +3,7 @@
   "slides": 22,
   "presentationMinutes": 35,
   "discussionMinutes": 10,
-  "scriptWords": 4185,
+  "scriptWords": 4022,
   "slidesDetail": [
     {
       "id": "executive-summary",
@@ -13,7 +13,7 @@
     {
       "id": "three-failures",
       "minutes": 1.4,
-      "scriptWords": 204
+      "scriptWords": 171
     },
     {
       "id": "fact-address",
@@ -33,7 +33,7 @@
     {
       "id": "october",
       "minutes": 1.8,
-      "scriptWords": 222
+      "scriptWords": 170
     },
     {
       "id": "evidence-window",
@@ -58,7 +58,7 @@
     {
       "id": "parked-idea",
       "minutes": 1.8,
-      "scriptWords": 226
+      "scriptWords": 192
     },
     {
       "id": "compare-work",
@@ -78,7 +78,7 @@
     {
       "id": "next-failure",
       "minutes": 1.6,
-      "scriptWords": 210
+      "scriptWords": 170
     },
     {
       "id": "survives",
@@ -93,7 +93,7 @@
     {
       "id": "quality-spectrum",
       "minutes": 1.5,
-      "scriptWords": 163
+      "scriptWords": 159
     },
     {
       "id": "dependency",

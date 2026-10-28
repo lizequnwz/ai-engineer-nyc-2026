@@ -28,12 +28,12 @@ def process(items):
 
 EXHIBITS = {
     'executive-summary': exhibit('Five findings and their engineering implications', table(
-        ['Finding', 'Evidence from the selected case', 'Implication for our applications'], [
-        ['Ground numerical claims', 'Kepler separates planning, facts, calculation, and output verification.', 'Preserve entity, period, units, result, and derivation through narration.'],
-        ['Fit evidence and workflow', 'Vault scopes research by time and brings email habits into saved searches and collections.', 'Select eligible context and deliver preparation inside a familiar routine.'],
-        ['Assess complete-task value', 'Contour compares research workflows and includes analyst effort and repairs.', 'Measure accepted work and total effort; distinguish operational gains from causal ROI.'],
-        ['Retain improvement evidence', 'Signal uses traces, investigation history, and evaluation against human judgment.', 'Turn recurring defects into reproducible cases with reviewed expectations.'],
-        ['Make quality affordable', 'Max links rigor to consequences, dependencies, replacement, and maintenance.', 'Reuse standards and reliable checks as tools become shared dependencies.'],
+        ['Finding', 'Application or perspective and case evidence', 'Implication for our applications'], [
+        ['Ground numerical claims', 'Kepler’s financial-research assistant produces cited answers from filings and internal research, separating facts, calculation, and verification.', 'Preserve entity, period, units, result, and derivation through narration.'],
+        ['Fit evidence and workflow', 'Vault is a shared research platform for Bridgewater’s people and agents, combining eligible evidence with familiar research habits.', 'Select eligible context and deliver preparation inside a familiar routine.'],
+        ['Assess complete-task value', 'Contour applies AI to investment-research workflows, comparing the process and including analyst effort and repairs.', 'Measure accepted work and total effort; distinguish operational gains from causal ROI.'],
+        ['Retain improvement evidence', 'Arize Signal investigates agent traces and proposes fixes using issue history and evaluation against human judgment.', 'Turn recurring defects into reproducible cases with reviewed expectations.'],
+        ['Make quality affordable', 'Max’s engineering framework matches rigor to software consequences, dependencies, replacement, and maintenance.', 'Reuse standards and reliable checks as tools become shared dependencies.'],
     ], [20, 40, 40]), 'The cases have different evidence maturity. Speaker accounts and our engineering transfers are distinguished throughout.'),
 
     'three-failures': exhibit('Failure locations require different acceptance evidence', table(

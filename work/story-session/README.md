@@ -24,6 +24,10 @@ reflection. No roadmap, experiment selection, or owner assignment is required.
 
 - Conclusion-led headlines and visible engineering detail on every slide.
 - Case evidence, mechanisms, validation criteria, tradeoffs, and implications.
+- Case openers explain the users, business problem, and application before the
+  engineering lessons. Each case footer retains the full talk title and presenter
+  alongside a short description of the source application or workflow. Max’s
+  contribution is identified as an engineering perspective rather than a product.
 - Restrained white surfaces, navy typography, teal emphasis, and flat analytical
   tables/process exhibits. System fonts and no external runtime assets.
 - Main-slide content is complete when the slide appears. The theatrical opening,
@@ -31,7 +35,7 @@ reflection. No roadmap, experiment selection, or owner assignment is required.
   removed rather than retained behind a configuration switch.
 - Research accounts, our applications, and fictional examples remain distinct.
 
-The verified main-slide word counts range from 141 to 203. The full speaking
+The verified main-slide word counts range from 160 to 239. The full speaking
 notes and deeper qualifications remain available in the guide and reading edition.
 
 ## Build and verify
@@ -60,7 +64,8 @@ working copies are under `research/transcripts/` and ignored by Git. Original
 captions are preserved without silent edits. Official metadata and organizer
 readings inform corrections to names and terminology in the paraphrased analysis.
 
-`research/briefs.json` contains the five case briefs; `source-briefs.md` is its
+`research/briefs.json` contains the case briefs and application context;
+`source-briefs.md` is its
 generated readable form. Shareable HTML contains original paraphrases and links,
 not full caption copies. No audiovisual viewing or independent validation of
 company outcomes is claimed.
