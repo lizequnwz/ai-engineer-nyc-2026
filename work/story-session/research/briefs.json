@@ -1,0 +1,162 @@
+{
+  "kepler": {
+    "story": "A retrieved filing contains 17. Without unit, scale, period, and location, it could mean millions of yen, dollars, an older reporting year, or the page number. Attaching a source after generation does not settle the financial meaning.",
+    "mechanism": "Ganesh describes language-model planning, source retrieval, typed facts with registered anchors, predetermined human-written calculation code, and a post-processing citation filter. The filter resolves numerical claims against registered evidence and strips unsupported output. Some cases attempt citation repair, whose complete method is not disclosed. The model can still hallucinate; the architectural claim concerns what reaches the user.",
+    "limits": "This is Kepler’s account of its architecture. No universal correctness guarantee was independently tested. The talk reports 10,981 rejected citations and about 3,810 wrong numbers without a denominator or sufficiently specified evaluation protocol. These cannot become a comparative RAG error rate. Garbled caption counts and retrieval settings are omitted. The generalizing aside about banking/sales accuracy is not adopted.",
+    "application": "Our inference: preserve entity, metric definition, period, unit, actual query result, and derivation through final narration. A verified number does not validate the surrounding commercial interpretation. Our A17 example is invented, not a Kepler implementation or production incident.",
+    "moments": [
+      [
+        192,
+        "The ambiguous 17"
+      ],
+      [
+        242,
+        "Planning, retrieval, human-written calculation, filtering"
+      ],
+      [
+        363,
+        "Adjusted EBITDA and the context of a fact"
+      ],
+      [
+        511,
+        "Typed facts"
+      ],
+      [
+        879,
+        "Citation registry and final-output filtering"
+      ],
+      [
+        1095,
+        "The model can still hallucinate"
+      ],
+      [
+        1124,
+        "Inspect source and calculation"
+      ]
+    ]
+  },
+  "vault": {
+    "story": "In an October demonstration about AI investment and the Korean won, a public chat response includes older July research. Vault supplies explicitly time-scoped evidence. Later, an improved search engine still does not make researchers visit every morning. Their working routine remains email subscriptions and folders.",
+    "mechanism": "Bridgewater distinguishes high-signal human search from broader agent retrieval. The team describes time/source/asset filtering, authorized information, a roughly 200-question manually labeled relevance set, and reported precision@10 improvements from about 60% to 90–95%. They bring familiar subscriptions into saved searches and folders into collections, then introduce cross-corpus questions, feeds, and agent work. A research workbench and returning findings to the shared corpus are further described directions.",
+    "limits": "The Korean-won comparison is a demonstration, not a controlled accuracy study. More sources do not prove correctness. Precision@10 is document relevance among the top ten, not answer accuracy or ROI. No held-out protocol is disclosed. The habit change is the speakers’ explanation of product fit, without a measured adoption uplift. Avoid saying nobody used Vault. The title’s corpus scale does not establish retrieval quality.",
+    "application": "Our inference: current to what date, relevant to which question, and available in whose actual working routine? For meeting prep, combine temporal evidence with an entry point in the salesperson’s existing workflow. For text-to-SQL, select task-relevant semantics while preserving required definitions and joins. Our mock inbox and brief are original explanatory reconstructions.",
+    "moments": [
+      [
+        254,
+        "Korean-won evidence comparison"
+      ],
+      [
+        435,
+        "Human and agent readers"
+      ],
+      [
+        499,
+        "Labeled search benchmark and precision@10"
+      ],
+      [
+        695,
+        "The inbox and the adoption turn"
+      ],
+      [
+        845,
+        "Proactive workbench"
+      ],
+      [
+        944,
+        "Findings return to the corpus"
+      ]
+    ]
+  },
+  "contour": {
+    "story": "An analyst spends a day or two on an idea. Another priority takes precedence. The idea disappears for months and a useful price window can be missed. Kumar discusses agents revisiting old notes against changing markets, rather than only generating more new ideas.",
+    "mechanism": "Contour documents workflows with and without AI, including sources, conclusions, and time. One comparison follows a company from earnings to earnings, about three months. Kumar discusses different agent/human divisions of work around expert calls, tracks analyst time by company and eventual outcomes, and names cost per useful insight. Operating effort includes broken connectors, model-call failures, and repairs.",
+    "limits": "Kumar explicitly says P&L impact is still to come at 1:34–1:37. No alpha uplift, ROI figure, productivity percentage, or adoption rate is disclosed. Although he uses the phrase live A/B tests, the talk does not specify randomized assignment. The neglected-idea passage describes a problem and a direction they are thinking about, not a named trade with a proven return. No exact formula for cost per useful insight is supplied.",
+    "application": "Our inference: a prior client concern can become useful again before an upcoming meeting. Surface it with date and evidence, then let the rep validate relevance. Compare the complete preparation and review job, including corrections and repairs. Later sales outcomes cannot be causally assigned to assistance from chronology alone.",
+    "moments": [
+      [
+        94,
+        "P&L impact is still to come"
+      ],
+      [
+        145,
+        "With/without-AI workflow comparisons"
+      ],
+      [
+        278,
+        "Different divisions of expert-call work"
+      ],
+      [
+        455,
+        "The neglected investment idea"
+      ],
+      [
+        605,
+        "Analyst time and cost per useful insight"
+      ],
+      [
+        1000,
+        "Broken connectors and operating effort"
+      ]
+    ]
+  },
+  "arize": {
+    "story": "Signal provides a concrete example of the engineer’s improvement loop: traces expose recurring problems, investigations retain history, and an agent proposes changes that need evaluation. A run can end without erasing what it learned.",
+    "mechanism": "Dhinakaran describes agent-consumable telemetry, triggers, context, temporary workspaces, scoped access, proxies, and tracing. Outputs and progress persist as temporary access and environments disappear. She emphasizes comparing evaluators with human-adjudicated examples before shipping a new evaluator.",
+    "limits": "This is vendor-described architecture, not a measured diagnosis result, proof of autonomous-release safety, or an actual incident reconstructed here. A late self-correction indicates that multi-model support is future-facing; the presentation makes no current-capability claim about it. Persistent investigation evidence does not imply unrestricted user memory or permanent authorization.",
+    "application": "Our inference: preserve business questions, snapshots, corrected meanings, and reviewed evaluation cases when a SQL or meeting-prep failure recurs. Judge agreement itself needs examination. The wrong-scope false pass shown in the deck is invented and carries no empirical rate.",
+    "moments": [
+      [
+        153,
+        "The engineer’s improvement loop"
+      ],
+      [
+        211,
+        "Signal investigations and issue history"
+      ],
+      [
+        361,
+        "Workspace, context, proxy, tracing"
+      ],
+      [
+        431,
+        "Persistent outputs and temporary access"
+      ],
+      [
+        703,
+        "Trusting and evaluating the evaluator"
+      ]
+    ]
+  },
+  "quality": {
+    "story": "Max moves from tiny changes to Chromium, then from a one-party planning tool to systems people depend on. The real question is what makes software disposable or durable. He then shifts attention to reducing the effort needed to apply rigor.",
+    "mechanism": "Four factors determine the degree of disposability: consequences of failure, dependencies, replacement cost, and maintenance cost. He advises assuming more durability than expected. Teams can reduce exposure through isolation, limited scope, and independence, and reduce the cost of rigor with standards, checks inside the workflow, deterministic tests, and realistic shared service fakes.",
+    "limits": "This is a conceptual engineering argument, not a Capital One deployment case study or quantified productivity result. Durability is a spectrum, not a binary or a function of lifetime alone. Short-lived software can still have consequential failures. The presentation invents no numerical risk score.",
+    "application": "Our inference: a shared SQL or meeting-prep tool creates dependencies even if its initial code was easy to generate. Reusable checks and reviewed cases can lower the effort required for later changes. These are discussion connections, not an approved team backlog.",
+    "moments": [
+      [
+        169,
+        "Chromium and comprehensible changes"
+      ],
+      [
+        437,
+        "Disposable-software conditions"
+      ],
+      [
+        538,
+        "A children’s party planner"
+      ],
+      [
+        571,
+        "Four factors and assume durability"
+      ],
+      [
+        725,
+        "Reduce the cost of rigor"
+      ],
+      [
+        859,
+        "Fast deterministic tests and service fakes"
+      ]
+    ]
+  }
+}

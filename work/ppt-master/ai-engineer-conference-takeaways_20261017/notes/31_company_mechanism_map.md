@@ -1,9 +1,0 @@
-Thirty-seven later-source briefs add practitioner mechanisms to the original company research. Compare the work, the professional’s role and the evidence—not a league table of AI maturity.
-
-Compare like work with like. Direct wealth accounts now include Range’s expert skills, Arca’s event-driven work and Perpetual’s compiled plans. Apollo/Redding Ridge adds source reconciliation and QA. These stories explain operating mechanisms while preserving the professional decision and the scope of each example.
-
-Distinguish mechanism from effectiveness. A detailed architecture explains how a system is intended to operate. Production use shows operational adoption. Neither alone establishes quality, net time saved or causal business impact. Ask what baseline, task mix and human effort would support the stronger claim.
-
-Use the atlas for follow-up. The full reading-mode atlas retains 25 firm perspectives, source links and case limits. Use it to find a relevant peer pattern, then investigate the missing implementation detail or measurement. A company affiliation alone does not establish deployment of every discussed technique.
-
-The selected map connects Bridgewater, Kepler and Citadel Securities with time-scoped evidence, fact resolution and changing beliefs. Range, Arca, Perpetual and Apollo connect expert methods with handoffs, compiled plans and QA. Basis, Ramp and Vals supply behavior checks, roll-forward worlds and accepted-work evaluation. Two Sigma, Bloomberg and Credit Karma connect identity, scope, runtime controls and recoverable state. Arize, Sonar, Capital One and Monzo connect durable learning, shared verification and supported delivery. The reading edition contains thirty-seven later-source briefs; these examples are not a firm ranking.

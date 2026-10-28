@@ -4,7 +4,15 @@ Conference: October 13–14, 2026 · Package prepared: October 17, 2026 · Recor
 
 Research, attendee notes, technical learnings, presentation decks and application recommendations prepared for a Principal Data Scientist at Fidelity Investments. Audience: data scientists, AI engineers and technical leads.
 
-**Start here:** download/clone the repository and open [START-HERE.html](START-HERE.html) locally. Present the **conference-takeaways PowerPoint** or **conference learning HTML presentation**, and keep the [presenter guide](outputs/ai-engineer-nyc-2026-presenter-guide.html) on a second screen. The application-improvements deck is a separate companion.
+**Start here:** download/clone the repository and open [START-HERE.html](START-HERE.html) locally. For the new team learning session, open [Engineering reliable and useful financial AI](outputs/ai-engineer-2026-five-stories.html) and keep its [presenter guide](outputs/ai-engineer-2026-five-stories-presenter-guide.html) on a second screen. The earlier conference-wide presentation and reports remain below.
+
+## October 27: engineering briefing for our team
+
+The revised [analytical presentation](outputs/ai-engineer-2026-five-stories.html) connects Kepler’s numerical grounding, Bridgewater’s evidence and workflow design, Contour’s value measurement, Arize’s improvement loop, and Max Kanat-Alexander’s code-quality argument to text-to-SQL and institutional-sales meeting prep. Its **22 slides** use conclusion-led headlines, substantive engineering tables and diagrams, and explicit implications. All main-slide content is visible immediately. The target remains **35 minutes presenting and 10 minutes discussing**.
+
+Use arrows or Space to move between slides, Contents to jump, and Read for the complete reference edition. The [presenter guide](outputs/ai-engineer-2026-five-stories-presenter-guide.html) contains aligned notes, timing, discussion prompts, and five source briefs. Both files work offline; source links need internet access. The session opens with an executive summary and ends with consolidated takeaways and reflection.
+
+Five original-release transcripts, including Vault, were extracted and reviewed. Research and rebuild instructions live in [work/story-session](work/story-session/README.md). Content, DOM navigation, table structure, print state, source checksums, synthetic arithmetic, and static contrast pass verification. The earlier browser URL policy prevents a local-file visual preview workaround; rendered geometry and print pagination are unverified. Timing still needs presenter rehearsal. The root manifest/checksums retain the older archive snapshot.
 
 ## October 25 recording update
 

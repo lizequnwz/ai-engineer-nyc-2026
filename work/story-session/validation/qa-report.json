@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "designRevision": "engineering-readout",
+  "checks": [
+    "The 22-slide, 35+10 minute briefing opens on an executive summary; every main-slide element is visible and the reveal mechanism is removed",
+    "Buttons and keys advance directly between slides; modifier shortcuts, focused control activation, and table scrolling retain their own keyboard behavior",
+    "Contents and detail dialogs restore meaningful focus; the SQL example displays scope/value checks and resolves to the correct source and technical illustration",
+    "Both modes, chapter navigation, every slide transition, and Home/End preserve the fully visible analytical content and correct boundary state",
+    "Deck printing exposes all slides then restores the current slide; fullscreen uses the browser API and handles an unavailable command",
+    "Slide and reading deep links work; later hash changes focus the selected slide and invalid destinations normalize safely",
+    "Every slide has a conclusion, substantial visible analysis, and an engineering implication; tables have consistent cells and scoped headers; no-JavaScript reading and offline runtime independence remain complete",
+    "The updated guide matches all 22 slides, preserves 35+10 timing and reflection, opens and restores print details, and uses valid local links",
+    "All five original caption checksums and registered timestamps remain valid; retrieval/ROI limits, four quality factors, and fictional calculation scope are preserved",
+    "All nine tested text/surface pairs meet 4.5:1 contrast in the restrained white, navy, and teal design"
+  ],
+  "slides": 22,
+  "scriptWords": 4185,
+  "faceWords": [
+    {
+      "id": "executive-summary",
+      "words": 203
+    },
+    {
+      "id": "three-failures",
+      "words": 166
+    },
+    {
+      "id": "fact-address",
+      "words": 154
+    },
+    {
+      "id": "output-boundary",
+      "words": 150
+    },
+    {
+      "id": "one-row",
+      "words": 141
+    },
+    {
+      "id": "october",
+      "words": 170
+    },
+    {
+      "id": "evidence-window",
+      "words": 161
+    },
+    {
+      "id": "two-readers",
+      "words": 159
+    },
+    {
+      "id": "inbox",
+      "words": 172
+    },
+    {
+      "id": "workday",
+      "words": 191
+    },
+    {
+      "id": "parked-idea",
+      "words": 186
+    },
+    {
+      "id": "compare-work",
+      "words": 167
+    },
+    {
+      "id": "repair-cost",
+      "words": 184
+    },
+    {
+      "id": "client-concern",
+      "words": 196
+    },
+    {
+      "id": "next-failure",
+      "words": 147
+    },
+    {
+      "id": "survives",
+      "words": 159
+    },
+    {
+      "id": "grader",
+      "words": 145
+    },
+    {
+      "id": "quality-spectrum",
+      "words": 165
+    },
+    {
+      "id": "dependency",
+      "words": 166
+    },
+    {
+      "id": "cheaper-rigor",
+      "words": 167
+    },
+    {
+      "id": "two-products",
+      "words": 188
+    },
+    {
+      "id": "reflection",
+      "words": 197
+    }
+  ],
+  "contrasts": [
+    {
+      "foreground": "#17324d",
+      "background": "#ffffff",
+      "ratio": 13.13
+    },
+    {
+      "foreground": "#243747",
+      "background": "#ffffff",
+      "ratio": 12.26
+    },
+    {
+      "foreground": "#4d5f71",
+      "background": "#ffffff",
+      "ratio": 6.58
+    },
+    {
+      "foreground": "#19675c",
+      "background": "#ffffff",
+      "ratio": 6.7
+    },
+    {
+      "foreground": "#17324d",
+      "background": "#edf1f5",
+      "ratio": 11.56
+    },
+    {
+      "foreground": "#17324d",
+      "background": "#f7f9fa",
+      "ratio": 12.43
+    },
+    {
+      "foreground": "#243747",
+      "background": "#edf4f2",
+      "ratio": 10.99
+    },
+    {
+      "foreground": "#19675c",
+      "background": "#edf4f2",
+      "ratio": 6
+    },
+    {
+      "foreground": "#4d5f71",
+      "background": "#f3f6f8",
+      "ratio": 6.06
+    }
+  ],
+  "limitations": "Content, DOM interaction, source-provenance, and static CSS/contrast checks. The earlier browser URL-policy rejection prohibits a local-file preview workaround. Actual rendered geometry, projection readability, and print pagination remain unverified."
+}

@@ -1,0 +1,119 @@
+{
+  "designRevision": "engineering-readout",
+  "slides": 22,
+  "presentationMinutes": 35,
+  "discussionMinutes": 10,
+  "scriptWords": 4185,
+  "slidesDetail": [
+    {
+      "id": "executive-summary",
+      "minutes": 2,
+      "scriptWords": 192
+    },
+    {
+      "id": "three-failures",
+      "minutes": 1.4,
+      "scriptWords": 204
+    },
+    {
+      "id": "fact-address",
+      "minutes": 1.6,
+      "scriptWords": 208
+    },
+    {
+      "id": "output-boundary",
+      "minutes": 1.3,
+      "scriptWords": 154
+    },
+    {
+      "id": "one-row",
+      "minutes": 1.7,
+      "scriptWords": 222
+    },
+    {
+      "id": "october",
+      "minutes": 1.8,
+      "scriptWords": 222
+    },
+    {
+      "id": "evidence-window",
+      "minutes": 1.3,
+      "scriptWords": 150
+    },
+    {
+      "id": "two-readers",
+      "minutes": 1,
+      "scriptWords": 116
+    },
+    {
+      "id": "inbox",
+      "minutes": 1.8,
+      "scriptWords": 220
+    },
+    {
+      "id": "workday",
+      "minutes": 1.1,
+      "scriptWords": 128
+    },
+    {
+      "id": "parked-idea",
+      "minutes": 1.8,
+      "scriptWords": 226
+    },
+    {
+      "id": "compare-work",
+      "minutes": 1.6,
+      "scriptWords": 208
+    },
+    {
+      "id": "repair-cost",
+      "minutes": 1.2,
+      "scriptWords": 138
+    },
+    {
+      "id": "client-concern",
+      "minutes": 1.4,
+      "scriptWords": 171
+    },
+    {
+      "id": "next-failure",
+      "minutes": 1.6,
+      "scriptWords": 210
+    },
+    {
+      "id": "survives",
+      "minutes": 1.7,
+      "scriptWords": 213
+    },
+    {
+      "id": "grader",
+      "minutes": 1.7,
+      "scriptWords": 229
+    },
+    {
+      "id": "quality-spectrum",
+      "minutes": 1.5,
+      "scriptWords": 163
+    },
+    {
+      "id": "dependency",
+      "minutes": 1.6,
+      "scriptWords": 222
+    },
+    {
+      "id": "cheaper-rigor",
+      "minutes": 1.9,
+      "scriptWords": 244
+    },
+    {
+      "id": "two-products",
+      "minutes": 2,
+      "scriptWords": 175
+    },
+    {
+      "id": "reflection",
+      "minutes": 2,
+      "scriptWords": 170
+    }
+  ]
+}

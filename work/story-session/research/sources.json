@@ -1,0 +1,117 @@
+{
+  "reviewed": "2026-10-27",
+  "audiovisualViewingClaimed": false,
+  "sources": [
+    {
+      "id": "kepler",
+      "videoId": "dZgA6btnb_s",
+      "title": "Do Not Let Models Invent Numbers",
+      "speaker": "Vinoo Ganesh",
+      "organization": "Kepler",
+      "url": "https://www.youtube.com/watch?v=dZgA6btnb_s",
+      "officialTranscript": null,
+      "transcript": "transcripts/kepler.txt",
+      "sha256": "2e3a96e8dd5bf29d7f3f8b3fb4fcf002f56021543325ba7892c43158736ee416",
+      "captionType": "English, auto-generated",
+      "retrieved": "2026-10-27",
+      "method": "Original YouTube Show transcript, browser transcript export; complete export reviewed",
+      "timestamps": [
+        115,
+        192,
+        242,
+        363,
+        511,
+        879,
+        1095,
+        1124
+      ]
+    },
+    {
+      "id": "vault",
+      "videoId": "CLve4Nx_RwI",
+      "title": "How Bridgewater Turned 100 Million Documents Into an Edge",
+      "speaker": "Sam Green and Aaron Linsky",
+      "organization": "Bridgewater",
+      "url": "https://www.youtube.com/watch?v=CLve4Nx_RwI",
+      "officialTranscript": "https://ai.engineer/nyc/2026/talks/bridgewater",
+      "transcript": "transcripts/vault.txt",
+      "sha256": "23370d3d88faec43f484087fe70b0b27a149ab5e6ee52e105b1e2da45c062e22",
+      "captionType": "English, auto-generated",
+      "retrieved": "2026-10-27",
+      "method": "Original YouTube Show transcript, browser transcript export; complete export reviewed",
+      "timestamps": [
+        254,
+        435,
+        499,
+        695,
+        845,
+        944
+      ]
+    },
+    {
+      "id": "contour",
+      "videoId": "ZMZlAn6Pyfg",
+      "title": "Proving Alpha: How a Hedge Fund Measures AI’s ROI",
+      "speaker": "Hari Kumar",
+      "organization": "Contour Asset Management",
+      "url": "https://www.youtube.com/watch?v=ZMZlAn6Pyfg",
+      "officialTranscript": null,
+      "transcript": "transcripts/contour.txt",
+      "sha256": "1ef02bded6bc545600b6c9b430a761d4c2bce00f312b8c44f00c560d8aa156f6",
+      "captionType": "English, auto-generated",
+      "retrieved": "2026-10-27",
+      "method": "Original YouTube Show transcript, browser transcript export; complete export reviewed",
+      "timestamps": [
+        94,
+        145,
+        278,
+        455,
+        605,
+        1000
+      ]
+    },
+    {
+      "id": "arize",
+      "videoId": "ImnZ7s68jw8",
+      "title": "What Does an AI Engineer Do Now?",
+      "speaker": "Aparna Dhinakaran",
+      "organization": "Arize AI",
+      "url": "https://www.youtube.com/watch?v=ImnZ7s68jw8",
+      "officialTranscript": "https://ai.engineer/nyc/2026/talks/arize",
+      "transcript": "transcripts/arize.txt",
+      "sha256": "b22370140e6d5ee2b211c1da2b6e9e7b1dc7630a4cff07f9fb55b416b76ef450",
+      "captionType": "English, auto-generated",
+      "retrieved": "2026-10-27",
+      "method": "Original YouTube Show transcript, browser transcript export; complete export reviewed",
+      "timestamps": [
+        153,
+        211,
+        361,
+        431,
+        703
+      ]
+    },
+    {
+      "id": "quality",
+      "videoId": "bU5gDVyu_28",
+      "title": "Does Code Quality Still Matter? It Depends on This",
+      "speaker": "Max Kanat-Alexander",
+      "organization": "Capital One",
+      "url": "https://www.youtube.com/watch?v=bU5gDVyu_28",
+      "officialTranscript": "https://ai.engineer/nyc/2026/talks/capital-one",
+      "transcript": "transcripts/quality.txt",
+      "sha256": "c8eeca2ad2bbd750bcb5bb6e8ef200d14271cd5b977994dad6aabeccc9bc5a21",
+      "captionType": "English, auto-generated",
+      "retrieved": "2026-10-27",
+      "method": "Original YouTube Show transcript, browser transcript export; complete export reviewed",
+      "timestamps": [
+        169,
+        437,
+        538,
+        571,
+        725,
+        859
+      ]
+    }
+  ]
+}
